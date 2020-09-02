@@ -310,16 +310,18 @@ if __name__ == '__main__':
 	# dataloader = DataLoader(FlyingChairsDataset("../FlyingChairs2/"),
 	# batch_size=1)
 	if phase == 'first':
+		IMG_SIZE = (256, 256)
 		transform=T.Compose([
-		T.Resize((256, 256)),
+		T.Resize(IMG_SIZE),
 		T.RandomHorizontalFlip(),
 		T.ToTensor()
 		])
 		dataset=COCODataset(data_path, transform)
 		batch_size=batch_size
 	elif phase == 'second':
+		IMG_SIZE = (640, 360)
 		transform=T.Compose([
-		T.Resize((640, 360)),
+		T.Resize(IMG_SIZE),
 		T.RandomHorizontalFlip(),
 		T.ToTensor()
 		])
@@ -334,13 +336,14 @@ if __name__ == '__main__':
 	L2distancematrix=nn.MSELoss(reduction='none').to(device)
 	Vgg16=Vgg16().to(device)
 
-	# var style_name
-	# style_names = ('autoportrait', 'candy', 'composition',
-	#			   'edtaonisl', 'udnie')
-	# style_model_path = './models/weights/'
-	# Changed excessive min, max operations in next line
-	# style_img_path = os.path.join('.', 'models', 'style', style_name + '.jpg')
-	style = transform_style(Image.open(style_path))
+	transform_style = transforms.Compose([
+                transforms.Resize(IMG_SIZE),
+                transforms.ToTensor(),
+                transforms.Lambda(lambda x: x.mul(255)),
+                normalize
+                ])
+	style = Image.open(style_path)
+	style = transform_style(style)
 	# print(style.size())
 	style = style.unsqueeze(0).expand(1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device)
 	style = normalize(style)

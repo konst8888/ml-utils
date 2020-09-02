@@ -33,12 +33,6 @@ def normalizeVGG16(img):
 
 normalize = transforms.Lambda(lambda x: normalizeVGG16(x))
 
-transform_style = transforms.Compose([
-                transforms.Resize(IMG_SIZE),
-                transforms.ToTensor(),
-                transforms.Lambda(lambda x: x.mul(255)),
-                normalize
-                ])
 transform2 = transforms.Compose([
                 transforms.Resize(IMG_SIZE),
                 transforms.ToTensor(),
