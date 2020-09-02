@@ -35,7 +35,7 @@ class TestMPIDataset(ImageFolder):
 				imgs.append(Image.open('/home/konstantinlipkin/Anaconda_files/data_test/some_class/' + filename))
 		samples = [random.choice(imgs) for _ in range(4)]
 		img1, img2, mask, flow = [self.transform(img) for img in imgs][:4]
-		return (img1, img2, mask[0:1, ...], flow)
+		return (img1, img2, mask[0:1, ...], flow[0:2, ...])
 
 class MPIDataset(Dataset):
 

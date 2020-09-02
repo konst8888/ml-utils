@@ -26,7 +26,7 @@ from network import *
 from totaldata import *
 
 
-def train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,
+def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
 			STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device):
 	for epoch in range(epochs):
 		running_content_loss = 0
@@ -36,7 +36,7 @@ def train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix
 		for idx, (img2, _) in pbar:
 			img2 = img2.to(device)
 			optimizer.zero_grad()
-			if (idx + 1) % 500 == 0:
+			if (idx + 1) % 8e4 == 0: #500
 				for param in optimizer.param_groups:
 					param['lr']=max(param['lr'] / 1.2, 1e-4)
 
@@ -110,7 +110,7 @@ def train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix
 
 
 def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM, \
-			STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path):
+			STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path, device):
 	for epoch in range(epochs):
 		running_content_loss=0
 		running_style_loss=0
@@ -119,9 +119,13 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 		running_ot_loss=0
 		pbar=tqdm.tqdm(enumerate(dataloader), total=len(dataloader))
 		for idx, (img1, img2, mask, flow) in pbar:
+			img1 = img1.to(device)
+			img2 = img2.to(device)
+			mask = mask.to(device)
+			flow = flow.to(device)
 			flow=-flow
 			optimizer.zero_grad()
-			if (idx + 1) % 500 == 0:
+			if (idx + 1) % 8e4 == 0: #500
 				for param in optimizer.param_groups:
 					param['lr']=max(param['lr'] / 1.2, 1e-4)
 
@@ -144,7 +148,7 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 			feature_mask=nn.functional.interpolate(
 				mask.view(1, 1, 640, 360), size=feature_map1.shape[2:], mode='bilinear')
 			# print(feature_map1.size(), feature_flow.size())
-			warped_fmap=warp(feature_map1, feature_flow)
+			warped_fmap=warp(feature_map1, feature_flow, device)
 
 			# #Changed by KJ to multiply with feature mask
 			# # print(L2distancematrix(feature_map2, warped_fmap).size()) #Should be a matrix not number
@@ -157,8 +161,8 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 
 			# # print(styled_img1.size(), flow.size())
 			# # Removed unsqueeze methods in both styled_img1,flow in next line since already 4 dimensional
-			warped_style=warp(styled_img1, flow)
-			warped_image=warp(img1, flow)
+			warped_style=warp(styled_img1, flow, device)
+			warped_image=warp(img1, flow, device)
 
 			# print(img2.size())
 			output_term=styled_img2[0] - warped_style[0]
@@ -249,58 +253,33 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 if __name__ == '__main__':
 	#python3 train.py --data_path /home/konstantinlipkin/Anaconda_files/data_test --style_path /home/konstantinlipkin/Anaconda_files/data_path/some_class/image.jpg --phase 'first'
 	parser=argparse.ArgumentParser()
-	parser.add_argument(
-    "--data_path",
-    default="./data",
-     help="Path to data root dir")
+	parser.add_argument("--data_path", default="./data", help="Path to data root dir")
 	parser.add_argument("--style_path", help="Path to style image")
-	parser.add_argument(
-    "--checkpoint_path",
-    type=str,
-     help="Checkpoints save path")
+	parser.add_argument("--checkpoint_path", type=str, help="Checkpoints save path")
+	parser.add_argument("--model_path", default=False, action='store_true', help="Load existing model path")
 	parser.add_argument("--batch_size", default=1, help="Batch size")
-	parser.add_argument(
-    "--phase",
-    type=str,
-     help="Phase of training, required: {'first', 'second'} ")
-	parser.add_argument(
-    "--alpha",
-    type=float,
-    default=1e4,
-     help="Weight of content loss")
-	parser.add_argument(
-    "--beta",
-    type=float,
-    default=1e5,
-     help="Weight of style loss")
-	parser.add_argument(
-    "--gamma",
-    type=float,
-    default=1e-5,
-     help="Weight of style loss")
-	parser.add_argument("--lambda-f", type=float, default=1e5,
-	                    help="Weight of feature temporal loss")
-	parser.add_argument("--lambda-o", type=float, default=2e5,
-	                    help="Weight of output temporal loss")
+	parser.add_argument("--phase", type=str, help="Phase of training, required: {'first', 'second'} ")
+	parser.add_argument("--alpha", type=float, default=1e4, help="Weight of content loss")
+	parser.add_argument("--beta", type=float, default=1e5, help="Weight of style loss")
+	parser.add_argument("--gamma", type=float, default=1e-5, help="Weight of style loss")
+	parser.add_argument("--lambda-f", type=float, default=1e5, help="Weight of feature temporal loss")
+	parser.add_argument("--lambda-o", type=float, default=2e5, help="Weight of output temporal loss")
 	parser.add_argument("--epochs", type=int, default=2, help="Number of epochs")
 	parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate")
-	parser.add_argument(
-    "--frn",
-    default=True,
-    action='store_true',
-     help="Use Filter Response Normalization and TLU")
+	parser.add_argument("--frn", default=True, action='store_true', help="Use Filter Response Normalization and TLU")
      
 
 	args = parser.parse_args()
-	alpha=1e13  # previously 12, 2e10 // 1e4
-	beta=1e10  # 1e6 #11, // 1e5
-	gamma=3e-2  # previously -3 // 1e-5
-	lambda_o=1e6  # // 2e5
-	lambda_f=1e4  # // e5
+	alpha=1e4  # previously 12, 2e10 // 1e4
+	beta=1e5  # 1e6 #11, // 1e5
+	gamma=1e-5  # previously -3 // 1e-5
+	lambda_o=2e5  # // 2e5
+	lambda_f=1e5  # // 1e5
 
 	data_path=args.data_path
 	style_path=args.style_path
 	checkpoint_path = args.checkpoint_path
+	model_path = args.model_path
 	batch_size=args.batch_size
 	phase=args.phase
 	epochs=args.epochs
@@ -329,8 +308,10 @@ if __name__ == '__main__':
 		dataset=TestMPIDataset(data_path, transform) # MPIDataset
 		batch_size=1
 
-	dataloader=DataLoader(dataset, batch_size=batch_size)
+	dataloader=DataLoader(dataset, batch_size=batch_size, shuffle=True)
 	model=ReCoNetMobile(frn=frn).to(device)
+	if model_path:
+		model.load_state_dict(torch.load(model_path, map_location=device))
 
 	optimizer=optim.Adam(model.parameters(), lr=lr)
 	L2distance=nn.MSELoss().to(device)
@@ -347,8 +328,9 @@ if __name__ == '__main__':
 	style = transform_style(style)
 	# print(style.size())
 	style = style.unsqueeze(0).expand(1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device)
-	style = normalize(style)
-
+	#style = normalize(style)
+	print(style)
+	
 	for param in Vgg16.parameters():
 		param.requires_grad=False
 
@@ -362,8 +344,8 @@ if __name__ == '__main__':
 	# print(len(style_GM))
 
 	if phase == 'first':
-		train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,\
+		train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,\
 		STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device)
 	if phase == 'second':
 		train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,\
-		STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path)
+		STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path, device)

@@ -48,7 +48,7 @@ def gram_matrix(input):
     G = torch.mm(features, features.t())
     return G.div(a * b * c * d)
 
-def warp(x, flo):
+def warp(x, flo, device):
     """
     warp an image/tensor (im2) back to im1, according to the optical flow
     x: [B, C, H, W] (im2)
@@ -64,8 +64,7 @@ def warp(x, flo):
 
     if x.is_cuda:
         grid = grid.cuda()
-    print(grid.shape)
-    print(flo.shape)
+        
     vgrid = Variable(grid) + flo
 
     # scale grid to [-1,1] 
@@ -74,7 +73,7 @@ def warp(x, flo):
 
     vgrid = vgrid.permute(0,2,3,1)        
     output = nn.functional.grid_sample(x, vgrid)
-    mask = torch.autograd.Variable(torch.ones(x.size())).cuda()
+    mask = torch.autograd.Variable(torch.ones(x.size())).to(device)
     mask = nn.functional.grid_sample(mask, vgrid)
 
     # if W==128:
