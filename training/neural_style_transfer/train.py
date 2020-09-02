@@ -256,7 +256,7 @@ if __name__ == '__main__':
 	parser.add_argument("--data_path", default="./data", help="Path to data root dir")
 	parser.add_argument("--style_path", help="Path to style image")
 	parser.add_argument("--checkpoint_path", type=str, help="Checkpoints save path")
-	parser.add_argument("--model_path", default='', action='store_true', help="Load existing model path")
+	parser.add_argument("--model_path", default='', help="Load existing model path")
 	parser.add_argument("--batch_size", default=1, help="Batch size")
 	parser.add_argument("--phase", type=str, help="Phase of training, required: {'first', 'second'} ")
 	parser.add_argument("--alpha", type=float, default=1e4, help="Weight of content loss")
