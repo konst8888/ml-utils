@@ -27,13 +27,14 @@ from totaldata import *
 
 
 def train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,
-			STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path):
+			STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device):
 	for epoch in range(epochs):
 		running_content_loss = 0
 		running_style_loss = 0
 		running_reg_loss = 0
 		pbar = tqdm.tqdm(enumerate(dataloader), total=len(dataloader))
 		for idx, (img2, _) in pbar:
+			img2 = img2.to(device)
 			optimizer.zero_grad()
 			if (idx + 1) % 500 == 0:
 				for param in optimizer.param_groups:
@@ -362,7 +363,7 @@ if __name__ == '__main__':
 
 	if phase == 'first':
 		train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,\
-		STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path)
+		STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device)
 	if phase == 'second':
 		train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,\
 		STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path)
