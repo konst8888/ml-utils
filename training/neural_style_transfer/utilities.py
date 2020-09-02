@@ -70,6 +70,8 @@ def warp(x, flo):
 
     if x.is_cuda:
         grid = grid.cuda()
+    print(grid.shape)
+    print(flo.shape)
     vgrid = Variable(grid) + flo
 
     # scale grid to [-1,1] 

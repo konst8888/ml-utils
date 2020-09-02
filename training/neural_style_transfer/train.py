@@ -27,7 +27,7 @@ from totaldata import *
 
 
 def train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,
-			STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase):
+			STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path):
 	for epoch in range(epochs):
 		running_content_loss = 0
 		running_style_loss = 0
@@ -61,8 +61,9 @@ def train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix
 				# print(styled_features1[i].size())
 				gram_img2=gram_matrix(styled_features2[i])
 				# print(gram_img1.size(), gram_s.size())
-				style_loss += float(weight) * L2distance(gram_img1, gram_s.expand(
-					gram_img1.size()))
+				#!!! below was gram_img1
+				style_loss += float(weight) * L2distance(gram_img2, gram_s.expand(
+					gram_img2.size()))
 			style_loss *= beta
 
 			reg_loss=0
@@ -88,8 +89,9 @@ def train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix
 			running_style_loss += style_loss.item() * count
 			running_reg_loss += reg_loss.item() * count
 			pbar.set_description(
-			        "Epoch: {} Losses -> Content: {:.4f} Style: {:.4f} Reg: {:.4f} Feature: {:.4f} Output: {:.4f}".format(
+			        "Epoch: {}/{} Losses -> Content: {:.4f} Style: {:.4f} Reg: {:.4f}".format(
 			            epoch,
+			            epochs,
 			            running_content_loss * scale_value,
 			            running_style_loss * scale_value,
 			            running_reg_loss * scale_value
@@ -100,14 +102,14 @@ def train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix
 			# style_loss, content_loss , f_temporal_loss, o_temporal_loss, reg_loss))
 		torch.save(
     model.state_dict(),
-    'reconet_phase_{}_epoch_{}_loss_{:.4f}'.format(
+    os.path.join(checkpoint_path, 'reconet_phase_{}_epoch_{}_loss_{:.4f}.pth'.format(
         phase,
         epoch,
-         loss))
+         loss)))
 
 
 def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM, \
-			STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase):
+			STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path):
 	for epoch in range(epochs):
 		running_content_loss=0
 		running_style_loss=0
@@ -222,8 +224,9 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 			running_ft_loss += f_temporal_loss.item() * count
 			running_ot_loss += o_temporal_loss.item() * count
 			pbar.set_description(
-			        "Epoch: {} Losses -> Content: {:.4f} Style: {:.4f} Reg: {:.4f} Feature: {:.4f} Output: {:.4f}".format(
+			        "Epoch: {}/{} Losses -> Content: {:.4f} Style: {:.4f} Reg: {:.4f} Feature: {:.4f} Output: {:.4f}".format(
 			            epoch,
+			            epochs,
 			            running_content_loss * scale_value,
 			            running_style_loss * scale_value,
 			            running_reg_loss * scale_value,
@@ -236,20 +239,24 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 			# style_loss, content_loss , f_temporal_loss, o_temporal_loss, reg_loss))
 		torch.save(
     model.state_dict(),
-    'reconet_phase_{}_epoch_{}_loss_{:.4f}'.format(
+    os.path.join(checkpoint_path, 'reconet_phase_{}_epoch_{}_loss_{:.4f}.pth'.format(
         phase,
         epoch,
-         loss))
+         loss)))
 
 
 if __name__ == '__main__':
-
+	#python3 train.py --data_path /home/konstantinlipkin/Anaconda_files/data_test --style_path /home/konstantinlipkin/Anaconda_files/data_path/some_class/image.jpg --phase 'first'
 	parser=argparse.ArgumentParser()
 	parser.add_argument(
     "--data_path",
     default="./data",
      help="Path to data root dir")
 	parser.add_argument("--style_path", help="Path to style image")
+	parser.add_argument(
+    "--checkpoint_path",
+    type=str,
+     help="Checkpoints save path")
 	parser.add_argument("--batch_size", default=1, help="Batch size")
 	parser.add_argument(
     "--phase",
@@ -292,6 +299,7 @@ if __name__ == '__main__':
 
 	data_path=args.data_path
 	style_path=args.style_path
+	checkpoint_path = args.checkpoint_path
 	batch_size=args.batch_size
 	phase=args.phase
 	epochs=args.epochs
@@ -303,7 +311,7 @@ if __name__ == '__main__':
 	# batch_size=1)
 	if phase == 'first':
 		transform=T.Compose([
-		T.Resize(256, 256),
+		T.Resize((256, 256)),
 		T.RandomHorizontalFlip(),
 		T.ToTensor()
 		])
@@ -311,11 +319,11 @@ if __name__ == '__main__':
 		batch_size=batch_size
 	elif phase == 'second':
 		transform=T.Compose([
-		T.Resize(640, 360),
+		T.Resize((640, 360)),
 		T.RandomHorizontalFlip(),
 		T.ToTensor()
 		])
-		dataset=MPIDataset(data_path, transform)
+		dataset=TestMPIDataset(data_path, transform) # MPIDataset
 		batch_size=1
 
 	dataloader=DataLoader(dataset, batch_size=batch_size)
@@ -332,9 +340,10 @@ if __name__ == '__main__':
 	# style_model_path = './models/weights/'
 	# Changed excessive min, max operations in next line
 	# style_img_path = os.path.join('.', 'models', 'style', style_name + '.jpg')
-	style=transform_style(Image.open(style_path))
+	style = transform_style(Image.open(style_path))
 	# print(style.size())
-	style=style.unsqueeze(0).expand(1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device)
+	style = style.unsqueeze(0).expand(1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device)
+	style = normalize(style)
 
 	for param in Vgg16.parameters():
 		param.requires_grad=False
@@ -343,14 +352,14 @@ if __name__ == '__main__':
 	STYLE_WEIGHTS=[1e-1, 1e0, 1e1, 5e0]
 	# STYLE_WEIGHTS = [1.0] * 4 in another implementation
 	# print(style.size())
-	styled_featuresR=Vgg16(normalize(style))
+	styled_featuresR=Vgg16(style)
 	# print(styled_featuresR[1].size())
 	style_GM=[gram_matrix(f) for f in styled_featuresR]
 	# print(len(style_GM))
 
 	if phase == 'first':
 		train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,\
-		STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase)
+		STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path)
 	if phase == 'second':
 		train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,\
-		STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase)
+		STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path)

@@ -8,6 +8,7 @@ import PIL
 from PIL import Image
 from flowlib import read
 from skimage import io, transform
+import random
 
 device='cuda'
 
@@ -24,6 +25,17 @@ def toString7(num):
 	return stringx
 	
 class COCODataset(ImageFolder): pass
+
+class TestMPIDataset(ImageFolder):
+	
+	def __getitem__(self, idx):
+		imgs = []
+		for dirpath, dirnames, filenames in os.walk('/home/konstantinlipkin/Anaconda_files/data_test/some_class'):
+			for filename in filenames:
+				imgs.append(Image.open('/home/konstantinlipkin/Anaconda_files/data_test/some_class/' + filename))
+		samples = [random.choice(imgs) for _ in range(4)]
+		img1, img2, mask, flow = [self.transform(img) for img in imgs][:4]
+		return (img1, img2, mask[0:1, ...], flow)
 
 class MPIDataset(Dataset):
 
