@@ -130,5 +130,6 @@ class ReCoNetMobile(nn.Module):
 
     def forward(self, x):
         x = self.encoder(x)
+        features = x
         x = self.decoder(x)
-        return x
+        return (features, x)

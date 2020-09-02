@@ -1,241 +1,356 @@
-import argparse
-import os
-from datetime import datetime
+"""
+Chaanges by Kushagra :- commented 53 line,
+Does the style tensor have batch size =2??? Or is that a mistake?
+"""
 
 import torch
-import torch.utils.data
-import torchvision
-from torchvision import transforms
+import torch.functional as F
+import torch.nn as nn
+import torch.nn.parallel
+import torch.backends.cudnn as cudnn
+import torch.optim as optim
+from torch.utils.data import DataLoader
+import torchvision.datasets as dset
+import torchvision.transforms as T
+import torchvision.utils as vutils
+from torch.autograd import Variable
+import matplotlib.pyplot as plt
+import flowlib
 from PIL import Image
-from torch.utils.tensorboard import SummaryWriter
+import tqdm
+import argparse
 
-from model import ReCoNet
-from dataset import MonkaaDataset, FlyingThings3DDataset
-import custom_transforms
-from vgg import Vgg16
-from utils import \
-    warp_optical_flow, \
-    rgb_to_luminance, \
-    l2_squared, \
-    tensors_sum, \
-    resize_optical_flow, \
-    occlusion_mask_from_flow, \
-    gram_matrix, \
-    preprocess_for_reconet, \
-    preprocess_for_vgg, \
-    postprocess_reconet, \
-    RunningLossesContainer, \
-    Dummy
+from model import ReCoNetMobile
+from utilities import *
+from network import *
+from totaldata import *
 
 
-def output_temporal_loss(
-        input_frame,
-        previous_input_frame,
-        output_frame,
-        previous_output_frame,
-        reverse_optical_flow,
-        occlusion_mask):
-    input_diff = input_frame - warp_optical_flow(previous_input_frame, reverse_optical_flow)
-    output_diff = output_frame - warp_optical_flow(previous_output_frame, reverse_optical_flow)
-    luminance_input_diff = rgb_to_luminance(input_diff).unsqueeze_(1)
+def train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,
+			STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase):
+	for epoch in range(epochs):
+		running_content_loss = 0
+		running_style_loss = 0
+		running_reg_loss = 0
+		pbar = tqdm.tqdm(enumerate(dataloader), total=len(dataloader))
+		for idx, (img2, _) in pbar:
+			optimizer.zero_grad()
+			if (idx + 1) % 500 == 0:
+				for param in optimizer.param_groups:
+					param['lr']=max(param['lr'] / 1.2, 1e-4)
 
-    n, c, h, w = input_frame.shape
-    loss = l2_squared(occlusion_mask * (output_diff - luminance_input_diff)) / (h * w)
-    return loss
+			feature_map2, styled_img2=model(img2)
+			styled_img2=normalize(styled_img2)
+			img2=normalize(img2)
+
+			styled_features2=Vgg16(styled_img2)
+			img_features2=Vgg16(img2)
+
+			content_loss=0
+			content_loss += L2distance(styled_features2[2],
+     img_features2[2].expand(styled_features2[2].size()))
+			# was styled_features1 below  !!!
+			content_loss *= alpha / \
+			    (styled_features2[2].shape[1] *
+    styled_features2[2].shape[2] *
+     styled_features2[2].shape[3])
+
+			style_loss=0
+			for i, weight in enumerate(STYLE_WEIGHTS):
+				gram_s=style_GM[i]
+				# print(styled_features1[i].size())
+				gram_img2=gram_matrix(styled_features2[i])
+				# print(gram_img1.size(), gram_s.size())
+				style_loss += float(weight) * L2distance(gram_img1, gram_s.expand(
+					gram_img1.size()))
+			style_loss *= beta
+
+			reg_loss=0
+			reg_loss += gamma * \
+				 (torch.sum(torch.abs(styled_img2[:, :, :, :-1] - styled_img2[:, :, :, 1:])) +
+				 torch.sum(torch.abs(styled_img2[:, :, :-1, :] - styled_img2[:, :, 1:, :])))
+
+			# print(f_temporal_loss.size(), o_temporal_loss.size(),
+			# content_loss.size(), style_loss.size(), reg_loss.size())
+			loss=content_loss + style_loss + reg_loss
+			# loss = content_loss + style_loss
+			loss.backward()
+			optimizer.step()
+			#
+			#
+			# if (idx+1)%1000 ==0 :
+			# torch.save(model.state_dict(), '%s/final_reconet_epoch_%d_idx_%d.pth' %
+			# ("runs/output", epoch, idx//1000))
+
+			scale_value=1 / batch_size / max(idx, 1)
+			count=img2.shape[0]
+			running_content_loss += content_loss.item() * count
+			running_style_loss += style_loss.item() * count
+			running_reg_loss += reg_loss.item() * count
+			pbar.set_description(
+			        "Epoch: {} Losses -> Content: {:.4f} Style: {:.4f} Reg: {:.4f} Feature: {:.4f} Output: {:.4f}".format(
+			            epoch,
+			            running_content_loss * scale_value,
+			            running_style_loss * scale_value,
+			            running_reg_loss * scale_value
+			        )
+			    )
+			# print('[%d/%d][%d/%d] SL: %.4f CL: %.4f FTL: %.4f OTL: %.4f RL: %.4f'
+			#				% (epoch, epochs, idx, len(dataloader),
+			# style_loss, content_loss , f_temporal_loss, o_temporal_loss, reg_loss))
+		torch.save(
+    model.state_dict(),
+    'reconet_phase_{}_epoch_{}_loss_{:.4f}'.format(
+        phase,
+        epoch,
+         loss))
 
 
-def feature_temporal_loss(
-        feature_maps,
-        previous_feature_maps,
-        reverse_optical_flow,
-        occlusion_mask):
-    n, c, h, w = feature_maps.shape
+def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM, \
+			STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase):
+	for epoch in range(epochs):
+		running_content_loss=0
+		running_style_loss=0
+		running_reg_loss=0
+		running_ft_loss=0
+		running_ot_loss=0
+		pbar=tqdm.tqdm(enumerate(dataloader), total=len(dataloader))
+		for idx, (img1, img2, mask, flow) in pbar:
+			flow=-flow
+			optimizer.zero_grad()
+			if (idx + 1) % 500 == 0:
+				for param in optimizer.param_groups:
+					param['lr']=max(param['lr'] / 1.2, 1e-4)
 
-    reverse_optical_flow_resized = resize_optical_flow(reverse_optical_flow, h, w)
-    occlusion_mask_resized = torch.nn.functional.interpolate(occlusion_mask, size=(h, w), mode='nearest')
+			feature_map1, styled_img1=model(img1)
+			feature_map2, styled_img2=model(img2)
+			styled_img1=normalize(styled_img1)
+			styled_img2=normalize(styled_img2)
+			img1, img2=normalize(img1), normalize(img2)
 
-    feature_maps_diff = feature_maps - warp_optical_flow(previous_feature_maps, reverse_optical_flow_resized)
-    loss = l2_squared(occlusion_mask_resized * feature_maps_diff) / (c * h * w)
+			styled_features1=Vgg16(styled_img1)
+			styled_features2=Vgg16(styled_img2)
+			img_features1=Vgg16(img1)
+			img_features2=Vgg16(img2)
 
-    return loss
+			feature_flow=nn.functional.interpolate(
+				flow, size=feature_map1.shape[2:], mode='bilinear')
+			feature_flow[0, 0, :, :] *= float(feature_map1.shape[2]) / flow.shape[2]
+			feature_flow[0, 1, :, :] *= float(feature_map1.shape[3]) / flow.shape[3]
+			# print(flow.size(), feature_map1.shape[2:],feature_flow.size())
+			feature_mask=nn.functional.interpolate(
+				mask.view(1, 1, 640, 360), size=feature_map1.shape[2:], mode='bilinear')
+			# print(feature_map1.size(), feature_flow.size())
+			warped_fmap=warp(feature_map1, feature_flow)
+
+			# #Changed by KJ to multiply with feature mask
+			# # print(L2distancematrix(feature_map2, warped_fmap).size()) #Should be a matrix not number
+			# # mean replaced sum
+			f_temporal_loss=torch.sum(feature_mask *
+     (L2distancematrix(feature_map2, warped_fmap)))
+			f_temporal_loss *= lambda_f
+			f_temporal_loss *= 1 / \
+			    (feature_map2.shape[1] * feature_map2.shape[2] * feature_map2.shape[3])
+
+			# # print(styled_img1.size(), flow.size())
+			# # Removed unsqueeze methods in both styled_img1,flow in next line since already 4 dimensional
+			warped_style=warp(styled_img1, flow)
+			warped_image=warp(img1, flow)
+
+			# print(img2.size())
+			output_term=styled_img2[0] - warped_style[0]
+			# print(output_term.shape, styled_img2.shape, warped_style.shape)
+			input_term=img2[0] - warped_image[0]
+			# print(input_term.size())
+			# Changed the next few lines since dimension is 4 instead of 3 with batch
+			# size=1
+			input_term=0.2126 * input_term[0, :, :] + 0.7152 * \
+				input_term[1, :, :] + 0.0722 * input_term[2, :, :]
+			input_term=input_term.expand(output_term.size())
+
+			o_temporal_loss=torch.sum(
+			    mask * (L2distancematrix(output_term, input_term)))
+			o_temporal_loss *= lambda_o
+			o_temporal_loss *= 1 / (img1.shape[2] * img1.shape[3])
+
+			content_loss=0
+			content_loss += L2distance(styled_features1[2],
+     img_features1[2].expand(styled_features1[2].size()))
+			content_loss += L2distance(styled_features2[2],
+     img_features2[2].expand(styled_features2[2].size()))
+			content_loss *= alpha / \
+			    (styled_features1[2].shape[1] *
+    styled_features1[2].shape[2] *
+     styled_features1[2].shape[3])
+
+			style_loss=0
+			for i, weight in enumerate(STYLE_WEIGHTS):
+				gram_s=style_GM[i]
+				# print(styled_features1[i].size())
+				gram_img1=gram_matrix(styled_features1[i])
+				gram_img2=gram_matrix(styled_features2[i])
+				# print(gram_img1.size(), gram_s.size())
+				style_loss += float(weight) * (L2distance(gram_img1, gram_s.expand(
+					gram_img1.size())) + L2distance(gram_img2, gram_s.expand(gram_img2.size())))
+			style_loss *= beta
+
+			reg_loss=gamma * \
+				(torch.sum(torch.abs(styled_img1[:, :, :, :-1] - styled_img1[:, :, :, 1:])) +
+				 torch.sum(torch.abs(styled_img1[:, :, :-1, :] - styled_img1[:, :, 1:, :])))
+
+			reg_loss += gamma * \
+				 (torch.sum(torch.abs(styled_img2[:, :, :, :-1] - styled_img2[:, :, :, 1:])) +
+				 torch.sum(torch.abs(styled_img2[:, :, :-1, :] - styled_img2[:, :, 1:, :])))
+
+			# print(f_temporal_loss.size(), o_temporal_loss.size(),
+			# content_loss.size(), style_loss.size(), reg_loss.size())
+			loss=f_temporal_loss + o_temporal_loss + content_loss + style_loss + reg_loss
+			# loss = content_loss + style_loss
+			loss.backward()
+			optimizer.step()
+			#
+			#
+			# if (idx+1)%1000 ==0 :
+			# torch.save(model.state_dict(), '%s/final_reconet_epoch_%d_idx_%d.pth' %
+			# ("runs/output", epoch, idx//1000))
+
+			scale_value=1 / batch_size / max(idx, 1)
+			count=img2.shape[0]
+			running_content_loss += content_loss.item() * count
+			running_style_loss += style_loss.item() * count
+			running_reg_loss += reg_loss.item() * count
+			running_ft_loss += f_temporal_loss.item() * count
+			running_ot_loss += o_temporal_loss.item() * count
+			pbar.set_description(
+			        "Epoch: {} Losses -> Content: {:.4f} Style: {:.4f} Reg: {:.4f} Feature: {:.4f} Output: {:.4f}".format(
+			            epoch,
+			            running_content_loss * scale_value,
+			            running_style_loss * scale_value,
+			            running_reg_loss * scale_value,
+			            running_ft_loss * scale_value,
+			            running_ot_loss * scale_value
+			        )
+			    )
+			# print('[%d/%d][%d/%d] SL: %.4f CL: %.4f FTL: %.4f OTL: %.4f RL: %.4f'
+			#				% (epoch, epochs, idx, len(dataloader),
+			# style_loss, content_loss , f_temporal_loss, o_temporal_loss, reg_loss))
+		torch.save(
+    model.state_dict(),
+    'reconet_phase_{}_epoch_{}_loss_{:.4f}'.format(
+        phase,
+        epoch,
+         loss))
 
 
-def content_loss(
-        content_feature_maps,
-        style_feature_maps):
-    n, c, h, w = content_feature_maps.shape
+if __name__ == '__main__':
 
-    return l2_squared(content_feature_maps - style_feature_maps) / (c * h * w)
+	parser=argparse.ArgumentParser()
+	parser.add_argument(
+    "--data_path",
+    default="./data",
+     help="Path to data root dir")
+	parser.add_argument("--style_path", help="Path to style image")
+	parser.add_argument("--batch_size", default=1, help="Batch size")
+	parser.add_argument(
+    "--phase",
+    type=str,
+     help="Phase of training, required: {'first', 'second'} ")
+	parser.add_argument(
+    "--alpha",
+    type=float,
+    default=1e4,
+     help="Weight of content loss")
+	parser.add_argument(
+    "--beta",
+    type=float,
+    default=1e5,
+     help="Weight of style loss")
+	parser.add_argument(
+    "--gamma",
+    type=float,
+    default=1e-5,
+     help="Weight of style loss")
+	parser.add_argument("--lambda-f", type=float, default=1e5,
+	                    help="Weight of feature temporal loss")
+	parser.add_argument("--lambda-o", type=float, default=2e5,
+	                    help="Weight of output temporal loss")
+	parser.add_argument("--epochs", type=int, default=2, help="Number of epochs")
+	parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate")
+	parser.add_argument(
+    "--frn",
+    default=True,
+    action='store_true',
+     help="Use Filter Response Normalization and TLU")
+     
 
+	args = parser.parse_args()
+	alpha=1e13  # previously 12, 2e10 // 1e4
+	beta=1e10  # 1e6 #11, // 1e5
+	gamma=3e-2  # previously -3 // 1e-5
+	lambda_o=1e6  # // 2e5
+	lambda_f=1e4  # // e5
 
-def style_loss(
-        content_feature_maps,
-        style_gram_matrices):
-    loss = 0
-    for content_fm, style_gm in zip(content_feature_maps, style_gram_matrices):
-        loss += l2_squared(gram_matrix(content_fm) - style_gm)
-    return loss
+	data_path=args.data_path
+	style_path=args.style_path
+	batch_size=args.batch_size
+	phase=args.phase
+	epochs=args.epochs
+	lr=args.lr
+	frn=args.frn
+	device='cuda' if torch.cuda.is_available() else 'cpu'
 
+	# dataloader = DataLoader(FlyingChairsDataset("../FlyingChairs2/"),
+	# batch_size=1)
+	if phase == 'first':
+		transform=T.Compose([
+		T.Resize(256, 256),
+		T.RandomHorizontalFlip(),
+		T.ToTensor()
+		])
+		dataset=COCODataset(data_path, transform)
+		batch_size=batch_size
+	elif phase == 'second':
+		transform=T.Compose([
+		T.Resize(640, 360),
+		T.RandomHorizontalFlip(),
+		T.ToTensor()
+		])
+		dataset=MPIDataset(data_path, transform)
+		batch_size=1
 
-def total_variation(y):
-    return torch.sum(torch.abs(y[:, :, :, :-1] - y[:, :, :, 1:])) + \
-           torch.sum(torch.abs(y[:, :, :-1, :] - y[:, :, 1:, :]))
+	dataloader=DataLoader(dataset, batch_size=batch_size)
+	model=ReCoNetMobile(frn=frn).to(device)
 
+	optimizer=optim.Adam(model.parameters(), lr=lr)
+	L2distance=nn.MSELoss().to(device)
+	L2distancematrix=nn.MSELoss(reduction='none').to(device)
+	Vgg16=Vgg16().to(device)
 
-def stylize_image(image, model):
-    if isinstance(image, Image.Image):
-        image = transforms.ToTensor()(image)
-    image = image.cuda().unsqueeze_(0)
-    image = preprocess_for_reconet(image)
-    styled_image = model(image).squeeze()
-    styled_image = postprocess_reconet(styled_image)
-    return styled_image
+	# var style_name
+	# style_names = ('autoportrait', 'candy', 'composition',
+	#			   'edtaonisl', 'udnie')
+	# style_model_path = './models/weights/'
+	# Changed excessive min, max operations in next line
+	# style_img_path = os.path.join('.', 'models', 'style', style_name + '.jpg')
+	style=transform_style(Image.open(style_path))
+	# print(style.size())
+	style=style.unsqueeze(0).expand(1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device)
 
+	for param in Vgg16.parameters():
+		param.requires_grad=False
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("style", help="Path to style image")
-    parser.add_argument("--data-dir", default="./data", help="Path to data root dir")
-    parser.add_argument("--gpu-device", type=int, default=0, help="GPU device index")
-    parser.add_argument("--alpha", type=float, default=1e4, help="Weight of content loss")
-    parser.add_argument("--beta", type=float, default=1e5, help="Weight of style loss")
-    parser.add_argument("--gamma", type=float, default=1e-5, help="Weight of style loss")
-    parser.add_argument("--lambda-f", type=float, default=1e5, help="Weight of feature temporal loss")
-    parser.add_argument("--lambda-o", type=float, default=2e5, help="Weight of output temporal loss")
-    parser.add_argument("--epochs", type=int, default=2, help="Number of epochs")
-    parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate")
-    parser.add_argument("--output-file", default="./model.pth", help="Output model file path")
-    parser.add_argument("--frn", action='store_true', help="Use Filter Response Normalization and TLU")
+	# [1e-1, 1e0, 1e1, 5e0, 1e1] not sure about what value to be deleted
+	STYLE_WEIGHTS=[1e-1, 1e0, 1e1, 5e0]
+	# STYLE_WEIGHTS = [1.0] * 4 in another implementation
+	# print(style.size())
+	styled_featuresR=Vgg16(normalize(style))
+	# print(styled_featuresR[1].size())
+	style_GM=[gram_matrix(f) for f in styled_featuresR]
+	# print(len(style_GM))
 
-    args = parser.parse_args()
-
-    running_losses = RunningLossesContainer()
-    global_step = 0
-
-    with torch.cuda.device(args.gpu_device):
-        transform = transforms.Compose([
-            custom_transforms.Resize(640, 360),
-            custom_transforms.RandomHorizontalFlip(),
-            custom_transforms.ToTensor()
-        ])
-        monkaa = MonkaaDataset(os.path.join(args.data_dir, "monkaa"), transform)
-        flyingthings3d = FlyingThings3DDataset(os.path.join(args.data_dir, "flyingthings3d"), transform)
-        dataset = monkaa + flyingthings3d
-        batch_size = 2
-        traindata = torch.utils.data.DataLoader(dataset,
-                                                batch_size=batch_size,
-                                                shuffle=True,
-                                                num_workers=3,
-                                                pin_memory=True,
-                                                drop_last=True)
-
-        model = ReCoNet(frn=args.frn).cuda()
-        vgg = Vgg16().cuda()
-
-        with torch.no_grad():
-            style = Image.open(args.style)
-            style = transforms.ToTensor()(style).cuda()
-            style = style.unsqueeze_(0)
-            style_vgg_features = vgg(preprocess_for_vgg(style))
-            style_gram_matrices = [gram_matrix(x) for x in style_vgg_features]
-            del style, style_vgg_features
-
-        optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
-        writer = SummaryWriter()
-
-        n_epochs = args.epochs
-        for epoch in range(n_epochs):
-            for sample in traindata:
-                optimizer.zero_grad()
-
-                sample = {name: tensor.cuda() for name, tensor in sample.items()}
-
-                occlusion_mask = occlusion_mask_from_flow(
-                    sample["optical_flow"],
-                    sample["reverse_optical_flow"],
-                    sample["motion_boundaries"])
-
-                # Compute ReCoNet features and output
-
-                reconet_input = preprocess_for_reconet(sample["frame"])
-                feature_maps = model.encoder(reconet_input)
-                output_frame = model.decoder(feature_maps)
-
-                previous_reconet_input = preprocess_for_reconet(sample["previous_frame"])
-                previous_feature_maps = model.encoder(previous_reconet_input)
-                previous_output_frame = model.decoder(previous_feature_maps)
-
-                # Compute VGG features
-
-                vgg_input_frame = preprocess_for_vgg(sample["frame"])
-                vgg_output_frame = preprocess_for_vgg(postprocess_reconet(output_frame))
-                input_vgg_features = vgg(vgg_input_frame)
-                output_vgg_features = vgg(vgg_output_frame)
-
-                vgg_previous_input_frame = preprocess_for_vgg(sample["previous_frame"])
-                vgg_previous_output_frame = preprocess_for_vgg(postprocess_reconet(previous_output_frame))
-                previous_input_vgg_features = vgg(vgg_previous_input_frame)
-                previous_output_vgg_features = vgg(vgg_previous_output_frame)
-
-                # Compute losses
-
-                alpha = args.alpha
-                beta = args.beta
-                gamma = args.gamma
-                lambda_f = args.lambda_f
-                lambda_o = args.lambda_o
-
-                losses = {
-                    "content loss": tensors_sum([
-                        alpha * content_loss(output_vgg_features[2], input_vgg_features[2]),
-                        alpha * content_loss(previous_output_vgg_features[2], previous_input_vgg_features[2]),
-                    ]),
-                    "style loss": tensors_sum([
-                        beta * style_loss(output_vgg_features, style_gram_matrices),
-                        beta * style_loss(previous_output_vgg_features, style_gram_matrices),
-                    ]),
-                    "total variation": tensors_sum([
-                        gamma * total_variation(output_frame),
-                        gamma * total_variation(previous_output_frame),
-                    ]),
-                    "feature temporal loss": lambda_f * feature_temporal_loss(feature_maps, previous_feature_maps,
-                                                                              sample["reverse_optical_flow"],
-                                                                              occlusion_mask),
-                    "output temporal loss": lambda_o * output_temporal_loss(reconet_input, previous_reconet_input,
-                                                                            output_frame, previous_output_frame,
-                                                                            sample["reverse_optical_flow"],
-                                                                            occlusion_mask)
-                }
-
-                training_loss = tensors_sum(list(losses.values()))
-                losses["training loss"] = training_loss
-
-                training_loss.backward()
-                optimizer.step()
-
-                with torch.no_grad():
-                    running_losses.update(losses)
-
-                    last_iteration = global_step == len(dataset) // batch_size * n_epochs - 1
-                    if global_step % 25 == 0 or last_iteration:
-                        average_losses = running_losses.get()
-                        for key, value in average_losses.items():
-                            writer.add_scalar(key, value, global_step)
-
-                        running_losses.reset()
-
-                    if global_step % 100 == 0 or last_iteration:
-                        styled_test_image = stylize_image(Image.open("test_image.jpeg"), model)
-                        writer.add_image('test image', styled_test_image, global_step)
-
-                        for i in range(0, len(dataset), len(dataset) // 4):
-                            sample = dataset[i]
-                            styled_train_image_1 = stylize_image(sample["frame"], model)
-                            styled_train_image_2 = stylize_image(sample["previous_frame"], model)
-                            grid = torchvision.utils.make_grid([styled_train_image_1, styled_train_image_2])
-                            writer.add_image(f'train images {i}', grid, global_step)
-
-                    global_step += 1
-
-        torch.save(model.state_dict(), args.output_file)
-        writer.close()
+	if phase == 'first':
+		train_first_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,\
+		STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase)
+	if phase == 'second':
+		train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,\
+		STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase)
