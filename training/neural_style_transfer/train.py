@@ -329,7 +329,6 @@ if __name__ == '__main__':
 	# print(style.size())
 	style = style.unsqueeze(0).expand(1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device)
 	#style = normalize(style)
-	print(style)
 	
 	for param in Vgg16.parameters():
 		param.requires_grad=False
