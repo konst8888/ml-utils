@@ -268,6 +268,8 @@ if __name__ == '__main__':
      
 
 	args = parser.parse_args()
+	manual_weights = args.manual_weights
+	
 	if manual_weights:
 		alpha = args.alpha
 		beta = args.beta
