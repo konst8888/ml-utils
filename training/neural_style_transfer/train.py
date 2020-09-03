@@ -118,14 +118,11 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 		running_ft_loss=0
 		running_ot_loss=0
 		pbar=tqdm.tqdm(enumerate(dataloader), total=len(dataloader))
-		for idx, (img1, img2, mask, flow) in pbar:
-			img1 = img1.to(device)
-			img2 = img2.to(device)
-			mask = mask.to(device)
-			flow = flow.to(device)
+		for idx, sample in pbar:
+			img1, img2, mask, flow = [el.to(device) for el in sample]
 			flow=-flow
 			optimizer.zero_grad()
-			if (idx + 1) % 8e4 == 0: #500
+			if (idx + 1) % 500 == 0: #500
 				for param in optimizer.param_groups:
 					param['lr']=max(param['lr'] / 1.2, 1e-4)
 
@@ -259,6 +256,7 @@ if __name__ == '__main__':
 	parser.add_argument("--model_path", default='', help="Load existing model path")
 	parser.add_argument("--batch_size", default=1, help="Batch size")
 	parser.add_argument("--phase", type=str, help="Phase of training, required: {'first', 'second'} ")
+	parser.add_argument("--manual_weights", default=False, help="Set manual weights for loss")
 	parser.add_argument("--alpha", type=float, default=1e4, help="Weight of content loss")
 	parser.add_argument("--beta", type=float, default=1e5, help="Weight of style loss")
 	parser.add_argument("--gamma", type=float, default=1e-5, help="Weight of style loss")
@@ -270,12 +268,19 @@ if __name__ == '__main__':
      
 
 	args = parser.parse_args()
-	alpha=1e4  # previously 12, 2e10 // 1e4
-	beta=1e5  # 1e6 #11, // 1e5
-	gamma=1e-5  # previously -3 // 1e-5
-	lambda_o=2e5  # // 2e5
-	lambda_f=1e5  # // 1e5
-
+	if manual_weights:
+		alpha = args.alpha
+		beta = args.beta
+		gamma = args.gamma
+		lambda_o = args.lambda_o
+		lambda_f = args.lambda_f
+	else:
+		alpha=1e13  # previously 12, 2e10 // 1e4
+		beta=1e10  # 1e6 #11, // 1e5
+		gamma=3e-2  # previously -3 // 1e-5
+		lambda_o=1e6  # // 2e5
+		lambda_f=1e4  # // 1e5
+		
 	data_path=args.data_path
 	style_path=args.style_path
 	checkpoint_path = args.checkpoint_path
@@ -328,7 +333,6 @@ if __name__ == '__main__':
 	style = transform_style(style)
 	# print(style.size())
 	style = style.unsqueeze(0).expand(1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device)
-	#style = normalize(style)
 	
 	for param in Vgg16.parameters():
 		param.requires_grad=False
