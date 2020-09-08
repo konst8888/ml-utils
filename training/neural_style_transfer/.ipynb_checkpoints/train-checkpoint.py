@@ -291,9 +291,9 @@ if __name__ == '__main__':
         lambda_o = args.lambda_o
         lambda_f = args.lambda_f
     else:
-        alpha = 1e13  # previously 12, 2e10 // 1e4
-        beta = 1e10  # 1e6 #11, // 1e5
-        gamma = 3e-2  # previously -3 // 1e-5
+        alpha = 1e8  # previously 12, 2e10 // 1e4
+        beta = 1e5  # 1e6 #11, // 1e5
+        gamma = 3e-7  # previously -3 // 1e-5
         lambda_o = 1e1  # // 2e5
         lambda_f = 1e-1  # // 1e5
 
