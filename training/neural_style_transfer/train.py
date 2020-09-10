@@ -122,7 +122,7 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
             img1, img2, mask, flow = [el.to(device) for el in sample]
             flow = -flow
             optimizer.zero_grad()
-            if (idx + 1) % 500 == 0:  # 500
+            if (idx + 1) % 1000 == 0:  # 500
                 for param in optimizer.param_groups:
                     param['lr'] = max(param['lr'] / 1.2, 1e-4)
 
@@ -145,7 +145,7 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
                          :] *= float(feature_map1.shape[3]) / flow.shape[3]
             # print(flow.size(), feature_map1.shape[2:],feature_flow.size())
             feature_mask = nn.functional.interpolate(
-                mask.view(1, 1, 640, 360), size=feature_map1.shape[2:], mode='bilinear')
+                mask.view(1, 1, *IMG_SIZE), size=feature_map1.shape[2:], mode='bilinear')
             # print(feature_map1.size(), feature_flow.size())
             warped_fmap = warp(feature_map1, feature_flow, device)
 
@@ -319,19 +319,30 @@ if __name__ == '__main__':
             T.Lambda(lambda x: x.mul(2).sub(1))
         ])
         dataset = COCODataset(data_path, transform)
-        batch_size = batch_size
+        kwargs = {
+            'dataset': dataset,
+            'batch_size': batch_size,
+            'shuffle': True
+        }
     elif phase == 'second':
-        IMG_SIZE = (640, 360)
+        IMG_SIZE = (360, 640) #(768, 432)
         transform = T.Compose([
             T.Resize(IMG_SIZE),
             T.RandomHorizontalFlip(),
             T.ToTensor(),
             T.Lambda(lambda x: x.mul(2).sub(1))
         ])
-        dataset = MPIDataset(data_path, transform)  # MPIDataset
-        batch_size = 1
+        mpi_path = os.path.join(data_path, 'mpi') + os.sep
+        fc_path = os.path.join(data_path, 'FlyingChairs2') + os.sep
+        dataset = ConsolidatedDataset(mpi_path, fc_path, transform)  # MPIDataset
+        kwargs = {
+            'dataset': dataset,
+            'batch_size': 1,
+            'shuffle': False
+        }
 
-    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
+
+    dataloader = DataLoader(**kwargs)
     model = ReCoNetMobile(frn=frn).to(device)
     if model_path:
         model.load_state_dict(torch.load(model_path, map_location=device))
