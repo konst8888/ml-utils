@@ -28,6 +28,7 @@ from totaldata import *
 
 def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
                       STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device):
+    data_len = len(dataloader)
     for epoch in range(epochs):
         running_content_loss = 0
         running_style_loss = 0
@@ -58,6 +59,9 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
 
             style_loss = 0
             for i, weight in enumerate(STYLE_WEIGHTS):
+                if i == 0:
+                    continue
+                print("here")
                 gram_s = style_GM[i]
                 # print(styled_features1[i].size())
                 gram_img2 = gram_matrix(styled_features2[i])
@@ -65,6 +69,7 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
                 #!!! below was gram_img1
                 style_loss += float(weight) * L2distance(gram_img2, gram_s.expand(
                     gram_img2.size()))
+            print()
             style_loss *= beta
 
             reg_loss = 0
@@ -101,12 +106,13 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
             # print('[%d/%d][%d/%d] SL: %.4f CL: %.4f FTL: %.4f OTL: %.4f RL: %.4f'
             #               % (epoch, epochs, idx, len(dataloader),
             # style_loss, content_loss , f_temporal_loss, o_temporal_loss, reg_loss))
-        torch.save(
-            model.state_dict(),
-            os.path.join(checkpoint_path, 'reconet_phase_{}_epoch_{}_loss_{:.4f}.pth'.format(
-                phase,
-                epoch,
-                loss)))
+            if idx in (int(data_len / 3.), data_len - 1):
+                torch.save(
+                    model.state_dict(),
+                    os.path.join(checkpoint_path, 'reconet_phase_{}_epoch_{}_loss_{:.4f}.pth'.format(
+                        phase,
+                        epoch,
+                        loss)))
 
 
 def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,
@@ -251,7 +257,7 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 
 
 if __name__ == '__main__':
-    # python3 train.py --data_path /home/konstantinlipkin/Anaconda_files/data_test --style_path /home/konstantinlipkin/Anaconda_files/data_path/some_class/image.jpg --phase 'first'
+    # python3 train.py --data_path /home/konstantinlipkin/Anaconda_files/data_test --style_path /home/konstantinlipkin/Anaconda_files/data_path/some_class/image.jpg --phase first
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_path", default="./data",
                         help="Path to data root dir")
@@ -262,8 +268,8 @@ if __name__ == '__main__':
                         help="Load existing model path")
     parser.add_argument("--batch_size", default=1, help="Batch size")
     parser.add_argument(
-        "--phase", type=str, help="Phase of training, required: {'first', 'second'} ")
-    parser.add_argument("--manual_weights", default=False,
+        "--phase", type=str, help="Phase of training, required: {first, second} ")
+    parser.add_argument("--manual_weights", action='store_true',
                         help="Set manual weights for loss")
     parser.add_argument("--alpha", type=float, default=1e4,
                         help="Weight of content loss")
@@ -280,6 +286,8 @@ if __name__ == '__main__':
     parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate")
     parser.add_argument("--frn", default=True, action='store_true',
                         help="Use Filter Response Normalization and TLU")
+    parser.add_argument("--use_skip", action='store_true',
+                        help="Use skip connections")
 
     args = parser.parse_args()
     manual_weights = args.manual_weights
@@ -306,14 +314,15 @@ if __name__ == '__main__':
     epochs = args.epochs
     lr = args.lr
     frn = args.frn
+    use_skip = args.use_skip
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
     # dataloader = DataLoader(FlyingChairsDataset("../FlyingChairs2/"),
     # batch_size=1)
     if phase == 'first':
-        IMG_SIZE = (256, 256)
+        IMG_SIZE = (400, 400) # 256, 256
         transform = T.Compose([
-            T.Resize(IMG_SIZE),
+#            T.Resize(IMG_SIZE), # no resize if image were resized
             T.RandomHorizontalFlip(),
             T.ToTensor(),
             T.Lambda(lambda x: x.mul(2).sub(1))
@@ -341,9 +350,8 @@ if __name__ == '__main__':
             'shuffle': False
         }
 
-
     dataloader = DataLoader(**kwargs)
-    model = ReCoNetMobile(frn=frn).to(device)
+    model = ReCoNetMobile(frn=frn, use_skip=use_skip).to(device)
     if model_path:
         model.load_state_dict(torch.load(model_path, map_location=device))
 

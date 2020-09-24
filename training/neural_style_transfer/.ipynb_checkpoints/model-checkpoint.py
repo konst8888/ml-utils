@@ -84,52 +84,96 @@ class ConvNoTanhLayer(nn.Module):
 
 
 class Encoder(nn.Module):
-    def __init__(self, a, b, frn=False):
+    def __init__(self, a, b, frn=False, use_skip=False):
         super().__init__()
+        self.use_skip = use_skip
         filter_counts = list(map(lambda x: int(a * x), [
             32, 48, 64
         ]))
-        self.layers = nn.Sequential(
-            ConvNormLayer(3, filter_counts[0], 3, 1, frn=frn),
-            ConvNormLayer(filter_counts[0], filter_counts[1], 3, 2, frn=frn),
-            ConvNormLayer(filter_counts[1], filter_counts[2], 3, 2, frn=frn),
-        )
-        res_layer_count = int(b * 4)
-        [self.layers.add_module(f'{i + 3}', ResLayer(filter_counts[2], filter_counts[2], 3, frn=frn)) 
-        for i in range(res_layer_count)]
+        if not use_skip:
+            self.layers = nn.Sequential(
+                ConvNormLayer(3, filter_counts[0], 3, 1, frn=frn),
+                ConvNormLayer(filter_counts[0], filter_counts[1], 3, 2, frn=frn),
+                ConvNormLayer(filter_counts[1], filter_counts[2], 3, 2, frn=frn),
+            )
+            res_layer_count = int(b * 4)
+            [self.layers.add_module(f'{i + 3}', ResLayer(filter_counts[2], filter_counts[2], 3, frn=frn)) 
+            for i in range(res_layer_count)]
+        else:
+            self.layers_first = nn.Sequential(
+                ConvNormLayer(3, filter_counts[0], 3, 1, frn=frn),
+            )
+            self.layers_second = nn.Sequential(
+                ConvNormLayer(filter_counts[0], filter_counts[1], 3, 2, frn=frn),
+                ConvNormLayer(filter_counts[1], filter_counts[2], 3, 2, frn=frn),
+            )
+            res_layer_count = int(b * 4)
+            [self.layers_second.add_module(f'{i + 3}', ResLayer(filter_counts[2], filter_counts[2], 3, frn=frn)) 
+            for i in range(res_layer_count)]
 
 
     def forward(self, x):
-        return self.layers(x)
+        if not self.use_skip:
+            return self.layers(x)
+        else:
+            x = self.layers_first(x)
+            f_map = x
+            x = self.layers_second(x)
+            return x, f_map
 
 
 class Decoder(nn.Module):
-    def __init__(self, a, b, frn=False):
+    def __init__(self, a, b, frn=False, use_skip=False):
         super().__init__()
+        self.use_skip = use_skip
         filter_counts = list(map(lambda x: int(a * x), [
             64, 48, 32
         ]))
-        self.layers = nn.Sequential(
-            nn.Upsample(scale_factor=2),
-            ConvNormLayer(filter_counts[0], filter_counts[1], 3, 1, frn=frn),
-            nn.Upsample(scale_factor=2),
-            ConvNormLayer(filter_counts[1], filter_counts[2], 3, 1, frn=frn),
-            ConvNoTanhLayer(filter_counts[2], 3, 3, 1)
-        )
+        if not use_skip:
+            self.layers = nn.Sequential(
+                nn.Upsample(scale_factor=2),
+                ConvNormLayer(filter_counts[0], filter_counts[1], 3, 1, frn=frn),
+                nn.Upsample(scale_factor=2),
+                ConvNormLayer(filter_counts[1], filter_counts[2], 3, 1, frn=frn),
+                ConvNoTanhLayer(filter_counts[2], 3, 3, 1)
+            )
+        else:
+            self.layers_first = nn.Sequential(
+                nn.Upsample(scale_factor=2),
+                ConvNormLayer(filter_counts[0], filter_counts[1], 3, 1, frn=frn),
+                nn.Upsample(scale_factor=2),
+                ConvNormLayer(filter_counts[1], filter_counts[2], 3, 1, frn=frn),
+            )
+            self.layers_second = nn.Sequential(
+                ConvNoTanhLayer(filter_counts[2], 3, 3, 1)
+            )
+            self.conv = ConvLayer(filter_counts[2], filter_counts[2], 3, 1)
 
     def forward(self, x):
-        return self.layers(x)
-
+        if not self.use_skip:
+            return self.layers(x)
+        else:
+            x, f_map = x
+            x = self.layers_first(x)
+            f_map = self.conv(f_map)
+            x += f_map
+            x = self.layers_second(x)
+            return x
 
 class ReCoNetMobile(nn.Module):
-    def __init__(self, frn=True, a=0.5, b=0.75):
+    def __init__(self, frn=True, a=0.5, b=0.75, use_skip=False):
         super().__init__()
-        self.encoder = Encoder(a=a, b=b, frn=frn)
-        self.decoder = Decoder(a=a, b=b, frn=frn)
-
+        self.use_skip = use_skip
+        self.encoder = Encoder(a=a, b=b, frn=frn, use_skip=use_skip)
+        self.decoder = Decoder(a=a, b=b, frn=frn, use_skip=use_skip)
 
     def forward(self, x):
-        x = self.encoder(x)
-        features = x
-        x = self.decoder(x)
+        if not self.use_skip:
+            x = self.encoder(x)
+            features = x
+            x = self.decoder(x)
+        else:
+            x, f_map = self.encoder(x)
+            features = x
+            x = self.decoder((x, f_map))
         return (features, x)

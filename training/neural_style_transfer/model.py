@@ -147,7 +147,7 @@ class Decoder(nn.Module):
             self.layers_second = nn.Sequential(
                 ConvNoTanhLayer(filter_counts[2], 3, 3, 1)
             )
-            #self.conv = ConvLayer(filter_counts[2], filter_counts[2], 3, 1)
+            self.conv = ConvLayer(filter_counts[2], filter_counts[2], 3, 1)
 
     def forward(self, x):
         if not self.use_skip:
@@ -155,7 +155,7 @@ class Decoder(nn.Module):
         else:
             x, f_map = x
             x = self.layers_first(x)
-            #f_map = self.conv(f_map)
+            f_map = self.conv(f_map)
             x += f_map
             x = self.layers_second(x)
             return x
