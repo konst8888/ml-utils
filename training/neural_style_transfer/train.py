@@ -67,6 +67,9 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
     data_len = len(dataloader)
     batch_size = dataloader.batch_size
     sample_counter = 0
+    if adjust_lr_every < 1:
+    	adjust_lr_every = adjust_lr_every * data_len * batch_size
+    adjust_lr_every = int(adjust_lr_every)
     for epoch in range(epochs):
         running_content_loss = 0
         running_style_loss = 0
@@ -276,7 +279,7 @@ if __name__ == '__main__':
                         help="Checkpoints save path")
     parser.add_argument("--model_path", default='',
                         help="Load existing model path")
-    parser.add_argument("--batch_size", default=1, help="Batch size")
+    parser.add_argument("--batch_size", default=1, type=int, help="Batch size")
     parser.add_argument(
         "--phase", type=str, help="Phase of training, required: {first, second} ")
     parser.add_argument("--manual_weights", action='store_true',
@@ -298,9 +301,9 @@ if __name__ == '__main__':
                         help="Use Filter Response Normalization and TLU")
     parser.add_argument("--use_skip", action='store_true',
                         help="Use skip connections")
-    parser.add_argument("--save_at", default=1,
+    parser.add_argument("--save_at", type=float, default=1,
                         help="Save checkpoint at current training stage, float in (0, 1)")
-    parser.add_argument("--adjust_lr_every", default=1,
+    parser.add_argument("--adjust_lr_every", type=float, default=1,
                         help="Lr decrease factor")
 
     args = parser.parse_args()
@@ -323,7 +326,7 @@ if __name__ == '__main__':
     style_path = args.style_path
     checkpoint_path = args.checkpoint_path
     model_path = args.model_path
-    batch_size = int(args.batch_size)
+    batch_size = args.batch_size
     phase = args.phase
     epochs = args.epochs
     lr = args.lr
