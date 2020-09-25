@@ -1,3 +1,4 @@
+import torch
 from torch import nn
 from frn import FRN, TLU
 
@@ -145,7 +146,7 @@ class Decoder(nn.Module):
                 ConvNormLayer(filter_counts[1], filter_counts[2], 3, 1, frn=frn),
             )
             self.layers_second = nn.Sequential(
-                ConvNoTanhLayer(filter_counts[2], 3, 3, 1)
+                ConvNoTanhLayer(filter_counts[2] * 2, 3, 3, 1)
             )
             self.conv = ConvLayer(filter_counts[2], filter_counts[2], 3, 1)
 
@@ -156,6 +157,7 @@ class Decoder(nn.Module):
             x, f_map = x
             x = self.layers_first(x)
             f_map = self.conv(f_map)
+            #x = torch.cat([x, f_map], dim=1)
             x += f_map
             x = self.layers_second(x)
             return x
