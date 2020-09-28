@@ -53,9 +53,7 @@ def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
     out = 0
     for s_GM, sim_weight in zip(style_GM, sim_weights):
         current_loss = 0
-        for i, weight in enumerate(STYLE_WEIGHTS):
-            if i == 0:
-                continue
+        for i, weight in enumerate(STYLE_WEIGHTS[2:]):
             gram_s = s_GM[i]
             gram_img = gram_matrix(styled_features[i])
             #!!! below was gram_img1
@@ -362,7 +360,7 @@ if __name__ == '__main__':
     if phase == 'first':
         IMG_SIZE = (400, 400) # 256, 256
         transform = T.Compose([
-            T.Resize(IMG_SIZE), # no resize if image were resized
+#            T.Resize(IMG_SIZE), # no resize if image were resized
             T.RandomHorizontalFlip(),
             T.ToTensor(),
             T.Lambda(lambda x: x.mul(2).sub(1))
@@ -407,7 +405,7 @@ if __name__ == '__main__':
         transforms.Lambda(lambda x: x.mul(255)),
         normalize
     ])
-    style = [Image.open(os.path.join(style_path, filename)) for filename in os.listdir(style_path)]
+    style = [Image.open(os.path.join(style_path, filename)) for filename in os.listdir(style_path) if not filename.endswith('checkpoints')]
     style = [transform_style(s) for s in style]
     # print(style.size())
     style = [s.unsqueeze(0).expand(

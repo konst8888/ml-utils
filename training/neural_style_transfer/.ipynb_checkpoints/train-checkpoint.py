@@ -13,7 +13,6 @@ from torch.utils.data import DataLoader
 import torchvision.datasets as dset
 import torchvision.transforms as T
 import torchvision.utils as vutils
-from torch.autograd import Variable
 import matplotlib.pyplot as plt
 import flowlib
 from PIL import Image
@@ -25,75 +24,112 @@ from utilities import *
 from network import *
 from totaldata import *
 
+def calc_sim_weights(img, style):
+    if not use_sim:
+        l = len(style)
+        return [1. / l] * l
+    if len(style) == 1:
+    	return [1.]
+    	
+    style_sim_features = [resnet(s) for s in style]
+    img_sim_feature = resnet(img)
+    #cos = nn.CosineSimilarity(dim=0, eps=1e-6)
+    weights = [img_sim_feature.sub(feature).pow(2).sum()
+    		for feature in style_sim_features]
+    weights = np.array(weights) / sum(weights)
+    
+    return weights
+
+def calc_content_loss(img_features, styled_features, alpha):
+    out = L2distance(styled_features[2],
+                                       img_features[2].expand(styled_features[2].shape))
+    out *= alpha / (styled_features[2].shape[1] *
+                 styled_features[2].shape[2] *
+                 styled_features[2].shape[3])
+                 
+    return out
+    
+def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta):
+    out = 0
+    for s_GM, sim_weight in zip(style_GM, sim_weights):
+        current_loss = 0
+        for i, weight in enumerate(STYLE_WEIGHTS):
+            if i == 0:
+                continue
+            gram_s = s_GM[i]
+            gram_img = gram_matrix(styled_features[i])
+            #!!! below was gram_img1
+            current_loss += float(weight) * L2distance(gram_img, gram_s.expand(
+                gram_img.size()))
+        out += current_loss * sim_weight
+    out *= beta
+    
+    return out
+    
+def calc_reg_loss(styled_img, gamma):
+    out = gamma * \
+        (torch.sum(torch.abs(styled_img[:, :, :, :-1] - styled_img[:, :, :, 1:])) +
+         torch.sum(torch.abs(styled_img[:, :, :-1, :] - styled_img[:, :, 1:, :])))
+         
+    return out
+    
+def adjust_lr(sample_counter, adjust_lr_every, batch_size, optimizer):
+    if (sample_counter + 1) % adjust_lr_every >= 0 \
+    and (sample_counter + 1) % adjust_lr_every < batch_size:  # 500
+        for param in optimizer.param_groups:
+            param['lr'] = max(param['lr'] / 1.2, 1e-4)
+
 
 def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
-                      STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device):
+                      STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device, save_at, adjust_lr_every):
     data_len = len(dataloader)
+    batch_size = dataloader.batch_size
+    sample_counter = 0
+    if adjust_lr_every < 1:
+    	adjust_lr_every = adjust_lr_every * data_len * batch_size
+    adjust_lr_every = int(adjust_lr_every)
     for epoch in range(epochs):
         running_content_loss = 0
         running_style_loss = 0
         running_reg_loss = 0
         pbar = tqdm.tqdm(enumerate(dataloader), total=len(dataloader))
-        for idx, (img2, _) in pbar:
-            img2 = img2.to(device)
+        for idx, (sample, _) in pbar:
+            sample = sample.to(device)
+            sample_counter += batch_size
+            
+            adjust_lr(sample_counter, adjust_lr_every, batch_size, optimizer)
+             
+            losses = []
+            for img in sample:
+                img = img.unsqueeze(0)
+                feature_map, styled_img = model(img)
+                styled_img = normalize_after_reconet(styled_img)
+                img = normalize_after_reconet(img)
+
+                styled_features = Vgg16(styled_img)
+                img_features = Vgg16(img)
+
+                content_loss = calc_content_loss(img_features, styled_features, alpha)
+                content_loss += L2distance(styled_img, img)
+                content_loss /= 2
+                sim_weights = calc_sim_weights(img, style)
+                style_loss = calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
+
+                reg_loss = calc_reg_loss(styled_img, gamma)
+                
+                running_content_loss += content_loss.item()
+                running_style_loss += style_loss.item()
+                running_reg_loss += reg_loss.item()
+
+                img_loss = content_loss + style_loss + reg_loss
+                losses.append(img_loss)
+                
+            loss = sum(losses) / len(losses)
             optimizer.zero_grad()
-            if (idx + 1) % 8e4 == 0:  # 500
-                for param in optimizer.param_groups:
-                    param['lr'] = max(param['lr'] / 1.2, 1e-4)
-
-            feature_map2, styled_img2 = model(img2)
-            styled_img2 = normalize_after_reconet(styled_img2)
-            img2 = normalize_after_reconet(img2)
-
-            styled_features2 = Vgg16(styled_img2)
-            img_features2 = Vgg16(img2)
-
-            content_loss = 0
-            content_loss += L2distance(styled_features2[2],
-                                       img_features2[2].expand(styled_features2[2].size()))
-            # was styled_features1 below  !!!
-            content_loss *= alpha / \
-                (styled_features2[2].shape[1] *
-                 styled_features2[2].shape[2] *
-                 styled_features2[2].shape[3])
-
-            style_loss = 0
-            for i, weight in enumerate(STYLE_WEIGHTS):
-                if i == 0:
-                    continue
-                print("here")
-                gram_s = style_GM[i]
-                # print(styled_features1[i].size())
-                gram_img2 = gram_matrix(styled_features2[i])
-                # print(gram_img1.size(), gram_s.size())
-                #!!! below was gram_img1
-                style_loss += float(weight) * L2distance(gram_img2, gram_s.expand(
-                    gram_img2.size()))
-            print()
-            style_loss *= beta
-
-            reg_loss = 0
-            reg_loss += gamma * \
-                (torch.sum(torch.abs(styled_img2[:, :, :, :-1] - styled_img2[:, :, :, 1:])) +
-                 torch.sum(torch.abs(styled_img2[:, :, :-1, :] - styled_img2[:, :, 1:, :])))
-
-            # print(f_temporal_loss.size(), o_temporal_loss.size(),
-            # content_loss.size(), style_loss.size(), reg_loss.size())
-            loss = content_loss + style_loss + reg_loss
-            # loss = content_loss + style_loss
             loss.backward()
             optimizer.step()
-            #
-            #
-            # if (idx+1)%1000 ==0 :
-            # torch.save(model.state_dict(), '%s/final_reconet_epoch_%d_idx_%d.pth' %
-            # ("runs/output", epoch, idx//1000))
 
             scale_value = 1 / batch_size / max(idx, 1)
-            count = img2.shape[0]
-            running_content_loss += content_loss.item() * count
-            running_style_loss += style_loss.item() * count
-            running_reg_loss += reg_loss.item() * count
             pbar.set_description(
                 "Epoch: {}/{} Losses -> Content: {:.4f} Style: {:.4f} Reg: {:.4f}".format(
                     epoch,
@@ -103,10 +139,7 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
                     running_reg_loss * scale_value
                 )
             )
-            # print('[%d/%d][%d/%d] SL: %.4f CL: %.4f FTL: %.4f OTL: %.4f RL: %.4f'
-            #               % (epoch, epochs, idx, len(dataloader),
-            # style_loss, content_loss , f_temporal_loss, o_temporal_loss, reg_loss))
-            if idx in (int(data_len / 3.), data_len - 1):
+            if checkpoint_path is not None and idx in (int(data_len * save_at) - 1, data_len - 1):
                 torch.save(
                     model.state_dict(),
                     os.path.join(checkpoint_path, 'reconet_phase_{}_epoch_{}_loss_{:.4f}.pth'.format(
@@ -116,7 +149,7 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
 
 
 def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,
-                       STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path, device):
+                       STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path, device, save_at, adjust_lr_every):
     for epoch in range(epochs):
         running_content_loss = 0
         running_style_loss = 0
@@ -261,12 +294,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_path", default="./data",
                         help="Path to data root dir")
-    parser.add_argument("--style_path", help="Path to style image")
+    parser.add_argument("--style_path", help="Path folder containing style images")
     parser.add_argument("--checkpoint_path", type=str,
                         help="Checkpoints save path")
     parser.add_argument("--model_path", default='',
                         help="Load existing model path")
-    parser.add_argument("--batch_size", default=1, help="Batch size")
+    parser.add_argument("--batch_size", default=1, type=int, help="Batch size")
     parser.add_argument(
         "--phase", type=str, help="Phase of training, required: {first, second} ")
     parser.add_argument("--manual_weights", action='store_true',
@@ -288,6 +321,12 @@ if __name__ == '__main__':
                         help="Use Filter Response Normalization and TLU")
     parser.add_argument("--use_skip", action='store_true',
                         help="Use skip connections")
+    parser.add_argument("--save_at", type=float, default=1,
+                        help="Save checkpoint at current training stage, float in (0, 1)")
+    parser.add_argument("--adjust_lr_every", type=float, default=1,
+                        help="Lr decrease factor")
+    parser.add_argument("--use_sim", action='store_true',
+                        help="Use similarity weights for style pics")
 
     args = parser.parse_args()
     manual_weights = args.manual_weights
@@ -315,6 +354,9 @@ if __name__ == '__main__':
     lr = args.lr
     frn = args.frn
     use_skip = args.use_skip
+    save_at = args.save_at
+    adjust_lr_every = args.adjust_lr_every
+    use_sim = args.use_sim
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
     # dataloader = DataLoader(FlyingChairsDataset("../FlyingChairs2/"),
@@ -359,6 +401,7 @@ if __name__ == '__main__':
     L2distance = nn.MSELoss().to(device)
     L2distancematrix = nn.MSELoss(reduction='none').to(device)
     Vgg16 = Vgg16().to(device)
+    resnet = ResNet18().to(device)
 
     transform_style = transforms.Compose([
         transforms.Resize(IMG_SIZE),
@@ -366,11 +409,11 @@ if __name__ == '__main__':
         transforms.Lambda(lambda x: x.mul(255)),
         normalize
     ])
-    style = Image.open(style_path)
-    style = transform_style(style)
+    style = [Image.open(os.path.join(style_path, filename)) for filename in os.listdir(style_path) if not filename.endswith('checkpoints')]
+    style = [transform_style(s) for s in style]
     # print(style.size())
-    style = style.unsqueeze(0).expand(
-        1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device)
+    style = [s.unsqueeze(0).expand(
+        1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device) for s in style]
 
     for param in Vgg16.parameters():
         param.requires_grad = False
@@ -379,14 +422,15 @@ if __name__ == '__main__':
     STYLE_WEIGHTS = [1e-1, 1e0, 1e1, 5e0]
     # STYLE_WEIGHTS = [1.0] * 4 in another implementation
     # print(style.size())
-    styled_featuresR = Vgg16(style)
+    styled_featuresR = [Vgg16(s) for s in style]
     # print(styled_featuresR[1].size())
-    style_GM = [gram_matrix(f) for f in styled_featuresR]
+    style_GM = [[gram_matrix(f) for f in styled_feature] 
+    			for styled_feature in styled_featuresR]
     # print(len(style_GM))
 
     if phase == 'first':
         train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
-                          STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device)
+                          STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device, save_at, adjust_lr_every)
     if phase == 'second':
         train_second_phase(model, dataloader, optimizer, L2distance, L2distancematrix, Vgg16, style_GM,
-                           STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path, device)
+                           STYLE_WEIGHTS, alpha, beta, gamma, lambda_o, lambda_f, epochs, phase, checkpoint_path, device, save_at, adjust_lr_every)
