@@ -1,11 +1,30 @@
 import torch
 import torch.nn as nn
 import numpy as np
-from torchvision.models import vgg16
+from torchvision.models import vgg16, resnet18
+from torch.autograd import Variable
 from collections import namedtuple
 
 # From https://github.com/pytorch/examples/blob/master/fast_neural_style/neural_style/vgg.py
-class Vgg16(torch.nn.Module):
+
+class ResNet18(nn.Module):
+    def __init__(self, device='cpu'):
+        super(ResNet18, self).__init__()
+        self.resnet = resnet18(pretrained=True).eval()
+        self.layer = self.resnet._modules.get('avgpool')
+	
+    def forward(self, x):
+        t_img = Variable(x)
+        embedding = torch.zeros((512, 512)).view(1, 512, 1, 512)
+        def copy_data(m, i, o):
+            embedding.copy_(o.data)
+        h = self.layer.register_forward_hook(copy_data)
+        self.resnet(t_img)
+        h.remove()
+        
+        return embedding
+
+class Vgg16(nn.Module):
     def __init__(self, device='cpu'):
         super(Vgg16, self).__init__()
         vgg_pretrained_features = vgg16(pretrained=True).features

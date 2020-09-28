@@ -13,7 +13,6 @@ from torch.utils.data import DataLoader
 import torchvision.datasets as dset
 import torchvision.transforms as T
 import torchvision.utils as vutils
-from torch.autograd import Variable
 import matplotlib.pyplot as plt
 import flowlib
 from PIL import Image
@@ -25,6 +24,22 @@ from utilities import *
 from network import *
 from totaldata import *
 
+def calc_sim_weights(img, style):
+    if not use_sim:
+        l = len(style)
+        return [1. / l] * l
+    if len(style) == 1:
+    	return [1.]
+    	
+    style_sim_features = [resnet(s) for s in style]
+    img_sim_feature = resnet(img)
+    #cos = nn.CosineSimilarity(dim=0, eps=1e-6)
+    weights = [img_sim_feature.sub(feature).pow(2).sum()
+    		for feature in style_sim_features]
+    weights = np.array(weights) / sum(weights)
+    
+    return weights
+
 def calc_content_loss(img_features, styled_features, alpha):
     out = L2distance(styled_features[2],
                                        img_features[2].expand(styled_features[2].shape))
@@ -34,16 +49,19 @@ def calc_content_loss(img_features, styled_features, alpha):
                  
     return out
     
-def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, beta):
+def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta):
     out = 0
-    for i, weight in enumerate(STYLE_WEIGHTS):
-        if i == 0:
-            continue
-        gram_s = style_GM[i]
-        gram_img = gram_matrix(styled_features[i])
-        #!!! below was gram_img1
-        out += float(weight) * L2distance(gram_img, gram_s.expand(
-            gram_img.size()))
+    for s_GM, sim_weight in zip(style_GM, sim_weights):
+        current_loss = 0
+        for i, weight in enumerate(STYLE_WEIGHTS):
+            if i == 0:
+                continue
+            gram_s = s_GM[i]
+            gram_img = gram_matrix(styled_features[i])
+            #!!! below was gram_img1
+            current_loss += float(weight) * L2distance(gram_img, gram_s.expand(
+                gram_img.size()))
+        out += current_loss * sim_weight
     out *= beta
     
     return out
@@ -92,8 +110,8 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
                 img_features = Vgg16(img)
 
                 content_loss = calc_content_loss(img_features, styled_features, alpha)
-
-                style_loss = calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, beta)
+                sim_weights = calc_sim_weights(img, style)
+                style_loss = calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
 
                 reg_loss = calc_reg_loss(styled_img, gamma)
                 
@@ -101,8 +119,8 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
                 running_style_loss += style_loss.item()
                 running_reg_loss += reg_loss.item()
 
-                sample_loss = content_loss + style_loss + reg_loss
-                losses.append(sample_loss)
+                img_loss = content_loss + style_loss + reg_loss
+                losses.append(img_loss)
                 
             loss = sum(losses) / len(losses)
             optimizer.zero_grad()
@@ -274,7 +292,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_path", default="./data",
                         help="Path to data root dir")
-    parser.add_argument("--style_path", help="Path to style image")
+    parser.add_argument("--style_path", help="Path folder containing style images")
     parser.add_argument("--checkpoint_path", type=str,
                         help="Checkpoints save path")
     parser.add_argument("--model_path", default='',
@@ -305,6 +323,8 @@ if __name__ == '__main__':
                         help="Save checkpoint at current training stage, float in (0, 1)")
     parser.add_argument("--adjust_lr_every", type=float, default=1,
                         help="Lr decrease factor")
+    parser.add_argument("--use_sim", action='store_true',
+                        help="Use similarity weights for style pics")
 
     args = parser.parse_args()
     manual_weights = args.manual_weights
@@ -334,6 +354,7 @@ if __name__ == '__main__':
     use_skip = args.use_skip
     save_at = args.save_at
     adjust_lr_every = args.adjust_lr_every
+    use_sim = args.use_sim
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
     # dataloader = DataLoader(FlyingChairsDataset("../FlyingChairs2/"),
@@ -378,6 +399,7 @@ if __name__ == '__main__':
     L2distance = nn.MSELoss().to(device)
     L2distancematrix = nn.MSELoss(reduction='none').to(device)
     Vgg16 = Vgg16().to(device)
+    resnet = ResNet18().to(device)
 
     transform_style = transforms.Compose([
         transforms.Resize(IMG_SIZE),
@@ -385,11 +407,11 @@ if __name__ == '__main__':
         transforms.Lambda(lambda x: x.mul(255)),
         normalize
     ])
-    style = Image.open(style_path)
-    style = transform_style(style)
+    style = [Image.open(os.path.join(style_path, filename)) for filename in os.listdir(style_path)]
+    style = [transform_style(s) for s in style]
     # print(style.size())
-    style = style.unsqueeze(0).expand(
-        1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device)
+    style = [s.unsqueeze(0).expand(
+        1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device) for s in style]
 
     for param in Vgg16.parameters():
         param.requires_grad = False
@@ -398,9 +420,10 @@ if __name__ == '__main__':
     STYLE_WEIGHTS = [1e-1, 1e0, 1e1, 5e0]
     # STYLE_WEIGHTS = [1.0] * 4 in another implementation
     # print(style.size())
-    styled_featuresR = Vgg16(style)
+    styled_featuresR = [Vgg16(s) for s in style]
     # print(styled_featuresR[1].size())
-    style_GM = [gram_matrix(f) for f in styled_featuresR]
+    style_GM = [[gram_matrix(f) for f in styled_feature] 
+    			for styled_feature in styled_featuresR]
     # print(len(style_GM))
 
     if phase == 'first':
