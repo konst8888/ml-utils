@@ -54,7 +54,7 @@ def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
     for s_GM, sim_weight in zip(style_GM, sim_weights):
         current_loss = 0
         for i, weight in enumerate(STYLE_WEIGHTS):
-            if i == 0:
+            if i in (0):
                 continue
             gram_s = s_GM[i]
             gram_img = gram_matrix(styled_features[i])
@@ -110,8 +110,6 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
                 img_features = Vgg16(img)
 
                 content_loss = calc_content_loss(img_features, styled_features, alpha)
-                content_loss += L2distance(styled_img, img)
-                content_loss /= 2
                 sim_weights = calc_sim_weights(img, style)
                 style_loss = calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
 

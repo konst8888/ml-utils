@@ -53,7 +53,9 @@ def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
     out = 0
     for s_GM, sim_weight in zip(style_GM, sim_weights):
         current_loss = 0
-        for i, weight in enumerate(STYLE_WEIGHTS[2:]):
+        for i, weight in enumerate(STYLE_WEIGHTS):
+            if i in (0):
+                continue
             gram_s = s_GM[i]
             gram_img = gram_matrix(styled_features[i])
             #!!! below was gram_img1
