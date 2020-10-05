@@ -54,8 +54,8 @@ def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
     for s_GM, sim_weight in zip(style_GM, sim_weights):
         current_loss = 0
         for i, weight in enumerate(STYLE_WEIGHTS):
-            if i in (0):
-                continue
+            #if i in (0, 1, np.nan):
+            #    continue
             gram_s = s_GM[i]
             gram_img = gram_matrix(styled_features[i])
             #!!! below was gram_img1
@@ -289,6 +289,8 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 
 if __name__ == '__main__':
     # python3 train.py --data_path /home/konstantinlipkin/Anaconda_files/data_test --style_path /home/konstantinlipkin/Anaconda_files/data_path/some_class/image.jpg --phase first
+    
+    #python3 train.py --data_path ~/konst/data/moderation_resized --style_path ~/konst/ml-utils/training/neural_style_transfer/styles --checkpoint_path ~/konst/model_checkpoints/neural_style_transfer --phase first --batch_size 12 --manual_weights --alpha 5e5 --beta 1e3 --gamma 1e-6 --epochs 2 --save_at 0.5 --adjust_lr_every 0.3
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_path", default="./data",
                         help="Path to data root dir")
@@ -360,7 +362,7 @@ if __name__ == '__main__':
     # dataloader = DataLoader(FlyingChairsDataset("../FlyingChairs2/"),
     # batch_size=1)
     if phase == 'first':
-        IMG_SIZE = (400, 400) # 256, 256
+        IMG_SIZE = (600, 600) # 256, 256
         transform = T.Compose([
 #            T.Resize(IMG_SIZE), # no resize if image were resized
             T.RandomHorizontalFlip(),

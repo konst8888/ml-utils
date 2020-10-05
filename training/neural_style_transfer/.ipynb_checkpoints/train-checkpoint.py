@@ -54,8 +54,8 @@ def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
     for s_GM, sim_weight in zip(style_GM, sim_weights):
         current_loss = 0
         for i, weight in enumerate(STYLE_WEIGHTS):
-            if i in (0):
-                continue
+            #if i in (0, 1, np.nan):
+            #    continue
             gram_s = s_GM[i]
             gram_img = gram_matrix(styled_features[i])
             #!!! below was gram_img1
@@ -360,7 +360,7 @@ if __name__ == '__main__':
     # dataloader = DataLoader(FlyingChairsDataset("../FlyingChairs2/"),
     # batch_size=1)
     if phase == 'first':
-        IMG_SIZE = (400, 400) # 256, 256
+        IMG_SIZE = (600, 600) # 256, 256
         transform = T.Compose([
 #            T.Resize(IMG_SIZE), # no resize if image were resized
             T.RandomHorizontalFlip(),
