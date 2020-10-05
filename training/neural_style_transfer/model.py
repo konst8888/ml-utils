@@ -1,6 +1,7 @@
 import torch
 from torch import nn
 from frn import FRN, TLU
+from kornia.filters import filter2D
 
 
 class ConvLayer(nn.Module):
@@ -121,6 +122,16 @@ class Encoder(nn.Module):
             f_map = x
             x = self.layers_second(x)
             return x, f_map
+            
+class Blur(nn.Module):
+    def __init__(self):
+        super().__init__()
+        f = torch.Tensor([1, 2, 1])
+        self.register_buffer('f', f)
+    def forward(self, x):
+        f = self.f
+        f = f[None, None, :] * f [None, :, None]
+        return filter2D(x, f, normalized=True)
 
 
 class Decoder(nn.Module):
@@ -133,8 +144,10 @@ class Decoder(nn.Module):
         if not use_skip:
             self.layers = nn.Sequential(
                 nn.Upsample(scale_factor=2),
+                Blur(),
                 ConvNormLayer(filter_counts[0], filter_counts[1], 3, 1, frn=frn),
                 nn.Upsample(scale_factor=2),
+                Blur(),
                 ConvNormLayer(filter_counts[1], filter_counts[2], 3, 1, frn=frn),
                 ConvNoTanhLayer(filter_counts[2], 3, 3, 1)
             )
