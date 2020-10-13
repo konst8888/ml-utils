@@ -364,7 +364,7 @@ if __name__ == '__main__':
     if phase == 'first':
         IMG_SIZE = (600, 600) # 256, 256
         transform = T.Compose([
-#            T.Resize(IMG_SIZE), # no resize if image were resized
+            T.Resize(IMG_SIZE), # no resize if image were resized
             T.RandomHorizontalFlip(),
             T.ToTensor(),
             T.Lambda(lambda x: x.mul(2).sub(1))

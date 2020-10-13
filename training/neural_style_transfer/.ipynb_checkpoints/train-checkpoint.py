@@ -101,6 +101,8 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
              
             losses = []
             for img in sample:
+                #print(img.shape)
+                #print()
                 img = img.unsqueeze(0)
                 feature_map, styled_img = model(img)
                 styled_img = normalize_after_reconet(styled_img)
@@ -289,6 +291,8 @@ def train_second_phase(model, dataloader, optimizer, L2distance, L2distancematri
 
 if __name__ == '__main__':
     # python3 train.py --data_path /home/konstantinlipkin/Anaconda_files/data_test --style_path /home/konstantinlipkin/Anaconda_files/data_path/some_class/image.jpg --phase first
+    
+    #python3 train.py --data_path ~/konst/data/moderation_resized --style_path ~/konst/ml-utils/training/neural_style_transfer/styles --checkpoint_path ~/konst/model_checkpoints/neural_style_transfer --phase first --batch_size 12 --manual_weights --alpha 5e5 --beta 1e3 --gamma 1e-6 --epochs 2 --save_at 0.5 --adjust_lr_every 0.3
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_path", default="./data",
                         help="Path to data root dir")
@@ -362,7 +366,7 @@ if __name__ == '__main__':
     if phase == 'first':
         IMG_SIZE = (600, 600) # 256, 256
         transform = T.Compose([
-#            T.Resize(IMG_SIZE), # no resize if image were resized
+            T.Resize(IMG_SIZE), # no resize if image were resized
             T.RandomHorizontalFlip(),
             T.ToTensor(),
             T.Lambda(lambda x: x.mul(2).sub(1))
