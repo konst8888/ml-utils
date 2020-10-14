@@ -1,13 +1,14 @@
 import tensorflow as tf
-import keras
+import tensorflow.keras as keras
 import numpy as np
-from keras.models import Sequential, Model
-from keras.engine.topology import Layer
-from keras.engine import InputSpec
-from keras.layers import Conv2D, ReLU, UpSampling2D
-import keras.backend as K
-from keras import regularizers, constraints, initializers
-from tensorflow_addons.layers import TLU, InstanceNormalization
+from tensorflow.keras.models import Sequential, Model
+#from keras.engine.topology import Layer
+#from keras.engine import InputSpec
+from tensorflow.keras.layers import Layer, InputSpec
+from tensorflow.keras.layers import Conv2D, ReLU, UpSampling2D
+import tensorflow.keras.backend as K
+from tensorflow.keras import regularizers, constraints, initializers
+from tensorflow_addons.layers import InstanceNormalization #, TLU
 
 class ReflectionPad2d(Layer):
     def __init__(self, padding=(1, 1), **kwargs):
@@ -106,6 +107,110 @@ class FRN(Layer):
 
     def call(self, inputs, training=None):
         return frn_layer_keras(x=inputs, tau=self.tau, beta=self.beta, gamma=self.gamma, epsilon=self.epsilon)
+    
+
+class TLU(tf.keras.layers.Layer):
+    r"""Thresholded Linear Unit.
+
+    An activation function which is similar to ReLU
+    but with a learned threshold that benefits models using FRN(Filter Response
+    Normalization). Original paper: https://arxiv.org/pdf/1911.09737.
+
+    Input shape:
+        Arbitrary. Use the keyword argument `input_shape`
+        (tuple of integers, does not include the samples axis)
+        when using this layer as the first layer in a model.
+
+    Output shape:
+        Same shape as the input.
+
+    Arguments:
+        affine: `bool`. Whether to make it TLU-Affine or not
+            which has the form $\max(x, \alpha*x + \tau)$`
+    """
+
+    def __init__(
+        self,
+        affine: bool = False,
+        tau_initializer = "zeros",
+        tau_regularizer = None,
+        tau_constraint = None,
+        alpha_initializer = "zeros",
+        alpha_regularizer = None,
+        alpha_constraint = None,
+        **kwargs
+    ):
+        super().__init__(**kwargs)
+        self.supports_masking = True
+        self.affine = affine
+        self.tau_initializer = tf.keras.initializers.get(tau_initializer)
+        self.tau_regularizer = tf.keras.regularizers.get(tau_regularizer)
+        self.tau_constraint = tf.keras.constraints.get(tau_constraint)
+        if self.affine:
+            self.alpha_initializer = tf.keras.initializers.get(alpha_initializer)
+            self.alpha_regularizer = tf.keras.regularizers.get(alpha_regularizer)
+            self.alpha_constraint = tf.keras.constraints.get(alpha_constraint)
+
+    def build(self, input_shape):
+        #param_shape = list(input_shape[1:])
+        #print(param_shape)
+        param_shape = list(input_shape[3:])
+        self.tau = self.add_weight(
+            shape=param_shape,
+            name="tau",
+            initializer=self.tau_initializer,
+            regularizer=self.tau_regularizer,
+            constraint=self.tau_constraint,
+            synchronization=tf.VariableSynchronization.AUTO,
+            aggregation=tf.VariableAggregation.MEAN,
+        )
+        #self.tau = np.array([1, 2, 3], dtype=np.float32)
+        if self.affine:
+            self.alpha = self.add_weight(
+                shape=param_shape,
+                name="alpha",
+                initializer=self.alpha_initializer,
+                regularizer=self.alpha_regularizer,
+                constraint=self.alpha_constraint,
+                synchronization=tf.VariableSynchronization.AUTO,
+                aggregation=tf.VariableAggregation.MEAN,
+            )
+
+        #axes = {i: input_shape[i] for i in range(1, len(input_shape))}
+        axes = {3: input_shape[3]}
+        self.input_spec = tf.keras.layers.InputSpec(ndim=len(input_shape), axes=axes)
+        self.built = True
+
+    def call(self, inputs):
+        v = self.alpha * inputs if self.affine else 0
+        #shape = inputs.shape[1:]
+        #tau = tf.ones(shape) * self.tau
+        return tf.maximum(inputs, self.tau + v)
+
+    def get_config(self):
+        config = {
+            "tau_initializer": tf.keras.initializers.serialize(self.tau_initializer),
+            "tau_regularizer": tf.keras.regularizers.serialize(self.tau_regularizer),
+            "tau_constraint": tf.keras.constraints.serialize(self.tau_constraint),
+            "affine": self.affine,
+        }
+
+        if self.affine:
+            config["alpha_initializer"] = tf.keras.initializers.serialize(
+                self.alpha_initializer
+            )
+            config["alpha_regularizer"] = tf.keras.regularizers.serialize(
+                self.alpha_regularizer
+            )
+            config["alpha_constraint"] = tf.keras.constraints.serialize(
+                self.alpha_constraint
+            )
+
+        base_config = super().get_config()
+        return {**base_config, **config}
+
+    def compute_output_shape(self, input_shape):
+        return input_shape
     
 
 class ConvNormLayer(Layer):
@@ -241,7 +346,7 @@ class Decoder(Layer):
             return x
 
         
-class ReCoNetMobile(Layer):
+class ReCoNetMobile(Model):
     def __init__(self, frn=True, a=0.5, b=0.75, use_skip=False):
         super().__init__()
         self.use_skip = use_skip

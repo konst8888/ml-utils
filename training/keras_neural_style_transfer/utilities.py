@@ -39,7 +39,8 @@ def normalizeVGG16(img, div=True):
         #img = img.div_(255.0)
         img = img / 255.0
     else:
-        pass
+        #pass
+        img = (img + 1) / 2
         #img = img.add_(1).div_(2)
     return (img - mean) / std
 

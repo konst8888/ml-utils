@@ -17,9 +17,10 @@ import argparse
 
 import numpy as np
 import tensorflow as tf
-import keras
-from keras.preprocessing.image import ImageDataGenerator
-from keras.models import load_model, save_model
+import tensorflow.keras as keras
+import tensorflow.keras.backend as K
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.models import load_model, save_model
 
 #import flowlib
 from model import ReCoNetMobile
@@ -88,62 +89,47 @@ def adjust_lr(sample_counter, adjust_lr_every, batch_size, optimizer):
 class RunningLosses:
     
     def __init__(self):
-        self.content_loss = tf.cast(0., tf.float32)
-        self.style_loss = tf.cast(0., tf.float32)
-        self.reg_loss = tf.cast(0., tf.float32)
-        self.counter = tf.cast(0., tf.float32)
-    
-    @tf.function
-    def update(self, content, style, reg):
-        self.content_loss += content
-        self.style_loss += style
-        self.reg_loss += reg
-        self.counter += tf.cast(1., tf.float32)
-    
-    @tf.function
-    def get_losses(self):
-        with tf.init_scope():
-            return tf.constant(
-                fn=tf.map_fn(lambda x: x / self.counter, 
-                elems=tf.constant([self.content_loss, self.style_loss, self.reg_loss]))
-            )
-        
-class RunningLosses:
-    
-    def __init__(self):
         self.content_loss = 0.
         self.style_loss = 0.
         self.reg_loss = 0.
         self.counter = 0
     
-    def update(self, content, style, reg):
-        self.content_loss += content
-        self.style_loss += style
-        self.reg_loss += reg
-        self.counter += 1
+    def update(self, losses_pbar):
+        self.content_loss += float(losses_pbar['content'])
+        self.style_loss += float(losses_pbar['style'])
+        self.reg_loss += float(losses_pbar['reg'])
+        self.counter += int(losses_pbar['count'])
     
     def get_losses(self):
         return list(
-            map(lambda x: x / self.counter, 
+            map(lambda x: x / max(self.counter, 1), 
             [self.content_loss, self.style_loss, self.reg_loss])
         )
 
     def reset(self):
         self.__init__()
+        
    
 @tf.function
 def compute_loss_and_grads(sample, rl):
     with tf.GradientTape() as tape:
         #losses = []
+        #losses_pbar = tf.TensorArray(tf.float32, size=3)
+        losses_pbar = {
+            'content': 0.,
+            'style': 0.,
+            'reg': 0.,
+            'count': 0
+        }
         losses = tf.TensorArray(tf.float32, size=sample.shape[0])
         for i in range(sample.shape[0]):
             img = tf.expand_dims(sample[i], axis=0)
-            #print(img.max(), img.min())
-            #sys.exit(1)
             feature_map, styled_img = model(img, training=True)
             styled_img = normalize_after_reconet(styled_img)
             img = normalize_after_reconet(img)
 
+            tf.print(img, output_stream=sys.stderr)
+            sys.exit()
             styled_features = Vgg16(styled_img)
             img_features = Vgg16(img)
 
@@ -151,17 +137,19 @@ def compute_loss_and_grads(sample, rl):
             sim_weights = calc_sim_weights(img, style)
             style_loss = calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
             reg_loss = calc_reg_loss(styled_img, gamma)
-            print(type(content_loss))
-            rl.update(content_loss, style_loss, reg_loss)
 
             img_loss = content_loss + style_loss + reg_loss
-            #losses.append(img_loss)
             losses = losses.write(i, img_loss)
-
+            
+            losses_pbar['content'] += content_loss
+            losses_pbar['style'] += style_loss
+            losses_pbar['reg'] += reg_loss
+            losses_pbar['count'] += 1
+            
         loss = tf.reduce_sum(losses.stack()) #/ len(losses)    
         
     grads = tape.gradient(loss, model.trainable_weights)
-    return loss, grads
+    return loss, grads, losses_pbar
 
 
 def train_first_phase(model, generator, optimizer, Vgg16, style_GM,
@@ -172,66 +160,75 @@ def train_first_phase(model, generator, optimizer, Vgg16, style_GM,
     if adjust_lr_every < 1:
         adjust_lr_every = adjust_lr_every * data_len * batch_size
     adjust_lr_every = int(adjust_lr_every)
-    iter_count = int(data_len / batch_size) + 1
     rl = RunningLosses()
-    
     for epoch in range(epochs):
         running_content_loss = 0.
         running_style_loss = 0.
         running_reg_loss = 0.
         pbar = tqdm.tqdm(enumerate(generator), total=len(generator))
+        #print(next(iter(pbar))[1].shape)
         for idx, sample in pbar:
-            if idx > iter_count:
+            if idx > data_len:
                 break
-            #print(epoch)
             sample_counter += batch_size
             #adjust_lr(sample_counter, adjust_lr_every, batch_size, optimizer)
-                        
+            
             with tf.GradientTape() as tape:
-                losses = []
-                for img in sample:
-                    img = np.expand_dims(img, axis=0)
+                #losses = []
+                #losses_pbar = tf.TensorArray(tf.float32, size=3)
+                losses_pbar = {
+                    'content': 0.,
+                    'style': 0.,
+                    'reg': 0.,
+                    'count': 0
+                }
+                losses = tf.TensorArray(tf.float32, size=sample.shape[0])
+                for i in range(sample.shape[0]):
+                    img = tf.expand_dims(sample[i], axis=0)
+                    img = img * 2 - 1
+                    #img = np.array(img)
                     #print(img.max(), img.min())
-                    #sys.exit(1)
                     feature_map, styled_img = model(img, training=True)
+                    #styled_img = np.array(styled_img)
+                    #print(styled_img.max(), styled_img.min())
                     styled_img = normalize_after_reconet(styled_img)
+                    #styled_img = np.array(styled_img)
+                    #print(styled_img.max(), styled_img.min())
                     img = normalize_after_reconet(img)
+                    #img = np.array(img)
+                    #print(img.max(), img.min())
 
+                    #sys.exit()
                     styled_features = Vgg16(styled_img)
+                    print(np.array(styled_features[0]).max(), np.array(styled_features[0]).min())
                     img_features = Vgg16(img)
+                    print(np.array(img_features[0]).max(), np.array(img_features[0]).min())
+                    sys.exit()
 
+                    #for s in styled_features:
+                    #    print(s.shape)
+                    #sys.exit()
                     content_loss = calc_content_loss(img_features, styled_features, alpha)
                     sim_weights = calc_sim_weights(img, style)
                     style_loss = calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
                     reg_loss = calc_reg_loss(styled_img, gamma)
-                    
-                    #running_content_loss += float(content_loss) #.item()
-                    #running_style_loss += float(style_loss)
-                    #running_reg_loss += float(reg_loss)
-                    rl.update(content_loss, style_loss, reg_loss)
 
                     img_loss = content_loss + style_loss + reg_loss
-                    losses.append(img_loss)
-                    
-                loss = sum(losses) / len(losses)
+                    losses = losses.write(i, img_loss)
+
+                    losses_pbar['content'] += content_loss
+                    losses_pbar['style'] += style_loss
+                    losses_pbar['reg'] += reg_loss
+                    losses_pbar['count'] += 1
+
+                #loss = tf.reduce_sum(losses.stack()) / len(losses)    
+                loss = K.mean(losses.stack())
 
             grads = tape.gradient(loss, model.trainable_weights)
-                            
-            #content_loss, style_loss, reg_loss, grads = compute_loss_and_grads(sample)
-            #loss, grads = compute_loss_and_grads(sample, rl)
-            
+            #loss, grads, losses_pbar = compute_loss_and_grads(sample, rl)
+
             optimizer.apply_gradients(zip(grads, model.trainable_weights))
-            #sys.exit(1)
-            scale_value = 1. / batch_size / max(idx, 1)
-            """pbar.set_description(
-                "Epoch: {}/{} Losses -> Content: {:.4f} Style: {:.4f} Reg: {:.4f}".format(
-                    epoch,
-                    epochs,
-                    running_content_loss * scale_value,
-                    running_style_loss * scale_value,
-                    running_reg_loss * scale_value
-                )
-            )"""
+            rl.update(losses_pbar)
             losses = rl.get_losses()
             pbar.set_description(
                 "Epoch: {}/{} Losses -> Content: {:.4f} Style: {:.4f} Reg: {:.4f}".format(
@@ -242,14 +239,13 @@ def train_first_phase(model, generator, optimizer, Vgg16, style_GM,
             )
 
             if checkpoint_path is not None and idx in (int(data_len * save_at) - 1, data_len - 1):
-                save_model(
-                    model,
-                    os.path.join(checkpoint_path, 'reconet_phase_{}_epoch_{}_loss_{:.4f}.pth'.format(
+                model.save_weights(
+                    os.path.join(checkpoint_path, 'reconet_phase_{}_epoch_{}_loss_{:.4f}.h5'.format(
                         phase,
                         epoch,
-                        loss))
+                        loss)),
+                    save_format='h5'
                 )
-
 
 if __name__ == '__main__':
     # python3 train.py --data_path /home/konstantinlipkin/Anaconda_files/data_test --style_path /home/konstantinlipkin/Anaconda_files/data_path/some_class/image.jpg --phase first
@@ -294,7 +290,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     manual_weights = args.manual_weights
-
+    
     if manual_weights:
         alpha = args.alpha
         beta = args.beta
@@ -322,6 +318,10 @@ if __name__ == '__main__':
     adjust_lr_every = args.adjust_lr_every
     use_sim = args.use_sim
     #device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    
+    physical_devices = tf.config.list_physical_devices('GPU')
+    for p in physical_devices:
+        tf.config.experimental.set_memory_growth(p, True)
 
     # dataloader = DataLoader(FlyingChairsDataset("../FlyingChairs2/"),
     # batch_size=1)
@@ -347,7 +347,7 @@ if __name__ == '__main__':
         data_path,
         target_size=IMG_SIZE,
         interpolation='bilinear',
-        batch_size=4,
+        batch_size=batch_size,
         class_mode=None,
         classes=None
     )
@@ -381,13 +381,14 @@ if __name__ == '__main__':
     style = [np.array(s.resize(IMG_SIZE)) for s in style]
     style = [np.expand_dims(normalize(s), axis=0) for s in style]
     
-    #for param in Vgg16.parameters():
-    #    param.requires_grad = False
-
     # [1e-1, 1e0, 1e1, 5e0, 1e1] not sure about what value to be deleted
     STYLE_WEIGHTS = [1e-1, 1e0, 1e1, 5e0]
     # STYLE_WEIGHTS = [1.0] * 4 in another implementation
     styled_featuresR = [Vgg16(s) for s in style]
+    for s in styled_featuresR[0]:
+        print(tf.math.reduce_mean(s))
+    sys.exit()
+
     # print(styled_featuresR[1].size())
     style_GM = [[gram_matrix(f) for f in styled_feature] 
     			for styled_feature in styled_featuresR]

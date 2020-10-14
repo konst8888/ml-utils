@@ -1,9 +1,11 @@
 from tensorflow.keras.applications.vgg16 import VGG16
-from keras.engine.topology import Layer
-from keras.models import Sequential
+#from keras.engine.topology import Layer
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Layer
+from tensorflow.keras.models import Sequential
 from collections import namedtuple
 
-class Vgg16(Layer):
+class Vgg16(Model):
     def __init__(self, device='cpu'):
         super(Vgg16, self).__init__()
         vgg_pretrained = VGG16(weights='imagenet', include_top=False)
@@ -19,9 +21,9 @@ class Vgg16(Layer):
             self.slice3.add(vgg_pretrained.layers[x])
         for x in range(10, 14):
             self.slice4.add(vgg_pretrained.layers[x])
-        
-        #for param in self.parameters():
-        #    param.requires_grad = False
+                
+        for layer in self.layers:
+            layer.trainable = False
             
     def call(self, x):
         h = self.slice1(x)
@@ -35,3 +37,15 @@ class Vgg16(Layer):
         vgg_outputs = namedtuple("VggOutputs", ['relu1_2', 'relu2_2', 'relu3_3', 'relu4_3'])
         out = vgg_outputs(h_relu1_2, h_relu2_2, h_relu3_3, h_relu4_3)
         return out
+    
+"""
+class Vgg16(Model):
+    
+    def __init__(self):
+        
+        vgg_pretrained = VGG16(weights='imagenet', include_top=False)
+        self.vgg16_layer_dict = {layer.name:layer for layer in vgg_pretrained.layers}
+        self.style_layers = ['block1_conv2','block2_conv2','block3_conv3','block4_conv3']
+        
+        self.slice1 = 
+"""
