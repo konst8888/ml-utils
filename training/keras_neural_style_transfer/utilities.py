@@ -8,23 +8,20 @@ import torch.utils.data
 import torchvision.datasets as dset
 import torchvision.transforms as transforms
 import torchvision.utils as vutils
+from tensorflow.keras.applications.vgg16 import preprocess_input
 from torch.autograd import Variable
 from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-#import flowlib
+import shutil
+import hydra
+import os
 
-
-device = 'cuda'
-ALPHA = 1e13 #previously 12, 2e10 // 1e4
-BETA  = 1e10 #1e6 #11, // 1e5
-GAMMA = 3e-2 #previously -3 // 1e-5
-LAMBDA_O = 1e6 # // 2e5
-LAMBDA_F = 1e4 # // e5
-IMG_SIZE = (640, 360)
+IMG_SIZE = (600, 600)
 VGG16_MEAN = [0.485, 0.456, 0.406]
 VGG16_STD = [0.229, 0.224, 0.225]
+
 
 def normalizeVGG16(img, div=True):
     if len(img.shape) == 3:
@@ -36,91 +33,32 @@ def normalizeVGG16(img, div=True):
     mean = np.array(VGG16_MEAN * pix_count).reshape(shape)
     std = np.array(VGG16_STD * pix_count).reshape(shape)
     if div:
-        #img = img.div_(255.0)
-        img = img / 255.0
+        img = img / 255
     else:
-        #pass
         img = (img + 1) / 2
-        #img = img.add_(1).div_(2)
+
     return (img - mean) / std
 
-normalize = lambda x: normalizeVGG16(x)
-normalize_after_reconet = lambda x: normalizeVGG16(x, div=False)
 
-#normalize = transforms.Lambda(lambda x: normalizeVGG16(x))
-#normalize_after_reconet = transforms.Lambda(lambda x: normalizeVGG16(x, div=False))
+def normalize(x): return normalizeVGG16(x)
 
 
-def gram_matrix(inp):
-    #inp = np.array(inp)
-    a, b, c, d = inp.shape
-    shape = (a * d, b * c)
-    print(inp)
-    features = tf.reshape(inp, shape)
-    #features = tf.transpose(inp, perm=[0, 3, 1, 2])
-    #print(features)
-    #a, b, c, d = features.shape
-    #shape = (a * b, c * d)
-    #features = tf.reshape(inp, shape)    
-    #G = np.dot(np.array(features), np.array(features).transpose())
-    G = tf.linalg.matmul(features, features, transpose_b=True)
-    #print(G)
-    #print(tf.reduce_mean(G))
-    return G / (a * b * c * d)
+def normalize_after_reconet(x): return normalizeVGG16(x, div=False)
+
 
 def gram_matrix(inp):
     a, b, c, d = inp.shape
     G = tf.linalg.einsum('bijc,bijd->bcd', inp, inp)
+
     return G / (a * b * c * d)
 
-def gram_matrix2(inp):
-    # print(input.size())
-    inp = torch.from_numpy(inp.numpy())
-    a, b, c, d = inp.size()
-    features = inp.view(a * d, b * c)
-    print(features)
-    G = torch.mm(features, features.t())
-    #print(torch.mm(features[:1], features[:1].t()))
-    #print(G.mean())
-    return G.div(a * b * c * d).numpy()
 
-
-def warp(x, flo, device):
-    """
-    warp an image/tensor (im2) back to im1, according to the optical flow
-    x: [B, C, H, W] (im2)
-    flo: [B, 2, H, W] flow
-    """
-    B, C, H, W = x.size()
-    # mesh grid 
-    xx = torch.arange(0, W).view(1,-1).repeat(H,1)
-    yy = torch.arange(0, H).view(-1,1).repeat(1,W)
-    xx = xx.view(1,1,H,W).repeat(B,1,1,1)
-    yy = yy.view(1,1,H,W).repeat(B,1,1,1)
-    grid = torch.cat((xx,yy),1).float()
-
-    if x.is_cuda:
-        grid = grid.cuda()
-        
-    vgrid = Variable(grid) + flo
-
-    # scale grid to [-1,1] 
-    vgrid[:,0,:,:] = 2.0*vgrid[:,0,:,:]/max(W-1,1)-1.0
-    vgrid[:,1,:,:] = 2.0*vgrid[:,1,:,:]/max(H-1,1)-1.0
-
-    vgrid = vgrid.permute(0,2,3,1)        
-    output = nn.functional.grid_sample(x, vgrid)
-    mask = torch.autograd.Variable(torch.ones(x.size())).to(device)
-    mask = nn.functional.grid_sample(mask, vgrid)
-
-    # if W==128:
-        # np.save('mask.npy', mask.cpu().data.numpy())
-        # np.save('warp.npy', output.cpu().data.numpy())
-    
-    mask[mask<0.9999] = 0
-    mask[mask>0] = 1
-    
-    return output*mask
-
-
-
+def save_code() -> None:
+    print(hydra.utils.get_original_cwd())
+    print(os.getcwd())
+    os.makedirs(os.path.join(os.getcwd(), "code"), exist_ok=True)
+    for filename in ["train.py", "network.py", "model.py", "utilities.py"]:
+        shutil.copy2(
+            os.path.join(hydra.utils.get_original_cwd(), filename),
+            os.path.join(os.getcwd(), "code", filename),
+        )

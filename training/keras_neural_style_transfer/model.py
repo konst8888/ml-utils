@@ -29,12 +29,13 @@ class ReflectionPad2d(Layer):
 
 
 class ConvLayer(Layer):
-    def __init__(self, out_channels, kernel_size, stride):
+    def __init__(self, out_channels, kernel_size, stride, activation=None):
         super().__init__()
 
         self.layers = Sequential([
             ReflectionPad2d(kernel_size // 2),
-            Conv2D(filters=out_channels, kernel_size=kernel_size, strides=stride)
+            Conv2D(filters=out_channels, kernel_size=kernel_size, strides=stride,
+                activation=activation)
         ])
 
     def call(self, x):
@@ -53,9 +54,7 @@ def frn_layer_keras(x, beta, gamma, epsilon=1e-6):
     #return K.maximum(gamma * x + beta, tau)
     return gamma * x + beta
 
-
 class FRN(Layer):
-
     def __init__(self,
                  epsilon=1e-6,
                  beta_initializer='zeros',
@@ -77,7 +76,6 @@ class FRN(Layer):
         self.gamma = None
         self.beta = None
         self.axis = -1
-
     def build(self, input_shape):
         dim = input_shape[self.axis]
         self.input_spec = InputSpec(ndim=len(input_shape), axes={self.axis: dim})
@@ -96,7 +94,6 @@ class FRN(Layer):
 
     def call(self, inputs, training=None):
         return frn_layer_keras(x=inputs, beta=self.beta, gamma=self.gamma, epsilon=self.epsilon)
-    
 
 class TLU(tf.keras.layers.Layer):
     r"""Thresholded Linear Unit.
@@ -251,7 +248,8 @@ class ConvNoTanhLayer(Layer):
     def __init__(self, out_channels, kernel_size, stride):
         super().__init__()
         self.layers = Sequential([
-            ConvLayer(out_channels, kernel_size, stride),
+            ConvLayer(out_channels, kernel_size, stride, activation="tanh"),
+
         ])
 
     def call(self, x):
@@ -261,9 +259,8 @@ class Encoder(Layer):
     def __init__(self, a, b, frn=False, use_skip=False):
         super().__init__()
         self.use_skip = use_skip
-        filter_counts = list(map(lambda x: int(a * x), [
-            32, 48, 64
-        ]))
+        filter_counts = [int(a*x) for x in [32, 48, 64]]
+
         if not use_skip:
             self.layers = Sequential([
                 ConvNormLayer(filter_counts[0], 3, 1, frn=frn),
@@ -299,9 +296,8 @@ class Decoder(Layer):
     def __init__(self, a, b, frn=False, use_skip=False):
         super().__init__()
         self.use_skip = use_skip
-        filter_counts = list(map(lambda x: int(a * x), [
-            64, 48, 32
-        ]))
+        filter_counts = [int(a*x) for x in [64, 48, 32]]
+
         if not use_skip:
             self.layers = Sequential([
                 UpSampling2D(size=(2, 2), interpolation="nearest"),
