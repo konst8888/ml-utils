@@ -1,0 +1,3 @@
+- dataset.path=../../../data_test
+- dataset.styles_path=../../../
+- +training.end_at=2

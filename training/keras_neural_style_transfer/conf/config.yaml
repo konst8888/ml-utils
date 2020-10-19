@@ -1,0 +1,33 @@
+general:
+  save_code: true
+dataset:
+  path: ../neural_style_transfer/data
+  styles_path: ../neural_style_transfer/styles
+  style: portrait_many_colors
+  style_path: ${dataset.styles_path}/${dataset.style}
+training:
+  batch_size: 1
+  manual_weights: true
+  epochs: 5.2
+  save_at: 0.05
+  adjust_lr_every: 0.1
+  lr: 1e-3
+  use_sim: false
+model:
+  path: reconet_unit_frn.h5
+  vgg_path: vgg_normalized_weights.h5
+  use_skip: false
+  seed: 1
+  loss_weights:
+    alpha: 5e-2
+    beta: 1e3
+    gamma: 1e-7
+  style_weights: [1e-1, 1e0, 1e1, 5e0]
+  checkpoint_path: ./model_checkpoints/
+  frn: true
+hydra:
+  run:
+    dir: outputs/${dataset.style}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: outputs/${dataset.style}/${now:%Y-%m-%d}/${now:%H-%M-%S}-multirun
+    subdir: ${hydra.job.num}
