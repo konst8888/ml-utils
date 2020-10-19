@@ -46,7 +46,10 @@ class RunningLosses:
 
 
 def train(cfg):
-    def train_first_phase(alpha, beta, gamma, epochs, checkpoint_path, save_at, adjust_lr_every, end_at):
+    def train_first_phase(alpha, beta, gamma, epochs, checkpoint_path, save_at, adjust_lr_every):
+        epochs, end_at = int(epochs // 1), epochs % 1
+        if end_at > 0:
+            epochs += 1
 
         def calc_sim_weights(img, style):
             if not use_sim:
@@ -68,10 +71,8 @@ def train(cfg):
         def calc_content_loss(img_features, styled_features, alpha):
             #out = (styled_features[2] - tf.reshape(img_features[2], styled_features[2].shape))
             out = tf.square(styled_features[2] - img_features[2])
-            out = tf.reduce_sum(out)
-            out *= alpha / (styled_features[2].shape[1] *
-                            styled_features[2].shape[2] *
-                            styled_features[2].shape[3])
+            out = tf.reduce_mean(out)
+            out *= alpha
 
             return out
 
@@ -81,13 +82,10 @@ def train(cfg):
             for s_GM, sim_weight in zip(style_GM, sim_weights):
                 current_loss = 0
                 for i, weight in enumerate(STYLE_WEIGHTS):
-                    # if i in (0, 1, np.nan):
-                    #    continue
+
                     gram_s = s_GM[i]
                     gram_img = gram_matrix(styled_features[i])
-                    #!!! below was gram_img1
-                    # current_loss += float(weight) * L2distance(gram_img, gram_s.expand(
-                    #    gram_img.size()))
+
                     current_loss += float(weight) * \
                         tf.reduce_mean(tf.square(gram_img - gram_s))
                 out += current_loss * sim_weight
@@ -112,7 +110,7 @@ def train(cfg):
                     param['lr'] = max(param['lr'] / 5., 1e-4)
 
         @tf.function
-        def compute_loss_and_grads(model, sample):
+        def compute_loss_and_grads(model, sample, rl):
             with tf.GradientTape() as tape:
                 losses_pbar = {
                     'content': 0.,
@@ -123,21 +121,12 @@ def train(cfg):
                 losses = tf.TensorArray(tf.float32, size=sample.shape[0])
                 for i in range(sample.shape[0]):
                     img = sample[i]
-                    # tf.print("start", output_stream=sys.stderr)
-                    # tf.print(tf.reduce_min(img), tf.reduce_max(img), output_stream=sys.stderr)
                     img = img * 2 - 1
-                    # tf.print(tf.reduce_min(img), tf.reduce_max(img), output_stream=sys.stderr)
                     img = tf.expand_dims(img, axis=0)
 
                     feature_map, styled_img = model(img, training=True)
-                    # tf.print(tf.reduce_min(styled_img), tf.reduce_max(styled_img), output_stream=sys.stderr)
                     styled_img = normalize_after_reconet(styled_img)
-                    # styled_img = tf.tanh(styled_img)
-                    # tf.print(tf.reduce_min(styled_img), tf.reduce_max(styled_img), output_stream=sys.stderr)
                     img = normalize_after_reconet(img)
-                    # tf.print(tf.reduce_min(img), tf.reduce_max(img), output_stream=sys.stderr)
-
-                    # sys.exit()
                     styled_features = vgg16(styled_img)
                     img_features = vgg16(img)
                     content_loss = calc_content_loss(
@@ -184,7 +173,7 @@ def train(cfg):
                 sample_counter += batch_size
                 #adjust_lr(sample_counter, adjust_lr_every, batch_size, optimizer)
 
-                loss, grads, losses_pbar = compute_loss_and_grads(model, sample)
+                loss, grads, losses_pbar = compute_loss_and_grads(model, sample, rl)
 
                 optimizer.apply_gradients(zip(grads, model.trainable_weights))
                 rl.update(losses_pbar)
@@ -207,7 +196,7 @@ def train(cfg):
                             losses[2],)),
                         save_format='h5'
                     )
-                if idx == int(data_len * end_at) - 1:
+                if idx == int(data_len * end_at) - 1 and epoch == epochs - 1:
                     return
 
     os.makedirs(cfg.model.checkpoint_path, exist_ok=True)
@@ -257,7 +246,6 @@ def train(cfg):
 
     use_sim = cfg.training.use_sim
     STYLE_WEIGHTS = cfg.model.style_weights
-    # STYLE_WEIGHTS = [1.0] * 4 in another implementation
     styled_featuresR = [vgg16(s) for s in style]
     for s in styled_featuresR[0]:
         print(tf.math.reduce_mean(s))
@@ -268,4 +256,4 @@ def train(cfg):
     train_first_phase(cfg.model.loss_weights.alpha,
                       cfg.model.loss_weights.beta, cfg.model.loss_weights.gamma,
                       cfg.training.epochs, cfg.model.checkpoint_path,
-                      cfg.training.save_at, cfg.training.adjust_lr_every, cfg.training.end_at)
+                      cfg.training.save_at, cfg.training.adjust_lr_every)
