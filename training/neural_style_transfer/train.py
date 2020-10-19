@@ -1,8 +1,3 @@
-"""
-Chaanges by Kushagra :- commented 53 line,
-Does the style tensor have batch size =2??? Or is that a mistake?
-"""
-
 import torch
 import torch.functional as F
 import torch.nn as nn
@@ -17,12 +12,14 @@ import matplotlib.pyplot as plt
 import flowlib
 from PIL import Image
 import tqdm
+import sys
 import argparse
 
 from model import ReCoNetMobile
 from utilities import *
 from network import *
 from totaldata import *
+from frn import *
 
 def calc_sim_weights(img, style):
     if not use_sim:
@@ -57,7 +54,13 @@ def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
             #if i in (0, 1, np.nan):
             #    continue
             gram_s = s_GM[i]
+            #print(styled_features[i].permute(0, 2, 3, 1).pow(2).sum())
             gram_img = gram_matrix(styled_features[i])
+            #print(gram_img)
+            #print(gram_img.shape)
+            #print(gram_img.mean())
+            #print(gram_matrix(torch.ones(1, 3, 100, 100)))
+            #sys.exit()
             #!!! below was gram_img1
             current_loss += float(weight) * L2distance(gram_img, gram_s.expand(
                 gram_img.size()))
@@ -102,17 +105,37 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
             losses = []
             for img in sample:
                 img = img.unsqueeze(0)
+                #print(img.permute(0, 2, 3, 1).detach().numpy())
                 feature_map, styled_img = model(img)
+                #print(styled_img.permute(0, 2, 3, 1).detach().numpy())
+                #print(styled_img.permute(0, 2, 3, 1).detach().numpy().mean())
+                #print()
+                #print(feature_map.permute(0, 2, 3, 1).detach().numpy())
+                #print(feature_map.permute(0, 2, 3, 1).detach().numpy().mean())
+                #sys.exit()
+                
+                #print(Vgg16(styled_img)[2].permute(0, 2, 3, 1).detach().numpy())
+                #print(Vgg16(img)[2].permute(0, 2, 3, 1).detach().numpy())
+                #print(Vgg16(img)[2].mean())
+                #sys.exit()
+
                 styled_img = normalize_after_reconet(styled_img)
                 img = normalize_after_reconet(img)
-
+                #print(img.permute(0, 2, 3, 1).detach().numpy())
+                #sys.exit()
+                
                 styled_features = Vgg16(styled_img)
                 img_features = Vgg16(img)
+                
+                #for s in styled_features:
+                #    print(s.mean())
+                #sys.exit()
 
                 content_loss = calc_content_loss(img_features, styled_features, alpha)
                 sim_weights = calc_sim_weights(img, style)
                 style_loss = calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
-
+                #print(style_loss)
+                #sys.exit()
                 reg_loss = calc_reg_loss(styled_img, gamma)
                 
                 running_content_loss += content_loss.item()
@@ -123,6 +146,8 @@ def train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
                 losses.append(img_loss)
                 
             loss = sum(losses) / len(losses)
+            print(loss)
+            sys.exit()
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
@@ -364,7 +389,7 @@ if __name__ == '__main__':
     if phase == 'first':
         IMG_SIZE = (600, 600) # 256, 256
         transform = T.Compose([
-            T.Resize(IMG_SIZE), # no resize if image were resized
+            T.Resize(IMG_SIZE, interpolation=Image.BICUBIC), # no resize if image were resized
             T.RandomHorizontalFlip(),
             T.ToTensor(),
             T.Lambda(lambda x: x.mul(2).sub(1))
@@ -394,9 +419,18 @@ if __name__ == '__main__':
 
     dataloader = DataLoader(**kwargs)
     model = ReCoNetMobile(frn=frn, use_skip=use_skip).to(device)
+    #print(sum(p.numel() for p in model.parameters()))
+    #sys.exit()
     if model_path:
         model.load_state_dict(torch.load(model_path, map_location=device))
 
+    #for layer in model.modules():
+    #    if isinstance(layer, (torch.nn.Conv2d, FRN)):
+    #        nn.init.ones_(layer.weight.data)
+    #        nn.init.ones_(layer.bias.data)
+    #    if isinstance(layer, TLU):
+    #        nn.init.ones_(layer.tau.data)
+        
     optimizer = optim.Adam(model.parameters(), lr=lr)
     L2distance = nn.MSELoss().to(device)
     L2distancematrix = nn.MSELoss(reduction='none').to(device)
@@ -404,7 +438,7 @@ if __name__ == '__main__':
     resnet = ResNet18().to(device)
 
     transform_style = transforms.Compose([
-        transforms.Resize(IMG_SIZE),
+        transforms.Resize(IMG_SIZE, interpolation=Image.BICUBIC),
         transforms.ToTensor(),
         transforms.Lambda(lambda x: x.mul(255)),
         normalize
@@ -412,9 +446,9 @@ if __name__ == '__main__':
     style = [Image.open(os.path.join(style_path, filename)) for filename in os.listdir(style_path) if not filename.endswith('checkpoints')]
     style = [transform_style(s) for s in style]
     # print(style.size())
+    #print(style[0].permute(0, 2, 3, 1).numpy())
     style = [s.unsqueeze(0).expand(
         1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device) for s in style]
-
     for param in Vgg16.parameters():
         param.requires_grad = False
 
@@ -427,7 +461,11 @@ if __name__ == '__main__':
     style_GM = [[gram_matrix(f) for f in styled_feature] 
     			for styled_feature in styled_featuresR]
     # print(len(style_GM))
-
+    
+    #for s in styled_featuresR[0]:
+    #    print(s.mean())
+    #sys.exit()
+    
     if phase == 'first':
         train_first_phase(model, dataloader, optimizer, L2distance, Vgg16, style_GM,
                           STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, device, save_at, adjust_lr_every)

@@ -12,7 +12,7 @@ class ResNet18(nn.Module):
         super(ResNet18, self).__init__()
         self.resnet = resnet18(pretrained=True).eval()
         self.layer = self.resnet._modules.get('avgpool')
-	
+
     def forward(self, x):
         t_img = Variable(x)
         embedding = torch.zeros((512, 512)).view(1, 512, 1, 512)

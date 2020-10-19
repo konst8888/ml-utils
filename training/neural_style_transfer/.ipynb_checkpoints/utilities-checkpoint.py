@@ -45,11 +45,16 @@ transform2 = transforms.Compose([
                 ])
 
 
-def gram_matrix(input):
+def gram_matrix(inp):
     # print(input.size())
-    a, b, c, d = input.size()
-    features = input.view(a * b, c * d)
+    a, b, c, d = inp.size()
+    #print(inp.permute(0, 2, 3, 1))
+    features = inp.view(a * b, c * d)
+    #print(features)
     G = torch.mm(features, features.t())
+    #print(G)
+    #print(torch.mm(features[:1], features[:1].t()))
+    #print(G.mean())
     return G.div(a * b * c * d)
 
 def warp(x, flo, device):
