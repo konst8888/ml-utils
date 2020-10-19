@@ -54,12 +54,36 @@ normalize_after_reconet = lambda x: normalizeVGG16(x, div=False)
 def gram_matrix(inp):
     #inp = np.array(inp)
     a, b, c, d = inp.shape
-    #features = inp.reshape(a * b, c * d)
     shape = (a * d, b * c)
+    print(inp)
     features = tf.reshape(inp, shape)
-    #G = np.dot(features, features.transpose())
+    #features = tf.transpose(inp, perm=[0, 3, 1, 2])
+    #print(features)
+    #a, b, c, d = features.shape
+    #shape = (a * b, c * d)
+    #features = tf.reshape(inp, shape)    
+    #G = np.dot(np.array(features), np.array(features).transpose())
     G = tf.linalg.matmul(features, features, transpose_b=True)
+    #print(G)
+    #print(tf.reduce_mean(G))
     return G / (a * b * c * d)
+
+def gram_matrix(inp):
+    a, b, c, d = inp.shape
+    G = tf.linalg.einsum('bijc,bijd->bcd', inp, inp)
+    return G / (a * b * c * d)
+
+def gram_matrix2(inp):
+    # print(input.size())
+    inp = torch.from_numpy(inp.numpy())
+    a, b, c, d = inp.size()
+    features = inp.view(a * d, b * c)
+    print(features)
+    G = torch.mm(features, features.t())
+    #print(torch.mm(features[:1], features[:1].t()))
+    #print(G.mean())
+    return G.div(a * b * c * d).numpy()
+
 
 def warp(x, flo, device):
     """

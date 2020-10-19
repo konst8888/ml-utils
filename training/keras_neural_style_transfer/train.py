@@ -23,7 +23,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import load_model, save_model
 
 #import flowlib
-from model import ReCoNetMobile
+from model import *
 from utilities import *
 from network import *
 #from totaldata import *
@@ -47,7 +47,7 @@ def calc_sim_weights(img, style):
 def calc_content_loss(img_features, styled_features, alpha):
     #out = (styled_features[2] - tf.reshape(img_features[2], styled_features[2].shape))
     out = tf.square(styled_features[2] - img_features[2])
-    out = tf.reduce_sum(out)
+    out = tf.reduce_mean(out)
     out *= alpha / (styled_features[2].shape[1] *
                  styled_features[2].shape[2] *
                  styled_features[2].shape[3])
@@ -62,11 +62,17 @@ def calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
             #if i in (0, 1, np.nan):
             #    continue
             gram_s = s_GM[i]
+            #print(tf.reduce_sum(styled_features[i] ** 2))
             gram_img = gram_matrix(styled_features[i])
+            #print(gram_img)
+            #print(gram_img.shape)
+            #print(tf.reduce_mean(gram_img))
+            #print(gram_matrix(tf.ones((1, 100, 100, 3))))
+            #sys.exit()
             #!!! below was gram_img1
             #current_loss += float(weight) * L2distance(gram_img, gram_s.expand(
             #    gram_img.size()))
-            current_loss += float(weight) * tf.reduce_sum(tf.square(gram_img - gram_s))
+            current_loss += float(weight) * tf.reduce_mean(tf.square(gram_img - gram_s))
         out += current_loss * sim_weight
     out *= beta
 
@@ -186,31 +192,36 @@ def train_first_phase(model, generator, optimizer, Vgg16, style_GM,
                 for i in range(sample.shape[0]):
                     img = tf.expand_dims(sample[i], axis=0)
                     img = img * 2 - 1
-                    #img = np.array(img)
-                    #print(img.max(), img.min())
+                    #print(img)
                     feature_map, styled_img = model(img, training=True)
-                    #styled_img = np.array(styled_img)
-                    #print(styled_img.max(), styled_img.min())
-                    styled_img = normalize_after_reconet(styled_img)
-                    #styled_img = np.array(styled_img)
-                    #print(styled_img.max(), styled_img.min())
-                    img = normalize_after_reconet(img)
-                    #img = np.array(img)
-                    #print(img.max(), img.min())
-
+                    #print(styled_img)
+                    #print(tf.reduce_mean(styled_img))
+                    #print()
+                    #print(feature_map)
+                    #print(tf.reduce_mean(feature_map))
                     #sys.exit()
-                    styled_features = Vgg16(styled_img)
-                    print(np.array(styled_features[0]).max(), np.array(styled_features[0]).min())
-                    img_features = Vgg16(img)
-                    print(np.array(img_features[0]).max(), np.array(img_features[0]).min())
-                    sys.exit()
+                    
+                    #print(Vgg16(styled_img)[2])
+                    #print(Vgg16(img)[2])
+                    #print(tf.reduce_mean(Vgg16(img)[2]))
+                    #sys.exit()
 
+                    styled_img = normalize_after_reconet(styled_img)
+                    img = normalize_after_reconet(img)
+                    #print(img)
+                    #sys.exit()
+
+                    styled_features = Vgg16(styled_img)
+                    img_features = Vgg16(img)
+                    
                     #for s in styled_features:
-                    #    print(s.shape)
+                    #    print(tf.reduce_mean(s))
                     #sys.exit()
                     content_loss = calc_content_loss(img_features, styled_features, alpha)
                     sim_weights = calc_sim_weights(img, style)
                     style_loss = calc_style_loss(style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
+                    #print(style_loss)
+                    #sys.exit()
                     reg_loss = calc_reg_loss(styled_img, gamma)
 
                     img_loss = content_loss + style_loss + reg_loss
@@ -223,6 +234,8 @@ def train_first_phase(model, generator, optimizer, Vgg16, style_GM,
 
                 #loss = tf.reduce_sum(losses.stack()) / len(losses)    
                 loss = K.mean(losses.stack())
+                print(loss)
+                sys.exit()
 
             grads = tape.gradient(loss, model.trainable_weights)
             #loss, grads, losses_pbar = compute_loss_and_grads(sample, rl)
@@ -346,7 +359,7 @@ if __name__ == '__main__':
     generator = datagen.flow_from_directory(
         data_path,
         target_size=IMG_SIZE,
-        interpolation='bilinear',
+        interpolation='bicubic', #bilinear
         batch_size=batch_size,
         class_mode=None,
         classes=None
@@ -358,7 +371,17 @@ if __name__ == '__main__':
     if model_path:
         model = load_model(model_path, compile=False)
         #model.load_state_dict(torch.load(model_path, map_location=device))
-
+        
+    for layer in model.submodules:
+        if isinstance(layer, tf.keras.layers.Conv2D):
+            layer.kernel_initializer = 'ones'
+            layer.bias_initializer = 'ones'
+        if isinstance(layer, FRN):
+            layer.gamma_initializer = 'ones'
+            layer.beta_initializer = 'ones'
+        if isinstance(layer, TLU):
+            layer.beta_initializer = 'ones'
+        
     #optimizer = optim.Adam(model.parameters(), lr=lr)
     optimizer = keras.optimizers.Adam(lr=lr)
 
@@ -378,21 +401,20 @@ if __name__ == '__main__':
     # print(style.size())
     #style = [s.unsqueeze(0).expand(
     #    1, 3, IMG_SIZE[0], IMG_SIZE[1]).to(device) for s in style]
-    style = [np.array(s.resize(IMG_SIZE)) for s in style]
+    style = [np.array(s.resize(IMG_SIZE, Image.BICUBIC)) for s in style]
     style = [np.expand_dims(normalize(s), axis=0) for s in style]
-    
     # [1e-1, 1e0, 1e1, 5e0, 1e1] not sure about what value to be deleted
     STYLE_WEIGHTS = [1e-1, 1e0, 1e1, 5e0]
     # STYLE_WEIGHTS = [1.0] * 4 in another implementation
     styled_featuresR = [Vgg16(s) for s in style]
-    for s in styled_featuresR[0]:
-        print(tf.math.reduce_mean(s))
-    sys.exit()
+    #for s in styled_featuresR[0]:
+    #    print(tf.math.reduce_mean(s))
+    #sys.exit()
 
     # print(styled_featuresR[1].size())
     style_GM = [[gram_matrix(f) for f in styled_feature] 
-    			for styled_feature in styled_featuresR]
-
+                for styled_feature in styled_featuresR]
+    
     if phase == 'first':
         train_first_phase(model, generator, optimizer, Vgg16, style_GM,
                           STYLE_WEIGHTS, alpha, beta, gamma, epochs, phase, checkpoint_path, save_at, adjust_lr_every)
