@@ -1,0 +1,7 @@
+- training.batch_size=10
+- dataset.style=starry_night
+- model.loss_weights.beta=10000.0
+- training.epochs=0.75
+- model.path=
+- model.a=0.5
+- model.b=1.0

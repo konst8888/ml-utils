@@ -1,0 +1,5 @@
+- training.batch_size=10
+- dataset.style=thota_vaikuntam
+- model.loss_weights.beta=1500.0
+- training.epochs=1.5
+- model.style_weights=[0.1,1.0,5.0,5.0]

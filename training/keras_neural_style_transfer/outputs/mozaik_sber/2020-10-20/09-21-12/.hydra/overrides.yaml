@@ -1,0 +1,5 @@
+- dataset.style=mozaik_sber
+- training.batch_size=8
+- model.loss_weights.beta=2e3
+- model.loss_weights.gamma=1e-8
+- model.path=outputs/mozaik_sber/2020-10-20/08-28-20/

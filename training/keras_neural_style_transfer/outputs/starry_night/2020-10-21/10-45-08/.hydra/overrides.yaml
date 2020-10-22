@@ -1,0 +1,5 @@
+- training.batch_size=10
+- dataset.style=starry_night
+- model.loss_weights.beta=6e3
+- model.path=
+- training.epochs=1.5

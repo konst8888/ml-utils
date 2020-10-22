@@ -1,0 +1,3 @@
+- training.batch_size=10
+- dataset.style=thota_vaikuntam
+- model.loss_weights.beta=2e3

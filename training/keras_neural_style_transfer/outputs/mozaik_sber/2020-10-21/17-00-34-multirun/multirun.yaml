@@ -1,0 +1,168 @@
+hydra:
+  run:
+    dir: outputs/${dataset.style}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: outputs/${dataset.style}/${now:%Y-%m-%d}/${now:%H-%M-%S}-multirun
+    subdir: ${hydra.job.num}
+  hydra_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][HYDRA] %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+    root:
+      level: INFO
+      handlers:
+      - console
+    loggers:
+      logging_example:
+        level: DEBUG
+    disable_existing_loggers: false
+  job_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][%(name)s][%(levelname)s] - %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+      file:
+        class: logging.FileHandler
+        formatter: simple
+        filename: ${hydra.job.name}.log
+    root:
+      level: INFO
+      handlers:
+      - console
+      - file
+    disable_existing_loggers: false
+  sweeper:
+    _target_: hydra._internal.core_plugins.basic_sweeper.BasicSweeper
+    max_batch_size: null
+  launcher:
+    _target_: hydra._internal.core_plugins.basic_launcher.BasicLauncher
+  help:
+    app_name: ${hydra.job.name}
+    header: '${hydra.help.app_name} is powered by Hydra.
+
+      '
+    footer: 'Powered by Hydra (https://hydra.cc)
+
+      Use --hydra-help to view Hydra specific help
+
+      '
+    template: '${hydra.help.header}
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (group=option)
+
+
+      $APP_CONFIG_GROUPS
+
+
+      == Config ==
+
+      Override anything in the config (foo.bar=value)
+
+
+      $CONFIG
+
+
+      ${hydra.help.footer}
+
+      '
+  hydra_help:
+    hydra_help: ???
+    template: 'Hydra (${hydra.runtime.version})
+
+      See https://hydra.cc for more info.
+
+
+      == Flags ==
+
+      $FLAGS_HELP
+
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (For example, append hydra/job_logging=disabled
+      to command line)
+
+
+      $HYDRA_CONFIG_GROUPS
+
+
+      Use ''--cfg hydra'' to Show the Hydra config.
+
+      '
+  output_subdir: .hydra
+  overrides:
+    hydra: []
+    task:
+    - training.batch_size=10
+    - dataset.style=mozaik_sber
+    - model.loss_weights.beta=3e3
+    - training.epochs=1.5
+    - model.style_weights=[0.05, 1.0, 10.0, 5.0],[0.2, 1.0, 10.0, 5.0],[0.1, 0.5,
+      10.0, 5.0],[0.1, 2.0, 10.0, 5.0],[0.1, 1.0, 5.0, 5.0],[0.1, 1.0, 20.0, 5.0],[0.1,
+      1.0, 10.0, 2.5],[0.1, 1.0, 10.0, 10.0]
+  job:
+    name: main
+    override_dirname: dataset.style=mozaik_sber,model.loss_weights.beta=3e3,model.style_weights=[0.05,
+      1.0, 10.0, 5.0],[0.2, 1.0, 10.0, 5.0],[0.1, 0.5, 10.0, 5.0],[0.1, 2.0, 10.0,
+      5.0],[0.1, 1.0, 5.0, 5.0],[0.1, 1.0, 20.0, 5.0],[0.1, 1.0, 10.0, 2.5],[0.1,
+      1.0, 10.0, 10.0],training.batch_size=10,training.epochs=1.5
+    id: ???
+    num: ???
+    config_name: config_server
+    env_set: {}
+    env_copy: []
+    config:
+      override_dirname:
+        kv_sep: '='
+        item_sep: ','
+        exclude_keys: []
+  runtime:
+    version: 1.0.3
+    cwd: /home/ubuntu/konst/ml-utils/training/keras_neural_style_transfer
+  verbose: false
+general:
+  save_code: true
+dataset:
+  path: ../../../data/moderation_resized
+  styles_path: styles
+  style: mozaik_sber
+  style_path: ${dataset.styles_path}/${dataset.style}
+training:
+  batch_size: 10
+  manual_weights: true
+  epochs: 1.5
+  save_at: 0.05
+  adjust_lr_every: 0.1
+  lr: 0.001
+  use_sim: false
+model:
+  path: reconet_unit_frn.h5
+  vgg_path: vgg_normalized_weights.h5
+  use_skip: false
+  seed: 1
+  loss_weights:
+    alpha: 0.05
+    beta: 3000.0
+    gamma: 1.0e-07
+  style_weights:
+  - 0.1
+  - 1.0
+  - 10.0
+  - 5.0
+  checkpoint_path: ./model_checkpoints/
+  a: 0.5
+  b: 0.75
+  frn: true

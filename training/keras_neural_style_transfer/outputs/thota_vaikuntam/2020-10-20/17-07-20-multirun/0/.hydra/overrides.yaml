@@ -1,0 +1,4 @@
+- training.batch_size=10
+- dataset.style=thota_vaikuntam
+- model.loss_weights.beta=1500.0
+- model.style_weights=1

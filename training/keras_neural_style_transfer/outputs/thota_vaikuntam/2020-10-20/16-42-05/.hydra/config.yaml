@@ -1,0 +1,31 @@
+general:
+  save_code: true
+dataset:
+  path: ../../../data/moderation_resized
+  styles_path: styles
+  style: thota_vaikuntam
+  style_path: ${dataset.styles_path}/${dataset.style}
+training:
+  batch_size: 10
+  manual_weights: true
+  epochs: 5.2
+  save_at: 0.05
+  adjust_lr_every: 0.1
+  lr: 0.001
+  use_sim: false
+model:
+  path: outputs/thota_vaikuntam/2020-10-20/15-44-49/model_checkpoints/epoch_0_0.25_loss_11.4739_c_0.3848_s_1.1858_r_0.0224.h5
+  vgg_path: vgg_normalized_weights.h5
+  use_skip: false
+  seed: 1
+  loss_weights:
+    alpha: 0.05
+    beta: 1000.0
+    gamma: 1.0e-07
+  style_weights:
+  - 0.1
+  - 1.0
+  - 10.0
+  - 5.0
+  checkpoint_path: ./model_checkpoints/
+  frn: true

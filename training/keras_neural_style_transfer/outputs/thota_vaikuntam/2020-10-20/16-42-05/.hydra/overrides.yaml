@@ -1,0 +1,4 @@
+- training.batch_size=10
+- dataset.style=thota_vaikuntam
+- model.loss_weights.beta=1e3
+- model.path=outputs/thota_vaikuntam/2020-10-20/15-44-49/model_checkpoints/epoch_0_0.25_loss_11.4739_c_0.3848_s_1.1858_r_0.0224.h5

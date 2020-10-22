@@ -1,0 +1,7 @@
+- training.batch_size=10
+- dataset.style=mozaik_sber
+- model.loss_weights.beta=3000.0
+- model.path=
+- training.epochs=1.5
+- model.a=0.5
+- model.b=1.0
