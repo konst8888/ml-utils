@@ -1,0 +1,4 @@
+- dataset.style=spiral_psychodelic
+- training.batch_size=10
+- model.path=
+- model.loss_weights.beta=8e3

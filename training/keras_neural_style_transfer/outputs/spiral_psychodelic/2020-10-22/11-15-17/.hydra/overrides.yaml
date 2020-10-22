@@ -1,0 +1,3 @@
+- dataset.style=spiral_psychodelic
+- training.batch_size=10
+- model.path=

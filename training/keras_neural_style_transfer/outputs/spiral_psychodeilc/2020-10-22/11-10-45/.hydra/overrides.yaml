@@ -1,0 +1,2 @@
+- dataset.style=spiral_psychodeilc
+- training.batch_size=10
