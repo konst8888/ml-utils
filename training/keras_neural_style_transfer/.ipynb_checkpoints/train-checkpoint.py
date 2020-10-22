@@ -8,6 +8,7 @@ import os
 import sys
 import argparse
 import random
+import copy
 
 import numpy as np
 import tensorflow as tf
@@ -75,10 +76,10 @@ def train(cfg):
             return weights
 
 
-        def calc_content_loss(img_features, styled_features, alpha):
+        def calc_content_loss(img_orig, img_features, styled_features, alpha):
             #out = (styled_features[2] - tf.reshape(img_features[2], styled_features[2].shape))
-            out = tf.square(styled_features[2] - img_features[2])
-            out = tf.reduce_mean(out)
+            out = tf.reduce_mean(tf.square(styled_features[2] - img_features[2]))
+            #out += tf.reduce_mean(tf.abs(mask * (img_orig - elems))) * 10000
             out *= alpha
 
             return out
@@ -130,14 +131,15 @@ def train(cfg):
                     img = sample[i]
                     img = img * 2 - 1
                     img = tf.expand_dims(img, axis=0)
-
                     feature_map, styled_img = model(img, training=True)
+                    #img = tf.where(elems == -1, img, elems)
+                    img_orig = img
                     styled_img = normalize_after_reconet(styled_img)
                     img = normalize_after_reconet(img)
                     styled_features = vgg16(styled_img)
                     img_features = vgg16(img)
                     content_loss = calc_content_loss(
-                        img_features, styled_features, alpha)
+                        img_orig, img_features, styled_features, alpha)
                     sim_weights = calc_sim_weights(img, style)
                     style_loss = calc_style_loss(
                         style_GM, styled_features, STYLE_WEIGHTS, sim_weights, beta)
@@ -179,6 +181,7 @@ def train(cfg):
                     break
                 sample_counter += batch_size
                 #adjust_lr(sample_counter, adjust_lr_every, batch_size, optimizer)
+                #Image.fromarray((tf.where(elems == -1, sample[0], elems)[0].numpy() * 255).astype('uint8')).save('img1.jpg')
 
                 loss, grads, losses_pbar = compute_loss_and_grads(model, sample, rl)
 
@@ -259,6 +262,12 @@ def train(cfg):
 
     style_GM = [[gram_matrix(f) for f in styled_feature]
                 for styled_feature in styled_featuresR]
+    
+    #elems = Image.open('/home/ubuntu/konst/ml-utils/training/keras_neural_style_transfer/elements/haloween/Screenshot_1_part.jpg')
+    #elems = np.array(elems.resize((256, 256)))
+    #elems = np.expand_dims(elems, axis=0)
+    #mask = np.where(elems == 0, 0, 1)
+    #elems = elems / 255 * 2 - 1
 
     train_first_phase(cfg.model.loss_weights.alpha,
                       cfg.model.loss_weights.beta, cfg.model.loss_weights.gamma,

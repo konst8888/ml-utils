@@ -1,0 +1,4 @@
+- dataset.style=haloween
+- training.batch_size=5
+- model.path=
+- model.loss_weights.beta=3e3
