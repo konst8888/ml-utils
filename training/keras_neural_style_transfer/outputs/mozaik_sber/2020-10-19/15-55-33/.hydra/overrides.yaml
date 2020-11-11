@@ -1,0 +1,5 @@
+- dataset.style=mozaik_sber
+- training.batch_size=5
+- training.save_at=0.05
+- model.loss_weights.beta=1e4
+- model.loss_weights.gamma=1e-8

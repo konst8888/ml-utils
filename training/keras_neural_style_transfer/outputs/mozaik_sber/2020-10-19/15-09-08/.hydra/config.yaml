@@ -1,0 +1,31 @@
+general:
+  save_code: true
+dataset:
+  path: ../../../data/moderation_resized
+  styles_path: styles
+  style: mozaik_sber
+  style_path: ${dataset.styles_path}/${dataset.style}
+training:
+  batch_size: 10
+  manual_weights: true
+  epochs: 5.2
+  save_at: 0.1
+  adjust_lr_every: 0.1
+  lr: 0.001
+  use_sim: false
+model:
+  path: reconet_unit_frn.h5
+  vgg_path: vgg_normalized_weights.h5
+  use_skip: false
+  seed: 1
+  loss_weights:
+    alpha: 0.05
+    beta: 1000.0
+    gamma: 1.0e-07
+  style_weights:
+  - 0.1
+  - 1.0
+  - 10.0
+  - 5.0
+  checkpoint_path: ../../../../../../../model_checkpoints/keras_neural_style_transfer
+  frn: true

@@ -1,0 +1,2 @@
+- dataset.style=mozaik_sber
+- training.batch_size=8

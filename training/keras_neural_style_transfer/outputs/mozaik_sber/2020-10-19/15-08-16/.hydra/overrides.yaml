@@ -1,0 +1,3 @@
+- dataset.style=mozaik_sber
+- training.batch_size=10
+- training.save_at=0.15
