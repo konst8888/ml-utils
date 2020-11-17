@@ -16,7 +16,7 @@ import argparse
 sys.path.append(os.path.join('vidaug', 'vidaug'))
 #os.chdir(os.path.join(os.path.abspath(os.path.curdir), 'vidaug', 'vidaug', 'augmentors'))
 #from vidaug import augmentors as va
-import augmentors as va
+#import augmentors as va
 
 from model import MultiResolution, VideoNet
 from mobilenet_v2 import MobileNetV2
@@ -57,7 +57,7 @@ def train(
         adjust_lr_every = adjust_lr_every * data_len * batch_size
     adjust_lr_every = int(adjust_lr_every)
     for epoch in range(epochs):
-        for phase in ['train', 'test']:
+        for phase in ['test']:
             if phase == 'train':
                 dataloader = dataloader_train
                 model.train()
@@ -159,11 +159,11 @@ if __name__ == '__main__':
         ResizeVideo(size=FRAME_SIZE)
     ])
     
-    sometimes = lambda aug: va.Sometimes(0.5, aug) # Used to apply augmentor with 50% probability
-    seq = va.Sequential([
-        sometimes(va.RandomRotate(degrees=10)),
-        sometimes(va.HorizontalFlip()) # horizontally flip the video with 50% probability
-    ])
+    #sometimes = lambda aug: va.Sometimes(0.5, aug) # Used to apply augmentor with 50% probability
+    #seq = va.Sequential([
+    #    sometimes(va.RandomRotate(degrees=10)),
+    #    sometimes(va.HorizontalFlip()) # horizontally flip the video with 50% probability
+    #])
 
     train_index, test_index = get_split(data_path)
     dataset_train = MultiResDataset(

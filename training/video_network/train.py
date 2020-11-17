@@ -16,7 +16,7 @@ import argparse
 sys.path.append(os.path.join('vidaug', 'vidaug'))
 #os.chdir(os.path.join(os.path.abspath(os.path.curdir), 'vidaug', 'vidaug', 'augmentors'))
 #from vidaug import augmentors as va
-import augmentors as va
+#import augmentors as va
 
 from model import MultiResolution, VideoNet
 from mobilenet_v2 import MobileNetV2
@@ -50,14 +50,14 @@ def train(
     save_at,
     adjust_lr_every,
     use_multires):
-    data_len = len(dataloader_train)
+    data_len = len(dataloader_test)
     batch_size = dataloader_train.batch_size
     sample_counter = 0
     if adjust_lr_every <= 1:
         adjust_lr_every = adjust_lr_every * data_len * batch_size
     adjust_lr_every = int(adjust_lr_every)
     for epoch in range(epochs):
-        for phase in ['train', 'test']:
+        for phase in ['test']:
             if phase == 'train':
                 dataloader = dataloader_train
                 model.train()
@@ -102,12 +102,17 @@ def train(
                         running_acc * scale_value
                     )
                 )
-                if phase == 'train' and checkpoint_path is not None \
+                if phase == 'train':
+                    train_acc = running_acc * scale_value
+                    train_loss = running_loss * scale_value
+                if phase == 'test' and checkpoint_path is not None \
                 and idx in (int(data_len * save_at) - 1, data_len - 1):
                     torch.save(
                         model.state_dict(),
-                        os.path.join(checkpoint_path, 'non_personal_video_epoch_{}_loss_{:.4f}_acc_{:.4f}.pth'.format(
+                        os.path.join(checkpoint_path, 'non_personal_video_epoch_{}_train_loss_{:.4f}_train_acc_{:.4f}_test_acc_{:.4f}_test_loss_{:.4f}.pth'.format(
                             epoch,
+                            train_acc,
+                            train_loss,
                             running_loss * scale_value,
                             running_acc * scale_value
                             )))
@@ -159,11 +164,11 @@ if __name__ == '__main__':
         ResizeVideo(size=FRAME_SIZE)
     ])
     
-    sometimes = lambda aug: va.Sometimes(0.5, aug) # Used to apply augmentor with 50% probability
-    seq = va.Sequential([
-        sometimes(va.RandomRotate(degrees=10)),
-        sometimes(va.HorizontalFlip()) # horizontally flip the video with 50% probability
-    ])
+    #sometimes = lambda aug: va.Sometimes(0.5, aug) # Used to apply augmentor with 50% probability
+    #seq = va.Sequential([
+    #    sometimes(va.RandomRotate(degrees=10)),
+    #    sometimes(va.HorizontalFlip()) # horizontally flip the video with 50% probability
+    #])
 
     train_index, test_index = get_split(data_path)
     dataset_train = MultiResDataset(

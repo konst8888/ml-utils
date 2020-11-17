@@ -1,5 +1,6 @@
 from sklearn.model_selection import StratifiedKFold
 import numpy as np
+import random
 import torch
 import os
 
@@ -23,6 +24,9 @@ def load_state_dict(model, model_path, device, source=''):
 
 def get_split(data_path, n_classes=2, test_size=0.1):
 
+    random.seed(0)
+    np.random.seed(0)
+    
     labels = []
     for n in range(n_classes):
         labels += [n] * len(os.listdir(os.path.join(data_path, str(n))))
