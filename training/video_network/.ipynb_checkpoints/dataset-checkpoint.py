@@ -1,14 +1,17 @@
 import os
 import cv2
+import sys
 import random
 import torch
 import numpy as np
+import pandas as pd
 from collections import Counter
 from torch.utils.data import Dataset
 from transforms_video import (
     ResizeVideo,
     CenterCropVideo
 )
+from PIL import Image
 
 
 class GeneralVideoDataset(Dataset):
@@ -17,6 +20,7 @@ class GeneralVideoDataset(Dataset):
     def __init__(
         self,
         root_dir,
+        csv_path,
         channels=3,
         time_depth=16,
         #x_size,
@@ -36,34 +40,35 @@ class GeneralVideoDataset(Dataset):
             x_size, y_size: Dimensions of the frames
             mean: Mean value of the training set videos over each channel
         """
-        #with open(clips_list_file, "rb") as fp:  # Unpickling
-        #    clips_list_file = pickle.load(fp)
-
+        
         self.root_dir = root_dir
+        self.csv_path = csv_path
         self.channels = channels
         self.time_depth = time_depth
-        #self.x_size = x_size
-        #self.y_size = y_size
-        #self.mean = mean
         self.transform = transform
+        self.shape = (140, 140)
         
         video_list = []
-        for label in ['0', '1']:
-            video_list += [
-                [os.path.join(root_dir, label, address, f), int(label)] 
-                for address, dirs, files in os.walk(os.path.join(root_dir, label)) for f in files 
-#                if f.endswith('.mp4')
-            ]
+        #for label in ['0', '1']:
+        #    video_list += [
+        #        [os.path.join(root_dir, label, address, f), int(label)] 
+        #        for address, dirs, files in os.walk(os.path.join(root_dir, label)) for f in files 
+#       #         if f.endswith('.mp4')
+        #    ]
 
-        if idxs is not None:
-            video_list = [val for ix, val in enumerate(video_list) if ix in idxs]
+        #csv_path = 'non_personal_video_train.csv'
+        data = pd.read_csv(self.csv_path)
+        video_list = [[row.path, row.label] for idx, row in data.iterrows() if idxs is None or idx in idxs]
+        #print(video_list)
+        #sys.exit()
+        #if idxs is not None:
+        #    video_list = [val for ix, val in enumerate(video_list) if ix in idxs]
         self.video_list = video_list
         print(dict(Counter([l for adr, l in video_list])))
         
         random.seed(0)
 
     def __len__(self):
-        #return len(self.clipsList)
         return len(self.video_list)
 
     def read_video1(self, video_file):
@@ -151,6 +156,15 @@ class GeneralVideoDataset(Dataset):
         #    frames[idx] = (frames[idx] - self.mean[idx]) / self.stddev[idx]
 
         return frames, failed_clip
+    
+    def choose_next(self, idx):
+        new_idx = random.randint(0, self.__len__() - 1)
+        if new_idx == idx:
+            if idx == 0:
+                new_idx += 1
+            else:
+                new_idx -= 1
+        return self.__getitem__(new_idx)
 
     def __getitem__(self, idx):
 
@@ -164,19 +178,12 @@ class GeneralVideoDataset(Dataset):
 
 
 class MultiResDataset(GeneralVideoDataset):
-    
-    def choose_next(self, idx):
-        new_idx = random.randint(0, self.__len__() - 1)
-        if new_idx == idx:
-            if idx == 0:
-                new_idx += 1
-            else:
-                new_idx -= 1
-        return self.__getitem__(new_idx)
 
     def __getitem__(self, idx):
 
         video_file, label = self.video_list[idx]
+        #print(video_file)
+        #sys.exit()
         clip, failed_clip = self.read_video(video_file)
         if failed_clip:
             return self.choose_next(idx)
@@ -199,16 +206,57 @@ class MultiResDataset(GeneralVideoDataset):
         return clip_context, clip_fovea, label
 
     
-class NumpyDataset(GeneralVideoDataset):
+class FramesDataset(GeneralVideoDataset):
+    
+    def frames2tensor(self, dir_path):
+        frames = torch.FloatTensor(
+            self.channels, self.time_depth, *self.shape
+        )
+
+        for f, file in enumerate(sorted([x for x in os.listdir(dir_path) if x.endswith('.jpg')], key=lambda x: int(x.replace('.jpg', '')))):
+            img = Image.open(os.path.join(dir_path, file)).resize(self.shape, Image.BICUBIC)
+            frame = np.array(img)
+            frame = torch.from_numpy(frame)
+            # HWC2CHW
+            frame = frame.permute(2, 0, 1)
+            frames[:, f, :, :] = frame
+            
+            #if f != 9:
+            #    return self.choose_next(idx)
+            
+        return frames
+    
+    def rename_path(self, dir_path):
+        dir_path = dir_path.replace('.mp4', '')
+        dir_path_split = dir_path.split('/')
+        changed = dir_path_split[-2] + '_frames_{}'.format(self.time_depth)
+        dir_path = os.path.join(*dir_path_split[:-2], changed, dir_path_split[-1])
+        dir_path = '/' + dir_path
+        return dir_path
+    
+    def rename_path1(self, dir_path):
+        dir_path = dir_path.replace('.mp4', '')
+        dir_path_split = dir_path.split('/')
+        changed = dir_path_split[-3] + '_frames_30'
+        dir_path = os.path.join(*dir_path_split[:-3], changed, dir_path_split[-1])
+        dir_path = '/' + dir_path
+        return dir_path
     
     def __getitem__(self, idx):
 
-        np_file, label = self.video_list[idx]
-        np_clip = np.load(np_file)
-        clip = torch.from_numpy(np_clip)
-        clip = clip.permute(3, 0, 1, 2)
+        file, label = self.video_list[idx]
+        label = int(label)
+        dir_path = file
+        dir_path = self.rename_path(dir_path)
+        if not os.path.exists(dir_path):
+            #print(dir_path)
+            #print(os.path.exists(dir_path))
+            #sys.exit()
+            return self.choose_next(idx)
+        
+        clip = self.frames2tensor(dir_path)
         
         if self.transform:
             clip = self.transform(clip)
 
-        return clip, label
+        return idx, clip, label
