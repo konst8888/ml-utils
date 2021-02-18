@@ -54,12 +54,12 @@ def calc_content_loss(feat1, feat2, alpha):
     return out
 
 
-def calc_l1_loss2(tensor1, tensor2):
+def calc_l1_loss(tensor1, tensor2):
     out = gamma * tensor1.sub(tensor2).abs().sum()
     
     return out
 
-def calc_l1_loss(target, pred):
+def calc_l1_loss2(target, pred):
     
     class WeightDist:
 
@@ -230,7 +230,11 @@ def calc_mouth_no_teeth(target):
     max_shape = max_shape[max_shape_idx][:2][::-1]
     mouths_no_teeth = [m.resize(max_shape, Image.BICUBIC) for m in mouths_no_teeth]
     mouths_teeth = [m.resize(max_shape, Image.BICUBIC) for m in mouths_teeth]
-    mouth_target = Image.fromarray(mouth_target).resize(max_shape, Image.BICUBIC)
+    try:
+        mouth_target = Image.fromarray(mouth_target).resize(max_shape, Image.BICUBIC)
+    except ValueError as e:
+        print(e)
+        return 10000
     mouth_target = normalize(torch.from_numpy(np.array(mouth_target)).div(255.0).mul(2).sub(1).permute(2,0,1).to(device))
     mouths_no_teeth = [normalize(torch.from_numpy(np.array(m)).div(255.0).mul(2).sub(1).permute(2,0,1).to(device)) for m in mouths_no_teeth]
     mouths_teeth = [normalize(torch.from_numpy(np.array(m)).div(255.0).mul(2).sub(1).permute(2,0,1).to(device)) for m in mouths_teeth]
@@ -314,7 +318,7 @@ def train(model, dataloader_train, dataloader_test, optimizer, L2distance, Vgg16
     for epoch in range(epochs):
         for phase in [
             'train', 
-        #    'valid'
+            'valid'
         ]:
             if phase == 'train':
                 model.train()
@@ -390,11 +394,12 @@ def train(model, dataloader_train, dataloader_test, optimizer, L2distance, Vgg16
                 sys.exit()
             """
             
+            
             if phase == 'train' and epoch == 0:
                 thresh = -3.8
-                data_csv = pd.read_csv('scores.csv', index_col=0)
+                data_csv = pd.read_csv('scores1.csv', index_col=0)
                 best_seeds = data_csv[data_csv.score <= thresh].ix.to_list()
-                dataloader_train = reset_dataloader(best_seeds, is_seed=True)
+                #dataloader_train = reset_dataloader(best_seeds, is_seed=True)
                 dataloader = dataloader_train
                 data_len = len(dataloader_train)
                 model.train()
@@ -404,8 +409,7 @@ def train(model, dataloader_train, dataloader_test, optimizer, L2distance, Vgg16
                 if adjust_lr_every <= 10:
                     adjust_lr_every = adjust_lr_every * data_len * batch_size['train']
                 adjust_lr_every = int(adjust_lr_every)
-
-
+                
 
             pbar = tqdm.tqdm(enumerate(dataloader), total=len(dataloader))
             for idx, (_, sources, targets) in pbar:
@@ -537,7 +541,6 @@ if __name__ == '__main__':
     adjust_lr_every = args.adjust_lr_every
     use_sim = args.use_sim
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    device = 'cpu'
 
     IMG_SIZE = (600, 600) # 256, 256
     transform = T.Compose([
@@ -548,7 +551,7 @@ if __name__ == '__main__':
     ])
     torch2PIL = T.ToPILImage()
     random.seed(0)
-    train_size = 0.999
+    train_size = 0.8
     data_len = len([f for f in os.listdir(data_path) if 'source' in f])
     mask_train = [random.random() < train_size for _ in range(data_len)]
     mask_test = [1 - m for m in mask_train]
@@ -574,9 +577,7 @@ if __name__ == '__main__':
     )
     model = ReCoNetMobile(a=1, b=1, frn=frn, use_skip=use_skip).to(device)
     print('Params, M: ', sum(p.numel() for p in model.parameters()) / 1e6)
-    model(torch.randn(1, 3, 600, 600))
-    print('Success')
-    sys.exit()
+
     if model_path:
         #model.load_state_dict(torch.load(model_path, map_location=device))
         model = load_state_dict(model, model_path, device)

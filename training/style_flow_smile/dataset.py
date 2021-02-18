@@ -10,7 +10,7 @@ class DatasetGenFace(Dataset):
     def __init__(self, data_path, mask, transform=None):
         
         self.source_paths = [f for f in os.listdir(data_path) if 'source_' in f]
-        self.target_paths = [f for f in os.listdir(data_path) if 'target2_' in f] * 2
+        self.target_paths = [f for f in os.listdir(data_path) if 'target_' in f] * 2
         self.source_paths.sort(key=lambda x: int(x.split('_')[3]))
         self.target_paths.sort(key=lambda x: int(x.split('_')[2]))
         self.source_paths = [f for f, m in zip(self.source_paths, mask) if m == 1]
@@ -52,9 +52,9 @@ class DatasetGenFace(Dataset):
         self.source_paths = self.source_paths.tolist()
         self.target_paths = self.target_paths.tolist()
         
-        with open('ixs_final.txt', 'w') as f:
-            for ix in ixs_final:
-                f.write(str(ix) + '\n')
+        #with open('ixs_final.txt', 'w') as f:
+        #    for ix in ixs_final:
+        #        f.write(str(ix) + '\n')
         
     def __len__(self):
         return len(self.source_paths)
