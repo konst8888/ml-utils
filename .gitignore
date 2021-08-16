@@ -1,3 +1,4 @@
 *.h5
 *.pth
-
+/ml-utils/training/edm_genre_classify
+/ml-utils/training/keras_neural_style_transfer
