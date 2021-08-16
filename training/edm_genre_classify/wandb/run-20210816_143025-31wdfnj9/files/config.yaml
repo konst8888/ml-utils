@@ -1,0 +1,58 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.8
+    start_time: 1629113425
+    t:
+      1:
+      - 1
+      - 5
+      2:
+      - 1
+      - 5
+      4: 3.8.8
+      5: 0.12.0
+      8:
+      - 5
+adjust_lr_every:
+  desc: null
+  value: 0.5
+batch_size:
+  desc: null
+  value: 5
+checkpoint_path:
+  desc: null
+  value: model_checkpoints/
+data_path:
+  desc: null
+  value: /home/konstantin/Anaconda_files/Music_similarity/melspects_general.npz
+epochs:
+  desc: null
+  value: 100
+lr:
+  desc: null
+  value: 0.001
+model_path:
+  desc: null
+  value: ''
+num_workers:
+  desc: null
+  value: 1
+resize:
+  desc: null
+  value: 180
+save_at:
+  desc: null
+  value: 1
+start_epoch:
+  desc: null
+  value: 0
+use_wandb:
+  desc: null
+  value: true

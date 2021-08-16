@@ -1,0 +1,30 @@
+{
+    "os": "Linux-5.8.0-59-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2021-08-16T11:30:26.867320",
+    "startedAt": "2021-08-16T11:30:25.624965",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--data_path",
+        "/home/konstantin/Anaconda_files/Music_similarity/melspects_general.npz",
+        "--checkpoint_path",
+        "model_checkpoints/",
+        "--batch_size",
+        "5",
+        "--epochs",
+        "100",
+        "--lr",
+        "1e-3",
+        "--adjust_lr_every",
+        "0.5",
+        "--use-wandb"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "Dell",
+    "username": "konstantin",
+    "executable": "/home/konstantin/anaconda3/bin/python3"
+}

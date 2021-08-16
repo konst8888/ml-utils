@@ -1,0 +1,810 @@
+2021-08-16 14:30:26,198 INFO    MainThread:1469484 [internal.py:wandb_internal():86] W&B internal server running at pid: 1469484, started at: 2021-08-16 14:30:26.198568
+2021-08-16 14:30:26,200 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: check_version
+2021-08-16 14:30:26,200 INFO    WriterThread:1469484 [datastore.py:open_for_write():77] open: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/run-31wdfnj9.wandb
+2021-08-16 14:30:26,201 DEBUG   SenderThread:1469484 [sender.py:send():182] send: header
+2021-08-16 14:30:26,201 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: check_version
+2021-08-16 14:30:26,383 DEBUG   SenderThread:1469484 [sender.py:send():182] send: run
+2021-08-16 14:30:26,387 DEBUG   SenderThread:1469484 [git.py:repo():33] git repository is invalid
+2021-08-16 14:30:26,858 INFO    SenderThread:1469484 [dir_watcher.py:__init__():168] watching files in: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files
+2021-08-16 14:30:26,858 INFO    SenderThread:1469484 [sender.py:_start_run_threads():740] run started: 31wdfnj9 with start time 1629113425
+2021-08-16 14:30:26,859 DEBUG   SenderThread:1469484 [sender.py:send():182] send: summary
+2021-08-16 14:30:26,860 INFO    SenderThread:1469484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-16 14:30:26,863 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: run_start
+2021-08-16 14:30:26,866 DEBUG   HandlerThread:1469484 [meta.py:__init__():39] meta init
+2021-08-16 14:30:26,867 DEBUG   HandlerThread:1469484 [meta.py:__init__():53] meta init done
+2021-08-16 14:30:26,867 DEBUG   HandlerThread:1469484 [meta.py:probe():210] probe
+2021-08-16 14:30:26,871 DEBUG   HandlerThread:1469484 [git.py:repo():33] git repository is invalid
+2021-08-16 14:30:26,871 DEBUG   HandlerThread:1469484 [meta.py:_save_pip():57] save pip
+2021-08-16 14:30:26,873 DEBUG   HandlerThread:1469484 [meta.py:_save_pip():71] save pip done
+2021-08-16 14:30:26,874 DEBUG   HandlerThread:1469484 [meta.py:_save_conda():78] save conda
+2021-08-16 14:30:27,859 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_created():216] file/dir created: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/requirements.txt
+2021-08-16 14:30:27,859 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_created():216] file/dir created: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/conda-environment.yaml
+2021-08-16 14:30:27,860 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_created():216] file/dir created: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/wandb-summary.json
+2021-08-16 14:30:32,859 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_created():216] file/dir created: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:30:33,848 DEBUG   HandlerThread:1469484 [meta.py:_save_conda():86] save conda done
+2021-08-16 14:30:33,848 DEBUG   HandlerThread:1469484 [meta.py:probe():252] probe done
+2021-08-16 14:30:33,851 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:30:33,852 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:30:33,860 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/conda-environment.yaml
+2021-08-16 14:30:33,860 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_created():216] file/dir created: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/wandb-metadata.json
+2021-08-16 14:30:34,085 DEBUG   SenderThread:1469484 [sender.py:send():182] send: files
+2021-08-16 14:30:34,085 INFO    SenderThread:1469484 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-16 14:30:34,814 INFO    Thread-11 :1469484 [upload_job.py:push():137] Uploaded file /tmp/tmpy6trjx88wandb/3jrswbsx-wandb-metadata.json
+2021-08-16 14:30:34,860 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:30:36,861 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:30:40,862 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:30:42,862 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:30:46,864 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:30:48,864 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:30:49,086 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:30:49,086 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:30:52,865 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:30:54,866 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:30:54,930 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:30:56,867 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:00,868 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:02,869 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:04,312 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:31:04,312 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:31:06,870 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:08,870 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:12,872 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:14,872 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:18,874 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:20,843 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:31:20,843 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:31:20,874 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:24,876 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:25,842 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:31:26,876 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:30,878 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:32,878 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:36,879 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:38,880 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:40,843 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:31:40,843 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:31:42,882 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:44,882 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:48,883 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:50,884 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:52,885 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:55,039 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:31:56,093 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:31:56,094 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:31:56,886 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:31:58,887 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:02,888 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:04,889 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:08,889 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:10,890 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:11,348 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:32:11,348 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:32:14,892 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:16,892 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:20,893 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:24,895 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:25,100 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:32:26,587 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:32:26,587 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:32:26,895 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:28,896 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:32,897 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:34,897 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:36,898 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:40,899 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:42,900 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:46,902 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:47,164 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:32:47,164 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:32:48,902 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:52,904 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:54,904 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:32:55,157 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:32:56,905 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:00,906 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:02,907 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:03,995 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:33:03,995 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:33:06,908 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:08,909 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:10,909 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:14,910 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:16,911 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:19,250 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:33:19,250 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:33:20,912 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:24,914 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:25,213 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:33:26,914 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:30,916 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:32,916 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:34,482 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:33:34,482 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:33:36,917 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:38,918 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:42,920 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:44,920 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:48,921 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:50,550 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:33:50,550 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:33:52,923 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:54,923 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:33:55,270 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:33:56,924 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:00,925 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:02,926 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:04,926 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:06,523 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:34:06,523 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:34:08,928 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:10,928 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:14,930 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:16,930 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:20,932 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:21,762 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:34:21,762 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:34:22,932 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:24,933 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:25,325 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:34:28,935 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:30,935 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:34,936 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:36,937 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:36,994 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:34:36,994 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:34:38,938 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:42,939 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:44,940 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:48,941 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:50,941 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:52,229 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:34:52,229 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:34:54,943 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:55,380 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:34:56,943 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:34:58,944 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:02,945 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:04,946 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:06,946 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:10,011 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:35:10,011 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:35:10,948 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:12,948 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:16,949 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:18,950 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:20,951 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:24,952 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:25,435 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:35:26,845 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:35:26,845 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:35:26,952 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:30,954 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:32,954 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:36,956 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:38,956 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:42,103 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:35:42,104 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:35:42,957 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:44,958 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:48,959 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:50,960 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:54,961 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:55,491 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:35:56,961 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:35:57,338 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:35:57,338 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:35:58,962 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:02,963 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:04,964 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:08,965 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:10,965 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:12,568 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:36:12,568 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:36:14,967 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:16,968 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:20,969 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:22,970 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:24,970 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:25,546 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:36:27,801 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:36:27,801 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:36:28,972 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:30,972 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:34,973 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:36,974 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:40,975 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:42,976 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:43,041 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:36:43,041 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:36:46,977 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:48,978 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:50,978 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:54,979 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:55,603 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:36:56,980 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:36:58,811 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:36:58,811 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:37:00,981 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:02,982 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:06,984 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:08,985 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:12,986 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:14,055 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:37:14,055 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:37:14,987 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:18,988 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:20,988 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:22,989 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:25,658 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:37:26,990 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:28,991 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:30,743 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:37:30,743 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:37:32,992 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:34,993 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:38,994 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:40,994 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:42,995 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:45,991 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:37:45,991 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:37:46,997 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:48,997 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:50,998 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:54,999 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:37:55,714 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:37:57,000 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:01,001 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:01,228 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:38:01,228 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:38:03,002 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:05,002 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:09,004 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:11,004 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:13,005 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:16,458 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:38:16,458 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:38:17,006 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:19,007 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:21,007 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:25,008 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:25,776 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:38:27,009 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:31,010 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:31,688 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:38:31,689 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:38:33,011 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:37,012 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:39,013 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:43,014 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:46,921 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:38:46,922 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:38:47,015 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:49,016 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:51,017 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:55,018 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:38:55,832 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:38:57,019 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:01,020 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:03,020 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:03,847 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:39:03,847 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:39:07,022 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:09,023 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:13,024 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:15,024 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:17,025 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:19,078 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:39:19,079 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:39:21,026 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:23,027 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:25,889 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:39:27,028 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:31,029 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:33,030 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:34,333 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:39:34,334 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:39:35,031 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:39,032 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:41,033 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:45,034 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:47,034 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:50,844 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:39:50,844 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:39:51,036 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:53,037 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:55,947 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:39:57,038 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:39:59,038 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:01,039 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:05,040 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:07,041 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:07,846 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:40:07,846 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:40:11,042 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:13,043 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:15,043 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:19,045 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:21,045 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:23,046 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:23,158 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:40:23,159 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:40:26,003 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:40:27,047 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:31,049 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:33,050 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:35,051 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:38,401 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:40:38,401 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:40:39,053 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:41,054 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:43,054 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:47,056 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:49,056 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:53,058 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:53,669 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:40:53,669 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:40:55,059 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:40:56,059 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:40:59,060 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:01,061 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:03,061 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:07,062 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:08,922 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:41:08,923 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:41:11,064 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:13,064 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:15,065 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:19,066 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:23,067 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:24,194 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:41:24,194 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:41:25,068 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:26,121 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:41:29,069 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:31,070 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:35,072 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:37,072 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:39,643 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:41:39,643 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:41:41,074 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:43,074 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:45,075 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:49,076 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:51,077 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:54,873 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:41:54,873 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:41:55,078 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:56,176 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:41:57,079 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:41:59,079 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:03,081 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:05,081 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:09,083 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:10,110 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:42:10,110 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:42:11,083 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:15,084 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:17,085 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:21,086 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:23,087 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:25,843 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:42:25,844 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:42:26,234 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:42:27,088 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:29,089 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:33,090 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:35,090 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:39,092 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:41,083 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:42:41,083 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:42:41,092 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:45,094 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:47,095 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:51,096 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:55,097 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:42:56,290 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:42:56,317 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:42:56,318 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:42:57,097 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:01,099 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:03,099 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:07,100 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:09,101 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:11,102 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:11,555 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:43:11,556 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:43:15,103 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:17,104 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:19,104 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:23,106 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:25,106 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:26,344 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:43:29,108 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:30,043 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:43:30,044 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:43:31,111 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:35,112 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:37,113 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:41,115 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:43,115 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:45,308 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:43:45,309 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:43:47,117 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:49,117 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:53,118 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:55,119 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:43:56,399 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:43:59,120 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:00,547 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:44:00,548 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:44:01,121 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:05,122 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:07,123 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:11,124 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:13,125 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:15,126 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:15,788 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:44:15,788 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:44:19,127 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:21,127 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:25,129 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:26,455 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:44:27,130 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:29,130 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:31,028 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:44:31,029 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:44:33,131 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:35,132 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:39,133 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:41,134 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:45,135 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:46,959 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:44:46,959 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:44:47,136 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:51,137 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:53,137 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:55,138 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:44:56,511 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:44:59,139 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:01,140 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:02,875 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:45:02,875 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:45:05,141 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:07,142 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:09,142 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:13,143 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:15,144 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:19,145 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:20,059 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:45:20,059 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:45:23,147 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:25,147 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:26,567 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:45:29,148 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:31,149 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:35,150 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:35,300 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:45:35,300 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:45:39,152 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:41,152 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:47,154 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:51,097 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:45:51,097 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:45:51,156 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:53,157 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:45:56,632 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:45:59,159 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:03,160 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:06,334 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:46:06,335 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:46:09,162 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:11,163 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:15,164 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:19,165 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:21,890 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:46:21,890 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:46:23,167 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:26,694 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:46:27,168 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:31,170 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:37,172 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:39,095 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:46:39,095 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:46:41,173 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:45,175 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:49,176 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:53,177 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:46:54,326 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:46:54,327 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:46:56,756 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:46:57,179 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:01,180 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:05,181 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:09,182 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:09,752 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:47:09,752 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:47:11,183 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:15,184 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:17,185 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:21,186 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:24,990 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:47:24,990 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:47:25,187 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:26,815 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:47:29,189 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:33,190 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:37,192 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:40,222 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:47:40,222 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:47:41,193 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:47,195 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:51,197 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:55,198 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:47:55,845 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:47:55,845 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:47:56,878 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:48:01,200 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:05,201 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:11,069 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:48:11,070 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:48:11,203 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:15,204 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:21,206 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:25,207 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:26,294 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:48:26,295 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:48:26,937 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:48:29,209 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:33,210 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:37,211 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:41,212 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:41,524 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:48:41,524 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:48:43,213 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:47,214 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:51,215 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:53,216 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:48:56,841 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:48:56,842 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:48:57,071 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:48:57,217 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:01,218 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:03,218 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:07,220 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:09,220 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:12,073 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:49:12,073 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:49:13,221 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:17,223 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:19,223 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:23,224 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:25,225 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:27,060 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:49:28,865 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:49:28,865 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:49:29,226 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:31,227 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:35,228 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:37,229 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:41,230 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:43,230 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:44,091 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:49:44,092 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:49:47,232 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:49,232 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:53,233 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:57,125 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:49:57,235 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:59,235 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:49:59,324 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:49:59,324 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:50:03,236 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:05,237 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:09,238 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:13,239 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:14,845 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:50:14,845 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:50:15,240 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:19,242 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:23,243 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:27,180 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:50:27,244 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:30,070 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:50:30,071 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:50:31,246 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:33,246 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:37,248 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:39,248 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:43,249 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:45,250 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:46,859 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:50:46,860 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:50:47,251 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:49,251 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:53,252 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:55,253 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:50:57,234 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:50:59,254 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:01,255 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:02,350 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:51:02,350 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:51:05,256 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:09,257 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:11,258 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:15,259 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:17,591 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:51:17,591 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:51:19,261 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:25,263 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:27,291 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:51:29,264 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:32,865 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:51:32,865 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:51:35,267 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:39,268 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:43,269 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:47,271 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:48,101 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:51:48,101 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:51:52,272 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:56,273 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:51:57,347 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:52:00,275 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:03,371 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:52:03,371 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:52:04,276 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:08,277 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:12,278 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:14,279 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:18,280 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:18,618 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:52:18,618 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:52:22,281 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:26,282 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:27,401 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:52:28,283 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:32,284 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:33,842 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:52:33,842 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:52:34,285 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:38,286 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:42,287 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:44,288 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:48,289 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:49,251 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:52:49,251 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:52:52,290 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:54,291 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:52:57,459 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:52:58,292 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:02,293 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:04,846 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:53:04,846 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:53:06,295 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:08,295 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:12,297 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:14,297 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:18,298 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:20,841 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:53:20,842 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:53:22,299 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:22,616 DEBUG   SenderThread:1469484 [sender.py:send():182] send: history
+2021-08-16 14:53:22,616 DEBUG   SenderThread:1469484 [sender.py:send():182] send: summary
+2021-08-16 14:53:22,617 INFO    SenderThread:1469484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-16 14:53:23,300 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:23,300 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/wandb-summary.json
+2021-08-16 14:53:24,300 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:27,515 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:53:28,301 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:32,304 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:36,073 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:53:36,073 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:53:36,305 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:42,307 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:46,308 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:51,304 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:53:51,305 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:53:52,310 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:56,311 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:53:57,575 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:54:02,313 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:06,315 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:06,533 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:54:06,534 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:54:10,316 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:14,317 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:20,319 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:21,811 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-16 14:54:21,811 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: stop_status
+2021-08-16 14:54:24,321 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:27,634 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:54:28,323 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:32,324 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:32,737 WARNING MainThread:1469484 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-08-16 14:54:34,326 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:34,894 DEBUG   SenderThread:1469484 [sender.py:send():182] send: telemetry
+2021-08-16 14:54:34,895 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-16 14:54:34,896 DEBUG   SenderThread:1469484 [sender.py:send():182] send: exit
+2021-08-16 14:54:34,897 INFO    SenderThread:1469484 [sender.py:send_exit():291] handling exit code: 255
+2021-08-16 14:54:34,897 INFO    SenderThread:1469484 [sender.py:send_exit():293] handling runtime: 1448
+2021-08-16 14:54:34,898 INFO    SenderThread:1469484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-16 14:54:34,899 INFO    SenderThread:1469484 [sender.py:send_exit():303] send defer
+2021-08-16 14:54:34,899 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: poll_exit
+2021-08-16 14:54:34,901 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: defer
+2021-08-16 14:54:34,901 INFO    HandlerThread:1469484 [handler.py:handle_request_defer():145] handle defer: 0
+2021-08-16 14:54:34,902 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: defer
+2021-08-16 14:54:34,902 INFO    SenderThread:1469484 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-08-16 14:54:34,902 INFO    SenderThread:1469484 [sender.py:transition_state():316] send defer: 1
+2021-08-16 14:54:34,903 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: defer
+2021-08-16 14:54:34,903 INFO    HandlerThread:1469484 [handler.py:handle_request_defer():145] handle defer: 1
+2021-08-16 14:54:34,952 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: defer
+2021-08-16 14:54:34,952 INFO    SenderThread:1469484 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-08-16 14:54:34,952 INFO    SenderThread:1469484 [sender.py:transition_state():316] send defer: 2
+2021-08-16 14:54:34,953 DEBUG   SenderThread:1469484 [sender.py:send():182] send: stats
+2021-08-16 14:54:34,954 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: defer
+2021-08-16 14:54:34,954 INFO    HandlerThread:1469484 [handler.py:handle_request_defer():145] handle defer: 2
+2021-08-16 14:54:34,955 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: defer
+2021-08-16 14:54:34,955 INFO    SenderThread:1469484 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-08-16 14:54:34,955 INFO    SenderThread:1469484 [sender.py:transition_state():316] send defer: 3
+2021-08-16 14:54:34,955 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: defer
+2021-08-16 14:54:34,956 INFO    HandlerThread:1469484 [handler.py:handle_request_defer():145] handle defer: 3
+2021-08-16 14:54:34,956 DEBUG   SenderThread:1469484 [sender.py:send():182] send: summary
+2021-08-16 14:54:34,957 INFO    SenderThread:1469484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-16 14:54:34,958 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: defer
+2021-08-16 14:54:34,958 INFO    SenderThread:1469484 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-08-16 14:54:34,958 INFO    SenderThread:1469484 [sender.py:transition_state():316] send defer: 4
+2021-08-16 14:54:34,958 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: defer
+2021-08-16 14:54:34,959 INFO    HandlerThread:1469484 [handler.py:handle_request_defer():145] handle defer: 4
+2021-08-16 14:54:34,959 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: defer
+2021-08-16 14:54:34,959 INFO    SenderThread:1469484 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-08-16 14:54:35,004 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-16 14:54:35,220 INFO    SenderThread:1469484 [sender.py:transition_state():316] send defer: 5
+2021-08-16 14:54:35,220 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: poll_exit
+2021-08-16 14:54:35,221 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: defer
+2021-08-16 14:54:35,221 INFO    HandlerThread:1469484 [handler.py:handle_request_defer():145] handle defer: 5
+2021-08-16 14:54:35,221 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: defer
+2021-08-16 14:54:35,221 INFO    SenderThread:1469484 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-08-16 14:54:35,221 INFO    SenderThread:1469484 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-16 14:54:35,322 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-16 14:54:35,326 INFO    Thread-8  :1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/config.yaml
+2021-08-16 14:54:35,327 INFO    SenderThread:1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:35,327 INFO    SenderThread:1469484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/wandb-summary.json
+2021-08-16 14:54:35,327 INFO    SenderThread:1469484 [dir_watcher.py:finish():312] scan: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files
+2021-08-16 14:54:35,327 INFO    SenderThread:1469484 [dir_watcher.py:finish():318] scan save: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/config.yaml config.yaml
+2021-08-16 14:54:35,327 INFO    SenderThread:1469484 [dir_watcher.py:finish():318] scan save: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/requirements.txt requirements.txt
+2021-08-16 14:54:35,327 INFO    SenderThread:1469484 [dir_watcher.py:finish():318] scan save: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log output.log
+2021-08-16 14:54:35,327 INFO    SenderThread:1469484 [dir_watcher.py:finish():318] scan save: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/wandb-metadata.json wandb-metadata.json
+2021-08-16 14:54:35,327 INFO    SenderThread:1469484 [dir_watcher.py:finish():318] scan save: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/wandb-summary.json wandb-summary.json
+2021-08-16 14:54:35,328 INFO    SenderThread:1469484 [dir_watcher.py:finish():318] scan save: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/conda-environment.yaml conda-environment.yaml
+2021-08-16 14:54:35,330 INFO    SenderThread:1469484 [sender.py:transition_state():316] send defer: 6
+2021-08-16 14:54:35,330 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: poll_exit
+2021-08-16 14:54:35,337 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: defer
+2021-08-16 14:54:35,337 INFO    HandlerThread:1469484 [handler.py:handle_request_defer():145] handle defer: 6
+2021-08-16 14:54:35,338 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: defer
+2021-08-16 14:54:35,338 INFO    SenderThread:1469484 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-08-16 14:54:35,338 INFO    SenderThread:1469484 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-16 14:54:35,439 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-16 14:54:35,440 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: poll_exit
+2021-08-16 14:54:35,541 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-16 14:54:35,541 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: poll_exit
+2021-08-16 14:54:35,643 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-16 14:54:35,643 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: poll_exit
+2021-08-16 14:54:35,717 WARNING MainThread:1469484 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2021-08-16 14:54:35,718 ERROR   MainThread:1469484 [internal.py:wandb_internal():148] Internal process interrupted.
+2021-08-16 14:54:35,957 INFO    WriterThread:1469484 [datastore.py:close():281] close: /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/run-31wdfnj9.wandb
+2021-08-16 14:54:36,106 INFO    Thread-12 :1469484 [upload_job.py:push():137] Uploaded file /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/config.yaml
+2021-08-16 14:54:36,107 INFO    Thread-13 :1469484 [upload_job.py:push():137] Uploaded file /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/requirements.txt
+2021-08-16 14:54:36,109 INFO    Thread-16 :1469484 [upload_job.py:push():137] Uploaded file /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/conda-environment.yaml
+2021-08-16 14:54:36,111 INFO    Thread-14 :1469484 [upload_job.py:push():137] Uploaded file /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/output.log
+2021-08-16 14:54:36,111 INFO    Thread-15 :1469484 [upload_job.py:push():137] Uploaded file /home/konstantin/Anaconda_files/ml-utils/training/edm_genre_classify/wandb/run-20210816_143025-31wdfnj9/files/wandb-summary.json
+2021-08-16 14:54:36,312 INFO    Thread-7  :1469484 [sender.py:transition_state():316] send defer: 7
+2021-08-16 14:54:36,312 DEBUG   HandlerThread:1469484 [handler.py:handle_request():128] handle_request: defer
+2021-08-16 14:54:36,312 INFO    HandlerThread:1469484 [handler.py:handle_request_defer():145] handle defer: 7
+2021-08-16 14:54:36,313 INFO    HandlerThread:1469484 [handler.py:finish():677] shutting down handler
+2021-08-16 14:54:36,313 DEBUG   SenderThread:1469484 [sender.py:send_request():196] send_request: defer
+2021-08-16 14:54:36,313 INFO    SenderThread:1469484 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-08-16 14:54:36,712 INFO    SenderThread:1469484 [sender.py:transition_state():316] send defer: 8
+2021-08-16 14:54:36,712 INFO    SenderThread:1469484 [sender.py:finish():979] shutting down sender
+2021-08-16 14:54:36,712 INFO    SenderThread:1469484 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-16 14:54:36,712 INFO    SenderThread:1469484 [file_pusher.py:join():182] waiting for file pusher
+2021-08-16 14:54:36,713 INFO    MainThread:1469484 [internal.py:handle_exit():76] Internal process exited
