@@ -1,12 +1,43 @@
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import make_scorer, roc_auc_score
+from imblearn.over_sampling import SMOTE, RandomOverSampler, SMOTENC
+from imblearn.pipeline import make_pipeline, Pipeline
+from sklearn.base import BaseEstimator, TransformerMixin
 import numpy as np
 
+class RoundData(BaseEstimator, TransformerMixin):
+    
+    def __init__(self, columns):
+        self.columns = columns
+        
+    def fit(self, X, y):
+        return self
+    
+    def transform(self, X, y):
+        for col in self.columns:
+            X[col] = X[col].apply(round)
+        return X, y
+        
+    def fit_transform(self, X, y):
+        self.fit(X, y)
+        return self.transform(X, y)
+    
+class SMOTENCR(SMOTENC):
+    
+    def __init__(self, categorical_features, random_state, round_columns):
+        super().__init__(categorical_features=categorical_features, random_state=random_state)
+        self.round_columns = round_columns
+        
+    def fit_resample(self, X, y):
+        X, y = super().fit_resample(X, y)
+        for col in self.round_columns:
+            X[col] = X[col].apply(round)
+        return X, y
 
 class Classification:
     
-    def __init__(self, lib, clf, seed=123, **params):
+    def __init__(self, lib, clf, upsample=True, balance_test=True, seed=123, **params):
         if lib == 'xgb':
             default_params = {
                 "objective":"binary:logistic",
@@ -21,6 +52,8 @@ class Classification:
                     
         self.model = clf(**params)
         self.lib = lib
+        self.upsample = upsample
+        self.balance_test = balance_test
         self.seed = seed
         
     def fit(self, *args):
@@ -40,7 +73,7 @@ class Classification:
         if self.lib in ('sklearn', 'xgb'):
             return self.model.predict_proba(X)[:, 1]
         
-    def cross_validation(self, dataset, test_size=0.2, randomized=False, **params):
+    def cross_validation(self, dataset, test_size=0.2, randomized=False, cat_idxs=None, **params):
         """
         Parameters depend on library
         sklearn:
@@ -52,13 +85,33 @@ class Classification:
         early_stopping_rounds=10, metrics="rmse"
         """
         X_train, y_train, X_test, y_test = dataset.get_data(test_size=test_size)
-        self.X_test = X_test
-        self.y_test = y_test
+        if cat_idxs is None:
+            cat_idxs = dataset.get_cat_idxs()
+        else:
+            cat_idxs = list(set(cat_idxs).union(dataset.get_cat_idxs()))
+        
         if 'n_jobs' not in params:
             params['n_jobs'] = -1
-        params['estimator'] = self.model
+        #params['estimator'] = self.model
         params['scoring'] = make_scorer(params['scoring'])
-
+        
+        if self.upsample:
+            pipe_args = [
+                ('sample', SMOTENC(categorical_features=cat_idxs, random_state=8)), 
+                #('round', RoundData(round_columns)),
+                ('classification', self.model),
+            ]
+            model = Pipeline(pipe_args)
+        else:
+            model = self.model
+            
+        if self.balance_test:
+            X_test, y_test = SMOTENC(categorical_features=cat_idxs, random_state=8).fit_resample(X_test, y_test)
+        #X_test, y_test = RoundData(round_columns).fit_transform(X_test, y_test)
+        params['estimator'] = model
+        self.X_test = X_test
+        self.y_test = y_test
+        
         if randomized:
             GridSearch = RandomizedSearchCV
             params['param_distributions'] = params['param_grid']
