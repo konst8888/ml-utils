@@ -6,9 +6,10 @@ import tqdm
 
 class BinaryClassDataset:
         
-    def __init__(self, data, target_name='label', class_map=None):
+    def __init__(self, data, target_name='label', class_map=None, split_col=None):
         self.X = data.drop(columns={target_name})
         self.y = data[target_name]
+        self.split_col = split_col
         if class_map is not None:
             pos, neg = class_map
             self.y = self.y.map({pos: 1, neg: 0})
@@ -19,7 +20,10 @@ class BinaryClassDataset:
     
     def __drop_processed_columns(self):
         if len(self.processed_columns) > 0:
-            self.X.drop(columns=self.processed_columns, inplace=True)
+            for col in self.processed_columns:
+                if col in self.X.columns:
+                    del self.X[col]
+            #self.X.drop(columns=self.processed_columns, inplace=True)
             self.processed_columns = []
         
     def __add_comb(self, comb):
@@ -57,6 +61,13 @@ class BinaryClassDataset:
         X_train, y_train, X_test, y_test = self.stratified_split(test_size=test_size)
         return X_train, y_train, X_test, y_test
     
+    def get_cat_idxs(self):
+        idxs = []
+        for idx, col in enumerate(self.X.columns):
+            if set(self.X[col]) == {0, 1}:
+                idxs.append(idx)
+        return idxs
+    
     def train_test_split(self, final=True, **params):
         """
         params:
@@ -73,16 +84,23 @@ class BinaryClassDataset:
         params:
         test_size, random_state, shuffle
         """
-        test_size = params['test_size']
-        n_splits = int(1. / test_size)
-        skf = StratifiedKFold(n_splits=n_splits)
-        train_index, test_index = next(skf.split(self.X, self.y))
-        X_train, X_test = self.__slice_data(self.X, train_index), self.__slice_data(self.X, test_index)
-        y_train, y_test = self.__slice_data(self.y, train_index), self.__slice_data(self.y, test_index)    
-        
+        if self.split_col is None:
+            test_size = params['test_size']
+            n_splits = int(1. / test_size)
+            skf = StratifiedKFold(n_splits=n_splits)
+            train_index, test_index = next(skf.split(self.X, self.y))
+        else:
+            train_index = self.X[self.X[self.split_col] == 'train'].index
+            test_index = self.X[self.X[self.split_col] == 'test'].index
+            del self.X[self.split_col]
+        #X_train, X_test = self.__slice_data(self.X, train_index), self.__slice_data(self.X, test_index)
+        #y_train, y_test = self.__slice_data(self.y, train_index), self.__slice_data(self.y, test_index)
+        X_train, X_test = self.X[self.X.index.isin(train_index)], self.X[self.X.index.isin(test_index)]
+        y_train, y_test = self.y[self.y.index.isin(train_index)], self.y[self.y.index.isin(test_index)]
+
         return (X_train, y_train, X_test, y_test)
     
-    def one_hot_encoding(self, columns, cross_prod_dim=1):
+    def one_hot_encoding(self, columns, cross_prod_dim=1, dummy_na=False):
         
         for col in columns:
             self.X[col] = self.X[col].astype(str)
@@ -93,7 +111,7 @@ class BinaryClassDataset:
         for comb in tqdm.tqdm(combs, total=len(combs)):
             self.__add_comb(comb)
             #print(self.X[comb])
-            one_hot = pd.get_dummies(self.X[comb])
+            one_hot = pd.get_dummies(self.X[comb], dummy_na=dummy_na)
             one_hot.columns = [comb + '_' + str(c) for c in one_hot.columns]
             self.__hstack(one_hot)
         
