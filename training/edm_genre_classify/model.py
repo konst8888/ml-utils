@@ -42,3 +42,17 @@ class AudioCNN(nn.Module):
         x = self.lin3(x)
         
         return x
+    
+    
+import torchvision.models as models
+
+class AudioCNN(nn.Module):
+    
+    def __init__(self, num_classes=3):
+        super().__init__()
+        mobilenet_v2 = models.mobilenet_v2(pretrained=True)
+        mobilenet_v2.features[0][0] = nn.Conv2d(2, 32, kernel_size=3, stride=2, bias=False)
+        self.model = mobilenet_v2
+        
+    def forward(self, x):
+        return self.model(x)

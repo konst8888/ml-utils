@@ -119,8 +119,6 @@ def train(
                             running_loss * scale_value
                             )))
 
-        scheduler.step(running_loss * scale_value)
-
         if wandb is not None:
             metrics = {
                 'epoch': epoch,
@@ -128,9 +126,11 @@ def train(
                 'train_acc': train_acc,
                 'valid_loss': running_loss * scale_value,
                 'valid_acc': running_acc * scale_value,
+                'LR': optimizer.param_groups[0]['lr'],
             }
             wandb.log(metrics)
 
+        scheduler.step(running_loss * scale_value)
 
 
 if __name__ == '__main__':
@@ -146,6 +146,9 @@ if __name__ == '__main__':
                         help="Number of epochs")
     parser.add_argument("--start_epoch", type=int, default=0,
                         help="Start epoch num")
+    parser.add_argument("--lam", default=0, type=float, help="Regularization coef")
+    parser.add_argument("--patience", default=2, type=int, help="Patience of sheduler")
+    parser.add_argument("--factor", default=0.5, type=float, help="LR decrease factor")
     parser.add_argument('--use-wandb', help='Whether use wandb', action='store_true')
     parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate")
     parser.add_argument("--save_at", type=float, default=1,
@@ -172,6 +175,7 @@ if __name__ == '__main__':
     FRAME_SIZE = (args.resize, args.resize)
     num_workers = args.num_workers
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    print(device)
 
     wandb = None
     if use_wandb:
@@ -237,8 +241,8 @@ if __name__ == '__main__':
         
         #model.load_state_dict(torch.load(model_path, map_location=device))
 
-    optimizer = optim.Adam(model.parameters(), lr=lr, weight_decay=0.04)
-    scheduler = ReduceLROnPlateau(optimizer, 'min', patience=2, factor=0.3)
+    optimizer = optim.Adam(model.parameters(), lr=lr, weight_decay=args.lam)
+    scheduler = ReduceLROnPlateau(optimizer, 'min', patience=args.patience, factor=args.factor, min_lr=1e-5)
     criterion = nn.CrossEntropyLoss()
     train(
         model,
