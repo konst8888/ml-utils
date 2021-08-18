@@ -1,0 +1,16 @@
+
+  0%|                                                                                                          | 0/99 [00:00<?, ?it/s]
+Class proportion:
+House     0.686588
+Trap      0.166971
+Trance    0.146442
+dtype: float64
+0.344651
+tensor([1.4565, 5.9891, 6.8287], device='cuda:0')
+  0%|                                                                                                          | 0/99 [00:05<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 286, in <module>
+    wandb,
+  File "train.py", line 91, in train
+    l2_reg += torch.norm(param)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!

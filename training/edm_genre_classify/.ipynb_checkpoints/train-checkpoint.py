@@ -85,7 +85,6 @@ def train(
 
                 outputs = model(imgs)
                 loss = criterion(outputs, labels)
-                
                 l2_lambda = 0.01
                 l2_reg = torch.tensor(0.).to(device)
                 for param in model.parameters():

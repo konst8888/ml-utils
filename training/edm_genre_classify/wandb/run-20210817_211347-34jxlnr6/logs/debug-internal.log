@@ -1,0 +1,104 @@
+2021-08-17 21:13:47,666 INFO    MainThread:13109 [internal.py:wandb_internal():89] W&B internal server running at pid: 13109, started at: 2021-08-17 21:13:47.666406
+2021-08-17 21:13:47,667 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: check_version
+2021-08-17 21:13:47,668 INFO    WriterThread:13109 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/run-34jxlnr6.wandb
+2021-08-17 21:13:47,669 DEBUG   SenderThread:13109 [sender.py:send():182] send: header
+2021-08-17 21:13:47,669 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: check_version
+2021-08-17 21:13:47,708 DEBUG   SenderThread:13109 [sender.py:send():182] send: run
+2021-08-17 21:13:47,896 INFO    SenderThread:13109 [dir_watcher.py:__init__():168] watching files in: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files
+2021-08-17 21:13:47,897 INFO    SenderThread:13109 [sender.py:_start_run_threads():743] run started: 34jxlnr6 with start time 1629234827
+2021-08-17 21:13:47,897 DEBUG   SenderThread:13109 [sender.py:send():182] send: summary
+2021-08-17 21:13:47,897 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: run_start
+2021-08-17 21:13:47,897 INFO    SenderThread:13109 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-17 21:13:48,736 DEBUG   HandlerThread:13109 [meta.py:__init__():39] meta init
+2021-08-17 21:13:48,737 DEBUG   HandlerThread:13109 [meta.py:__init__():53] meta init done
+2021-08-17 21:13:48,737 DEBUG   HandlerThread:13109 [meta.py:probe():210] probe
+2021-08-17 21:13:48,744 DEBUG   HandlerThread:13109 [meta.py:_setup_git():200] setup git
+2021-08-17 21:13:48,762 DEBUG   HandlerThread:13109 [meta.py:_setup_git():207] setup git done
+2021-08-17 21:13:48,762 DEBUG   HandlerThread:13109 [meta.py:_save_pip():57] save pip
+2021-08-17 21:13:48,763 DEBUG   HandlerThread:13109 [meta.py:_save_pip():71] save pip done
+2021-08-17 21:13:48,763 DEBUG   HandlerThread:13109 [meta.py:probe():252] probe done
+2021-08-17 21:13:48,766 DEBUG   SenderThread:13109 [sender.py:send():182] send: files
+2021-08-17 21:13:48,766 INFO    SenderThread:13109 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-17 21:13:48,770 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:13:48,770 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:13:48,897 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/requirements.txt
+2021-08-17 21:13:48,897 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/wandb-summary.json
+2021-08-17 21:13:48,897 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:13:48,898 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/wandb-metadata.json
+2021-08-17 21:13:49,283 INFO    Thread-11 :13109 [upload_job.py:push():137] Uploaded file /tmp/tmpcqr1cmxbwandb/13xrlddh-wandb-metadata.json
+2021-08-17 21:13:50,897 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:13:56,898 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:02,900 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:03,917 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:14:03,917 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:14:08,901 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:14,903 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:16,896 DEBUG   SenderThread:13109 [sender.py:send():182] send: stats
+2021-08-17 21:14:19,068 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:14:19,068 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:14:20,904 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:26,905 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:32,907 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:34,211 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:14:34,211 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:14:36,908 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:42,909 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:47,041 DEBUG   SenderThread:13109 [sender.py:send():182] send: stats
+2021-08-17 21:14:48,911 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:14:49,616 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:14:49,616 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:14:54,912 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:00,914 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:04,758 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:15:04,758 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:15:06,915 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:12,916 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:17,182 DEBUG   SenderThread:13109 [sender.py:send():182] send: stats
+2021-08-17 21:15:18,918 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:19,903 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:15:19,903 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:15:24,919 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:28,920 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:34,922 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:35,048 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:15:35,048 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:15:40,923 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:46,925 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:47,326 DEBUG   SenderThread:13109 [sender.py:send():182] send: stats
+2021-08-17 21:15:50,200 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:15:50,200 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:15:51,162 DEBUG   SenderThread:13109 [sender.py:send():182] send: history
+2021-08-17 21:15:51,162 DEBUG   SenderThread:13109 [sender.py:send():182] send: summary
+2021-08-17 21:15:51,163 INFO    SenderThread:13109 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-17 21:15:51,926 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/wandb-summary.json
+2021-08-17 21:15:52,926 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:15:58,927 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:16:04,929 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:16:05,344 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:16:05,344 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:16:10,930 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:16:16,932 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:16:17,470 DEBUG   SenderThread:13109 [sender.py:send():182] send: stats
+2021-08-17 21:16:20,489 DEBUG   HandlerThread:13109 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-17 21:16:20,489 DEBUG   SenderThread:13109 [sender.py:send_request():196] send_request: stop_status
+2021-08-17 21:16:22,969 WARNING MainThread:13109 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-08-17 21:16:23,197 WARNING MainThread:13109 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2021-08-17 21:16:23,197 ERROR   MainThread:13109 [internal.py:wandb_internal():148] Internal process interrupted.
+2021-08-17 21:16:23,934 INFO    Thread-8  :13109 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:16:23,935 INFO    WriterThread:13109 [datastore.py:close():281] close: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/run-34jxlnr6.wandb
+2021-08-17 21:16:23,935 INFO    SenderThread:13109 [sender.py:finish():979] shutting down sender
+2021-08-17 21:16:23,935 INFO    SenderThread:13109 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-17 21:16:23,936 INFO    HandlerThread:13109 [handler.py:finish():677] shutting down handler
+2021-08-17 21:16:24,935 INFO    SenderThread:13109 [dir_watcher.py:finish():312] scan: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files
+2021-08-17 21:16:24,935 INFO    SenderThread:13109 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log output.log
+2021-08-17 21:16:24,935 INFO    SenderThread:13109 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/wandb-metadata.json wandb-metadata.json
+2021-08-17 21:16:24,935 INFO    SenderThread:13109 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/requirements.txt requirements.txt
+2021-08-17 21:16:24,941 INFO    SenderThread:13109 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/config.yaml config.yaml
+2021-08-17 21:16:24,941 INFO    SenderThread:13109 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/wandb-summary.json wandb-summary.json
+2021-08-17 21:16:24,942 INFO    SenderThread:13109 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-17 21:16:24,942 INFO    SenderThread:13109 [file_pusher.py:join():182] waiting for file pusher
+2021-08-17 21:16:25,424 INFO    Thread-14 :13109 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/config.yaml
+2021-08-17 21:16:25,430 INFO    Thread-12 :13109 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/output.log
+2021-08-17 21:16:25,437 INFO    Thread-13 :13109 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/requirements.txt
+2021-08-17 21:16:25,449 INFO    Thread-15 :13109 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210817_211347-34jxlnr6/files/wandb-summary.json
+2021-08-17 21:16:26,226 INFO    MainThread:13109 [internal.py:handle_exit():76] Internal process exited

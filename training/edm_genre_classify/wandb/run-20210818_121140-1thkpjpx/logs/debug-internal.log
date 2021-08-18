@@ -1,0 +1,139 @@
+2021-08-18 12:11:40,535 INFO    MainThread:1617 [internal.py:wandb_internal():89] W&B internal server running at pid: 1617, started at: 2021-08-18 12:11:40.535878
+2021-08-18 12:11:40,537 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: check_version
+2021-08-18 12:11:40,537 INFO    WriterThread:1617 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/run-1thkpjpx.wandb
+2021-08-18 12:11:40,538 DEBUG   SenderThread:1617 [sender.py:send():182] send: header
+2021-08-18 12:11:40,538 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: check_version
+2021-08-18 12:11:40,589 DEBUG   SenderThread:1617 [sender.py:send():182] send: run
+2021-08-18 12:11:40,803 INFO    SenderThread:1617 [dir_watcher.py:__init__():168] watching files in: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files
+2021-08-18 12:11:40,803 INFO    SenderThread:1617 [sender.py:_start_run_threads():743] run started: 1thkpjpx with start time 1629288700
+2021-08-18 12:11:40,803 DEBUG   SenderThread:1617 [sender.py:send():182] send: summary
+2021-08-18 12:11:40,803 INFO    SenderThread:1617 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 12:11:40,804 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: run_start
+2021-08-18 12:11:41,650 DEBUG   HandlerThread:1617 [meta.py:__init__():39] meta init
+2021-08-18 12:11:41,650 DEBUG   HandlerThread:1617 [meta.py:__init__():53] meta init done
+2021-08-18 12:11:41,651 DEBUG   HandlerThread:1617 [meta.py:probe():210] probe
+2021-08-18 12:11:41,656 DEBUG   HandlerThread:1617 [meta.py:_setup_git():200] setup git
+2021-08-18 12:11:41,671 DEBUG   HandlerThread:1617 [meta.py:_setup_git():207] setup git done
+2021-08-18 12:11:41,671 DEBUG   HandlerThread:1617 [meta.py:_save_pip():57] save pip
+2021-08-18 12:11:41,672 DEBUG   HandlerThread:1617 [meta.py:_save_pip():71] save pip done
+2021-08-18 12:11:41,672 DEBUG   HandlerThread:1617 [meta.py:probe():252] probe done
+2021-08-18 12:11:41,674 DEBUG   SenderThread:1617 [sender.py:send():182] send: files
+2021-08-18 12:11:41,674 INFO    SenderThread:1617 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-18 12:11:41,677 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 12:11:41,677 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 12:11:41,803 INFO    Thread-8  :1617 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/output.log
+2021-08-18 12:11:41,804 INFO    Thread-8  :1617 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/wandb-metadata.json
+2021-08-18 12:11:41,804 INFO    Thread-8  :1617 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/wandb-summary.json
+2021-08-18 12:11:41,804 INFO    Thread-8  :1617 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/requirements.txt
+2021-08-18 12:11:42,194 INFO    Thread-11 :1617 [upload_job.py:push():137] Uploaded file /tmp/tmp6qtuab8dwandb/1y1jj4hq-wandb-metadata.json
+2021-08-18 12:11:43,803 INFO    Thread-8  :1617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/output.log
+2021-08-18 12:11:49,804 INFO    Thread-8  :1617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/output.log
+2021-08-18 12:11:51,692 DEBUG   SenderThread:1617 [sender.py:send():182] send: telemetry
+2021-08-18 12:11:51,692 DEBUG   SenderThread:1617 [sender.py:send():182] send: exit
+2021-08-18 12:11:51,692 INFO    SenderThread:1617 [sender.py:send_exit():291] handling exit code: 1
+2021-08-18 12:11:51,692 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:51,693 INFO    SenderThread:1617 [sender.py:send_exit():293] handling runtime: 10
+2021-08-18 12:11:51,694 INFO    SenderThread:1617 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 12:11:51,694 INFO    SenderThread:1617 [sender.py:send_exit():303] send defer
+2021-08-18 12:11:51,694 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:51,694 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:51,694 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 0
+2021-08-18 12:11:51,694 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:51,694 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-08-18 12:11:51,694 INFO    SenderThread:1617 [sender.py:transition_state():316] send defer: 1
+2021-08-18 12:11:51,694 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:51,695 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 1
+2021-08-18 12:11:51,719 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:51,719 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-08-18 12:11:51,719 INFO    SenderThread:1617 [sender.py:transition_state():316] send defer: 2
+2021-08-18 12:11:51,719 DEBUG   SenderThread:1617 [sender.py:send():182] send: stats
+2021-08-18 12:11:51,719 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:51,720 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 2
+2021-08-18 12:11:51,720 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:51,720 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-08-18 12:11:51,720 INFO    SenderThread:1617 [sender.py:transition_state():316] send defer: 3
+2021-08-18 12:11:51,720 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:51,720 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 3
+2021-08-18 12:11:51,720 DEBUG   SenderThread:1617 [sender.py:send():182] send: summary
+2021-08-18 12:11:51,720 INFO    SenderThread:1617 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 12:11:51,720 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:51,720 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-08-18 12:11:51,721 INFO    SenderThread:1617 [sender.py:transition_state():316] send defer: 4
+2021-08-18 12:11:51,721 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:51,721 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 4
+2021-08-18 12:11:51,721 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:51,721 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-08-18 12:11:51,796 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:51,805 INFO    Thread-8  :1617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/output.log
+2021-08-18 12:11:51,805 INFO    Thread-8  :1617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/wandb-summary.json
+2021-08-18 12:11:51,879 INFO    SenderThread:1617 [sender.py:transition_state():316] send defer: 5
+2021-08-18 12:11:51,879 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:51,879 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:51,879 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 5
+2021-08-18 12:11:51,879 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:51,879 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-08-18 12:11:51,879 INFO    SenderThread:1617 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-18 12:11:51,980 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:52,805 INFO    Thread-8  :1617 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/config.yaml
+2021-08-18 12:11:52,806 INFO    SenderThread:1617 [dir_watcher.py:finish():312] scan: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files
+2021-08-18 12:11:52,806 INFO    SenderThread:1617 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/output.log output.log
+2021-08-18 12:11:52,806 INFO    SenderThread:1617 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/wandb-metadata.json wandb-metadata.json
+2021-08-18 12:11:52,806 INFO    SenderThread:1617 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/requirements.txt requirements.txt
+2021-08-18 12:11:52,806 INFO    SenderThread:1617 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/config.yaml config.yaml
+2021-08-18 12:11:52,806 INFO    SenderThread:1617 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/wandb-summary.json wandb-summary.json
+2021-08-18 12:11:52,806 INFO    SenderThread:1617 [sender.py:transition_state():316] send defer: 6
+2021-08-18 12:11:52,807 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:52,810 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:52,810 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 6
+2021-08-18 12:11:52,810 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:52,812 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-08-18 12:11:52,812 INFO    SenderThread:1617 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-18 12:11:52,908 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:52,908 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:53,009 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:53,009 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:53,110 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:53,111 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:53,212 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:53,212 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:53,264 INFO    Thread-12 :1617 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/output.log
+2021-08-18 12:11:53,273 INFO    Thread-15 :1617 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/wandb-summary.json
+2021-08-18 12:11:53,313 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:53,313 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:53,315 INFO    Thread-13 :1617 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/requirements.txt
+2021-08-18 12:11:53,336 INFO    Thread-14 :1617 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/files/config.yaml
+2021-08-18 12:11:53,414 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:53,414 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:53,516 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:53,516 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:53,537 INFO    Thread-7  :1617 [sender.py:transition_state():316] send defer: 7
+2021-08-18 12:11:53,537 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:53,537 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 7
+2021-08-18 12:11:53,537 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:53,537 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-08-18 12:11:53,617 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:53,811 INFO    SenderThread:1617 [sender.py:transition_state():316] send defer: 8
+2021-08-18 12:11:53,812 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:53,812 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:53,812 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 8
+2021-08-18 12:11:53,812 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:53,812 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-08-18 12:11:53,812 INFO    SenderThread:1617 [sender.py:transition_state():316] send defer: 9
+2021-08-18 12:11:53,813 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 12:11:53,813 DEBUG   SenderThread:1617 [sender.py:send():182] send: final
+2021-08-18 12:11:53,813 INFO    HandlerThread:1617 [handler.py:handle_request_defer():145] handle defer: 9
+2021-08-18 12:11:53,813 DEBUG   SenderThread:1617 [sender.py:send():182] send: footer
+2021-08-18 12:11:53,813 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: defer
+2021-08-18 12:11:53,813 INFO    SenderThread:1617 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-08-18 12:11:53,913 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 12:11:53,913 DEBUG   SenderThread:1617 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 12:11:53,913 INFO    SenderThread:1617 [file_pusher.py:join():182] waiting for file pusher
+2021-08-18 12:11:53,914 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: get_summary
+2021-08-18 12:11:53,914 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: sampled_history
+2021-08-18 12:11:53,915 DEBUG   HandlerThread:1617 [handler.py:handle_request():128] handle_request: shutdown
+2021-08-18 12:11:53,915 INFO    HandlerThread:1617 [handler.py:finish():677] shutting down handler
+2021-08-18 12:11:54,813 INFO    WriterThread:1617 [datastore.py:close():281] close: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_121140-1thkpjpx/run-1thkpjpx.wandb
+2021-08-18 12:11:54,913 INFO    SenderThread:1617 [sender.py:finish():979] shutting down sender
+2021-08-18 12:11:54,914 INFO    SenderThread:1617 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-18 12:11:54,914 INFO    SenderThread:1617 [file_pusher.py:join():182] waiting for file pusher
+2021-08-18 12:11:54,915 INFO    MainThread:1617 [internal.py:handle_exit():76] Internal process exited

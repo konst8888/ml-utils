@@ -1,0 +1,37 @@
+Downloading: "https://download.pytorch.org/models/shufflenetv2_x0.5-f707e7126e.pth" to /root/.cache/torch/hub/checkpoints/shufflenetv2_x0.5-f707e7126e.pth
+100%|############################################################################################| 5.28M/5.28M [00:00<00:00, 10.1MB/s]
+Class proportion:
+House     0.686588
+Trap      0.166971
+Trance    0.146442
+dtype: float64
+  0%|                                                                                                          | 0/99 [00:00<?, ?it/s]
+0.344867
+tensor([1.4565, 5.9891, 6.8287], device='cuda:0')
+  0%|                                                                                                          | 0/99 [00:05<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 280, in <module>
+    wandb,
+  File "train.py", line 86, in train
+    outputs = model(imgs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/root/konst/ml-utils/training/edm_genre_classify/model.py", line 72, in forward
+    return self.model(x)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torchvision/models/shufflenetv2.py", line 138, in forward
+    return self._forward_impl(x)
+  File "/usr/local/lib/python3.6/dist-packages/torchvision/models/shufflenetv2.py", line 127, in _forward_impl
+    x = self.conv1(x)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/conv.py", line 423, in forward
+    return self._conv_forward(input, self.weight)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/conv.py", line 420, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size [24, 3, 3, 3], expected input[20, 2, 64, 345] to have 3 channels, but got 2 channels instead
