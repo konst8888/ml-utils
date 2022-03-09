@@ -1,0 +1,338 @@
+0.320429
+LR:  0.0002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: train Loss: 0.8365 (0.7258) Acc: 0.0012 (0.0066) Rec B-EMPLOYMENT: 0.6390 (0.7000): 100%|█| 429/429 [01:13<00:00,  5.82it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: valid Loss: 0.5230 (0.8425) Acc: 0.0002 (0.0055) Rec B-EMPLOYMENT: 0.8792 (nan):  98%|██▉| 670/687 [00:19<00:00, 34.87it/s]
+Epoch: 0/39 Phase: valid Loss: 0.5260 (0.4650) Acc: 0.0002 (0.0450) Rec B-EMPLOYMENT: 0.8807 (nan): 100%|███| 687/687 [00:20<00:00, 33.65it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: train Loss: 0.5176 (0.5324) Acc: 0.0015 (0.0071) Rec B-EMPLOYMENT: 0.8857 (0.8000): 100%|█| 429/429 [01:14<00:00,  5.75it/s
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: valid Loss: 0.4408 (0.0559) Acc: 0.0002 (0.0087) Rec B-EMPLOYMENT: 0.9041 (1.0000):  92%|▉| 632/687 [00:19<00:01, 30.33it/s
+Epoch: 1/39 Phase: valid Loss: 0.4404 (0.4029) Acc: 0.0002 (0.0450) Rec B-EMPLOYMENT: 0.9081 (nan): 100%|███| 687/687 [00:21<00:00, 32.58it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: train Loss: 0.4403 (0.3840) Acc: 0.0015 (0.0075) Rec B-EMPLOYMENT: 0.9054 (0.8000): 100%|█| 429/429 [01:15<00:00,  5.66it/s
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: valid Loss: 0.3981 (0.3829) Acc: 0.0002 (0.0450) Rec B-EMPLOYMENT: 0.9167 (nan): 100%|███| 687/687 [00:21<00:00, 32.62it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/39 Phase: train Loss: 0.3924 (0.3029) Acc: 0.0016 (0.0080) Rec B-EMPLOYMENT: 0.9137 (0.9000): 100%|█| 429/429 [01:16<00:00,  5.61it/s
+
+
+
+
+
+
+
+
+
+Epoch: 3/39 Phase: valid Loss: 0.3712 (0.3364) Acc: 0.0002 (0.0450) Rec B-EMPLOYMENT: 0.9261 (nan): 100%|███| 687/687 [00:21<00:00, 32.61it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/39 Phase: train Loss: 0.3563 (0.2538) Acc: 0.0016 (0.0080) Rec B-EMPLOYMENT: 0.9233 (0.9000): 100%|█| 429/429 [01:17<00:00,  5.51it/s
+
+
+
+
+
+
+
+
+
+Epoch: 4/39 Phase: valid Loss: 0.3501 (0.2847) Acc: 0.0002 (0.0450) Rec B-EMPLOYMENT: 0.9375 (nan): 100%|███| 687/687 [00:20<00:00, 32.91it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/39 Phase: train Loss: 0.3250 (0.2180) Acc: 0.0016 (0.0085) Rec B-EMPLOYMENT: 0.9357 (0.9000): 100%|█| 429/429 [01:19<00:00,  5.39it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/39 Phase: valid Loss: 0.3319 (0.2423) Acc: 0.0002 (0.0450) Rec B-EMPLOYMENT: 0.9432 (nan): 100%|███| 687/687 [00:21<00:00, 32.42it/s]
+{'B-EMPLOYMENT_appended_data': 5244, 'I-EMPLOYMENT_appended_data': 40}
+['представитель' 'скорпионов' 'заказать' 'христианка' 'фотограф' 'смех'
+ 'музыкант' '️нижнекамск' 'актриса' 'graduate' 'обработка' 'player'
+ 'коронована' 'трансферы' 'ника' 'железнодорожник' 'только' 'дизайнер'
+ 'путешествие' 'заказать' 'человек' 'христианка' 'оформить' 'счастью'
+ '️наращивание' 'путешествую' 'фотографирую' 'фрилансер' 'фотограф'
+ 'медсестра']
+LR:  0.0002
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/39 Phase: train Loss: 0.3102 (0.2546) Acc: 0.0017 (0.0111) Rec B-EMPLOYMENT: 0.9489 (0.9091):  31%|▎| 132/429 [00:23<00:52,  5.65it/s
+Traceback (most recent call last):
+  File "train.py", line 356, in <module>
+    wandb,
+  File "train.py", line 94, in train
+    for idx, sample in pbar:
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1186, in _next_data
+    idx, data = self._get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1152, in _get_data
+    success, data = self._try_get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 990, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 911, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)

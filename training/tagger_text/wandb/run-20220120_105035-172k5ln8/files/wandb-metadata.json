@@ -1,0 +1,40 @@
+{
+    "os": "Linux-4.15.0-147-generic-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.9",
+    "heartbeatAt": "2022-01-20T10:50:36.662552",
+    "startedAt": "2022-01-20T10:50:35.083562",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": "10.0.130",
+    "args": [
+        "--data_path",
+        "/root/konst/data/tags_text/tags_post_texts_v7.csv",
+        "--checkpoint_path",
+        "/root/konst/model_checkpoints/tagger_text",
+        "--batch_size",
+        "128",
+        "--patience",
+        "8",
+        "--factor",
+        "0.5",
+        "--lr",
+        "1e-3",
+        "--epochs",
+        "200",
+        "--use-wandb"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "training/tagger_text/train.py",
+    "git": {
+        "remote": "https://github.com/konst8888/ml-utils",
+        "commit": "eeb4a707907c24def87fc1ea341754e837e63a8a"
+    },
+    "email": "mr.lipkin8@gmail.com",
+    "root": "/root/konst/ml-utils",
+    "host": "38597",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

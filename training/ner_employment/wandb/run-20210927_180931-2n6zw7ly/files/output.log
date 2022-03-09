@@ -1,0 +1,211 @@
+0.133604
+LR:  0.001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/99 Phase: train Loss: 0.6577 (0.3927) Acc: 0.0024 (0.0042) Acc PER: 0.6464 (0.6970):  13%|▊     | 620/4621 [10:50<1:09:58,  1.05s/it]
+Traceback (most recent call last):
+  File "train.py", line 314, in <module>
+    wandb,
+  File "train.py", line 79, in train
+    for idx, sample in pbar:
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/tqdm/std.py", line 1133, in __iter__
+    for obj in iterable:
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 345, in __next__
+    data = self._next_data()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 841, in _next_data
+    idx, data = self._get_data()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 808, in _get_data
+    success, data = self._try_get_data()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 761, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 911, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt

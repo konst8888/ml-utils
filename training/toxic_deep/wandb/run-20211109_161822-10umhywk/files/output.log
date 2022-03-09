@@ -1,0 +1,29 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+/usr/local/lib/python3.6/dist-packages/numpy/lib/arraysetops.py:569: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  mask |= (ar1 == a)
+/usr/local/lib/python3.6/dist-packages/numpy/lib/arraysetops.py:569: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  mask |= (ar1 == a)
+4.873602
+Loaded: 11/11
+[3911753, 20240]
+LR:  0.001
+
+
+
+
+
+
+
+
+Epoch: 0/99 Phase: train Loss: 0.3469 (0.5260) Acc: 0.8889 (0.8672) Rec 1: 0.6462 (0.5000):   0%|               | 108/30719 [00:17<1:24:05,  6.07it/s]
+Traceback (most recent call last):
+  File "train.py", line 326, in <module>
+    wandb,
+  File "train.py", line 106, in train
+    loss.backward()
+  File "/usr/local/lib/python3.6/dist-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/autograd/__init__.py", line 149, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

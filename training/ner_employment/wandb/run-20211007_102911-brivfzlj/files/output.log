@@ -1,0 +1,20 @@
+
+Start vocab building train...
+
+ 74%|███████████████████████████████████████████████████████████████████████                         | 40647/54893 [00:02<00:00, 15655.51it/s]
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 54893/54893 [00:03<00:00, 15576.82it/s]
+1.224009
+LR:  0.00025
+
+
+
+
+
+
+
+Epoch: 0/79 Phase: train Loss: 1.7111 (1.2752) Acc: 0.0357 (0.0606) Rec B-EMPLOYMENT: 0.6184 (0.6809): 100%|█| 429/429 [00:16<00:00, 25.27it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)

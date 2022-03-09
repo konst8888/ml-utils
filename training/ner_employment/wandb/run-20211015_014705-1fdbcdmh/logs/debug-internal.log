@@ -1,0 +1,58 @@
+2021-10-15 01:47:05,578 INFO    MainThread:8870 [internal.py:wandb_internal():89] W&B internal server running at pid: 8870, started at: 2021-10-15 01:47:05.578119
+2021-10-15 01:47:05,579 DEBUG   HandlerThread:8870 [handler.py:handle_request():128] handle_request: check_version
+2021-10-15 01:47:05,579 INFO    WriterThread:8870 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/run-1fdbcdmh.wandb
+2021-10-15 01:47:05,580 DEBUG   SenderThread:8870 [sender.py:send():182] send: header
+2021-10-15 01:47:05,580 DEBUG   SenderThread:8870 [sender.py:send_request():196] send_request: check_version
+2021-10-15 01:47:05,621 DEBUG   SenderThread:8870 [sender.py:send():182] send: run
+2021-10-15 01:47:05,812 DEBUG   HandlerThread:8870 [handler.py:handle_request():128] handle_request: run_start
+2021-10-15 01:47:05,812 INFO    SenderThread:8870 [dir_watcher.py:__init__():168] watching files in: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files
+2021-10-15 01:47:05,812 INFO    SenderThread:8870 [sender.py:_start_run_threads():743] run started: 1fdbcdmh with start time 1634262425
+2021-10-15 01:47:05,812 DEBUG   SenderThread:8870 [sender.py:send():182] send: summary
+2021-10-15 01:47:05,812 INFO    SenderThread:8870 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-15 01:47:06,549 DEBUG   HandlerThread:8870 [meta.py:__init__():39] meta init
+2021-10-15 01:47:06,550 DEBUG   HandlerThread:8870 [meta.py:__init__():53] meta init done
+2021-10-15 01:47:06,550 DEBUG   HandlerThread:8870 [meta.py:probe():210] probe
+2021-10-15 01:47:06,556 DEBUG   HandlerThread:8870 [meta.py:_setup_git():200] setup git
+2021-10-15 01:47:06,569 DEBUG   HandlerThread:8870 [meta.py:_setup_git():207] setup git done
+2021-10-15 01:47:06,569 DEBUG   HandlerThread:8870 [meta.py:_save_pip():57] save pip
+2021-10-15 01:47:06,570 DEBUG   HandlerThread:8870 [meta.py:_save_pip():71] save pip done
+2021-10-15 01:47:06,570 DEBUG   HandlerThread:8870 [meta.py:probe():252] probe done
+2021-10-15 01:47:06,572 DEBUG   SenderThread:8870 [sender.py:send():182] send: files
+2021-10-15 01:47:06,572 INFO    SenderThread:8870 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-15 01:47:06,573 DEBUG   HandlerThread:8870 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-15 01:47:06,574 DEBUG   SenderThread:8870 [sender.py:send_request():196] send_request: stop_status
+2021-10-15 01:47:06,813 INFO    Thread-8  :8870 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/wandb-metadata.json
+2021-10-15 01:47:06,813 INFO    Thread-8  :8870 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/output.log
+2021-10-15 01:47:06,813 INFO    Thread-8  :8870 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/requirements.txt
+2021-10-15 01:47:06,813 INFO    Thread-8  :8870 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/wandb-summary.json
+2021-10-15 01:47:07,062 INFO    Thread-11 :8870 [upload_job.py:push():137] Uploaded file /tmp/tmpob5ntspjwandb/1hc87e2h-wandb-metadata.json
+2021-10-15 01:47:21,785 DEBUG   HandlerThread:8870 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-15 01:47:21,785 DEBUG   SenderThread:8870 [sender.py:send_request():196] send_request: stop_status
+2021-10-15 01:47:34,700 DEBUG   SenderThread:8870 [sender.py:send():182] send: stats
+2021-10-15 01:47:36,967 DEBUG   HandlerThread:8870 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-15 01:47:36,967 DEBUG   SenderThread:8870 [sender.py:send_request():196] send_request: stop_status
+2021-10-15 01:47:50,820 INFO    Thread-8  :8870 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/output.log
+2021-10-15 01:47:52,133 DEBUG   HandlerThread:8870 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-15 01:47:52,134 DEBUG   SenderThread:8870 [sender.py:send_request():196] send_request: stop_status
+2021-10-15 01:47:52,820 INFO    Thread-8  :8870 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/output.log
+2021-10-15 01:47:53,968 WARNING MainThread:8870 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-10-15 01:47:54,821 INFO    Thread-8  :8870 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/output.log
+2021-10-15 01:47:54,890 WARNING MainThread:8870 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2021-10-15 01:47:54,890 ERROR   MainThread:8870 [internal.py:wandb_internal():148] Internal process interrupted.
+2021-10-15 01:47:55,734 INFO    SenderThread:8870 [sender.py:finish():979] shutting down sender
+2021-10-15 01:47:55,734 INFO    SenderThread:8870 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-10-15 01:47:55,734 INFO    HandlerThread:8870 [handler.py:finish():677] shutting down handler
+2021-10-15 01:47:55,736 INFO    WriterThread:8870 [datastore.py:close():281] close: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/run-1fdbcdmh.wandb
+2021-10-15 01:47:55,822 INFO    SenderThread:8870 [dir_watcher.py:finish():312] scan: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files
+2021-10-15 01:47:55,823 INFO    SenderThread:8870 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/output.log output.log
+2021-10-15 01:47:55,823 INFO    SenderThread:8870 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/wandb-metadata.json wandb-metadata.json
+2021-10-15 01:47:55,823 INFO    SenderThread:8870 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/requirements.txt requirements.txt
+2021-10-15 01:47:55,829 INFO    SenderThread:8870 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/config.yaml config.yaml
+2021-10-15 01:47:55,830 INFO    SenderThread:8870 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/wandb-summary.json wandb-summary.json
+2021-10-15 01:47:55,831 INFO    SenderThread:8870 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-15 01:47:55,831 INFO    SenderThread:8870 [file_pusher.py:join():182] waiting for file pusher
+2021-10-15 01:47:56,329 INFO    Thread-14 :8870 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/config.yaml
+2021-10-15 01:47:56,335 INFO    Thread-12 :8870 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/output.log
+2021-10-15 01:47:56,341 INFO    Thread-13 :8870 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/requirements.txt
+2021-10-15 01:47:56,350 INFO    Thread-15 :8870 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211015_014705-1fdbcdmh/files/wandb-summary.json
+2021-10-15 01:47:56,966 INFO    MainThread:8870 [internal.py:handle_exit():76] Internal process exited

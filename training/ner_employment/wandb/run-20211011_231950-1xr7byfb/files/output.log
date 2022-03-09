@@ -1,0 +1,1108 @@
+1.529005
+Loaded: 7/7
+[238140, 279389, 74460, 53615]
+LR:  0.0001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: train Loss: 0.3434 (0.3349) Acc: 0.5034 (0.8691) Rec EMPLOYMENT: 0.9426 (0.9615): 100%|█| 429/429 [00:45<00:00,  9.40it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: valid Loss: 0.4058 (0.2621) Acc: 0.0785 (0.8841) Rec EMPLOYMENT: 0.9237 (nan): 100%|███▉| 685/687 [00:15<00:00, 48.97it/s]
+Epoch: 0/159 Phase: valid Loss: 0.4058 (0.2621) Acc: 0.0785 (0.8841) Rec EMPLOYMENT: 0.9237 (nan): 100%|████| 687/687 [00:15<00:00, 44.32it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/159 Phase: train Loss: 0.3411 (0.3309) Acc: 0.5039 (0.8702) Rec EMPLOYMENT: 0.9441 (0.9231): 100%|█| 429/429 [00:45<00:00,  9.35it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+Epoch: 1/159 Phase: valid Loss: 0.4054 (0.2641) Acc: 0.0786 (0.8862) Rec EMPLOYMENT: 0.9240 (nan): 100%|████| 687/687 [00:15<00:00, 44.20it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/159 Phase: train Loss: 0.3388 (0.3213) Acc: 0.5043 (0.8688) Rec EMPLOYMENT: 0.9436 (0.9808): 100%|█| 429/429 [00:46<00:00,  9.29it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 2/159 Phase: valid Loss: 0.4059 (0.3639) Acc: 0.0787 (0.9087) Rec EMPLOYMENT: 0.9198 (0.6923):  90%|▉| 617/687 [00:14<00:01, 47.67it/s]
+Epoch: 2/159 Phase: valid Loss: 0.4048 (0.2648) Acc: 0.0786 (0.8841) Rec EMPLOYMENT: 0.9230 (nan): 100%|████| 687/687 [00:15<00:00, 43.13it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/159 Phase: train Loss: 0.3381 (0.3201) Acc: 0.5043 (0.8629) Rec EMPLOYMENT: 0.9447 (0.9904): 100%|█| 429/429 [00:46<00:00,  9.27it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 3/159 Phase: valid Loss: 0.4054 (0.3506) Acc: 0.0786 (0.8490) Rec EMPLOYMENT: 0.9210 (0.8571):  89%|▉| 609/687 [00:14<00:01, 47.93it/s]
+Epoch: 3/159 Phase: valid Loss: 0.4048 (0.2632) Acc: 0.0785 (0.8862) Rec EMPLOYMENT: 0.9242 (nan): 100%|████| 687/687 [00:15<00:00, 43.18it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/159 Phase: train Loss: 0.3355 (0.2904) Acc: 0.5047 (0.8697) Rec EMPLOYMENT: 0.9468 (1.0000): 100%|█| 429/429 [00:46<00:00,  9.25it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 4/159 Phase: valid Loss: 0.4051 (0.4866) Acc: 0.0787 (0.8548) Rec EMPLOYMENT: 0.9223 (nan):  97%|███▉| 668/687 [00:15<00:00, 47.44it/s]
+Epoch: 4/159 Phase: valid Loss: 0.4050 (0.2592) Acc: 0.0786 (0.8882) Rec EMPLOYMENT: 0.9233 (nan): 100%|████| 687/687 [00:16<00:00, 42.19it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/159 Phase: train Loss: 0.3358 (0.3120) Acc: 0.5049 (0.8646) Rec EMPLOYMENT: 0.9464 (0.9808): 100%|█| 429/429 [00:46<00:00,  9.18it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+Epoch: 5/159 Phase: valid Loss: 0.4045 (0.2588) Acc: 0.0787 (0.8841) Rec EMPLOYMENT: 0.9233 (nan): 100%|████| 687/687 [00:16<00:00, 42.17it/s]
+{'EMPLOYMENT_appended_data': 11376}
+LR:  0.0001
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/159 Phase: train Loss: 0.3204 (0.3086) Acc: 0.5052 (0.8679) Rec EMPLOYMENT: 0.9566 (1.0000): 100%|█| 429/429 [00:45<00:00,  9.43it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 6/159 Phase: valid Loss: 0.4056 (0.3465) Acc: 0.0785 (0.8896) Rec EMPLOYMENT: 0.9243 (nan):  97%|███▉| 669/687 [00:15<00:00, 48.19it/s]
+Epoch: 6/159 Phase: valid Loss: 0.4056 (0.2627) Acc: 0.0784 (0.8801) Rec EMPLOYMENT: 0.9253 (nan): 100%|████| 687/687 [00:15<00:00, 43.98it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/159 Phase: train Loss: 0.3188 (0.2967) Acc: 0.5057 (0.8663) Rec EMPLOYMENT: 0.9580 (0.9760): 100%|█| 429/429 [00:46<00:00,  9.29it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 7/159 Phase: valid Loss: 0.4055 (0.2975) Acc: 0.0785 (0.8551) Rec EMPLOYMENT: 0.9251 (1.0000):  98%|▉| 674/687 [00:15<00:00, 48.44it/s]
+Epoch: 7/159 Phase: valid Loss: 0.4055 (0.2572) Acc: 0.0785 (0.8801) Rec EMPLOYMENT: 0.9258 (nan): 100%|████| 687/687 [00:15<00:00, 44.24it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 8/159 Phase: train Loss: 0.3182 (0.3096) Acc: 0.5057 (0.8650) Rec EMPLOYMENT: 0.9565 (0.9440): 100%|█| 429/429 [00:46<00:00,  9.27it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 8/159 Phase: valid Loss: 0.4055 (0.5099) Acc: 0.0785 (0.8447) Rec EMPLOYMENT: 0.9235 (1.0000):  95%|▉| 650/687 [00:15<00:00, 45.50it/s]
+Epoch: 8/159 Phase: valid Loss: 0.4054 (0.2571) Acc: 0.0785 (0.8801) Rec EMPLOYMENT: 0.9248 (nan): 100%|████| 687/687 [00:15<00:00, 43.07it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 9/159 Phase: train Loss: 0.3170 (0.2909) Acc: 0.5062 (0.8711) Rec EMPLOYMENT: 0.9578 (0.9920): 100%|█| 429/429 [00:46<00:00,  9.22it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 9/159 Phase: valid Loss: 0.4063 (0.3333) Acc: 0.0787 (0.8308) Rec EMPLOYMENT: 0.9233 (0.9286):  91%|▉| 626/687 [00:14<00:01, 35.61it/s]
+Epoch: 9/159 Phase: valid Loss: 0.4053 (0.2570) Acc: 0.0786 (0.8821) Rec EMPLOYMENT: 0.9257 (nan): 100%|████| 687/687 [00:16<00:00, 42.74it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+Epoch: 10/159 Phase: train Loss: 0.3289 (0.4034) Acc: 0.4945 (0.8419) Rec EMPLOYMENT: 0.9527 (0.9600):   4%| | 19/429 [00:02<00:44,  9.21it/s]
+Epoch: 10/159 Phase: train Loss: 0.3262 (0.2614) Acc: 0.4985 (0.8547) Rec EMPLOYMENT: 0.9546 (0.9778):   8%| | 34/429 [00:04<00:40,  9.83it/s]
+Epoch: 10/159 Phase: train Loss: 0.3229 (0.3933) Acc: 0.5009 (0.8560) Rec EMPLOYMENT: 0.9560 (0.9750):  12%| | 53/429 [00:06<00:38,  9.67it/s]
+Epoch: 10/159 Phase: train Loss: 0.3194 (0.3203) Acc: 0.5036 (0.8575) Rec EMPLOYMENT: 0.9545 (0.9320):  17%|▏| 72/429 [00:08<00:38,  9.30it/s]
+Epoch: 10/159 Phase: train Loss: 0.3197 (0.3200) Acc: 0.5048 (0.8782) Rec EMPLOYMENT: 0.9555 (0.9196):  21%|▏| 91/429 [00:10<00:35,  9.59it/s]
+Epoch: 10/159 Phase: train Loss: 0.3188 (0.3317) Acc: 0.5051 (0.8502) Rec EMPLOYMENT: 0.9573 (0.9799):  26%|▎| 111/429 [00:12<00:33,  9.62it/s
+Epoch: 10/159 Phase: train Loss: 0.3188 (0.3129) Acc: 0.5048 (0.8745) Rec EMPLOYMENT: 0.9565 (0.9417):  30%|▎| 128/429 [00:14<00:40,  7.52it/s
+Epoch: 10/159 Phase: train Loss: 0.3182 (0.3120) Acc: 0.5072 (0.8625) Rec EMPLOYMENT: 0.9583 (0.9763):  34%|▎| 147/429 [00:16<00:29,  9.54it/s
+Epoch: 10/159 Phase: train Loss: 0.3175 (0.2587) Acc: 0.5076 (0.8637) Rec EMPLOYMENT: 0.9583 (0.9804):  39%|▍| 167/429 [00:18<00:27,  9.46it/s
+Epoch: 10/159 Phase: train Loss: 0.3168 (0.3054) Acc: 0.5083 (0.8564) Rec EMPLOYMENT: 0.9591 (0.9720):  43%|▍| 185/429 [00:20<00:25,  9.46it/s
+Epoch: 10/159 Phase: train Loss: 0.3167 (0.3044) Acc: 0.5074 (0.8654) Rec EMPLOYMENT: 0.9590 (0.9714):  48%|▍| 204/429 [00:22<00:24,  9.36it/s
+Epoch: 10/159 Phase: train Loss: 0.3164 (0.3540) Acc: 0.5069 (0.8738) Rec EMPLOYMENT: 0.9591 (0.8538):  52%|▌| 222/429 [00:24<00:21,  9.56it/s
+Epoch: 10/159 Phase: train Loss: 0.3167 (0.2148) Acc: 0.5077 (0.8783) Rec EMPLOYMENT: 0.9595 (0.9590):  57%|▌| 243/429 [00:26<00:19,  9.53it/s
+Epoch: 10/159 Phase: train Loss: 0.3168 (0.3654) Acc: 0.5075 (0.8545) Rec EMPLOYMENT: 0.9589 (0.9330):  61%|▌| 260/429 [00:28<00:18,  9.36it/s
+Epoch: 10/159 Phase: train Loss: 0.3174 (0.3173) Acc: 0.5067 (0.8630) Rec EMPLOYMENT: 0.9582 (0.9689):  65%|▋| 280/429 [00:30<00:14, 10.09it/s
+Epoch: 10/159 Phase: train Loss: 0.3168 (0.4102) Acc: 0.5068 (0.8611) Rec EMPLOYMENT: 0.9581 (0.9471):  70%|▋| 299/429 [00:32<00:13,  9.57it/s
+Epoch: 10/159 Phase: train Loss: 0.3170 (0.3613) Acc: 0.5062 (0.8603) Rec EMPLOYMENT: 0.9575 (0.9451):  74%|▋| 319/429 [00:34<00:11,  9.64it/s
+Epoch: 10/159 Phase: train Loss: 0.3172 (0.3364) Acc: 0.5066 (0.8650) Rec EMPLOYMENT: 0.9577 (0.9565):  78%|▊| 336/429 [00:36<00:09,  9.39it/s
+Epoch: 10/159 Phase: train Loss: 0.3172 (0.3800) Acc: 0.5063 (0.8557) Rec EMPLOYMENT: 0.9575 (0.9403):  83%|▊| 355/429 [00:38<00:07,  9.28it/s
+Epoch: 10/159 Phase: train Loss: 0.3177 (0.3325) Acc: 0.5059 (0.8738) Rec EMPLOYMENT: 0.9578 (0.9435):  87%|▊| 375/429 [00:40<00:05,  9.65it/s
+Epoch: 10/159 Phase: train Loss: 0.3179 (0.3131) Acc: 0.5058 (0.8568) Rec EMPLOYMENT: 0.9575 (0.9206):  91%|▉| 392/429 [00:42<00:05,  6.92it/s
+Epoch: 10/159 Phase: train Loss: 0.3180 (0.2943) Acc: 0.5053 (0.8779) Rec EMPLOYMENT: 0.9571 (0.9905):  96%|▉| 410/429 [00:44<00:01,  9.67it/s
+Epoch: 10/159 Phase: valid Loss: 0.5328 (0.4080) Acc: 0.0819 (0.8539) Rec EMPLOYMENT: 0.9298 (1.0000):   0%|  | 1/687 [00:00<01:25,  8.05it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3919 (0.4122) Acc: 0.0775 (0.8411) Rec EMPLOYMENT: 0.9249 (0.9412):  10%| | 71/687 [00:01<00:13, 45.84it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3945 (0.7383) Acc: 0.0793 (0.8619) Rec EMPLOYMENT: 0.9261 (0.9375):  22%|▏| 153/687 [00:03<00:11, 46.55it/s
+Epoch: 10/159 Phase: valid Loss: 0.3987 (0.5341) Acc: 0.0792 (0.8430) Rec EMPLOYMENT: 0.9196 (0.7750):  35%|▎| 243/687 [00:06<00:10, 41.29it/s
+Epoch: 10/159 Phase: valid Loss: 0.3999 (0.3025) Acc: 0.0787 (0.8997) Rec EMPLOYMENT: 0.9255 (0.8696):  49%|▍| 336/687 [00:08<00:07, 46.98it/s
+Epoch: 10/159 Phase: valid Loss: 0.4020 (0.4129) Acc: 0.0784 (0.8850) Rec EMPLOYMENT: 0.9242 (1.0000):  61%|▌| 418/687 [00:10<00:05, 46.75it/s
+Epoch: 10/159 Phase: valid Loss: 0.4070 (0.5002) Acc: 0.0784 (0.8304) Rec EMPLOYMENT: 0.9215 (0.9333):  74%|▋| 508/687 [00:12<00:04, 43.56it/s
+Epoch: 10/159 Phase: valid Loss: 0.4057 (0.2319) Acc: 0.0786 (0.9149) Rec EMPLOYMENT: 0.9215 (nan):  87%|██▌| 596/687 [00:14<00:01, 46.40it/s]
+Epoch: 10/159 Phase: valid Loss: 0.4056 (0.2576) Acc: 0.0786 (0.8801) Rec EMPLOYMENT: 0.9238 (nan): 100%|███| 687/687 [00:16<00:00, 41.87it/s]
+Epoch: 10/159 Phase: valid Loss: 0.4056 (0.2576) Acc: 0.0786 (0.8801) Rec EMPLOYMENT: 0.9238 (nan): 100%|███| 687/687 [00:16<00:00, 41.87it/s]
+{'EMPLOYMENT_appended_data': 4631}
+Epoch: 11/159 Phase: train Loss: 0.2876 (0.2876) Acc: 0.5087 (0.8762) Rec EMPLOYMENT: 0.9651 (0.9651):   0%|  | 1/429 [00:00<04:44,  1.50it/s]
+Epoch: 11/159 Phase: train Loss: 0.3142 (0.3649) Acc: 0.4963 (0.8499) Rec EMPLOYMENT: 0.9578 (0.9820):   4%| | 19/429 [00:02<00:43,  9.45it/s]
+Epoch: 11/159 Phase: train Loss: 0.3160 (0.3059) Acc: 0.5022 (0.8574) Rec EMPLOYMENT: 0.9538 (0.9821):   9%| | 39/429 [00:04<00:41,  9.46it/s]
+Epoch: 11/159 Phase: train Loss: 0.3159 (0.3084) Acc: 0.5027 (0.8669) Rec EMPLOYMENT: 0.9557 (0.9495):  14%|▏| 58/429 [00:06<00:38,  9.68it/s]
+Epoch: 11/159 Phase: train Loss: 0.3117 (0.3327) Acc: 0.5050 (0.8508) Rec EMPLOYMENT: 0.9578 (0.9273):  18%|▏| 77/429 [00:08<00:36,  9.60it/s]
+Epoch: 11/159 Phase: train Loss: 0.3132 (0.2830) Acc: 0.5055 (0.8463) Rec EMPLOYMENT: 0.9589 (0.9847):  22%|▏| 96/429 [00:10<00:35,  9.44it/s]
+Epoch: 11/159 Phase: train Loss: 0.3119 (0.3258) Acc: 0.5055 (0.8603) Rec EMPLOYMENT: 0.9607 (0.9612):  27%|▎| 116/429 [00:12<00:31, 10.05it/s
+Epoch: 11/159 Phase: train Loss: 0.3110 (0.3003) Acc: 0.5065 (0.8659) Rec EMPLOYMENT: 0.9610 (1.0000):  31%|▎| 135/429 [00:15<00:32,  9.08it/s
+Epoch: 11/159 Phase: train Loss: 0.3108 (0.2272) Acc: 0.5076 (0.8725) Rec EMPLOYMENT: 0.9608 (0.9695):  36%|▎| 153/429 [00:16<00:29,  9.23it/s
+Epoch: 11/159 Phase: train Loss: 0.3110 (0.3175) Acc: 0.5075 (0.8588) Rec EMPLOYMENT: 0.9611 (0.9748):  40%|▍| 173/429 [00:18<00:26,  9.64it/s
+Epoch: 11/159 Phase: train Loss: 0.3106 (0.2457) Acc: 0.5083 (0.8670) Rec EMPLOYMENT: 0.9615 (0.9793):  45%|▍| 192/429 [00:21<00:24,  9.66it/s
+Epoch: 11/159 Phase: train Loss: 0.3106 (0.3046) Acc: 0.5080 (0.8564) Rec EMPLOYMENT: 0.9622 (0.9854):  49%|▍| 211/429 [00:23<00:22,  9.49it/s
+Epoch: 11/159 Phase: train Loss: 0.3111 (0.2466) Acc: 0.5069 (0.8594) Rec EMPLOYMENT: 0.9626 (0.9851):  53%|▌| 229/429 [00:25<00:21,  9.50it/s
+Epoch: 11/159 Phase: train Loss: 0.3116 (0.3113) Acc: 0.5073 (0.8562) Rec EMPLOYMENT: 0.9631 (0.9845):  58%|▌| 250/429 [00:27<00:18,  9.44it/s
+Epoch: 11/159 Phase: train Loss: 0.3125 (0.3412) Acc: 0.5070 (0.8640) Rec EMPLOYMENT: 0.9621 (0.9200):  62%|▌| 268/429 [00:29<00:16,  9.70it/s
+Epoch: 11/159 Phase: train Loss: 0.3123 (0.3623) Acc: 0.5068 (0.8559) Rec EMPLOYMENT: 0.9620 (0.9253):  67%|▋| 287/429 [00:31<00:14,  9.62it/s
+Epoch: 11/159 Phase: train Loss: 0.3114 (0.3537) Acc: 0.5063 (0.8444) Rec EMPLOYMENT: 0.9619 (0.9429):  71%|▋| 306/429 [00:33<00:12,  9.47it/s
+Epoch: 11/159 Phase: train Loss: 0.3119 (0.3105) Acc: 0.5060 (0.8608) Rec EMPLOYMENT: 0.9616 (0.9438):  76%|▊| 324/429 [00:35<00:13,  7.80it/s
+Epoch: 11/159 Phase: train Loss: 0.3123 (0.2914) Acc: 0.5066 (0.8628) Rec EMPLOYMENT: 0.9612 (0.9895):  80%|▊| 345/429 [00:37<00:08,  9.58it/s
+Epoch: 11/159 Phase: train Loss: 0.3119 (0.2813) Acc: 0.5065 (0.8768) Rec EMPLOYMENT: 0.9613 (0.9682):  85%|▊| 363/429 [00:39<00:06,  9.49it/s
+Epoch: 11/159 Phase: train Loss: 0.3129 (0.2784) Acc: 0.5059 (0.8698) Rec EMPLOYMENT: 0.9611 (0.9674):  89%|▉| 383/429 [00:41<00:04,  9.47it/s
+Epoch: 11/159 Phase: train Loss: 0.3125 (0.3871) Acc: 0.5053 (0.8594) Rec EMPLOYMENT: 0.9611 (0.9398):  93%|▉| 400/429 [00:43<00:03,  9.30it/s
+Epoch: 11/159 Phase: train Loss: 0.3127 (0.3066) Acc: 0.5056 (0.8600) Rec EMPLOYMENT: 0.9610 (0.9669):  97%|▉| 416/429 [00:44<00:01, 10.14it/s
+Epoch: 11/159 Phase: valid Loss: 0.3946 (0.2908) Acc: 0.0793 (0.8314) Rec EMPLOYMENT: 0.9157 (0.9778):   3%| | 21/687 [00:00<00:15, 43.18it/s]
+Epoch: 11/159 Phase: valid Loss: 0.3889 (0.6085) Acc: 0.0788 (0.8387) Rec EMPLOYMENT: 0.9253 (0.6500):  17%|▏| 117/687 [00:02<00:12, 46.22it/s
+Epoch: 11/159 Phase: valid Loss: 0.3938 (0.4860) Acc: 0.0791 (0.8624) Rec EMPLOYMENT: 0.9230 (1.0000):  31%|▎| 210/687 [00:04<00:09, 48.53it/s
+Epoch: 11/159 Phase: valid Loss: 0.4025 (0.2950) Acc: 0.0786 (0.8665) Rec EMPLOYMENT: 0.9247 (0.9412):  44%|▍| 302/687 [00:06<00:08, 43.72it/s
+Epoch: 11/159 Phase: valid Loss: 0.4027 (0.3850) Acc: 0.0782 (0.8458) Rec EMPLOYMENT: 0.9239 (0.9167):  57%|▌| 395/687 [00:08<00:06, 48.30it/s
+Epoch: 11/159 Phase: valid Loss: 0.4076 (0.3470) Acc: 0.0782 (0.8593) Rec EMPLOYMENT: 0.9227 (1.0000):  71%|▋| 485/687 [00:10<00:04, 48.04it/s
+Epoch: 11/159 Phase: valid Loss: 0.4069 (0.4272) Acc: 0.0786 (0.8280) Rec EMPLOYMENT: 0.9241 (0.8125):  84%|▊| 576/687 [00:13<00:02, 45.32it/s
+Epoch: 11/159 Phase: valid Loss: 0.4057 (0.4912) Acc: 0.0785 (0.8513) Rec EMPLOYMENT: 0.9244 (nan):  97%|██▉| 669/687 [00:15<00:00, 48.74it/s]
+Epoch: 11/159 Phase: valid Loss: 0.4057 (0.4912) Acc: 0.0785 (0.8513) Rec EMPLOYMENT: 0.9244 (nan):  97%|██▉| 669/687 [00:15<00:00, 48.74it/s]
+Epoch: 12/159 Phase: train Loss: 0.3230 (0.3177) Acc: 0.5020 (0.8575) Rec EMPLOYMENT: 0.9625 (0.9721):   2%|  | 7/429 [00:01<01:02,  6.80it/s]
+Epoch: 12/159 Phase: train Loss: 0.3180 (0.3178) Acc: 0.4971 (0.8651) Rec EMPLOYMENT: 0.9626 (0.9554):   6%| | 25/429 [00:03<00:42,  9.55it/s]
+Epoch: 12/159 Phase: train Loss: 0.3141 (0.2771) Acc: 0.5019 (0.8728) Rec EMPLOYMENT: 0.9592 (0.9766):  10%| | 45/429 [00:05<00:40,  9.44it/s]
+Epoch: 12/159 Phase: train Loss: 0.3166 (0.2991) Acc: 0.5013 (0.8460) Rec EMPLOYMENT: 0.9591 (0.9581):  14%|▏| 60/429 [00:07<00:38,  9.60it/s]
+Epoch: 12/159 Phase: train Loss: 0.3113 (0.3041) Acc: 0.5046 (0.8646) Rec EMPLOYMENT: 0.9596 (0.9667):  18%|▏| 79/429 [00:09<00:36,  9.54it/s]
+Epoch: 12/159 Phase: train Loss: 0.3127 (0.3028) Acc: 0.5047 (0.8637) Rec EMPLOYMENT: 0.9604 (0.9508):  23%|▏| 99/429 [00:11<00:34,  9.63it/s]
+Epoch: 12/159 Phase: train Loss: 0.3111 (0.2926) Acc: 0.5057 (0.8693) Rec EMPLOYMENT: 0.9612 (0.9381):  28%|▎| 118/429 [00:13<00:32,  9.55it/s
+Epoch: 12/159 Phase: train Loss: 0.3105 (0.3562) Acc: 0.5065 (0.8690) Rec EMPLOYMENT: 0.9610 (0.9538):  32%|▎| 136/429 [00:15<00:31,  9.34it/s
+Epoch: 12/159 Phase: train Loss: 0.3090 (0.2966) Acc: 0.5077 (0.8681) Rec EMPLOYMENT: 0.9608 (0.9360):  36%|▎| 155/429 [00:17<00:28,  9.71it/s
+Epoch: 12/159 Phase: train Loss: 0.3100 (0.3212) Acc: 0.5075 (0.8633) Rec EMPLOYMENT: 0.9610 (0.9746):  41%|▍| 176/429 [00:19<00:26,  9.61it/s
+Epoch: 12/159 Phase: train Loss: 0.3088 (0.3403) Acc: 0.5084 (0.8542) Rec EMPLOYMENT: 0.9617 (0.9402):  45%|▍| 194/429 [00:21<00:28,  8.36it/s
+Epoch: 12/159 Phase: train Loss: 0.3087 (0.2994) Acc: 0.5079 (0.8479) Rec EMPLOYMENT: 0.9624 (0.9829):  50%|▍| 213/429 [00:23<00:22,  9.71it/s
+Epoch: 12/159 Phase: train Loss: 0.3089 (0.3668) Acc: 0.5075 (0.8537) Rec EMPLOYMENT: 0.9629 (0.9911):  54%|▌| 232/429 [00:25<00:20,  9.66it/s
+Epoch: 12/159 Phase: train Loss: 0.3096 (0.2939) Acc: 0.5077 (0.8541) Rec EMPLOYMENT: 0.9635 (0.9554):  59%|▌| 253/429 [00:27<00:18,  9.30it/s
+Epoch: 12/159 Phase: train Loss: 0.3097 (0.3457) Acc: 0.5075 (0.8637) Rec EMPLOYMENT: 0.9628 (0.9947):  63%|▋| 272/429 [00:29<00:16,  9.78it/s
+Epoch: 12/159 Phase: train Loss: 0.3097 (0.3466) Acc: 0.5074 (0.8574) Rec EMPLOYMENT: 0.9624 (0.9346):  68%|▋| 290/429 [00:31<00:15,  9.24it/s
+Epoch: 12/159 Phase: train Loss: 0.3089 (0.2656) Acc: 0.5068 (0.8651) Rec EMPLOYMENT: 0.9621 (0.9741):  72%|▋| 310/429 [00:33<00:11, 10.04it/s
+Epoch: 12/159 Phase: train Loss: 0.3097 (0.3228) Acc: 0.5064 (0.8775) Rec EMPLOYMENT: 0.9619 (0.9760):  76%|▊| 328/429 [00:35<00:11,  8.60it/s
+Epoch: 12/159 Phase: train Loss: 0.3091 (0.2666) Acc: 0.5067 (0.8700) Rec EMPLOYMENT: 0.9617 (0.9591):  81%|▊| 349/429 [00:37<00:07, 10.04it/s
+Epoch: 12/159 Phase: train Loss: 0.3098 (0.3058) Acc: 0.5066 (0.8507) Rec EMPLOYMENT: 0.9619 (0.9793):  86%|▊| 367/429 [00:39<00:06,  9.55it/s
+Epoch: 12/159 Phase: train Loss: 0.3102 (0.2745) Acc: 0.5061 (0.8715) Rec EMPLOYMENT: 0.9615 (0.9859):  90%|▉| 388/429 [00:41<00:04,  9.60it/s
+Epoch: 12/159 Phase: train Loss: 0.3104 (0.2723) Acc: 0.5057 (0.8625) Rec EMPLOYMENT: 0.9613 (0.9622):  95%|▉| 406/429 [00:43<00:02,  9.74it/s
+Epoch: 12/159 Phase: train Loss: 0.3101 (0.3219) Acc: 0.5062 (0.8665) Rec EMPLOYMENT: 0.9613 (0.9608):  99%|▉| 425/429 [00:45<00:00, 10.42it/s
+Epoch: 12/159 Phase: valid Loss: 0.3871 (0.4680) Acc: 0.0784 (0.8751) Rec EMPLOYMENT: 0.9224 (1.0000):   5%| | 35/687 [00:01<00:18, 35.12it/s]
+Epoch: 12/159 Phase: valid Loss: 0.3879 (0.4548) Acc: 0.0788 (0.8606) Rec EMPLOYMENT: 0.9274 (nan):  19%|▌  | 129/687 [00:03<00:11, 46.58it/s]
+Epoch: 12/159 Phase: valid Loss: 0.3934 (0.4391) Acc: 0.0792 (0.8593) Rec EMPLOYMENT: 0.9229 (0.8261):  32%|▎| 220/687 [00:05<00:09, 48.31it/s
+Epoch: 12/159 Phase: valid Loss: 0.4012 (0.3482) Acc: 0.0787 (0.8549) Rec EMPLOYMENT: 0.9262 (0.9020):  46%|▍| 316/687 [00:07<00:08, 46.07it/s
+Epoch: 12/159 Phase: valid Loss: 0.4017 (0.1521) Acc: 0.0784 (0.8943) Rec EMPLOYMENT: 0.9263 (1.0000):  59%|▌| 404/687 [00:09<00:06, 46.94it/s
+Epoch: 12/159 Phase: valid Loss: 0.4081 (0.5306) Acc: 0.0783 (0.8077) Rec EMPLOYMENT: 0.9239 (1.0000):  71%|▋| 487/687 [00:11<00:05, 33.87it/s
+Epoch: 12/159 Phase: valid Loss: 0.4077 (0.8505) Acc: 0.0786 (0.8377) Rec EMPLOYMENT: 0.9239 (0.5000):  85%|▊| 581/687 [00:13<00:02, 45.59it/s
+Epoch: 12/159 Phase: valid Loss: 0.4057 (0.4889) Acc: 0.0786 (0.8542) Rec EMPLOYMENT: 0.9253 (nan):  97%|██▉| 668/687 [00:15<00:00, 47.88it/s]
+Epoch: 12/159 Phase: valid Loss: 0.4057 (0.4889) Acc: 0.0786 (0.8542) Rec EMPLOYMENT: 0.9253 (nan):  97%|██▉| 668/687 [00:15<00:00, 47.88it/s]
+Epoch: 13/159 Phase: train Loss: 0.3166 (0.4005) Acc: 0.4958 (0.8436) Rec EMPLOYMENT: 0.9566 (0.9474):   1%|  | 5/429 [00:01<01:27,  4.84it/s]
+Epoch: 13/159 Phase: train Loss: 0.3196 (0.3504) Acc: 0.4961 (0.8548) Rec EMPLOYMENT: 0.9629 (0.9225):   6%| | 25/429 [00:03<00:42,  9.43it/s]
+Epoch: 13/159 Phase: train Loss: 0.3147 (0.3376) Acc: 0.5026 (0.8570) Rec EMPLOYMENT: 0.9609 (0.9636):  10%| | 44/429 [00:05<00:40,  9.42it/s]
+Epoch: 13/159 Phase: train Loss: 0.3143 (0.3305) Acc: 0.5021 (0.8560) Rec EMPLOYMENT: 0.9618 (0.9683):  14%|▏| 62/429 [00:07<00:46,  7.87it/s]
+Epoch: 13/159 Phase: train Loss: 0.3101 (0.3147) Acc: 0.5050 (0.8545) Rec EMPLOYMENT: 0.9622 (0.9680):  19%|▏| 81/429 [00:09<00:36,  9.52it/s]
+Epoch: 13/159 Phase: train Loss: 0.3116 (0.2869) Acc: 0.5055 (0.8486) Rec EMPLOYMENT: 0.9616 (0.9847):  22%|▏| 96/429 [00:11<00:35,  9.48it/s]
+Epoch: 13/159 Phase: train Loss: 0.3097 (0.2886) Acc: 0.5058 (0.8462) Rec EMPLOYMENT: 0.9630 (0.9942):  27%|▎| 115/429 [00:13<00:32,  9.56it/s
+Epoch: 13/159 Phase: train Loss: 0.3085 (0.3328) Acc: 0.5063 (0.8500) Rec EMPLOYMENT: 0.9637 (0.9617):  31%|▎| 133/429 [00:15<00:33,  8.92it/s
+Epoch: 13/159 Phase: train Loss: 0.3083 (0.3281) Acc: 0.5077 (0.8666) Rec EMPLOYMENT: 0.9635 (0.9064):  36%|▎| 153/429 [00:17<00:29,  9.43it/s
+Epoch: 13/159 Phase: train Loss: 0.3081 (0.3081) Acc: 0.5078 (0.8642) Rec EMPLOYMENT: 0.9633 (0.9919):  40%|▍| 172/429 [00:19<00:26,  9.60it/s
+Epoch: 13/159 Phase: train Loss: 0.3076 (0.2697) Acc: 0.5083 (0.8447) Rec EMPLOYMENT: 0.9639 (0.9845):  45%|▍| 191/429 [00:21<00:24,  9.63it/s
+Epoch: 13/159 Phase: train Loss: 0.3066 (0.2996) Acc: 0.5085 (0.8605) Rec EMPLOYMENT: 0.9641 (0.9902):  49%|▍| 211/429 [00:23<00:22,  9.48it/s
+Epoch: 13/159 Phase: train Loss: 0.3065 (0.2612) Acc: 0.5075 (0.8594) Rec EMPLOYMENT: 0.9645 (0.9701):  54%|▌| 230/429 [00:25<00:20,  9.78it/s
+Epoch: 13/159 Phase: train Loss: 0.3069 (0.3006) Acc: 0.5080 (0.8613) Rec EMPLOYMENT: 0.9648 (0.9845):  58%|▌| 248/429 [00:27<00:19,  9.37it/s
+Epoch: 13/159 Phase: train Loss: 0.3080 (0.3245) Acc: 0.5077 (0.8688) Rec EMPLOYMENT: 0.9639 (0.9657):  62%|▌| 268/429 [00:29<00:16,  9.58it/s
+Epoch: 13/159 Phase: train Loss: 0.3084 (0.3220) Acc: 0.5075 (0.8618) Rec EMPLOYMENT: 0.9631 (0.9253):  67%|▋| 287/429 [00:31<00:15,  9.34it/s
+Epoch: 13/159 Phase: train Loss: 0.3076 (0.2786) Acc: 0.5070 (0.8524) Rec EMPLOYMENT: 0.9631 (0.9538):  71%|▋| 306/429 [00:33<00:12,  9.54it/s
+Epoch: 13/159 Phase: train Loss: 0.3081 (0.2287) Acc: 0.5066 (0.8701) Rec EMPLOYMENT: 0.9631 (0.9761):  75%|▊| 323/429 [00:35<00:13,  7.68it/s
+Epoch: 13/159 Phase: train Loss: 0.3086 (0.3080) Acc: 0.5071 (0.8560) Rec EMPLOYMENT: 0.9629 (0.9868):  80%|▊| 343/429 [00:37<00:09,  9.39it/s
+Epoch: 13/159 Phase: train Loss: 0.3082 (0.2639) Acc: 0.5069 (0.8742) Rec EMPLOYMENT: 0.9630 (0.9858):  85%|▊| 363/429 [00:39<00:06,  9.52it/s
+Epoch: 13/159 Phase: train Loss: 0.3091 (0.2915) Acc: 0.5063 (0.8683) Rec EMPLOYMENT: 0.9629 (1.0000):  89%|▉| 381/429 [00:41<00:05,  9.47it/s
+Epoch: 13/159 Phase: train Loss: 0.3091 (0.3638) Acc: 0.5057 (0.8594) Rec EMPLOYMENT: 0.9625 (0.9277):  93%|▉| 401/429 [00:43<00:02,  9.41it/s
+Epoch: 13/159 Phase: train Loss: 0.3094 (0.3297) Acc: 0.5061 (0.8655) Rec EMPLOYMENT: 0.9622 (0.9562):  98%|▉| 420/429 [00:45<00:00,  9.64it/s
+Epoch: 13/159 Phase: valid Loss: 0.3838 (0.5108) Acc: 0.0783 (0.7954) Rec EMPLOYMENT: 0.9246 (0.7500):   6%| | 38/687 [00:01<00:17, 37.97it/s]
+Epoch: 13/159 Phase: valid Loss: 0.3902 (0.3668) Acc: 0.0788 (0.8272) Rec EMPLOYMENT: 0.9275 (0.9500):  18%|▏| 124/687 [00:03<00:12, 46.03it/s
+Epoch: 13/159 Phase: valid Loss: 0.3973 (0.5583) Acc: 0.0790 (0.8638) Rec EMPLOYMENT: 0.9271 (nan):  28%|▊  | 194/687 [00:04<00:10, 47.49it/s]
+Epoch: 13/159 Phase: valid Loss: 0.4000 (0.5784) Acc: 0.0788 (0.8329) Rec EMPLOYMENT: 0.9249 (0.9231):  42%|▍| 289/687 [00:06<00:11, 35.14it/s
+Epoch: 13/159 Phase: valid Loss: 0.4006 (0.4183) Acc: 0.0781 (0.8262) Rec EMPLOYMENT: 0.9270 (0.8824):  55%|▌| 377/687 [00:08<00:06, 45.30it/s
+Epoch: 13/159 Phase: valid Loss: 0.4083 (0.6944) Acc: 0.0781 (0.8493) Rec EMPLOYMENT: 0.9233 (0.9630):  68%|▋| 469/687 [00:10<00:04, 47.85it/s
+Epoch: 13/159 Phase: valid Loss: 0.4077 (0.4167) Acc: 0.0784 (0.8105) Rec EMPLOYMENT: 0.9241 (0.9375):  80%|▊| 552/687 [00:12<00:03, 33.99it/s
+Epoch: 13/159 Phase: valid Loss: 0.4062 (0.4298) Acc: 0.0786 (0.8337) Rec EMPLOYMENT: 0.9246 (0.9130):  94%|▉| 647/687 [00:14<00:00, 45.67it/s
+Epoch: 13/159 Phase: valid Loss: 0.4062 (0.4298) Acc: 0.0786 (0.8337) Rec EMPLOYMENT: 0.9246 (0.9130):  94%|▉| 647/687 [00:14<00:00, 45.67it/s
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 14/159 Phase: train Loss: 0.3128 (0.3334) Acc: 0.4989 (0.8603) Rec EMPLOYMENT: 0.9663 (0.9763):   4%| | 18/429 [00:02<00:44,  9.32it/s]
+Epoch: 14/159 Phase: train Loss: 0.3153 (0.2837) Acc: 0.5009 (0.8486) Rec EMPLOYMENT: 0.9579 (0.9194):   9%| | 37/429 [00:04<00:40,  9.67it/s]
+Epoch: 14/159 Phase: train Loss: 0.3142 (0.2774) Acc: 0.5028 (0.8560) Rec EMPLOYMENT: 0.9593 (0.9811):  13%|▏| 57/429 [00:06<00:38,  9.65it/s]
+Epoch: 14/159 Phase: train Loss: 0.3092 (0.2809) Acc: 0.5045 (0.8515) Rec EMPLOYMENT: 0.9601 (0.9628):  17%|▏| 75/429 [00:08<00:36,  9.57it/s]
+Epoch: 14/159 Phase: train Loss: 0.3109 (0.3387) Acc: 0.5054 (0.8435) Rec EMPLOYMENT: 0.9605 (1.0000):  22%|▏| 94/429 [00:10<00:34,  9.63it/s]
+Epoch: 14/159 Phase: train Loss: 0.3091 (0.2591) Acc: 0.5068 (0.8713) Rec EMPLOYMENT: 0.9618 (0.9539):  27%|▎| 114/429 [00:12<00:33,  9.43it/s
+Epoch: 14/159 Phase: train Loss: 0.3081 (0.3127) Acc: 0.5069 (0.8575) Rec EMPLOYMENT: 0.9625 (0.9399):  31%|▎| 132/429 [00:14<00:33,  8.90it/s
+Epoch: 14/159 Phase: train Loss: 0.3081 (0.2551) Acc: 0.5082 (0.8645) Rec EMPLOYMENT: 0.9628 (0.9754):  35%|▎| 152/429 [00:16<00:29,  9.43it/s
+Epoch: 14/159 Phase: train Loss: 0.3081 (0.2994) Acc: 0.5081 (0.8599) Rec EMPLOYMENT: 0.9620 (0.9919):  40%|▍| 172/429 [00:19<00:26,  9.54it/s
+Epoch: 14/159 Phase: train Loss: 0.3079 (0.3329) Acc: 0.5089 (0.8526) Rec EMPLOYMENT: 0.9628 (0.9738):  44%|▍| 189/429 [00:20<00:25,  9.57it/s
+Epoch: 14/159 Phase: train Loss: 0.3074 (0.2993) Acc: 0.5088 (0.8665) Rec EMPLOYMENT: 0.9630 (0.9517):  48%|▍| 208/429 [00:23<00:23,  9.51it/s
+Epoch: 14/159 Phase: train Loss: 0.3075 (0.2985) Acc: 0.5078 (0.8653) Rec EMPLOYMENT: 0.9637 (0.9648):  53%|▌| 228/429 [00:25<00:20,  9.73it/s
+Epoch: 14/159 Phase: train Loss: 0.3074 (0.2818) Acc: 0.5081 (0.8710) Rec EMPLOYMENT: 0.9642 (0.9869):  58%|▌| 248/429 [00:27<00:19,  9.28it/s
+Epoch: 14/159 Phase: train Loss: 0.3080 (0.2877) Acc: 0.5078 (0.8676) Rec EMPLOYMENT: 0.9630 (0.9726):  62%|▌| 266/429 [00:29<00:17,  9.39it/s
+Epoch: 14/159 Phase: train Loss: 0.3083 (0.3224) Acc: 0.5077 (0.8844) Rec EMPLOYMENT: 0.9624 (0.9059):  66%|▋| 285/429 [00:31<00:15,  9.55it/s
+Epoch: 14/159 Phase: train Loss: 0.3077 (0.2698) Acc: 0.5071 (0.8668) Rec EMPLOYMENT: 0.9626 (0.9766):  71%|▋| 305/429 [00:33<00:12,  9.60it/s
+Epoch: 14/159 Phase: train Loss: 0.3084 (0.3148) Acc: 0.5069 (0.8552) Rec EMPLOYMENT: 0.9622 (0.9691):  75%|▊| 323/429 [00:35<00:12,  8.17it/s
+Epoch: 14/159 Phase: train Loss: 0.3086 (0.3940) Acc: 0.5074 (0.8669) Rec EMPLOYMENT: 0.9621 (0.9000):  80%|▊| 342/429 [00:37<00:08,  9.99it/s
+Epoch: 14/159 Phase: train Loss: 0.3083 (0.3107) Acc: 0.5072 (0.8533) Rec EMPLOYMENT: 0.9622 (0.9477):  84%|▊| 360/429 [00:39<00:07,  9.45it/s
+Epoch: 14/159 Phase: train Loss: 0.3094 (0.3283) Acc: 0.5066 (0.8644) Rec EMPLOYMENT: 0.9625 (0.9563):  89%|▉| 381/429 [00:41<00:05,  9.47it/s
+Epoch: 14/159 Phase: train Loss: 0.3092 (0.2928) Acc: 0.5064 (0.8631) Rec EMPLOYMENT: 0.9623 (0.9635):  92%|▉| 395/429 [00:42<00:03,  9.44it/s
+Epoch: 14/159 Phase: train Loss: 0.3096 (0.3081) Acc: 0.5064 (0.8601) Rec EMPLOYMENT: 0.9620 (0.9735):  97%|▉| 415/429 [00:44<00:01,  9.67it/s
+Epoch: 14/159 Phase: valid Loss: 0.4011 (0.4770) Acc: 0.0814 (0.8561) Rec EMPLOYMENT: 0.9082 (0.8750):   3%| | 18/687 [00:00<00:15, 43.09it/s]
+Epoch: 14/159 Phase: valid Loss: 0.3942 (0.3561) Acc: 0.0780 (0.8275) Rec EMPLOYMENT: 0.9304 (1.0000):  14%|▏| 99/687 [00:02<00:15, 38.90it/s]
+Epoch: 14/159 Phase: valid Loss: 0.3952 (0.2773) Acc: 0.0794 (0.8825) Rec EMPLOYMENT: 0.9252 (1.0000):  27%|▎| 186/687 [00:04<00:10, 46.07it/s
+Epoch: 14/159 Phase: valid Loss: 0.3985 (0.4586) Acc: 0.0791 (0.8520) Rec EMPLOYMENT: 0.9246 (0.9500):  40%|▍| 276/687 [00:06<00:08, 48.49it/s
+Epoch: 14/159 Phase: valid Loss: 0.3994 (0.3401) Acc: 0.0783 (0.8402) Rec EMPLOYMENT: 0.9270 (1.0000):  52%|▌| 357/687 [00:08<00:09, 36.62it/s
+Epoch: 14/159 Phase: valid Loss: 0.4025 (0.3581) Acc: 0.0782 (0.8399) Rec EMPLOYMENT: 0.9255 (1.0000):  65%|▋| 448/687 [00:10<00:05, 45.03it/s
+Epoch: 14/159 Phase: valid Loss: 0.4065 (0.2971) Acc: 0.0786 (0.8359) Rec EMPLOYMENT: 0.9238 (1.0000):  78%|▊| 535/687 [00:12<00:03, 47.65it/s
+Epoch: 14/159 Phase: valid Loss: 0.4067 (0.3786) Acc: 0.0787 (0.9048) Rec EMPLOYMENT: 0.9224 (0.6923):  90%|▉| 616/687 [00:14<00:02, 32.25it/s
+Epoch: 14/159 Phase: valid Loss: 0.4067 (0.3786) Acc: 0.0787 (0.9048) Rec EMPLOYMENT: 0.9224 (0.6923):  90%|▉| 616/687 [00:14<00:02, 32.25it/s
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 15/159 Phase: train Loss: 0.3098 (0.3035) Acc: 0.5007 (0.8684) Rec EMPLOYMENT: 0.9600 (0.9467):   4%| | 17/429 [00:02<00:44,  9.36it/s]
+Epoch: 15/159 Phase: train Loss: 0.3106 (0.2795) Acc: 0.5019 (0.8523) Rec EMPLOYMENT: 0.9565 (0.9431):   9%| | 38/429 [00:04<00:41,  9.51it/s]
+Epoch: 15/159 Phase: train Loss: 0.3133 (0.3571) Acc: 0.5030 (0.8551) Rec EMPLOYMENT: 0.9572 (0.9744):  13%|▏| 56/429 [00:06<00:38,  9.59it/s]
+Epoch: 15/159 Phase: train Loss: 0.3073 (0.2783) Acc: 0.5048 (0.8502) Rec EMPLOYMENT: 0.9598 (0.9535):  17%|▏| 75/429 [00:08<00:37,  9.48it/s]
+Epoch: 15/159 Phase: train Loss: 0.3093 (0.2639) Acc: 0.5060 (0.8586) Rec EMPLOYMENT: 0.9589 (0.9579):  22%|▏| 95/429 [00:10<00:35,  9.46it/s]
+Epoch: 15/159 Phase: train Loss: 0.3092 (0.2528) Acc: 0.5067 (0.8730) Rec EMPLOYMENT: 0.9594 (0.9539):  27%|▎| 114/429 [00:12<00:33,  9.48it/s
+Epoch: 15/159 Phase: train Loss: 0.3086 (0.2727) Acc: 0.5067 (0.8651) Rec EMPLOYMENT: 0.9594 (0.9667):  31%|▎| 131/429 [00:14<00:32,  9.05it/s
+Epoch: 15/159 Phase: train Loss: 0.3095 (0.2719) Acc: 0.5079 (0.8675) Rec EMPLOYMENT: 0.9594 (0.9725):  34%|▎| 146/429 [00:16<00:28,  9.82it/s
+Epoch: 15/159 Phase: train Loss: 0.3083 (0.3247) Acc: 0.5081 (0.8559) Rec EMPLOYMENT: 0.9593 (0.9766):  39%|▍| 166/429 [00:18<00:27,  9.74it/s
+Epoch: 15/159 Phase: train Loss: 0.3076 (0.2958) Acc: 0.5090 (0.8775) Rec EMPLOYMENT: 0.9600 (0.9932):  43%|▍| 184/429 [00:20<00:24, 10.03it/s
+Epoch: 15/159 Phase: train Loss: 0.3073 (0.2731) Acc: 0.5080 (0.8578) Rec EMPLOYMENT: 0.9607 (0.9758):  47%|▍| 203/429 [00:22<00:23,  9.56it/s
+Epoch: 15/159 Phase: train Loss: 0.3067 (0.3206) Acc: 0.5073 (0.8728) Rec EMPLOYMENT: 0.9615 (0.9206):  52%|▌| 222/429 [00:24<00:21,  9.72it/s
+Epoch: 15/159 Phase: train Loss: 0.3071 (0.3913) Acc: 0.5081 (0.8593) Rec EMPLOYMENT: 0.9620 (0.9636):  56%|▌| 241/429 [00:26<00:19,  9.54it/s
+Epoch: 15/159 Phase: train Loss: 0.3071 (0.4004) Acc: 0.5080 (0.8619) Rec EMPLOYMENT: 0.9619 (0.8835):  61%|▌| 260/429 [00:28<00:19,  8.79it/s
+Epoch: 15/159 Phase: train Loss: 0.3082 (0.3098) Acc: 0.5073 (0.8731) Rec EMPLOYMENT: 0.9613 (0.9709):  65%|▋| 279/429 [00:30<00:15,  9.68it/s
+Epoch: 15/159 Phase: train Loss: 0.3075 (0.3319) Acc: 0.5073 (0.8502) Rec EMPLOYMENT: 0.9615 (0.9718):  69%|▋| 297/429 [00:32<00:13,  9.60it/s
+Epoch: 15/159 Phase: train Loss: 0.3077 (0.3743) Acc: 0.5067 (0.8543) Rec EMPLOYMENT: 0.9612 (0.9192):  74%|▋| 317/429 [00:34<00:11,  9.64it/s
+Epoch: 15/159 Phase: train Loss: 0.3080 (0.3158) Acc: 0.5070 (0.8623) Rec EMPLOYMENT: 0.9615 (0.9744):  78%|▊| 335/429 [00:36<00:10,  9.37it/s
+Epoch: 15/159 Phase: train Loss: 0.3078 (0.3252) Acc: 0.5067 (0.8628) Rec EMPLOYMENT: 0.9613 (0.9388):  83%|▊| 355/429 [00:38<00:07,  9.38it/s
+Epoch: 15/159 Phase: train Loss: 0.3087 (0.2871) Acc: 0.5065 (0.8582) Rec EMPLOYMENT: 0.9617 (0.9699):  87%|▊| 373/429 [00:40<00:06,  8.99it/s
+Epoch: 15/159 Phase: train Loss: 0.3086 (0.2989) Acc: 0.5063 (0.8787) Rec EMPLOYMENT: 0.9614 (0.9355):  92%|▉| 393/429 [00:42<00:03,  9.13it/s
+Epoch: 15/159 Phase: train Loss: 0.3086 (0.3016) Acc: 0.5058 (0.8582) Rec EMPLOYMENT: 0.9614 (0.9717):  96%|▉| 412/429 [00:44<00:01,  9.54it/s
+Epoch: 15/159 Phase: valid Loss: 0.4208 (0.3220) Acc: 0.0875 (0.8657) Rec EMPLOYMENT: 0.9600 (1.0000):   0%|  | 2/687 [00:00<00:42, 16.27it/s]
+Epoch: 15/159 Phase: valid Loss: 0.3906 (0.6384) Acc: 0.0781 (0.8773) Rec EMPLOYMENT: 0.9290 (0.8571):  12%| | 81/687 [00:02<00:13, 46.55it/s]
+Epoch: 15/159 Phase: valid Loss: 0.3932 (0.5414) Acc: 0.0794 (0.8173) Rec EMPLOYMENT: 0.9286 (nan):  22%|▋  | 148/687 [00:03<00:11, 46.98it/s]
+Epoch: 15/159 Phase: valid Loss: 0.3966 (0.3421) Acc: 0.0792 (0.8723) Rec EMPLOYMENT: 0.9235 (0.7500):  34%|▎| 236/687 [00:05<00:10, 42.52it/s
+Epoch: 15/159 Phase: valid Loss: 0.4015 (0.5213) Acc: 0.0787 (0.8483) Rec EMPLOYMENT: 0.9274 (1.0000):  48%|▍| 331/687 [00:07<00:07, 48.44it/s
+Epoch: 15/159 Phase: valid Loss: 0.4027 (0.3932) Acc: 0.0784 (0.8816) Rec EMPLOYMENT: 0.9261 (0.9697):  60%|▌| 411/687 [00:09<00:05, 49.53it/s
+Epoch: 15/159 Phase: valid Loss: 0.4076 (0.2632) Acc: 0.0783 (0.8681) Rec EMPLOYMENT: 0.9234 (0.8095):  73%|▋| 503/687 [00:11<00:04, 44.13it/s
+Epoch: 15/159 Phase: valid Loss: 0.4063 (0.3535) Acc: 0.0787 (0.8570) Rec EMPLOYMENT: 0.9222 (0.8571):  88%|▉| 607/687 [00:14<00:01, 48.64it/s
+Epoch: 15/159 Phase: valid Loss: 0.4057 (0.2097) Acc: 0.0787 (0.8814) Rec EMPLOYMENT: 0.9245 (0.9615):  98%|▉| 674/687 [00:15<00:00, 47.73it/s
+Epoch: 15/159 Phase: valid Loss: 0.4060 (0.2561) Acc: 0.0786 (0.8821) Rec EMPLOYMENT: 0.9252 (nan): 100%|███| 687/687 [00:16<00:00, 42.03it/s]
+Epoch: 15/159 Phase: valid Loss: 0.4060 (0.2561) Acc: 0.0786 (0.8821) Rec EMPLOYMENT: 0.9252 (nan): 100%|███| 687/687 [00:16<00:00, 42.03it/s]
+{'EMPLOYMENT_appended_data': 3502}
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 16/159 Phase: train Loss: 0.3079 (0.3647) Acc: 0.4963 (0.8516) Rec EMPLOYMENT: 0.9618 (0.9730):   4%| | 19/429 [00:02<00:42,  9.56it/s]
+Epoch: 16/159 Phase: train Loss: 0.3071 (0.3058) Acc: 0.5027 (0.8553) Rec EMPLOYMENT: 0.9632 (0.9844):   9%| | 39/429 [00:04<00:41,  9.50it/s]
+Epoch: 16/159 Phase: train Loss: 0.3078 (0.2829) Acc: 0.5033 (0.8744) Rec EMPLOYMENT: 0.9635 (0.9709):  14%|▏| 58/429 [00:06<00:41,  8.98it/s]
+Epoch: 16/159 Phase: train Loss: 0.3028 (0.2698) Acc: 0.5056 (0.8570) Rec EMPLOYMENT: 0.9633 (0.9610):  18%|▏| 78/429 [00:08<00:36,  9.60it/s]
+Epoch: 16/159 Phase: train Loss: 0.3040 (0.2731) Acc: 0.5059 (0.8542) Rec EMPLOYMENT: 0.9635 (0.9837):  22%|▏| 96/429 [00:10<00:35,  9.32it/s]
+Epoch: 16/159 Phase: train Loss: 0.3041 (0.3529) Acc: 0.5064 (0.8550) Rec EMPLOYMENT: 0.9638 (0.9528):  27%|▎| 116/429 [00:12<00:32,  9.53it/s
+Epoch: 16/159 Phase: train Loss: 0.3025 (0.3032) Acc: 0.5075 (0.8739) Rec EMPLOYMENT: 0.9644 (0.9333):  31%|▎| 133/429 [00:14<00:31,  9.28it/s
+Epoch: 16/159 Phase: train Loss: 0.3030 (0.2451) Acc: 0.5085 (0.8800) Rec EMPLOYMENT: 0.9640 (0.9808):  36%|▎| 154/429 [00:16<00:29,  9.37it/s
+Epoch: 16/159 Phase: train Loss: 0.3029 (0.3084) Acc: 0.5083 (0.8627) Rec EMPLOYMENT: 0.9642 (0.9756):  40%|▍| 172/429 [00:18<00:26,  9.55it/s
+Epoch: 16/159 Phase: train Loss: 0.3023 (0.2969) Acc: 0.5089 (0.8682) Rec EMPLOYMENT: 0.9645 (0.9699):  45%|▍| 192/429 [00:20<00:25,  9.34it/s
+Epoch: 16/159 Phase: train Loss: 0.3020 (0.2917) Acc: 0.5089 (0.8547) Rec EMPLOYMENT: 0.9647 (0.9905):  49%|▍| 211/429 [00:22<00:22,  9.58it/s
+Epoch: 16/159 Phase: train Loss: 0.3016 (0.2577) Acc: 0.5080 (0.8575) Rec EMPLOYMENT: 0.9657 (0.9875):  54%|▌| 231/429 [00:24<00:20,  9.75it/s
+Epoch: 16/159 Phase: train Loss: 0.3025 (0.2975) Acc: 0.5083 (0.8597) Rec EMPLOYMENT: 0.9660 (1.0000):  58%|▌| 250/429 [00:26<00:23,  7.75it/s
+Epoch: 16/159 Phase: train Loss: 0.3032 (0.2921) Acc: 0.5079 (0.8674) Rec EMPLOYMENT: 0.9652 (0.9537):  62%|▌| 268/429 [00:28<00:16,  9.86it/s
+Epoch: 16/159 Phase: train Loss: 0.3034 (0.2650) Acc: 0.5078 (0.8692) Rec EMPLOYMENT: 0.9650 (0.9704):  67%|▋| 289/429 [00:30<00:14,  9.36it/s
+Epoch: 16/159 Phase: train Loss: 0.3029 (0.2857) Acc: 0.5071 (0.8729) Rec EMPLOYMENT: 0.9649 (0.9730):  72%|▋| 308/429 [00:32<00:12,  9.50it/s
+Epoch: 16/159 Phase: train Loss: 0.3033 (0.3063) Acc: 0.5069 (0.8628) Rec EMPLOYMENT: 0.9647 (0.9385):  76%|▊| 326/429 [00:34<00:10,  9.40it/s
+Epoch: 16/159 Phase: train Loss: 0.3035 (0.3033) Acc: 0.5073 (0.8405) Rec EMPLOYMENT: 0.9645 (0.9726):  81%|▊| 346/429 [00:36<00:08,  9.61it/s
+Epoch: 16/159 Phase: train Loss: 0.3034 (0.3449) Acc: 0.5073 (0.8504) Rec EMPLOYMENT: 0.9646 (0.9669):  85%|▊| 364/429 [00:38<00:06,  9.63it/s
+Epoch: 16/159 Phase: train Loss: 0.3044 (0.2875) Acc: 0.5066 (0.8480) Rec EMPLOYMENT: 0.9646 (0.9802):  90%|▉| 384/429 [00:40<00:05,  8.83it/s
+Epoch: 16/159 Phase: train Loss: 0.3041 (0.2876) Acc: 0.5061 (0.8680) Rec EMPLOYMENT: 0.9645 (0.9832):  94%|▉| 403/429 [00:42<00:02,  9.52it/s
+Epoch: 16/159 Phase: train Loss: 0.3040 (0.2849) Acc: 0.5067 (0.8779) Rec EMPLOYMENT: 0.9644 (0.9369):  99%|▉| 423/429 [00:45<00:00, 10.08it/s
+Epoch: 16/159 Phase: valid Loss: 0.3816 (0.3575) Acc: 0.0775 (0.8280) Rec EMPLOYMENT: 0.9301 (nan):   8%|▎   | 53/687 [00:01<00:13, 46.01it/s]
+Epoch: 16/159 Phase: valid Loss: 0.3880 (0.2407) Acc: 0.0787 (0.8811) Rec EMPLOYMENT: 0.9294 (0.9697):  19%|▏| 130/687 [00:03<00:11, 47.36it/s
+Epoch: 16/159 Phase: valid Loss: 0.3923 (0.3155) Acc: 0.0793 (0.8501) Rec EMPLOYMENT: 0.9253 (0.8824):  31%|▎| 214/687 [00:05<00:12, 36.91it/s
+Epoch: 16/159 Phase: valid Loss: 0.4018 (0.5392) Acc: 0.0788 (0.8560) Rec EMPLOYMENT: 0.9278 (0.9762):  45%|▍| 311/687 [00:07<00:07, 47.43it/s
+Epoch: 16/159 Phase: valid Loss: 0.4017 (0.5740) Acc: 0.0784 (0.8435) Rec EMPLOYMENT: 0.9274 (1.0000):  59%|▌| 404/687 [00:09<00:05, 47.84it/s
+Epoch: 16/159 Phase: valid Loss: 0.4080 (0.4301) Acc: 0.0783 (0.8486) Rec EMPLOYMENT: 0.9252 (1.0000):  71%|▋| 487/687 [00:11<00:05, 39.09it/s
+Epoch: 16/159 Phase: valid Loss: 0.4072 (0.4070) Acc: 0.0786 (0.8224) Rec EMPLOYMENT: 0.9261 (nan):  83%|██▍| 570/687 [00:13<00:02, 44.87it/s]
+Epoch: 16/159 Phase: valid Loss: 0.4064 (0.4575) Acc: 0.0786 (0.8371) Rec EMPLOYMENT: 0.9260 (0.9556):  97%|▉| 663/687 [00:15<00:00, 48.29it/s
+Epoch: 16/159 Phase: valid Loss: 0.4064 (0.4575) Acc: 0.0786 (0.8371) Rec EMPLOYMENT: 0.9260 (0.9556):  97%|▉| 663/687 [00:15<00:00, 48.29it/s
+Epoch: 17/159 Phase: train Loss: 0.3073 (0.2622) Acc: 0.4994 (0.8696) Rec EMPLOYMENT: 0.9626 (0.9809):   2%|  | 8/429 [00:01<00:50,  8.32it/s]
+Epoch: 17/159 Phase: train Loss: 0.3078 (0.3153) Acc: 0.4987 (0.8775) Rec EMPLOYMENT: 0.9619 (0.9467):   6%| | 26/429 [00:03<00:42,  9.52it/s]
+Epoch: 17/159 Phase: train Loss: 0.3047 (0.2788) Acc: 0.5026 (0.8753) Rec EMPLOYMENT: 0.9620 (0.9835):  11%| | 46/429 [00:05<00:40,  9.52it/s]
+Epoch: 17/159 Phase: train Loss: 0.3066 (0.3237) Acc: 0.5033 (0.8507) Rec EMPLOYMENT: 0.9628 (0.9551):  15%|▏| 65/429 [00:07<00:37,  9.64it/s]
+Epoch: 17/159 Phase: train Loss: 0.3046 (0.3472) Acc: 0.5056 (0.8596) Rec EMPLOYMENT: 0.9637 (0.9693):  20%|▏| 84/429 [00:09<00:34, 10.03it/s]
+Epoch: 17/159 Phase: train Loss: 0.3055 (0.3154) Acc: 0.5053 (0.8801) Rec EMPLOYMENT: 0.9633 (0.9709):  24%|▏| 104/429 [00:11<00:32,  9.90it/s
+Epoch: 17/159 Phase: train Loss: 0.3057 (0.3127) Acc: 0.5061 (0.8553) Rec EMPLOYMENT: 0.9634 (0.9704):  28%|▎| 122/429 [00:13<00:33,  9.14it/s
+Epoch: 17/159 Phase: train Loss: 0.3045 (0.3249) Acc: 0.5077 (0.8670) Rec EMPLOYMENT: 0.9638 (0.9651):  33%|▎| 142/429 [00:15<00:30,  9.52it/s
+Epoch: 17/159 Phase: train Loss: 0.3023 (0.2895) Acc: 0.5085 (0.8660) Rec EMPLOYMENT: 0.9646 (0.9831):  38%|▍| 162/429 [00:17<00:26, 10.23it/s
+Epoch: 17/159 Phase: train Loss: 0.3033 (0.3419) Acc: 0.5085 (0.8680) Rec EMPLOYMENT: 0.9644 (0.9648):  42%|▍| 180/429 [00:19<00:30,  8.08it/s
+Epoch: 17/159 Phase: train Loss: 0.3026 (0.3277) Acc: 0.5086 (0.8596) Rec EMPLOYMENT: 0.9650 (0.9578):  47%|▍| 200/429 [00:21<00:23,  9.92it/s
+Epoch: 17/159 Phase: train Loss: 0.3019 (0.2591) Acc: 0.5083 (0.8683) Rec EMPLOYMENT: 0.9660 (0.9820):  51%|▌| 219/429 [00:23<00:22,  9.50it/s
+Epoch: 17/159 Phase: train Loss: 0.3023 (0.3164) Acc: 0.5081 (0.8626) Rec EMPLOYMENT: 0.9662 (0.9533):  55%|▌| 234/429 [00:25<00:20,  9.47it/s
+Epoch: 17/159 Phase: train Loss: 0.3025 (0.3542) Acc: 0.5084 (0.8458) Rec EMPLOYMENT: 0.9665 (0.9464):  59%|▌| 252/429 [00:27<00:19,  9.17it/s
+Epoch: 17/159 Phase: train Loss: 0.3030 (0.3382) Acc: 0.5082 (0.8641) Rec EMPLOYMENT: 0.9658 (0.9749):  63%|▋| 272/429 [00:29<00:15, 10.05it/s
+Epoch: 17/159 Phase: train Loss: 0.3033 (0.3223) Acc: 0.5080 (0.8507) Rec EMPLOYMENT: 0.9656 (0.9695):  68%|▋| 291/429 [00:31<00:14,  9.73it/s
+Epoch: 17/159 Phase: train Loss: 0.3027 (0.3130) Acc: 0.5073 (0.8529) Rec EMPLOYMENT: 0.9651 (0.9540):  72%|▋| 310/429 [00:33<00:13,  8.51it/s
+Epoch: 17/159 Phase: train Loss: 0.3034 (0.3172) Acc: 0.5070 (0.8785) Rec EMPLOYMENT: 0.9651 (0.9647):  77%|▊| 329/429 [00:35<00:10,  9.52it/s
+Epoch: 17/159 Phase: train Loss: 0.3025 (0.2706) Acc: 0.5073 (0.8701) Rec EMPLOYMENT: 0.9653 (0.9657):  81%|▊| 349/429 [00:37<00:08,  9.53it/s
+Epoch: 17/159 Phase: train Loss: 0.3032 (0.2757) Acc: 0.5072 (0.8542) Rec EMPLOYMENT: 0.9655 (0.9871):  86%|▊| 367/429 [00:39<00:06,  9.64it/s
+Epoch: 17/159 Phase: train Loss: 0.3037 (0.2387) Acc: 0.5066 (0.8618) Rec EMPLOYMENT: 0.9654 (0.9867):  90%|▉| 386/429 [00:41<00:04,  9.53it/s
+Epoch: 17/159 Phase: train Loss: 0.3039 (0.2947) Acc: 0.5062 (0.8690) Rec EMPLOYMENT: 0.9651 (1.0000):  95%|▉| 407/429 [00:43<00:02,  9.88it/s
+Epoch: 17/159 Phase: train Loss: 0.3035 (0.3101) Acc: 0.5068 (0.8604) Rec EMPLOYMENT: 0.9650 (0.9667):  99%|▉| 426/429 [00:45<00:00, 10.73it/s
+Epoch: 17/159 Phase: valid Loss: 0.3922 (0.2751) Acc: 0.0776 (0.9002) Rec EMPLOYMENT: 0.9274 (0.9524):  10%| | 69/687 [00:01<00:13, 47.30it/s]
+Epoch: 17/159 Phase: valid Loss: 0.3953 (0.3635) Acc: 0.0792 (0.8535) Rec EMPLOYMENT: 0.9292 (0.9787):  21%|▏| 145/687 [00:03<00:14, 37.96it/s
+Epoch: 17/159 Phase: valid Loss: 0.3970 (0.3427) Acc: 0.0790 (0.8717) Rec EMPLOYMENT: 0.9249 (0.7500):  34%|▎| 236/687 [00:05<00:09, 47.43it/s
+Epoch: 17/159 Phase: valid Loss: 0.4011 (0.2517) Acc: 0.0785 (0.8022) Rec EMPLOYMENT: 0.9293 (1.0000):  48%|▍| 333/687 [00:07<00:07, 47.47it/s
+Epoch: 17/159 Phase: valid Loss: 0.4019 (0.2406) Acc: 0.0783 (0.8670) Rec EMPLOYMENT: 0.9268 (nan):  62%|█▊ | 426/687 [00:10<00:05, 45.42it/s]
+Epoch: 17/159 Phase: valid Loss: 0.4079 (0.3637) Acc: 0.0782 (0.8220) Rec EMPLOYMENT: 0.9246 (0.9062):  72%|▋| 493/687 [00:11<00:04, 45.78it/s
+Epoch: 17/159 Phase: valid Loss: 0.4082 (0.2424) Acc: 0.0785 (0.8831) Rec EMPLOYMENT: 0.9244 (1.0000):  85%|▊| 585/687 [00:13<00:02, 47.54it/s
+Epoch: 17/159 Phase: valid Loss: 0.4066 (0.4948) Acc: 0.0785 (0.8519) Rec EMPLOYMENT: 0.9258 (nan):  97%|██▉| 669/687 [00:15<00:00, 38.04it/s]
+Epoch: 17/159 Phase: valid Loss: 0.4066 (0.4948) Acc: 0.0785 (0.8519) Rec EMPLOYMENT: 0.9258 (nan):  97%|██▉| 669/687 [00:15<00:00, 38.04it/s]
+Epoch: 18/159 Phase: train Loss: 0.3090 (0.3038) Acc: 0.5063 (0.8631) Rec EMPLOYMENT: 0.9644 (0.9796):   2%| | 10/429 [00:01<00:47,  8.82it/s]
+Epoch: 18/159 Phase: train Loss: 0.3156 (0.3381) Acc: 0.4992 (0.8628) Rec EMPLOYMENT: 0.9581 (0.8909):   7%| | 31/429 [00:03<00:40,  9.80it/s]
+Epoch: 18/159 Phase: train Loss: 0.3099 (0.3596) Acc: 0.5012 (0.8610) Rec EMPLOYMENT: 0.9592 (0.9260):  12%| | 50/429 [00:05<00:38,  9.86it/s]
+Epoch: 18/159 Phase: train Loss: 0.3074 (0.2853) Acc: 0.5042 (0.8652) Rec EMPLOYMENT: 0.9611 (0.9767):  16%|▏| 69/429 [00:07<00:37,  9.69it/s]
+Epoch: 18/159 Phase: train Loss: 0.3064 (0.3071) Acc: 0.5054 (0.8618) Rec EMPLOYMENT: 0.9612 (0.9381):  21%|▏| 88/429 [00:09<00:35,  9.59it/s]
+Epoch: 18/159 Phase: train Loss: 0.3068 (0.3044) Acc: 0.5057 (0.8724) Rec EMPLOYMENT: 0.9618 (0.9645):  25%|▏| 107/429 [00:11<00:41,  7.79it/s
+Epoch: 18/159 Phase: train Loss: 0.3056 (0.2760) Acc: 0.5054 (0.8782) Rec EMPLOYMENT: 0.9633 (0.9684):  30%|▎| 127/429 [00:13<00:31,  9.70it/s
+Epoch: 18/159 Phase: train Loss: 0.3048 (0.2960) Acc: 0.5079 (0.8665) Rec EMPLOYMENT: 0.9636 (0.9526):  34%|▎| 146/429 [00:15<00:28,  9.80it/s
+Epoch: 18/159 Phase: train Loss: 0.3031 (0.3221) Acc: 0.5081 (0.8639) Rec EMPLOYMENT: 0.9640 (0.9662):  38%|▍| 165/429 [00:17<00:28,  9.21it/s
+Epoch: 18/159 Phase: train Loss: 0.3032 (0.2566) Acc: 0.5086 (0.8606) Rec EMPLOYMENT: 0.9641 (0.9614):  43%|▍| 183/429 [00:19<00:25,  9.47it/s
+Epoch: 18/159 Phase: train Loss: 0.3028 (0.2830) Acc: 0.5081 (0.8582) Rec EMPLOYMENT: 0.9645 (0.9493):  47%|▍| 202/429 [00:21<00:23,  9.54it/s
+Epoch: 18/159 Phase: train Loss: 0.3025 (0.3454) Acc: 0.5074 (0.8517) Rec EMPLOYMENT: 0.9648 (0.9914):  52%|▌| 222/429 [00:23<00:21,  9.61it/s
+Epoch: 18/159 Phase: train Loss: 0.3029 (0.3235) Acc: 0.5082 (0.8516) Rec EMPLOYMENT: 0.9650 (0.9749):  56%|▌| 239/429 [00:25<00:22,  8.63it/s
+Epoch: 18/159 Phase: train Loss: 0.3034 (0.2872) Acc: 0.5081 (0.8625) Rec EMPLOYMENT: 0.9648 (0.9617):  60%|▌| 259/429 [00:27<00:18,  9.44it/s
+Epoch: 18/159 Phase: train Loss: 0.3048 (0.2886) Acc: 0.5074 (0.8731) Rec EMPLOYMENT: 0.9639 (0.9888):  65%|▋| 279/429 [00:29<00:15,  9.69it/s
+Epoch: 18/159 Phase: train Loss: 0.3037 (0.3190) Acc: 0.5075 (0.8598) Rec EMPLOYMENT: 0.9643 (0.9726):  69%|▋| 297/429 [00:31<00:13,  9.67it/s
+Epoch: 18/159 Phase: train Loss: 0.3033 (0.2902) Acc: 0.5071 (0.8662) Rec EMPLOYMENT: 0.9640 (0.9575):  73%|▋| 315/429 [00:33<00:12,  9.48it/s
+Epoch: 18/159 Phase: train Loss: 0.3037 (0.3291) Acc: 0.5070 (0.8591) Rec EMPLOYMENT: 0.9640 (0.9459):  77%|▊| 331/429 [00:35<00:10,  9.55it/s
+Epoch: 18/159 Phase: train Loss: 0.3032 (0.2661) Acc: 0.5071 (0.8693) Rec EMPLOYMENT: 0.9640 (0.9847):  82%|▊| 350/429 [00:37<00:08,  9.79it/s
+Epoch: 18/159 Phase: train Loss: 0.3038 (0.3580) Acc: 0.5068 (0.8443) Rec EMPLOYMENT: 0.9644 (0.9700):  86%|▊| 369/429 [00:39<00:07,  8.54it/s
+Epoch: 18/159 Phase: train Loss: 0.3041 (0.2607) Acc: 0.5065 (0.8705) Rec EMPLOYMENT: 0.9643 (0.9790):  90%|▉| 387/429 [00:41<00:04,  9.47it/s
+Epoch: 18/159 Phase: train Loss: 0.3042 (0.3062) Acc: 0.5060 (0.8822) Rec EMPLOYMENT: 0.9642 (0.9459):  95%|▉| 408/429 [00:43<00:02,  9.65it/s
+Epoch: 18/159 Phase: train Loss: 0.3039 (0.2849) Acc: 0.5066 (0.8714) Rec EMPLOYMENT: 0.9642 (0.9865): 100%|█| 429/429 [00:45<00:00, 11.07it/s
+Epoch: 18/159 Phase: valid Loss: 0.3755 (0.2508) Acc: 0.0773 (0.8854) Rec EMPLOYMENT: 0.9359 (1.0000):   8%| | 58/687 [00:01<00:17, 36.82it/s]
+Epoch: 18/159 Phase: valid Loss: 0.3963 (0.6763) Acc: 0.0792 (0.8739) Rec EMPLOYMENT: 0.9290 (nan):  21%|▌  | 143/687 [00:03<00:13, 40.15it/s]
+Epoch: 18/159 Phase: valid Loss: 0.3963 (0.4337) Acc: 0.0792 (0.8505) Rec EMPLOYMENT: 0.9246 (1.0000):  34%|▎| 234/687 [00:05<00:09, 46.78it/s
+Epoch: 18/159 Phase: valid Loss: 0.4023 (0.4603) Acc: 0.0785 (0.8272) Rec EMPLOYMENT: 0.9289 (nan):  47%|█▍ | 324/687 [00:07<00:07, 48.65it/s]
+Epoch: 18/159 Phase: valid Loss: 0.4028 (0.5456) Acc: 0.0783 (0.8247) Rec EMPLOYMENT: 0.9286 (0.9688):  59%|▌| 407/687 [00:09<00:07, 39.70it/s
+Epoch: 18/159 Phase: valid Loss: 0.4079 (0.3454) Acc: 0.0783 (0.9005) Rec EMPLOYMENT: 0.9260 (1.0000):  72%|▋| 498/687 [00:11<00:04, 46.49it/s
+Epoch: 18/159 Phase: valid Loss: 0.4069 (0.1891) Acc: 0.0786 (0.8918) Rec EMPLOYMENT: 0.9257 (1.0000):  85%|▊| 587/687 [00:14<00:02, 48.25it/s
+Epoch: 18/159 Phase: valid Loss: 0.4065 (0.4930) Acc: 0.0786 (0.8513) Rec EMPLOYMENT: 0.9270 (nan):  97%|██▉| 669/687 [00:16<00:00, 39.98it/s]
+Epoch: 18/159 Phase: valid Loss: 0.4065 (0.4930) Acc: 0.0786 (0.8513) Rec EMPLOYMENT: 0.9270 (nan):  97%|██▉| 669/687 [00:16<00:00, 39.98it/s]
+Epoch: 19/159 Phase: train Loss: 0.3078 (0.2604) Acc: 0.5019 (0.8596) Rec EMPLOYMENT: 0.9575 (0.9633):   2%| | 10/429 [00:01<00:49,  8.39it/s]
+Epoch: 19/159 Phase: train Loss: 0.3078 (0.2880) Acc: 0.4995 (0.8545) Rec EMPLOYMENT: 0.9601 (0.9341):   7%| | 29/429 [00:03<00:41,  9.75it/s]
+Epoch: 19/159 Phase: train Loss: 0.3030 (0.2756) Acc: 0.5018 (0.8715) Rec EMPLOYMENT: 0.9604 (0.9576):  11%| | 47/429 [00:05<00:40,  9.32it/s]
+Epoch: 19/159 Phase: train Loss: 0.3051 (0.2702) Acc: 0.5035 (0.8619) Rec EMPLOYMENT: 0.9630 (0.9707):  15%|▏| 66/429 [00:07<00:37,  9.61it/s]
+Epoch: 19/159 Phase: train Loss: 0.3033 (0.2598) Acc: 0.5055 (0.8656) Rec EMPLOYMENT: 0.9639 (0.9802):  20%|▏| 86/429 [00:09<00:35,  9.58it/s]
+Epoch: 19/159 Phase: train Loss: 0.3038 (0.3709) Acc: 0.5054 (0.8668) Rec EMPLOYMENT: 0.9637 (0.9727):  24%|▏| 102/429 [00:11<00:41,  7.81it/s
+Epoch: 19/159 Phase: train Loss: 0.3043 (0.3288) Acc: 0.5062 (0.8561) Rec EMPLOYMENT: 0.9645 (0.9645):  28%|▎| 122/429 [00:13<00:32,  9.42it/s
+Epoch: 19/159 Phase: train Loss: 0.3026 (0.2950) Acc: 0.5078 (0.8730) Rec EMPLOYMENT: 0.9648 (0.9593):  33%|▎| 142/429 [00:15<00:29,  9.70it/s
+Epoch: 19/159 Phase: train Loss: 0.3003 (0.2866) Acc: 0.5083 (0.8627) Rec EMPLOYMENT: 0.9656 (0.9658):  38%|▍| 161/429 [00:17<00:28,  9.49it/s
+Epoch: 19/159 Phase: train Loss: 0.3007 (0.3402) Acc: 0.5085 (0.8699) Rec EMPLOYMENT: 0.9653 (0.9718):  42%|▍| 179/429 [00:19<00:26,  9.42it/s
+Epoch: 19/159 Phase: train Loss: 0.3005 (0.2330) Acc: 0.5092 (0.8735) Rec EMPLOYMENT: 0.9655 (0.9881):  45%|▍| 192/429 [00:21<00:26,  8.89it/s
+Epoch: 19/159 Phase: train Loss: 0.3012 (0.2725) Acc: 0.5088 (0.8659) Rec EMPLOYMENT: 0.9659 (1.0000):  50%|▍| 213/429 [00:23<00:22,  9.55it/s
+Epoch: 19/159 Phase: train Loss: 0.3008 (0.2650) Acc: 0.5082 (0.8598) Rec EMPLOYMENT: 0.9665 (0.9708):  54%|▌| 230/429 [00:25<00:20,  9.74it/s
+Epoch: 19/159 Phase: train Loss: 0.3009 (0.2881) Acc: 0.5085 (0.8577) Rec EMPLOYMENT: 0.9666 (0.9718):  58%|▌| 249/429 [00:27<00:19,  9.37it/s
+Epoch: 19/159 Phase: train Loss: 0.3014 (0.2895) Acc: 0.5083 (0.8743) Rec EMPLOYMENT: 0.9653 (0.9353):  63%|▋| 270/429 [00:29<00:15, 10.23it/s
+Epoch: 19/159 Phase: train Loss: 0.3012 (0.2807) Acc: 0.5081 (0.8586) Rec EMPLOYMENT: 0.9651 (0.9682):  68%|▋| 290/429 [00:31<00:14,  9.38it/s
+Epoch: 19/159 Phase: train Loss: 0.3011 (0.3442) Acc: 0.5074 (0.8465) Rec EMPLOYMENT: 0.9647 (0.9138):  72%|▋| 307/429 [00:33<00:13,  9.31it/s
+Epoch: 19/159 Phase: train Loss: 0.3016 (0.3511) Acc: 0.5071 (0.8519) Rec EMPLOYMENT: 0.9648 (0.9551):  76%|▊| 327/429 [00:35<00:10,  9.36it/s
+Epoch: 19/159 Phase: train Loss: 0.3015 (0.2880) Acc: 0.5075 (0.8469) Rec EMPLOYMENT: 0.9649 (0.9795):  81%|▊| 346/429 [00:37<00:08,  9.63it/s
+Epoch: 19/159 Phase: train Loss: 0.3013 (0.3061) Acc: 0.5075 (0.8743) Rec EMPLOYMENT: 0.9650 (0.9701):  85%|▊| 364/429 [00:39<00:09,  7.22it/s
+Epoch: 19/159 Phase: train Loss: 0.3024 (0.3042) Acc: 0.5069 (0.8685) Rec EMPLOYMENT: 0.9648 (0.9364):  89%|▉| 382/429 [00:41<00:04,  9.61it/s
+Epoch: 19/159 Phase: train Loss: 0.3026 (0.3311) Acc: 0.5061 (0.8724) Rec EMPLOYMENT: 0.9645 (0.9603):  94%|▉| 403/429 [00:43<00:02,  9.51it/s
+Epoch: 19/159 Phase: train Loss: 0.3026 (0.3134) Acc: 0.5066 (0.8485) Rec EMPLOYMENT: 0.9644 (0.9730):  99%|▉| 423/429 [00:45<00:00, 10.07it/s
+Epoch: 19/159 Phase: valid Loss: 0.3770 (0.3089) Acc: 0.0792 (0.8584) Rec EMPLOYMENT: 0.9305 (0.8889):   5%| | 31/687 [00:01<00:24, 26.24it/s]
+Epoch: 19/159 Phase: valid Loss: 0.3912 (0.7129) Acc: 0.0789 (0.8145) Rec EMPLOYMENT: 0.9295 (1.0000):  18%|▏| 122/687 [00:03<00:11, 48.24it/s
+Epoch: 19/159 Phase: valid Loss: 0.3958 (0.5281) Acc: 0.0790 (0.8624) Rec EMPLOYMENT: 0.9257 (0.5714):  30%|▎| 205/687 [00:05<00:12, 37.34it/s
+Epoch: 19/159 Phase: valid Loss: 0.4033 (0.2933) Acc: 0.0786 (0.8639) Rec EMPLOYMENT: 0.9277 (0.9706):  44%|▍| 302/687 [00:07<00:07, 48.78it/s
+Epoch: 19/159 Phase: valid Loss: 0.4010 (0.2205) Acc: 0.0782 (0.8675) Rec EMPLOYMENT: 0.9280 (0.9365):  54%|▌| 371/687 [00:09<00:06, 48.42it/s
+Epoch: 19/159 Phase: valid Loss: 0.4062 (1.3095) Acc: 0.0781 (0.8540) Rec EMPLOYMENT: 0.9264 (0.5806):  66%|▋| 454/687 [00:11<00:04, 47.33it/s
+Epoch: 19/159 Phase: valid Loss: 0.4079 (0.5443) Acc: 0.0784 (0.9098) Rec EMPLOYMENT: 0.9255 (nan):  80%|██▍| 547/687 [00:13<00:03, 44.23it/s]
+Epoch: 19/159 Phase: valid Loss: 0.4065 (0.5087) Acc: 0.0785 (0.8453) Rec EMPLOYMENT: 0.9266 (1.0000):  95%|▉| 654/687 [00:15<00:00, 48.39it/s
+Epoch: 19/159 Phase: valid Loss: 0.4065 (0.5087) Acc: 0.0785 (0.8453) Rec EMPLOYMENT: 0.9266 (1.0000):  95%|▉| 654/687 [00:15<00:00, 48.39it/s
+Epoch: 20/159 Phase: train Loss: 0.3016 (0.3142) Acc: 0.4916 (0.8492) Rec EMPLOYMENT: 0.9574 (0.9527):   1%|  | 3/429 [00:00<01:20,  5.31it/s]
+Epoch: 20/159 Phase: train Loss: 0.3156 (0.2835) Acc: 0.4959 (0.8702) Rec EMPLOYMENT: 0.9652 (0.9764):   5%| | 21/429 [00:02<00:42,  9.59it/s]
+Epoch: 20/159 Phase: train Loss: 0.3089 (0.2966) Acc: 0.5015 (0.8531) Rec EMPLOYMENT: 0.9641 (0.9375):   9%| | 39/429 [00:04<00:44,  8.69it/s]
+Epoch: 20/159 Phase: train Loss: 0.3083 (0.3095) Acc: 0.5023 (0.8692) Rec EMPLOYMENT: 0.9637 (0.9369):  14%|▏| 58/429 [00:06<00:38,  9.68it/s]
+Epoch: 20/159 Phase: train Loss: 0.3017 (0.2476) Acc: 0.5050 (0.8642) Rec EMPLOYMENT: 0.9641 (0.9545):  18%|▏| 78/429 [00:08<00:36,  9.53it/s]
+Epoch: 20/159 Phase: train Loss: 0.3033 (0.2720) Acc: 0.5054 (0.8579) Rec EMPLOYMENT: 0.9643 (0.9553):  22%|▏| 96/429 [00:10<00:35,  9.44it/s]
+Epoch: 20/159 Phase: train Loss: 0.3032 (0.2952) Acc: 0.5063 (0.8514) Rec EMPLOYMENT: 0.9655 (0.9944):  27%|▎| 114/429 [00:12<00:33,  9.29it/s
+Epoch: 20/159 Phase: train Loss: 0.3020 (0.2895) Acc: 0.5072 (0.8761) Rec EMPLOYMENT: 0.9663 (0.9778):  31%|▎| 133/429 [00:14<00:32,  9.17it/s
+Epoch: 20/159 Phase: train Loss: 0.3019 (0.2272) Acc: 0.5084 (0.8811) Rec EMPLOYMENT: 0.9659 (0.9712):  36%|▎| 153/429 [00:16<00:29,  9.36it/s
+Epoch: 20/159 Phase: train Loss: 0.3021 (0.2864) Acc: 0.5084 (0.8653) Rec EMPLOYMENT: 0.9654 (0.9517):  40%|▍| 171/429 [00:18<00:28,  9.04it/s
+Epoch: 20/159 Phase: train Loss: 0.3019 (0.2922) Acc: 0.5092 (0.8615) Rec EMPLOYMENT: 0.9660 (0.9497):  44%|▍| 189/429 [00:20<00:25,  9.43it/s
+Epoch: 20/159 Phase: train Loss: 0.3015 (0.2634) Acc: 0.5091 (0.8667) Rec EMPLOYMENT: 0.9657 (0.9688):  49%|▍| 210/429 [00:22<00:23,  9.47it/s
+Epoch: 20/159 Phase: train Loss: 0.3021 (0.2886) Acc: 0.5081 (0.8673) Rec EMPLOYMENT: 0.9660 (0.9726):  53%|▌| 229/429 [00:24<00:20,  9.85it/s
+Epoch: 20/159 Phase: train Loss: 0.3019 (0.2913) Acc: 0.5084 (0.8615) Rec EMPLOYMENT: 0.9664 (0.9679):  58%|▌| 248/429 [00:26<00:19,  9.50it/s
+Epoch: 20/159 Phase: train Loss: 0.3027 (0.3179) Acc: 0.5082 (0.8651) Rec EMPLOYMENT: 0.9655 (0.9719):  62%|▌| 267/429 [00:29<00:16,  9.62it/s
+Epoch: 20/159 Phase: train Loss: 0.3028 (0.3159) Acc: 0.5080 (0.8577) Rec EMPLOYMENT: 0.9652 (0.9414):  67%|▋| 287/429 [00:31<00:15,  9.46it/s
+Epoch: 20/159 Phase: train Loss: 0.3020 (0.3066) Acc: 0.5075 (0.8545) Rec EMPLOYMENT: 0.9653 (0.9778):  71%|▋| 304/429 [00:33<00:13,  9.10it/s
+Epoch: 20/159 Phase: train Loss: 0.3019 (0.2293) Acc: 0.5072 (0.8716) Rec EMPLOYMENT: 0.9652 (0.9773):  76%|▊| 324/429 [00:35<00:10,  9.57it/s
+Epoch: 20/159 Phase: train Loss: 0.3019 (0.2660) Acc: 0.5078 (0.8643) Rec EMPLOYMENT: 0.9653 (0.9797):  80%|▊| 343/429 [00:37<00:08,  9.60it/s
+Epoch: 20/159 Phase: train Loss: 0.3017 (0.2821) Acc: 0.5075 (0.8672) Rec EMPLOYMENT: 0.9653 (0.9699):  83%|▊| 357/429 [00:38<00:07,  9.52it/s
+Epoch: 20/159 Phase: train Loss: 0.3025 (0.3242) Acc: 0.5069 (0.8708) Rec EMPLOYMENT: 0.9657 (0.9394):  87%|▊| 375/429 [00:40<00:05,  9.41it/s
+Epoch: 20/159 Phase: train Loss: 0.3023 (0.2838) Acc: 0.5068 (0.8622) Rec EMPLOYMENT: 0.9652 (0.9653):  92%|▉| 394/429 [00:42<00:03,  9.60it/s
+Epoch: 20/159 Phase: train Loss: 0.3024 (0.3818) Acc: 0.5066 (0.8664) Rec EMPLOYMENT: 0.9652 (0.8793):  97%|▉| 414/429 [00:44<00:01,  9.64it/s
+Epoch: 20/159 Phase: valid Loss: 0.4228 (0.3236) Acc: 0.0874 (0.8640) Rec EMPLOYMENT: 0.9600 (1.0000):   1%|  | 5/687 [00:00<00:53, 12.63it/s]
+Epoch: 20/159 Phase: valid Loss: 0.3882 (0.2602) Acc: 0.0780 (0.8298) Rec EMPLOYMENT: 0.9300 (0.9333):  13%|▏| 86/687 [00:02<00:14, 42.49it/s]
+Epoch: 20/159 Phase: valid Loss: 0.3930 (0.1816) Acc: 0.0792 (0.8700) Rec EMPLOYMENT: 0.9296 (1.0000):  25%|▎| 172/687 [00:04<00:11, 46.16it/s
+Epoch: 20/159 Phase: valid Loss: 0.4004 (0.1925) Acc: 0.0791 (0.8863) Rec EMPLOYMENT: 0.9228 (1.0000):  37%|▎| 256/687 [00:06<00:08, 48.33it/s
+Epoch: 20/159 Phase: valid Loss: 0.4021 (0.4610) Acc: 0.0786 (0.8278) Rec EMPLOYMENT: 0.9285 (nan):  47%|█▍ | 324/687 [00:08<00:07, 47.98it/s]
+Epoch: 20/159 Phase: valid Loss: 0.4025 (0.3049) Acc: 0.0784 (0.8735) Rec EMPLOYMENT: 0.9284 (1.0000):  60%|▌| 412/687 [00:10<00:07, 39.02it/s
+Epoch: 20/159 Phase: valid Loss: 0.4076 (0.3565) Acc: 0.0783 (0.8995) Rec EMPLOYMENT: 0.9254 (1.0000):  74%|▋| 506/687 [00:12<00:03, 47.54it/s
+Epoch: 20/159 Phase: valid Loss: 0.4066 (0.1896) Acc: 0.0787 (0.8925) Rec EMPLOYMENT: 0.9251 (1.0000):  86%|▊| 588/687 [00:14<00:02, 47.39it/s
+Epoch: 20/159 Phase: valid Loss: 0.4065 (0.6812) Acc: 0.0786 (0.8277) Rec EMPLOYMENT: 0.9268 (1.0000):  98%|▉| 676/687 [00:16<00:00, 40.68it/s
+Epoch: 20/159 Phase: valid Loss: 0.4061 (0.2530) Acc: 0.0785 (0.8821) Rec EMPLOYMENT: 0.9273 (nan): 100%|███| 687/687 [00:16<00:00, 40.54it/s]
+Epoch: 20/159 Phase: valid Loss: 0.4061 (0.2530) Acc: 0.0785 (0.8821) Rec EMPLOYMENT: 0.9273 (nan): 100%|███| 687/687 [00:16<00:00, 40.54it/s]
+{'EMPLOYMENT_appended_data': 2823}
+Epoch: 21/159 Phase: train Loss: 0.3106 (0.3338) Acc: 0.4961 (0.8470) Rec EMPLOYMENT: 0.9501 (0.9375):   1%|  | 4/429 [00:00<01:12,  5.89it/s]
+Epoch: 21/159 Phase: train Loss: 0.3085 (0.3070) Acc: 0.4970 (0.8508) Rec EMPLOYMENT: 0.9656 (0.9672):   5%| | 23/429 [00:02<00:42,  9.50it/s]
+Epoch: 21/159 Phase: train Loss: 0.3058 (0.2965) Acc: 0.5043 (0.8686) Rec EMPLOYMENT: 0.9595 (0.9821):  10%| | 42/429 [00:05<00:41,  9.23it/s]
+Epoch: 21/159 Phase: train Loss: 0.3063 (0.3115) Acc: 0.5028 (0.8589) Rec EMPLOYMENT: 0.9618 (0.9586):  14%|▏| 62/429 [00:06<00:38,  9.59it/s]
+Epoch: 21/159 Phase: train Loss: 0.2992 (0.3155) Acc: 0.5056 (0.8637) Rec EMPLOYMENT: 0.9634 (0.9459):  19%|▏| 82/429 [00:09<00:36,  9.53it/s]
+Epoch: 21/159 Phase: train Loss: 0.2997 (0.3259) Acc: 0.5061 (0.8686) Rec EMPLOYMENT: 0.9645 (0.9775):  24%|▏| 101/429 [00:11<00:37,  8.81it/s
+Epoch: 21/159 Phase: train Loss: 0.2986 (0.3284) Acc: 0.5074 (0.8573) Rec EMPLOYMENT: 0.9655 (0.9704):  28%|▎| 120/429 [00:13<00:32,  9.59it/s
+Epoch: 21/159 Phase: train Loss: 0.2981 (0.3066) Acc: 0.5085 (0.8539) Rec EMPLOYMENT: 0.9660 (0.9604):  33%|▎| 140/429 [00:15<00:29,  9.86it/s
+Epoch: 21/159 Phase: train Loss: 0.2969 (0.2611) Acc: 0.5092 (0.8653) Rec EMPLOYMENT: 0.9664 (0.9794):  37%|▎| 159/429 [00:17<00:28,  9.55it/s
+Epoch: 21/159 Phase: train Loss: 0.2975 (0.3068) Acc: 0.5089 (0.8547) Rec EMPLOYMENT: 0.9665 (0.9797):  41%|▍| 177/429 [00:19<00:26,  9.46it/s
+Epoch: 21/159 Phase: train Loss: 0.2960 (0.2535) Acc: 0.5091 (0.8689) Rec EMPLOYMENT: 0.9670 (0.9607):  46%|▍| 197/429 [00:21<00:24,  9.67it/s
+Epoch: 21/159 Phase: train Loss: 0.2967 (0.3066) Acc: 0.5091 (0.8485) Rec EMPLOYMENT: 0.9670 (0.9514):  50%|▌| 216/429 [00:23<00:21, 10.11it/s
+Epoch: 21/159 Phase: train Loss: 0.2965 (0.2876) Acc: 0.5086 (0.8654) Rec EMPLOYMENT: 0.9674 (0.9633):  55%|▌| 234/429 [00:25<00:20,  9.33it/s
+Epoch: 21/159 Phase: train Loss: 0.2968 (0.2976) Acc: 0.5089 (0.8580) Rec EMPLOYMENT: 0.9680 (0.9763):  59%|▌| 253/429 [00:27<00:19,  9.19it/s
+Epoch: 21/159 Phase: train Loss: 0.2971 (0.3459) Acc: 0.5085 (0.8550) Rec EMPLOYMENT: 0.9676 (0.9922):  64%|▋| 273/429 [00:29<00:16,  9.67it/s
+Epoch: 21/159 Phase: train Loss: 0.2970 (0.2304) Acc: 0.5083 (0.8674) Rec EMPLOYMENT: 0.9673 (0.9563):  68%|▋| 293/429 [00:31<00:14,  9.48it/s
+Epoch: 21/159 Phase: train Loss: 0.2963 (0.2631) Acc: 0.5078 (0.8679) Rec EMPLOYMENT: 0.9672 (0.9860):  72%|▋| 311/429 [00:33<00:12,  9.56it/s
+Epoch: 21/159 Phase: train Loss: 0.2974 (0.2569) Acc: 0.5075 (0.8845) Rec EMPLOYMENT: 0.9670 (0.9907):  77%|▊| 330/429 [00:35<00:10,  9.37it/s
+Epoch: 21/159 Phase: train Loss: 0.2976 (0.2776) Acc: 0.5080 (0.8671) Rec EMPLOYMENT: 0.9667 (0.9904):  80%|▊| 345/429 [00:36<00:08,  9.63it/s
+Epoch: 21/159 Phase: train Loss: 0.2971 (0.3018) Acc: 0.5079 (0.8738) Rec EMPLOYMENT: 0.9669 (0.9756):  85%|▊| 363/429 [00:38<00:07,  8.42it/s
+Epoch: 21/159 Phase: train Loss: 0.2982 (0.3191) Acc: 0.5073 (0.8734) Rec EMPLOYMENT: 0.9668 (0.9609):  89%|▉| 383/429 [00:40<00:04,  9.47it/s
+Epoch: 21/159 Phase: train Loss: 0.2981 (0.2957) Acc: 0.5065 (0.8753) Rec EMPLOYMENT: 0.9667 (0.9690):  94%|▉| 402/429 [00:43<00:02,  9.51it/s
+Epoch: 21/159 Phase: train Loss: 0.2981 (0.2833) Acc: 0.5070 (0.8724) Rec EMPLOYMENT: 0.9667 (0.9719):  98%|▉| 421/429 [00:44<00:00,  9.62it/s
+Epoch: 21/159 Phase: valid Loss: 0.3771 (0.2217) Acc: 0.0790 (0.8351) Rec EMPLOYMENT: 0.9345 (1.0000):   5%| | 32/687 [00:01<00:18, 35.63it/s]
+Epoch: 21/159 Phase: valid Loss: 0.3907 (0.7205) Acc: 0.0789 (0.8126) Rec EMPLOYMENT: 0.9312 (1.0000):  18%|▏| 122/687 [00:03<00:11, 47.53it/s
+Epoch: 21/159 Phase: valid Loss: 0.3933 (0.6918) Acc: 0.0792 (0.8070) Rec EMPLOYMENT: 0.9268 (0.8857):  31%|▎| 216/687 [00:05<00:10, 45.38it/s
+Epoch: 21/159 Phase: valid Loss: 0.4023 (0.2744) Acc: 0.0787 (0.7972) Rec EMPLOYMENT: 0.9297 (1.0000):  45%|▍| 311/687 [00:07<00:07, 49.36it/s
+Epoch: 21/159 Phase: valid Loss: 0.4015 (0.3509) Acc: 0.0783 (0.8585) Rec EMPLOYMENT: 0.9289 (1.0000):  59%|▌| 404/687 [00:09<00:06, 42.78it/s
+Epoch: 21/159 Phase: valid Loss: 0.4079 (0.7025) Acc: 0.0782 (0.8435) Rec EMPLOYMENT: 0.9271 (0.8750):  72%|▋| 493/687 [00:11<00:04, 47.11it/s
+Epoch: 21/159 Phase: valid Loss: 0.4075 (0.3114) Acc: 0.0785 (0.8202) Rec EMPLOYMENT: 0.9276 (0.9565):  82%|▊| 566/687 [00:13<00:02, 47.05it/s
+Epoch: 21/159 Phase: valid Loss: 0.4069 (0.3943) Acc: 0.0785 (0.8364) Rec EMPLOYMENT: 0.9281 (0.9630):  96%|▉| 657/687 [00:15<00:00, 37.56it/s
+Epoch: 21/159 Phase: valid Loss: 0.4069 (0.3943) Acc: 0.0785 (0.8364) Rec EMPLOYMENT: 0.9281 (0.9630):  96%|▉| 657/687 [00:15<00:00, 37.56it/s
+Epoch: 22/159 Phase: train Loss: 0.3125 (0.3006) Acc: 0.5031 (0.8607) Rec EMPLOYMENT: 0.9585 (0.9799):   2%|  | 7/429 [00:01<00:52,  8.06it/s]
+Epoch: 22/159 Phase: train Loss: 0.3040 (0.3027) Acc: 0.4989 (0.8794) Rec EMPLOYMENT: 0.9671 (0.9737):   6%| | 27/429 [00:03<00:41,  9.61it/s]
+Epoch: 22/159 Phase: train Loss: 0.3016 (0.3154) Acc: 0.5028 (0.8756) Rec EMPLOYMENT: 0.9635 (0.9924):  10%| | 45/429 [00:05<00:41,  9.28it/s]
+Epoch: 22/159 Phase: train Loss: 0.3029 (0.2983) Acc: 0.5034 (0.8678) Rec EMPLOYMENT: 0.9652 (0.9880):  15%|▏| 64/429 [00:07<00:38,  9.55it/s]
+Epoch: 22/159 Phase: train Loss: 0.2988 (0.2924) Acc: 0.5058 (0.8657) Rec EMPLOYMENT: 0.9655 (0.9408):  20%|▏| 84/429 [00:09<00:36,  9.55it/s]
+Epoch: 22/159 Phase: train Loss: 0.2993 (0.3710) Acc: 0.5056 (0.8697) Rec EMPLOYMENT: 0.9659 (0.9739):  24%|▏| 103/429 [00:11<00:36,  8.91it/s
+Epoch: 22/159 Phase: train Loss: 0.2983 (0.3543) Acc: 0.5066 (0.8671) Rec EMPLOYMENT: 0.9670 (0.9231):  28%|▎| 122/429 [00:13<00:30,  9.94it/s
+Epoch: 22/159 Phase: train Loss: 0.2976 (0.3335) Acc: 0.5081 (0.8659) Rec EMPLOYMENT: 0.9667 (0.9492):  33%|▎| 142/429 [00:15<00:29,  9.64it/s
+Epoch: 22/159 Phase: train Loss: 0.2955 (0.3026) Acc: 0.5089 (0.8691) Rec EMPLOYMENT: 0.9663 (0.9558):  38%|▍| 161/429 [00:17<00:28,  9.55it/s
+Epoch: 22/159 Phase: train Loss: 0.2967 (0.3417) Acc: 0.5088 (0.8667) Rec EMPLOYMENT: 0.9663 (0.9866):  42%|▍| 179/429 [00:19<00:26,  9.40it/s
+Epoch: 22/159 Phase: train Loss: 0.2965 (0.3359) Acc: 0.5088 (0.8733) Rec EMPLOYMENT: 0.9665 (0.9441):  46%|▍| 198/429 [00:21<00:24,  9.37it/s
+Epoch: 22/159 Phase: train Loss: 0.2959 (0.2545) Acc: 0.5088 (0.8733) Rec EMPLOYMENT: 0.9671 (0.9892):  51%|▌| 218/429 [00:23<00:22,  9.51it/s
+Epoch: 22/159 Phase: train Loss: 0.2961 (0.3165) Acc: 0.5085 (0.8421) Rec EMPLOYMENT: 0.9674 (0.9582):  55%|▌| 235/429 [00:25<00:21,  8.86it/s
+Epoch: 22/159 Phase: train Loss: 0.2964 (0.3242) Acc: 0.5087 (0.8834) Rec EMPLOYMENT: 0.9680 (0.9785):  59%|▌| 255/429 [00:27<00:18,  9.34it/s
+Epoch: 22/159 Phase: train Loss: 0.2972 (0.2965) Acc: 0.5082 (0.8686) Rec EMPLOYMENT: 0.9671 (0.9590):  64%|▋| 274/429 [00:29<00:15,  9.93it/s
+Epoch: 22/159 Phase: train Loss: 0.2964 (0.2691) Acc: 0.5081 (0.8588) Rec EMPLOYMENT: 0.9673 (0.9799):  69%|▋| 294/429 [00:31<00:14,  9.47it/s
+Epoch: 22/159 Phase: train Loss: 0.2966 (0.3702) Acc: 0.5076 (0.8518) Rec EMPLOYMENT: 0.9669 (0.9933):  73%|▋| 313/429 [00:33<00:12,  9.53it/s
+Epoch: 22/159 Phase: train Loss: 0.2971 (0.2634) Acc: 0.5075 (0.8741) Rec EMPLOYMENT: 0.9671 (0.9730):  77%|▊| 332/429 [00:35<00:10,  9.40it/s
+Epoch: 22/159 Phase: train Loss: 0.2971 (0.3864) Acc: 0.5075 (0.8655) Rec EMPLOYMENT: 0.9670 (0.9684):  82%|▊| 351/429 [00:37<00:08,  9.47it/s
+Epoch: 22/159 Phase: train Loss: 0.2976 (0.2952) Acc: 0.5072 (0.8646) Rec EMPLOYMENT: 0.9673 (0.9926):  86%|▊| 370/429 [00:39<00:06,  9.19it/s
+Epoch: 22/159 Phase: train Loss: 0.2979 (0.3447) Acc: 0.5069 (0.8656) Rec EMPLOYMENT: 0.9673 (0.9606):  90%|▉| 388/429 [00:41<00:04,  9.45it/s
+Epoch: 22/159 Phase: train Loss: 0.2979 (0.3079) Acc: 0.5064 (0.8808) Rec EMPLOYMENT: 0.9672 (0.9646):  95%|▉| 408/429 [00:43<00:02,  9.63it/s
+Epoch: 22/159 Phase: train Loss: 0.2976 (0.2728) Acc: 0.5069 (0.8691) Rec EMPLOYMENT: 0.9671 (1.0000): 100%|█| 429/429 [00:45<00:00,  9.37it/s
+Epoch: 22/159 Phase: valid Loss: 0.3783 (0.4499) Acc: 0.0767 (0.8180) Rec EMPLOYMENT: 0.9365 (1.0000):   9%| | 63/687 [00:01<00:14, 44.52it/s]
+Epoch: 22/159 Phase: valid Loss: 0.3932 (0.3078) Acc: 0.0793 (0.8896) Rec EMPLOYMENT: 0.9309 (nan):  23%|▋  | 155/687 [00:03<00:12, 44.05it/s]
+Epoch: 22/159 Phase: valid Loss: 0.3993 (0.5101) Acc: 0.0790 (0.8430) Rec EMPLOYMENT: 0.9244 (0.7750):  36%|▎| 245/687 [00:05<00:09, 48.27it/s
+Epoch: 22/159 Phase: valid Loss: 0.4028 (0.2757) Acc: 0.0787 (0.7983) Rec EMPLOYMENT: 0.9292 (1.0000):  46%|▍| 314/687 [00:07<00:07, 48.57it/s
+Epoch: 22/159 Phase: valid Loss: 0.4033 (0.4150) Acc: 0.0782 (0.7972) Rec EMPLOYMENT: 0.9275 (0.8824):  58%|▌| 399/687 [00:09<00:07, 37.88it/s
+Epoch: 22/159 Phase: valid Loss: 0.4085 (0.3369) Acc: 0.0782 (0.8330) Rec EMPLOYMENT: 0.9264 (nan):  71%|██▏| 491/687 [00:11<00:04, 46.34it/s]
+Epoch: 22/159 Phase: valid Loss: 0.4086 (0.3752) Acc: 0.0785 (0.8547) Rec EMPLOYMENT: 0.9260 (0.8889):  85%|▊| 583/687 [00:13<00:02, 48.11it/s
+Epoch: 22/159 Phase: valid Loss: 0.4067 (0.2480) Acc: 0.0785 (0.8713) Rec EMPLOYMENT: 0.9271 (1.0000):  97%|▉| 666/687 [00:15<00:00, 40.16it/s
+Epoch: 22/159 Phase: valid Loss: 0.4067 (0.2480) Acc: 0.0785 (0.8713) Rec EMPLOYMENT: 0.9271 (1.0000):  97%|▉| 666/687 [00:15<00:00, 40.16it/s
+Epoch: 23/159 Phase: train Loss: 0.3063 (0.2546) Acc: 0.4997 (0.8733) Rec EMPLOYMENT: 0.9621 (0.9818):   2%|  | 8/429 [00:01<00:53,  7.84it/s]
+Epoch: 23/159 Phase: train Loss: 0.3069 (0.3493) Acc: 0.5009 (0.8682) Rec EMPLOYMENT: 0.9631 (0.9195):   7%| | 28/429 [00:03<00:42,  9.51it/s]
+Epoch: 23/159 Phase: train Loss: 0.3019 (0.2767) Acc: 0.5025 (0.8694) Rec EMPLOYMENT: 0.9629 (0.9683):  11%| | 47/429 [00:05<00:39,  9.69it/s]
+Epoch: 23/159 Phase: train Loss: 0.3036 (0.3064) Acc: 0.5041 (0.8578) Rec EMPLOYMENT: 0.9628 (0.9331):  15%|▏| 65/429 [00:07<00:37,  9.68it/s]
+Epoch: 23/159 Phase: train Loss: 0.3007 (0.2623) Acc: 0.5061 (0.8688) Rec EMPLOYMENT: 0.9640 (0.9696):  20%|▏| 86/429 [00:09<00:35,  9.67it/s]
+Epoch: 23/159 Phase: train Loss: 0.3012 (0.3022) Acc: 0.5058 (0.8726) Rec EMPLOYMENT: 0.9641 (0.9514):  24%|▏| 103/429 [00:11<00:37,  8.62it/s
+Epoch: 23/159 Phase: train Loss: 0.3003 (0.3113) Acc: 0.5066 (0.8577) Rec EMPLOYMENT: 0.9658 (0.9653):  28%|▎| 122/429 [00:13<00:32,  9.36it/s
+Epoch: 23/159 Phase: train Loss: 0.2990 (0.3598) Acc: 0.5082 (0.8652) Rec EMPLOYMENT: 0.9665 (0.9548):  33%|▎| 142/429 [00:15<00:29,  9.67it/s
+Epoch: 23/159 Phase: train Loss: 0.2979 (0.3349) Acc: 0.5083 (0.8584) Rec EMPLOYMENT: 0.9664 (0.9633):  36%|▎| 156/429 [00:17<00:29,  9.26it/s
+Epoch: 23/159 Phase: train Loss: 0.2982 (0.3154) Acc: 0.5085 (0.8683) Rec EMPLOYMENT: 0.9663 (0.9444):  41%|▍| 176/429 [00:19<00:27,  9.28it/s
+Epoch: 23/159 Phase: train Loss: 0.2976 (0.2901) Acc: 0.5092 (0.8636) Rec EMPLOYMENT: 0.9666 (0.9726):  45%|▍| 195/429 [00:21<00:24,  9.58it/s
+Epoch: 23/159 Phase: train Loss: 0.2974 (0.3162) Acc: 0.5089 (0.8472) Rec EMPLOYMENT: 0.9670 (0.9894):  50%|▍| 214/429 [00:23<00:21,  9.92it/s
+Epoch: 23/159 Phase: train Loss: 0.2972 (0.3194) Acc: 0.5085 (0.8578) Rec EMPLOYMENT: 0.9676 (1.0000):  54%|▌| 233/429 [00:25<00:21,  9.02it/s
+Epoch: 23/159 Phase: train Loss: 0.2981 (0.3459) Acc: 0.5087 (0.8417) Rec EMPLOYMENT: 0.9679 (0.9494):  59%|▌| 252/429 [00:27<00:18,  9.46it/s
+Epoch: 23/159 Phase: train Loss: 0.2983 (0.2799) Acc: 0.5085 (0.8651) Rec EMPLOYMENT: 0.9669 (0.9607):  63%|▋| 270/429 [00:29<00:16,  9.63it/s
+Epoch: 23/159 Phase: train Loss: 0.2983 (0.2651) Acc: 0.5083 (0.8596) Rec EMPLOYMENT: 0.9670 (0.9698):  68%|▋| 290/429 [00:31<00:14,  9.42it/s
+Epoch: 23/159 Phase: train Loss: 0.2978 (0.2923) Acc: 0.5076 (0.8737) Rec EMPLOYMENT: 0.9668 (0.9632):  72%|▋| 308/429 [00:33<00:12,  9.51it/s
+Epoch: 23/159 Phase: train Loss: 0.2984 (0.2823) Acc: 0.5075 (0.8837) Rec EMPLOYMENT: 0.9671 (0.9664):  76%|▊| 327/429 [00:35<00:10,  9.53it/s
+Epoch: 23/159 Phase: train Loss: 0.2981 (0.2463) Acc: 0.5078 (0.8573) Rec EMPLOYMENT: 0.9671 (0.9735):  81%|▊| 347/429 [00:37<00:08,  9.60it/s
+Epoch: 23/159 Phase: train Loss: 0.2980 (0.3251) Acc: 0.5078 (0.8550) Rec EMPLOYMENT: 0.9670 (0.9634):  85%|▊| 364/429 [00:39<00:07,  8.65it/s
+Epoch: 23/159 Phase: train Loss: 0.2987 (0.2720) Acc: 0.5072 (0.8528) Rec EMPLOYMENT: 0.9670 (0.9661):  90%|▉| 384/429 [00:41<00:04,  9.66it/s
+Epoch: 23/159 Phase: train Loss: 0.2986 (0.3017) Acc: 0.5066 (0.8671) Rec EMPLOYMENT: 0.9670 (0.9785):  94%|▉| 404/429 [00:43<00:02,  9.66it/s
+Epoch: 23/159 Phase: train Loss: 0.2984 (0.2696) Acc: 0.5072 (0.8741) Rec EMPLOYMENT: 0.9670 (0.9667):  99%|▉| 423/429 [00:45<00:00, 10.11it/s
+Epoch: 23/159 Phase: valid Loss: 0.3725 (0.3358) Acc: 0.0779 (0.8222) Rec EMPLOYMENT: 0.9294 (0.9259):   7%| | 45/687 [00:01<00:14, 43.98it/s]
+Epoch: 23/159 Phase: valid Loss: 0.3885 (0.4643) Acc: 0.0787 (0.8606) Rec EMPLOYMENT: 0.9305 (nan):  19%|▌  | 130/687 [00:03<00:16, 34.06it/s]
+Epoch: 23/159 Phase: valid Loss: 0.3944 (0.5758) Acc: 0.0792 (0.7959) Rec EMPLOYMENT: 0.9261 (nan):  32%|▉  | 220/687 [00:05<00:10, 45.32it/s]
+Epoch: 23/159 Phase: valid Loss: 0.4031 (0.5639) Acc: 0.0788 (0.7668) Rec EMPLOYMENT: 0.9280 (0.8250):  45%|▍| 312/687 [00:07<00:07, 48.90it/s
+Epoch: 23/159 Phase: valid Loss: 0.4034 (0.5566) Acc: 0.0782 (0.8288) Rec EMPLOYMENT: 0.9272 (0.8500):  58%|▌| 397/687 [00:09<00:07, 37.91it/s
+Epoch: 23/159 Phase: valid Loss: 0.4089 (0.5615) Acc: 0.0782 (0.8575) Rec EMPLOYMENT: 0.9259 (0.9412):  71%|▋| 490/687 [00:11<00:04, 45.98it/s
+Epoch: 23/159 Phase: valid Loss: 0.4077 (0.2405) Acc: 0.0785 (0.8848) Rec EMPLOYMENT: 0.9267 (nan):  83%|██▍| 569/687 [00:13<00:02, 46.76it/s]
+Epoch: 23/159 Phase: valid Loss: 0.4073 (0.5176) Acc: 0.0786 (0.8487) Rec EMPLOYMENT: 0.9263 (1.0000):  94%|▉| 643/687 [00:15<00:00, 48.78it/s
+Epoch: 23/159 Phase: valid Loss: 0.4073 (0.5176) Acc: 0.0786 (0.8487) Rec EMPLOYMENT: 0.9263 (1.0000):  94%|▉| 643/687 [00:15<00:00, 48.78it/s
+Epoch: 24/159 Phase: train Loss: 0.2840 (0.2778) Acc: 0.4914 (0.8517) Rec EMPLOYMENT: 0.9683 (0.9771):   0%|  | 2/429 [00:00<02:12,  3.22it/s]
+Epoch: 24/159 Phase: train Loss: 0.3047 (0.2988) Acc: 0.4972 (0.8469) Rec EMPLOYMENT: 0.9670 (0.9853):   5%| | 23/429 [00:02<00:42,  9.50it/s]
+Epoch: 24/159 Phase: train Loss: 0.3007 (0.3099) Acc: 0.5043 (0.8813) Rec EMPLOYMENT: 0.9632 (0.9292):  10%| | 41/429 [00:04<00:42,  9.17it/s]
+Epoch: 24/159 Phase: train Loss: 0.3012 (0.2561) Acc: 0.5027 (0.8475) Rec EMPLOYMENT: 0.9658 (0.9785):  14%|▏| 59/429 [00:06<00:38,  9.62it/s]
+Epoch: 24/159 Phase: train Loss: 0.2963 (0.3124) Acc: 0.5063 (0.8809) Rec EMPLOYMENT: 0.9650 (0.9510):  18%|▏| 78/429 [00:08<00:36,  9.49it/s]
+Epoch: 24/159 Phase: train Loss: 0.2985 (0.3438) Acc: 0.5062 (0.8577) Rec EMPLOYMENT: 0.9644 (0.9444):  23%|▏| 97/429 [00:10<00:43,  7.63it/s]
+Epoch: 24/159 Phase: train Loss: 0.2976 (0.3047) Acc: 0.5070 (0.8668) Rec EMPLOYMENT: 0.9650 (0.9945):  27%|▎| 116/429 [00:12<00:33,  9.48it/s
+Epoch: 24/159 Phase: train Loss: 0.2957 (0.3014) Acc: 0.5079 (0.8681) Rec EMPLOYMENT: 0.9655 (0.9784):  32%|▎| 136/429 [00:14<00:31,  9.43it/s
+Epoch: 24/159 Phase: train Loss: 0.2947 (0.3000) Acc: 0.5090 (0.8630) Rec EMPLOYMENT: 0.9658 (0.9507):  36%|▎| 155/429 [00:16<00:28,  9.64it/s
+Epoch: 24/159 Phase: train Loss: 0.2951 (0.2860) Acc: 0.5088 (0.8608) Rec EMPLOYMENT: 0.9665 (0.9563):  41%|▍| 175/429 [00:19<00:26,  9.73it/s
+Epoch: 24/159 Phase: train Loss: 0.2941 (0.3428) Acc: 0.5098 (0.8586) Rec EMPLOYMENT: 0.9672 (0.9538):  45%|▍| 194/429 [00:21<00:23, 10.11it/s
+Epoch: 24/159 Phase: train Loss: 0.2940 (0.2785) Acc: 0.5094 (0.8584) Rec EMPLOYMENT: 0.9678 (0.9922):  50%|▍| 213/429 [00:23<00:22,  9.53it/s
+Epoch: 24/159 Phase: train Loss: 0.2936 (0.2930) Acc: 0.5089 (0.8542) Rec EMPLOYMENT: 0.9685 (0.9569):  54%|▌| 232/429 [00:25<00:22,  8.60it/s
+Epoch: 24/159 Phase: train Loss: 0.2944 (0.2943) Acc: 0.5091 (0.8766) Rec EMPLOYMENT: 0.9692 (0.9808):  59%|▌| 251/429 [00:27<00:18,  9.45it/s
+Epoch: 24/159 Phase: train Loss: 0.2954 (0.2957) Acc: 0.5088 (0.8660) Rec EMPLOYMENT: 0.9674 (0.9607):  63%|▋| 270/429 [00:29<00:16,  9.74it/s
+Epoch: 24/159 Phase: train Loss: 0.2953 (0.2693) Acc: 0.5087 (0.8568) Rec EMPLOYMENT: 0.9676 (0.9698):  68%|▋| 290/429 [00:31<00:15,  9.26it/s
+Epoch: 24/159 Phase: train Loss: 0.2951 (0.2764) Acc: 0.5080 (0.8751) Rec EMPLOYMENT: 0.9674 (0.9737):  72%|▋| 307/429 [00:33<00:12,  9.52it/s
+Epoch: 24/159 Phase: train Loss: 0.2957 (0.3485) Acc: 0.5077 (0.8537) Rec EMPLOYMENT: 0.9674 (0.9503):  76%|▊| 327/429 [00:35<00:10,  9.57it/s
+Epoch: 24/159 Phase: train Loss: 0.2956 (0.2674) Acc: 0.5082 (0.8521) Rec EMPLOYMENT: 0.9672 (0.9682):  81%|▊| 346/429 [00:37<00:08,  9.60it/s
+Epoch: 24/159 Phase: train Loss: 0.2952 (0.2583) Acc: 0.5081 (0.8684) Rec EMPLOYMENT: 0.9671 (0.9754):  84%|▊| 359/429 [00:38<00:10,  6.98it/s
+Epoch: 24/159 Phase: train Loss: 0.2960 (0.2907) Acc: 0.5076 (0.8557) Rec EMPLOYMENT: 0.9674 (0.9773):  88%|▉| 378/429 [00:40<00:05,  9.54it/s
+Epoch: 24/159 Phase: train Loss: 0.2958 (0.2868) Acc: 0.5072 (0.8640) Rec EMPLOYMENT: 0.9673 (0.9769):  93%|▉| 397/429 [00:42<00:03,  9.63it/s
+Epoch: 24/159 Phase: train Loss: 0.2960 (0.3189) Acc: 0.5072 (0.8630) Rec EMPLOYMENT: 0.9674 (0.9681):  97%|▉| 416/429 [00:44<00:01,  9.56it/s
+Epoch: 24/159 Phase: valid Loss: 0.3988 (0.5350) Acc: 0.0819 (0.8461) Rec EMPLOYMENT: 0.9101 (0.5714):   3%| | 18/687 [00:00<00:22, 30.05it/s]
+Epoch: 24/159 Phase: valid Loss: 0.3941 (0.9374) Acc: 0.0783 (0.8584) Rec EMPLOYMENT: 0.9336 (0.6000):  15%|▏| 104/687 [00:02<00:12, 46.58it/s
+Epoch: 24/159 Phase: valid Loss: 0.3971 (0.5394) Acc: 0.0791 (0.8220) Rec EMPLOYMENT: 0.9287 (1.0000):  28%|▎| 191/687 [00:04<00:10, 48.41it/s
+Epoch: 24/159 Phase: valid Loss: 0.3993 (0.4033) Acc: 0.0789 (0.8534) Rec EMPLOYMENT: 0.9279 (1.0000):  41%|▍| 280/687 [00:07<00:09, 44.03it/s
+Epoch: 24/159 Phase: valid Loss: 0.4001 (0.4202) Acc: 0.0784 (0.8418) Rec EMPLOYMENT: 0.9302 (1.0000):  51%|▌| 347/687 [00:08<00:07, 43.17it/s
+Epoch: 24/159 Phase: valid Loss: 0.4051 (0.4740) Acc: 0.0781 (0.8659) Rec EMPLOYMENT: 0.9289 (1.0000):  66%|▋| 455/687 [00:11<00:04, 46.94it/s
+Epoch: 24/159 Phase: valid Loss: 0.4076 (0.3138) Acc: 0.0783 (0.8834) Rec EMPLOYMENT: 0.9271 (0.9333):  75%|▊| 516/687 [00:12<00:03, 48.12it/s
+Epoch: 24/159 Phase: valid Loss: 0.4070 (0.3502) Acc: 0.0785 (0.8550) Rec EMPLOYMENT: 0.9253 (0.8571):  89%|▉| 608/687 [00:14<00:01, 43.35it/s
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 25/159 Phase: train Loss: 0.2982 (0.3291) Acc: 0.5068 (0.8580) Rec EMPLOYMENT: 0.9646 (0.9478):   3%| | 14/429 [00:02<00:47,  8.75it/s]
+Epoch: 25/159 Phase: train Loss: 0.3032 (0.2824) Acc: 0.4994 (0.8632) Rec EMPLOYMENT: 0.9639 (0.9727):   7%| | 31/429 [00:04<00:57,  6.91it/s]
+Epoch: 25/159 Phase: train Loss: 0.2984 (0.2734) Acc: 0.5016 (0.8639) Rec EMPLOYMENT: 0.9645 (0.9725):  12%| | 50/429 [00:06<00:40,  9.37it/s]
+Epoch: 25/159 Phase: train Loss: 0.2958 (0.2837) Acc: 0.5045 (0.8647) Rec EMPLOYMENT: 0.9653 (0.9832):  16%|▏| 69/429 [00:08<00:37,  9.63it/s]
+Epoch: 25/159 Phase: train Loss: 0.2958 (0.3294) Acc: 0.5063 (0.8664) Rec EMPLOYMENT: 0.9652 (0.9767):  21%|▏| 90/429 [00:10<00:35,  9.44it/s]
+Epoch: 25/159 Phase: train Loss: 0.2953 (0.2351) Acc: 0.5062 (0.8728) Rec EMPLOYMENT: 0.9664 (1.0000):  25%|▏| 107/429 [00:12<00:34,  9.38it/s
+Epoch: 25/159 Phase: train Loss: 0.2947 (0.2571) Acc: 0.5062 (0.8819) Rec EMPLOYMENT: 0.9669 (0.9874):  30%|▎| 127/429 [00:14<00:31,  9.51it/s
+Epoch: 25/159 Phase: train Loss: 0.2943 (0.2928) Acc: 0.5086 (0.8728) Rec EMPLOYMENT: 0.9668 (0.9587):  34%|▎| 146/429 [00:16<00:28,  9.89it/s
+Epoch: 25/159 Phase: train Loss: 0.2935 (0.3052) Acc: 0.5089 (0.8651) Rec EMPLOYMENT: 0.9666 (0.9667):  38%|▍| 165/429 [00:18<00:31,  8.49it/s
+Epoch: 25/159 Phase: train Loss: 0.2935 (0.2662) Acc: 0.5097 (0.8773) Rec EMPLOYMENT: 0.9668 (0.9876):  43%|▍| 184/429 [00:20<00:27,  9.06it/s
+Epoch: 25/159 Phase: train Loss: 0.2935 (0.2690) Acc: 0.5090 (0.8646) Rec EMPLOYMENT: 0.9674 (1.0000):  48%|▍| 204/429 [00:22<00:23,  9.69it/s
+Epoch: 25/159 Phase: train Loss: 0.2938 (0.2784) Acc: 0.5083 (0.8774) Rec EMPLOYMENT: 0.9672 (0.9388):  52%|▌| 223/429 [00:24<00:21,  9.71it/s
+Epoch: 25/159 Phase: train Loss: 0.2939 (0.2678) Acc: 0.5091 (0.8718) Rec EMPLOYMENT: 0.9677 (0.9932):  56%|▌| 241/429 [00:26<00:19,  9.49it/s
+Epoch: 25/159 Phase: train Loss: 0.2944 (0.3482) Acc: 0.5089 (0.8585) Rec EMPLOYMENT: 0.9673 (0.9140):  61%|▌| 260/429 [00:28<00:16, 10.04it/s
+Epoch: 25/159 Phase: train Loss: 0.2956 (0.3083) Acc: 0.5081 (0.8615) Rec EMPLOYMENT: 0.9669 (0.9864):  65%|▋| 280/429 [00:30<00:15,  9.67it/s
+Epoch: 25/159 Phase: train Loss: 0.2947 (0.3206) Acc: 0.5083 (0.8540) Rec EMPLOYMENT: 0.9672 (0.9613):  69%|▋| 296/429 [00:32<00:16,  8.07it/s
+Epoch: 25/159 Phase: train Loss: 0.2947 (0.2666) Acc: 0.5078 (0.8743) Rec EMPLOYMENT: 0.9670 (0.9636):  73%|▋| 315/429 [00:34<00:12,  9.48it/s
+Epoch: 25/159 Phase: train Loss: 0.2949 (0.2985) Acc: 0.5079 (0.8663) Rec EMPLOYMENT: 0.9671 (0.9856):  78%|▊| 334/429 [00:36<00:10,  9.17it/s
+Epoch: 25/159 Phase: train Loss: 0.2944 (0.2954) Acc: 0.5079 (0.8679) Rec EMPLOYMENT: 0.9670 (0.9585):  82%|▊| 350/429 [00:38<00:08,  9.48it/s
+Epoch: 25/159 Phase: train Loss: 0.2950 (0.2680) Acc: 0.5078 (0.8547) Rec EMPLOYMENT: 0.9672 (0.9691):  86%|▊| 367/429 [00:40<00:06,  9.13it/s
+Epoch: 25/159 Phase: train Loss: 0.2956 (0.2342) Acc: 0.5072 (0.8572) Rec EMPLOYMENT: 0.9670 (0.9805):  90%|▉| 387/429 [00:42<00:04,  9.39it/s
+Epoch: 25/159 Phase: train Loss: 0.2956 (0.2913) Acc: 0.5067 (0.8632) Rec EMPLOYMENT: 0.9669 (1.0000):  95%|▉| 407/429 [00:44<00:02,  9.83it/s
+Epoch: 25/159 Phase: train Loss: 0.2955 (0.3231) Acc: 0.5074 (0.8594) Rec EMPLOYMENT: 0.9672 (0.9937): 100%|▉| 427/429 [00:46<00:00, 10.71it/s
+Epoch: 25/159 Phase: valid Loss: 0.3849 (0.3756) Acc: 0.0774 (0.8663) Rec EMPLOYMENT: 0.9311 (0.9565):   8%| | 52/687 [00:01<00:13, 47.10it/s]
+Epoch: 25/159 Phase: valid Loss: 0.3910 (0.3358) Acc: 0.0788 (0.8526) Rec EMPLOYMENT: 0.9323 (nan):  20%|▌  | 135/687 [00:03<00:14, 38.43it/s]
+Epoch: 25/159 Phase: valid Loss: 0.3970 (0.7516) Acc: 0.0791 (0.8132) Rec EMPLOYMENT: 0.9260 (1.0000):  33%|▎| 225/687 [00:05<00:10, 46.18it/s
+Epoch: 25/159 Phase: valid Loss: 0.4027 (0.3450) Acc: 0.0787 (0.8549) Rec EMPLOYMENT: 0.9292 (0.9020):  45%|▍| 312/687 [00:07<00:07, 49.19it/s
+Epoch: 25/159 Phase: valid Loss: 0.4030 (0.3435) Acc: 0.0783 (0.8547) Rec EMPLOYMENT: 0.9281 (nan):  58%|█▋ | 398/687 [00:09<00:07, 37.76it/s]
+Epoch: 25/159 Phase: valid Loss: 0.4087 (0.4352) Acc: 0.0782 (0.8486) Rec EMPLOYMENT: 0.9267 (1.0000):  71%|▋| 486/687 [00:11<00:04, 44.71it/s
+Epoch: 25/159 Phase: valid Loss: 0.4077 (0.2729) Acc: 0.0786 (0.8186) Rec EMPLOYMENT: 0.9277 (1.0000):  84%|▊| 576/687 [00:13<00:02, 47.30it/s
+Epoch: 25/159 Phase: valid Loss: 0.4070 (0.3553) Acc: 0.0785 (0.8692) Rec EMPLOYMENT: 0.9275 (0.9565):  95%|▉| 652/687 [00:15<00:01, 31.52it/s
+Epoch: 25/159 Phase: valid Loss: 0.4070 (0.2542) Acc: 0.0785 (0.8821) Rec EMPLOYMENT: 0.9287 (nan): 100%|███| 687/687 [00:16<00:00, 41.31it/s]
+Epoch: 26/159 Phase: train Loss: 0.2733 (0.2733) Acc: 0.5057 (0.8710) Rec EMPLOYMENT: 0.9786 (0.9786):   0%|  | 1/429 [00:00<03:05,  2.31it/s]
+Epoch: 26/159 Phase: train Loss: 0.2733 (0.2733) Acc: 0.5057 (0.8710) Rec EMPLOYMENT: 0.9786 (0.9786):   0%|  | 1/429 [00:00<03:05,  2.31it/s]
+{'EMPLOYMENT_appended_data': 2357}
+Epoch: 26/159 Phase: train Loss: 0.3036 (0.3560) Acc: 0.4966 (0.8514) Rec EMPLOYMENT: 0.9668 (0.9675):   4%| | 19/429 [00:02<00:42,  9.58it/s]
+Epoch: 26/159 Phase: train Loss: 0.2989 (0.2428) Acc: 0.5022 (0.8570) Rec EMPLOYMENT: 0.9643 (0.9615):   9%| | 38/429 [00:04<00:41,  9.41it/s]
+Epoch: 26/159 Phase: train Loss: 0.3006 (0.2930) Acc: 0.5040 (0.8588) Rec EMPLOYMENT: 0.9645 (0.9746):  13%|▏| 57/429 [00:06<00:39,  9.31it/s]
+Epoch: 26/159 Phase: train Loss: 0.2958 (0.2549) Acc: 0.5066 (0.8825) Rec EMPLOYMENT: 0.9653 (0.9686):  18%|▏| 76/429 [00:08<00:36,  9.60it/s]
+Epoch: 26/159 Phase: train Loss: 0.2970 (0.2362) Acc: 0.5068 (0.8622) Rec EMPLOYMENT: 0.9654 (0.9794):  22%|▏| 95/429 [00:10<00:39,  8.54it/s]
+Epoch: 26/159 Phase: train Loss: 0.2954 (0.2435) Acc: 0.5076 (0.8721) Rec EMPLOYMENT: 0.9666 (0.9661):  27%|▎| 114/429 [00:12<00:33,  9.40it/s
+Epoch: 26/159 Phase: train Loss: 0.2940 (0.2825) Acc: 0.5079 (0.8738) Rec EMPLOYMENT: 0.9667 (0.9481):  31%|▎| 134/429 [00:14<00:31,  9.42it/s
+Epoch: 26/159 Phase: train Loss: 0.2936 (0.3038) Acc: 0.5089 (0.8634) Rec EMPLOYMENT: 0.9670 (0.9351):  35%|▎| 152/429 [00:16<00:29,  9.39it/s
+Epoch: 26/159 Phase: train Loss: 0.2938 (0.2920) Acc: 0.5090 (0.8635) Rec EMPLOYMENT: 0.9671 (1.0000):  40%|▍| 172/429 [00:18<00:27,  9.24it/s
+Epoch: 26/159 Phase: train Loss: 0.2930 (0.2724) Acc: 0.5096 (0.8703) Rec EMPLOYMENT: 0.9676 (0.9770):  45%|▍| 191/429 [00:20<00:24,  9.56it/s
+Epoch: 26/159 Phase: train Loss: 0.2924 (0.2848) Acc: 0.5097 (0.8564) Rec EMPLOYMENT: 0.9678 (0.9955):  49%|▍| 211/429 [00:22<00:22,  9.50it/s
+Epoch: 26/159 Phase: train Loss: 0.2924 (0.2800) Acc: 0.5087 (0.8714) Rec EMPLOYMENT: 0.9684 (0.9870):  53%|▌| 229/429 [00:24<00:22,  8.81it/s
+Epoch: 26/159 Phase: train Loss: 0.2927 (0.3584) Acc: 0.5091 (0.8573) Rec EMPLOYMENT: 0.9689 (0.9941):  58%|▌| 249/429 [00:26<00:19,  9.47it/s
+Epoch: 26/159 Phase: train Loss: 0.2931 (0.2720) Acc: 0.5088 (0.8694) Rec EMPLOYMENT: 0.9682 (0.9735):  63%|▋| 269/429 [00:28<00:16,  9.87it/s
+Epoch: 26/159 Phase: train Loss: 0.2935 (0.2550) Acc: 0.5086 (0.8704) Rec EMPLOYMENT: 0.9680 (0.9591):  67%|▋| 288/429 [00:30<00:14,  9.59it/s
+Epoch: 26/159 Phase: train Loss: 0.2928 (0.2525) Acc: 0.5082 (0.8612) Rec EMPLOYMENT: 0.9681 (0.9515):  71%|▋| 306/429 [00:32<00:12,  9.94it/s
+Epoch: 26/159 Phase: train Loss: 0.2930 (0.2835) Acc: 0.5077 (0.8560) Rec EMPLOYMENT: 0.9682 (0.9529):  76%|▊| 325/429 [00:34<00:10,  9.64it/s
+Epoch: 26/159 Phase: train Loss: 0.2933 (0.2730) Acc: 0.5084 (0.8649) Rec EMPLOYMENT: 0.9682 (0.9906):  80%|▊| 344/429 [00:36<00:08,  9.50it/s
+Epoch: 26/159 Phase: train Loss: 0.2931 (0.2774) Acc: 0.5081 (0.8757) Rec EMPLOYMENT: 0.9682 (0.9632):  85%|▊| 363/429 [00:38<00:07,  9.27it/s
+Epoch: 26/159 Phase: train Loss: 0.2939 (0.2824) Acc: 0.5076 (0.8705) Rec EMPLOYMENT: 0.9683 (1.0000):  89%|▉| 382/429 [00:40<00:04,  9.51it/s
+Epoch: 26/159 Phase: train Loss: 0.2938 (0.3215) Acc: 0.5068 (0.8523) Rec EMPLOYMENT: 0.9683 (0.9866):  93%|▉| 401/429 [00:42<00:02,  9.44it/s
+Epoch: 26/159 Phase: train Loss: 0.2939 (0.3032) Acc: 0.5072 (0.8718) Rec EMPLOYMENT: 0.9683 (0.9630):  98%|▉| 420/429 [00:44<00:00,  9.80it/s
+Epoch: 26/159 Phase: valid Loss: 0.3776 (0.5917) Acc: 0.0780 (0.8543) Rec EMPLOYMENT: 0.9326 (1.0000):   7%| | 47/687 [00:01<00:13, 48.17it/s]
+Epoch: 26/159 Phase: valid Loss: 0.3916 (0.5666) Acc: 0.0786 (0.8244) Rec EMPLOYMENT: 0.9336 (nan):  20%|▌  | 134/687 [00:03<00:13, 42.12it/s]
+Epoch: 26/159 Phase: valid Loss: 0.3966 (0.2605) Acc: 0.0790 (0.8378) Rec EMPLOYMENT: 0.9271 (1.0000):  33%|▎| 224/687 [00:05<00:09, 46.81it/s
+Epoch: 26/159 Phase: valid Loss: 0.4035 (0.8841) Acc: 0.0786 (0.8382) Rec EMPLOYMENT: 0.9285 (1.0000):  42%|▍| 291/687 [00:06<00:08, 48.14it/s
+Epoch: 26/159 Phase: valid Loss: 0.4018 (0.2696) Acc: 0.0780 (0.8683) Rec EMPLOYMENT: 0.9303 (nan):  56%|█▋ | 382/687 [00:08<00:06, 46.85it/s]
+Epoch: 26/159 Phase: valid Loss: 0.4094 (0.2992) Acc: 0.0781 (0.8468) Rec EMPLOYMENT: 0.9272 (0.9615):  70%|▋| 479/687 [00:10<00:04, 45.58it/s
+Epoch: 26/159 Phase: valid Loss: 0.4080 (0.3958) Acc: 0.0784 (0.8553) Rec EMPLOYMENT: 0.9283 (1.0000):  83%|▊| 571/687 [00:12<00:02, 47.36it/s
+Epoch: 26/159 Phase: valid Loss: 0.4078 (0.3957) Acc: 0.0784 (0.8364) Rec EMPLOYMENT: 0.9287 (0.9630):  96%|▉| 657/687 [00:14<00:00, 39.04it/s
+Epoch: 26/159 Phase: valid Loss: 0.4078 (0.3957) Acc: 0.0784 (0.8364) Rec EMPLOYMENT: 0.9287 (0.9630):  96%|▉| 657/687 [00:14<00:00, 39.04it/s
+Epoch: 27/159 Phase: train Loss: 0.3169 (0.3097) Acc: 0.5022 (0.8587) Rec EMPLOYMENT: 0.9579 (0.9662):   1%|  | 6/429 [00:01<00:59,  7.12it/s]
+Epoch: 27/159 Phase: train Loss: 0.3007 (0.2760) Acc: 0.4988 (0.8848) Rec EMPLOYMENT: 0.9683 (0.9750):   6%| | 26/429 [00:03<00:42,  9.55it/s]
+Epoch: 27/159 Phase: train Loss: 0.2962 (0.3050) Acc: 0.5027 (0.8717) Rec EMPLOYMENT: 0.9662 (0.9925):  10%| | 45/429 [00:05<00:41,  9.36it/s]
+Epoch: 27/159 Phase: train Loss: 0.2962 (0.3097) Acc: 0.5030 (0.8592) Rec EMPLOYMENT: 0.9686 (0.9825):  15%|▏| 63/429 [00:07<00:37,  9.64it/s]
+Epoch: 27/159 Phase: train Loss: 0.2936 (0.2868) Acc: 0.5055 (0.8661) Rec EMPLOYMENT: 0.9681 (0.9611):  20%|▏| 84/429 [00:09<00:35,  9.67it/s]
+Epoch: 27/159 Phase: train Loss: 0.2939 (0.3639) Acc: 0.5054 (0.8702) Rec EMPLOYMENT: 0.9688 (0.9483):  24%|▏| 103/429 [00:11<00:34,  9.46it/s
+Epoch: 27/159 Phase: train Loss: 0.2938 (0.3478) Acc: 0.5065 (0.8618) Rec EMPLOYMENT: 0.9696 (0.9626):  28%|▎| 122/429 [00:13<00:30,  9.94it/s
+Epoch: 27/159 Phase: train Loss: 0.2917 (0.3142) Acc: 0.5081 (0.8611) Rec EMPLOYMENT: 0.9698 (0.9535):  33%|▎| 141/429 [00:15<00:30,  9.59it/s
+Epoch: 27/159 Phase: train Loss: 0.2908 (0.3008) Acc: 0.5089 (0.8672) Rec EMPLOYMENT: 0.9696 (0.9544):  37%|▎| 159/429 [00:17<00:26, 10.05it/s
+Epoch: 27/159 Phase: train Loss: 0.2914 (0.2189) Acc: 0.5086 (0.8735) Rec EMPLOYMENT: 0.9698 (0.9871):  42%|▍| 179/429 [00:19<00:26,  9.53it/s
+Epoch: 27/159 Phase: train Loss: 0.2912 (0.3284) Acc: 0.5086 (0.8527) Rec EMPLOYMENT: 0.9699 (0.9680):  46%|▍| 198/429 [00:21<00:24,  9.43it/s
+Epoch: 27/159 Phase: train Loss: 0.2910 (0.2612) Acc: 0.5087 (0.8678) Rec EMPLOYMENT: 0.9705 (0.9896):  51%|▌| 218/429 [00:23<00:22,  9.52it/s
+Epoch: 27/159 Phase: train Loss: 0.2905 (0.2943) Acc: 0.5085 (0.8467) Rec EMPLOYMENT: 0.9708 (0.9690):  55%|▌| 236/429 [00:25<00:20,  9.26it/s
+Epoch: 27/159 Phase: train Loss: 0.2913 (0.3361) Acc: 0.5087 (0.8845) Rec EMPLOYMENT: 0.9710 (1.0000):  59%|▌| 255/429 [00:27<00:18,  9.33it/s
+Epoch: 27/159 Phase: train Loss: 0.2917 (0.2958) Acc: 0.5083 (0.8684) Rec EMPLOYMENT: 0.9700 (0.9412):  64%|▋| 274/429 [00:29<00:15,  9.99it/s
+Epoch: 27/159 Phase: train Loss: 0.2919 (0.2500) Acc: 0.5083 (0.8724) Rec EMPLOYMENT: 0.9700 (0.9867):  67%|▋| 289/429 [00:31<00:14,  9.44it/s
+Epoch: 27/159 Phase: train Loss: 0.2911 (0.2185) Acc: 0.5078 (0.8714) Rec EMPLOYMENT: 0.9695 (0.9615):  72%|▋| 309/429 [00:33<00:12,  9.63it/s
+Epoch: 27/159 Phase: train Loss: 0.2918 (0.2658) Acc: 0.5075 (0.8810) Rec EMPLOYMENT: 0.9693 (0.9735):  76%|▊| 328/429 [00:35<00:10,  9.54it/s
+Epoch: 27/159 Phase: train Loss: 0.2918 (0.2445) Acc: 0.5079 (0.8527) Rec EMPLOYMENT: 0.9692 (0.9696):  81%|▊| 347/429 [00:37<00:08,  9.50it/s
+Epoch: 27/159 Phase: train Loss: 0.2919 (0.3339) Acc: 0.5078 (0.8359) Rec EMPLOYMENT: 0.9694 (1.0000):  85%|▊| 365/429 [00:39<00:06,  9.31it/s
+Epoch: 27/159 Phase: train Loss: 0.2924 (0.2862) Acc: 0.5073 (0.8523) Rec EMPLOYMENT: 0.9694 (0.9671):  90%|▉| 384/429 [00:41<00:04,  9.72it/s
+Epoch: 27/159 Phase: train Loss: 0.2925 (0.3313) Acc: 0.5067 (0.8528) Rec EMPLOYMENT: 0.9692 (0.9533):  94%|▉| 404/429 [00:43<00:02,  9.71it/s
+Epoch: 27/159 Phase: train Loss: 0.2924 (0.2892) Acc: 0.5073 (0.8750) Rec EMPLOYMENT: 0.9692 (0.9680):  99%|▉| 423/429 [00:45<00:00,  8.48it/s
+Epoch: 27/159 Phase: valid Loss: 0.3818 (0.2352) Acc: 0.0779 (0.8839) Rec EMPLOYMENT: 0.9331 (1.0000):   8%| | 56/687 [00:01<00:13, 48.37it/s]
+Epoch: 27/159 Phase: valid Loss: 0.3927 (0.2015) Acc: 0.0792 (0.8948) Rec EMPLOYMENT: 0.9325 (1.0000):  22%|▏| 148/687 [00:03<00:12, 44.12it/s
+Epoch: 27/159 Phase: valid Loss: 0.3974 (0.4765) Acc: 0.0790 (0.8618) Rec EMPLOYMENT: 0.9272 (0.8571):  35%|▎| 242/687 [00:05<00:09, 49.17it/s
+Epoch: 27/159 Phase: valid Loss: 0.4025 (0.2344) Acc: 0.0785 (0.8636) Rec EMPLOYMENT: 0.9310 (1.0000):  48%|▍| 327/687 [00:07<00:09, 39.86it/s
+Epoch: 27/159 Phase: valid Loss: 0.4026 (0.1986) Acc: 0.0782 (0.8972) Rec EMPLOYMENT: 0.9306 (0.9714):  61%|▌| 419/687 [00:09<00:05, 45.53it/s
+Epoch: 27/159 Phase: valid Loss: 0.4085 (0.5868) Acc: 0.0782 (0.8302) Rec EMPLOYMENT: 0.9280 (0.9825):  75%|▋| 514/687 [00:11<00:03, 48.49it/s
+Epoch: 27/159 Phase: valid Loss: 0.4092 (0.4410) Acc: 0.0785 (0.8225) Rec EMPLOYMENT: 0.9269 (0.8846):  84%|▊| 577/687 [00:13<00:02, 47.31it/s
+Epoch: 27/159 Phase: valid Loss: 0.4075 (0.4288) Acc: 0.0785 (0.8629) Rec EMPLOYMENT: 0.9286 (0.9565):  97%|▉| 669/687 [00:15<00:00, 44.84it/s
+Epoch: 27/159 Phase: valid Loss: 0.4075 (0.4288) Acc: 0.0785 (0.8629) Rec EMPLOYMENT: 0.9286 (0.9565):  97%|▉| 669/687 [00:15<00:00, 44.84it/s
+Epoch: 28/159 Phase: train Loss: 0.2970 (0.2946) Acc: 0.5067 (0.8620) Rec EMPLOYMENT: 0.9719 (0.9912):   3%| | 11/429 [00:01<00:45,  9.25it/s]
+Epoch: 28/159 Phase: train Loss: 0.2989 (0.3141) Acc: 0.5006 (0.8694) Rec EMPLOYMENT: 0.9662 (0.9520):   7%| | 29/429 [00:03<00:47,  8.40it/s]
+Epoch: 28/159 Phase: train Loss: 0.2948 (0.3309) Acc: 0.5015 (0.8579) Rec EMPLOYMENT: 0.9660 (0.9387):  12%| | 50/429 [00:05<00:38,  9.80it/s]
+Epoch: 28/159 Phase: train Loss: 0.2915 (0.2544) Acc: 0.5048 (0.8650) Rec EMPLOYMENT: 0.9692 (0.9853):  16%|▏| 69/429 [00:07<00:37,  9.63it/s]
+Epoch: 28/159 Phase: train Loss: 0.2904 (0.2872) Acc: 0.5064 (0.8649) Rec EMPLOYMENT: 0.9695 (0.9733):  21%|▏| 88/429 [00:09<00:34,  9.90it/s]
+Epoch: 28/159 Phase: train Loss: 0.2907 (0.2714) Acc: 0.5067 (0.8733) Rec EMPLOYMENT: 0.9701 (0.9665):  25%|▏| 107/429 [00:11<00:34,  9.21it/s
+Epoch: 28/159 Phase: train Loss: 0.2906 (0.3414) Acc: 0.5065 (0.8509) Rec EMPLOYMENT: 0.9703 (0.9474):  29%|▎| 126/429 [00:13<00:31,  9.61it/s
+Epoch: 28/159 Phase: train Loss: 0.2903 (0.2659) Acc: 0.5089 (0.8739) Rec EMPLOYMENT: 0.9703 (0.9603):  34%|▎| 145/429 [00:15<00:29,  9.53it/s
+Epoch: 28/159 Phase: train Loss: 0.2889 (0.3286) Acc: 0.5092 (0.8618) Rec EMPLOYMENT: 0.9701 (0.9545):  38%|▍| 162/429 [00:17<00:30,  8.65it/s
+Epoch: 28/159 Phase: train Loss: 0.2885 (0.2266) Acc: 0.5097 (0.8644) Rec EMPLOYMENT: 0.9703 (0.9797):  43%|▍| 183/429 [00:19<00:25,  9.67it/s
+Epoch: 28/159 Phase: train Loss: 0.2885 (0.3251) Acc: 0.5095 (0.8623) Rec EMPLOYMENT: 0.9706 (0.9590):  47%|▍| 202/429 [00:21<00:23,  9.62it/s
+Epoch: 28/159 Phase: train Loss: 0.2880 (0.3169) Acc: 0.5087 (0.8567) Rec EMPLOYMENT: 0.9711 (0.9764):  52%|▌| 222/429 [00:23<00:21,  9.59it/s
+Epoch: 28/159 Phase: train Loss: 0.2879 (0.2934) Acc: 0.5094 (0.8512) Rec EMPLOYMENT: 0.9716 (0.9905):  56%|▌| 240/429 [00:25<00:19,  9.60it/s
+Epoch: 28/159 Phase: train Loss: 0.2882 (0.2674) Acc: 0.5093 (0.8651) Rec EMPLOYMENT: 0.9713 (0.9793):  60%|▌| 258/429 [00:27<00:17,  9.58it/s
+Epoch: 28/159 Phase: train Loss: 0.2893 (0.2815) Acc: 0.5085 (0.8761) Rec EMPLOYMENT: 0.9706 (0.9892):  65%|▋| 278/429 [00:29<00:15,  9.80it/s
+Epoch: 28/159 Phase: train Loss: 0.2889 (0.3289) Acc: 0.5086 (0.8565) Rec EMPLOYMENT: 0.9708 (0.9750):  69%|▋| 297/429 [00:31<00:13,  9.50it/s
+Epoch: 28/159 Phase: train Loss: 0.2889 (0.2552) Acc: 0.5081 (0.8723) Rec EMPLOYMENT: 0.9704 (0.9690):  74%|▋| 316/429 [00:33<00:11,  9.65it/s
+Epoch: 28/159 Phase: train Loss: 0.2897 (0.3260) Acc: 0.5083 (0.8596) Rec EMPLOYMENT: 0.9703 (0.9810):  78%|▊| 335/429 [00:35<00:09,  9.48it/s
+Epoch: 28/159 Phase: train Loss: 0.2894 (0.2856) Acc: 0.5080 (0.8734) Rec EMPLOYMENT: 0.9699 (0.9785):  82%|▊| 353/429 [00:37<00:10,  7.14it/s
+Epoch: 28/159 Phase: train Loss: 0.2900 (0.2589) Acc: 0.5079 (0.8806) Rec EMPLOYMENT: 0.9701 (0.9911):  87%|▊| 373/429 [00:40<00:05,  9.64it/s
+Epoch: 28/159 Phase: train Loss: 0.2898 (0.2709) Acc: 0.5075 (0.8596) Rec EMPLOYMENT: 0.9699 (0.9903):  91%|▉| 392/429 [00:41<00:03,  9.64it/s
+Epoch: 28/159 Phase: train Loss: 0.2899 (0.2862) Acc: 0.5070 (0.8620) Rec EMPLOYMENT: 0.9699 (0.9686):  96%|▉| 412/429 [00:44<00:01,  9.61it/s
+Epoch: 28/159 Phase: valid Loss: 0.6063 (0.6063) Acc: 0.0764 (0.8471) Rec EMPLOYMENT: 0.8947 (0.8947):   0%|          | 0/687 [00:00<?, ?it/s]
+Epoch: 28/159 Phase: valid Loss: 0.3779 (0.5246) Acc: 0.0769 (0.8467) Rec EMPLOYMENT: 0.9362 (0.8462):   9%| | 62/687 [00:01<00:18, 34.15it/s]
+Epoch: 28/159 Phase: valid Loss: 0.3944 (0.4072) Acc: 0.0792 (0.8523) Rec EMPLOYMENT: 0.9313 (0.9091):  22%|▏| 150/687 [00:03<00:12, 44.66it/s
+Epoch: 28/159 Phase: valid Loss: 0.3999 (0.9465) Acc: 0.0789 (0.8037) Rec EMPLOYMENT: 0.9262 (0.7692):  35%|▎| 241/687 [00:05<00:09, 47.87it/s
+Epoch: 28/159 Phase: valid Loss: 0.4032 (0.4523) Acc: 0.0785 (0.8404) Rec EMPLOYMENT: 0.9304 (0.9630):  47%|▍| 326/687 [00:07<00:09, 38.06it/s
+Epoch: 28/159 Phase: valid Loss: 0.4034 (0.3057) Acc: 0.0782 (0.8481) Rec EMPLOYMENT: 0.9302 (0.8667):  61%|▌| 419/687 [00:09<00:05, 45.95it/s
+Epoch: 28/159 Phase: valid Loss: 0.4080 (0.2233) Acc: 0.0782 (0.8676) Rec EMPLOYMENT: 0.9273 (0.9730):  74%|▋| 511/687 [00:11<00:03, 48.06it/s
+Epoch: 28/159 Phase: valid Loss: 0.4078 (0.5041) Acc: 0.0785 (0.8331) Rec EMPLOYMENT: 0.9266 (0.8421):  86%|▊| 593/687 [00:13<00:02, 39.34it/s
+Epoch: 28/159 Phase: valid Loss: 0.4080 (0.4947) Acc: 0.0785 (0.8216) Rec EMPLOYMENT: 0.9290 (0.9412):  99%|▉| 681/687 [00:15<00:00, 45.96it/s
+Epoch: 28/159 Phase: valid Loss: 0.4080 (0.4947) Acc: 0.0785 (0.8216) Rec EMPLOYMENT: 0.9290 (0.9412):  99%|▉| 681/687 [00:15<00:00, 45.96it/s
+Epoch: 29/159 Phase: train Loss: 0.2902 (0.2340) Acc: 0.5086 (0.8674) Rec EMPLOYMENT: 0.9671 (0.9725):   3%| | 13/429 [00:01<00:45,  9.19it/s]
+Epoch: 29/159 Phase: train Loss: 0.2967 (0.3027) Acc: 0.5010 (0.8697) Rec EMPLOYMENT: 0.9652 (0.9600):   7%| | 30/429 [00:03<00:45,  8.71it/s]
+Epoch: 29/159 Phase: train Loss: 0.2922 (0.2901) Acc: 0.5013 (0.8597) Rec EMPLOYMENT: 0.9655 (0.9872):  11%| | 49/429 [00:05<00:41,  9.26it/s]
+Epoch: 29/159 Phase: train Loss: 0.2918 (0.2564) Acc: 0.5050 (0.8688) Rec EMPLOYMENT: 0.9657 (0.9779):  16%|▏| 69/429 [00:07<00:37,  9.48it/s]
+Epoch: 29/159 Phase: train Loss: 0.2902 (0.2940) Acc: 0.5066 (0.8685) Rec EMPLOYMENT: 0.9669 (0.9733):  21%|▏| 88/429 [00:09<00:35,  9.57it/s]
+Epoch: 29/159 Phase: train Loss: 0.2910 (0.2850) Acc: 0.5065 (0.8657) Rec EMPLOYMENT: 0.9674 (0.9767):  24%|▏| 105/429 [00:11<00:34,  9.40it/s
+Epoch: 29/159 Phase: train Loss: 0.2902 (0.2299) Acc: 0.5070 (0.8765) Rec EMPLOYMENT: 0.9681 (0.9765):  29%|▎| 124/429 [00:13<00:31,  9.54it/s
+Epoch: 29/159 Phase: train Loss: 0.2902 (0.2565) Acc: 0.5088 (0.8712) Rec EMPLOYMENT: 0.9680 (0.9652):  34%|▎| 145/429 [00:15<00:29,  9.58it/s
+Epoch: 29/159 Phase: train Loss: 0.2886 (0.3331) Acc: 0.5095 (0.8637) Rec EMPLOYMENT: 0.9683 (0.9416):  38%|▍| 162/429 [00:17<00:31,  8.53it/s
+Epoch: 29/159 Phase: train Loss: 0.2897 (0.3258) Acc: 0.5096 (0.8515) Rec EMPLOYMENT: 0.9683 (0.9711):  42%|▍| 182/429 [00:19<00:25,  9.74it/s
+Epoch: 29/159 Phase: train Loss: 0.2895 (0.3212) Acc: 0.5096 (0.8633) Rec EMPLOYMENT: 0.9684 (0.9672):  47%|▍| 202/429 [00:22<00:23,  9.65it/s
+Epoch: 29/159 Phase: train Loss: 0.2888 (0.3019) Acc: 0.5096 (0.8520) Rec EMPLOYMENT: 0.9690 (0.9602):  50%|▌| 216/429 [00:23<00:22,  9.42it/s
+Epoch: 29/159 Phase: train Loss: 0.2884 (0.2430) Acc: 0.5093 (0.8751) Rec EMPLOYMENT: 0.9697 (0.9851):  55%|▌| 235/429 [00:25<00:20,  9.38it/s
+Epoch: 29/159 Phase: train Loss: 0.2889 (0.3038) Acc: 0.5094 (0.8581) Rec EMPLOYMENT: 0.9700 (0.9605):  59%|▌| 254/429 [00:27<00:18,  9.52it/s
+Epoch: 29/159 Phase: train Loss: 0.2891 (0.2591) Acc: 0.5090 (0.8567) Rec EMPLOYMENT: 0.9692 (0.9598):  64%|▋| 273/429 [00:29<00:16,  9.72it/s
+Epoch: 29/159 Phase: train Loss: 0.2890 (0.3197) Acc: 0.5090 (0.8535) Rec EMPLOYMENT: 0.9690 (0.9511):  68%|▋| 291/429 [00:31<00:16,  8.41it/s
+Epoch: 29/159 Phase: train Loss: 0.2882 (0.2495) Acc: 0.5084 (0.8683) Rec EMPLOYMENT: 0.9687 (0.9727):  72%|▋| 311/429 [00:33<00:12,  9.65it/s
+Epoch: 29/159 Phase: train Loss: 0.2894 (0.2767) Acc: 0.5082 (0.8806) Rec EMPLOYMENT: 0.9687 (0.9908):  77%|▊| 330/429 [00:35<00:10,  9.48it/s
+Epoch: 29/159 Phase: train Loss: 0.2891 (0.2620) Acc: 0.5084 (0.8768) Rec EMPLOYMENT: 0.9687 (0.9694):  81%|▊| 349/429 [00:37<00:08,  9.67it/s
+Epoch: 29/159 Phase: train Loss: 0.2895 (0.3345) Acc: 0.5083 (0.8553) Rec EMPLOYMENT: 0.9690 (0.9830):  86%|▊| 367/429 [00:39<00:06,  9.52it/s
+Epoch: 29/159 Phase: train Loss: 0.2901 (0.2994) Acc: 0.5078 (0.8702) Rec EMPLOYMENT: 0.9691 (0.9805):  90%|▉| 385/429 [00:41<00:04,  9.50it/s
+Epoch: 29/159 Phase: train Loss: 0.2898 (0.2304) Acc: 0.5073 (0.8668) Rec EMPLOYMENT: 0.9692 (0.9783):  95%|▉| 406/429 [00:43<00:02,  9.81it/s
+Epoch: 29/159 Phase: train Loss: 0.2898 (0.2504) Acc: 0.5079 (0.8631) Rec EMPLOYMENT: 0.9691 (0.9482):  99%|▉| 425/429 [00:45<00:00,  9.84it/s
+Epoch: 29/159 Phase: valid Loss: 0.3824 (0.2348) Acc: 0.0779 (0.8845) Rec EMPLOYMENT: 0.9324 (1.0000):   8%| | 54/687 [00:01<00:19, 32.08it/s]
+Epoch: 29/159 Phase: valid Loss: 0.3956 (0.3727) Acc: 0.0792 (0.8523) Rec EMPLOYMENT: 0.9304 (0.9787):  21%|▏| 147/687 [00:03<00:11, 45.38it/s
+Epoch: 29/159 Phase: valid Loss: 0.3970 (0.3928) Acc: 0.0789 (0.8464) Rec EMPLOYMENT: 0.9261 (1.0000):  34%|▎| 234/687 [00:05<00:09, 48.82it/s
+Epoch: 29/159 Phase: valid Loss: 0.4045 (0.8121) Acc: 0.0784 (0.8854) Rec EMPLOYMENT: 0.9293 (0.9231):  47%|▍| 320/687 [00:07<00:10, 33.58it/s
+Epoch: 29/159 Phase: valid Loss: 0.4044 (0.3933) Acc: 0.0782 (0.8800) Rec EMPLOYMENT: 0.9293 (0.9697):  60%|▌| 412/687 [00:09<00:05, 46.16it/s
+Epoch: 29/159 Phase: valid Loss: 0.4085 (0.5379) Acc: 0.0782 (0.7992) Rec EMPLOYMENT: 0.9270 (0.9615):  73%|▋| 500/687 [00:11<00:03, 47.10it/s
+Epoch: 29/159 Phase: valid Loss: 0.4096 (0.4933) Acc: 0.0785 (0.8567) Rec EMPLOYMENT: 0.9262 (1.0000):  84%|▊| 579/687 [00:13<00:03, 32.31it/s
+Epoch: 29/159 Phase: valid Loss: 0.4078 (0.3072) Acc: 0.0785 (0.8536) Rec EMPLOYMENT: 0.9281 (1.0000):  98%|▉| 671/687 [00:15<00:00, 45.14it/s
+Epoch: 29/159 Phase: valid Loss: 0.4078 (0.3072) Acc: 0.0785 (0.8536) Rec EMPLOYMENT: 0.9281 (1.0000):  98%|▉| 671/687 [00:15<00:00, 45.14it/s
+Epoch: 30/159 Phase: train Loss: 0.2888 (0.2170) Acc: 0.5033 (0.8670) Rec EMPLOYMENT: 0.9786 (0.9848):   2%| | 10/429 [00:01<00:49,  8.45it/s]
+Epoch: 30/159 Phase: train Loss: 0.2971 (0.3261) Acc: 0.5009 (0.8762) Rec EMPLOYMENT: 0.9722 (0.9274):   7%| | 28/429 [00:03<00:46,  8.59it/s]
+Epoch: 30/159 Phase: train Loss: 0.2914 (0.2698) Acc: 0.5027 (0.8676) Rec EMPLOYMENT: 0.9684 (0.9462):  11%| | 47/429 [00:05<00:40,  9.45it/s]
+Epoch: 30/159 Phase: train Loss: 0.2915 (0.2507) Acc: 0.5051 (0.8665) Rec EMPLOYMENT: 0.9688 (0.9862):  15%|▏| 66/429 [00:07<00:37,  9.62it/s]
+Epoch: 30/159 Phase: train Loss: 0.2891 (0.2662) Acc: 0.5065 (0.8698) Rec EMPLOYMENT: 0.9696 (0.9815):  20%|▏| 86/429 [00:09<00:35,  9.54it/s]
+Epoch: 30/159 Phase: train Loss: 0.2894 (0.3012) Acc: 0.5065 (0.8734) Rec EMPLOYMENT: 0.9698 (0.9689):  24%|▏| 103/429 [00:11<00:37,  8.64it/s
+Epoch: 30/159 Phase: train Loss: 0.2896 (0.3336) Acc: 0.5072 (0.8536) Rec EMPLOYMENT: 0.9706 (0.9657):  28%|▎| 122/429 [00:13<00:33,  9.29it/s
+Epoch: 30/159 Phase: train Loss: 0.2882 (0.3087) Acc: 0.5089 (0.8717) Rec EMPLOYMENT: 0.9712 (0.9672):  33%|▎| 142/429 [00:15<00:30,  9.55it/s
+Epoch: 30/159 Phase: train Loss: 0.2872 (0.2821) Acc: 0.5096 (0.8645) Rec EMPLOYMENT: 0.9710 (0.9479):  37%|▎| 159/429 [00:17<00:32,  8.43it/s
+Epoch: 30/159 Phase: train Loss: 0.2873 (0.2166) Acc: 0.5094 (0.8744) Rec EMPLOYMENT: 0.9710 (0.9828):  42%|▍| 179/429 [00:19<00:26,  9.57it/s
+Epoch: 30/159 Phase: train Loss: 0.2867 (0.3265) Acc: 0.5096 (0.8592) Rec EMPLOYMENT: 0.9709 (0.9840):  46%|▍| 198/429 [00:21<00:24,  9.50it/s
+Epoch: 30/159 Phase: train Loss: 0.2869 (0.2983) Acc: 0.5096 (0.8560) Rec EMPLOYMENT: 0.9715 (0.9862):  50%|▌| 216/429 [00:23<00:22,  9.39it/s
+Epoch: 30/159 Phase: train Loss: 0.2867 (0.2489) Acc: 0.5095 (0.8740) Rec EMPLOYMENT: 0.9722 (0.9950):  55%|▌| 235/429 [00:25<00:20,  9.43it/s
+Epoch: 30/159 Phase: train Loss: 0.2872 (0.2656) Acc: 0.5096 (0.8627) Rec EMPLOYMENT: 0.9720 (0.9831):  59%|▌| 253/429 [00:27<00:18,  9.33it/s
+Epoch: 30/159 Phase: train Loss: 0.2878 (0.2729) Acc: 0.5092 (0.8583) Rec EMPLOYMENT: 0.9711 (0.9548):  64%|▋| 274/429 [00:29<00:15,  9.96it/s
+Epoch: 30/159 Phase: train Loss: 0.2876 (0.2652) Acc: 0.5091 (0.8597) Rec EMPLOYMENT: 0.9709 (0.9708):  68%|▋| 292/429 [00:31<00:15,  8.82it/s
+Epoch: 30/159 Phase: train Loss: 0.2869 (0.2516) Acc: 0.5086 (0.8662) Rec EMPLOYMENT: 0.9704 (0.9591):  72%|▋| 310/429 [00:33<00:12,  9.40it/s
+Epoch: 30/159 Phase: train Loss: 0.2875 (0.2329) Acc: 0.5084 (0.8849) Rec EMPLOYMENT: 0.9700 (1.0000):  77%|▊| 330/429 [00:35<00:10,  9.61it/s
+Epoch: 30/159 Phase: train Loss: 0.2873 (0.2671) Acc: 0.5086 (0.8797) Rec EMPLOYMENT: 0.9697 (0.9286):  81%|▊| 348/429 [00:37<00:08,  9.63it/s
+Epoch: 30/159 Phase: train Loss: 0.2876 (0.3182) Acc: 0.5085 (0.8559) Rec EMPLOYMENT: 0.9698 (0.9716):  86%|▊| 367/429 [00:39<00:06,  9.42it/s
+Epoch: 30/159 Phase: train Loss: 0.2882 (0.2435) Acc: 0.5079 (0.8605) Rec EMPLOYMENT: 0.9698 (0.9875):  90%|▉| 387/429 [00:41<00:04,  9.94it/s
+Epoch: 30/159 Phase: train Loss: 0.2883 (0.2494) Acc: 0.5075 (0.8660) Rec EMPLOYMENT: 0.9695 (0.9659):  95%|▉| 406/429 [00:43<00:02,  9.77it/s
+Epoch: 30/159 Phase: train Loss: 0.2882 (0.2522) Acc: 0.5081 (0.8800) Rec EMPLOYMENT: 0.9695 (0.9635):  99%|▉| 423/429 [00:45<00:00,  9.65it/s
+Epoch: 30/159 Phase: valid Loss: 0.3858 (0.3940) Acc: 0.0776 (0.8357) Rec EMPLOYMENT: 0.9315 (0.9400):   8%| | 52/687 [00:01<00:21, 29.90it/s]
+Epoch: 30/159 Phase: valid Loss: 0.3943 (0.5884) Acc: 0.0791 (0.8514) Rec EMPLOYMENT: 0.9320 (0.8261):  20%|▏| 137/687 [00:03<00:13, 42.08it/s
+Epoch: 30/159 Phase: valid Loss: 0.3964 (0.3463) Acc: 0.0791 (0.8328) Rec EMPLOYMENT: 0.9260 (nan):  33%|▉  | 227/687 [00:05<00:09, 46.85it/s]
+Epoch: 30/159 Phase: valid Loss: 0.4037 (0.3026) Acc: 0.0786 (0.8698) Rec EMPLOYMENT: 0.9292 (0.9600):  45%|▍| 311/687 [00:07<00:07, 48.56it/s
+Epoch: 30/159 Phase: valid Loss: 0.4030 (0.3913) Acc: 0.0781 (0.8158) Rec EMPLOYMENT: 0.9297 (0.9545):  55%|▌| 378/687 [00:08<00:06, 48.93it/s
+Epoch: 30/159 Phase: valid Loss: 0.4101 (1.2536) Acc: 0.0780 (0.7965) Rec EMPLOYMENT: 0.9261 (0.2979):  68%|▋| 468/687 [00:11<00:05, 41.59it/s
+Epoch: 30/159 Phase: valid Loss: 0.4095 (0.3096) Acc: 0.0784 (0.8930) Rec EMPLOYMENT: 0.9272 (nan):  81%|██▍| 559/687 [00:13<00:02, 46.89it/s]
+Epoch: 30/159 Phase: valid Loss: 0.4087 (0.3401) Acc: 0.0785 (0.8686) Rec EMPLOYMENT: 0.9274 (1.0000):  94%|▉| 643/687 [00:15<00:00, 48.11it/s
+Epoch: 30/159 Phase: valid Loss: 0.4080 (0.2541) Acc: 0.0784 (0.8821) Rec EMPLOYMENT: 0.9296 (nan): 100%|███| 687/687 [00:16<00:00, 41.77it/s]
+Epoch: 30/159 Phase: valid Loss: 0.4080 (0.2541) Acc: 0.0784 (0.8821) Rec EMPLOYMENT: 0.9296 (nan): 100%|███| 687/687 [00:16<00:00, 41.77it/s]
+{'EMPLOYMENT_appended_data': 2151}
+Epoch: 31/159 Phase: train Loss: 0.2737 (0.2674) Acc: 0.4972 (0.8674) Rec EMPLOYMENT: 0.9734 (0.9457):   1%|  | 4/429 [00:00<01:10,  6.03it/s]
+Epoch: 31/159 Phase: train Loss: 0.2911 (0.2819) Acc: 0.4973 (0.8702) Rec EMPLOYMENT: 0.9732 (0.9784):   5%| | 21/429 [00:02<00:55,  7.38it/s]
+Epoch: 31/159 Phase: train Loss: 0.2870 (0.2708) Acc: 0.5049 (0.8658) Rec EMPLOYMENT: 0.9686 (0.9701):   9%| | 40/429 [00:04<00:40,  9.61it/s]
+Epoch: 31/159 Phase: train Loss: 0.2893 (0.2783) Acc: 0.5031 (0.8457) Rec EMPLOYMENT: 0.9696 (0.9680):  14%|▏| 60/429 [00:06<00:38,  9.62it/s]
+Epoch: 31/159 Phase: train Loss: 0.2855 (0.3061) Acc: 0.5065 (0.8613) Rec EMPLOYMENT: 0.9698 (0.9651):  18%|▏| 79/429 [00:08<00:36,  9.67it/s]
+Epoch: 31/159 Phase: train Loss: 0.2871 (0.3369) Acc: 0.5066 (0.8641) Rec EMPLOYMENT: 0.9691 (0.9615):  23%|▏| 97/429 [00:10<00:35,  9.38it/s]
+Epoch: 31/159 Phase: train Loss: 0.2863 (0.3100) Acc: 0.5073 (0.8667) Rec EMPLOYMENT: 0.9693 (0.9896):  27%|▎| 117/429 [00:12<00:33,  9.37it/s
+Epoch: 31/159 Phase: train Loss: 0.2850 (0.3430) Acc: 0.5082 (0.8659) Rec EMPLOYMENT: 0.9700 (0.9733):  32%|▎| 136/429 [00:14<00:31,  9.40it/s
+Epoch: 31/159 Phase: train Loss: 0.2843 (0.2765) Acc: 0.5092 (0.8662) Rec EMPLOYMENT: 0.9702 (0.9424):  36%|▎| 154/429 [00:17<00:34,  7.95it/s
+Epoch: 31/159 Phase: train Loss: 0.2842 (0.2662) Acc: 0.5094 (0.8730) Rec EMPLOYMENT: 0.9701 (0.9617):  39%|▍| 169/429 [00:18<00:25, 10.06it/s
+Epoch: 31/159 Phase: train Loss: 0.2843 (0.3096) Acc: 0.5101 (0.8590) Rec EMPLOYMENT: 0.9702 (0.9822):  44%|▍| 189/429 [00:20<00:25,  9.58it/s
+Epoch: 31/159 Phase: train Loss: 0.2835 (0.2449) Acc: 0.5100 (0.8668) Rec EMPLOYMENT: 0.9704 (0.9876):  49%|▍| 209/429 [00:22<00:23,  9.36it/s
+Epoch: 31/159 Phase: train Loss: 0.2833 (0.2450) Acc: 0.5088 (0.8799) Rec EMPLOYMENT: 0.9709 (0.9751):  53%|▌| 227/429 [00:24<00:20,  9.67it/s
+Epoch: 31/159 Phase: train Loss: 0.2834 (0.3064) Acc: 0.5093 (0.8663) Rec EMPLOYMENT: 0.9714 (0.9824):  58%|▌| 247/429 [00:26<00:18,  9.62it/s
+Epoch: 31/159 Phase: train Loss: 0.2839 (0.2818) Acc: 0.5090 (0.8724) Rec EMPLOYMENT: 0.9709 (0.9684):  62%|▌| 266/429 [00:28<00:17,  9.55it/s
+Epoch: 31/159 Phase: train Loss: 0.2845 (0.3020) Acc: 0.5088 (0.8523) Rec EMPLOYMENT: 0.9710 (0.9861):  66%|▋| 284/429 [00:30<00:17,  8.41it/s
+Epoch: 31/159 Phase: train Loss: 0.2841 (0.3120) Acc: 0.5087 (0.8652) Rec EMPLOYMENT: 0.9710 (0.9609):  70%|▋| 299/429 [00:32<00:16,  7.69it/s
+Epoch: 31/159 Phase: train Loss: 0.2840 (0.2816) Acc: 0.5083 (0.8590) Rec EMPLOYMENT: 0.9708 (0.9580):  73%|▋| 314/429 [00:34<00:14,  8.00it/s
+KeyboardInterruptable=True, accumulate_grad=True)  # allow_unreachable flag line 149, in backward684):  76%|▊| 327/429 [00:36<00:11,  9.01it/s

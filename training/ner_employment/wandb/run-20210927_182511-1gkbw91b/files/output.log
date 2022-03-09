@@ -1,0 +1,35 @@
+0.184804
+LR:  0.001
+  0%|                                                                                                                | 0/4621 [00:00<?, ?it/s]/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/numpy/core/_asarray.py:83: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order)
+/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/numpy/core/_asarray.py:83: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order)
+/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/numpy/core/_asarray.py:83: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order)
+/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/numpy/core/_asarray.py:83: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order)
+  0%|                                                                                                                | 0/4621 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 314, in <module>
+    wandb,
+  File "train.py", line 79, in train
+    for idx, sample in pbar:
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/tqdm/std.py", line 1133, in __iter__
+    for obj in iterable:
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 345, in __next__
+    data = self._next_data()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 856, in _next_data
+    return self._process_data(data)
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 881, in _process_data
+    data.reraise()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/_utils.py", line 394, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/_utils/worker.py", line 178, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 47, in fetch
+    return self.collate_fn(data)
+  File "/root/konst/ml-utils/training/ner_employment/utils.py", line 41, in collate_fn
+    projection_tensor[i, : len(doc), :] = doc
+ValueError: could not broadcast input array from shape (512) into shape (512,125)

@@ -1,0 +1,26 @@
+2021-12-27 18:08:59,050 INFO    MainThread:3948 [wandb_setup.py:_flush():71] setting env: {}
+2021-12-27 18:08:59,051 INFO    MainThread:3948 [wandb_setup.py:_flush():71] setting login settings: {'api_key': '***REDACTED***'}
+2021-12-27 18:08:59,051 INFO    MainThread:3948 [wandb_setup.py:_flush():71] setting login settings: {'api_key': '***REDACTED***'}
+2021-12-27 18:08:59,051 INFO    MainThread:3948 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-12-27 18:08:59,051 INFO    MainThread:3948 [wandb_init.py:_log_setup():371] Logging user logs to /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_180859-2n39vdoz/logs/debug.log
+2021-12-27 18:08:59,051 INFO    MainThread:3948 [wandb_init.py:_log_setup():372] Logging internal logs to /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_180859-2n39vdoz/logs/debug-internal.log
+2021-12-27 18:08:59,051 INFO    MainThread:3948 [wandb_init.py:init():404] calling init triggers
+2021-12-27 18:08:59,051 INFO    MainThread:3948 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'data_path': '/root/konst/data/tags_text/tags_post_texts_v6.csv', 'checkpoint_path': '/root/konst/model_checkpoints/tagger_text', 'model_path': '', 'batch_size': 128, 'epochs': 200, 'start_epoch': 0, 'test_size': 0.2, 'lam': 0, 'patience': 8, 'factor': 0.5, 'use_wandb': True, 'lr': 0.001, 'save_at': 1, 'adjust_lr_every': 1, 'num_workers': 0}
+2021-12-27 18:08:59,051 INFO    MainThread:3948 [wandb_init.py:init():460] starting backend
+2021-12-27 18:08:59,051 INFO    MainThread:3948 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-12-27 18:08:59,056 INFO    MainThread:3948 [backend.py:ensure_launched():216] starting backend process...
+2021-12-27 18:08:59,059 INFO    MainThread:3948 [backend.py:ensure_launched():222] started backend process with pid: 3973
+2021-12-27 18:08:59,060 INFO    MainThread:3948 [wandb_init.py:init():469] backend started and connected
+2021-12-27 18:08:59,063 INFO    MainThread:3948 [wandb_init.py:init():533] updated telemetry
+2021-12-27 18:08:59,072 INFO    MainThread:3948 [wandb_init.py:init():563] communicating current version
+2021-12-27 18:08:59,671 INFO    MainThread:3948 [wandb_init.py:init():568] got version response 
+2021-12-27 18:08:59,671 INFO    MainThread:3948 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2021-12-27 18:08:59,829 INFO    MainThread:3948 [wandb_init.py:init():606] starting run threads in backend
+2021-12-27 18:09:00,637 INFO    MainThread:3948 [wandb_run.py:_console_start():1810] atexit reg
+2021-12-27 18:09:00,638 INFO    MainThread:3948 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.REDIRECT
+2021-12-27 18:09:00,639 INFO    MainThread:3948 [wandb_run.py:_redirect():1689] Redirecting console.
+2021-12-27 18:09:00,641 INFO    MainThread:3948 [wandb_run.py:_redirect():1745] Redirects installed.
+2021-12-27 18:09:00,641 INFO    MainThread:3948 [wandb_init.py:init():633] run started, returning control to user process
+2021-12-27 18:10:49,042 INFO    MainThread:3948 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 255
+2021-12-27 18:10:49,044 INFO    MainThread:3948 [wandb_run.py:_restore():1752] restore

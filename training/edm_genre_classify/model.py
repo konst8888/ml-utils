@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 
 class AudioCNN(nn.Module):
@@ -70,3 +71,32 @@ class AudioCNN(nn.Module):
         
     def forward(self, x):
         return self.model(x)
+    
+    
+class AudioCNN(nn.Module):
+    
+    def __init__(self, num_classes=3, n_features=0):
+        super().__init__()
+        shufflenet_v2_x0_5 = models.shufflenet_v2_x0_5(pretrained=True)
+        shufflenet_v2_x0_5.conv1[0] = nn.Conv2d(2, 24, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        #shufflenet_v2_x0_5.fc = nn.Linear(in_features=1024, out_features=num_classes, bias=True)
+        shufflenet_v2_x0_5.fc = nn.Sequential()
+        
+        #self.main = nn.Sequential(*list(shufflenet_v2_x0_5.children())[:-1])
+        self.main = shufflenet_v2_x0_5
+        self.fc = nn.Linear(in_features=1024 + n_features, out_features=num_classes, bias=True)
+        # maybe need to add one more fc
+        self.n_features = n_features
+        
+    def forward(self, x):
+        if self.n_features == 0:
+            x = self.main(x)
+            x = self.fc(x)
+            return x
+        
+        imgs, features = x
+        x = self.main(imgs)
+        x = torch.cat([x, features], dim=1)
+        x = self.fc(x)
+        
+        return x

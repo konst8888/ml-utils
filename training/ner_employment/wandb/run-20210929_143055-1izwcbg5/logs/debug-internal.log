@@ -1,0 +1,32 @@
+2021-09-29 14:30:55,694 INFO    MainThread:17078 [internal.py:wandb_internal():89] W&B internal server running at pid: 17078, started at: 2021-09-29 14:30:55.693904
+2021-09-29 14:30:55,696 DEBUG   HandlerThread:17078 [handler.py:handle_request():126] handle_request: check_version
+2021-09-29 14:30:55,696 INFO    WriterThread:17078 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/ner_employment/wandb/run-20210929_143055-1izwcbg5/run-1izwcbg5.wandb
+2021-09-29 14:30:55,696 DEBUG   SenderThread:17078 [sender.py:send():185] send: header
+2021-09-29 14:30:55,697 DEBUG   SenderThread:17078 [sender.py:send_request():199] send_request: check_version
+2021-09-29 14:30:55,752 DEBUG   SenderThread:17078 [sender.py:send():185] send: run
+2021-09-29 14:30:55,997 INFO    SenderThread:17078 [dir_watcher.py:__init__():169] watching files in: /root/konst/ml-utils/training/ner_employment/wandb/run-20210929_143055-1izwcbg5/files
+2021-09-29 14:30:55,997 INFO    SenderThread:17078 [sender.py:_start_run_threads():749] run started: 1izwcbg5 with start time 1632925855
+2021-09-29 14:30:55,998 DEBUG   SenderThread:17078 [sender.py:send():185] send: summary
+2021-09-29 14:30:55,999 INFO    SenderThread:17078 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-29 14:30:56,000 DEBUG   HandlerThread:17078 [handler.py:handle_request():126] handle_request: run_start
+2021-09-29 14:30:56,004 DEBUG   HandlerThread:17078 [meta.py:__init__():40] meta init
+2021-09-29 14:30:56,004 DEBUG   HandlerThread:17078 [meta.py:__init__():54] meta init done
+2021-09-29 14:30:56,004 DEBUG   HandlerThread:17078 [meta.py:probe():211] probe
+2021-09-29 14:30:56,011 DEBUG   HandlerThread:17078 [meta.py:_setup_git():201] setup git
+2021-09-29 14:30:56,019 DEBUG   HandlerThread:17078 [meta.py:_setup_git():208] setup git done
+2021-09-29 14:30:56,020 DEBUG   HandlerThread:17078 [meta.py:_save_pip():58] save pip
+2021-09-29 14:30:56,020 DEBUG   HandlerThread:17078 [meta.py:_save_pip():72] save pip done
+2021-09-29 14:30:56,020 DEBUG   HandlerThread:17078 [meta.py:probe():249] probe done
+2021-09-29 14:30:56,998 INFO    Thread-8  :17078 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20210929_143055-1izwcbg5/files/requirements.txt
+2021-09-29 14:30:56,998 INFO    Thread-8  :17078 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20210929_143055-1izwcbg5/files/wandb-summary.json
+2021-09-29 14:30:56,998 INFO    Thread-8  :17078 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20210929_143055-1izwcbg5/files/wandb-metadata.json
+2021-09-29 14:30:57,002 DEBUG   SenderThread:17078 [sender.py:send():185] send: files
+2021-09-29 14:30:57,002 INFO    SenderThread:17078 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-09-29 14:30:57,006 DEBUG   HandlerThread:17078 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-29 14:30:57,006 DEBUG   SenderThread:17078 [sender.py:send_request():199] send_request: stop_status
+2021-09-29 14:30:57,550 INFO    Thread-11 :17078 [upload_job.py:push():137] Uploaded file /tmp/tmp3g520mjdwandb/kfec8uys-wandb-metadata.json
+2021-09-29 14:30:57,997 INFO    Thread-8  :17078 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20210929_143055-1izwcbg5/files/output.log
+2021-09-29 14:31:05,855 WARNING MainThread:17078 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-09-29 14:31:06,062 WARNING MainThread:17078 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2021-09-29 14:31:06,062 ERROR   MainThread:17078 [internal.py:wandb_internal():148] Internal process interrupted.
+2021-09-29 14:31:06,453 INFO    MainThread:17078 [internal.py:handle_exit():76] Internal process exited

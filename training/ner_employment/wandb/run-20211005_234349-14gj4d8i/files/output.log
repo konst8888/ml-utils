@@ -1,0 +1,114 @@
+0.321233
+LR:  0.00015
+counts_prec 368
+counts_rec 368
+running_class_acc 368
+running_acc 24
+running_loss 24
+dataloader 56
+phase 54
+epoch 24
+relabel 64
+tokens_empl 64
+scores_empl 64
+sample_counter 24
+batch_size 28
+data_len 28
+wandb 80
+lam 24
+max_seq_len 28
+adjust_lr_every 28
+save_at 28
+device 53
+checkpoint_path 93
+start_epoch 24
+epochs 28
+dataloader_test 56
+dataloader_train 56
+scheduler 56
+optimizer 56
+criterion 56
+model 56
+running_scores 248
+classes 192
+all_tokens 64
+__name__ 57
+__doc__ 16
+__package__ 16
+__loader__ 56
+__spec__ 16
+__annotations__ 240
+__builtins__ 80
+__file__ 57
+__cached__ 16
+torch 80
+F 80
+nn 80
+cudnn 80
+optim 80
+DataLoader 1464
+dset 80
+T 80
+Image 80
+tqdm 80
+sys 80
+os 80
+np 80
+pd 80
+argparse 80
+random 80
+confusion_matrix 136
+Counter 1056
+defaultdict 400
+ReduceLROnPlateau 1464
+BiLSTM 1056
+BiQRNN 1464
+NoiseBiLSTM 1056
+NERProjDataset 1464
+NERCharDataset 1056
+TextProcessing 1056
+get_split 136
+load_state_dict 136
+collate_fn 136
+set_seed 136
+train 136
+parser 56
+args 56
+data_path 97
+checkpoint_path 93
+model_path 49
+batch_size 28
+epochs 28
+start_epoch 24
+test_size 24
+use_wandb 28
+lr 24
+save_at 28
+adjust_lr_every 28
+num_workers 28
+device 53
+wandb 80
+seed 28
+tp 56
+dataset_train 56
+dataset_test 56
+dataloader_train 56
+dataloader_test 56
+classes 192
+max_seq_len 28
+model 56
+weight 72
+optimizer 56
+scheduler 56
+criterion 56
+
+
+
+
+
+
+
+
+
+
+

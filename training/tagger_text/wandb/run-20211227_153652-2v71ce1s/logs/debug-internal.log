@@ -1,0 +1,74 @@
+2021-12-27 15:36:52,644 INFO    MainThread:30868 [internal.py:wandb_internal():89] W&B internal server running at pid: 30868, started at: 2021-12-27 15:36:52.644007
+2021-12-27 15:36:52,645 INFO    WriterThread:30868 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/run-2v71ce1s.wandb
+2021-12-27 15:36:52,646 DEBUG   HandlerThread:30868 [handler.py:handle_request():128] handle_request: check_version
+2021-12-27 15:36:52,647 DEBUG   SenderThread:30868 [sender.py:send():182] send: header
+2021-12-27 15:36:52,647 DEBUG   SenderThread:30868 [sender.py:send_request():196] send_request: check_version
+2021-12-27 15:36:52,667 DEBUG   SenderThread:30868 [sender.py:send():182] send: run
+2021-12-27 15:36:52,838 INFO    SenderThread:30868 [dir_watcher.py:__init__():168] watching files in: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files
+2021-12-27 15:36:52,839 INFO    SenderThread:30868 [sender.py:_start_run_threads():743] run started: 2v71ce1s with start time 1640619412
+2021-12-27 15:36:52,839 DEBUG   SenderThread:30868 [sender.py:send():182] send: summary
+2021-12-27 15:36:52,839 DEBUG   HandlerThread:30868 [handler.py:handle_request():128] handle_request: run_start
+2021-12-27 15:36:52,839 INFO    SenderThread:30868 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-12-27 15:36:53,639 DEBUG   HandlerThread:30868 [meta.py:__init__():39] meta init
+2021-12-27 15:36:53,639 DEBUG   HandlerThread:30868 [meta.py:__init__():53] meta init done
+2021-12-27 15:36:53,639 DEBUG   HandlerThread:30868 [meta.py:probe():210] probe
+2021-12-27 15:36:53,645 DEBUG   HandlerThread:30868 [meta.py:_setup_git():200] setup git
+2021-12-27 15:36:53,656 DEBUG   HandlerThread:30868 [meta.py:_setup_git():207] setup git done
+2021-12-27 15:36:53,656 DEBUG   HandlerThread:30868 [meta.py:_save_pip():57] save pip
+2021-12-27 15:36:53,657 DEBUG   HandlerThread:30868 [meta.py:_save_pip():71] save pip done
+2021-12-27 15:36:53,657 DEBUG   HandlerThread:30868 [meta.py:probe():252] probe done
+2021-12-27 15:36:53,659 DEBUG   SenderThread:30868 [sender.py:send():182] send: files
+2021-12-27 15:36:53,660 INFO    SenderThread:30868 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-12-27 15:36:53,661 DEBUG   HandlerThread:30868 [handler.py:handle_request():128] handle_request: stop_status
+2021-12-27 15:36:53,661 DEBUG   SenderThread:30868 [sender.py:send_request():196] send_request: stop_status
+2021-12-27 15:36:53,786 DEBUG   SenderThread:30868 [sender.py:send():182] send: files
+2021-12-27 15:36:53,786 INFO    SenderThread:30868 [sender.py:_save_file():873] saving file *.py with policy live
+2021-12-27 15:36:53,837 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/requirements.txt
+2021-12-27 15:36:53,837 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/utils.py
+2021-12-27 15:36:53,838 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/model.py
+2021-12-27 15:36:53,838 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/train.py
+2021-12-27 15:36:53,838 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/wandb-summary.json
+2021-12-27 15:36:53,838 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/wandb-metadata.json
+2021-12-27 15:36:53,838 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/dataset.py
+2021-12-27 15:36:53,838 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/output.log
+2021-12-27 15:36:54,176 INFO    Thread-11 :30868 [upload_job.py:push():137] Uploaded file /tmp/tmp4nxny3j_wandb/37oojblo-wandb-metadata.json
+2021-12-27 15:36:54,267 INFO    Thread-13 :30868 [upload_job.py:push():137] Uploaded file /tmp/tmp4nxny3j_wandb/o2ka4vg7-train.py
+2021-12-27 15:36:54,318 INFO    Thread-12 :30868 [upload_job.py:push():137] Uploaded file /tmp/tmp4nxny3j_wandb/kgk4j8uz-dataset.py
+2021-12-27 15:36:54,381 INFO    Thread-14 :30868 [upload_job.py:push():137] Uploaded file /tmp/tmp4nxny3j_wandb/102a7ikz-utils.py
+2021-12-27 15:36:54,417 INFO    Thread-15 :30868 [upload_job.py:push():137] Uploaded file /tmp/tmp4nxny3j_wandb/raxxdtm0-model.py
+2021-12-27 15:36:55,837 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/output.log
+2021-12-27 15:37:04,841 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/output.log
+2021-12-27 15:37:06,842 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/output.log
+2021-12-27 15:37:08,787 DEBUG   HandlerThread:30868 [handler.py:handle_request():128] handle_request: stop_status
+2021-12-27 15:37:08,787 DEBUG   SenderThread:30868 [sender.py:send_request():196] send_request: stop_status
+2021-12-27 15:37:08,842 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/output.log
+2021-12-27 15:37:21,842 DEBUG   SenderThread:30868 [sender.py:send():182] send: stats
+2021-12-27 15:37:23,915 DEBUG   HandlerThread:30868 [handler.py:handle_request():128] handle_request: stop_status
+2021-12-27 15:37:23,915 DEBUG   SenderThread:30868 [sender.py:send_request():196] send_request: stop_status
+2021-12-27 15:37:39,075 DEBUG   HandlerThread:30868 [handler.py:handle_request():128] handle_request: stop_status
+2021-12-27 15:37:39,075 DEBUG   SenderThread:30868 [sender.py:send_request():196] send_request: stop_status
+2021-12-27 15:37:43,756 WARNING MainThread:30868 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-12-27 15:37:44,852 INFO    Thread-8  :30868 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/output.log
+2021-12-27 15:37:45,352 WARNING MainThread:30868 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2021-12-27 15:37:45,352 ERROR   MainThread:30868 [internal.py:wandb_internal():148] Internal process interrupted.
+2021-12-27 15:37:45,472 INFO    WriterThread:30868 [datastore.py:close():281] close: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/run-2v71ce1s.wandb
+2021-12-27 15:37:45,473 INFO    SenderThread:30868 [sender.py:finish():979] shutting down sender
+2021-12-27 15:37:45,473 INFO    SenderThread:30868 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-12-27 15:37:45,473 INFO    HandlerThread:30868 [handler.py:finish():677] shutting down handler
+2021-12-27 15:37:45,853 INFO    SenderThread:30868 [dir_watcher.py:finish():312] scan: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files
+2021-12-27 15:37:45,854 INFO    SenderThread:30868 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/dataset.py dataset.py
+2021-12-27 15:37:45,854 INFO    SenderThread:30868 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/output.log output.log
+2021-12-27 15:37:45,854 INFO    SenderThread:30868 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/wandb-metadata.json wandb-metadata.json
+2021-12-27 15:37:45,854 INFO    SenderThread:30868 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/requirements.txt requirements.txt
+2021-12-27 15:37:45,855 INFO    SenderThread:30868 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/train.py train.py
+2021-12-27 15:37:45,855 INFO    SenderThread:30868 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/utils.py utils.py
+2021-12-27 15:37:45,855 INFO    SenderThread:30868 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/config.yaml config.yaml
+2021-12-27 15:37:45,865 INFO    SenderThread:30868 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/wandb-summary.json wandb-summary.json
+2021-12-27 15:37:45,865 INFO    SenderThread:30868 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/model.py model.py
+2021-12-27 15:37:45,866 INFO    SenderThread:30868 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-27 15:37:45,866 INFO    SenderThread:30868 [file_pusher.py:join():182] waiting for file pusher
+2021-12-27 15:37:46,320 INFO    Thread-19 :30868 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/wandb-summary.json
+2021-12-27 15:37:46,332 INFO    Thread-17 :30868 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/requirements.txt
+2021-12-27 15:37:46,489 INFO    Thread-16 :30868 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/output.log
+2021-12-27 15:37:46,996 INFO    Thread-18 :30868 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_153652-2v71ce1s/files/config.yaml
+2021-12-27 15:37:47,499 INFO    MainThread:30868 [internal.py:handle_exit():76] Internal process exited

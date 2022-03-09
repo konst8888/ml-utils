@@ -1,0 +1,66 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.9
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.6.9
+    start_time: 1642600591
+    t:
+      1:
+      - 1
+      - 5
+      3:
+      - 16
+      4: 3.6.9
+      5: 0.12.9
+      8:
+      - 5
+adjust_lr_every:
+  desc: null
+  value: 1
+batch_size:
+  desc: null
+  value: 128
+checkpoint_path:
+  desc: null
+  value: /root/konst/model_checkpoints/tagger_text
+data_path:
+  desc: null
+  value: /root/konst/data/tags_text/tags_post_texts_v7.csv
+epochs:
+  desc: null
+  value: 200
+factor:
+  desc: null
+  value: 0.5
+lam:
+  desc: null
+  value: 0
+lr:
+  desc: null
+  value: 0.001
+model_path:
+  desc: null
+  value: ''
+num_workers:
+  desc: null
+  value: 0
+patience:
+  desc: null
+  value: 8
+save_at:
+  desc: null
+  value: 1
+start_epoch:
+  desc: null
+  value: 0
+test_size:
+  desc: null
+  value: 0.2
+use_wandb:
+  desc: null
+  value: true

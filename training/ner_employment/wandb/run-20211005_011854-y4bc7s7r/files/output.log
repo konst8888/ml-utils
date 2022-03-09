@@ -1,0 +1,617 @@
+0.321233
+LR:  0.0001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: train Loss: 1.4457 (1.1882) Acc: 0.0064 (0.0522) Rec B-EMPLOYMENT: 0.0000 (0.0000): 100%|█| 429/429 [01:13<00:00,  5.86it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: valid Loss: 1.2243 (1.4555) Acc: 0.0011 (0.0315) Rec B-EMPLOYMENT: 0.0032 (0.0000):  97%|▉| 663/687 [00:20<00:00, 35.34it/s
+Epoch: 0/39 Phase: valid Loss: 1.2236 (1.8293) Acc: 0.0011 (0.0180) Rec B-EMPLOYMENT: 0.0032 (nan): 100%|███| 687/687 [00:21<00:00, 32.33it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: train Loss: 1.1445 (1.0307) Acc: 0.0074 (0.0541) Rec B-EMPLOYMENT: 0.1037 (0.1818): 100%|█| 429/429 [01:14<00:00,  5.77it/s
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: valid Loss: 1.0491 (1.4308) Acc: 0.0012 (0.0450) Rec B-EMPLOYMENT: 0.2256 (nan): 100%|███| 687/687 [00:21<00:00, 31.96it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: train Loss: 1.0072 (0.9466) Acc: 0.0081 (0.0550) Rec B-EMPLOYMENT: 0.3832 (0.3636): 100%|█| 429/429 [01:15<00:00,  5.71it/s
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: valid Loss: 0.9492 (1.3123) Acc: 0.0013 (0.0541) Rec B-EMPLOYMENT: 0.4748 (nan): 100%|███| 687/687 [00:20<00:00, 32.79it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/39 Phase: train Loss: 0.9245 (0.8896) Acc: 0.0084 (0.0555) Rec B-EMPLOYMENT: 0.5397 (0.4545): 100%|█| 429/429 [01:16<00:00,  5.59it/s
+
+
+
+
+
+
+
+
+
+Epoch: 3/39 Phase: valid Loss: 0.8876 (1.2791) Acc: 0.0013 (0.0541) Rec B-EMPLOYMENT: 0.5631 (nan): 100%|███| 687/687 [00:20<00:00, 33.03it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/39 Phase: train Loss: 0.8702 (0.8515) Acc: 0.0087 (0.0564) Rec B-EMPLOYMENT: 0.6063 (0.4545): 100%|█| 429/429 [01:17<00:00,  5.50it/s
+
+
+
+
+
+
+
+
+
+Epoch: 4/39 Phase: valid Loss: 0.8455 (1.2481) Acc: 0.0014 (0.0541) Rec B-EMPLOYMENT: 0.5970 (nan): 100%|███| 687/687 [00:21<00:00, 32.60it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/39 Phase: train Loss: 0.8310 (0.8243) Acc: 0.0089 (0.0574) Rec B-EMPLOYMENT: 0.6433 (0.4545): 100%|█| 429/429 [01:19<00:00,  5.42it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/39 Phase: valid Loss: 0.8136 (1.2007) Acc: 0.0014 (0.0541) Rec B-EMPLOYMENT: 0.6191 (nan): 100%|███| 687/687 [00:21<00:00, 32.04it/s]
+{'B-EMPLOYMENT_appended_data': 1342}
+['представитель' 'фотограф' 'искусству' 'музыкант' 'натурально'
+ 'психологические' 'фотографии' 'натурально' 'фотозоны' 'фотографии'
+ 'обработка' 'преподаватель' 'фотографирую' 'электромонтажные' 'фотограф'
+ 'художник' 'браслет' 'like' 'создатель' 'открытой' 'брови' 'визажист'
+ 'создатель' 'фотозоны' 'представитель' 'фотографов' 'натуральные'
+ 'участвуй' 'кондитер' 'фотограф']
+LR:  0.0001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/39 Phase: train Loss: 0.8000 (0.7994) Acc: 0.0090 (0.0579) Rec B-EMPLOYMENT: 0.6706 (0.4545): 100%|█| 429/429 [01:20<00:00,  5.35it/s
+
+
+
+
+
+
+
+
+
+Epoch: 6/39 Phase: valid Loss: 0.7880 (1.1482) Acc: 0.0014 (0.0541) Rec B-EMPLOYMENT: 0.6396 (nan): 100%|███| 687/687 [00:21<00:00, 32.28it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/39 Phase: train Loss: 0.7739 (0.7762) Acc: 0.0091 (0.0574) Rec B-EMPLOYMENT: 0.6925 (0.4545): 100%|█| 429/429 [01:21<00:00,  5.25it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/39 Phase: valid Loss: 0.7663 (1.1004) Acc: 0.0014 (0.0541) Rec B-EMPLOYMENT: 0.6625 (nan): 100%|███| 687/687 [00:21<00:00, 32.02it/s]
+LR:  0.0001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 8/39 Phase: train Loss: 0.7511 (0.7539) Acc: 0.0092 (0.0583) Rec B-EMPLOYMENT: 0.7098 (0.4545): 100%|█| 429/429 [01:23<00:00,  5.16it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 8/39 Phase: valid Loss: 0.7467 (0.4300) Acc: 0.0014 (0.0787) Rec B-EMPLOYMENT: 0.6741 (1.0000):  99%|▉| 681/687 [00:21<00:00, 33.10it/s
+Epoch: 8/39 Phase: valid Loss: 0.7470 (1.0564) Acc: 0.0014 (0.0541) Rec B-EMPLOYMENT: 0.6759 (nan): 100%|███| 687/687 [00:21<00:00, 31.80it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 9/39 Phase: train Loss: 0.7303 (0.7313) Acc: 0.0093 (0.0597) Rec B-EMPLOYMENT: 0.7240 (0.5455): 100%|█| 429/429 [01:24<00:00,  5.08it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 9/39 Phase: valid Loss: 0.7292 (1.0162) Acc: 0.0014 (0.0541) Rec B-EMPLOYMENT: 0.6877 (nan): 100%|███| 687/687 [00:21<00:00, 31.75it/s]
+Epoch: 10/39 Phase: train Loss: 0.6979 (0.5980) Acc: 0.0090 (0.0605) Rec B-EMPLOYMENT: 0.6739 (0.9231):   1%| | 3/429 [00:01<02:47,  2.54it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 10/39 Phase: train Loss: 0.7108 (0.7079) Acc: 0.0094 (0.0602) Rec B-EMPLOYMENT: 0.7404 (0.5455): 100%|█| 429/429 [01:25<00:00,  4.99it/
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 10/39 Phase: valid Loss: 0.7122 (0.9770) Acc: 0.0014 (0.0541) Rec B-EMPLOYMENT: 0.7137 (nan): 100%|██| 687/687 [00:21<00:00, 31.73it/s]
+{'B-EMPLOYMENT_appended_data': 12415, 'I-EMPLOYMENT_appended_data': 249}
+['запись' 'видишь' 'только' '️нижнекамск' 'намой' '2015' 'себе' 'обучаю'
+ 'заработку' 'пока' 'от' 'to' 'to' 'любитель' 'покушать' 'mail' 'счастью'
+ 'путешествую' 'фотографий' 'to' 'медсестра' 'представитель' 'с'
+ 'образованием' 'брови' 'to' 'от' 'только' 'телефоны' 'события']
+LR:  0.0001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 11/39 Phase: train Loss: 0.6921 (0.6150) Acc: 0.0095 (0.0601) Rec B-EMPLOYMENT: 0.7602 (1.0000): 100%|▉| 428/429 [01:13<00:00,  5.81it/
+Traceback (most recent call last):
+  File "train.py", line 350, in <module>
+    wandb,
+  File "train.py", line 89, in train
+    for idx, sample in pbar:
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1186, in _next_data
+    idx, data = self._get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1152, in _get_data
+    success, data = self._try_get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 990, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 911, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)

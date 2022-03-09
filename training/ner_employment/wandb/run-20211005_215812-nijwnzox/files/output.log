@@ -1,0 +1,24 @@
+0.321233
+LR:  0.00015
+Traceback (most recent call last):
+  File "train.py", line 364, in <module>
+    wandb,
+  File "train.py", line 88, in train
+    pbar = tqdm.tqdm(enumerate(dataloader), total=len(dataloader))
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 359, in __iter__
+    return self._get_iterator()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 305, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 918, in __init__
+    w.start()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory

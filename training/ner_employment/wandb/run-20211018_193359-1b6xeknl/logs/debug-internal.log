@@ -1,0 +1,47 @@
+2021-10-18 19:33:59,547 INFO    MainThread:4643 [internal.py:wandb_internal():89] W&B internal server running at pid: 4643, started at: 2021-10-18 19:33:59.547823
+2021-10-18 19:33:59,549 DEBUG   HandlerThread:4643 [handler.py:handle_request():128] handle_request: check_version
+2021-10-18 19:33:59,549 INFO    WriterThread:4643 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/run-1b6xeknl.wandb
+2021-10-18 19:33:59,550 DEBUG   SenderThread:4643 [sender.py:send():182] send: header
+2021-10-18 19:33:59,550 DEBUG   SenderThread:4643 [sender.py:send_request():196] send_request: check_version
+2021-10-18 19:33:59,611 DEBUG   SenderThread:4643 [sender.py:send():182] send: run
+2021-10-18 19:33:59,834 DEBUG   HandlerThread:4643 [handler.py:handle_request():128] handle_request: run_start
+2021-10-18 19:33:59,836 INFO    SenderThread:4643 [dir_watcher.py:__init__():168] watching files in: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files
+2021-10-18 19:33:59,836 INFO    SenderThread:4643 [sender.py:_start_run_threads():743] run started: 1b6xeknl with start time 1634585639
+2021-10-18 19:33:59,836 DEBUG   SenderThread:4643 [sender.py:send():182] send: summary
+2021-10-18 19:33:59,837 INFO    SenderThread:4643 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-18 19:34:00,572 DEBUG   HandlerThread:4643 [meta.py:__init__():39] meta init
+2021-10-18 19:34:00,572 DEBUG   HandlerThread:4643 [meta.py:__init__():53] meta init done
+2021-10-18 19:34:00,572 DEBUG   HandlerThread:4643 [meta.py:probe():210] probe
+2021-10-18 19:34:00,578 DEBUG   HandlerThread:4643 [meta.py:_setup_git():200] setup git
+2021-10-18 19:34:00,591 DEBUG   HandlerThread:4643 [meta.py:_setup_git():207] setup git done
+2021-10-18 19:34:00,591 DEBUG   HandlerThread:4643 [meta.py:_save_pip():57] save pip
+2021-10-18 19:34:00,591 DEBUG   HandlerThread:4643 [meta.py:_save_pip():71] save pip done
+2021-10-18 19:34:00,591 DEBUG   HandlerThread:4643 [meta.py:probe():252] probe done
+2021-10-18 19:34:00,593 DEBUG   SenderThread:4643 [sender.py:send():182] send: files
+2021-10-18 19:34:00,593 INFO    SenderThread:4643 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-18 19:34:00,595 DEBUG   HandlerThread:4643 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-18 19:34:00,596 DEBUG   SenderThread:4643 [sender.py:send_request():196] send_request: stop_status
+2021-10-18 19:34:00,835 INFO    Thread-8  :4643 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/output.log
+2021-10-18 19:34:00,835 INFO    Thread-8  :4643 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/wandb-metadata.json
+2021-10-18 19:34:00,835 INFO    Thread-8  :4643 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/requirements.txt
+2021-10-18 19:34:00,836 INFO    Thread-8  :4643 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/wandb-summary.json
+2021-10-18 19:34:01,083 INFO    Thread-11 :4643 [upload_job.py:push():137] Uploaded file /tmp/tmp0o32d3fhwandb/1i596a6d-wandb-metadata.json
+2021-10-18 19:34:04,696 WARNING MainThread:4643 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-10-18 19:34:06,214 WARNING MainThread:4643 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2021-10-18 19:34:06,214 ERROR   MainThread:4643 [internal.py:wandb_internal():148] Internal process interrupted.
+2021-10-18 19:34:06,595 INFO    WriterThread:4643 [datastore.py:close():281] close: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/run-1b6xeknl.wandb
+2021-10-18 19:34:06,602 INFO    HandlerThread:4643 [handler.py:finish():677] shutting down handler
+2021-10-18 19:34:06,736 INFO    SenderThread:4643 [sender.py:finish():979] shutting down sender
+2021-10-18 19:34:06,736 INFO    SenderThread:4643 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-10-18 19:34:06,837 INFO    SenderThread:4643 [dir_watcher.py:finish():312] scan: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files
+2021-10-18 19:34:06,837 INFO    SenderThread:4643 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/output.log output.log
+2021-10-18 19:34:06,837 INFO    SenderThread:4643 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/wandb-metadata.json wandb-metadata.json
+2021-10-18 19:34:06,837 INFO    SenderThread:4643 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/requirements.txt requirements.txt
+2021-10-18 19:34:06,837 INFO    SenderThread:4643 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/config.yaml config.yaml
+2021-10-18 19:34:06,837 INFO    SenderThread:4643 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/wandb-summary.json wandb-summary.json
+2021-10-18 19:34:06,837 INFO    SenderThread:4643 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-18 19:34:06,839 INFO    SenderThread:4643 [file_pusher.py:join():182] waiting for file pusher
+2021-10-18 19:34:07,398 INFO    Thread-13 :4643 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/config.yaml
+2021-10-18 19:34:07,410 INFO    Thread-12 :4643 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/requirements.txt
+2021-10-18 19:34:07,418 INFO    Thread-14 :4643 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211018_193359-1b6xeknl/files/wandb-summary.json
+2021-10-18 19:34:07,987 INFO    MainThread:4643 [internal.py:handle_exit():76] Internal process exited

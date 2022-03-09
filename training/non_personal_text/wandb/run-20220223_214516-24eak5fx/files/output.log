@@ -1,0 +1,73 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+Vocab size: 10000
+Vocab size: 10000
+3.815102
+[437408, 12218]
+LR:  0.001
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+  0%|                                                                                                            | 0/3513 [00:08<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 351, in <module>
+    wandb,
+  File "train.py", line 92, in train
+    for idx, sample in pbar:
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/konst/ml-utils/training/non_personal_text/dataset.py", line 92, in __getitem__
+    text = self.transforms(text)
+  File "/usr/local/lib/python3.6/dist-packages/torchvision/transforms/transforms.py", line 67, in __call__
+    img = t(img)
+  File "/root/konst/ml-utils/training/non_personal_text/utils.py", line 71, in __call__
+    x = self.context_aug.augment(x)
+  File "/usr/local/lib/python3.6/dist-packages/nlpaug/base_augmenter.py", line 95, in augment
+    result = action_fx(clean_data)
+  File "/usr/local/lib/python3.6/dist-packages/nlpaug/augmenter/word/context_word_embs.py", line 256, in insert
+    outputs = self.model.predict(masked_texts, target_words=None, n=2)
+  File "/usr/local/lib/python3.6/dist-packages/nlpaug/model/lang_models/fill_mask_transformers.py", line 74, in predict
+    predict_result = self.model(texts[i:i+self.batch_size])
+  File "/usr/local/lib/python3.6/dist-packages/transformers/pipelines/fill_mask.py", line 116, in __call__
+    outputs = self._forward(inputs, return_tensors=True)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/pipelines/base.py", line 782, in _forward
+    predictions = self.model(**inputs)[0].cpu()
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/models/bert/modeling_bert.py", line 1340, in forward
+    return_dict=return_dict,
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/models/bert/modeling_bert.py", line 1001, in forward
+    return_dict=return_dict,
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/models/bert/modeling_bert.py", line 589, in forward
+    output_attentions,
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/models/bert/modeling_bert.py", line 511, in forward
+    self.feed_forward_chunk, self.chunk_size_feed_forward, self.seq_len_dim, attention_output
+  File "/usr/local/lib/python3.6/dist-packages/transformers/modeling_utils.py", line 2186, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/models/bert/modeling_bert.py", line 522, in feed_forward_chunk
+    intermediate_output = self.intermediate(attention_output)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/models/bert/modeling_bert.py", line 425, in forward
+    hidden_states = self.dense(hidden_states)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/linear.py", line 96, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/functional.py", line 1847, in linear
+    return torch._C._nn.linear(input, weight, bias)

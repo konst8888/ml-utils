@@ -1,0 +1,1 @@
+{"epoch": 65, "train_loss": 3.085026579673844, "train_acc": 0.9939394593238831, "valid_loss": 4.076106418262829, "valid_acc": 0.8227272629737854, "LR": 0.000343, "House_valid_acc": 0.8675496578216553, "Trap_valid_acc": 0.7837837934494019, "Trance_valid_acc": 0.65625, "_runtime": 64773, "_timestamp": 1629460857, "_step": 65}

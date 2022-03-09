@@ -1,0 +1,27 @@
+2021-11-10 17:22:09,983 INFO    MainThread:25129 [wandb_setup.py:_flush():69] setting env: {}
+2021-11-10 17:22:09,984 INFO    MainThread:25129 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '8bbaf831241b8525faf8ba0890cc99d295161186'}
+2021-11-10 17:22:09,984 INFO    MainThread:25129 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '8bbaf831241b8525faf8ba0890cc99d295161186'}
+2021-11-10 17:22:09,984 INFO    MainThread:25129 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-11-10 17:22:09,984 INFO    MainThread:25129 [wandb_init.py:_log_setup():342] Logging user logs to /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_172209-1atyr27x/logs/debug.log
+2021-11-10 17:22:09,984 INFO    MainThread:25129 [wandb_init.py:_log_setup():343] Logging internal logs to /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_172209-1atyr27x/logs/debug-internal.log
+2021-11-10 17:22:09,984 INFO    MainThread:25129 [wandb_init.py:init():375] calling init triggers
+2021-11-10 17:22:09,984 INFO    MainThread:25129 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {'data_path': '/root/konst/data/toxic_bio/toxic_bio_dataset_v2.csv', 'checkpoint_path': '/root/konst/model_checkpoints/toxic_deep', 'model_path': '', 'batch_size': 128, 'epochs': 100, 'start_epoch': 0, 'test_size': 0.2, 'lam': 0, 'patience': 8, 'factor': 0.5, 'use_wandb': True, 'lr': 0.001, 'save_at': 1, 'adjust_lr_every': 1, 'num_workers': 0}
+2021-11-10 17:22:09,984 INFO    MainThread:25129 [wandb_init.py:init():424] starting backend
+2021-11-10 17:22:09,985 INFO    MainThread:25129 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-11-10 17:22:09,997 INFO    MainThread:25129 [backend.py:ensure_launched():135] starting backend process...
+2021-11-10 17:22:10,002 INFO    MainThread:25129 [backend.py:ensure_launched():140] started backend process with pid: 25154
+2021-11-10 17:22:10,003 INFO    MainThread:25129 [wandb_init.py:init():429] backend started and connected
+2021-11-10 17:22:10,006 INFO    MainThread:25129 [wandb_init.py:init():477] updated telemetry
+2021-11-10 17:22:10,007 INFO    MainThread:25129 [wandb_init.py:init():500] communicating current version
+2021-11-10 17:22:10,487 INFO    MainThread:25129 [wandb_init.py:init():505] got version response upgrade_message: "wandb version 0.12.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-11-10 17:22:10,487 INFO    MainThread:25129 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-11-10 17:22:10,693 INFO    MainThread:25129 [wandb_init.py:init():540] starting run threads in backend
+2021-11-10 17:22:11,618 INFO    MainThread:25129 [wandb_run.py:_console_start():1584] atexit reg
+2021-11-10 17:22:11,618 INFO    MainThread:25129 [wandb_run.py:_redirect():1458] redirect: SettingsConsole.REDIRECT
+2021-11-10 17:22:11,619 INFO    MainThread:25129 [wandb_run.py:_redirect():1463] Redirecting console.
+2021-11-10 17:22:11,621 INFO    MainThread:25129 [wandb_run.py:_redirect():1519] Redirects installed.
+2021-11-10 17:22:11,621 INFO    MainThread:25129 [wandb_init.py:init():565] run started, returning control to user process
+2021-11-10 19:02:48,251 INFO    MainThread:25129 [wandb_run.py:_atexit_cleanup():1554] got exitcode: 255
+2021-11-10 19:02:48,252 INFO    MainThread:25129 [wandb_run.py:_restore():1526] restore

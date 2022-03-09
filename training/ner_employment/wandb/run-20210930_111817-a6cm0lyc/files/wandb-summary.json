@@ -1,0 +1,1 @@
+{"epoch": 3, "train_loss": 0.0915291047173262, "train_acc": 0.05198255553841591, "valid_loss": 0.09696700105424451, "valid_acc": 0.008149208500981331, "LR": 0.001, "O_valid_acc": 0.0, "PER_valid_acc": 0.9702346920967102, "LOC_valid_acc": 0.9750259518623352, "ORG_valid_acc": 0.9549389481544495, "_runtime": 12994, "_timestamp": 1633013691, "_step": 3}

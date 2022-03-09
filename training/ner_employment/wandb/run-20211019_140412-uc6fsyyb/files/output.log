@@ -1,0 +1,530 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 5 files into the W&B run directory, call wandb.save again to sync new files.
+1.690506
+Loaded: 9/11
+[279395, 74456, 54846, 3561.0, 62285]
+LR:  0.001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/99 Phase: train Loss: -4.3509 (-6.3657) Acc: 0.4032 (0.8331) Rec PERSON_FAM: 0.6360 (0.8636): 100%|█| 504/504 [01:21<00:00,  6.20it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/99 Phase: valid Loss: -6.4806 (-6.5157) Acc: 0.0727 (0.7988) Rec PERSON_FAM: 0.7989 (1.0000):  98%|▉| 790/806 [00:31<00:00, 25.60it/s
+Epoch: 0/99 Phase: valid Loss: -6.4809 (-6.8015) Acc: 0.0726 (0.8195) Rec PERSON_FAM: 0.7982 (nan): 100%|███| 806/806 [00:31<00:00, 25.46it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/99 Phase: train Loss: -6.7425 (-6.8594) Acc: 0.4632 (0.8203) Rec PERSON_FAM: 0.7910 (0.8485): 100%|█| 504/504 [01:20<00:00,  6.23it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/99 Phase: valid Loss: -7.0585 (-6.2962) Acc: 0.0728 (0.8053) Rec PERSON_FAM: 0.8308 (1.0000):  97%|▉| 781/806 [00:30<00:00, 25.42it/s
+Epoch: 1/99 Phase: valid Loss: -7.0613 (-7.3857) Acc: 0.0728 (0.8209) Rec PERSON_FAM: 0.8313 (nan): 100%|███| 806/806 [00:31<00:00, 25.46it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/99 Phase: train Loss: -7.0937 (-7.1754) Acc: 0.4642 (0.8243) Rec PERSON_FAM: 0.8280 (0.8939): 100%|█| 504/504 [01:21<00:00,  6.21it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/99 Phase: valid Loss: -7.2653 (-7.6891) Acc: 0.0729 (0.8519) Rec PERSON_FAM: 0.8441 (nan): 100%|███| 806/806 [00:31<00:00, 25.43it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/99 Phase: train Loss: -7.2716 (-7.3045) Acc: 0.4646 (0.8271) Rec PERSON_FAM: 0.8446 (0.8636): 100%|█| 504/504 [01:20<00:00,  6.27it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/99 Phase: valid Loss: -7.3916 (-7.7501) Acc: 0.0729 (0.8443) Rec PERSON_FAM: 0.8541 (1.0000): 100%|▉| 805/806 [00:31<00:00, 27.18it/s
+Epoch: 3/99 Phase: valid Loss: -7.3921 (-7.8418) Acc: 0.0729 (0.8519) Rec PERSON_FAM: 0.8541 (nan): 100%|███| 806/806 [00:31<00:00, 25.31it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/99 Phase: train Loss: -7.3907 (-7.4998) Acc: 0.4656 (0.8428) Rec PERSON_FAM: 0.8511 (0.8788): 100%|█| 504/504 [01:25<00:00,  5.91it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/99 Phase: valid Loss: -7.5011 (-7.8723) Acc: 0.0732 (0.8622) Rec PERSON_FAM: 0.8607 (1.0000):  96%|▉| 772/806 [00:30<00:01, 25.05it/s
+Epoch: 4/99 Phase: valid Loss: -7.5020 (-7.8925) Acc: 0.0731 (0.8477) Rec PERSON_FAM: 0.8611 (nan): 100%|███| 806/806 [00:31<00:00, 25.35it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/99 Phase: train Loss: -7.4739 (-7.6315) Acc: 0.4661 (0.8408) Rec PERSON_FAM: 0.8587 (0.8939): 100%|█| 504/504 [01:21<00:00,  6.17it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/99 Phase: valid Loss: -7.5616 (-7.8357) Acc: 0.0733 (0.8564) Rec PERSON_FAM: 0.8701 (1.0000):  98%|▉| 787/806 [00:31<00:00, 25.71it/s
+Epoch: 5/99 Phase: valid Loss: -7.5621 (-8.0402) Acc: 0.0732 (0.8463) Rec PERSON_FAM: 0.8698 (nan): 100%|███| 806/806 [00:31<00:00, 25.33it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/99 Phase: train Loss: -7.5308 (-7.5807) Acc: 0.4663 (0.8442) Rec PERSON_FAM: 0.8662 (0.9242): 100%|█| 504/504 [01:19<00:00,  6.30it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/99 Phase: valid Loss: -7.6049 (-6.5839) Acc: 0.0734 (0.7921) Rec PERSON_FAM: 0.8768 (0.1786): 100%|▉| 802/806 [00:31<00:00, 26.83it/s
+Epoch: 6/99 Phase: valid Loss: -7.6062 (-7.9942) Acc: 0.0733 (0.8491) Rec PERSON_FAM: 0.8773 (nan): 100%|███| 806/806 [00:31<00:00, 25.35it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/99 Phase: train Loss: -7.5784 (-7.6601) Acc: 0.4672 (0.8434) Rec PERSON_FAM: 0.8703 (0.9242): 100%|█| 504/504 [01:21<00:00,  6.20it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/99 Phase: valid Loss: -7.6419 (-7.7586) Acc: 0.0733 (0.8028) Rec PERSON_FAM: 0.8850 (1.0000):  95%|▉| 763/806 [00:30<00:01, 24.64it/s
+Epoch: 7/99 Phase: valid Loss: -7.6416 (-8.0657) Acc: 0.0733 (0.8477) Rec PERSON_FAM: 0.8843 (nan): 100%|███| 806/806 [00:32<00:00, 25.14it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)

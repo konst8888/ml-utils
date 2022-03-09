@@ -1,0 +1,35 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+Vocab size:  940
+Vocab size:  940
+  0%|                                                                                                             | 0/1723 [00:00<?, ?it/s]
+1.100637
+[1448, 8259, 699, 5888, 65184, 2394, 31590, 1192, 895, 284, 23028, 3399, 6016, 30723, 2644, 6337, 1004, 1220, 2263, 2048, 313, 620, 1487, 1228, 2888, 924, 1043, 1123, 1107, 2972, 867, 738, 2736, 816, 426, 1995, 2692]
+
+
+
+Epoch: 0/199 Phase: train Loss: 3.6151 (3.6424) Acc: 0.0078 (0.0000) Prec arts: nan (0.0000):   0%|    | 3/1723 [01:34<14:59:04, 31.36s/it]
+Traceback (most recent call last):
+  File "train.py", line 355, in <module>
+    wandb,
+  File "train.py", line 92, in train
+    for idx, sample in pbar:
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/konst/ml-utils/training/tagger_text/dataset.py", line 155, in __getitem__
+    text = self.transforms(text)
+  File "/usr/local/lib/python3.6/dist-packages/torchvision/transforms/transforms.py", line 67, in __call__
+    img = t(img)
+  File "/root/konst/ml-utils/training/tagger_text/utils.py", line 111, in __call__
+    sims = self.w2v.most_similar(token_lem, topn=topn)
+  File "/usr/local/lib/python3.6/dist-packages/gensim/models/keyedvectors.py", line 564, in most_similar
+    dists = dot(limited, mean)
+  File "<__array_function__ internals>", line 6, in dot

@@ -1,0 +1,214 @@
+
+1719423
+172.104704
+Loaded: 11/11
+LR:  0.001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/19 Phase: train Loss: 0.1355 (0.1540) Acc: 0.9701 (0.9615) Acc PER: 0.0001 (0.0002):   8%|▍     | 558/7394 [06:14<1:16:28,  1.49it/s]
+Traceback (most recent call last):
+  File "train.py", line 257, in <module>
+    wandb,
+  File "train.py", line 74, in train
+    for idx, sample in pbar:
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/tqdm/std.py", line 1133, in __iter__
+    for obj in iterable:
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 345, in __next__
+    data = self._next_data()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 385, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 137, in __getitem__
+    tokens = [self.transforms(t) for t in tokens]
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 137, in <listcomp>
+    tokens = [self.transforms(t) for t in tokens]
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 407, in __call__
+    text = self.drop_emoji(text)
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 396, in drop_emoji
+    text = emoji.get_emoji_regexp().sub(r'', text)

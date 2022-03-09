@@ -1,0 +1,757 @@
+0.321233
+LR:  0.00015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: train Loss: 1.6681 (1.6419) Acc: 0.0056 (0.0390) Rec B-EMPLOYMENT: 0.4549 (0.7273): 100%|█| 429/429 [01:13<00:00,  5.86it/s
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: valid Loss: 1.3350 (0.5832) Acc: 0.0011 (0.0649) Rec B-EMPLOYMENT: 0.7896 (1.0000):  94%|▉| 648/687 [00:19<00:01, 33.34it/s
+Epoch: 0/39 Phase: valid Loss: 1.3332 (0.8940) Acc: 0.0011 (0.0541) Rec B-EMPLOYMENT: 0.7879 (nan): 100%|███| 687/687 [00:20<00:00, 33.10it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: train Loss: 1.1914 (1.2725) Acc: 0.0071 (0.0447) Rec B-EMPLOYMENT: 0.7548 (0.6364): 100%|█| 429/429 [01:18<00:00,  5.48it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: valid Loss: 1.1175 (1.3298) Acc: 0.0012 (0.0571) Rec B-EMPLOYMENT: 0.8285 (nan):  97%|██▉| 669/687 [00:20<00:00, 34.90it/s]
+Epoch: 1/39 Phase: valid Loss: 1.1161 (0.7715) Acc: 0.0012 (0.0541) Rec B-EMPLOYMENT: 0.8289 (nan): 100%|███| 687/687 [00:21<00:00, 32.71it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: train Loss: 1.0314 (1.0744) Acc: 0.0077 (0.0503) Rec B-EMPLOYMENT: 0.8080 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.86it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: valid Loss: 1.0130 (0.7115) Acc: 0.0013 (0.0564) Rec B-EMPLOYMENT: 0.8429 (nan):  95%|██▊| 655/687 [00:20<00:00, 33.07it/s]
+Epoch: 2/39 Phase: valid Loss: 1.0115 (0.8148) Acc: 0.0013 (0.0541) Rec B-EMPLOYMENT: 0.8431 (nan): 100%|███| 687/687 [00:21<00:00, 32.46it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/39 Phase: train Loss: 0.9423 (0.9705) Acc: 0.0080 (0.0522) Rec B-EMPLOYMENT: 0.8338 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.85it/s
+
+
+
+
+
+
+
+
+
+Epoch: 3/39 Phase: valid Loss: 0.9525 (0.7406) Acc: 0.0013 (0.0630) Rec B-EMPLOYMENT: 0.8506 (1.0000):  91%|▉| 627/687 [00:19<00:01, 31.97it/s
+Epoch: 3/39 Phase: valid Loss: 0.9487 (0.8508) Acc: 0.0013 (0.0541) Rec B-EMPLOYMENT: 0.8549 (nan): 100%|███| 687/687 [00:21<00:00, 32.24it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/39 Phase: train Loss: 0.8818 (0.8978) Acc: 0.0082 (0.0536) Rec B-EMPLOYMENT: 0.8441 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.86it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/39 Phase: valid Loss: 0.9069 (0.2324) Acc: 0.0013 (0.0857) Rec B-EMPLOYMENT: 0.8537 (1.0000):  96%|▉| 661/687 [00:20<00:00, 33.90it/s
+Epoch: 4/39 Phase: valid Loss: 0.9052 (0.8463) Acc: 0.0013 (0.0541) Rec B-EMPLOYMENT: 0.8525 (nan): 100%|███| 687/687 [00:21<00:00, 32.34it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/39 Phase: train Loss: 0.8354 (0.8407) Acc: 0.0084 (0.0527) Rec B-EMPLOYMENT: 0.8544 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.86it/s
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/39 Phase: valid Loss: 0.8716 (0.8073) Acc: 0.0013 (0.0541) Rec B-EMPLOYMENT: 0.8604 (nan): 100%|███| 687/687 [00:21<00:00, 31.74it/s]
+{}
+{}
+LR:  0.00015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/39 Phase: train Loss: 0.7968 (0.7920) Acc: 0.0086 (0.0541) Rec B-EMPLOYMENT: 0.8642 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.81it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/39 Phase: valid Loss: 0.8450 (1.1086) Acc: 0.0014 (0.0615) Rec B-EMPLOYMENT: 0.8661 (0.0000):  99%|▉| 678/687 [00:21<00:00, 33.08it/s
+Epoch: 6/39 Phase: valid Loss: 0.8437 (0.7569) Acc: 0.0014 (0.0541) Rec B-EMPLOYMENT: 0.8675 (nan): 100%|███| 687/687 [00:21<00:00, 31.49it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/39 Phase: train Loss: 0.7634 (0.7497) Acc: 0.0087 (0.0550) Rec B-EMPLOYMENT: 0.8706 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.84it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/39 Phase: valid Loss: 0.8240 (0.8695) Acc: 0.0014 (0.0644) Rec B-EMPLOYMENT: 0.8695 (nan):  93%|██▊| 638/687 [00:20<00:01, 35.35it/s]
+Epoch: 7/39 Phase: valid Loss: 0.8190 (0.7093) Acc: 0.0014 (0.0631) Rec B-EMPLOYMENT: 0.8738 (nan): 100%|███| 687/687 [00:21<00:00, 31.75it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 8/39 Phase: train Loss: 0.7331 (0.7116) Acc: 0.0089 (0.0555) Rec B-EMPLOYMENT: 0.8815 (0.8182): 100%|█| 429/429 [01:18<00:00,  5.48it/s
+
+
+
+
+
+
+
+
+
+Epoch: 8/39 Phase: valid Loss: 0.7994 (0.7509) Acc: 0.0014 (0.0571) Rec B-EMPLOYMENT: 0.8777 (nan):  94%|██▊| 644/687 [00:20<00:01, 33.39it/s]
+Epoch: 8/39 Phase: valid Loss: 0.7963 (0.6641) Acc: 0.0014 (0.0631) Rec B-EMPLOYMENT: 0.8809 (nan): 100%|███| 687/687 [00:21<00:00, 32.13it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 9/39 Phase: train Loss: 0.7054 (0.6779) Acc: 0.0090 (0.0555) Rec B-EMPLOYMENT: 0.8916 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.87it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 9/39 Phase: valid Loss: 0.7758 (0.6219) Acc: 0.0014 (0.0631) Rec B-EMPLOYMENT: 0.8880 (nan): 100%|███| 687/687 [00:21<00:00, 32.00it/s]
+LR:  0.00015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 10/39 Phase: train Loss: 0.6795 (0.6472) Acc: 0.0091 (0.0569) Rec B-EMPLOYMENT: 0.8975 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.85it/
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 10/39 Phase: valid Loss: 0.7569 (0.5870) Acc: 0.0014 (0.0631) Rec B-EMPLOYMENT: 0.8967 (nan): 100%|██| 687/687 [00:21<00:00, 31.96it/s]
+{'B-EMPLOYMENT_appended_data': 96, 'I-EMPLOYMENT_appended_data': 218}
+{7: array(['телефоны', 'отправляю', 'окрашивание', 'налоговой', 'фотография',
+       'фотограф', 'фотограф', 'фотограф', 'меланхолик', 'писатель',
+       '#фотограф', 'психологии', 'фотограф', 'впечатлениях', 'фотограф',
+       '️фотограф', 'отправляю', 'путешествую', 'фотограф', 'окрашивание',
+       'алиэкспресс', 'фотография', 'психологию', 'фотография',
+       'фотография', 'окрашивание', 'берейтора', 'путешествую',
+       'фотограф', '️меланхолик'], dtype='<U150'), 8: array(['ресниц', 'ресниц', 'ресниц', 'ресниц', 'ресниц', 'ресниц',
+       'русского', 'языка', 'ресниц', 'начальных', 'классов', 'языка',
+       'ресниц', 'ресниц', 'начальных', 'классов', 'ресниц', 'ресниц',
+       'ресниц', 'ресниц', 'классов', 'ресниц', 'ресниц', 'ресниц',
+       'классов', 'классов', 'классов', 'начальных', 'классов',
+       'английского'], dtype='<U150')}
+LR:  0.00015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 11/39 Phase: train Loss: 0.6286 (0.5566) Acc: 0.0092 (0.0579) Rec B-EMPLOYMENT: 0.9092 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.82it/
+
+
+
+
+
+
+
+
+
+
+Epoch: 11/39 Phase: valid Loss: 0.7429 (0.9535) Acc: 0.0014 (0.0704) Rec B-EMPLOYMENT: 0.9058 (1.0000):  96%|▉| 662/687 [00:21<00:00, 31.51it/
+Epoch: 11/39 Phase: valid Loss: 0.7401 (0.5618) Acc: 0.0014 (0.0721) Rec B-EMPLOYMENT: 0.9069 (nan): 100%|██| 687/687 [00:21<00:00, 31.62it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 12/39 Phase: train Loss: 0.6066 (0.5336) Acc: 0.0093 (0.0588) Rec B-EMPLOYMENT: 0.9182 (0.8182): 100%|█| 429/429 [01:13<00:00,  5.81it/
+
+
+
+
+
+
+
+
+
+Epoch: 12/39 Phase: valid Loss: 0.7291 (0.9942) Acc: 0.0014 (0.0390) Rec B-EMPLOYMENT: 0.9143 (1.0000):  90%|▉| 621/687 [00:19<00:01, 35.63it/
+
+Epoch: 12/39 Phase: valid Loss: 0.7241 (0.5418) Acc: 0.0014 (0.0721) Rec B-EMPLOYMENT: 0.9196 (nan): 100%|██| 687/687 [00:21<00:00, 32.15it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 13/39 Phase: train Loss: 0.5852 (0.5109) Acc: 0.0094 (0.0602) Rec B-EMPLOYMENT: 0.9245 (0.9091): 100%|█| 429/429 [01:13<00:00,  5.83it/
+
+
+
+
+
+
+
+
+
+
+Epoch: 13/39 Phase: valid Loss: 0.7132 (1.4734) Acc: 0.0015 (0.0553) Rec B-EMPLOYMENT: 0.9269 (1.0000):  94%|▉| 647/687 [00:20<00:01, 34.25it/
+Epoch: 13/39 Phase: valid Loss: 0.7093 (0.5279) Acc: 0.0015 (0.0721) Rec B-EMPLOYMENT: 0.9290 (nan): 100%|██| 687/687 [00:21<00:00, 32.12it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 14/39 Phase: train Loss: 0.5644 (0.4889) Acc: 0.0095 (0.0602) Rec B-EMPLOYMENT: 0.9327 (0.9091): 100%|█| 429/429 [01:14<00:00,  5.78it/
+Traceback (most recent call last):
+  File "train.py", line 359, in <module>
+    wandb,
+  File "train.py", line 88, in train
+    pbar = tqdm.tqdm(enumerate(dataloader), total=len(dataloader))
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 359, in __iter__
+    return self._get_iterator()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 305, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 918, in __init__
+    w.start()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory

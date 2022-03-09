@@ -1,0 +1,140 @@
+2021-08-18 15:46:10,476 INFO    MainThread:7805 [internal.py:wandb_internal():89] W&B internal server running at pid: 7805, started at: 2021-08-18 15:46:10.475985
+2021-08-18 15:46:10,477 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: check_version
+2021-08-18 15:46:10,477 INFO    WriterThread:7805 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/run-1swa02dt.wandb
+2021-08-18 15:46:10,478 DEBUG   SenderThread:7805 [sender.py:send():182] send: header
+2021-08-18 15:46:10,478 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: check_version
+2021-08-18 15:46:10,518 DEBUG   SenderThread:7805 [sender.py:send():182] send: run
+2021-08-18 15:46:10,717 INFO    SenderThread:7805 [dir_watcher.py:__init__():168] watching files in: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files
+2021-08-18 15:46:10,717 INFO    SenderThread:7805 [sender.py:_start_run_threads():743] run started: 1swa02dt with start time 1629301570
+2021-08-18 15:46:10,717 DEBUG   SenderThread:7805 [sender.py:send():182] send: summary
+2021-08-18 15:46:10,718 INFO    SenderThread:7805 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:10,718 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: run_start
+2021-08-18 15:46:11,560 DEBUG   HandlerThread:7805 [meta.py:__init__():39] meta init
+2021-08-18 15:46:11,560 DEBUG   HandlerThread:7805 [meta.py:__init__():53] meta init done
+2021-08-18 15:46:11,560 DEBUG   HandlerThread:7805 [meta.py:probe():210] probe
+2021-08-18 15:46:11,566 DEBUG   HandlerThread:7805 [meta.py:_setup_git():200] setup git
+2021-08-18 15:46:11,581 DEBUG   HandlerThread:7805 [meta.py:_setup_git():207] setup git done
+2021-08-18 15:46:11,581 DEBUG   HandlerThread:7805 [meta.py:_save_pip():57] save pip
+2021-08-18 15:46:11,581 DEBUG   HandlerThread:7805 [meta.py:_save_pip():71] save pip done
+2021-08-18 15:46:11,581 DEBUG   HandlerThread:7805 [meta.py:probe():252] probe done
+2021-08-18 15:46:11,583 DEBUG   SenderThread:7805 [sender.py:send():182] send: files
+2021-08-18 15:46:11,583 INFO    SenderThread:7805 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-18 15:46:11,587 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:46:11,587 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:46:11,722 INFO    Thread-8  :7805 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/wandb-summary.json
+2021-08-18 15:46:11,723 INFO    Thread-8  :7805 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/requirements.txt
+2021-08-18 15:46:11,723 INFO    Thread-8  :7805 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/wandb-metadata.json
+2021-08-18 15:46:11,724 INFO    Thread-8  :7805 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/output.log
+2021-08-18 15:46:12,074 INFO    Thread-11 :7805 [upload_job.py:push():137] Uploaded file /tmp/tmphbwlghnqwandb/3a1yfpl3-wandb-metadata.json
+2021-08-18 15:46:13,719 INFO    Thread-8  :7805 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/output.log
+2021-08-18 15:46:14,099 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:14,099 DEBUG   SenderThread:7805 [sender.py:send():182] send: telemetry
+2021-08-18 15:46:14,100 DEBUG   SenderThread:7805 [sender.py:send():182] send: exit
+2021-08-18 15:46:14,100 INFO    SenderThread:7805 [sender.py:send_exit():291] handling exit code: 1
+2021-08-18 15:46:14,100 INFO    SenderThread:7805 [sender.py:send_exit():293] handling runtime: 3
+2021-08-18 15:46:14,101 INFO    SenderThread:7805 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:14,101 INFO    SenderThread:7805 [sender.py:send_exit():303] send defer
+2021-08-18 15:46:14,101 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:14,102 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:14,103 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 0
+2021-08-18 15:46:14,103 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:14,103 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-08-18 15:46:14,104 INFO    SenderThread:7805 [sender.py:transition_state():316] send defer: 1
+2021-08-18 15:46:14,104 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:14,104 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 1
+2021-08-18 15:46:14,215 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:14,215 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:14,216 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-08-18 15:46:14,216 INFO    SenderThread:7805 [sender.py:transition_state():316] send defer: 2
+2021-08-18 15:46:14,216 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:14,216 DEBUG   SenderThread:7805 [sender.py:send():182] send: stats
+2021-08-18 15:46:14,216 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:14,216 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 2
+2021-08-18 15:46:14,216 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:14,216 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-08-18 15:46:14,216 INFO    SenderThread:7805 [sender.py:transition_state():316] send defer: 3
+2021-08-18 15:46:14,217 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:14,217 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 3
+2021-08-18 15:46:14,217 DEBUG   SenderThread:7805 [sender.py:send():182] send: summary
+2021-08-18 15:46:14,217 INFO    SenderThread:7805 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:14,217 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:14,217 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-08-18 15:46:14,217 INFO    SenderThread:7805 [sender.py:transition_state():316] send defer: 4
+2021-08-18 15:46:14,217 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:14,217 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 4
+2021-08-18 15:46:14,217 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:14,217 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-08-18 15:46:14,317 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:14,395 INFO    SenderThread:7805 [sender.py:transition_state():316] send defer: 5
+2021-08-18 15:46:14,396 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:14,397 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:14,397 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 5
+2021-08-18 15:46:14,397 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:14,397 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-08-18 15:46:14,398 INFO    SenderThread:7805 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-18 15:46:14,498 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:14,721 INFO    SenderThread:7805 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/config.yaml
+2021-08-18 15:46:14,722 INFO    SenderThread:7805 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/wandb-summary.json
+2021-08-18 15:46:14,722 INFO    SenderThread:7805 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/output.log
+2021-08-18 15:46:14,723 INFO    SenderThread:7805 [dir_watcher.py:finish():312] scan: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files
+2021-08-18 15:46:14,723 INFO    SenderThread:7805 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/output.log output.log
+2021-08-18 15:46:14,724 INFO    SenderThread:7805 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/wandb-metadata.json wandb-metadata.json
+2021-08-18 15:46:14,724 INFO    SenderThread:7805 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/requirements.txt requirements.txt
+2021-08-18 15:46:14,730 INFO    SenderThread:7805 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/config.yaml config.yaml
+2021-08-18 15:46:14,732 INFO    SenderThread:7805 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/wandb-summary.json wandb-summary.json
+2021-08-18 15:46:14,732 INFO    SenderThread:7805 [sender.py:transition_state():316] send defer: 6
+2021-08-18 15:46:14,732 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:14,733 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:14,733 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 6
+2021-08-18 15:46:14,735 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:14,737 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-08-18 15:46:14,737 INFO    SenderThread:7805 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-18 15:46:14,834 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:14,835 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:14,937 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:14,937 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:15,039 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:15,040 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:15,142 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:15,143 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:15,211 INFO    Thread-15 :7805 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/wandb-summary.json
+2021-08-18 15:46:15,224 INFO    Thread-14 :7805 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/config.yaml
+2021-08-18 15:46:15,232 INFO    Thread-13 :7805 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/requirements.txt
+2021-08-18 15:46:15,246 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:15,246 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:15,274 INFO    Thread-12 :7805 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/files/output.log
+2021-08-18 15:46:15,349 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:15,350 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:15,452 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:15,453 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:15,474 INFO    Thread-7  :7805 [sender.py:transition_state():316] send defer: 7
+2021-08-18 15:46:15,476 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:15,476 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 7
+2021-08-18 15:46:15,476 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:15,476 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-08-18 15:46:15,556 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:16,317 INFO    SenderThread:7805 [sender.py:transition_state():316] send defer: 8
+2021-08-18 15:46:16,317 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:16,318 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:16,318 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 8
+2021-08-18 15:46:16,318 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:16,318 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-08-18 15:46:16,318 INFO    SenderThread:7805 [sender.py:transition_state():316] send defer: 9
+2021-08-18 15:46:16,319 DEBUG   SenderThread:7805 [sender.py:send():182] send: final
+2021-08-18 15:46:16,319 DEBUG   SenderThread:7805 [sender.py:send():182] send: footer
+2021-08-18 15:46:16,319 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:46:16,319 INFO    HandlerThread:7805 [handler.py:handle_request_defer():145] handle defer: 9
+2021-08-18 15:46:16,320 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:46:16,320 INFO    SenderThread:7805 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-08-18 15:46:16,419 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:46:16,420 DEBUG   SenderThread:7805 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:46:16,420 INFO    SenderThread:7805 [file_pusher.py:join():182] waiting for file pusher
+2021-08-18 15:46:16,423 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: get_summary
+2021-08-18 15:46:16,424 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: sampled_history
+2021-08-18 15:46:16,426 DEBUG   HandlerThread:7805 [handler.py:handle_request():128] handle_request: shutdown
+2021-08-18 15:46:16,426 INFO    HandlerThread:7805 [handler.py:finish():677] shutting down handler
+2021-08-18 15:46:17,320 INFO    WriterThread:7805 [datastore.py:close():281] close: /root/konst/ml-utils/training/edm_genre_classify/wandb/run-20210818_154610-1swa02dt/run-1swa02dt.wandb
+2021-08-18 15:46:17,421 INFO    SenderThread:7805 [sender.py:finish():979] shutting down sender
+2021-08-18 15:46:17,421 INFO    SenderThread:7805 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-18 15:46:17,422 INFO    SenderThread:7805 [file_pusher.py:join():182] waiting for file pusher
+2021-08-18 15:46:17,425 INFO    MainThread:7805 [internal.py:handle_exit():76] Internal process exited

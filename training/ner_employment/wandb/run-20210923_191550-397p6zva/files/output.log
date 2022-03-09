@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "train.py", line 227, in <module>
+    data_path, 'train', transforms=tp, test_size=test_size
+TypeError: __init__() got an unexpected keyword argument 'test_size'

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "train.py", line 309, in <module>
+    test_size=test_size
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 118, in __init__
+    class_proportion = [(self.tag2index[span['type'][2:]], span['stop'] - span['start']) for spans in self.data[self.spans_field] for span in yaml.safe_load(spans) if span['type']]
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 118, in <listcomp>
+    class_proportion = [(self.tag2index[span['type'][2:]], span['stop'] - span['start']) for spans in self.data[self.spans_field] for span in yaml.safe_load(spans) if span['type']]
+  File "/usr/local/lib/python3.6/dist-packages/yaml/__init__.py", line 162, in safe_load
+    return load(stream, SafeLoader)
+  File "/usr/local/lib/python3.6/dist-packages/yaml/__init__.py", line 114, in load
+    return loader.get_single_data()
+  File "/usr/local/lib/python3.6/dist-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/usr/local/lib/python3.6/dist-packages/yaml/composer.py", line 35, in get_single_node
+    if not self.check_event(StreamEndEvent):
+  File "/usr/local/lib/python3.6/dist-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/usr/local/lib/python3.6/dist-packages/yaml/parser.py", line 143, in parse_implicit_document_start
+    StreamEndToken):
+  File "/usr/local/lib/python3.6/dist-packages/yaml/scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+  File "/usr/local/lib/python3.6/dist-packages/yaml/scanner.py", line 153, in need_more_tokens
+    if self.next_possible_simple_key() == self.tokens_taken:
+  File "/usr/local/lib/python3.6/dist-packages/yaml/scanner.py", line 273, in next_possible_simple_key
+    for level in self.possible_simple_keys:
+KeyboardInterrupt

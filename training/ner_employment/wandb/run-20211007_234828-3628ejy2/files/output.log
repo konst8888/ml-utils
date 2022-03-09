@@ -1,0 +1,1630 @@
+1.223709
+Loaded: 7/7
+LR:  0.00025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: train Loss: 0.3302 (0.3195) Acc: 0.0754 (0.1152) Rec B-EMPLOYMENT: 0.9470 (0.9468): 100%|█| 429/429 [00:45<00:00,  9.37it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: valid Loss: 0.4455 (1.2980) Acc: 0.0115 (0.1499) Rec B-EMPLOYMENT: 0.9460 (nan):  93%|█▊| 642/687 [00:15<00:00, 46.04it/s]
+Epoch: 0/159 Phase: valid Loss: 0.4458 (0.5886) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9477 (nan): 100%|██| 687/687 [00:16<00:00, 41.24it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/159 Phase: train Loss: 0.3317 (0.3152) Acc: 0.0754 (0.1145) Rec B-EMPLOYMENT: 0.9445 (0.9468): 100%|█| 429/429 [00:46<00:00,  9.30it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+Epoch: 1/159 Phase: valid Loss: 0.4427 (0.4799) Acc: 0.0114 (0.0924) Rec B-EMPLOYMENT: 0.9442 (nan):  96%|█▉| 661/687 [00:16<00:00, 46.33it/s]
+Epoch: 1/159 Phase: valid Loss: 0.4437 (0.5521) Acc: 0.0114 (0.1098) Rec B-EMPLOYMENT: 0.9453 (nan): 100%|██| 687/687 [00:17<00:00, 39.79it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/159 Phase: train Loss: 0.3311 (0.3016) Acc: 0.0754 (0.1137) Rec B-EMPLOYMENT: 0.9457 (0.9255): 100%|█| 429/429 [00:46<00:00,  9.19it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+Epoch: 2/159 Phase: valid Loss: 0.4426 (0.8892) Acc: 0.0115 (0.1639) Rec B-EMPLOYMENT: 0.9444 (1.0000):  99%|▉| 677/687 [00:16<00:00, 44.76it/
+Epoch: 2/159 Phase: valid Loss: 0.4426 (0.5960) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9449 (nan): 100%|██| 687/687 [00:16<00:00, 40.46it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/159 Phase: train Loss: 0.3291 (0.3062) Acc: 0.0754 (0.1153) Rec B-EMPLOYMENT: 0.9482 (0.9362): 100%|█| 429/429 [00:47<00:00,  9.11it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+Epoch: 3/159 Phase: valid Loss: 0.4435 (0.8458) Acc: 0.0115 (0.1107) Rec B-EMPLOYMENT: 0.9444 (0.9412):  95%|▉| 653/687 [00:16<00:00, 38.14it/
+Epoch: 3/159 Phase: valid Loss: 0.4446 (0.6633) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9454 (nan): 100%|██| 687/687 [00:17<00:00, 39.69it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/159 Phase: train Loss: 0.3288 (0.2616) Acc: 0.0755 (0.1163) Rec B-EMPLOYMENT: 0.9471 (0.9255): 100%|█| 429/429 [00:47<00:00,  9.04it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+Epoch: 4/159 Phase: valid Loss: 0.4423 (0.2666) Acc: 0.0115 (0.1109) Rec B-EMPLOYMENT: 0.9465 (nan):  99%|█▉| 680/687 [00:17<00:00, 44.97it/s]
+Epoch: 4/159 Phase: valid Loss: 0.4422 (0.5820) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9468 (nan): 100%|██| 687/687 [00:17<00:00, 38.77it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/159 Phase: train Loss: 0.3271 (0.3043) Acc: 0.0756 (0.1124) Rec B-EMPLOYMENT: 0.9470 (0.9362): 100%|█| 429/429 [00:47<00:00,  8.98it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+Epoch: 5/159 Phase: valid Loss: 0.4427 (0.5469) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9464 (nan): 100%|██| 687/687 [00:18<00:00, 37.89it/s]
+{'B-EMPLOYMENT_appended_data': 17037, 'I-EMPLOYMENT_appended_data': 1534}
+LR:  0.00025
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/159 Phase: train Loss: 0.2991 (0.2747) Acc: 0.0782 (0.1187) Rec B-EMPLOYMENT: 0.9612 (0.9426): 100%|█| 429/429 [00:46<00:00,  9.30it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 6/159 Phase: valid Loss: 0.4444 (0.4782) Acc: 0.0115 (0.1285) Rec B-EMPLOYMENT: 0.9459 (1.0000):  97%|▉| 663/687 [00:15<00:00, 46.23it/
+Epoch: 6/159 Phase: valid Loss: 0.4448 (0.5801) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9470 (nan): 100%|██| 687/687 [00:16<00:00, 42.16it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/159 Phase: train Loss: 0.3018 (0.2809) Acc: 0.0782 (0.1191) Rec B-EMPLOYMENT: 0.9616 (0.9180): 100%|█| 429/429 [00:46<00:00,  9.23it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 7/159 Phase: valid Loss: 0.4403 (0.7464) Acc: 0.0115 (0.0896) Rec B-EMPLOYMENT: 0.9455 (0.9231):  90%|▉| 618/687 [00:14<00:01, 47.22it/
+Epoch: 7/159 Phase: valid Loss: 0.4441 (0.5408) Acc: 0.0115 (0.1138) Rec B-EMPLOYMENT: 0.9476 (nan): 100%|██| 687/687 [00:16<00:00, 42.05it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 8/159 Phase: train Loss: 0.2995 (0.2985) Acc: 0.0782 (0.1144) Rec B-EMPLOYMENT: 0.9609 (0.9426): 100%|█| 429/429 [00:47<00:00,  9.12it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 8/159 Phase: valid Loss: 0.4422 (0.3792) Acc: 0.0115 (0.1200) Rec B-EMPLOYMENT: 0.9433 (0.9545):  90%|▉| 620/687 [00:15<00:01, 46.68it/
+Epoch: 8/159 Phase: valid Loss: 0.4444 (0.5465) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9456 (nan): 100%|██| 687/687 [00:16<00:00, 41.12it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 9/159 Phase: train Loss: 0.2983 (0.2694) Acc: 0.0782 (0.1180) Rec B-EMPLOYMENT: 0.9609 (0.9344): 100%|█| 429/429 [00:47<00:00,  9.05it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 9/159 Phase: valid Loss: 0.4407 (0.7325) Acc: 0.0115 (0.0918) Rec B-EMPLOYMENT: 0.9462 (0.9231):  90%|▉| 619/687 [00:15<00:01, 47.96it/
+Epoch: 9/159 Phase: valid Loss: 0.4448 (0.6599) Acc: 0.0115 (0.1138) Rec B-EMPLOYMENT: 0.9485 (nan): 100%|██| 687/687 [00:17<00:00, 40.34it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+Epoch: 10/159 Phase: train Loss: 0.3034 (0.2660) Acc: 0.0770 (0.1136) Rec B-EMPLOYMENT: 0.9627 (0.9444):   3%| | 12/429 [00:02<01:07,  6.21it/
+Epoch: 10/159 Phase: train Loss: 0.3016 (0.3311) Acc: 0.0772 (0.1231) Rec B-EMPLOYMENT: 0.9569 (0.9463):   7%| | 32/429 [00:04<00:41,  9.56it/
+Epoch: 10/159 Phase: train Loss: 0.3002 (0.3146) Acc: 0.0773 (0.1348) Rec B-EMPLOYMENT: 0.9547 (0.9330):  12%| | 50/429 [00:06<00:40,  9.45it/
+Epoch: 10/159 Phase: train Loss: 0.2945 (0.2379) Acc: 0.0777 (0.1286) Rec B-EMPLOYMENT: 0.9581 (0.9941):  16%|▏| 69/429 [00:08<00:37,  9.63it/
+Epoch: 10/159 Phase: train Loss: 0.2945 (0.3214) Acc: 0.0777 (0.1146) Rec B-EMPLOYMENT: 0.9594 (0.9787):  20%|▏| 86/429 [00:10<00:51,  6.68it/
+Epoch: 10/159 Phase: train Loss: 0.2958 (0.3722) Acc: 0.0776 (0.1108) Rec B-EMPLOYMENT: 0.9605 (0.9706):  24%|▏| 105/429 [00:12<00:34,  9.30it
+Epoch: 10/159 Phase: train Loss: 0.2940 (0.3220) Acc: 0.0779 (0.1400) Rec B-EMPLOYMENT: 0.9616 (0.9682):  29%|▎| 126/429 [00:14<00:31,  9.51it
+Epoch: 10/159 Phase: train Loss: 0.2932 (0.2710) Acc: 0.0782 (0.1202) Rec B-EMPLOYMENT: 0.9622 (0.9708):  34%|▎| 144/429 [00:16<00:29,  9.60it
+Epoch: 10/159 Phase: train Loss: 0.2921 (0.1993) Acc: 0.0784 (0.1409) Rec B-EMPLOYMENT: 0.9627 (0.9884):  38%|▍| 164/429 [00:18<00:27,  9.48it
+Epoch: 10/159 Phase: train Loss: 0.2934 (0.2353) Acc: 0.0784 (0.1211) Rec B-EMPLOYMENT: 0.9620 (0.9140):  42%|▍| 180/429 [00:20<00:27,  9.03it
+Epoch: 10/159 Phase: train Loss: 0.2952 (0.3482) Acc: 0.0782 (0.1129) Rec B-EMPLOYMENT: 0.9628 (0.9750):  47%|▍| 201/429 [00:22<00:24,  9.23it
+Epoch: 10/159 Phase: train Loss: 0.2963 (0.2074) Acc: 0.0783 (0.1571) Rec B-EMPLOYMENT: 0.9629 (0.9922):  51%|▌| 220/429 [00:24<00:21,  9.56it
+Epoch: 10/159 Phase: train Loss: 0.2965 (0.3582) Acc: 0.0784 (0.1393) Rec B-EMPLOYMENT: 0.9633 (0.9515):  56%|▌| 239/429 [00:26<00:19,  9.74it
+Epoch: 10/159 Phase: train Loss: 0.2979 (0.2579) Acc: 0.0785 (0.1263) Rec B-EMPLOYMENT: 0.9631 (0.9797):  60%|▌| 258/429 [00:28<00:17,  9.58it
+Epoch: 10/159 Phase: train Loss: 0.2976 (0.2862) Acc: 0.0783 (0.1300) Rec B-EMPLOYMENT: 0.9629 (0.9925):  64%|▋| 275/429 [00:30<00:16,  9.19it
+Epoch: 10/159 Phase: train Loss: 0.2967 (0.2796) Acc: 0.0784 (0.1374) Rec B-EMPLOYMENT: 0.9622 (0.9917):  69%|▋| 295/429 [00:32<00:13,  9.71it
+Epoch: 10/159 Phase: train Loss: 0.2968 (0.3052) Acc: 0.0785 (0.1376) Rec B-EMPLOYMENT: 0.9621 (0.9514):  73%|▋| 313/429 [00:34<00:11,  9.67it
+Epoch: 10/159 Phase: train Loss: 0.2980 (0.4049) Acc: 0.0785 (0.1418) Rec B-EMPLOYMENT: 0.9622 (0.9404):  77%|▊| 329/429 [00:36<00:10,  9.60it
+Epoch: 10/159 Phase: train Loss: 0.2971 (0.2228) Acc: 0.0785 (0.1350) Rec B-EMPLOYMENT: 0.9616 (0.9573):  81%|▊| 346/429 [00:38<00:09,  8.51it
+Epoch: 10/159 Phase: train Loss: 0.2973 (0.3190) Acc: 0.0785 (0.1263) Rec B-EMPLOYMENT: 0.9618 (0.9747):  84%|▊| 362/429 [00:40<00:08,  7.49it
+Epoch: 10/159 Phase: train Loss: 0.2978 (0.3288) Acc: 0.0784 (0.1095) Rec B-EMPLOYMENT: 0.9618 (1.0000):  89%|▉| 381/429 [00:42<00:05,  9.35it
+Epoch: 10/159 Phase: train Loss: 0.2976 (0.2911) Acc: 0.0784 (0.1273) Rec B-EMPLOYMENT: 0.9619 (0.9518):  93%|▉| 400/429 [00:44<00:03,  9.45it
+Epoch: 10/159 Phase: train Loss: 0.2977 (0.1991) Acc: 0.0784 (0.1403) Rec B-EMPLOYMENT: 0.9618 (0.9944):  98%|▉| 421/429 [00:46<00:00,  9.51it
+Epoch: 10/159 Phase: valid Loss: 0.4801 (0.8490) Acc: 0.0111 (0.1089) Rec B-EMPLOYMENT: 0.9505 (1.0000):   3%| | 21/687 [00:01<00:24, 27.43it/
+Epoch: 10/159 Phase: valid Loss: 0.4147 (0.0648) Acc: 0.0116 (0.1140) Rec B-EMPLOYMENT: 0.9428 (1.0000):  16%|▏| 108/687 [00:03<00:12, 46.66it
+Epoch: 10/159 Phase: valid Loss: 0.4513 (1.1646) Acc: 0.0117 (0.1219) Rec B-EMPLOYMENT: 0.9417 (0.9394):  25%|▏| 169/687 [00:05<00:11, 46.27it
+Epoch: 10/159 Phase: valid Loss: 0.4463 (0.2298) Acc: 0.0115 (0.1044) Rec B-EMPLOYMENT: 0.9395 (0.9778):  37%|▎| 253/687 [00:07<00:09, 47.53it
+Epoch: 10/159 Phase: valid Loss: 0.4384 (0.3086) Acc: 0.0114 (0.1476) Rec B-EMPLOYMENT: 0.9472 (1.0000):  51%|▌| 347/687 [00:09<00:08, 40.60it
+Epoch: 10/159 Phase: valid Loss: 0.4428 (0.3137) Acc: 0.0114 (0.1153) Rec B-EMPLOYMENT: 0.9442 (1.0000):  63%|▋| 436/687 [00:11<00:05, 46.52it
+Epoch: 10/159 Phase: valid Loss: 0.4500 (0.2636) Acc: 0.0114 (0.1313) Rec B-EMPLOYMENT: 0.9438 (0.8500):  72%|▋| 497/687 [00:13<00:04, 45.28it
+Epoch: 10/159 Phase: valid Loss: 0.4407 (0.3263) Acc: 0.0115 (0.1731) Rec B-EMPLOYMENT: 0.9425 (0.6667):  85%|▊| 584/687 [00:15<00:02, 48.03it
+Epoch: 10/159 Phase: valid Loss: 0.4412 (0.4291) Acc: 0.0115 (0.1377) Rec B-EMPLOYMENT: 0.9432 (0.9333):  94%|▉| 648/687 [00:17<00:00, 47.10it
+Epoch: 10/159 Phase: valid Loss: 0.4435 (0.5930) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9442 (nan): 100%|█| 687/687 [00:18<00:00, 37.93it/s]
+Epoch: 10/159 Phase: valid Loss: 0.4435 (0.5930) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9442 (nan): 100%|█| 687/687 [00:18<00:00, 37.93it/s]
+{'B-EMPLOYMENT_appended_data': 4576, 'I-EMPLOYMENT_appended_data': 534}
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)nan): 100%|█| 687/687 [00:18<00:00, 37.93it/s]
+Epoch: 11/159 Phase: train Loss: 0.2912 (0.2004) Acc: 0.0784 (0.1507) Rec B-EMPLOYMENT: 0.9656 (0.9903):   3%| | 12/429 [00:01<00:47,  8.80it/
+Epoch: 11/159 Phase: train Loss: 0.2962 (0.3233) Acc: 0.0780 (0.1247) Rec B-EMPLOYMENT: 0.9594 (0.9500):   7%| | 31/429 [00:03<00:49,  8.07it/
+Epoch: 11/159 Phase: train Loss: 0.2945 (0.2844) Acc: 0.0780 (0.1350) Rec B-EMPLOYMENT: 0.9592 (0.9609):  12%| | 51/429 [00:05<00:39,  9.65it/
+Epoch: 11/159 Phase: train Loss: 0.2863 (0.2660) Acc: 0.0785 (0.1251) Rec B-EMPLOYMENT: 0.9603 (0.9928):  16%|▏| 70/429 [00:08<00:37,  9.62it/
+Epoch: 11/159 Phase: train Loss: 0.2881 (0.3355) Acc: 0.0783 (0.1226) Rec B-EMPLOYMENT: 0.9613 (1.0000):  21%|▏| 90/429 [00:10<00:35,  9.53it/
+Epoch: 11/159 Phase: train Loss: 0.2903 (0.2381) Acc: 0.0784 (0.1334) Rec B-EMPLOYMENT: 0.9633 (0.9914):  25%|▎| 108/429 [00:12<00:33,  9.56it
+Epoch: 11/159 Phase: train Loss: 0.2886 (0.2331) Acc: 0.0787 (0.1417) Rec B-EMPLOYMENT: 0.9639 (1.0000):  30%|▎| 128/429 [00:14<00:31,  9.62it
+Epoch: 11/159 Phase: train Loss: 0.2876 (0.3100) Acc: 0.0789 (0.1320) Rec B-EMPLOYMENT: 0.9646 (0.9870):  34%|▎| 147/429 [00:16<00:28,  9.75it
+Epoch: 11/159 Phase: train Loss: 0.2868 (0.3712) Acc: 0.0790 (0.1279) Rec B-EMPLOYMENT: 0.9645 (0.8686):  38%|▍| 165/429 [00:18<00:32,  8.20it
+Epoch: 11/159 Phase: train Loss: 0.2878 (0.3918) Acc: 0.0790 (0.1197) Rec B-EMPLOYMENT: 0.9650 (0.9632):  43%|▍| 184/429 [00:20<00:24, 10.05it
+Epoch: 11/159 Phase: train Loss: 0.2886 (0.2349) Acc: 0.0789 (0.1418) Rec B-EMPLOYMENT: 0.9656 (0.9909):  48%|▍| 204/429 [00:22<00:23,  9.54it
+Epoch: 11/159 Phase: train Loss: 0.2905 (0.3688) Acc: 0.0790 (0.1414) Rec B-EMPLOYMENT: 0.9650 (0.9557):  52%|▌| 223/429 [00:24<00:21,  9.71it
+Epoch: 11/159 Phase: train Loss: 0.2899 (0.3227) Acc: 0.0791 (0.1296) Rec B-EMPLOYMENT: 0.9661 (0.9281):  56%|▌| 242/429 [00:26<00:19,  9.53it
+Epoch: 11/159 Phase: train Loss: 0.2899 (0.2530) Acc: 0.0792 (0.1389) Rec B-EMPLOYMENT: 0.9660 (0.9754):  61%|▌| 260/429 [00:28<00:17,  9.61it
+Epoch: 11/159 Phase: train Loss: 0.2901 (0.2325) Acc: 0.0791 (0.1597) Rec B-EMPLOYMENT: 0.9658 (0.9661):  65%|▋| 280/429 [00:30<00:15,  9.63it
+Epoch: 11/159 Phase: train Loss: 0.2885 (0.2551) Acc: 0.0792 (0.1433) Rec B-EMPLOYMENT: 0.9654 (0.9709):  69%|▋| 298/429 [00:32<00:15,  8.68it
+Epoch: 11/159 Phase: train Loss: 0.2888 (0.3047) Acc: 0.0792 (0.1340) Rec B-EMPLOYMENT: 0.9650 (0.9375):  74%|▋| 317/429 [00:34<00:11,  9.60it
+Epoch: 11/159 Phase: train Loss: 0.2891 (0.2128) Acc: 0.0792 (0.1320) Rec B-EMPLOYMENT: 0.9649 (0.9556):  79%|▊| 337/429 [00:36<00:09,  9.51it
+Epoch: 11/159 Phase: train Loss: 0.2891 (0.3091) Acc: 0.0792 (0.1337) Rec B-EMPLOYMENT: 0.9646 (0.9530):  83%|▊| 355/429 [00:38<00:07,  9.50it
+Epoch: 11/159 Phase: train Loss: 0.2897 (0.2819) Acc: 0.0792 (0.1443) Rec B-EMPLOYMENT: 0.9650 (0.9542):  87%|▊| 373/429 [00:40<00:05,  9.47it
+Epoch: 11/159 Phase: train Loss: 0.2901 (0.2993) Acc: 0.0791 (0.1320) Rec B-EMPLOYMENT: 0.9649 (0.9514):  92%|▉| 393/429 [00:42<00:03,  9.69it
+Epoch: 11/159 Phase: train Loss: 0.2897 (0.2940) Acc: 0.0791 (0.1126) Rec B-EMPLOYMENT: 0.9649 (0.9783):  96%|▉| 412/429 [00:44<00:01,  9.60it
+Epoch: 11/159 Phase: valid Loss: 0.8421 (0.6704) Acc: 0.0095 (0.0943) Rec B-EMPLOYMENT: 1.0000 (1.0000):   0%| | 2/687 [00:00<01:56,  5.88it/s
+Epoch: 11/159 Phase: valid Loss: 0.4098 (0.4845) Acc: 0.0116 (0.1226) Rec B-EMPLOYMENT: 0.9576 (1.0000):   9%| | 59/687 [00:01<00:13, 45.49it/
+Epoch: 11/159 Phase: valid Loss: 0.4361 (0.7345) Acc: 0.0116 (0.1250) Rec B-EMPLOYMENT: 0.9483 (nan):  22%|▏| 150/687 [00:04<00:12, 43.06it/s]
+Epoch: 11/159 Phase: valid Loss: 0.4515 (0.4470) Acc: 0.0115 (0.1023) Rec B-EMPLOYMENT: 0.9432 (nan):  35%|▎| 240/687 [00:06<00:09, 46.52it/s]
+Epoch: 11/159 Phase: valid Loss: 0.4414 (0.2806) Acc: 0.0114 (0.1285) Rec B-EMPLOYMENT: 0.9498 (0.9630):  47%|▍| 321/687 [00:08<00:07, 46.79it
+Epoch: 11/159 Phase: valid Loss: 0.4446 (0.2944) Acc: 0.0114 (0.1714) Rec B-EMPLOYMENT: 0.9486 (0.9259):  60%|▌| 411/687 [00:10<00:06, 41.57it
+Epoch: 11/159 Phase: valid Loss: 0.4522 (0.3245) Acc: 0.0114 (0.1469) Rec B-EMPLOYMENT: 0.9469 (0.9524):  73%|▋| 501/687 [00:12<00:04, 45.66it
+Epoch: 11/159 Phase: valid Loss: 0.4407 (0.2693) Acc: 0.0115 (0.1054) Rec B-EMPLOYMENT: 0.9462 (1.0000):  85%|▊| 586/687 [00:14<00:02, 46.67it
+Epoch: 11/159 Phase: valid Loss: 0.4427 (0.4500) Acc: 0.0115 (0.1336) Rec B-EMPLOYMENT: 0.9470 (nan):  95%|▉| 651/687 [00:15<00:00, 46.08it/s]
+Epoch: 11/159 Phase: valid Loss: 0.4427 (0.4500) Acc: 0.0115 (0.1336) Rec B-EMPLOYMENT: 0.9470 (nan):  95%|▉| 651/687 [00:15<00:00, 46.08it/s]
+Epoch: 12/159 Phase: train Loss: 0.2979 (0.2869) Acc: 0.0791 (0.1295) Rec B-EMPLOYMENT: 0.9653 (0.9895):   1%| | 6/429 [00:01<00:56,  7.49it/s
+Epoch: 12/159 Phase: train Loss: 0.2940 (0.4540) Acc: 0.0776 (0.1363) Rec B-EMPLOYMENT: 0.9618 (0.9623):   6%| | 26/429 [00:03<00:41,  9.65it/
+Epoch: 12/159 Phase: train Loss: 0.2936 (0.2273) Acc: 0.0780 (0.1456) Rec B-EMPLOYMENT: 0.9625 (0.9815):  10%| | 45/429 [00:05<00:49,  7.78it/
+Epoch: 12/159 Phase: train Loss: 0.2873 (0.2816) Acc: 0.0784 (0.1254) Rec B-EMPLOYMENT: 0.9628 (0.9814):  15%|▏| 65/429 [00:07<00:37,  9.75it/
+Epoch: 12/159 Phase: train Loss: 0.2860 (0.2884) Acc: 0.0785 (0.1210) Rec B-EMPLOYMENT: 0.9639 (0.9718):  20%|▏| 84/429 [00:09<00:36,  9.52it/
+Epoch: 12/159 Phase: train Loss: 0.2894 (0.3378) Acc: 0.0784 (0.1444) Rec B-EMPLOYMENT: 0.9645 (0.9633):  24%|▏| 103/429 [00:11<00:34,  9.54it
+Epoch: 12/159 Phase: train Loss: 0.2890 (0.3219) Acc: 0.0786 (0.1366) Rec B-EMPLOYMENT: 0.9655 (0.9732):  28%|▎| 122/429 [00:13<00:32,  9.41it
+Epoch: 12/159 Phase: train Loss: 0.2854 (0.2858) Acc: 0.0789 (0.1521) Rec B-EMPLOYMENT: 0.9659 (0.9595):  33%|▎| 140/429 [00:15<00:36,  7.88it
+Epoch: 12/159 Phase: train Loss: 0.2851 (0.3044) Acc: 0.0791 (0.1416) Rec B-EMPLOYMENT: 0.9669 (0.9583):  37%|▎| 159/429 [00:17<00:27,  9.98it
+Epoch: 12/159 Phase: train Loss: 0.2888 (0.3690) Acc: 0.0790 (0.1260) Rec B-EMPLOYMENT: 0.9665 (0.9762):  41%|▍| 177/429 [00:19<00:26,  9.67it
+Epoch: 12/159 Phase: train Loss: 0.2879 (0.2733) Acc: 0.0790 (0.1409) Rec B-EMPLOYMENT: 0.9672 (0.9774):  46%|▍| 197/429 [00:21<00:23,  9.70it
+Epoch: 12/159 Phase: train Loss: 0.2900 (0.3633) Acc: 0.0791 (0.1487) Rec B-EMPLOYMENT: 0.9671 (0.9759):  50%|▍| 214/429 [00:23<00:23,  9.31it
+Epoch: 12/159 Phase: train Loss: 0.2902 (0.2812) Acc: 0.0791 (0.1478) Rec B-EMPLOYMENT: 0.9677 (0.9744):  54%|▌| 233/429 [00:25<00:20,  9.44it
+Epoch: 12/159 Phase: train Loss: 0.2902 (0.2629) Acc: 0.0791 (0.1420) Rec B-EMPLOYMENT: 0.9680 (0.9674):  59%|▌| 253/429 [00:27<00:18,  9.30it
+Epoch: 12/159 Phase: train Loss: 0.2906 (0.3486) Acc: 0.0791 (0.1271) Rec B-EMPLOYMENT: 0.9670 (0.9742):  63%|▋| 271/429 [00:29<00:18,  8.33it
+Epoch: 12/159 Phase: train Loss: 0.2902 (0.2912) Acc: 0.0790 (0.1415) Rec B-EMPLOYMENT: 0.9665 (0.9278):  68%|▋| 292/429 [00:31<00:14,  9.53it
+Epoch: 12/159 Phase: train Loss: 0.2887 (0.2072) Acc: 0.0791 (0.1347) Rec B-EMPLOYMENT: 0.9665 (0.9901):  72%|▋| 310/429 [00:33<00:12,  9.46it
+Epoch: 12/159 Phase: train Loss: 0.2900 (0.2115) Acc: 0.0792 (0.1357) Rec B-EMPLOYMENT: 0.9662 (1.0000):  77%|▊| 330/429 [00:35<00:10,  9.43it
+Epoch: 12/159 Phase: train Loss: 0.2891 (0.2511) Acc: 0.0792 (0.1492) Rec B-EMPLOYMENT: 0.9657 (0.9538):  81%|▊| 348/429 [00:37<00:08,  9.34it
+Epoch: 12/159 Phase: train Loss: 0.2892 (0.2882) Acc: 0.0792 (0.1433) Rec B-EMPLOYMENT: 0.9661 (0.9783):  86%|▊| 367/429 [00:39<00:06,  9.55it
+Epoch: 12/159 Phase: train Loss: 0.2897 (0.3555) Acc: 0.0791 (0.1521) Rec B-EMPLOYMENT: 0.9658 (0.9930):  90%|▉| 385/429 [00:41<00:04,  9.46it
+Epoch: 12/159 Phase: train Loss: 0.2894 (0.2446) Acc: 0.0791 (0.1216) Rec B-EMPLOYMENT: 0.9659 (0.9830):  94%|▉| 403/429 [00:43<00:03,  8.41it
+Epoch: 12/159 Phase: train Loss: 0.2896 (0.2737) Acc: 0.0791 (0.1297) Rec B-EMPLOYMENT: 0.9657 (0.9798):  99%|▉| 423/429 [00:45<00:00, 10.23it
+Epoch: 12/159 Phase: valid Loss: 0.4076 (0.2516) Acc: 0.0115 (0.0868) Rec B-EMPLOYMENT: 0.9528 (0.8333):   5%| | 35/687 [00:00<00:14, 45.33it/
+Epoch: 12/159 Phase: valid Loss: 0.4226 (0.2883) Acc: 0.0116 (0.1178) Rec B-EMPLOYMENT: 0.9485 (1.0000):  17%|▏| 120/687 [00:03<00:14, 39.98it
+Epoch: 12/159 Phase: valid Loss: 0.4501 (0.3980) Acc: 0.0115 (0.1339) Rec B-EMPLOYMENT: 0.9416 (0.9474):  31%|▎| 210/687 [00:05<00:10, 45.48it
+Epoch: 12/159 Phase: valid Loss: 0.4411 (0.1544) Acc: 0.0114 (0.1174) Rec B-EMPLOYMENT: 0.9459 (1.0000):  43%|▍| 295/687 [00:07<00:08, 47.34it
+Epoch: 12/159 Phase: valid Loss: 0.4406 (0.7372) Acc: 0.0114 (0.0894) Rec B-EMPLOYMENT: 0.9486 (0.9333):  56%|▌| 385/687 [00:09<00:07, 42.60it
+Epoch: 12/159 Phase: valid Loss: 0.4462 (0.5900) Acc: 0.0114 (0.1094) Rec B-EMPLOYMENT: 0.9474 (1.0000):  66%|▋| 450/687 [00:11<00:05, 40.39it
+Epoch: 12/159 Phase: valid Loss: 0.4434 (0.2090) Acc: 0.0114 (0.1188) Rec B-EMPLOYMENT: 0.9470 (0.9583):  79%|▊| 540/687 [00:13<00:03, 46.34it
+Epoch: 12/159 Phase: valid Loss: 0.4425 (0.6584) Acc: 0.0115 (0.0921) Rec B-EMPLOYMENT: 0.9451 (1.0000):  91%|▉| 625/687 [00:15<00:01, 45.59it
+Epoch: 12/159 Phase: valid Loss: 0.4425 (0.6584) Acc: 0.0115 (0.0921) Rec B-EMPLOYMENT: 0.9451 (1.0000):  91%|▉| 625/687 [00:15<00:01, 45.59it
+Epoch: 13/159 Phase: train Loss: 0.3015 (0.3015) Acc: 0.0787 (0.1356) Rec B-EMPLOYMENT: 0.9643 (0.9643):   0%| | 1/429 [00:00<03:48,  1.87it/s
+Epoch: 13/159 Phase: train Loss: 0.2844 (0.3430) Acc: 0.0780 (0.1385) Rec B-EMPLOYMENT: 0.9642 (0.9861):   4%| | 17/429 [00:02<00:48,  8.41it/
+Epoch: 13/159 Phase: train Loss: 0.2828 (0.2012) Acc: 0.0783 (0.1381) Rec B-EMPLOYMENT: 0.9605 (0.9517):   9%| | 37/429 [00:04<00:40,  9.61it/
+Epoch: 13/159 Phase: train Loss: 0.2829 (0.2014) Acc: 0.0788 (0.1435) Rec B-EMPLOYMENT: 0.9605 (0.9630):  13%|▏| 56/429 [00:06<00:39,  9.55it/
+Epoch: 13/159 Phase: train Loss: 0.2808 (0.2888) Acc: 0.0786 (0.1250) Rec B-EMPLOYMENT: 0.9612 (0.9600):  17%|▏| 75/429 [00:08<00:44,  7.95it/
+Epoch: 13/159 Phase: train Loss: 0.2825 (0.2927) Acc: 0.0784 (0.1429) Rec B-EMPLOYMENT: 0.9616 (0.9926):  22%|▏| 94/429 [00:10<00:34,  9.64it/
+Epoch: 13/159 Phase: train Loss: 0.2810 (0.2476) Acc: 0.0786 (0.1360) Rec B-EMPLOYMENT: 0.9637 (0.9785):  25%|▎| 109/429 [00:12<00:33,  9.54it
+Epoch: 13/159 Phase: train Loss: 0.2797 (0.2495) Acc: 0.0788 (0.1424) Rec B-EMPLOYMENT: 0.9644 (0.9913):  30%|▎| 128/429 [00:14<00:31,  9.44it
+Epoch: 13/159 Phase: train Loss: 0.2796 (0.2387) Acc: 0.0791 (0.1327) Rec B-EMPLOYMENT: 0.9641 (0.9435):  34%|▎| 147/429 [00:16<00:30,  9.18it
+Epoch: 13/159 Phase: train Loss: 0.2795 (0.3059) Acc: 0.0791 (0.1297) Rec B-EMPLOYMENT: 0.9645 (0.9840):  39%|▍| 166/429 [00:18<00:27,  9.57it
+Epoch: 13/159 Phase: train Loss: 0.2804 (0.2697) Acc: 0.0792 (0.1249) Rec B-EMPLOYMENT: 0.9646 (0.9819):  43%|▍| 185/429 [00:20<00:25,  9.47it
+Epoch: 13/159 Phase: train Loss: 0.2820 (0.3259) Acc: 0.0790 (0.1390) Rec B-EMPLOYMENT: 0.9646 (0.9748):  47%|▍| 203/429 [00:22<00:32,  7.01it
+Epoch: 13/159 Phase: train Loss: 0.2836 (0.4030) Acc: 0.0792 (0.1284) Rec B-EMPLOYMENT: 0.9642 (0.9244):  52%|▌| 222/429 [00:24<00:22,  9.38it
+Epoch: 13/159 Phase: train Loss: 0.2842 (0.2724) Acc: 0.0793 (0.1410) Rec B-EMPLOYMENT: 0.9651 (0.9854):  56%|▌| 241/429 [00:26<00:19,  9.45it
+Epoch: 13/159 Phase: train Loss: 0.2853 (0.3251) Acc: 0.0793 (0.1447) Rec B-EMPLOYMENT: 0.9649 (0.9801):  61%|▌| 260/429 [00:28<00:17,  9.40it
+Epoch: 13/159 Phase: train Loss: 0.2863 (0.2639) Acc: 0.0791 (0.1279) Rec B-EMPLOYMENT: 0.9646 (0.9444):  65%|▋| 278/429 [00:30<00:16,  9.16it
+Epoch: 13/159 Phase: train Loss: 0.2848 (0.2799) Acc: 0.0792 (0.1627) Rec B-EMPLOYMENT: 0.9647 (0.9844):  69%|▋| 297/429 [00:32<00:13,  9.59it
+Epoch: 13/159 Phase: train Loss: 0.2848 (0.3995) Acc: 0.0793 (0.1487) Rec B-EMPLOYMENT: 0.9647 (0.9574):  74%|▋| 317/429 [00:34<00:11,  9.63it
+Epoch: 13/159 Phase: train Loss: 0.2861 (0.2122) Acc: 0.0793 (0.1425) Rec B-EMPLOYMENT: 0.9644 (0.9375):  78%|▊| 334/429 [00:36<00:10,  9.45it
+Epoch: 13/159 Phase: train Loss: 0.2854 (0.3326) Acc: 0.0793 (0.1374) Rec B-EMPLOYMENT: 0.9644 (0.9945):  82%|▊| 353/429 [00:38<00:08,  9.40it
+Epoch: 13/159 Phase: train Loss: 0.2862 (0.2027) Acc: 0.0793 (0.1268) Rec B-EMPLOYMENT: 0.9648 (0.9873):  87%|▊| 373/429 [00:40<00:05,  9.69it
+Epoch: 13/159 Phase: train Loss: 0.2864 (0.2166) Acc: 0.0792 (0.1434) Rec B-EMPLOYMENT: 0.9645 (0.9870):  91%|▉| 392/429 [00:42<00:03,  9.45it
+Epoch: 13/159 Phase: train Loss: 0.2865 (0.2383) Acc: 0.0792 (0.1430) Rec B-EMPLOYMENT: 0.9645 (0.9909):  96%|▉| 410/429 [00:44<00:02,  9.34it
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)0.9597): 100%|█| 429/429 [00:46<00:00,  9.17it
+Epoch: 13/159 Phase: valid Loss: 0.4105 (0.3746) Acc: 0.0116 (0.1749) Rec B-EMPLOYMENT: 0.9581 (1.0000):   8%| | 55/687 [00:01<00:16, 38.24it/
+Epoch: 13/159 Phase: valid Loss: 0.4335 (0.1155) Acc: 0.0116 (0.1156) Rec B-EMPLOYMENT: 0.9470 (1.0000):  21%|▏| 146/687 [00:03<00:11, 45.25it
+Epoch: 13/159 Phase: valid Loss: 0.4533 (1.0115) Acc: 0.0115 (0.0895) Rec B-EMPLOYMENT: 0.9418 (0.7755):  33%|▎| 226/687 [00:05<00:10, 45.50it
+Epoch: 13/159 Phase: valid Loss: 0.4391 (0.1477) Acc: 0.0114 (0.1020) Rec B-EMPLOYMENT: 0.9467 (1.0000):  43%|▍| 296/687 [00:07<00:08, 47.01it
+Epoch: 13/159 Phase: valid Loss: 0.4405 (0.5536) Acc: 0.0114 (0.0840) Rec B-EMPLOYMENT: 0.9488 (nan):  56%|▌| 386/687 [00:09<00:07, 39.12it/s]
+Epoch: 13/159 Phase: valid Loss: 0.4544 (0.1813) Acc: 0.0114 (0.1178) Rec B-EMPLOYMENT: 0.9463 (1.0000):  69%|▋| 476/687 [00:11<00:04, 44.86it
+Epoch: 13/159 Phase: valid Loss: 0.4418 (1.0131) Acc: 0.0114 (0.0976) Rec B-EMPLOYMENT: 0.9467 (1.0000):  82%|▊| 561/687 [00:13<00:02, 46.15it
+Epoch: 13/159 Phase: valid Loss: 0.4430 (0.9091) Acc: 0.0115 (0.1515) Rec B-EMPLOYMENT: 0.9458 (1.0000):  91%|▉| 626/687 [00:15<00:01, 46.77it
+Epoch: 13/159 Phase: valid Loss: 0.4430 (0.9091) Acc: 0.0115 (0.1515) Rec B-EMPLOYMENT: 0.9458 (1.0000):  91%|▉| 626/687 [00:15<00:01, 46.77it
+Epoch: 14/159 Phase: train Loss: 0.2615 (0.2615) Acc: 0.0781 (0.1344) Rec B-EMPLOYMENT: 0.9881 (0.9881):   0%| | 1/429 [00:00<02:45,  2.58it/s
+Epoch: 14/159 Phase: train Loss: 0.2846 (0.3179) Acc: 0.0781 (0.1397) Rec B-EMPLOYMENT: 0.9594 (0.9861):   4%| | 18/429 [00:02<00:47,  8.71it/
+Epoch: 14/159 Phase: train Loss: 0.2927 (0.2612) Acc: 0.0780 (0.1413) Rec B-EMPLOYMENT: 0.9597 (0.9700):   9%| | 37/429 [00:04<00:40,  9.63it/
+Epoch: 14/159 Phase: train Loss: 0.2905 (0.1919) Acc: 0.0784 (0.1381) Rec B-EMPLOYMENT: 0.9614 (1.0000):  13%|▏| 56/429 [00:06<00:38,  9.61it/
+Epoch: 14/159 Phase: train Loss: 0.2840 (0.3198) Acc: 0.0785 (0.1402) Rec B-EMPLOYMENT: 0.9623 (0.9273):  17%|▏| 73/429 [00:08<00:37,  9.58it/
+Epoch: 14/159 Phase: train Loss: 0.2883 (0.2686) Acc: 0.0782 (0.1402) Rec B-EMPLOYMENT: 0.9621 (0.9767):  21%|▏| 92/429 [00:10<00:35,  9.42it/
+Epoch: 14/159 Phase: train Loss: 0.2857 (0.2482) Acc: 0.0784 (0.1264) Rec B-EMPLOYMENT: 0.9639 (0.9914):  26%|▎| 112/429 [00:12<00:33,  9.60it
+Epoch: 14/159 Phase: train Loss: 0.2833 (0.2622) Acc: 0.0787 (0.1169) Rec B-EMPLOYMENT: 0.9641 (0.9438):  31%|▎| 132/429 [00:14<00:31,  9.42it
+Epoch: 14/159 Phase: train Loss: 0.2844 (0.2716) Acc: 0.0789 (0.1216) Rec B-EMPLOYMENT: 0.9645 (0.9701):  35%|▎| 149/429 [00:16<00:31,  8.92it
+Epoch: 14/159 Phase: train Loss: 0.2846 (0.2665) Acc: 0.0791 (0.1361) Rec B-EMPLOYMENT: 0.9652 (0.9136):  39%|▍| 169/429 [00:18<00:27,  9.55it
+Epoch: 14/159 Phase: train Loss: 0.2853 (0.3378) Acc: 0.0790 (0.1214) Rec B-EMPLOYMENT: 0.9659 (0.9951):  44%|▍| 188/429 [00:20<00:24,  9.68it
+Epoch: 14/159 Phase: train Loss: 0.2862 (0.2995) Acc: 0.0790 (0.1507) Rec B-EMPLOYMENT: 0.9657 (0.9542):  48%|▍| 205/429 [00:22<00:23,  9.58it
+Epoch: 14/159 Phase: train Loss: 0.2875 (0.2260) Acc: 0.0791 (0.1364) Rec B-EMPLOYMENT: 0.9660 (0.9512):  52%|▌| 224/429 [00:24<00:21,  9.45it
+Epoch: 14/159 Phase: train Loss: 0.2877 (0.2820) Acc: 0.0792 (0.1340) Rec B-EMPLOYMENT: 0.9667 (0.9531):  57%|▌| 244/429 [00:26<00:19,  9.57it
+Epoch: 14/159 Phase: train Loss: 0.2892 (0.3439) Acc: 0.0793 (0.1287) Rec B-EMPLOYMENT: 0.9664 (0.9416):  61%|▌| 263/429 [00:28<00:17,  9.61it
+Epoch: 14/159 Phase: train Loss: 0.2886 (0.2597) Acc: 0.0791 (0.1199) Rec B-EMPLOYMENT: 0.9665 (0.9956):  65%|▋| 280/429 [00:31<00:16,  8.96it
+Epoch: 14/159 Phase: train Loss: 0.2876 (0.2853) Acc: 0.0792 (0.1382) Rec B-EMPLOYMENT: 0.9660 (0.9767):  69%|▋| 294/429 [00:32<00:14,  9.46it
+Epoch: 14/159 Phase: train Loss: 0.2878 (0.3200) Acc: 0.0792 (0.1276) Rec B-EMPLOYMENT: 0.9657 (0.9493):  73%|▋| 315/429 [00:34<00:11,  9.54it
+Epoch: 14/159 Phase: train Loss: 0.2886 (0.2839) Acc: 0.0792 (0.1247) Rec B-EMPLOYMENT: 0.9651 (0.9206):  77%|▊| 332/429 [00:36<00:11,  8.76it
+Epoch: 14/159 Phase: train Loss: 0.2870 (0.2697) Acc: 0.0793 (0.1459) Rec B-EMPLOYMENT: 0.9647 (0.9641):  81%|▊| 349/429 [00:38<00:08,  9.15it
+Epoch: 14/159 Phase: train Loss: 0.2876 (0.3674) Acc: 0.0793 (0.1579) Rec B-EMPLOYMENT: 0.9652 (0.9438):  86%|▊| 369/429 [00:40<00:06,  9.63it
+Epoch: 14/159 Phase: train Loss: 0.2880 (0.3570) Acc: 0.0792 (0.1379) Rec B-EMPLOYMENT: 0.9648 (0.9778):  91%|▉| 389/429 [00:42<00:04,  9.49it
+Epoch: 14/159 Phase: train Loss: 0.2875 (0.3131) Acc: 0.0792 (0.1245) Rec B-EMPLOYMENT: 0.9646 (0.9798):  95%|▉| 408/429 [00:44<00:02,  7.83it
+Epoch: 14/159 Phase: train Loss: 0.2874 (0.2348) Acc: 0.0792 (0.1380) Rec B-EMPLOYMENT: 0.9647 (0.9816): 100%|▉| 427/429 [00:46<00:00, 10.68it
+Epoch: 14/159 Phase: valid Loss: 0.4009 (0.2991) Acc: 0.0116 (0.1548) Rec B-EMPLOYMENT: 0.9583 (1.0000):   9%| | 60/687 [00:01<00:15, 39.54it/
+Epoch: 14/159 Phase: valid Loss: 0.4347 (0.3352) Acc: 0.0116 (0.1179) Rec B-EMPLOYMENT: 0.9486 (0.8571):  22%|▏| 150/687 [00:03<00:12, 44.03it
+Epoch: 14/159 Phase: valid Loss: 0.4474 (0.4382) Acc: 0.0116 (0.1448) Rec B-EMPLOYMENT: 0.9427 (1.0000):  31%|▎| 215/687 [00:05<00:10, 45.05it
+Epoch: 14/159 Phase: valid Loss: 0.4398 (0.3919) Acc: 0.0114 (0.0762) Rec B-EMPLOYMENT: 0.9471 (1.0000):  44%|▍| 300/687 [00:07<00:08, 47.40it
+Epoch: 14/159 Phase: valid Loss: 0.4363 (0.5721) Acc: 0.0114 (0.1230) Rec B-EMPLOYMENT: 0.9501 (0.8947):  53%|▌| 365/687 [00:09<00:06, 46.36it
+Epoch: 14/159 Phase: valid Loss: 0.4478 (0.4030) Acc: 0.0114 (0.0810) Rec B-EMPLOYMENT: 0.9480 (1.0000):  66%|▋| 455/687 [00:11<00:05, 39.89it
+Epoch: 14/159 Phase: valid Loss: 0.4432 (0.1843) Acc: 0.0114 (0.1342) Rec B-EMPLOYMENT: 0.9469 (0.6667):  79%|▊| 545/687 [00:13<00:03, 44.88it
+Epoch: 14/159 Phase: valid Loss: 0.4416 (0.5625) Acc: 0.0115 (0.0886) Rec B-EMPLOYMENT: 0.9454 (1.0000):  89%|▉| 609/687 [00:15<00:01, 45.10it
+Epoch: 14/159 Phase: valid Loss: 0.4416 (0.5625) Acc: 0.0115 (0.0886) Rec B-EMPLOYMENT: 0.9454 (1.0000):  89%|▉| 609/687 [00:15<00:01, 45.10it
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 15/159 Phase: train Loss: 0.2881 (0.1963) Acc: 0.0782 (0.1518) Rec B-EMPLOYMENT: 0.9646 (0.9710):   3%| | 13/429 [00:01<00:43,  9.63it/
+Epoch: 15/159 Phase: train Loss: 0.2969 (0.3106) Acc: 0.0779 (0.1490) Rec B-EMPLOYMENT: 0.9613 (0.9524):   7%| | 31/429 [00:04<00:41,  9.54it/
+Epoch: 15/159 Phase: train Loss: 0.2928 (0.3391) Acc: 0.0779 (0.1316) Rec B-EMPLOYMENT: 0.9611 (0.9478):  12%| | 50/429 [00:06<00:40,  9.44it/
+Epoch: 15/159 Phase: train Loss: 0.2854 (0.2156) Acc: 0.0783 (0.1318) Rec B-EMPLOYMENT: 0.9616 (0.9841):  16%|▏| 70/429 [00:08<00:39,  9.19it/
+Epoch: 15/159 Phase: train Loss: 0.2846 (0.2948) Acc: 0.0784 (0.1158) Rec B-EMPLOYMENT: 0.9634 (0.9527):  20%|▏| 87/429 [00:10<00:37,  9.12it/
+Epoch: 15/159 Phase: train Loss: 0.2847 (0.3160) Acc: 0.0783 (0.1116) Rec B-EMPLOYMENT: 0.9646 (0.9826):  24%|▏| 105/429 [00:12<00:34,  9.47it
+Epoch: 15/159 Phase: train Loss: 0.2832 (0.2023) Acc: 0.0786 (0.1447) Rec B-EMPLOYMENT: 0.9649 (0.9640):  29%|▎| 124/429 [00:14<00:32,  9.43it
+Epoch: 15/159 Phase: train Loss: 0.2824 (0.2759) Acc: 0.0789 (0.1297) Rec B-EMPLOYMENT: 0.9649 (0.9771):  33%|▎| 142/429 [00:16<00:30,  9.54it
+Epoch: 15/159 Phase: train Loss: 0.2817 (0.2877) Acc: 0.0790 (0.1204) Rec B-EMPLOYMENT: 0.9655 (0.9894):  38%|▍| 162/429 [00:18<00:26, 10.07it
+Epoch: 15/159 Phase: train Loss: 0.2834 (0.2786) Acc: 0.0791 (0.1200) Rec B-EMPLOYMENT: 0.9651 (0.9184):  42%|▍| 181/429 [00:20<00:25,  9.64it
+Epoch: 15/159 Phase: train Loss: 0.2836 (0.2596) Acc: 0.0790 (0.1529) Rec B-EMPLOYMENT: 0.9655 (0.9600):  46%|▍| 196/429 [00:21<00:24,  9.66it
+Epoch: 15/159 Phase: train Loss: 0.2851 (0.3244) Acc: 0.0790 (0.1617) Rec B-EMPLOYMENT: 0.9656 (0.9367):  50%|▍| 213/429 [00:23<00:25,  8.34it
+Epoch: 15/159 Phase: train Loss: 0.2860 (0.2804) Acc: 0.0791 (0.1489) Rec B-EMPLOYMENT: 0.9658 (0.9612):  54%|▌| 232/429 [00:25<00:20,  9.48it
+Epoch: 15/159 Phase: train Loss: 0.2866 (0.2571) Acc: 0.0791 (0.1459) Rec B-EMPLOYMENT: 0.9668 (0.9626):  59%|▌| 251/429 [00:27<00:18,  9.44it
+Epoch: 15/159 Phase: train Loss: 0.2874 (0.2353) Acc: 0.0792 (0.1210) Rec B-EMPLOYMENT: 0.9658 (0.9822):  64%|▋| 274/429 [00:30<00:15,  9.82it
+Epoch: 15/159 Phase: train Loss: 0.2871 (0.2220) Acc: 0.0791 (0.1405) Rec B-EMPLOYMENT: 0.9655 (0.9465):  67%|▋| 288/429 [00:31<00:15,  9.25it
+Epoch: 15/159 Phase: train Loss: 0.2863 (0.2526) Acc: 0.0792 (0.1395) Rec B-EMPLOYMENT: 0.9652 (0.9217):  72%|▋| 308/429 [00:34<00:12,  9.51it
+Epoch: 15/159 Phase: train Loss: 0.2868 (0.4022) Acc: 0.0793 (0.1290) Rec B-EMPLOYMENT: 0.9650 (0.9610):  76%|▊| 327/429 [00:36<00:10,  9.47it
+Epoch: 15/159 Phase: train Loss: 0.2864 (0.2875) Acc: 0.0793 (0.1348) Rec B-EMPLOYMENT: 0.9648 (0.9560):  80%|▊| 344/429 [00:38<00:10,  7.95it
+Epoch: 15/159 Phase: train Loss: 0.2857 (0.1760) Acc: 0.0793 (0.1280) Rec B-EMPLOYMENT: 0.9649 (0.9744):  85%|▊| 363/429 [00:40<00:07,  9.10it
+Epoch: 15/159 Phase: train Loss: 0.2866 (0.2738) Acc: 0.0792 (0.1156) Rec B-EMPLOYMENT: 0.9648 (1.0000):  89%|▉| 382/429 [00:42<00:04,  9.46it
+Epoch: 15/159 Phase: train Loss: 0.2868 (0.2799) Acc: 0.0792 (0.1212) Rec B-EMPLOYMENT: 0.9645 (0.9832):  94%|▉| 402/429 [00:44<00:02,  9.78it
+Epoch: 15/159 Phase: train Loss: 0.2869 (0.3737) Acc: 0.0791 (0.1135) Rec B-EMPLOYMENT: 0.9644 (0.9704):  98%|▉| 420/429 [00:46<00:00,  9.28it
+Epoch: 15/159 Phase: valid Loss: 0.3910 (0.2165) Acc: 0.0117 (0.1512) Rec B-EMPLOYMENT: 0.9559 (0.9744):   6%| | 40/687 [00:00<00:13, 46.88it/
+Epoch: 15/159 Phase: valid Loss: 0.4177 (1.0517) Acc: 0.0116 (0.0918) Rec B-EMPLOYMENT: 0.9481 (0.8000):  15%|▏| 105/687 [00:02<00:13, 43.86it
+Epoch: 15/159 Phase: valid Loss: 0.4548 (0.2584) Acc: 0.0116 (0.1302) Rec B-EMPLOYMENT: 0.9440 (1.0000):  28%|▎| 194/687 [00:05<00:12, 39.35it
+Epoch: 15/159 Phase: valid Loss: 0.4460 (0.4613) Acc: 0.0115 (0.1585) Rec B-EMPLOYMENT: 0.9432 (0.9545):  38%|▍| 259/687 [00:06<00:11, 37.79it
+Epoch: 15/159 Phase: valid Loss: 0.4383 (0.2846) Acc: 0.0114 (0.0975) Rec B-EMPLOYMENT: 0.9502 (1.0000):  51%|▌| 349/687 [00:09<00:07, 45.27it
+Epoch: 15/159 Phase: valid Loss: 0.4452 (1.1620) Acc: 0.0114 (0.1121) Rec B-EMPLOYMENT: 0.9470 (1.0000):  63%|▋| 434/687 [00:11<00:05, 46.47it
+Epoch: 15/159 Phase: valid Loss: 0.4521 (0.9200) Acc: 0.0114 (0.1373) Rec B-EMPLOYMENT: 0.9467 (nan):  73%|▋| 499/687 [00:12<00:04, 45.33it/s]
+Epoch: 15/159 Phase: valid Loss: 0.4419 (0.1841) Acc: 0.0115 (0.1574) Rec B-EMPLOYMENT: 0.9456 (0.9091):  86%|▊| 589/687 [00:15<00:02, 37.03it
+Epoch: 15/159 Phase: valid Loss: 0.4444 (0.6485) Acc: 0.0115 (0.1237) Rec B-EMPLOYMENT: 0.9468 (1.0000):  96%|▉| 659/687 [00:17<00:00, 39.72it
+Epoch: 15/159 Phase: valid Loss: 0.4448 (0.5855) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9477 (nan): 100%|█| 687/687 [00:17<00:00, 38.49it/s]
+Epoch: 15/159 Phase: valid Loss: 0.4448 (0.5855) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9477 (nan): 100%|█| 687/687 [00:17<00:00, 38.49it/s]
+{'B-EMPLOYMENT_appended_data': 3208, 'I-EMPLOYMENT_appended_data': 644}
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)nan): 100%|█| 687/687 [00:17<00:00, 38.49it/s]
+Epoch: 16/159 Phase: train Loss: 0.2905 (0.2231) Acc: 0.0785 (0.1473) Rec B-EMPLOYMENT: 0.9614 (0.9665):   3%| | 12/429 [00:01<00:47,  8.71it/
+Epoch: 16/159 Phase: train Loss: 0.2997 (0.4032) Acc: 0.0782 (0.1319) Rec B-EMPLOYMENT: 0.9560 (0.9490):   7%| | 32/429 [00:03<00:41,  9.53it/
+Epoch: 16/159 Phase: train Loss: 0.2913 (0.2605) Acc: 0.0783 (0.1260) Rec B-EMPLOYMENT: 0.9580 (0.9858):  12%| | 51/429 [00:06<00:41,  9.14it/
+Epoch: 16/159 Phase: train Loss: 0.2841 (0.2598) Acc: 0.0788 (0.1270) Rec B-EMPLOYMENT: 0.9606 (0.9859):  17%|▏| 71/429 [00:08<00:37,  9.56it/
+Epoch: 16/159 Phase: train Loss: 0.2835 (0.3177) Acc: 0.0787 (0.1267) Rec B-EMPLOYMENT: 0.9612 (0.9299):  21%|▏| 88/429 [00:10<00:37,  9.19it/
+Epoch: 16/159 Phase: train Loss: 0.2834 (0.2613) Acc: 0.0788 (0.1327) Rec B-EMPLOYMENT: 0.9629 (0.9832):  25%|▎| 109/429 [00:12<00:32,  9.74it
+Epoch: 16/159 Phase: train Loss: 0.2837 (0.2482) Acc: 0.0790 (0.1401) Rec B-EMPLOYMENT: 0.9642 (0.9701):  30%|▎| 127/429 [00:14<00:34,  8.79it
+Epoch: 16/159 Phase: train Loss: 0.2826 (0.2593) Acc: 0.0794 (0.1424) Rec B-EMPLOYMENT: 0.9645 (0.9827):  33%|▎| 143/429 [00:16<00:34,  8.18it
+Epoch: 16/159 Phase: train Loss: 0.2815 (0.3064) Acc: 0.0794 (0.1442) Rec B-EMPLOYMENT: 0.9648 (0.9850):  37%|▎| 158/429 [00:18<00:37,  7.20it
+Epoch: 16/159 Phase: train Loss: 0.2817 (0.2353) Acc: 0.0795 (0.1289) Rec B-EMPLOYMENT: 0.9646 (0.9433):  41%|▍| 174/429 [00:20<00:28,  8.87it
+Epoch: 16/159 Phase: train Loss: 0.2816 (0.2812) Acc: 0.0794 (0.1346) Rec B-EMPLOYMENT: 0.9653 (0.9831):  45%|▍| 195/429 [00:22<00:24,  9.69it
+Epoch: 16/159 Phase: train Loss: 0.2828 (0.3735) Acc: 0.0795 (0.1623) Rec B-EMPLOYMENT: 0.9654 (0.8982):  49%|▍| 212/429 [00:24<00:27,  7.96it
+Epoch: 16/159 Phase: train Loss: 0.2832 (0.2971) Acc: 0.0796 (0.1512) Rec B-EMPLOYMENT: 0.9661 (0.9588):  54%|▌| 232/429 [00:26<00:20,  9.54it
+Epoch: 16/159 Phase: train Loss: 0.2834 (0.3034) Acc: 0.0796 (0.1428) Rec B-EMPLOYMENT: 0.9671 (0.9573):  58%|▌| 250/429 [00:28<00:19,  9.40it
+Epoch: 16/159 Phase: train Loss: 0.2842 (0.2399) Acc: 0.0797 (0.1380) Rec B-EMPLOYMENT: 0.9667 (0.9634):  63%|▋| 270/429 [00:30<00:16,  9.60it
+Epoch: 16/159 Phase: train Loss: 0.2840 (0.2754) Acc: 0.0796 (0.1216) Rec B-EMPLOYMENT: 0.9669 (0.9758):  67%|▋| 289/429 [00:32<00:15,  9.22it
+Epoch: 16/159 Phase: train Loss: 0.2830 (0.2349) Acc: 0.0797 (0.1375) Rec B-EMPLOYMENT: 0.9667 (0.9464):  72%|▋| 309/429 [00:34<00:12,  9.65it
+Epoch: 16/159 Phase: train Loss: 0.2838 (0.2946) Acc: 0.0797 (0.1307) Rec B-EMPLOYMENT: 0.9669 (0.9748):  76%|▊| 327/429 [00:36<00:10,  9.50it
+Epoch: 16/159 Phase: train Loss: 0.2828 (0.2003) Acc: 0.0798 (0.1433) Rec B-EMPLOYMENT: 0.9668 (0.9835):  81%|▊| 346/429 [00:38<00:09,  8.59it
+Epoch: 16/159 Phase: train Loss: 0.2828 (0.3264) Acc: 0.0798 (0.1354) Rec B-EMPLOYMENT: 0.9669 (0.9797):  85%|▊| 365/429 [00:40<00:06,  9.34it
+Epoch: 16/159 Phase: train Loss: 0.2830 (0.2606) Acc: 0.0796 (0.1413) Rec B-EMPLOYMENT: 0.9669 (0.9802):  90%|▉| 384/429 [00:42<00:04,  9.28it
+Epoch: 16/159 Phase: train Loss: 0.2826 (0.3056) Acc: 0.0797 (0.1413) Rec B-EMPLOYMENT: 0.9670 (0.9720):  94%|▉| 403/429 [00:44<00:02,  9.36it
+Epoch: 16/159 Phase: train Loss: 0.2828 (0.2371) Acc: 0.0797 (0.1232) Rec B-EMPLOYMENT: 0.9671 (0.9932):  98%|▉| 421/429 [00:46<00:00,  9.93it
+Epoch: 16/159 Phase: valid Loss: 0.3865 (0.4430) Acc: 0.0117 (0.1411) Rec B-EMPLOYMENT: 0.9560 (nan):   6%|  | 41/687 [00:01<00:14, 46.13it/s]
+Epoch: 16/159 Phase: valid Loss: 0.4231 (0.6487) Acc: 0.0116 (0.0899) Rec B-EMPLOYMENT: 0.9483 (1.0000):  19%|▏| 131/687 [00:03<00:12, 43.20it
+Epoch: 16/159 Phase: valid Loss: 0.4489 (0.3729) Acc: 0.0116 (0.1747) Rec B-EMPLOYMENT: 0.9416 (0.9783):  32%|▎| 221/687 [00:05<00:09, 47.02it
+Epoch: 16/159 Phase: valid Loss: 0.4416 (0.2227) Acc: 0.0115 (0.1372) Rec B-EMPLOYMENT: 0.9445 (1.0000):  42%|▍| 286/687 [00:06<00:08, 47.06it
+Epoch: 16/159 Phase: valid Loss: 0.4366 (0.4567) Acc: 0.0114 (0.1349) Rec B-EMPLOYMENT: 0.9487 (0.6875):  54%|▌| 371/687 [00:08<00:06, 46.38it
+Epoch: 16/159 Phase: valid Loss: 0.4501 (0.3266) Acc: 0.0114 (0.1668) Rec B-EMPLOYMENT: 0.9450 (0.8571):  67%|▋| 461/687 [00:10<00:05, 43.10it
+Epoch: 16/159 Phase: valid Loss: 0.4417 (0.5063) Acc: 0.0115 (0.1037) Rec B-EMPLOYMENT: 0.9467 (0.9500):  80%|▊| 551/687 [00:13<00:02, 45.97it
+Epoch: 16/159 Phase: valid Loss: 0.4441 (0.4654) Acc: 0.0115 (0.0914) Rec B-EMPLOYMENT: 0.9455 (1.0000):  93%|▉| 636/687 [00:15<00:01, 46.89it
+Epoch: 16/159 Phase: valid Loss: 0.4441 (0.4654) Acc: 0.0115 (0.0914) Rec B-EMPLOYMENT: 0.9455 (1.0000):  93%|▉| 636/687 [00:15<00:01, 46.89it
+Epoch: 17/159 Phase: train Loss: 0.2746 (0.2376) Acc: 0.0800 (0.1634) Rec B-EMPLOYMENT: 0.9577 (0.9536):   1%| | 3/429 [00:00<01:36,  4.40it/s
+Epoch: 17/159 Phase: train Loss: 0.2823 (0.2904) Acc: 0.0786 (0.1312) Rec B-EMPLOYMENT: 0.9632 (0.9931):   5%| | 20/429 [00:02<00:49,  8.34it/
+Epoch: 17/159 Phase: train Loss: 0.2831 (0.2615) Acc: 0.0784 (0.1126) Rec B-EMPLOYMENT: 0.9620 (0.9763):   9%| | 39/429 [00:04<00:41,  9.51it/
+Epoch: 17/159 Phase: train Loss: 0.2787 (0.3183) Acc: 0.0792 (0.1403) Rec B-EMPLOYMENT: 0.9606 (0.9735):  14%|▏| 58/429 [00:06<00:39,  9.51it/
+Epoch: 17/159 Phase: train Loss: 0.2758 (0.2471) Acc: 0.0791 (0.1358) Rec B-EMPLOYMENT: 0.9612 (0.9720):  18%|▏| 78/429 [00:08<00:36,  9.52it/
+Epoch: 17/159 Phase: train Loss: 0.2780 (0.2036) Acc: 0.0789 (0.1285) Rec B-EMPLOYMENT: 0.9628 (0.9517):  22%|▏| 96/429 [00:10<00:35,  9.34it/
+Epoch: 17/159 Phase: train Loss: 0.2755 (0.2279) Acc: 0.0791 (0.1494) Rec B-EMPLOYMENT: 0.9648 (0.9895):  27%|▎| 115/429 [00:12<00:32,  9.56it
+Epoch: 17/159 Phase: train Loss: 0.2740 (0.2726) Acc: 0.0794 (0.1264) Rec B-EMPLOYMENT: 0.9651 (1.0000):  31%|▎| 134/429 [00:14<00:31,  9.32it
+Epoch: 17/159 Phase: train Loss: 0.2752 (0.2300) Acc: 0.0796 (0.1395) Rec B-EMPLOYMENT: 0.9652 (0.9717):  35%|▎| 152/429 [00:16<00:31,  8.71it
+Epoch: 17/159 Phase: train Loss: 0.2753 (0.2420) Acc: 0.0797 (0.1435) Rec B-EMPLOYMENT: 0.9653 (0.9375):  40%|▍| 171/429 [00:18<00:27,  9.44it
+Epoch: 17/159 Phase: train Loss: 0.2764 (0.3205) Acc: 0.0796 (0.1215) Rec B-EMPLOYMENT: 0.9660 (1.0000):  44%|▍| 188/429 [00:20<00:29,  8.17it
+Epoch: 17/159 Phase: train Loss: 0.2778 (0.2715) Acc: 0.0796 (0.1410) Rec B-EMPLOYMENT: 0.9655 (0.9298):  48%|▍| 204/429 [00:22<00:26,  8.54it
+Epoch: 17/159 Phase: train Loss: 0.2791 (0.2452) Acc: 0.0797 (0.1493) Rec B-EMPLOYMENT: 0.9657 (0.9877):  51%|▌| 219/429 [00:24<00:25,  8.12it
+Epoch: 17/159 Phase: train Loss: 0.2788 (0.2322) Acc: 0.0797 (0.1391) Rec B-EMPLOYMENT: 0.9664 (0.9886):  54%|▌| 231/429 [00:26<00:24,  8.14it
+Epoch: 17/159 Phase: train Loss: 0.2792 (0.3126) Acc: 0.0798 (0.1451) Rec B-EMPLOYMENT: 0.9668 (0.9816):  58%|▌| 247/429 [00:28<00:21,  8.62it
+Epoch: 17/159 Phase: train Loss: 0.2796 (0.2316) Acc: 0.0799 (0.1448) Rec B-EMPLOYMENT: 0.9662 (0.9577):  62%|▌| 264/429 [00:30<00:18,  8.92it
+Epoch: 17/159 Phase: train Loss: 0.2791 (0.3784) Acc: 0.0798 (0.1314) Rec B-EMPLOYMENT: 0.9662 (0.9861):  66%|▋| 284/429 [00:32<00:17,  8.46it
+Epoch: 17/159 Phase: train Loss: 0.2782 (0.3754) Acc: 0.0799 (0.1413) Rec B-EMPLOYMENT: 0.9657 (0.9150):  71%|▋| 303/429 [00:34<00:13,  9.64it
+Epoch: 17/159 Phase: train Loss: 0.2791 (0.2901) Acc: 0.0799 (0.1300) Rec B-EMPLOYMENT: 0.9657 (0.9878):  75%|▊| 323/429 [00:36<00:10,  9.66it
+Epoch: 17/159 Phase: train Loss: 0.2788 (0.2928) Acc: 0.0799 (0.1256) Rec B-EMPLOYMENT: 0.9656 (0.9740):  80%|▊| 342/429 [00:38<00:08,  9.95it
+Epoch: 17/159 Phase: train Loss: 0.2786 (0.3108) Acc: 0.0800 (0.1358) Rec B-EMPLOYMENT: 0.9654 (0.9803):  84%|▊| 359/429 [00:40<00:07,  9.11it
+Epoch: 17/159 Phase: train Loss: 0.2791 (0.3086) Acc: 0.0798 (0.1232) Rec B-EMPLOYMENT: 0.9655 (0.9286):  88%|▉| 378/429 [00:42<00:05,  9.34it
+Epoch: 17/159 Phase: train Loss: 0.2788 (0.2469) Acc: 0.0799 (0.1502) Rec B-EMPLOYMENT: 0.9655 (0.9580):  93%|▉| 398/429 [00:44<00:03,  9.53it
+Epoch: 17/159 Phase: train Loss: 0.2785 (0.3093) Acc: 0.0799 (0.1217) Rec B-EMPLOYMENT: 0.9652 (0.9821):  97%|▉| 417/429 [00:46<00:01,  8.96it
+Epoch: 17/159 Phase: valid Loss: 0.4622 (0.2400) Acc: 0.0113 (0.1232) Rec B-EMPLOYMENT: 0.9617 (1.0000):   4%| | 25/687 [00:00<00:14, 44.62it/
+Epoch: 17/159 Phase: valid Loss: 0.4156 (0.3081) Acc: 0.0116 (0.1040) Rec B-EMPLOYMENT: 0.9457 (1.0000):  13%|▏| 90/687 [00:02<00:12, 46.16it/
+Epoch: 17/159 Phase: valid Loss: 0.4490 (0.3789) Acc: 0.0117 (0.1223) Rec B-EMPLOYMENT: 0.9419 (1.0000):  25%|▎| 174/687 [00:04<00:11, 45.94it
+Epoch: 17/159 Phase: valid Loss: 0.4480 (0.2863) Acc: 0.0115 (0.1495) Rec B-EMPLOYMENT: 0.9425 (0.8750):  38%|▍| 264/687 [00:06<00:10, 39.10it
+Epoch: 17/159 Phase: valid Loss: 0.4374 (0.1696) Acc: 0.0114 (0.1411) Rec B-EMPLOYMENT: 0.9490 (1.0000):  49%|▍| 339/687 [00:08<00:10, 32.53it
+Epoch: 17/159 Phase: valid Loss: 0.4426 (0.2407) Acc: 0.0114 (0.1560) Rec B-EMPLOYMENT: 0.9479 (1.0000):  62%|▌| 428/687 [00:10<00:05, 45.84it
+Epoch: 17/159 Phase: valid Loss: 0.4515 (0.1675) Acc: 0.0114 (0.1423) Rec B-EMPLOYMENT: 0.9467 (1.0000):  74%|▋| 508/687 [00:12<00:04, 44.69it
+Epoch: 17/159 Phase: valid Loss: 0.4419 (0.6039) Acc: 0.0115 (0.1171) Rec B-EMPLOYMENT: 0.9461 (1.0000):  86%|▊| 593/687 [00:14<00:02, 39.67it
+Epoch: 17/159 Phase: valid Loss: 0.4436 (0.1280) Acc: 0.0115 (0.1245) Rec B-EMPLOYMENT: 0.9470 (1.0000):  97%|▉| 663/687 [00:16<00:00, 42.46it
+Epoch: 17/159 Phase: valid Loss: 0.4436 (0.1280) Acc: 0.0115 (0.1245) Rec B-EMPLOYMENT: 0.9470 (1.0000):  97%|▉| 663/687 [00:16<00:00, 42.46it
+Epoch: 18/159 Phase: train Loss: 0.2878 (0.2489) Acc: 0.0801 (0.1474) Rec B-EMPLOYMENT: 0.9648 (0.9806):   2%| | 8/429 [00:01<00:52,  8.05it/s
+Epoch: 18/159 Phase: train Loss: 0.2835 (0.2361) Acc: 0.0780 (0.1227) Rec B-EMPLOYMENT: 0.9666 (0.9716):   6%| | 25/429 [00:03<00:46,  8.61it/
+Epoch: 18/159 Phase: train Loss: 0.2845 (0.2086) Acc: 0.0785 (0.1481) Rec B-EMPLOYMENT: 0.9643 (0.9911):  10%| | 44/429 [00:05<00:40,  9.44it/
+Epoch: 18/159 Phase: train Loss: 0.2824 (0.2718) Acc: 0.0788 (0.1291) Rec B-EMPLOYMENT: 0.9648 (0.9760):  15%|▏| 63/429 [00:07<00:37,  9.68it/
+Epoch: 18/159 Phase: train Loss: 0.2800 (0.2876) Acc: 0.0790 (0.1233) Rec B-EMPLOYMENT: 0.9642 (0.9579):  20%|▏| 84/429 [00:09<00:34,  9.86it/
+Epoch: 18/159 Phase: train Loss: 0.2797 (0.3063) Acc: 0.0789 (0.1482) Rec B-EMPLOYMENT: 0.9642 (0.9646):  24%|▏| 102/429 [00:11<00:35,  9.23it
+Epoch: 18/159 Phase: train Loss: 0.2787 (0.3081) Acc: 0.0791 (0.1319) Rec B-EMPLOYMENT: 0.9657 (0.9500):  28%|▎| 122/429 [00:13<00:31,  9.87it
+Epoch: 18/159 Phase: train Loss: 0.2770 (0.3004) Acc: 0.0794 (0.1539) Rec B-EMPLOYMENT: 0.9658 (0.9416):  33%|▎| 141/429 [00:15<00:29,  9.69it
+Epoch: 18/159 Phase: train Loss: 0.2750 (0.2459) Acc: 0.0796 (0.1276) Rec B-EMPLOYMENT: 0.9664 (0.9718):  37%|▎| 159/429 [00:17<00:29,  9.12it
+Epoch: 18/159 Phase: train Loss: 0.2765 (0.1850) Acc: 0.0796 (0.1405) Rec B-EMPLOYMENT: 0.9662 (0.9760):  41%|▍| 177/429 [00:19<00:26,  9.43it
+Epoch: 18/159 Phase: train Loss: 0.2763 (0.4417) Acc: 0.0796 (0.1418) Rec B-EMPLOYMENT: 0.9667 (0.9839):  46%|▍| 198/429 [00:21<00:24,  9.46it
+Epoch: 18/159 Phase: train Loss: 0.2793 (0.3756) Acc: 0.0797 (0.1411) Rec B-EMPLOYMENT: 0.9664 (0.9638):  50%|▌| 216/429 [00:23<00:21,  9.98it
+Epoch: 18/159 Phase: train Loss: 0.2788 (0.2452) Acc: 0.0798 (0.1307) Rec B-EMPLOYMENT: 0.9672 (0.9945):  55%|▌| 234/429 [00:25<00:20,  9.29it
+Epoch: 18/159 Phase: train Loss: 0.2795 (0.3533) Acc: 0.0797 (0.1299) Rec B-EMPLOYMENT: 0.9676 (0.9341):  59%|▌| 254/429 [00:27<00:18,  9.49it
+Epoch: 18/159 Phase: train Loss: 0.2801 (0.1877) Acc: 0.0797 (0.1211) Rec B-EMPLOYMENT: 0.9674 (0.9600):  64%|▋| 274/429 [00:29<00:15, 10.01it
+Epoch: 18/159 Phase: train Loss: 0.2796 (0.4283) Acc: 0.0797 (0.1178) Rec B-EMPLOYMENT: 0.9675 (0.9192):  67%|▋| 286/429 [00:31<00:17,  8.32it
+Epoch: 18/159 Phase: train Loss: 0.2788 (0.3713) Acc: 0.0798 (0.1434) Rec B-EMPLOYMENT: 0.9671 (0.9281):  71%|▋| 303/429 [00:33<00:15,  7.95it
+Epoch: 18/159 Phase: train Loss: 0.2788 (0.3131) Acc: 0.0798 (0.1422) Rec B-EMPLOYMENT: 0.9670 (0.9835):  74%|▋| 319/429 [00:35<00:12,  8.77it
+Epoch: 18/159 Phase: train Loss: 0.2793 (0.2542) Acc: 0.0799 (0.1243) Rec B-EMPLOYMENT: 0.9670 (0.9840):  78%|▊| 335/429 [00:37<00:12,  7.50it
+Epoch: 18/159 Phase: train Loss: 0.2785 (0.3541) Acc: 0.0799 (0.1442) Rec B-EMPLOYMENT: 0.9665 (0.9661):  82%|▊| 352/429 [00:39<00:11,  6.62it
+Epoch: 18/159 Phase: train Loss: 0.2794 (0.3561) Acc: 0.0799 (0.1420) Rec B-EMPLOYMENT: 0.9665 (0.9634):  86%|▊| 370/429 [00:41<00:06,  9.59it
+Epoch: 18/159 Phase: train Loss: 0.2794 (0.2302) Acc: 0.0798 (0.1406) Rec B-EMPLOYMENT: 0.9664 (0.9910):  91%|▉| 390/429 [00:43<00:04,  9.55it
+Epoch: 18/159 Phase: train Loss: 0.2789 (0.2205) Acc: 0.0798 (0.1480) Rec B-EMPLOYMENT: 0.9663 (0.9828):  95%|▉| 409/429 [00:45<00:02,  9.44it
+Epoch: 18/159 Phase: train Loss: 0.2791 (0.2247) Acc: 0.0797 (0.1390) Rec B-EMPLOYMENT: 0.9666 (0.9830): 100%|▉| 427/429 [00:47<00:00, 10.43it
+Epoch: 18/159 Phase: valid Loss: 0.4009 (1.2019) Acc: 0.0117 (0.1180) Rec B-EMPLOYMENT: 0.9562 (1.0000):   7%| | 45/687 [00:01<00:13, 46.00it/
+Epoch: 18/159 Phase: valid Loss: 0.4224 (0.4518) Acc: 0.0116 (0.1135) Rec B-EMPLOYMENT: 0.9474 (0.7879):  20%|▏| 136/687 [00:03<00:13, 40.61it
+Epoch: 18/159 Phase: valid Loss: 0.4540 (1.0880) Acc: 0.0115 (0.0895) Rec B-EMPLOYMENT: 0.9416 (0.7755):  33%|▎| 226/687 [00:05<00:10, 46.08it
+Epoch: 18/159 Phase: valid Loss: 0.4426 (1.0307) Acc: 0.0115 (0.1091) Rec B-EMPLOYMENT: 0.9457 (1.0000):  42%|▍| 291/687 [00:07<00:08, 45.10it
+Epoch: 18/159 Phase: valid Loss: 0.4392 (0.5761) Acc: 0.0114 (0.1243) Rec B-EMPLOYMENT: 0.9493 (nan):  55%|▌| 376/687 [00:09<00:06, 46.66it/s]
+Epoch: 18/159 Phase: valid Loss: 0.4508 (0.3605) Acc: 0.0114 (0.1195) Rec B-EMPLOYMENT: 0.9457 (1.0000):  68%|▋| 466/687 [00:11<00:05, 41.84it
+Epoch: 18/159 Phase: valid Loss: 0.4426 (0.3887) Acc: 0.0115 (0.1507) Rec B-EMPLOYMENT: 0.9475 (0.9259):  81%|▊| 556/687 [00:13<00:02, 45.46it
+Epoch: 18/159 Phase: valid Loss: 0.4427 (0.7206) Acc: 0.0115 (0.1609) Rec B-EMPLOYMENT: 0.9464 (1.0000):  90%|▉| 621/687 [00:15<00:01, 46.39it
+Epoch: 18/159 Phase: valid Loss: 0.4427 (0.7206) Acc: 0.0115 (0.1609) Rec B-EMPLOYMENT: 0.9464 (1.0000):  90%|▉| 621/687 [00:15<00:01, 46.39it
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 19/159 Phase: train Loss: 0.2798 (0.2655) Acc: 0.0787 (0.1549) Rec B-EMPLOYMENT: 0.9657 (0.9681):   4%| | 18/429 [00:02<00:42,  9.60it/
+Epoch: 19/159 Phase: train Loss: 0.2858 (0.2121) Acc: 0.0785 (0.1280) Rec B-EMPLOYMENT: 0.9657 (0.9617):   8%| | 36/429 [00:04<00:41,  9.54it/
+Epoch: 19/159 Phase: train Loss: 0.2812 (0.2003) Acc: 0.0793 (0.1564) Rec B-EMPLOYMENT: 0.9648 (0.9769):  13%|▏| 55/429 [00:06<00:38,  9.64it/
+Epoch: 19/159 Phase: train Loss: 0.2728 (0.2866) Acc: 0.0793 (0.1254) Rec B-EMPLOYMENT: 0.9668 (0.9657):  17%|▏| 75/429 [00:08<00:36,  9.62it/
+Epoch: 19/159 Phase: train Loss: 0.2765 (0.3605) Acc: 0.0790 (0.1342) Rec B-EMPLOYMENT: 0.9660 (0.9394):  21%|▏| 90/429 [00:10<00:44,  7.62it/
+Epoch: 19/159 Phase: train Loss: 0.2745 (0.2788) Acc: 0.0792 (0.1341) Rec B-EMPLOYMENT: 0.9667 (0.9796):  26%|▎| 111/429 [00:12<00:31, 10.04it
+Epoch: 19/159 Phase: train Loss: 0.2738 (0.1825) Acc: 0.0795 (0.1308) Rec B-EMPLOYMENT: 0.9678 (0.9803):  30%|▎| 130/429 [00:14<00:30,  9.65it
+Epoch: 19/159 Phase: train Loss: 0.2728 (0.2927) Acc: 0.0796 (0.1422) Rec B-EMPLOYMENT: 0.9675 (0.9797):  35%|▎| 149/429 [00:16<00:29,  9.46it
+Epoch: 19/159 Phase: train Loss: 0.2716 (0.3306) Acc: 0.0797 (0.1292) Rec B-EMPLOYMENT: 0.9676 (0.9746):  39%|▍| 166/429 [00:18<00:28,  9.35it
+Epoch: 19/159 Phase: train Loss: 0.2721 (0.4255) Acc: 0.0798 (0.1203) Rec B-EMPLOYMENT: 0.9679 (0.9645):  43%|▍| 185/429 [00:20<00:25,  9.52it
+Epoch: 19/159 Phase: train Loss: 0.2745 (0.2792) Acc: 0.0797 (0.1479) Rec B-EMPLOYMENT: 0.9679 (0.9359):  48%|▍| 205/429 [00:22<00:23,  9.66it
+Epoch: 19/159 Phase: train Loss: 0.2765 (0.3635) Acc: 0.0797 (0.1326) Rec B-EMPLOYMENT: 0.9679 (0.9291):  52%|▌| 222/429 [00:24<00:24,  8.39it
+Epoch: 19/159 Phase: train Loss: 0.2770 (0.2563) Acc: 0.0798 (0.1416) Rec B-EMPLOYMENT: 0.9687 (0.9861):  56%|▌| 241/429 [00:26<00:20,  9.19it
+Epoch: 19/159 Phase: train Loss: 0.2775 (0.2863) Acc: 0.0799 (0.1469) Rec B-EMPLOYMENT: 0.9688 (0.9807):  61%|▌| 260/429 [00:28<00:18,  9.38it
+Epoch: 19/159 Phase: train Loss: 0.2783 (0.2467) Acc: 0.0798 (0.1316) Rec B-EMPLOYMENT: 0.9686 (0.9773):  65%|▋| 279/429 [00:30<00:15,  9.64it
+Epoch: 19/159 Phase: train Loss: 0.2767 (0.2768) Acc: 0.0799 (0.1629) Rec B-EMPLOYMENT: 0.9683 (0.9716):  69%|▋| 297/429 [00:32<00:14,  9.40it
+Epoch: 19/159 Phase: train Loss: 0.2769 (0.3621) Acc: 0.0799 (0.1477) Rec B-EMPLOYMENT: 0.9680 (0.9641):  74%|▋| 317/429 [00:34<00:11,  9.65it
+Epoch: 19/159 Phase: train Loss: 0.2771 (0.2584) Acc: 0.0799 (0.1257) Rec B-EMPLOYMENT: 0.9681 (0.9840):  78%|▊| 335/429 [00:36<00:09,  9.57it
+Epoch: 19/159 Phase: train Loss: 0.2761 (0.1839) Acc: 0.0800 (0.1418) Rec B-EMPLOYMENT: 0.9678 (0.9769):  81%|▊| 349/429 [00:38<00:08,  9.48it
+Epoch: 19/159 Phase: train Loss: 0.2770 (0.2166) Acc: 0.0800 (0.1314) Rec B-EMPLOYMENT: 0.9677 (0.9660):  86%|▊| 367/429 [00:40<00:06,  9.43it
+Epoch: 19/159 Phase: train Loss: 0.2775 (0.2113) Acc: 0.0799 (0.1519) Rec B-EMPLOYMENT: 0.9677 (0.9939):  90%|▉| 387/429 [00:42<00:04,  9.27it
+Epoch: 19/159 Phase: train Loss: 0.2773 (0.1756) Acc: 0.0799 (0.1353) Rec B-EMPLOYMENT: 0.9676 (0.9518):  94%|▉| 405/429 [00:44<00:02,  8.95it
+Epoch: 19/159 Phase: train Loss: 0.2775 (0.3576) Acc: 0.0798 (0.1435) Rec B-EMPLOYMENT: 0.9677 (0.9545):  99%|▉| 426/429 [00:46<00:00, 10.33it
+Epoch: 19/159 Phase: valid Loss: 0.4140 (0.1404) Acc: 0.0116 (0.0944) Rec B-EMPLOYMENT: 0.9581 (1.0000):   7%| | 50/687 [00:01<00:13, 46.70it/
+Epoch: 19/159 Phase: valid Loss: 0.4277 (0.6353) Acc: 0.0116 (0.1288) Rec B-EMPLOYMENT: 0.9464 (nan):  20%|▏| 135/687 [00:03<00:14, 36.82it/s]
+Epoch: 19/159 Phase: valid Loss: 0.4548 (0.3173) Acc: 0.0116 (0.1764) Rec B-EMPLOYMENT: 0.9416 (nan):  30%|▎| 205/687 [00:05<00:11, 40.38it/s]
+Epoch: 19/159 Phase: valid Loss: 0.4432 (0.5676) Acc: 0.0115 (0.1228) Rec B-EMPLOYMENT: 0.9449 (1.0000):  43%|▍| 296/687 [00:07<00:08, 46.03it
+Epoch: 19/159 Phase: valid Loss: 0.4390 (0.2964) Acc: 0.0114 (0.1011) Rec B-EMPLOYMENT: 0.9486 (1.0000):  55%|▌| 376/687 [00:09<00:06, 46.59it
+Epoch: 19/159 Phase: valid Loss: 0.4447 (0.1756) Acc: 0.0114 (0.1289) Rec B-EMPLOYMENT: 0.9467 (0.9643):  65%|▋| 446/687 [00:11<00:05, 46.43it
+Epoch: 19/159 Phase: valid Loss: 0.4462 (0.9482) Acc: 0.0114 (0.1796) Rec B-EMPLOYMENT: 0.9471 (nan):  77%|▊| 531/687 [00:13<00:04, 37.76it/s]
+Epoch: 19/159 Phase: valid Loss: 0.4426 (0.2642) Acc: 0.0115 (0.0970) Rec B-EMPLOYMENT: 0.9458 (0.9444):  87%|▊| 601/687 [00:15<00:02, 39.79it
+Epoch: 19/159 Phase: valid Loss: 0.4456 (0.5425) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9478 (nan): 100%|█| 687/687 [00:17<00:00, 39.36it/s]
+Epoch: 19/159 Phase: valid Loss: 0.4456 (0.5425) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9478 (nan): 100%|█| 687/687 [00:17<00:00, 39.36it/s]
+Epoch: 20/159 Phase: train Loss: 0.2880 (0.3016) Acc: 0.0787 (0.1494) Rec B-EMPLOYMENT: 0.9697 (0.9713):   3%| | 13/429 [00:01<00:45,  9.13it/
+Epoch: 20/159 Phase: train Loss: 0.2861 (0.3067) Acc: 0.0787 (0.1490) Rec B-EMPLOYMENT: 0.9635 (0.9558):   7%| | 31/429 [00:04<00:45,  8.69it/
+Epoch: 20/159 Phase: train Loss: 0.2808 (0.2869) Acc: 0.0787 (0.1258) Rec B-EMPLOYMENT: 0.9620 (0.9295):  12%| | 50/429 [00:06<00:39,  9.48it/
+Epoch: 20/159 Phase: train Loss: 0.2772 (0.2625) Acc: 0.0792 (0.1389) Rec B-EMPLOYMENT: 0.9622 (0.9737):  16%|▏| 68/429 [00:07<00:37,  9.65it/
+Epoch: 20/159 Phase: train Loss: 0.2788 (0.2663) Acc: 0.0790 (0.1277) Rec B-EMPLOYMENT: 0.9626 (0.9532):  21%|▏| 88/429 [00:09<00:35,  9.64it/
+Epoch: 20/159 Phase: train Loss: 0.2796 (0.2771) Acc: 0.0790 (0.1337) Rec B-EMPLOYMENT: 0.9637 (0.9763):  24%|▏| 105/429 [00:12<00:34,  9.35it
+Epoch: 20/159 Phase: train Loss: 0.2786 (0.1953) Acc: 0.0792 (0.1342) Rec B-EMPLOYMENT: 0.9653 (0.9831):  29%|▎| 124/429 [00:14<00:32,  9.50it
+Epoch: 20/159 Phase: train Loss: 0.2773 (0.4020) Acc: 0.0795 (0.1347) Rec B-EMPLOYMENT: 0.9648 (0.9272):  33%|▎| 143/429 [00:16<00:29,  9.75it
+Epoch: 20/159 Phase: train Loss: 0.2753 (0.2201) Acc: 0.0795 (0.1452) Rec B-EMPLOYMENT: 0.9647 (0.9570):  36%|▎| 154/429 [00:17<00:41,  6.66it
+Epoch: 20/159 Phase: train Loss: 0.2767 (0.2657) Acc: 0.0797 (0.1492) Rec B-EMPLOYMENT: 0.9654 (0.9647):  40%|▍| 173/429 [00:19<00:27,  9.41it
+Epoch: 20/159 Phase: train Loss: 0.2767 (0.4058) Acc: 0.0797 (0.1274) Rec B-EMPLOYMENT: 0.9659 (0.9589):  45%|▍| 193/429 [00:21<00:24,  9.60it
+Epoch: 20/159 Phase: train Loss: 0.2776 (0.4081) Acc: 0.0797 (0.1644) Rec B-EMPLOYMENT: 0.9659 (0.9341):  50%|▍| 213/429 [00:23<00:22,  9.57it
+Epoch: 20/159 Phase: train Loss: 0.2789 (0.3095) Acc: 0.0797 (0.1267) Rec B-EMPLOYMENT: 0.9667 (0.9937):  54%|▌| 230/429 [00:25<00:21,  9.17it
+Epoch: 20/159 Phase: train Loss: 0.2792 (0.2749) Acc: 0.0798 (0.1335) Rec B-EMPLOYMENT: 0.9670 (0.9928):  58%|▌| 249/429 [00:27<00:19,  9.36it
+Epoch: 20/159 Phase: train Loss: 0.2794 (0.2247) Acc: 0.0799 (0.1317) Rec B-EMPLOYMENT: 0.9668 (0.9734):  62%|▌| 268/429 [00:29<00:16,  9.84it
+Epoch: 20/159 Phase: train Loss: 0.2785 (0.1947) Acc: 0.0798 (0.1304) Rec B-EMPLOYMENT: 0.9667 (0.9673):  66%|▋| 284/429 [00:31<00:15,  9.44it
+Epoch: 20/159 Phase: train Loss: 0.2784 (0.3078) Acc: 0.0799 (0.1391) Rec B-EMPLOYMENT: 0.9661 (0.9632):  71%|▋| 305/429 [00:33<00:12,  9.56it
+Epoch: 20/159 Phase: train Loss: 0.2785 (0.1917) Acc: 0.0799 (0.1429) Rec B-EMPLOYMENT: 0.9662 (0.9951):  76%|▊| 324/429 [00:35<00:10,  9.57it
+Epoch: 20/159 Phase: train Loss: 0.2783 (0.3055) Acc: 0.0799 (0.1218) Rec B-EMPLOYMENT: 0.9660 (0.9805):  80%|▊| 343/429 [00:37<00:09,  9.47it
+Epoch: 20/159 Phase: train Loss: 0.2780 (0.3443) Acc: 0.0799 (0.1337) Rec B-EMPLOYMENT: 0.9660 (0.9803):  84%|▊| 360/429 [00:39<00:07,  8.84it
+Epoch: 20/159 Phase: train Loss: 0.2781 (0.2955) Acc: 0.0799 (0.1246) Rec B-EMPLOYMENT: 0.9658 (0.9464):  88%|▉| 378/429 [00:41<00:05,  9.36it
+Epoch: 20/159 Phase: train Loss: 0.2781 (0.2964) Acc: 0.0799 (0.1267) Rec B-EMPLOYMENT: 0.9659 (0.9758):  93%|▉| 398/429 [00:43<00:03,  9.49it
+Epoch: 20/159 Phase: train Loss: 0.2784 (0.2825) Acc: 0.0798 (0.1236) Rec B-EMPLOYMENT: 0.9659 (0.9911):  97%|▉| 417/429 [00:45<00:01,  9.70it
+Epoch: 20/159 Phase: valid Loss: 0.4859 (0.1832) Acc: 0.0109 (0.1185) Rec B-EMPLOYMENT: 0.9553 (0.9000):   2%| | 16/687 [00:00<00:16, 41.17it/
+Epoch: 20/159 Phase: valid Loss: 0.4162 (0.1637) Acc: 0.0116 (0.1515) Rec B-EMPLOYMENT: 0.9477 (1.0000):  14%|▏| 96/687 [00:02<00:13, 43.60it/
+Epoch: 20/159 Phase: valid Loss: 0.4511 (0.1569) Acc: 0.0117 (0.1590) Rec B-EMPLOYMENT: 0.9466 (1.0000):  23%|▏| 161/687 [00:04<00:12, 43.70it
+Epoch: 20/159 Phase: valid Loss: 0.4481 (0.1578) Acc: 0.0116 (0.1795) Rec B-EMPLOYMENT: 0.9424 (1.0000):  36%|▎| 246/687 [00:06<00:09, 46.06it
+Epoch: 20/159 Phase: valid Loss: 0.4411 (0.4852) Acc: 0.0114 (0.0912) Rec B-EMPLOYMENT: 0.9493 (1.0000):  49%|▍| 336/687 [00:08<00:09, 36.93it
+Epoch: 20/159 Phase: valid Loss: 0.4429 (0.6041) Acc: 0.0114 (0.1316) Rec B-EMPLOYMENT: 0.9483 (0.8333):  58%|▌| 401/687 [00:10<00:07, 36.43it
+Epoch: 20/159 Phase: valid Loss: 0.4544 (0.2053) Acc: 0.0114 (0.1318) Rec B-EMPLOYMENT: 0.9471 (0.9688):  71%|▋| 491/687 [00:12<00:04, 44.34it
+Epoch: 20/159 Phase: valid Loss: 0.4422 (0.1964) Acc: 0.0114 (0.0814) Rec B-EMPLOYMENT: 0.9472 (0.8421):  82%|▊| 561/687 [00:14<00:02, 44.93it
+Epoch: 20/159 Phase: valid Loss: 0.4448 (0.1104) Acc: 0.0115 (0.1211) Rec B-EMPLOYMENT: 0.9471 (1.0000):  93%|▉| 641/687 [00:16<00:00, 46.30it
+Epoch: 20/159 Phase: valid Loss: 0.4457 (0.5219) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9483 (nan): 100%|█| 687/687 [00:17<00:00, 38.76it/s]
+Epoch: 20/159 Phase: valid Loss: 0.4457 (0.5219) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9483 (nan): 100%|█| 687/687 [00:17<00:00, 38.76it/s]
+{'B-EMPLOYMENT_appended_data': 2899, 'I-EMPLOYMENT_appended_data': 821}
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 21/159 Phase: train Loss: 0.2790 (0.2689) Acc: 0.0787 (0.1557) Rec B-EMPLOYMENT: 0.9655 (0.9709):   4%| | 18/429 [00:02<00:43,  9.47it/
+Epoch: 21/159 Phase: train Loss: 0.2753 (0.2370) Acc: 0.0790 (0.1410) Rec B-EMPLOYMENT: 0.9663 (0.9711):   8%| | 36/429 [00:04<00:42,  9.35it/
+Epoch: 21/159 Phase: train Loss: 0.2706 (0.2150) Acc: 0.0796 (0.1419) Rec B-EMPLOYMENT: 0.9643 (0.9709):  13%|▏| 57/429 [00:06<00:38,  9.63it/
+Epoch: 21/159 Phase: train Loss: 0.2655 (0.2263) Acc: 0.0796 (0.1488) Rec B-EMPLOYMENT: 0.9649 (0.9846):  18%|▏| 76/429 [00:08<00:37,  9.50it/
+Epoch: 21/159 Phase: train Loss: 0.2675 (0.1755) Acc: 0.0794 (0.1313) Rec B-EMPLOYMENT: 0.9663 (0.9765):  22%|▏| 95/429 [00:10<00:36,  9.09it/
+Epoch: 21/159 Phase: train Loss: 0.2657 (0.2563) Acc: 0.0796 (0.1476) Rec B-EMPLOYMENT: 0.9675 (0.9538):  27%|▎| 115/429 [00:12<00:31, 10.04it
+Epoch: 21/159 Phase: train Loss: 0.2637 (0.2562) Acc: 0.0799 (0.1303) Rec B-EMPLOYMENT: 0.9677 (0.9937):  31%|▎| 134/429 [00:14<00:29,  9.99it
+Epoch: 21/159 Phase: train Loss: 0.2660 (0.2620) Acc: 0.0800 (0.1176) Rec B-EMPLOYMENT: 0.9666 (0.9171):  36%|▎| 153/429 [00:16<00:29,  9.36it
+Epoch: 21/159 Phase: train Loss: 0.2662 (0.2483) Acc: 0.0801 (0.1409) Rec B-EMPLOYMENT: 0.9669 (0.9748):  40%|▍| 171/429 [00:18<00:27,  9.35it
+Epoch: 21/159 Phase: train Loss: 0.2673 (0.2018) Acc: 0.0801 (0.1315) Rec B-EMPLOYMENT: 0.9674 (0.9466):  44%|▍| 190/429 [00:20<00:24,  9.62it
+Epoch: 21/159 Phase: train Loss: 0.2700 (0.3078) Acc: 0.0801 (0.1238) Rec B-EMPLOYMENT: 0.9675 (0.9442):  49%|▍| 209/429 [00:22<00:23,  9.36it
+Epoch: 21/159 Phase: train Loss: 0.2709 (0.2504) Acc: 0.0802 (0.1303) Rec B-EMPLOYMENT: 0.9679 (0.9773):  53%|▌| 227/429 [00:24<00:22,  8.80it
+Epoch: 21/159 Phase: train Loss: 0.2714 (0.2842) Acc: 0.0802 (0.1473) Rec B-EMPLOYMENT: 0.9683 (0.9649):  58%|▌| 247/429 [00:26<00:19,  9.56it
+Epoch: 21/159 Phase: train Loss: 0.2718 (0.2437) Acc: 0.0804 (0.1423) Rec B-EMPLOYMENT: 0.9683 (0.9852):  61%|▌| 260/429 [00:28<00:17,  9.45it
+Epoch: 21/159 Phase: train Loss: 0.2718 (0.2360) Acc: 0.0802 (0.1578) Rec B-EMPLOYMENT: 0.9680 (0.9895):  65%|▋| 280/429 [00:30<00:15,  9.66it
+Epoch: 21/159 Phase: train Loss: 0.2707 (0.2410) Acc: 0.0804 (0.1482) Rec B-EMPLOYMENT: 0.9679 (0.9727):  69%|▋| 297/429 [00:32<00:14,  9.27it
+Epoch: 21/159 Phase: train Loss: 0.2711 (0.2835) Acc: 0.0803 (0.1353) Rec B-EMPLOYMENT: 0.9678 (0.9515):  74%|▋| 318/429 [00:34<00:11,  9.68it
+Epoch: 21/159 Phase: train Loss: 0.2710 (0.2327) Acc: 0.0804 (0.1343) Rec B-EMPLOYMENT: 0.9675 (0.9319):  79%|▊| 337/429 [00:36<00:09,  9.58it
+Epoch: 21/159 Phase: train Loss: 0.2711 (0.3500) Acc: 0.0804 (0.1369) Rec B-EMPLOYMENT: 0.9676 (0.9836):  83%|▊| 354/429 [00:38<00:10,  7.23it
+Epoch: 21/159 Phase: train Loss: 0.2715 (0.2363) Acc: 0.0804 (0.1467) Rec B-EMPLOYMENT: 0.9677 (0.9639):  87%|▊| 373/429 [00:40<00:05,  9.56it
+Epoch: 21/159 Phase: train Loss: 0.2712 (0.2850) Acc: 0.0803 (0.1646) Rec B-EMPLOYMENT: 0.9674 (0.9828):  92%|▉| 394/429 [00:42<00:03,  9.64it
+Epoch: 21/159 Phase: train Loss: 0.2714 (0.3277) Acc: 0.0803 (0.1146) Rec B-EMPLOYMENT: 0.9675 (1.0000):  96%|▉| 413/429 [00:44<00:01,  9.66it
+Epoch: 21/159 Phase: valid Loss: 0.6108 (0.2353) Acc: 0.0119 (0.1256) Rec B-EMPLOYMENT: 1.0000 (1.0000):   1%| | 4/687 [00:00<00:35, 19.18it/s
+Epoch: 21/159 Phase: valid Loss: 0.4187 (0.0690) Acc: 0.0116 (0.0890) Rec B-EMPLOYMENT: 0.9462 (1.0000):  13%|▏| 89/687 [00:02<00:13, 45.24it/
+Epoch: 21/159 Phase: valid Loss: 0.4518 (0.4545) Acc: 0.0117 (0.1088) Rec B-EMPLOYMENT: 0.9425 (nan):  26%|▎| 179/687 [00:04<00:10, 46.99it/s]
+Epoch: 21/159 Phase: valid Loss: 0.4503 (0.4578) Acc: 0.0115 (0.1592) Rec B-EMPLOYMENT: 0.9430 (0.9773):  38%|▍| 259/687 [00:06<00:11, 37.79it
+Epoch: 21/159 Phase: valid Loss: 0.4416 (0.2767) Acc: 0.0114 (0.0982) Rec B-EMPLOYMENT: 0.9499 (1.0000):  51%|▌| 350/687 [00:08<00:07, 44.73it
+Epoch: 21/159 Phase: valid Loss: 0.4480 (0.5331) Acc: 0.0114 (0.0898) Rec B-EMPLOYMENT: 0.9467 (0.9375):  63%|▋| 435/687 [00:10<00:05, 45.90it
+Epoch: 21/159 Phase: valid Loss: 0.4508 (0.4603) Acc: 0.0114 (0.0941) Rec B-EMPLOYMENT: 0.9471 (1.0000):  76%|▊| 520/687 [00:12<00:04, 34.12it
+Epoch: 21/159 Phase: valid Loss: 0.4429 (0.4335) Acc: 0.0115 (0.1152) Rec B-EMPLOYMENT: 0.9460 (0.9000):  88%|▉| 605/687 [00:14<00:01, 42.89it
+Epoch: 21/159 Phase: valid Loss: 0.4429 (0.4335) Acc: 0.0115 (0.1152) Rec B-EMPLOYMENT: 0.9460 (0.9000):  88%|▉| 605/687 [00:14<00:01, 42.89it
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 22/159 Phase: train Loss: 0.2916 (0.2787) Acc: 0.0790 (0.1362) Rec B-EMPLOYMENT: 0.9665 (0.9468):   3%| | 14/429 [00:02<00:45,  9.13it/
+Epoch: 22/159 Phase: train Loss: 0.2854 (0.3197) Acc: 0.0791 (0.1350) Rec B-EMPLOYMENT: 0.9621 (0.9006):   8%| | 33/429 [00:04<00:44,  8.88it/
+Epoch: 22/159 Phase: train Loss: 0.2775 (0.2536) Acc: 0.0791 (0.1280) Rec B-EMPLOYMENT: 0.9637 (0.9792):  12%| | 51/429 [00:06<00:39,  9.61it/
+Epoch: 22/159 Phase: train Loss: 0.2718 (0.2802) Acc: 0.0795 (0.1326) Rec B-EMPLOYMENT: 0.9643 (0.8718):  17%|▏| 71/429 [00:08<00:37,  9.58it/
+Epoch: 22/159 Phase: train Loss: 0.2722 (0.3255) Acc: 0.0794 (0.1354) Rec B-EMPLOYMENT: 0.9653 (0.9349):  21%|▏| 90/429 [00:10<00:35,  9.54it/
+Epoch: 22/159 Phase: train Loss: 0.2714 (0.2467) Acc: 0.0795 (0.1387) Rec B-EMPLOYMENT: 0.9661 (0.9847):  24%|▏| 104/429 [00:11<00:35,  9.27it
+Epoch: 22/159 Phase: train Loss: 0.2707 (0.2101) Acc: 0.0797 (0.1340) Rec B-EMPLOYMENT: 0.9677 (0.9613):  29%|▎| 124/429 [00:13<00:31,  9.76it
+Epoch: 22/159 Phase: train Loss: 0.2698 (0.3210) Acc: 0.0801 (0.1382) Rec B-EMPLOYMENT: 0.9675 (0.9490):  33%|▎| 143/429 [00:15<00:29,  9.56it
+Epoch: 22/159 Phase: train Loss: 0.2687 (0.2293) Acc: 0.0802 (0.1491) Rec B-EMPLOYMENT: 0.9676 (0.9483):  38%|▍| 161/429 [00:17<00:33,  8.04it
+Epoch: 22/159 Phase: train Loss: 0.2699 (0.3072) Acc: 0.0803 (0.1301) Rec B-EMPLOYMENT: 0.9677 (0.9865):  42%|▍| 179/429 [00:19<00:26,  9.51it
+Epoch: 22/159 Phase: train Loss: 0.2708 (0.2890) Acc: 0.0802 (0.1346) Rec B-EMPLOYMENT: 0.9678 (0.9578):  46%|▍| 199/429 [00:21<00:23,  9.69it
+Epoch: 22/159 Phase: train Loss: 0.2726 (0.2468) Acc: 0.0803 (0.1285) Rec B-EMPLOYMENT: 0.9679 (0.9951):  51%|▌| 218/429 [00:23<00:21,  9.67it
+Epoch: 22/159 Phase: train Loss: 0.2726 (0.2612) Acc: 0.0804 (0.1385) Rec B-EMPLOYMENT: 0.9685 (0.9636):  55%|▌| 236/429 [00:25<00:19,  9.70it
+Epoch: 22/159 Phase: train Loss: 0.2744 (0.2588) Acc: 0.0804 (0.1620) Rec B-EMPLOYMENT: 0.9684 (0.9571):  60%|▌| 256/429 [00:27<00:18,  9.55it
+Epoch: 22/159 Phase: train Loss: 0.2737 (0.2734) Acc: 0.0803 (0.1312) Rec B-EMPLOYMENT: 0.9685 (0.9877):  64%|▋| 276/429 [00:29<00:15,  9.62it
+Epoch: 22/159 Phase: train Loss: 0.2727 (0.1765) Acc: 0.0803 (0.1390) Rec B-EMPLOYMENT: 0.9681 (0.9658):  68%|▋| 293/429 [00:31<00:17,  7.63it
+Epoch: 22/159 Phase: train Loss: 0.2717 (0.2641) Acc: 0.0804 (0.1352) Rec B-EMPLOYMENT: 0.9681 (1.0000):  73%|▋| 313/429 [00:33<00:12,  9.65it
+Epoch: 22/159 Phase: train Loss: 0.2730 (0.1932) Acc: 0.0805 (0.1347) Rec B-EMPLOYMENT: 0.9677 (0.9327):  77%|▊| 332/429 [00:35<00:10,  9.42it
+Epoch: 22/159 Phase: train Loss: 0.2717 (0.2567) Acc: 0.0805 (0.1442) Rec B-EMPLOYMENT: 0.9673 (0.9843):  82%|▊| 351/429 [00:37<00:08,  9.48it
+Epoch: 22/159 Phase: train Loss: 0.2726 (0.3720) Acc: 0.0805 (0.1592) Rec B-EMPLOYMENT: 0.9675 (0.9362):  86%|▊| 369/429 [00:39<00:06,  9.43it
+Epoch: 22/159 Phase: train Loss: 0.2726 (0.2904) Acc: 0.0804 (0.1395) Rec B-EMPLOYMENT: 0.9676 (1.0000):  90%|▉| 388/429 [00:41<00:04,  9.45it
+Epoch: 22/159 Phase: train Loss: 0.2727 (0.2838) Acc: 0.0803 (0.1250) Rec B-EMPLOYMENT: 0.9675 (0.9725):  95%|▉| 408/429 [00:43<00:02,  9.65it
+Epoch: 22/159 Phase: train Loss: 0.2728 (0.2183) Acc: 0.0803 (0.1232) Rec B-EMPLOYMENT: 0.9676 (0.9343): 100%|█| 429/429 [00:46<00:00, 11.03it
+Epoch: 22/159 Phase: valid Loss: 0.4114 (0.3001) Acc: 0.0116 (0.1945) Rec B-EMPLOYMENT: 0.9595 (nan):   8%|▏ | 55/687 [00:01<00:13, 45.87it/s]
+Epoch: 22/159 Phase: valid Loss: 0.4230 (0.2765) Acc: 0.0116 (0.1183) Rec B-EMPLOYMENT: 0.9481 (1.0000):  17%|▏| 120/687 [00:03<00:12, 44.67it
+Epoch: 22/159 Phase: valid Loss: 0.4522 (0.3953) Acc: 0.0116 (0.1303) Rec B-EMPLOYMENT: 0.9416 (0.8947):  31%|▎| 210/687 [00:05<00:11, 40.56it
+Epoch: 22/159 Phase: valid Loss: 0.4419 (0.3821) Acc: 0.0114 (0.0774) Rec B-EMPLOYMENT: 0.9450 (1.0000):  44%|▍| 301/687 [00:07<00:08, 46.26it
+Epoch: 22/159 Phase: valid Loss: 0.4421 (0.7957) Acc: 0.0114 (0.0900) Rec B-EMPLOYMENT: 0.9471 (0.9333):  56%|▌| 386/687 [00:09<00:06, 47.14it
+Epoch: 22/159 Phase: valid Loss: 0.4567 (0.9198) Acc: 0.0114 (0.1423) Rec B-EMPLOYMENT: 0.9448 (0.7500):  69%|▋| 476/687 [00:12<00:05, 41.82it
+Epoch: 22/159 Phase: valid Loss: 0.4452 (0.2150) Acc: 0.0114 (0.1181) Rec B-EMPLOYMENT: 0.9466 (nan):  79%|▊| 541/687 [00:13<00:03, 36.66it/s]
+Epoch: 22/159 Phase: valid Loss: 0.4423 (0.4938) Acc: 0.0115 (0.1153) Rec B-EMPLOYMENT: 0.9451 (0.8750):  88%|▉| 607/687 [00:15<00:02, 36.12it
+Epoch: 22/159 Phase: valid Loss: 0.4423 (0.4938) Acc: 0.0115 (0.1153) Rec B-EMPLOYMENT: 0.9451 (0.8750):  88%|▉| 607/687 [00:15<00:02, 36.12it
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 23/159 Phase: train Loss: 0.2808 (0.2834) Acc: 0.0790 (0.1349) Rec B-EMPLOYMENT: 0.9665 (0.9521):   3%| | 15/429 [00:02<00:44,  9.35it/
+Epoch: 23/159 Phase: train Loss: 0.2845 (0.2952) Acc: 0.0787 (0.1267) Rec B-EMPLOYMENT: 0.9643 (0.9401):   7%| | 31/429 [00:04<01:02,  6.40it/
+Epoch: 23/159 Phase: train Loss: 0.2807 (0.2550) Acc: 0.0789 (0.1283) Rec B-EMPLOYMENT: 0.9636 (0.9722):  12%| | 51/429 [00:06<00:39,  9.45it/
+Epoch: 23/159 Phase: train Loss: 0.2726 (0.2298) Acc: 0.0795 (0.1298) Rec B-EMPLOYMENT: 0.9657 (0.9868):  17%|▏| 71/429 [00:08<00:37,  9.62it/
+Epoch: 23/159 Phase: train Loss: 0.2742 (0.3310) Acc: 0.0793 (0.1350) Rec B-EMPLOYMENT: 0.9650 (0.9290):  21%|▏| 90/429 [00:10<00:35,  9.51it/
+Epoch: 23/159 Phase: train Loss: 0.2724 (0.2474) Acc: 0.0794 (0.1367) Rec B-EMPLOYMENT: 0.9653 (0.9422):  24%|▏| 105/429 [00:11<00:36,  8.96it
+Epoch: 23/159 Phase: train Loss: 0.2706 (0.1841) Acc: 0.0796 (0.1334) Rec B-EMPLOYMENT: 0.9666 (0.9669):  29%|▎| 123/429 [00:13<00:31,  9.59it
+Epoch: 23/159 Phase: train Loss: 0.2694 (0.2752) Acc: 0.0800 (0.1455) Rec B-EMPLOYMENT: 0.9659 (0.9677):  34%|▎| 144/429 [00:15<00:29,  9.62it
+Epoch: 23/159 Phase: train Loss: 0.2679 (0.2644) Acc: 0.0801 (0.1193) Rec B-EMPLOYMENT: 0.9661 (0.9851):  38%|▍| 161/429 [00:17<00:29,  9.16it
+Epoch: 23/159 Phase: train Loss: 0.2689 (0.2704) Acc: 0.0801 (0.1231) Rec B-EMPLOYMENT: 0.9659 (0.9352):  42%|▍| 181/429 [00:20<00:26,  9.50it
+Epoch: 23/159 Phase: train Loss: 0.2698 (0.3850) Acc: 0.0800 (0.1126) Rec B-EMPLOYMENT: 0.9664 (0.9924):  47%|▍| 200/429 [00:22<00:23,  9.67it
+Epoch: 23/159 Phase: train Loss: 0.2708 (0.1999) Acc: 0.0802 (0.1564) Rec B-EMPLOYMENT: 0.9665 (0.9658):  51%|▌| 219/429 [00:24<00:21,  9.66it
+Epoch: 23/159 Phase: train Loss: 0.2714 (0.2585) Acc: 0.0803 (0.1150) Rec B-EMPLOYMENT: 0.9673 (1.0000):  55%|▌| 236/429 [00:26<00:21,  8.78it
+Epoch: 23/159 Phase: train Loss: 0.2729 (0.2201) Acc: 0.0803 (0.1657) Rec B-EMPLOYMENT: 0.9678 (0.9693):  60%|▌| 256/429 [00:28<00:18,  9.49it
+Epoch: 23/159 Phase: train Loss: 0.2728 (0.2801) Acc: 0.0802 (0.1295) Rec B-EMPLOYMENT: 0.9675 (0.9691):  64%|▋| 275/429 [00:30<00:16,  9.60it
+Epoch: 23/159 Phase: train Loss: 0.2721 (0.1818) Acc: 0.0803 (0.1376) Rec B-EMPLOYMENT: 0.9675 (0.9795):  68%|▋| 292/429 [00:31<00:14,  9.52it
+Epoch: 23/159 Phase: train Loss: 0.2716 (0.2833) Acc: 0.0804 (0.1342) Rec B-EMPLOYMENT: 0.9674 (0.9754):  73%|▋| 313/429 [00:34<00:12,  9.52it
+Epoch: 23/159 Phase: train Loss: 0.2728 (0.2131) Acc: 0.0804 (0.1369) Rec B-EMPLOYMENT: 0.9674 (1.0000):  77%|▊| 330/429 [00:36<00:13,  7.45it
+Epoch: 23/159 Phase: train Loss: 0.2720 (0.2340) Acc: 0.0804 (0.1407) Rec B-EMPLOYMENT: 0.9672 (0.9365):  81%|▊| 346/429 [00:38<00:10,  7.56it
+Epoch: 23/159 Phase: train Loss: 0.2719 (0.2543) Acc: 0.0805 (0.1290) Rec B-EMPLOYMENT: 0.9672 (0.9500):  84%|▊| 361/429 [00:39<00:07,  8.83it
+Epoch: 23/159 Phase: train Loss: 0.2723 (0.3153) Acc: 0.0804 (0.1282) Rec B-EMPLOYMENT: 0.9672 (0.9558):  89%|▉| 380/429 [00:42<00:05,  9.47it
+Epoch: 23/159 Phase: train Loss: 0.2718 (0.2683) Acc: 0.0804 (0.1497) Rec B-EMPLOYMENT: 0.9674 (0.9923):  93%|▉| 398/429 [00:44<00:03,  9.46it
+Epoch: 23/159 Phase: train Loss: 0.2722 (0.3053) Acc: 0.0804 (0.1255) Rec B-EMPLOYMENT: 0.9672 (0.9934):  98%|▉| 419/429 [00:46<00:01,  9.62it
+Epoch: 23/159 Phase: valid Loss: 0.5043 (0.1840) Acc: 0.0109 (0.1106) Rec B-EMPLOYMENT: 0.9795 (0.9565):   2%| | 11/687 [00:00<00:41, 16.33it/
+Epoch: 23/159 Phase: valid Loss: 0.4215 (0.3097) Acc: 0.0116 (0.1404) Rec B-EMPLOYMENT: 0.9440 (0.9412):  12%| | 84/687 [00:02<00:14, 40.62it/
+Epoch: 23/159 Phase: valid Loss: 0.4383 (0.3447) Acc: 0.0116 (0.1172) Rec B-EMPLOYMENT: 0.9445 (0.8571):  22%|▏| 149/687 [00:04<00:12, 41.50it
+Epoch: 23/159 Phase: valid Loss: 0.4541 (0.3960) Acc: 0.0115 (0.1259) Rec B-EMPLOYMENT: 0.9404 (1.0000):  35%|▎| 239/687 [00:06<00:09, 45.63it
+Epoch: 23/159 Phase: valid Loss: 0.4436 (0.7108) Acc: 0.0114 (0.1215) Rec B-EMPLOYMENT: 0.9471 (nan):  47%|▍| 325/687 [00:08<00:07, 46.79it/s]
+Epoch: 23/159 Phase: valid Loss: 0.4458 (1.1961) Acc: 0.0114 (0.0875) Rec B-EMPLOYMENT: 0.9466 (1.0000):  59%|▌| 405/687 [00:10<00:07, 35.26it
+Epoch: 23/159 Phase: valid Loss: 0.4555 (0.2350) Acc: 0.0114 (0.1774) Rec B-EMPLOYMENT: 0.9449 (0.9474):  70%|▋| 480/687 [00:12<00:05, 40.92it
+Epoch: 23/159 Phase: valid Loss: 0.4430 (0.1817) Acc: 0.0115 (0.1266) Rec B-EMPLOYMENT: 0.9455 (1.0000):  83%|▊| 570/687 [00:14<00:02, 45.00it
+Epoch: 23/159 Phase: valid Loss: 0.4443 (0.4764) Acc: 0.0115 (0.1336) Rec B-EMPLOYMENT: 0.9463 (nan):  95%|▉| 655/687 [00:16<00:00, 45.65it/s]
+Epoch: 23/159 Phase: valid Loss: 0.4443 (0.4764) Acc: 0.0115 (0.1336) Rec B-EMPLOYMENT: 0.9463 (nan):  95%|▉| 655/687 [00:16<00:00, 45.65it/s]
+Epoch: 24/159 Phase: train Loss: 0.2527 (0.2276) Acc: 0.0813 (0.1660) Rec B-EMPLOYMENT: 0.9747 (0.9610):   0%| | 2/429 [00:00<01:37,  4.36it/s
+Epoch: 24/159 Phase: train Loss: 0.2712 (0.3177) Acc: 0.0793 (0.1402) Rec B-EMPLOYMENT: 0.9724 (0.9923):   5%| | 21/429 [00:02<00:42,  9.55it/
+Epoch: 24/159 Phase: train Loss: 0.2758 (0.2634) Acc: 0.0792 (0.1278) Rec B-EMPLOYMENT: 0.9678 (0.9708):   9%| | 39/429 [00:04<00:49,  7.96it/
+Epoch: 24/159 Phase: train Loss: 0.2694 (0.2880) Acc: 0.0798 (0.1408) Rec B-EMPLOYMENT: 0.9656 (0.9698):  13%|▏| 57/429 [00:06<00:38,  9.55it/
+Epoch: 24/159 Phase: train Loss: 0.2643 (0.1944) Acc: 0.0797 (0.1513) Rec B-EMPLOYMENT: 0.9667 (0.9769):  18%|▏| 76/429 [00:08<00:37,  9.48it/
+Epoch: 24/159 Phase: train Loss: 0.2670 (0.2282) Acc: 0.0795 (0.1629) Rec B-EMPLOYMENT: 0.9668 (0.9713):  23%|▏| 97/429 [00:10<00:34,  9.50it/
+Epoch: 24/159 Phase: train Loss: 0.2648 (0.1646) Acc: 0.0798 (0.1386) Rec B-EMPLOYMENT: 0.9681 (0.9799):  26%|▎| 113/429 [00:12<00:34,  9.22it
+Epoch: 24/159 Phase: train Loss: 0.2620 (0.1962) Acc: 0.0800 (0.1384) Rec B-EMPLOYMENT: 0.9688 (0.9835):  31%|▎| 133/429 [00:14<00:31,  9.31it
+Epoch: 24/159 Phase: train Loss: 0.2634 (0.2365) Acc: 0.0802 (0.1416) Rec B-EMPLOYMENT: 0.9687 (0.9681):  35%|▎| 151/429 [00:16<00:29,  9.38it
+Epoch: 24/159 Phase: train Loss: 0.2635 (0.2712) Acc: 0.0803 (0.1277) Rec B-EMPLOYMENT: 0.9687 (0.9573):  40%|▍| 170/429 [00:18<00:28,  9.21it
+Epoch: 24/159 Phase: train Loss: 0.2641 (0.2897) Acc: 0.0803 (0.1278) Rec B-EMPLOYMENT: 0.9688 (0.9912):  44%|▍| 188/429 [00:20<00:24,  9.72it
+Epoch: 24/159 Phase: train Loss: 0.2656 (0.3371) Acc: 0.0803 (0.1197) Rec B-EMPLOYMENT: 0.9689 (0.9792):  48%|▍| 207/429 [00:22<00:24,  9.15it
+Epoch: 24/159 Phase: train Loss: 0.2663 (0.3223) Acc: 0.0804 (0.1266) Rec B-EMPLOYMENT: 0.9689 (0.9826):  54%|▌| 230/429 [00:25<00:20,  9.75it
+Epoch: 24/159 Phase: train Loss: 0.2661 (0.3146) Acc: 0.0805 (0.1424) Rec B-EMPLOYMENT: 0.9695 (0.9859):  57%|▌| 245/429 [00:27<00:19,  9.33it
+Epoch: 24/159 Phase: train Loss: 0.2670 (0.3200) Acc: 0.0806 (0.1263) Rec B-EMPLOYMENT: 0.9691 (0.9732):  62%|▌| 264/429 [00:29<00:17,  9.52it
+Epoch: 24/159 Phase: train Loss: 0.2667 (0.2603) Acc: 0.0805 (0.1402) Rec B-EMPLOYMENT: 0.9693 (0.9345):  66%|▋| 283/429 [00:31<00:15,  9.48it
+Epoch: 24/159 Phase: train Loss: 0.2664 (0.3575) Acc: 0.0806 (0.1455) Rec B-EMPLOYMENT: 0.9687 (0.9821):  70%|▋| 301/429 [00:33<00:15,  8.05it
+Epoch: 24/159 Phase: train Loss: 0.2675 (0.3304) Acc: 0.0806 (0.1338) Rec B-EMPLOYMENT: 0.9685 (0.9684):  75%|▋| 320/429 [00:35<00:11,  9.52it
+Epoch: 24/159 Phase: train Loss: 0.2672 (0.3312) Acc: 0.0806 (0.1245) Rec B-EMPLOYMENT: 0.9684 (0.9885):  79%|▊| 339/429 [00:37<00:09,  9.63it
+Epoch: 24/159 Phase: train Loss: 0.2671 (0.2225) Acc: 0.0806 (0.1293) Rec B-EMPLOYMENT: 0.9684 (0.9695):  84%|▊| 359/429 [00:39<00:07,  9.74it
+Epoch: 24/159 Phase: train Loss: 0.2677 (0.2522) Acc: 0.0806 (0.1386) Rec B-EMPLOYMENT: 0.9684 (0.9706):  88%|▉| 376/429 [00:41<00:05,  9.45it
+Epoch: 24/159 Phase: train Loss: 0.2678 (0.2356) Acc: 0.0806 (0.1396) Rec B-EMPLOYMENT: 0.9680 (0.9320):  92%|▉| 394/429 [00:43<00:03,  9.48it
+Epoch: 24/159 Phase: train Loss: 0.2680 (0.3376) Acc: 0.0805 (0.1151) Rec B-EMPLOYMENT: 0.9675 (0.9801):  97%|▉| 415/429 [00:45<00:01,  9.66it
+Epoch: 24/159 Phase: valid Loss: 0.6099 (0.2276) Acc: 0.0119 (0.1256) Rec B-EMPLOYMENT: 1.0000 (1.0000):   0%| | 2/687 [00:00<02:35,  4.40it/s
+Epoch: 24/159 Phase: valid Loss: 0.4037 (0.3016) Acc: 0.0116 (0.1548) Rec B-EMPLOYMENT: 0.9583 (1.0000):   9%| | 60/687 [00:02<00:15, 39.86it/
+Epoch: 24/159 Phase: valid Loss: 0.4376 (0.3846) Acc: 0.0117 (0.1438) Rec B-EMPLOYMENT: 0.9457 (1.0000):  22%|▏| 149/687 [00:04<00:14, 36.82it
+Epoch: 24/159 Phase: valid Loss: 0.4495 (0.4357) Acc: 0.0116 (0.1471) Rec B-EMPLOYMENT: 0.9413 (1.0000):  32%|▎| 219/687 [00:06<00:11, 40.12it
+Epoch: 24/159 Phase: valid Loss: 0.4435 (0.3729) Acc: 0.0115 (0.1459) Rec B-EMPLOYMENT: 0.9443 (0.9200):  43%|▍| 292/687 [00:08<00:12, 32.03it
+Epoch: 24/159 Phase: valid Loss: 0.4375 (0.1959) Acc: 0.0114 (0.1076) Rec B-EMPLOYMENT: 0.9478 (1.0000):  54%|▌| 372/687 [00:10<00:07, 44.80it
+Epoch: 24/159 Phase: valid Loss: 0.4472 (0.3655) Acc: 0.0114 (0.1881) Rec B-EMPLOYMENT: 0.9464 (1.0000):  66%|▋| 452/687 [00:12<00:05, 45.34it
+Epoch: 24/159 Phase: valid Loss: 0.4477 (0.0810) Acc: 0.0114 (0.0863) Rec B-EMPLOYMENT: 0.9464 (1.0000):  76%|▊| 522/687 [00:14<00:03, 46.08it
+Epoch: 24/159 Phase: valid Loss: 0.4426 (0.6709) Acc: 0.0115 (0.1682) Rec B-EMPLOYMENT: 0.9453 (1.0000):  89%|▉| 612/687 [00:17<00:01, 37.94it
+Epoch: 24/159 Phase: valid Loss: 0.4465 (0.4361) Acc: 0.0115 (0.1389) Rec B-EMPLOYMENT: 0.9474 (1.0000):  99%|▉| 677/687 [00:18<00:00, 37.58it
+Epoch: 24/159 Phase: valid Loss: 0.4465 (0.4361) Acc: 0.0115 (0.1389) Rec B-EMPLOYMENT: 0.9474 (1.0000):  99%|▉| 677/687 [00:18<00:00, 37.58it
+Epoch: 25/159 Phase: train Loss: 0.2745 (0.2454) Acc: 0.0790 (0.1171) Rec B-EMPLOYMENT: 0.9662 (0.9588):   3%| | 12/429 [00:01<00:45,  9.09it/
+Epoch: 25/159 Phase: train Loss: 0.2800 (0.2612) Acc: 0.0789 (0.1247) Rec B-EMPLOYMENT: 0.9625 (0.9701):   7%| | 32/429 [00:03<00:41,  9.54it/
+Epoch: 25/159 Phase: train Loss: 0.2770 (0.2454) Acc: 0.0791 (0.1556) Rec B-EMPLOYMENT: 0.9626 (1.0000):  11%| | 49/429 [00:05<00:40,  9.29it/
+Epoch: 25/159 Phase: train Loss: 0.2728 (0.2406) Acc: 0.0796 (0.1395) Rec B-EMPLOYMENT: 0.9631 (0.9810):  16%|▏| 68/429 [00:07<00:37,  9.62it/
+Epoch: 25/159 Phase: train Loss: 0.2715 (0.2517) Acc: 0.0795 (0.1299) Rec B-EMPLOYMENT: 0.9646 (0.9727):  21%|▏| 88/429 [00:09<00:37,  9.19it/
+Epoch: 25/159 Phase: train Loss: 0.2694 (0.2597) Acc: 0.0795 (0.1189) Rec B-EMPLOYMENT: 0.9657 (0.9776):  25%|▏| 106/429 [00:11<00:40,  7.90it
+Epoch: 25/159 Phase: train Loss: 0.2682 (0.3341) Acc: 0.0798 (0.1415) Rec B-EMPLOYMENT: 0.9662 (0.9661):  29%|▎| 126/429 [00:14<00:31,  9.53it
+Epoch: 25/159 Phase: train Loss: 0.2659 (0.2559) Acc: 0.0801 (0.1218) Rec B-EMPLOYMENT: 0.9668 (0.9668):  34%|▎| 145/429 [00:16<00:29,  9.69it
+Epoch: 25/159 Phase: train Loss: 0.2648 (0.2648) Acc: 0.0803 (0.1361) Rec B-EMPLOYMENT: 0.9677 (0.9392):  38%|▍| 165/429 [00:18<00:27,  9.55it
+Epoch: 25/159 Phase: train Loss: 0.2663 (0.2504) Acc: 0.0804 (0.1233) Rec B-EMPLOYMENT: 0.9676 (0.9630):  42%|▍| 180/429 [00:20<00:27,  9.19it
+Epoch: 25/159 Phase: train Loss: 0.2664 (0.2306) Acc: 0.0804 (0.1389) Rec B-EMPLOYMENT: 0.9682 (0.9639):  46%|▍| 199/429 [00:21<00:26,  8.72it
+Epoch: 25/159 Phase: train Loss: 0.2683 (0.2373) Acc: 0.0804 (0.1283) Rec B-EMPLOYMENT: 0.9678 (0.9803):  51%|▌| 218/429 [00:24<00:25,  8.25it
+Epoch: 25/159 Phase: train Loss: 0.2674 (0.2314) Acc: 0.0805 (0.1321) Rec B-EMPLOYMENT: 0.9684 (0.9947):  55%|▌| 235/429 [00:26<00:27,  7.13it
+Epoch: 25/159 Phase: train Loss: 0.2679 (0.2952) Acc: 0.0805 (0.1456) Rec B-EMPLOYMENT: 0.9686 (0.9942):  58%|▌| 247/429 [00:28<00:24,  7.49it
+Epoch: 25/159 Phase: train Loss: 0.2685 (0.2258) Acc: 0.0806 (0.1452) Rec B-EMPLOYMENT: 0.9685 (0.9769):  62%|▌| 264/429 [00:30<00:17,  9.35it
+Epoch: 25/159 Phase: train Loss: 0.2677 (0.2085) Acc: 0.0805 (0.1319) Rec B-EMPLOYMENT: 0.9689 (0.9693):  66%|▋| 285/429 [00:32<00:14,  9.61it
+Epoch: 25/159 Phase: train Loss: 0.2676 (0.3655) Acc: 0.0806 (0.1440) Rec B-EMPLOYMENT: 0.9684 (0.9444):  71%|▋| 303/429 [00:34<00:15,  8.26it
+Epoch: 25/159 Phase: train Loss: 0.2682 (0.3068) Acc: 0.0806 (0.1540) Rec B-EMPLOYMENT: 0.9684 (0.9905):  75%|▋| 321/429 [00:36<00:11,  9.57it
+Epoch: 25/159 Phase: train Loss: 0.2680 (0.3156) Acc: 0.0806 (0.1462) Rec B-EMPLOYMENT: 0.9682 (0.9598):  80%|▊| 342/429 [00:38<00:09,  9.62it
+Epoch: 25/159 Phase: train Loss: 0.2679 (0.2684) Acc: 0.0806 (0.1261) Rec B-EMPLOYMENT: 0.9682 (0.9611):  84%|▊| 361/429 [00:40<00:07,  9.44it
+Epoch: 25/159 Phase: train Loss: 0.2682 (0.2810) Acc: 0.0805 (0.1257) Rec B-EMPLOYMENT: 0.9681 (0.9419):  88%|▉| 379/429 [00:42<00:05,  9.41it
+Epoch: 25/159 Phase: train Loss: 0.2681 (0.2536) Acc: 0.0805 (0.1268) Rec B-EMPLOYMENT: 0.9682 (0.9764):  93%|▉| 398/429 [00:44<00:03,  9.53it
+Epoch: 25/159 Phase: train Loss: 0.2685 (0.2912) Acc: 0.0805 (0.1246) Rec B-EMPLOYMENT: 0.9681 (0.9919):  97%|▉| 417/429 [00:46<00:01,  9.70it
+Epoch: 25/159 Phase: valid Loss: 1.0312 (1.0312) Acc: 0.0098 (0.1083) Rec B-EMPLOYMENT: 1.0000 (1.0000):   0%| | 1/687 [00:00<01:11,  9.59it/s
+Epoch: 25/159 Phase: valid Loss: 0.4068 (0.5067) Acc: 0.0116 (0.1140) Rec B-EMPLOYMENT: 0.9560 (0.7857):   9%| | 62/687 [00:02<00:22, 28.23it/
+Epoch: 25/159 Phase: valid Loss: 0.4249 (0.5001) Acc: 0.0116 (0.1117) Rec B-EMPLOYMENT: 0.9467 (0.7273):  20%|▏| 134/687 [00:04<00:21, 26.15it
+Epoch: 25/159 Phase: valid Loss: 0.4522 (0.3635) Acc: 0.0116 (0.1747) Rec B-EMPLOYMENT: 0.9419 (0.9783):  32%|▎| 223/687 [00:06<00:11, 40.93it
+Epoch: 25/159 Phase: valid Loss: 0.4422 (0.4059) Acc: 0.0114 (0.1409) Rec B-EMPLOYMENT: 0.9468 (1.0000):  45%|▍| 309/687 [00:08<00:08, 45.37it
+Epoch: 25/159 Phase: valid Loss: 0.4448 (1.0285) Acc: 0.0114 (0.1082) Rec B-EMPLOYMENT: 0.9464 (0.6875):  57%|▌| 390/687 [00:10<00:06, 47.13it
+Epoch: 25/159 Phase: valid Loss: 0.4523 (0.3368) Acc: 0.0114 (0.1331) Rec B-EMPLOYMENT: 0.9445 (0.8667):  67%|▋| 461/687 [00:12<00:04, 46.86it
+Epoch: 25/159 Phase: valid Loss: 0.4440 (0.1496) Acc: 0.0114 (0.1205) Rec B-EMPLOYMENT: 0.9468 (nan):  80%|▊| 552/687 [00:14<00:03, 40.33it/s]
+Epoch: 25/159 Phase: valid Loss: 0.4429 (0.3229) Acc: 0.0115 (0.1187) Rec B-EMPLOYMENT: 0.9454 (0.8333):  90%|▉| 617/687 [00:16<00:01, 40.33it
+Epoch: 25/159 Phase: valid Loss: 0.4464 (0.5486) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9478 (nan): 100%|█| 687/687 [00:18<00:00, 37.56it/s]
+Epoch: 25/159 Phase: valid Loss: 0.4464 (0.5486) Acc: 0.0115 (0.1118) Rec B-EMPLOYMENT: 0.9478 (nan): 100%|█| 687/687 [00:18<00:00, 37.56it/s]
+{'B-EMPLOYMENT_appended_data': 2575, 'I-EMPLOYMENT_appended_data': 735}
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 26/159 Phase: train Loss: 0.2583 (0.2971) Acc: 0.0801 (0.1525) Rec B-EMPLOYMENT: 0.9665 (0.9528):   4%| | 19/429 [00:02<00:42,  9.70it/
+Epoch: 26/159 Phase: train Loss: 0.2639 (0.2222) Acc: 0.0799 (0.1394) Rec B-EMPLOYMENT: 0.9644 (0.9685):   9%| | 37/429 [00:04<00:41,  9.53it/
+Epoch: 26/159 Phase: train Loss: 0.2621 (0.2242) Acc: 0.0803 (0.1397) Rec B-EMPLOYMENT: 0.9656 (0.9712):  13%|▏| 56/429 [00:06<00:47,  7.91it/
+Epoch: 26/159 Phase: train Loss: 0.2576 (0.2233) Acc: 0.0804 (0.1274) Rec B-EMPLOYMENT: 0.9666 (0.9669):  18%|▏| 76/429 [00:08<00:36,  9.58it/
+Epoch: 26/159 Phase: train Loss: 0.2598 (0.1605) Acc: 0.0802 (0.1347) Rec B-EMPLOYMENT: 0.9677 (0.9776):  22%|▏| 95/429 [00:10<00:34,  9.67it/
+Epoch: 26/159 Phase: train Loss: 0.2575 (0.2194) Acc: 0.0804 (0.1484) Rec B-EMPLOYMENT: 0.9686 (0.9802):  27%|▎| 115/429 [00:12<00:32,  9.63it
+Epoch: 26/159 Phase: train Loss: 0.2559 (0.2861) Acc: 0.0807 (0.1305) Rec B-EMPLOYMENT: 0.9692 (0.9940):  31%|▎| 134/429 [00:14<00:29,  9.93it
+Epoch: 26/159 Phase: train Loss: 0.2563 (0.2331) Acc: 0.0808 (0.1385) Rec B-EMPLOYMENT: 0.9692 (0.9843):  35%|▎| 151/429 [00:16<00:29,  9.36it
+Epoch: 26/159 Phase: train Loss: 0.2565 (0.2475) Acc: 0.0809 (0.1454) Rec B-EMPLOYMENT: 0.9697 (0.9667):  40%|▍| 171/429 [00:18<00:27,  9.39it
+Epoch: 26/159 Phase: train Loss: 0.2575 (0.2322) Acc: 0.0809 (0.1323) Rec B-EMPLOYMENT: 0.9700 (0.9552):  44%|▍| 189/429 [00:20<00:23, 10.02it
+Epoch: 26/159 Phase: train Loss: 0.2611 (0.2604) Acc: 0.0808 (0.1252) Rec B-EMPLOYMENT: 0.9697 (0.9455):  49%|▍| 209/429 [00:22<00:23,  9.44it
+Epoch: 26/159 Phase: train Loss: 0.2624 (0.3113) Acc: 0.0809 (0.1305) Rec B-EMPLOYMENT: 0.9701 (1.0000):  53%|▌| 227/429 [00:24<00:21,  9.28it
+Epoch: 26/159 Phase: train Loss: 0.2622 (0.2835) Acc: 0.0810 (0.1446) Rec B-EMPLOYMENT: 0.9707 (0.9595):  57%|▌| 246/429 [00:26<00:19,  9.55it
+Epoch: 26/159 Phase: train Loss: 0.2627 (0.2418) Acc: 0.0811 (0.1331) Rec B-EMPLOYMENT: 0.9704 (0.9556):  62%|▌| 265/429 [00:28<00:16,  9.69it
+Epoch: 26/159 Phase: train Loss: 0.2626 (0.1818) Acc: 0.0809 (0.1306) Rec B-EMPLOYMENT: 0.9706 (0.9880):  66%|▋| 284/429 [00:30<00:15,  9.37it
+Epoch: 26/159 Phase: train Loss: 0.2625 (0.2532) Acc: 0.0810 (0.1418) Rec B-EMPLOYMENT: 0.9697 (0.9796):  71%|▋| 304/429 [00:32<00:13,  9.53it
+Epoch: 26/159 Phase: train Loss: 0.2624 (0.2537) Acc: 0.0811 (0.1434) Rec B-EMPLOYMENT: 0.9695 (0.9842):  74%|▋| 319/429 [00:34<00:11,  9.56it
+Epoch: 26/159 Phase: train Loss: 0.2621 (0.2061) Acc: 0.0811 (0.1337) Rec B-EMPLOYMENT: 0.9696 (0.9598):  79%|▊| 337/429 [00:36<00:10,  8.41it
+Epoch: 26/159 Phase: train Loss: 0.2621 (0.3492) Acc: 0.0811 (0.1319) Rec B-EMPLOYMENT: 0.9695 (0.9524):  83%|▊| 355/429 [00:38<00:07,  9.52it
+Epoch: 26/159 Phase: train Loss: 0.2627 (0.2206) Acc: 0.0811 (0.1382) Rec B-EMPLOYMENT: 0.9695 (0.9712):  87%|▊| 375/429 [00:40<00:05,  9.69it
+Epoch: 26/159 Phase: train Loss: 0.2622 (0.1976) Acc: 0.0811 (0.1430) Rec B-EMPLOYMENT: 0.9695 (0.9812):  92%|▉| 394/429 [00:42<00:03,  9.64it
+Epoch: 26/159 Phase: train Loss: 0.2624 (0.3182) Acc: 0.0811 (0.1161) Rec B-EMPLOYMENT: 0.9693 (0.9942):  96%|▉| 412/429 [00:44<00:01,  9.52it
+Epoch: 26/159 Phase: valid Loss: 0.5477 (0.5716) Acc: 0.0109 (0.1535) Rec B-EMPLOYMENT: 1.0000 (nan):   2%|  | 11/687 [00:00<00:19, 34.09it/s]
+Epoch: 26/159 Phase: valid Loss: 0.4153 (0.1983) Acc: 0.0116 (0.1757) Rec B-EMPLOYMENT: 0.9467 (0.9600):  14%|▏| 98/687 [00:02<00:12, 46.41it/
+Epoch: 26/159 Phase: valid Loss: 0.4553 (0.2830) Acc: 0.0116 (0.0881) Rec B-EMPLOYMENT: 0.9427 (0.9750):  28%|▎| 190/687 [00:04<00:11, 45.03it
+Epoch: 26/159 Phase: valid Loss: 0.4450 (0.1061) Acc: 0.0115 (0.1626) Rec B-EMPLOYMENT: 0.9419 (0.9512):  41%|▍| 284/687 [00:06<00:08, 48.41it
+Epoch: 26/159 Phase: valid Loss: 0.4381 (0.5409) Acc: 0.0114 (0.1240) Rec B-EMPLOYMENT: 0.9475 (0.8947):  54%|▌| 368/687 [00:08<00:09, 34.25it
+Epoch: 26/159 Phase: valid Loss: 0.4496 (0.4121) Acc: 0.0114 (0.0810) Rec B-EMPLOYMENT: 0.9459 (1.0000):  66%|▋| 454/687 [00:10<00:05, 43.16it
+Epoch: 26/159 Phase: valid Loss: 0.4448 (0.3189) Acc: 0.0115 (0.1319) Rec B-EMPLOYMENT: 0.9456 (0.9600):  79%|▊| 545/687 [00:12<00:03, 47.31it
+Epoch: 26/159 Phase: valid Loss: 0.4454 (0.9181) Acc: 0.0115 (0.1509) Rec B-EMPLOYMENT: 0.9450 (1.0000):  91%|▉| 627/687 [00:14<00:01, 47.02it
+Epoch: 26/159 Phase: valid Loss: 0.4454 (0.9181) Acc: 0.0115 (0.1509) Rec B-EMPLOYMENT: 0.9450 (1.0000):  91%|▉| 627/687 [00:14<00:01, 47.02it
+Epoch: 27/159 Phase: train Loss: 0.3076 (0.3027) Acc: 0.0753 (0.1253) Rec B-EMPLOYMENT: 0.9729 (0.9574):   0%| | 2/429 [00:00<01:57,  3.65it/s
+Epoch: 27/159 Phase: train Loss: 0.2672 (0.2978) Acc: 0.0803 (0.1422) Rec B-EMPLOYMENT: 0.9669 (0.9217):   3%| | 13/429 [00:02<00:54,  7.60it/
+Epoch: 27/159 Phase: train Loss: 0.2760 (0.3649) Acc: 0.0794 (0.1307) Rec B-EMPLOYMENT: 0.9645 (0.9401):   8%| | 33/429 [00:04<00:40,  9.76it/
+Epoch: 27/159 Phase: train Loss: 0.2725 (0.3185) Acc: 0.0796 (0.1315) Rec B-EMPLOYMENT: 0.9641 (0.9761):  12%| | 52/429 [00:06<00:39,  9.52it/
+Epoch: 27/159 Phase: train Loss: 0.2636 (0.2275) Acc: 0.0800 (0.1344) Rec B-EMPLOYMENT: 0.9657 (0.9304):  17%|▏| 72/429 [00:08<00:37,  9.61it/
+Epoch: 27/159 Phase: train Loss: 0.2647 (0.2677) Acc: 0.0799 (0.1253) Rec B-EMPLOYMENT: 0.9660 (0.9781):  21%|▏| 90/429 [00:10<00:35,  9.43it/
+Epoch: 27/159 Phase: train Loss: 0.2622 (0.2317) Acc: 0.0802 (0.1388) Rec B-EMPLOYMENT: 0.9675 (0.9884):  25%|▎| 108/429 [00:12<00:32,  9.73it
+Epoch: 27/159 Phase: train Loss: 0.2604 (0.2393) Acc: 0.0805 (0.1506) Rec B-EMPLOYMENT: 0.9677 (0.9766):  30%|▎| 129/429 [00:14<00:31,  9.57it
+Epoch: 27/159 Phase: train Loss: 0.2602 (0.3022) Acc: 0.0807 (0.1285) Rec B-EMPLOYMENT: 0.9677 (0.9724):  34%|▎| 148/429 [00:16<00:30,  9.28it
+Epoch: 27/159 Phase: train Loss: 0.2595 (0.2367) Acc: 0.0808 (0.1342) Rec B-EMPLOYMENT: 0.9684 (0.9955):  39%|▍| 167/429 [00:18<00:27,  9.40it
+Epoch: 27/159 Phase: train Loss: 0.2593 (0.2133) Acc: 0.0809 (0.1280) Rec B-EMPLOYMENT: 0.9687 (0.9947):  43%|▍| 185/429 [00:20<00:25,  9.53it
+Epoch: 27/159 Phase: train Loss: 0.2611 (0.2323) Acc: 0.0807 (0.1441) Rec B-EMPLOYMENT: 0.9689 (0.9683):  48%|▍| 204/429 [00:22<00:23,  9.51it
+Epoch: 27/159 Phase: train Loss: 0.2631 (0.3564) Acc: 0.0808 (0.1440) Rec B-EMPLOYMENT: 0.9695 (0.9717):  52%|▌| 223/429 [00:24<00:21,  9.66it
+Epoch: 27/159 Phase: train Loss: 0.2627 (0.1831) Acc: 0.0810 (0.1360) Rec B-EMPLOYMENT: 0.9702 (0.9798):  57%|▌| 243/429 [00:26<00:19,  9.53it
+Epoch: 27/159 Phase: train Loss: 0.2642 (0.3416) Acc: 0.0810 (0.1537) Rec B-EMPLOYMENT: 0.9699 (0.9504):  61%|▌| 261/429 [00:28<00:17,  9.58it
+Epoch: 27/159 Phase: train Loss: 0.2639 (0.2144) Acc: 0.0808 (0.1607) Rec B-EMPLOYMENT: 0.9699 (0.9695):  65%|▋| 280/429 [00:30<00:16,  9.22it
+Epoch: 27/159 Phase: train Loss: 0.2626 (0.2106) Acc: 0.0810 (0.1294) Rec B-EMPLOYMENT: 0.9695 (0.9486):  70%|▋| 299/429 [00:32<00:13,  9.53it
+Epoch: 27/159 Phase: train Loss: 0.2632 (0.2916) Acc: 0.0810 (0.1378) Rec B-EMPLOYMENT: 0.9692 (0.9364):  74%|▋| 318/429 [00:34<00:11,  9.68it
+Epoch: 27/159 Phase: train Loss: 0.2638 (0.2338) Acc: 0.0810 (0.1285) Rec B-EMPLOYMENT: 0.9692 (0.9771):  78%|▊| 336/429 [00:36<00:09,  9.61it
+Epoch: 27/159 Phase: train Loss: 0.2634 (0.3290) Acc: 0.0810 (0.1380) Rec B-EMPLOYMENT: 0.9688 (0.9520):  83%|▊| 354/429 [00:38<00:07,  9.41it
+Epoch: 27/159 Phase: train Loss: 0.2643 (0.2708) Acc: 0.0810 (0.1362) Rec B-EMPLOYMENT: 0.9690 (0.9514):  87%|▊| 375/429 [00:40<00:05,  9.67it
+Epoch: 27/159 Phase: train Loss: 0.2645 (0.2873) Acc: 0.0809 (0.1596) Rec B-EMPLOYMENT: 0.9688 (0.9748):  92%|▉| 394/429 [00:42<00:03,  9.58it
+Epoch: 27/159 Phase: train Loss: 0.2646 (0.2832) Acc: 0.0809 (0.1631) Rec B-EMPLOYMENT: 0.9687 (0.9494):  95%|▉| 407/429 [00:44<00:02,  8.32it
+Epoch: 27/159 Phase: train Loss: 0.2650 (0.3542) Acc: 0.0809 (0.1203) Rec B-EMPLOYMENT: 0.9687 (0.9814): 100%|▉| 427/429 [00:46<00:00, 10.68it
+Epoch: 27/159 Phase: valid Loss: 0.4088 (0.5111) Acc: 0.0116 (0.1146) Rec B-EMPLOYMENT: 0.9567 (0.7857):   9%| | 62/687 [00:01<00:15, 40.85it/
+Epoch: 27/159 Phase: valid Loss: 0.4372 (0.2517) Acc: 0.0117 (0.1550) Rec B-EMPLOYMENT: 0.9471 (nan):  22%|▏| 153/687 [00:03<00:11, 45.83it/s]
+Epoch: 27/159 Phase: valid Loss: 0.4550 (0.2173) Acc: 0.0115 (0.1695) Rec B-EMPLOYMENT: 0.9424 (1.0000):  34%|▎| 233/687 [00:05<00:09, 47.85it
+Epoch: 27/159 Phase: valid Loss: 0.4445 (0.1608) Acc: 0.0114 (0.0918) Rec B-EMPLOYMENT: 0.9483 (1.0000):  48%|▍| 327/687 [00:07<00:08, 43.47it
+Epoch: 27/159 Phase: valid Loss: 0.4471 (0.5895) Acc: 0.0114 (0.1284) Rec B-EMPLOYMENT: 0.9470 (0.9444):  60%|▌| 414/687 [00:09<00:05, 46.11it
+Epoch: 27/159 Phase: valid Loss: 0.4542 (0.3412) Acc: 0.0114 (0.1462) Rec B-EMPLOYMENT: 0.9459 (0.8519):  73%|▋| 501/687 [00:11<00:03, 46.79it
+Epoch: 27/159 Phase: valid Loss: 0.4445 (1.5483) Acc: 0.0115 (0.0958) Rec B-EMPLOYMENT: 0.9456 (0.9286):  86%|▊| 588/687 [00:14<00:02, 41.48it
+Epoch: 27/159 Phase: valid Loss: 0.4473 (0.9381) Acc: 0.0115 (0.1652) Rec B-EMPLOYMENT: 0.9474 (1.0000):  98%|▉| 676/687 [00:16<00:00, 46.53it
+Epoch: 28/159 Phase: train Loss: 0.2754 (0.3541) Acc: 0.0803 (0.1384) Rec B-EMPLOYMENT: 0.9789 (0.9779):   1%| | 6/429 [00:01<01:03,  6.68it/s
+Epoch: 28/159 Phase: train Loss: 0.2754 (0.3541) Acc: 0.0803 (0.1384) Rec B-EMPLOYMENT: 0.9789 (0.9779):   1%| | 6/429 [00:01<01:03,  6.68it/s
+Epoch: 28/159 Phase: train Loss: 0.2660 (0.2905) Acc: 0.0793 (0.1364) Rec B-EMPLOYMENT: 0.9701 (0.9396):   6%| | 24/429 [00:03<00:48,  8.41it/
+Epoch: 28/159 Phase: train Loss: 0.2706 (0.2491) Acc: 0.0794 (0.1240) Rec B-EMPLOYMENT: 0.9682 (0.9935):  10%| | 43/429 [00:05<00:40,  9.57it/
+Epoch: 28/159 Phase: train Loss: 0.2644 (0.1752) Acc: 0.0800 (0.1420) Rec B-EMPLOYMENT: 0.9685 (0.9812):  14%|▏| 62/429 [00:07<00:38,  9.63it/
+Epoch: 28/159 Phase: train Loss: 0.2624 (0.3280) Acc: 0.0802 (0.1391) Rec B-EMPLOYMENT: 0.9686 (0.9671):  19%|▏| 81/429 [00:09<00:42,  8.17it/
+Epoch: 28/159 Phase: train Loss: 0.2639 (0.2989) Acc: 0.0800 (0.1324) Rec B-EMPLOYMENT: 0.9686 (0.9720):  23%|▏| 100/429 [00:11<00:34,  9.46it
+Epoch: 28/159 Phase: train Loss: 0.2636 (0.2784) Acc: 0.0803 (0.1555) Rec B-EMPLOYMENT: 0.9701 (0.9784):  28%|▎| 120/429 [00:13<00:31,  9.70it
+Epoch: 28/159 Phase: train Loss: 0.2611 (0.2400) Acc: 0.0805 (0.1337) Rec B-EMPLOYMENT: 0.9703 (0.9852):  32%|▎| 139/429 [00:15<00:30,  9.62it
+Epoch: 28/159 Phase: train Loss: 0.2598 (0.2658) Acc: 0.0806 (0.1588) Rec B-EMPLOYMENT: 0.9698 (0.9829):  37%|▎| 157/429 [00:17<00:29,  9.38it
+Epoch: 28/159 Phase: train Loss: 0.2602 (0.3661) Acc: 0.0808 (0.1325) Rec B-EMPLOYMENT: 0.9700 (0.9067):  41%|▍| 176/429 [00:19<00:26,  9.58it
+Epoch: 28/159 Phase: train Loss: 0.2605 (0.2605) Acc: 0.0807 (0.1409) Rec B-EMPLOYMENT: 0.9707 (0.9851):  45%|▍| 194/429 [00:21<00:24,  9.70it
+Epoch: 28/159 Phase: train Loss: 0.2618 (0.3250) Acc: 0.0808 (0.1652) Rec B-EMPLOYMENT: 0.9701 (0.9379):  50%|▍| 213/429 [00:23<00:26,  8.23it
+Epoch: 28/159 Phase: train Loss: 0.2627 (0.2769) Acc: 0.0809 (0.1531) Rec B-EMPLOYMENT: 0.9703 (0.9664):  54%|▌| 232/429 [00:25<00:20,  9.59it
+Epoch: 28/159 Phase: train Loss: 0.2630 (0.2344) Acc: 0.0809 (0.1447) Rec B-EMPLOYMENT: 0.9709 (0.9756):  58%|▌| 250/429 [00:27<00:19,  9.30it
+Epoch: 28/159 Phase: train Loss: 0.2633 (0.2333) Acc: 0.0810 (0.1416) Rec B-EMPLOYMENT: 0.9705 (0.9371):  63%|▋| 270/429 [00:29<00:16,  9.59it
+Epoch: 28/159 Phase: train Loss: 0.2631 (0.2195) Acc: 0.0809 (0.1425) Rec B-EMPLOYMENT: 0.9704 (0.9204):  67%|▋| 288/429 [00:31<00:15,  9.32it
+Epoch: 28/159 Phase: train Loss: 0.2618 (0.2442) Acc: 0.0810 (0.1412) Rec B-EMPLOYMENT: 0.9706 (0.9563):  72%|▋| 308/429 [00:33<00:12,  9.51it
+Epoch: 28/159 Phase: train Loss: 0.2627 (0.3869) Acc: 0.0810 (0.1332) Rec B-EMPLOYMENT: 0.9706 (0.9718):  76%|▊| 327/429 [00:35<00:11,  9.23it
+Epoch: 28/159 Phase: train Loss: 0.2627 (0.2989) Acc: 0.0810 (0.1364) Rec B-EMPLOYMENT: 0.9701 (0.9792):  80%|▊| 343/429 [00:37<00:11,  7.36it
+Epoch: 28/159 Phase: train Loss: 0.2626 (0.1545) Acc: 0.0810 (0.1308) Rec B-EMPLOYMENT: 0.9702 (0.9624):  85%|▊| 363/429 [00:39<00:07,  9.21it
+Epoch: 28/159 Phase: train Loss: 0.2632 (0.1939) Acc: 0.0809 (0.1200) Rec B-EMPLOYMENT: 0.9701 (1.0000):  89%|▉| 381/429 [00:41<00:05,  9.43it
+Epoch: 28/159 Phase: train Loss: 0.2633 (0.3380) Acc: 0.0810 (0.1456) Rec B-EMPLOYMENT: 0.9703 (0.9684):  92%|▉| 396/429 [00:43<00:03,  9.58it
+Epoch: 28/159 Phase: train Loss: 0.2635 (0.2567) Acc: 0.0810 (0.1318) Rec B-EMPLOYMENT: 0.9700 (0.8870):  97%|▉| 414/429 [00:45<00:01,  9.30it
+Epoch: 28/159 Phase: valid Loss: 0.4883 (0.1830) Acc: 0.0109 (0.1185) Rec B-EMPLOYMENT: 0.9553 (0.9000):   2%| | 17/687 [00:00<00:16, 41.34it/
+Epoch: 28/159 Phase: valid Loss: 0.4157 (0.5848) Acc: 0.0116 (0.1026) Rec B-EMPLOYMENT: 0.9510 (0.8571):  15%|▏| 102/687 [00:02<00:12, 46.07it
+Epoch: 28/159 Phase: valid Loss: 0.4596 (0.2623) Acc: 0.0115 (0.1281) Rec B-EMPLOYMENT: 0.9448 (1.0000):  28%|▎| 194/687 [00:04<00:11, 42.68it
+Epoch: 28/159 Phase: valid Loss: 0.4502 (0.5118) Acc: 0.0115 (0.1165) Rec B-EMPLOYMENT: 0.9423 (0.9333):  38%|▍| 262/687 [00:06<00:09, 43.18it
+Epoch: 28/159 Phase: valid Loss: 0.4412 (0.2748) Acc: 0.0114 (0.0982) Rec B-EMPLOYMENT: 0.9492 (1.0000):  51%|▌| 352/687 [00:08<00:06, 47.95it
+Epoch: 28/159 Phase: valid Loss: 0.4459 (0.3084) Acc: 0.0114 (0.1168) Rec B-EMPLOYMENT: 0.9458 (1.0000):  63%|▋| 435/687 [00:10<00:05, 47.25it
+Epoch: 28/159 Phase: valid Loss: 0.4482 (0.0813) Acc: 0.0114 (0.0868) Rec B-EMPLOYMENT: 0.9465 (1.0000):  76%|▊| 525/687 [00:12<00:03, 42.32it
+Epoch: 28/159 Phase: valid Loss: 0.4443 (1.5429) Acc: 0.0115 (0.0938) Rec B-EMPLOYMENT: 0.9457 (0.9286):  86%|▊| 591/687 [00:14<00:02, 42.10it
+Epoch: 28/159 Phase: valid Loss: 0.4471 (0.9451) Acc: 0.0115 (0.1666) Rec B-EMPLOYMENT: 0.9473 (1.0000):  99%|▉| 678/687 [00:16<00:00, 46.17it
+Epoch: 29/159 Phase: train Loss: 0.2624 (0.2684) Acc: 0.0804 (0.1332) Rec B-EMPLOYMENT: 0.9743 (0.9832):   3%| | 11/429 [00:01<00:47,  8.83it/
+Epoch: 29/159 Phase: train Loss: 0.2624 (0.2684) Acc: 0.0804 (0.1332) Rec B-EMPLOYMENT: 0.9743 (0.9832):   3%| | 11/429 [00:01<00:47,  8.83it/
+Epoch: 29/159 Phase: train Loss: 0.2657 (0.3285) Acc: 0.0796 (0.1244) Rec B-EMPLOYMENT: 0.9702 (0.9503):   6%| | 27/429 [00:03<00:42,  9.45it/
+Epoch: 29/159 Phase: train Loss: 0.2664 (0.3732) Acc: 0.0798 (0.1431) Rec B-EMPLOYMENT: 0.9667 (1.0000):  11%| | 47/429 [00:05<00:40,  9.37it/
+Epoch: 29/159 Phase: train Loss: 0.2624 (0.3017) Acc: 0.0802 (0.1376) Rec B-EMPLOYMENT: 0.9666 (0.9404):  15%|▏| 66/429 [00:07<00:37,  9.57it/
+Epoch: 29/159 Phase: train Loss: 0.2599 (0.3034) Acc: 0.0804 (0.1409) Rec B-EMPLOYMENT: 0.9673 (0.9837):  19%|▏| 82/429 [00:09<00:44,  7.84it/
+Epoch: 29/159 Phase: train Loss: 0.2617 (0.3183) Acc: 0.0802 (0.1481) Rec B-EMPLOYMENT: 0.9681 (0.9760):  24%|▏| 102/429 [00:11<00:34,  9.40it
+Epoch: 29/159 Phase: train Loss: 0.2605 (0.3198) Acc: 0.0805 (0.1320) Rec B-EMPLOYMENT: 0.9693 (0.9771):  28%|▎| 122/429 [00:13<00:30,  9.92it
+Epoch: 29/159 Phase: train Loss: 0.2596 (0.2487) Acc: 0.0807 (0.1326) Rec B-EMPLOYMENT: 0.9684 (0.9901):  33%|▎| 141/429 [00:15<00:29,  9.72it
+Epoch: 29/159 Phase: train Loss: 0.2599 (0.2637) Acc: 0.0807 (0.1461) Rec B-EMPLOYMENT: 0.9684 (0.9817):  37%|▎| 157/429 [00:17<00:29,  9.25it
+Epoch: 29/159 Phase: train Loss: 0.2604 (0.1673) Acc: 0.0808 (0.1435) Rec B-EMPLOYMENT: 0.9683 (0.9778):  41%|▍| 178/429 [00:19<00:26,  9.64it
+Epoch: 29/159 Phase: train Loss: 0.2603 (0.2338) Acc: 0.0808 (0.1450) Rec B-EMPLOYMENT: 0.9688 (0.9660):  46%|▍| 197/429 [00:21<00:24,  9.60it
+Epoch: 29/159 Phase: train Loss: 0.2623 (0.2841) Acc: 0.0808 (0.1609) Rec B-EMPLOYMENT: 0.9688 (0.9914):  50%|▍| 214/429 [00:23<00:26,  8.04it
+Epoch: 29/159 Phase: train Loss: 0.2629 (0.2387) Acc: 0.0809 (0.1458) Rec B-EMPLOYMENT: 0.9692 (0.9809):  54%|▌| 233/429 [00:25<00:20,  9.38it
+Epoch: 29/159 Phase: train Loss: 0.2638 (0.2491) Acc: 0.0809 (0.1455) Rec B-EMPLOYMENT: 0.9697 (0.9792):  59%|▌| 253/429 [00:27<00:17,  9.90it
+Epoch: 29/159 Phase: train Loss: 0.2641 (0.3206) Acc: 0.0809 (0.1287) Rec B-EMPLOYMENT: 0.9694 (0.9815):  63%|▋| 272/429 [00:29<00:16,  9.77it
+Epoch: 29/159 Phase: train Loss: 0.2637 (0.2495) Acc: 0.0808 (0.1232) Rec B-EMPLOYMENT: 0.9694 (0.9595):  67%|▋| 289/429 [00:31<00:15,  9.13it
+Epoch: 29/159 Phase: train Loss: 0.2626 (0.2454) Acc: 0.0810 (0.1397) Rec B-EMPLOYMENT: 0.9694 (0.9696):  72%|▋| 309/429 [00:34<00:12,  9.61it
+Epoch: 29/159 Phase: train Loss: 0.2631 (0.2617) Acc: 0.0810 (0.1345) Rec B-EMPLOYMENT: 0.9696 (0.9657):  76%|▊| 327/429 [00:36<00:10,  9.42it
+Epoch: 29/159 Phase: train Loss: 0.2625 (0.2164) Acc: 0.0810 (0.1326) Rec B-EMPLOYMENT: 0.9693 (0.9479):  80%|▊| 345/429 [00:38<00:10,  7.95it
+Epoch: 29/159 Phase: train Loss: 0.2622 (0.2695) Acc: 0.0810 (0.1398) Rec B-EMPLOYMENT: 0.9693 (0.9784):  85%|▊| 364/429 [00:40<00:06,  9.45it
+Epoch: 29/159 Phase: train Loss: 0.2629 (0.3121) Acc: 0.0809 (0.1358) Rec B-EMPLOYMENT: 0.9688 (0.9432):  89%|▉| 383/429 [00:42<00:04,  9.96it
+Epoch: 29/159 Phase: train Loss: 0.2627 (0.2768) Acc: 0.0809 (0.1200) Rec B-EMPLOYMENT: 0.9690 (0.9846):  93%|▉| 401/429 [00:44<00:02,  9.68it
+Epoch: 29/159 Phase: train Loss: 0.2627 (0.2134) Acc: 0.0809 (0.1408) Rec B-EMPLOYMENT: 0.9690 (0.9677):  97%|▉| 415/429 [00:45<00:01,  8.87it
+Epoch: 29/159 Phase: valid Loss: 0.4771 (0.2979) Acc: 0.0110 (0.1177) Rec B-EMPLOYMENT: 0.9489 (0.8571):   2%| | 14/687 [00:00<00:17, 38.20it/
+Epoch: 29/159 Phase: valid Loss: 0.4184 (0.0657) Acc: 0.0116 (0.1145) Rec B-EMPLOYMENT: 0.9488 (1.0000):  15%|▏| 106/687 [00:02<00:12, 46.35it
+Epoch: 29/159 Phase: valid Loss: 0.4585 (0.7423) Acc: 0.0117 (0.0639) Rec B-EMPLOYMENT: 0.9448 (0.8000):  25%|▏| 171/687 [00:04<00:11, 45.82it
+Epoch: 29/159 Phase: valid Loss: 0.4499 (0.3535) Acc: 0.0115 (0.1239) Rec B-EMPLOYMENT: 0.9410 (0.8571):  38%|▍| 263/687 [00:06<00:10, 41.41it
+Epoch: 29/159 Phase: valid Loss: 0.4411 (0.5982) Acc: 0.0114 (0.2025) Rec B-EMPLOYMENT: 0.9487 (1.0000):  51%|▌| 350/687 [00:08<00:07, 46.09it
+Epoch: 29/159 Phase: valid Loss: 0.4440 (0.2846) Acc: 0.0114 (0.1741) Rec B-EMPLOYMENT: 0.9463 (1.0000):  62%|▌| 426/687 [00:10<00:05, 45.49it
+Epoch: 29/159 Phase: valid Loss: 0.4546 (0.3380) Acc: 0.0114 (0.1469) Rec B-EMPLOYMENT: 0.9454 (0.9524):  73%|▋| 502/687 [00:12<00:03, 47.11it
+Epoch: 29/159 Phase: valid Loss: 0.4437 (0.1646) Acc: 0.0115 (0.1519) Rec B-EMPLOYMENT: 0.9450 (0.9688):  86%|▊| 594/687 [00:14<00:02, 41.55it
+Epoch: 29/159 Phase: valid Loss: 0.4466 (0.2629) Acc: 0.0115 (0.1259) Rec B-EMPLOYMENT: 0.9471 (1.0000):  99%|▉| 679/687 [00:17<00:00, 45.52it
+Epoch: 30/159 Phase: train Loss: 0.2663 (0.2756) Acc: 0.0796 (0.1152) Rec B-EMPLOYMENT: 0.9665 (0.9458):   3%| | 12/429 [00:01<00:47,  8.78it/
+Epoch: 30/159 Phase: train Loss: 0.2663 (0.2756) Acc: 0.0796 (0.1152) Rec B-EMPLOYMENT: 0.9665 (0.9458):   3%| | 12/429 [00:01<00:47,  8.78it/
+Epoch: 30/159 Phase: train Loss: 0.2688 (0.3122) Acc: 0.0796 (0.1539) Rec B-EMPLOYMENT: 0.9635 (0.9367):   7%| | 29/429 [00:03<00:42,  9.40it/
+Epoch: 30/159 Phase: train Loss: 0.2669 (0.3856) Acc: 0.0795 (0.1414) Rec B-EMPLOYMENT: 0.9621 (0.9623):  11%| | 48/429 [00:05<00:40,  9.47it/
+Epoch: 30/159 Phase: train Loss: 0.2619 (0.2148) Acc: 0.0800 (0.1365) Rec B-EMPLOYMENT: 0.9649 (0.9702):  15%|▏| 65/429 [00:07<00:38,  9.52it/
+Epoch: 30/159 Phase: train Loss: 0.2607 (0.2581) Acc: 0.0801 (0.1242) Rec B-EMPLOYMENT: 0.9642 (0.9487):  18%|▏| 79/429 [00:09<00:36,  9.51it/
+Epoch: 30/159 Phase: train Loss: 0.2620 (0.3126) Acc: 0.0799 (0.1314) Rec B-EMPLOYMENT: 0.9653 (0.9500):  23%|▏| 98/429 [00:11<00:35,  9.43it/
+Epoch: 30/159 Phase: train Loss: 0.2594 (0.2941) Acc: 0.0802 (0.1263) Rec B-EMPLOYMENT: 0.9673 (0.9720):  28%|▎| 118/429 [00:13<00:32,  9.50it
+Epoch: 30/159 Phase: train Loss: 0.2585 (0.2553) Acc: 0.0805 (0.1408) Rec B-EMPLOYMENT: 0.9677 (0.9718):  32%|▎| 136/429 [00:15<00:30,  9.57it
+Epoch: 30/159 Phase: train Loss: 0.2579 (0.1951) Acc: 0.0805 (0.1418) Rec B-EMPLOYMENT: 0.9686 (0.9920):  36%|▎| 154/429 [00:17<00:31,  8.84it
+Epoch: 30/159 Phase: train Loss: 0.2599 (0.2414) Acc: 0.0807 (0.1375) Rec B-EMPLOYMENT: 0.9684 (0.9874):  40%|▍| 173/429 [00:19<00:27,  9.45it
+Epoch: 30/159 Phase: train Loss: 0.2604 (0.2736) Acc: 0.0807 (0.1485) Rec B-EMPLOYMENT: 0.9690 (0.9600):  45%|▍| 191/429 [00:21<00:25,  9.50it
+Epoch: 30/159 Phase: train Loss: 0.2618 (0.1865) Acc: 0.0806 (0.1348) Rec B-EMPLOYMENT: 0.9690 (0.9840):  49%|▍| 209/429 [00:23<00:23,  9.29it
+Epoch: 30/159 Phase: train Loss: 0.2624 (0.1991) Acc: 0.0808 (0.1400) Rec B-EMPLOYMENT: 0.9692 (0.9790):  53%|▌| 229/429 [00:25<00:21,  9.24it
+Epoch: 30/159 Phase: train Loss: 0.2633 (0.2481) Acc: 0.0808 (0.1356) Rec B-EMPLOYMENT: 0.9700 (0.9864):  58%|▌| 249/429 [00:27<00:18,  9.50it
+Epoch: 30/159 Phase: train Loss: 0.2639 (0.2890) Acc: 0.0809 (0.1389) Rec B-EMPLOYMENT: 0.9693 (0.9691):  62%|▌| 268/429 [00:29<00:16,  9.73it
+Epoch: 30/159 Phase: train Loss: 0.2634 (0.3573) Acc: 0.0808 (0.1188) Rec B-EMPLOYMENT: 0.9695 (0.9741):  66%|▋| 285/429 [00:31<00:16,  8.63it
+Epoch: 30/159 Phase: train Loss: 0.2622 (0.2201) Acc: 0.0809 (0.1350) Rec B-EMPLOYMENT: 0.9689 (0.9381):  70%|▋| 300/429 [00:33<00:13,  9.55it
+Epoch: 30/159 Phase: train Loss: 0.2633 (0.2755) Acc: 0.0809 (0.1445) Rec B-EMPLOYMENT: 0.9688 (0.9789):  74%|▋| 318/429 [00:35<00:11,  9.56it
+Epoch: 30/159 Phase: train Loss: 0.2628 (0.2853) Acc: 0.0810 (0.1263) Rec B-EMPLOYMENT: 0.9689 (0.9778):  79%|▊| 339/429 [00:37<00:09,  9.65it
+Epoch: 30/159 Phase: train Loss: 0.2625 (0.3641) Acc: 0.0810 (0.1329) Rec B-EMPLOYMENT: 0.9688 (0.9583):  83%|▊| 356/429 [00:39<00:07,  9.26it
+Epoch: 30/159 Phase: train Loss: 0.2630 (0.2750) Acc: 0.0810 (0.1353) Rec B-EMPLOYMENT: 0.9689 (0.9375):  87%|▊| 375/429 [00:41<00:05,  9.20it
+Epoch: 30/159 Phase: train Loss: 0.2628 (0.2451) Acc: 0.0809 (0.1335) Rec B-EMPLOYMENT: 0.9689 (0.9744):  91%|▉| 392/429 [00:43<00:04,  8.82it
+Epoch: 30/159 Phase: train Loss: 0.2630 (0.2161) Acc: 0.0809 (0.1567) Rec B-EMPLOYMENT: 0.9688 (0.9753):  96%|▉| 412/429 [00:45<00:02,  7.72it
+Epoch: 30/159 Phase: valid Loss: 0.8522 (0.6590) Acc: 0.0094 (0.0937) Rec B-EMPLOYMENT: 1.0000 (1.0000):   0%| | 1/687 [00:00<01:18,  8.75it/s
+Epoch: 30/159 Phase: valid Loss: 0.4236 (0.2632) Acc: 0.0116 (0.1308) Rec B-EMPLOYMENT: 0.9451 (1.0000):  13%|▏| 86/687 [00:02<00:13, 44.25it/
+Epoch: 30/159 Phase: valid Loss: 0.4362 (0.2715) Acc: 0.0117 (0.1295) Rec B-EMPLOYMENT: 0.9457 (0.9565):  23%|▏| 157/687 [00:04<00:11, 46.05it
+Epoch: 30/159 Phase: valid Loss: 0.4543 (0.3970) Acc: 0.0115 (0.1259) Rec B-EMPLOYMENT: 0.9413 (1.0000):  35%|▎| 240/687 [00:06<00:09, 46.91it
+Epoch: 30/159 Phase: valid Loss: 0.4420 (0.5907) Acc: 0.0114 (0.1209) Rec B-EMPLOYMENT: 0.9449 (nan):  45%|▍| 306/687 [00:07<00:07, 47.96it/s]
+Epoch: 30/159 Phase: valid Loss: 0.4447 (0.6316) Acc: 0.0114 (0.1248) Rec B-EMPLOYMENT: 0.9460 (1.0000):  57%|▌| 394/687 [00:10<00:07, 38.23it
+Epoch: 30/159 Phase: valid Loss: 0.4545 (0.3350) Acc: 0.0114 (0.1437) Rec B-EMPLOYMENT: 0.9452 (0.9643):  71%|▋| 486/687 [00:12<00:04, 45.27it
+Epoch: 30/159 Phase: valid Loss: 0.4446 (0.9267) Acc: 0.0115 (0.1540) Rec B-EMPLOYMENT: 0.9460 (0.8000):  80%|▊| 553/687 [00:14<00:02, 46.39it
+Epoch: 30/159 Phase: valid Loss: 0.4461 (0.3679) Acc: 0.0115 (0.1154) Rec B-EMPLOYMENT: 0.9452 (1.0000):  92%|▉| 634/687 [00:16<00:01, 46.55it
+Epoch: 30/159 Phase: valid Loss: 0.4466 (0.5829) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9472 (nan): 100%|█| 687/687 [00:17<00:00, 39.47it/s]
+Epoch: 30/159 Phase: valid Loss: 0.4466 (0.5829) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9472 (nan): 100%|█| 687/687 [00:17<00:00, 39.47it/s]
+{'B-EMPLOYMENT_appended_data': 2345, 'I-EMPLOYMENT_appended_data': 748}
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 31/159 Phase: train Loss: 0.2597 (0.2404) Acc: 0.0805 (0.1608) Rec B-EMPLOYMENT: 0.9640 (0.9602):   4%| | 16/429 [00:02<00:54,  7.56it/
+Epoch: 31/159 Phase: train Loss: 0.2699 (0.3247) Acc: 0.0800 (0.1322) Rec B-EMPLOYMENT: 0.9649 (0.9375):   8%| | 34/429 [00:04<00:41,  9.52it/
+Epoch: 31/159 Phase: train Loss: 0.2631 (0.1920) Acc: 0.0806 (0.1564) Rec B-EMPLOYMENT: 0.9660 (0.9648):  13%|▏| 54/429 [00:06<00:39,  9.57it/
+Epoch: 31/159 Phase: train Loss: 0.2558 (0.2416) Acc: 0.0807 (0.1459) Rec B-EMPLOYMENT: 0.9678 (0.9675):  17%|▏| 73/429 [00:08<00:37,  9.46it/
+Epoch: 31/159 Phase: train Loss: 0.2577 (0.2538) Acc: 0.0804 (0.1310) Rec B-EMPLOYMENT: 0.9672 (0.9466):  21%|▏| 92/429 [00:10<00:36,  9.28it/
+Epoch: 31/159 Phase: train Loss: 0.2563 (0.2526) Acc: 0.0806 (0.1341) Rec B-EMPLOYMENT: 0.9682 (0.9755):  26%|▎| 110/429 [00:12<00:33,  9.65it
+Epoch: 31/159 Phase: train Loss: 0.2553 (0.1935) Acc: 0.0808 (0.1276) Rec B-EMPLOYMENT: 0.9694 (0.9795):  31%|▎| 131/429 [00:14<00:31,  9.46it
+Epoch: 31/159 Phase: train Loss: 0.2558 (0.2672) Acc: 0.0810 (0.1471) Rec B-EMPLOYMENT: 0.9698 (0.9860):  35%|▎| 149/429 [00:16<00:36,  7.61it
+Epoch: 31/159 Phase: train Loss: 0.2541 (0.1976) Acc: 0.0812 (0.1447) Rec B-EMPLOYMENT: 0.9699 (0.9804):  38%|▍| 164/429 [00:18<00:27,  9.47it
+Epoch: 31/159 Phase: train Loss: 0.2541 (0.1765) Acc: 0.0813 (0.1274) Rec B-EMPLOYMENT: 0.9696 (0.9765):  42%|▍| 182/429 [00:19<00:25,  9.69it
+Epoch: 31/159 Phase: train Loss: 0.2566 (0.3429) Acc: 0.0810 (0.1246) Rec B-EMPLOYMENT: 0.9696 (0.9669):  47%|▍| 202/429 [00:21<00:23,  9.59it
+Epoch: 31/159 Phase: train Loss: 0.2584 (0.1925) Acc: 0.0812 (0.1578) Rec B-EMPLOYMENT: 0.9696 (0.9737):  51%|▌| 220/429 [00:23<00:23,  9.02it
+Epoch: 31/159 Phase: train Loss: 0.2586 (0.2947) Acc: 0.0813 (0.1341) Rec B-EMPLOYMENT: 0.9698 (0.9798):  56%|▌| 239/429 [00:26<00:19,  9.61it
+Epoch: 31/159 Phase: train Loss: 0.2587 (0.2153) Acc: 0.0814 (0.1322) Rec B-EMPLOYMENT: 0.9697 (0.9799):  60%|▌| 258/429 [00:28<00:17,  9.54it
+Epoch: 31/159 Phase: train Loss: 0.2592 (0.2258) Acc: 0.0812 (0.1324) Rec B-EMPLOYMENT: 0.9697 (0.9783):  65%|▋| 279/429 [00:30<00:15,  9.65it
+Epoch: 31/159 Phase: train Loss: 0.2581 (0.2514) Acc: 0.0814 (0.1686) Rec B-EMPLOYMENT: 0.9695 (0.9940):  69%|▋| 296/429 [00:32<00:13,  9.53it
+Epoch: 31/159 Phase: train Loss: 0.2574 (0.2107) Acc: 0.0814 (0.1531) Rec B-EMPLOYMENT: 0.9694 (0.9726):  74%|▋| 316/429 [00:34<00:11,  9.61it
+Epoch: 31/159 Phase: train Loss: 0.2583 (0.2201) Acc: 0.0814 (0.1301) Rec B-EMPLOYMENT: 0.9695 (0.9952):  78%|▊| 334/429 [00:36<00:09,  9.51it
+Epoch: 31/159 Phase: train Loss: 0.2579 (0.3103) Acc: 0.0815 (0.1366) Rec B-EMPLOYMENT: 0.9696 (0.9898):  82%|▊| 352/429 [00:38<00:08,  8.73it
+Epoch: 31/159 Phase: train Loss: 0.2588 (0.2959) Acc: 0.0815 (0.1250) Rec B-EMPLOYMENT: 0.9699 (0.9947):  86%|▊| 371/429 [00:40<00:06,  9.56it
+Epoch: 31/159 Phase: train Loss: 0.2582 (0.2276) Acc: 0.0814 (0.1430) Rec B-EMPLOYMENT: 0.9698 (0.9592):  91%|▉| 392/429 [00:42<00:03,  9.61it
+Epoch: 31/159 Phase: train Loss: 0.2581 (0.1994) Acc: 0.0814 (0.1564) Rec B-EMPLOYMENT: 0.9697 (0.9666):  96%|▉| 412/429 [00:44<00:01,  9.65it
+  0%|                                                                                                                 | 0/687 [00:00<?, ?it/s]
+Epoch: 31/159 Phase: valid Loss: 0.4188 (0.2160) Acc: 0.0117 (0.0965) Rec B-EMPLOYMENT: 0.9456 (0.6842):  12%| | 80/687 [00:02<00:13, 45.05it/
+Epoch: 31/159 Phase: valid Loss: 0.4570 (1.2057) Acc: 0.0117 (0.1225) Rec B-EMPLOYMENT: 0.9462 (0.9394):  25%|▏| 171/687 [00:04<00:10, 47.63it
+Epoch: 31/159 Phase: valid Loss: 0.4518 (0.2277) Acc: 0.0115 (0.1033) Rec B-EMPLOYMENT: 0.9414 (0.9778):  37%|▎| 253/687 [00:06<00:11, 38.32it
+Epoch: 31/159 Phase: valid Loss: 0.4419 (0.2997) Acc: 0.0114 (0.1476) Rec B-EMPLOYMENT: 0.9483 (1.0000):  50%|▌| 346/687 [00:08<00:07, 45.85it
+Epoch: 31/159 Phase: valid Loss: 0.4479 (0.4577) Acc: 0.0114 (0.1538) Rec B-EMPLOYMENT: 0.9454 (nan):  63%|▋| 435/687 [00:10<00:05, 47.80it/s]
+Epoch: 31/159 Phase: valid Loss: 0.4509 (0.2874) Acc: 0.0114 (0.1815) Rec B-EMPLOYMENT: 0.9462 (1.0000):  76%|▊| 521/687 [00:12<00:04, 38.25it
+Epoch: 31/159 Phase: valid Loss: 0.4431 (0.3499) Acc: 0.0115 (0.1041) Rec B-EMPLOYMENT: 0.9449 (1.0000):  89%|▉| 613/687 [00:14<00:01, 45.98it
+Epoch: 31/159 Phase: valid Loss: 0.4431 (0.3499) Acc: 0.0115 (0.1041) Rec B-EMPLOYMENT: 0.9449 (1.0000):  89%|▉| 613/687 [00:14<00:01, 45.98it
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 32/159 Phase: train Loss: 0.2642 (0.1969) Acc: 0.0800 (0.1354) Rec B-EMPLOYMENT: 0.9621 (0.9622):   4%| | 16/429 [00:02<00:43,  9.47it/
+Epoch: 32/159 Phase: train Loss: 0.2676 (0.2075) Acc: 0.0798 (0.1318) Rec B-EMPLOYMENT: 0.9664 (0.9730):   8%| | 36/429 [00:04<00:41,  9.48it/
+Epoch: 32/159 Phase: train Loss: 0.2643 (0.2857) Acc: 0.0801 (0.1365) Rec B-EMPLOYMENT: 0.9668 (0.9650):  12%| | 50/429 [00:05<00:40,  9.46it/
+Epoch: 32/159 Phase: train Loss: 0.2602 (0.1883) Acc: 0.0805 (0.1378) Rec B-EMPLOYMENT: 0.9683 (0.9956):  16%|▏| 70/429 [00:07<00:37,  9.59it/
+Epoch: 32/159 Phase: train Loss: 0.2602 (0.2183) Acc: 0.0804 (0.1350) Rec B-EMPLOYMENT: 0.9677 (0.9403):  20%|▏| 87/429 [00:09<00:46,  7.36it/
+Epoch: 32/159 Phase: train Loss: 0.2595 (0.2261) Acc: 0.0804 (0.1416) Rec B-EMPLOYMENT: 0.9684 (0.9793):  25%|▏| 107/429 [00:11<00:34,  9.41it
+Epoch: 32/159 Phase: train Loss: 0.2591 (0.2183) Acc: 0.0807 (0.1433) Rec B-EMPLOYMENT: 0.9692 (0.9869):  29%|▎| 126/429 [00:13<00:31,  9.50it
+Epoch: 32/159 Phase: train Loss: 0.2582 (0.2422) Acc: 0.0810 (0.1369) Rec B-EMPLOYMENT: 0.9687 (0.9803):  34%|▎| 146/429 [00:15<00:29,  9.71it
+Epoch: 32/159 Phase: train Loss: 0.2567 (0.3346) Acc: 0.0811 (0.1388) Rec B-EMPLOYMENT: 0.9694 (0.9792):  38%|▍| 162/429 [00:17<00:29,  9.16it
+Epoch: 32/159 Phase: train Loss: 0.2583 (0.1850) Acc: 0.0812 (0.1254) Rec B-EMPLOYMENT: 0.9688 (0.9812):  43%|▍| 183/429 [00:19<00:25,  9.71it
+Epoch: 32/159 Phase: train Loss: 0.2597 (0.3240) Acc: 0.0810 (0.1279) Rec B-EMPLOYMENT: 0.9691 (0.9669):  47%|▍| 202/429 [00:21<00:23,  9.53it
+Epoch: 32/159 Phase: train Loss: 0.2606 (0.1896) Acc: 0.0812 (0.1609) Rec B-EMPLOYMENT: 0.9692 (0.9868):  51%|▌| 219/429 [00:23<00:30,  6.89it
+Epoch: 32/159 Phase: train Loss: 0.2614 (0.3141) Acc: 0.0813 (0.1417) Rec B-EMPLOYMENT: 0.9700 (0.9787):  56%|▌| 239/429 [00:25<00:19,  9.57it
+Epoch: 32/159 Phase: train Loss: 0.2616 (0.2209) Acc: 0.0814 (0.1338) Rec B-EMPLOYMENT: 0.9701 (0.9849):  60%|▌| 259/429 [00:28<00:17,  9.57it
+Epoch: 32/159 Phase: train Loss: 0.2616 (0.2509) Acc: 0.0812 (0.1302) Rec B-EMPLOYMENT: 0.9700 (0.9630):  65%|▋| 277/429 [00:29<00:15,  9.51it
+Epoch: 32/159 Phase: train Loss: 0.2604 (0.2276) Acc: 0.0814 (0.1456) Rec B-EMPLOYMENT: 0.9699 (0.9843):  69%|▋| 296/429 [00:32<00:13,  9.57it
+Epoch: 32/159 Phase: train Loss: 0.2600 (0.2557) Acc: 0.0814 (0.1325) Rec B-EMPLOYMENT: 0.9697 (0.9756):  73%|▋| 315/429 [00:34<00:11,  9.55it
+Epoch: 32/159 Phase: train Loss: 0.2602 (0.2008) Acc: 0.0815 (0.1494) Rec B-EMPLOYMENT: 0.9697 (0.9622):  78%|▊| 333/429 [00:36<00:10,  9.47it
+Epoch: 32/159 Phase: train Loss: 0.2594 (0.2943) Acc: 0.0815 (0.1336) Rec B-EMPLOYMENT: 0.9695 (0.9675):  83%|▊| 354/429 [00:38<00:08,  8.38it
+Epoch: 32/159 Phase: train Loss: 0.2601 (0.2010) Acc: 0.0815 (0.1303) Rec B-EMPLOYMENT: 0.9697 (0.9796):  87%|▊| 373/429 [00:40<00:05,  9.53it
+Epoch: 32/159 Phase: train Loss: 0.2596 (0.1950) Acc: 0.0815 (0.1465) Rec B-EMPLOYMENT: 0.9694 (0.9898):  91%|▉| 392/429 [00:42<00:03,  9.45it
+Epoch: 32/159 Phase: train Loss: 0.2596 (0.2451) Acc: 0.0814 (0.1489) Rec B-EMPLOYMENT: 0.9694 (0.9926):  96%|▉| 410/429 [00:44<00:02,  8.83it
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)0.9310): 100%|█| 429/429 [00:46<00:00,  9.26it
+Epoch: 32/159 Phase: valid Loss: 0.4150 (0.3030) Acc: 0.0116 (0.1955) Rec B-EMPLOYMENT: 0.9595 (nan):   8%|▏ | 57/687 [00:01<00:18, 34.56it/s]
+Epoch: 32/159 Phase: valid Loss: 0.4403 (1.7718) Acc: 0.0116 (0.0560) Rec B-EMPLOYMENT: 0.9486 (0.9130):  21%|▏| 142/687 [00:03<00:13, 41.50it
+Epoch: 32/159 Phase: valid Loss: 0.4556 (0.2918) Acc: 0.0116 (0.1441) Rec B-EMPLOYMENT: 0.9423 (0.8919):  33%|▎| 227/687 [00:05<00:10, 44.21it
+Epoch: 32/159 Phase: valid Loss: 0.4426 (0.4244) Acc: 0.0114 (0.1297) Rec B-EMPLOYMENT: 0.9480 (0.9750):  46%|▍| 313/687 [00:07<00:07, 47.36it
+Epoch: 32/159 Phase: valid Loss: 0.4448 (0.2564) Acc: 0.0114 (0.1369) Rec B-EMPLOYMENT: 0.9478 (0.9524):  58%|▌| 398/687 [00:09<00:07, 38.47it
+Epoch: 32/159 Phase: valid Loss: 0.4560 (0.2625) Acc: 0.0114 (0.1393) Rec B-EMPLOYMENT: 0.9467 (0.9655):  71%|▋| 488/687 [00:11<00:04, 44.34it
+Epoch: 32/159 Phase: valid Loss: 0.4441 (0.2663) Acc: 0.0115 (0.1249) Rec B-EMPLOYMENT: 0.9474 (nan):  81%|▊| 558/687 [00:13<00:02, 45.75it/s]
+Epoch: 32/159 Phase: valid Loss: 0.4467 (0.3504) Acc: 0.0115 (0.1058) Rec B-EMPLOYMENT: 0.9470 (1.0000):  94%|▉| 643/687 [00:15<00:00, 46.42it
+Epoch: 32/159 Phase: valid Loss: 0.4467 (0.3504) Acc: 0.0115 (0.1058) Rec B-EMPLOYMENT: 0.9470 (1.0000):  94%|▉| 643/687 [00:15<00:00, 46.42it
+Epoch: 33/159 Phase: train Loss: 0.2434 (0.2368) Acc: 0.0816 (0.1465) Rec B-EMPLOYMENT: 0.9677 (0.9668):   1%| | 5/429 [00:00<01:14,  5.71it/s
+Epoch: 33/159 Phase: train Loss: 0.2526 (0.2042) Acc: 0.0801 (0.1348) Rec B-EMPLOYMENT: 0.9684 (0.9371):   5%| | 22/429 [00:02<00:43,  9.40it/
+Epoch: 33/159 Phase: train Loss: 0.2598 (0.3220) Acc: 0.0800 (0.1345) Rec B-EMPLOYMENT: 0.9676 (0.9467):  10%| | 41/429 [00:04<00:41,  9.38it/
+Epoch: 33/159 Phase: train Loss: 0.2598 (0.2078) Acc: 0.0805 (0.1230) Rec B-EMPLOYMENT: 0.9672 (0.9867):  14%|▏| 61/429 [00:07<00:38,  9.51it/
+Epoch: 33/159 Phase: train Loss: 0.2555 (0.2714) Acc: 0.0807 (0.1459) Rec B-EMPLOYMENT: 0.9694 (0.9877):  18%|▏| 79/429 [00:08<00:35,  9.73it/
+Epoch: 33/159 Phase: train Loss: 0.2567 (0.2814) Acc: 0.0805 (0.1332) Rec B-EMPLOYMENT: 0.9685 (0.9701):  23%|▏| 97/429 [00:11<00:37,  8.94it/
+Epoch: 33/159 Phase: train Loss: 0.2559 (0.2630) Acc: 0.0807 (0.1434) Rec B-EMPLOYMENT: 0.9694 (0.9783):  27%|▎| 116/429 [00:13<00:34,  9.16it
+Epoch: 33/159 Phase: train Loss: 0.2544 (0.2679) Acc: 0.0809 (0.1376) Rec B-EMPLOYMENT: 0.9699 (0.9870):  31%|▎| 135/429 [00:15<00:30,  9.50it
+Epoch: 33/159 Phase: train Loss: 0.2540 (0.1954) Acc: 0.0810 (0.1431) Rec B-EMPLOYMENT: 0.9693 (0.9846):  36%|▎| 154/429 [00:17<00:29,  9.46it
+Epoch: 33/159 Phase: train Loss: 0.2550 (0.2408) Acc: 0.0812 (0.1416) Rec B-EMPLOYMENT: 0.9691 (0.9878):  40%|▍| 173/429 [00:19<00:27,  9.41it
+Epoch: 33/159 Phase: train Loss: 0.2546 (0.2790) Acc: 0.0812 (0.1503) Rec B-EMPLOYMENT: 0.9699 (0.9706):  45%|▍| 191/429 [00:21<00:24,  9.58it
+Epoch: 33/159 Phase: train Loss: 0.2559 (0.2134) Acc: 0.0811 (0.1525) Rec B-EMPLOYMENT: 0.9699 (0.9668):  49%|▍| 210/429 [00:23<00:23,  9.40it
+Epoch: 33/159 Phase: train Loss: 0.2598 (0.2322) Acc: 0.0812 (0.1329) Rec B-EMPLOYMENT: 0.9698 (0.9870):  52%|▌| 225/429 [00:24<00:25,  8.00it
+Epoch: 33/159 Phase: train Loss: 0.2603 (0.3216) Acc: 0.0814 (0.1337) Rec B-EMPLOYMENT: 0.9709 (0.9784):  57%|▌| 244/429 [00:26<00:19,  9.53it
+Epoch: 33/159 Phase: train Loss: 0.2621 (0.2721) Acc: 0.0814 (0.1358) Rec B-EMPLOYMENT: 0.9706 (0.9467):  61%|▌| 262/429 [00:28<00:17,  9.45it
+Epoch: 33/159 Phase: train Loss: 0.2614 (0.1871) Acc: 0.0812 (0.1324) Rec B-EMPLOYMENT: 0.9706 (0.9617):  66%|▋| 282/429 [00:30<00:15,  9.54it
+Epoch: 33/159 Phase: train Loss: 0.2597 (0.3208) Acc: 0.0814 (0.1446) Rec B-EMPLOYMENT: 0.9704 (0.9917):  70%|▋| 300/429 [00:33<00:13,  9.31it
+Epoch: 33/159 Phase: train Loss: 0.2597 (0.3621) Acc: 0.0814 (0.1340) Rec B-EMPLOYMENT: 0.9701 (0.9706):  75%|▋| 320/429 [00:35<00:11,  9.64it
+Epoch: 33/159 Phase: train Loss: 0.2601 (0.2983) Acc: 0.0815 (0.1287) Rec B-EMPLOYMENT: 0.9702 (0.9894):  79%|▊| 339/429 [00:37<00:09,  9.71it
+Epoch: 33/159 Phase: train Loss: 0.2597 (0.2852) Acc: 0.0815 (0.1434) Rec B-EMPLOYMENT: 0.9702 (0.9863):  83%|▊| 357/429 [00:39<00:08,  8.59it
+Epoch: 33/159 Phase: train Loss: 0.2601 (0.2271) Acc: 0.0814 (0.1391) Rec B-EMPLOYMENT: 0.9703 (0.9797):  88%|▉| 376/429 [00:41<00:05,  9.50it
+Epoch: 33/159 Phase: train Loss: 0.2603 (0.2605) Acc: 0.0814 (0.1447) Rec B-EMPLOYMENT: 0.9703 (0.9869):  92%|▉| 396/429 [00:43<00:03,  9.54it
+Epoch: 33/159 Phase: train Loss: 0.2599 (0.3026) Acc: 0.0814 (0.1224) Rec B-EMPLOYMENT: 0.9702 (0.9824):  97%|▉| 414/429 [00:45<00:01,  9.47it
+Epoch: 33/159 Phase: valid Loss: 0.5366 (0.5111) Acc: 0.0113 (0.1002) Rec B-EMPLOYMENT: 1.0000 (1.0000):   1%| | 6/687 [00:00<00:24, 27.96it/s
+Epoch: 33/159 Phase: valid Loss: 0.4198 (0.4840) Acc: 0.0115 (0.1165) Rec B-EMPLOYMENT: 0.9493 (0.9583):  14%|▏| 96/687 [00:02<00:13, 43.81it/
+Epoch: 33/159 Phase: valid Loss: 0.4550 (0.5425) Acc: 0.0116 (0.1534) Rec B-EMPLOYMENT: 0.9453 (1.0000):  26%|▎| 181/687 [00:04<00:10, 47.36it
+Epoch: 33/159 Phase: valid Loss: 0.4500 (0.1558) Acc: 0.0116 (0.1811) Rec B-EMPLOYMENT: 0.9416 (1.0000):  36%|▎| 246/687 [00:06<00:09, 44.56it
+Epoch: 33/159 Phase: valid Loss: 0.4416 (0.0664) Acc: 0.0114 (0.1696) Rec B-EMPLOYMENT: 0.9482 (0.9231):  49%|▍| 336/687 [00:08<00:08, 39.30it
+Epoch: 33/159 Phase: valid Loss: 0.4454 (0.4520) Acc: 0.0114 (0.1062) Rec B-EMPLOYMENT: 0.9470 (0.7500):  62%|▌| 426/687 [00:10<00:05, 45.08it
+Epoch: 33/159 Phase: valid Loss: 0.4560 (0.1960) Acc: 0.0114 (0.1333) Rec B-EMPLOYMENT: 0.9462 (0.9688):  71%|▋| 491/687 [00:12<00:04, 44.70it
+Epoch: 33/159 Phase: valid Loss: 0.4444 (0.3883) Acc: 0.0115 (0.1694) Rec B-EMPLOYMENT: 0.9463 (0.9375):  84%|▊| 576/687 [00:14<00:02, 46.53it
+Epoch: 33/159 Phase: valid Loss: 0.4468 (0.5993) Acc: 0.0115 (0.1618) Rec B-EMPLOYMENT: 0.9471 (0.9730):  97%|▉| 666/687 [00:16<00:00, 38.99it
+Epoch: 33/159 Phase: valid Loss: 0.4468 (0.5993) Acc: 0.0115 (0.1618) Rec B-EMPLOYMENT: 0.9471 (0.9730):  97%|▉| 666/687 [00:16<00:00, 38.99it
+Epoch: 34/159 Phase: train Loss: 0.2674 (0.2955) Acc: 0.0807 (0.1275) Rec B-EMPLOYMENT: 0.9711 (0.9490):   2%| | 9/429 [00:01<00:53,  7.79it/s
+Epoch: 34/159 Phase: train Loss: 0.2559 (0.1938) Acc: 0.0796 (0.1266) Rec B-EMPLOYMENT: 0.9685 (0.9635):   6%| | 25/429 [00:03<01:01,  6.59it/
+Epoch: 34/159 Phase: train Loss: 0.2602 (0.2362) Acc: 0.0801 (0.1573) Rec B-EMPLOYMENT: 0.9671 (0.9500):  11%| | 46/429 [00:05<00:40,  9.45it/
+Epoch: 34/159 Phase: train Loss: 0.2581 (0.2215) Acc: 0.0804 (0.1311) Rec B-EMPLOYMENT: 0.9686 (0.9834):  15%|▏| 64/429 [00:07<00:37,  9.63it/
+Epoch: 34/159 Phase: train Loss: 0.2565 (0.2644) Acc: 0.0806 (0.1274) Rec B-EMPLOYMENT: 0.9687 (0.9579):  19%|▏| 83/429 [00:09<00:36,  9.47it/
+Epoch: 34/159 Phase: train Loss: 0.2563 (0.2569) Acc: 0.0805 (0.1568) Rec B-EMPLOYMENT: 0.9682 (0.9825):  24%|▏| 102/429 [00:11<00:35,  9.17it
+Epoch: 34/159 Phase: train Loss: 0.2548 (0.2959) Acc: 0.0809 (0.1464) Rec B-EMPLOYMENT: 0.9696 (0.9632):  28%|▎| 121/429 [00:13<00:30, 10.04it
+Epoch: 34/159 Phase: train Loss: 0.2530 (0.2251) Acc: 0.0811 (0.1431) Rec B-EMPLOYMENT: 0.9695 (0.9518):  32%|▎| 139/429 [00:15<00:31,  9.33it
+Epoch: 34/159 Phase: train Loss: 0.2532 (0.2043) Acc: 0.0811 (0.1610) Rec B-EMPLOYMENT: 0.9691 (0.9831):  36%|▎| 156/429 [00:17<00:41,  6.50it
+Epoch: 34/159 Phase: train Loss: 0.2536 (0.3684) Acc: 0.0813 (0.1310) Rec B-EMPLOYMENT: 0.9695 (0.9205):  41%|▍| 176/429 [00:19<00:26,  9.48it
+Epoch: 34/159 Phase: train Loss: 0.2543 (0.2408) Acc: 0.0813 (0.1399) Rec B-EMPLOYMENT: 0.9699 (0.9787):  45%|▍| 194/429 [00:21<00:24,  9.67it
+Epoch: 34/159 Phase: train Loss: 0.2555 (0.3289) Acc: 0.0813 (0.1594) Rec B-EMPLOYMENT: 0.9697 (0.9510):  50%|▍| 214/429 [00:23<00:22,  9.55it
+Epoch: 34/159 Phase: train Loss: 0.2561 (0.2229) Acc: 0.0813 (0.1445) Rec B-EMPLOYMENT: 0.9700 (0.9898):  54%|▌| 231/429 [00:25<00:21,  9.14it
+Epoch: 34/159 Phase: train Loss: 0.2568 (0.2468) Acc: 0.0814 (0.1464) Rec B-EMPLOYMENT: 0.9709 (0.9449):  58%|▌| 250/429 [00:27<00:18,  9.49it
+Epoch: 34/159 Phase: train Loss: 0.2576 (0.2438) Acc: 0.0815 (0.1395) Rec B-EMPLOYMENT: 0.9704 (0.9894):  63%|▋| 270/429 [00:29<00:16,  9.92it
+Epoch: 34/159 Phase: train Loss: 0.2569 (0.1829) Acc: 0.0814 (0.1298) Rec B-EMPLOYMENT: 0.9707 (0.9821):  66%|▋| 285/429 [00:31<00:15,  9.56it
+Epoch: 34/159 Phase: train Loss: 0.2566 (0.3218) Acc: 0.0815 (0.1327) Rec B-EMPLOYMENT: 0.9704 (0.9875):  70%|▋| 301/429 [00:33<00:13,  9.38it
+Epoch: 34/159 Phase: train Loss: 0.2571 (0.3128) Acc: 0.0815 (0.1424) Rec B-EMPLOYMENT: 0.9705 (0.9621):  75%|▋| 321/429 [00:35<00:11,  9.58it
+Epoch: 34/159 Phase: train Loss: 0.2562 (0.2067) Acc: 0.0815 (0.1307) Rec B-EMPLOYMENT: 0.9704 (0.9541):  79%|▊| 340/429 [00:37<00:09,  9.66it
+Epoch: 34/159 Phase: train Loss: 0.2561 (0.2227) Acc: 0.0816 (0.1343) Rec B-EMPLOYMENT: 0.9704 (0.9837):  83%|▊| 358/429 [00:39<00:09,  7.87it
+Epoch: 34/159 Phase: train Loss: 0.2563 (0.2106) Acc: 0.0815 (0.1287) Rec B-EMPLOYMENT: 0.9703 (0.9559):  88%|▉| 377/429 [00:41<00:05,  9.62it
+Epoch: 34/159 Phase: train Loss: 0.2567 (0.3414) Acc: 0.0815 (0.1380) Rec B-EMPLOYMENT: 0.9702 (0.9673):  92%|▉| 396/429 [00:43<00:03,  9.60it
+Epoch: 34/159 Phase: train Loss: 0.2567 (0.2610) Acc: 0.0815 (0.1403) Rec B-EMPLOYMENT: 0.9698 (0.9817):  97%|▉| 416/429 [00:45<00:01,  9.58it
+Epoch: 34/159 Phase: valid Loss: 0.5507 (0.3492) Acc: 0.0110 (0.1353) Rec B-EMPLOYMENT: 1.0000 (1.0000):   1%| | 10/687 [00:00<00:21, 31.75it/
+Epoch: 34/159 Phase: valid Loss: 0.4187 (0.6278) Acc: 0.0115 (0.1017) Rec B-EMPLOYMENT: 0.9497 (1.0000):  15%|▏| 100/687 [00:02<00:13, 44.23it
+Epoch: 34/159 Phase: valid Loss: 0.4545 (0.1039) Acc: 0.0117 (0.1436) Rec B-EMPLOYMENT: 0.9463 (1.0000):  24%|▏| 165/687 [00:04<00:11, 44.95it
+Epoch: 34/159 Phase: valid Loss: 0.4493 (0.2703) Acc: 0.0116 (0.1102) Rec B-EMPLOYMENT: 0.9413 (1.0000):  36%|▎| 250/687 [00:06<00:09, 47.33it
+Epoch: 34/159 Phase: valid Loss: 0.4407 (0.3050) Acc: 0.0114 (0.1626) Rec B-EMPLOYMENT: 0.9480 (1.0000):  49%|▍| 340/687 [00:08<00:08, 40.11it
+Epoch: 34/159 Phase: valid Loss: 0.4443 (0.2827) Acc: 0.0114 (0.1741) Rec B-EMPLOYMENT: 0.9467 (1.0000):  63%|▋| 430/687 [00:10<00:05, 44.51it
+Epoch: 34/159 Phase: valid Loss: 0.4558 (0.6986) Acc: 0.0114 (0.1229) Rec B-EMPLOYMENT: 0.9459 (0.9375):  72%|▋| 495/687 [00:12<00:04, 44.63it
+Epoch: 34/159 Phase: valid Loss: 0.4445 (0.5032) Acc: 0.0115 (0.1490) Rec B-EMPLOYMENT: 0.9455 (1.0000):  84%|▊| 580/687 [00:14<00:02, 45.23it
+Epoch: 34/159 Phase: valid Loss: 0.4458 (0.3001) Acc: 0.0115 (0.1113) Rec B-EMPLOYMENT: 0.9464 (1.0000):  94%|▉| 645/687 [00:16<00:00, 45.88it
+Epoch: 34/159 Phase: valid Loss: 0.4458 (0.3001) Acc: 0.0115 (0.1113) Rec B-EMPLOYMENT: 0.9464 (1.0000):  94%|▉| 645/687 [00:16<00:00, 45.88it
+Epoch: 35/159 Phase: train Loss: 0.2498 (0.2370) Acc: 0.0813 (0.1444) Rec B-EMPLOYMENT: 0.9677 (0.9621):   1%| | 4/429 [00:00<01:11,  5.96it/s
+Epoch: 35/159 Phase: train Loss: 0.2621 (0.1887) Acc: 0.0794 (0.1279) Rec B-EMPLOYMENT: 0.9672 (0.9863):   6%| | 25/429 [00:03<00:42,  9.48it/
+Epoch: 35/159 Phase: train Loss: 0.2625 (0.2253) Acc: 0.0798 (0.1126) Rec B-EMPLOYMENT: 0.9670 (0.9786):   9%| | 40/429 [00:04<00:42,  9.24it/
+Epoch: 35/159 Phase: train Loss: 0.2612 (0.2787) Acc: 0.0806 (0.1413) Rec B-EMPLOYMENT: 0.9679 (0.9679):  14%|▏| 59/429 [00:07<00:38,  9.57it/
+Epoch: 35/159 Phase: train Loss: 0.2554 (0.3233) Acc: 0.0807 (0.1239) Rec B-EMPLOYMENT: 0.9680 (0.9543):  18%|▏| 79/429 [00:09<00:36,  9.54it/
+Epoch: 35/159 Phase: train Loss: 0.2567 (0.2061) Acc: 0.0804 (0.1288) Rec B-EMPLOYMENT: 0.9685 (0.9683):  22%|▏| 96/429 [00:11<00:42,  7.90it/
+Epoch: 35/159 Phase: train Loss: 0.2532 (0.2218) Acc: 0.0808 (0.1492) Rec B-EMPLOYMENT: 0.9697 (0.9902):  27%|▎| 115/429 [00:13<00:34,  9.22it
+Epoch: 35/159 Phase: train Loss: 0.2505 (0.2440) Acc: 0.0811 (0.1315) Rec B-EMPLOYMENT: 0.9704 (0.9882):  31%|▎| 134/429 [00:15<00:32,  8.94it
+Epoch: 35/159 Phase: train Loss: 0.2521 (0.2398) Acc: 0.0811 (0.1200) Rec B-EMPLOYMENT: 0.9700 (0.9406):  36%|▎| 153/429 [00:17<00:29,  9.41it
+Epoch: 35/159 Phase: train Loss: 0.2539 (0.3413) Acc: 0.0813 (0.1523) Rec B-EMPLOYMENT: 0.9696 (0.9935):  40%|▍| 171/429 [00:19<00:27,  9.23it
+Epoch: 35/159 Phase: train Loss: 0.2533 (0.3082) Acc: 0.0813 (0.1567) Rec B-EMPLOYMENT: 0.9698 (0.9725):  45%|▍| 191/429 [00:21<00:24,  9.55it
+Epoch: 35/159 Phase: train Loss: 0.2555 (0.1924) Acc: 0.0812 (0.1354) Rec B-EMPLOYMENT: 0.9696 (0.9843):  49%|▍| 209/429 [00:23<00:23,  9.37it
+Epoch: 35/159 Phase: train Loss: 0.2572 (0.3757) Acc: 0.0813 (0.1328) Rec B-EMPLOYMENT: 0.9696 (1.0000):  53%|▌| 227/429 [00:25<00:26,  7.54it
+Epoch: 35/159 Phase: train Loss: 0.2571 (0.2344) Acc: 0.0814 (0.1489) Rec B-EMPLOYMENT: 0.9705 (0.9834):  57%|▌| 246/429 [00:27<00:19,  9.49it
+Epoch: 35/159 Phase: train Loss: 0.2577 (0.3370) Acc: 0.0814 (0.1188) Rec B-EMPLOYMENT: 0.9700 (0.9677):  62%|▌| 266/429 [00:29<00:17,  9.54it
+Epoch: 35/159 Phase: train Loss: 0.2565 (0.3467) Acc: 0.0813 (0.1204) Rec B-EMPLOYMENT: 0.9703 (0.9748):  67%|▋| 286/429 [00:31<00:14,  9.54it
+Epoch: 35/159 Phase: train Loss: 0.2551 (0.2127) Acc: 0.0815 (0.1300) Rec B-EMPLOYMENT: 0.9702 (0.9495):  70%|▋| 299/429 [00:33<00:14,  8.92it
+Epoch: 35/159 Phase: train Loss: 0.2551 (0.2707) Acc: 0.0815 (0.1400) Rec B-EMPLOYMENT: 0.9701 (0.9545):  74%|▋| 317/429 [00:35<00:11,  9.62it
+Epoch: 35/159 Phase: train Loss: 0.2557 (0.2682) Acc: 0.0816 (0.1474) Rec B-EMPLOYMENT: 0.9701 (0.9691):  79%|▊| 337/429 [00:37<00:09,  9.50it
+Epoch: 35/159 Phase: train Loss: 0.2555 (0.3073) Acc: 0.0816 (0.1339) Rec B-EMPLOYMENT: 0.9701 (0.9481):  83%|▊| 354/429 [00:38<00:07,  9.50it
+Epoch: 35/159 Phase: train Loss: 0.2563 (0.2362) Acc: 0.0816 (0.1497) Rec B-EMPLOYMENT: 0.9702 (0.9435):  87%|▊| 374/429 [00:41<00:05,  9.66it
+Epoch: 35/159 Phase: train Loss: 0.2562 (0.2407) Acc: 0.0815 (0.1333) Rec B-EMPLOYMENT: 0.9701 (0.9686):  91%|▉| 392/429 [00:43<00:03,  9.43it
+Epoch: 35/159 Phase: train Loss: 0.2562 (0.2097) Acc: 0.0815 (0.1579) Rec B-EMPLOYMENT: 0.9701 (0.9732):  96%|▉| 411/429 [00:45<00:01,  9.61it
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)0.9517): 100%|█| 429/429 [00:47<00:00,  9.07it
+Epoch: 35/159 Phase: valid Loss: 0.4262 (0.8725) Acc: 0.0117 (0.1091) Rec B-EMPLOYMENT: 0.9477 (0.6667):  11%| | 79/687 [00:02<00:15, 38.69it/
+Epoch: 35/159 Phase: valid Loss: 0.4393 (0.5013) Acc: 0.0116 (0.1045) Rec B-EMPLOYMENT: 0.9466 (nan):  21%|▏| 144/687 [00:03<00:13, 39.41it/s]
+Epoch: 35/159 Phase: valid Loss: 0.4566 (0.3518) Acc: 0.0115 (0.1324) Rec B-EMPLOYMENT: 0.9416 (1.0000):  34%|▎| 234/687 [00:06<00:09, 46.32it
+Epoch: 35/159 Phase: valid Loss: 0.4424 (0.3692) Acc: 0.0114 (0.1787) Rec B-EMPLOYMENT: 0.9477 (1.0000):  47%|▍| 320/687 [00:08<00:07, 46.61it
+Epoch: 35/159 Phase: valid Loss: 0.4422 (0.2651) Acc: 0.0114 (0.1426) Rec B-EMPLOYMENT: 0.9469 (nan):  56%|▌| 386/687 [00:09<00:06, 46.39it/s]
+Epoch: 35/159 Phase: valid Loss: 0.4570 (0.9399) Acc: 0.0114 (0.1078) Rec B-EMPLOYMENT: 0.9450 (0.9667):  69%|▋| 471/687 [00:12<00:05, 37.14it
+Epoch: 35/159 Phase: valid Loss: 0.4465 (0.2129) Acc: 0.0114 (0.1181) Rec B-EMPLOYMENT: 0.9467 (nan):  79%|▊| 541/687 [00:14<00:03, 39.08it/s]
+Epoch: 35/159 Phase: valid Loss: 0.4460 (0.9285) Acc: 0.0115 (0.1503) Rec B-EMPLOYMENT: 0.9454 (1.0000):  91%|▉| 626/687 [00:16<00:01, 44.46it
+Epoch: 35/159 Phase: valid Loss: 0.4473 (0.5771) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9474 (nan): 100%|█| 687/687 [00:17<00:00, 38.63it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)nan): 100%|█| 687/687 [00:17<00:00, 38.63it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)nan): 100%|█| 687/687 [00:17<00:00, 38.63it/s]
+{'B-EMPLOYMENT_appended_data': 2043, 'I-EMPLOYMENT_appended_data': 728}
+Epoch: 36/159 Phase: train Loss: 0.2565 (0.2354) Acc: 0.0808 (0.1388) Rec B-EMPLOYMENT: 0.9713 (0.9677):   3%| | 14/429 [00:01<00:45,  9.18it/
+Epoch: 36/159 Phase: train Loss: 0.2615 (0.3294) Acc: 0.0803 (0.1319) Rec B-EMPLOYMENT: 0.9677 (0.9322):   8%| | 33/429 [00:03<00:45,  8.75it/
+Epoch: 36/159 Phase: train Loss: 0.2583 (0.3048) Acc: 0.0804 (0.1333) Rec B-EMPLOYMENT: 0.9674 (0.9863):  12%| | 52/429 [00:06<00:39,  9.51it/
+Epoch: 36/159 Phase: train Loss: 0.2500 (0.2470) Acc: 0.0810 (0.1345) Rec B-EMPLOYMENT: 0.9686 (0.9583):  17%|▏| 72/429 [00:07<00:37,  9.61it/
+Epoch: 36/159 Phase: train Loss: 0.2507 (0.2262) Acc: 0.0808 (0.1343) Rec B-EMPLOYMENT: 0.9695 (0.9552):  21%|▏| 92/429 [00:10<00:35,  9.62it/
+Epoch: 36/159 Phase: train Loss: 0.2486 (0.2205) Acc: 0.0812 (0.1549) Rec B-EMPLOYMENT: 0.9698 (0.9754):  25%|▎| 109/429 [00:12<00:33,  9.50it
+Epoch: 36/159 Phase: train Loss: 0.2482 (0.2154) Acc: 0.0814 (0.1551) Rec B-EMPLOYMENT: 0.9707 (0.9718):  30%|▎| 129/429 [00:14<00:31,  9.61it
+Epoch: 36/159 Phase: train Loss: 0.2481 (0.2979) Acc: 0.0815 (0.1268) Rec B-EMPLOYMENT: 0.9704 (0.9911):  34%|▎| 148/429 [00:16<00:29,  9.56it
+Epoch: 36/159 Phase: train Loss: 0.2474 (0.2525) Acc: 0.0817 (0.1347) Rec B-EMPLOYMENT: 0.9710 (0.9777):  39%|▍| 166/429 [00:18<00:29,  9.02it
+Epoch: 36/159 Phase: train Loss: 0.2481 (0.3392) Acc: 0.0817 (0.1229) Rec B-EMPLOYMENT: 0.9709 (0.9677):  43%|▍| 184/429 [00:20<00:24, 10.03it
+Epoch: 36/159 Phase: train Loss: 0.2514 (0.2865) Acc: 0.0816 (0.1520) Rec B-EMPLOYMENT: 0.9708 (0.9543):  48%|▍| 204/429 [00:22<00:23,  9.56it
+Epoch: 36/159 Phase: train Loss: 0.2522 (0.1864) Acc: 0.0817 (0.1427) Rec B-EMPLOYMENT: 0.9708 (0.9754):  52%|▌| 224/429 [00:24<00:21,  9.56it
+Epoch: 36/159 Phase: train Loss: 0.2530 (0.2595) Acc: 0.0818 (0.1359) Rec B-EMPLOYMENT: 0.9714 (0.9559):  56%|▌| 242/429 [00:26<00:19,  9.46it
+Epoch: 36/159 Phase: train Loss: 0.2531 (0.2378) Acc: 0.0818 (0.1417) Rec B-EMPLOYMENT: 0.9716 (0.9932):  61%|▌| 261/429 [00:28<00:17,  9.73it
+Epoch: 36/159 Phase: train Loss: 0.2528 (0.1812) Acc: 0.0816 (0.1273) Rec B-EMPLOYMENT: 0.9717 (0.9923):  65%|▋| 280/429 [00:30<00:15,  9.53it
+Epoch: 36/159 Phase: train Loss: 0.2512 (0.1964) Acc: 0.0818 (0.1333) Rec B-EMPLOYMENT: 0.9713 (0.9772):  70%|▋| 299/429 [00:32<00:14,  9.25it
+Epoch: 36/159 Phase: train Loss: 0.2510 (0.2420) Acc: 0.0818 (0.1388) Rec B-EMPLOYMENT: 0.9713 (0.9554):  74%|▋| 317/429 [00:34<00:11,  9.64it
+Epoch: 36/159 Phase: train Loss: 0.2509 (0.2008) Acc: 0.0819 (0.1375) Rec B-EMPLOYMENT: 0.9712 (0.9579):  79%|▊| 337/429 [00:36<00:09,  9.56it
+Epoch: 36/159 Phase: train Loss: 0.2510 (0.2737) Acc: 0.0819 (0.1434) Rec B-EMPLOYMENT: 0.9711 (0.9805):  83%|▊| 357/429 [00:38<00:07,  9.73it
+Epoch: 36/159 Phase: train Loss: 0.2516 (0.2525) Acc: 0.0819 (0.1354) Rec B-EMPLOYMENT: 0.9709 (0.9412):  87%|▊| 375/429 [00:40<00:05,  9.59it
+Epoch: 36/159 Phase: train Loss: 0.2514 (0.2731) Acc: 0.0819 (0.1649) Rec B-EMPLOYMENT: 0.9709 (0.9845):  92%|▉| 393/429 [00:42<00:03,  9.77it
+Epoch: 36/159 Phase: train Loss: 0.2514 (0.2094) Acc: 0.0819 (0.1383) Rec B-EMPLOYMENT: 0.9708 (0.9119):  97%|▉| 414/429 [00:44<00:01,  9.64it
+Epoch: 36/159 Phase: valid Loss: 0.6210 (0.2350) Acc: 0.0119 (0.1256) Rec B-EMPLOYMENT: 1.0000 (1.0000):   1%| | 4/687 [00:00<01:09,  9.82it/s
+Epoch: 36/159 Phase: valid Loss: 0.4243 (0.2640) Acc: 0.0116 (0.1302) Rec B-EMPLOYMENT: 0.9467 (1.0000):  13%|▏| 88/687 [00:02<00:14, 42.50it/
+Epoch: 36/159 Phase: valid Loss: 0.4533 (0.3046) Acc: 0.0117 (0.1091) Rec B-EMPLOYMENT: 0.9434 (0.9444):  26%|▎| 178/687 [00:04<00:10, 46.43it
+Epoch: 36/159 Phase: valid Loss: 0.4514 (0.5058) Acc: 0.0115 (0.1173) Rec B-EMPLOYMENT: 0.9416 (0.9333):  38%|▍| 258/687 [00:06<00:12, 34.58it
+Epoch: 36/159 Phase: valid Loss: 0.4428 (0.0936) Acc: 0.0114 (0.1226) Rec B-EMPLOYMENT: 0.9483 (1.0000):  51%|▌| 348/687 [00:08<00:07, 44.10it
+Epoch: 36/159 Phase: valid Loss: 0.4476 (0.6153) Acc: 0.0114 (0.1277) Rec B-EMPLOYMENT: 0.9467 (0.9444):  60%|▌| 413/687 [00:10<00:06, 43.21it
+Epoch: 36/159 Phase: valid Loss: 0.4544 (0.0996) Acc: 0.0114 (0.1443) Rec B-EMPLOYMENT: 0.9455 (0.9333):  73%|▋| 503/687 [00:12<00:03, 46.01it
+Epoch: 36/159 Phase: valid Loss: 0.4436 (0.0876) Acc: 0.0115 (0.1194) Rec B-EMPLOYMENT: 0.9452 (0.8571):  86%|▊| 588/687 [00:14<00:02, 34.67it
+Epoch: 36/159 Phase: valid Loss: 0.4466 (0.6774) Acc: 0.0115 (0.1446) Rec B-EMPLOYMENT: 0.9467 (0.9565):  98%|▉| 673/687 [00:16<00:00, 43.23it
+Epoch: 36/159 Phase: valid Loss: 0.4466 (0.6774) Acc: 0.0115 (0.1446) Rec B-EMPLOYMENT: 0.9467 (0.9565):  98%|▉| 673/687 [00:16<00:00, 43.23it
+Epoch: 37/159 Phase: train Loss: 0.2639 (0.3048) Acc: 0.0804 (0.1311) Rec B-EMPLOYMENT: 0.9714 (0.9841):   3%| | 11/429 [00:01<00:46,  8.96it/
+Epoch: 37/159 Phase: train Loss: 0.2549 (0.2257) Acc: 0.0804 (0.1496) Rec B-EMPLOYMENT: 0.9699 (0.9467):   7%| | 30/429 [00:03<00:42,  9.45it/
+Epoch: 37/159 Phase: train Loss: 0.2531 (0.2513) Acc: 0.0805 (0.1604) Rec B-EMPLOYMENT: 0.9677 (0.9929):  11%| | 49/429 [00:05<00:39,  9.52it/
+Epoch: 37/159 Phase: train Loss: 0.2516 (0.2437) Acc: 0.0810 (0.1432) Rec B-EMPLOYMENT: 0.9680 (0.9786):  16%|▏| 68/429 [00:07<00:37,  9.59it/
+Epoch: 37/159 Phase: train Loss: 0.2527 (0.2324) Acc: 0.0809 (0.1360) Rec B-EMPLOYMENT: 0.9681 (0.9450):  21%|▏| 88/429 [00:09<00:35,  9.49it/
+Epoch: 37/159 Phase: train Loss: 0.2507 (0.2352) Acc: 0.0809 (0.1194) Rec B-EMPLOYMENT: 0.9683 (0.9686):  24%|▏| 105/429 [00:11<00:35,  9.23it
+Epoch: 37/159 Phase: train Loss: 0.2492 (0.1739) Acc: 0.0812 (0.1479) Rec B-EMPLOYMENT: 0.9684 (0.9839):  29%|▎| 124/429 [00:13<00:32,  9.47it
+Epoch: 37/159 Phase: train Loss: 0.2482 (0.2651) Acc: 0.0815 (0.1455) Rec B-EMPLOYMENT: 0.9683 (0.9792):  34%|▎| 144/429 [00:15<00:29,  9.53it
+Epoch: 37/159 Phase: train Loss: 0.2467 (0.2354) Acc: 0.0816 (0.1216) Rec B-EMPLOYMENT: 0.9690 (0.9865):  38%|▍| 162/429 [00:17<00:28,  9.34it
+Epoch: 37/159 Phase: train Loss: 0.2481 (0.2186) Acc: 0.0817 (0.1266) Rec B-EMPLOYMENT: 0.9691 (0.9407):  42%|▍| 180/429 [00:19<00:26,  9.45it
+Epoch: 37/159 Phase: train Loss: 0.2490 (0.3194) Acc: 0.0816 (0.1189) Rec B-EMPLOYMENT: 0.9694 (0.9562):  47%|▍| 201/429 [00:21<00:23,  9.71it
+Epoch: 37/159 Phase: train Loss: 0.2507 (0.3244) Acc: 0.0817 (0.1519) Rec B-EMPLOYMENT: 0.9694 (0.9703):  50%|▌| 215/429 [00:23<00:22,  9.45it
+Epoch: 37/159 Phase: train Loss: 0.2512 (0.2561) Acc: 0.0818 (0.1462) Rec B-EMPLOYMENT: 0.9698 (0.9942):  54%|▌| 232/429 [00:25<00:23,  8.34it
+Epoch: 37/159 Phase: train Loss: 0.2520 (0.2726) Acc: 0.0818 (0.1436) Rec B-EMPLOYMENT: 0.9702 (0.9381):  59%|▌| 252/429 [00:27<00:18,  9.44it
+Epoch: 37/159 Phase: train Loss: 0.2526 (0.2446) Acc: 0.0818 (0.1386) Rec B-EMPLOYMENT: 0.9696 (0.9508):  63%|▋| 270/429 [00:29<00:16,  9.64it
+Epoch: 37/159 Phase: train Loss: 0.2524 (0.2700) Acc: 0.0818 (0.1475) Rec B-EMPLOYMENT: 0.9697 (0.9755):  68%|▋| 291/429 [00:31<00:14,  9.26it
+Epoch: 37/159 Phase: train Loss: 0.2519 (0.2485) Acc: 0.0818 (0.1405) Rec B-EMPLOYMENT: 0.9697 (0.9048):  72%|▋| 308/429 [00:33<00:12,  9.48it
+Epoch: 37/159 Phase: train Loss: 0.2529 (0.2864) Acc: 0.0819 (0.1341) Rec B-EMPLOYMENT: 0.9697 (0.9727):  76%|▊| 327/429 [00:35<00:10,  9.41it
+Epoch: 37/159 Phase: train Loss: 0.2519 (0.1923) Acc: 0.0819 (0.1417) Rec B-EMPLOYMENT: 0.9695 (0.9749):  81%|▊| 347/429 [00:37<00:08,  9.59it
+Epoch: 37/159 Phase: train Loss: 0.2517 (0.3262) Acc: 0.0819 (0.1355) Rec B-EMPLOYMENT: 0.9697 (0.9883):  85%|▊| 365/429 [00:39<00:07,  8.85it
+Epoch: 37/159 Phase: train Loss: 0.2518 (0.2380) Acc: 0.0818 (0.1442) Rec B-EMPLOYMENT: 0.9696 (0.9954):  89%|▉| 383/429 [00:41<00:04,  9.44it
+Epoch: 37/159 Phase: train Loss: 0.2516 (0.2622) Acc: 0.0818 (0.1238) Rec B-EMPLOYMENT: 0.9698 (0.9904):  94%|▉| 403/429 [00:43<00:02,  9.54it
+Epoch: 37/159 Phase: train Loss: 0.2516 (0.2952) Acc: 0.0819 (0.1281) Rec B-EMPLOYMENT: 0.9699 (0.9634):  99%|▉| 423/429 [00:45<00:00, 10.11it
+Epoch: 37/159 Phase: valid Loss: 0.4172 (0.1662) Acc: 0.0116 (0.1520) Rec B-EMPLOYMENT: 0.9564 (1.0000):   4%| | 30/687 [00:01<00:17, 37.62it/
+Epoch: 37/159 Phase: valid Loss: 0.4247 (0.5766) Acc: 0.0116 (0.1203) Rec B-EMPLOYMENT: 0.9488 (0.9000):  17%|▏| 120/687 [00:03<00:12, 46.89it
+Epoch: 37/159 Phase: valid Loss: 0.4615 (0.9470) Acc: 0.0116 (0.2066) Rec B-EMPLOYMENT: 0.9435 (nan):  28%|▎| 195/687 [00:05<00:15, 31.91it/s]
+Epoch: 37/159 Phase: valid Loss: 0.4463 (0.3974) Acc: 0.0115 (0.1579) Rec B-EMPLOYMENT: 0.9426 (1.0000):  41%|▍| 284/687 [00:07<00:09, 43.97it
+Epoch: 37/159 Phase: valid Loss: 0.4402 (0.4494) Acc: 0.0114 (0.1336) Rec B-EMPLOYMENT: 0.9470 (0.6875):  54%|▌| 369/687 [00:09<00:06, 46.65it
+Epoch: 37/159 Phase: valid Loss: 0.4509 (0.4132) Acc: 0.0114 (0.1381) Rec B-EMPLOYMENT: 0.9458 (1.0000):  66%|▋| 454/687 [00:11<00:05, 45.43it
+Epoch: 37/159 Phase: valid Loss: 0.4517 (0.3451) Acc: 0.0114 (0.1120) Rec B-EMPLOYMENT: 0.9457 (0.9333):  76%|▊| 519/687 [00:13<00:03, 44.82it
+Epoch: 37/159 Phase: valid Loss: 0.4435 (0.4274) Acc: 0.0115 (0.1146) Rec B-EMPLOYMENT: 0.9447 (0.9000):  89%|▉| 608/687 [00:15<00:01, 41.20it
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 38/159 Phase: train Loss: 0.2573 (0.2730) Acc: 0.0810 (0.1399) Rec B-EMPLOYMENT: 0.9665 (0.9585):   3%| | 14/429 [00:02<00:45,  9.10it/
+Epoch: 38/159 Phase: train Loss: 0.2594 (0.3121) Acc: 0.0805 (0.1339) Rec B-EMPLOYMENT: 0.9633 (0.9322):   8%| | 33/429 [00:04<00:51,  7.64it/
+Epoch: 38/159 Phase: train Loss: 0.2551 (0.2451) Acc: 0.0807 (0.1294) Rec B-EMPLOYMENT: 0.9647 (0.9801):  12%| | 52/429 [00:06<00:39,  9.60it/
+Epoch: 38/159 Phase: train Loss: 0.2518 (0.2011) Acc: 0.0811 (0.1300) Rec B-EMPLOYMENT: 0.9651 (0.9937):  17%|▏| 71/429 [00:08<00:37,  9.62it/
+Epoch: 38/159 Phase: train Loss: 0.2526 (0.2623) Acc: 0.0810 (0.1255) Rec B-EMPLOYMENT: 0.9664 (0.9948):  21%|▏| 90/429 [00:10<00:35,  9.54it/
+Epoch: 38/159 Phase: train Loss: 0.2512 (0.2269) Acc: 0.0810 (0.1414) Rec B-EMPLOYMENT: 0.9677 (1.0000):  25%|▏| 107/429 [00:12<00:35,  9.15it
+Epoch: 38/159 Phase: train Loss: 0.2497 (0.2450) Acc: 0.0813 (0.1401) Rec B-EMPLOYMENT: 0.9688 (0.9689):  29%|▎| 126/429 [00:14<00:32,  9.47it
+Epoch: 38/159 Phase: train Loss: 0.2484 (0.2490) Acc: 0.0816 (0.1351) Rec B-EMPLOYMENT: 0.9695 (0.9809):  34%|▎| 146/429 [00:16<00:28,  9.98it
+Epoch: 38/159 Phase: train Loss: 0.2480 (0.3817) Acc: 0.0817 (0.1375) Rec B-EMPLOYMENT: 0.9702 (0.9793):  38%|▍| 163/429 [00:18<00:39,  6.65it
+Epoch: 38/159 Phase: train Loss: 0.2474 (0.2420) Acc: 0.0818 (0.1525) Rec B-EMPLOYMENT: 0.9705 (0.9693):  42%|▍| 182/429 [00:20<00:25,  9.64it
+Epoch: 38/159 Phase: train Loss: 0.2486 (0.2883) Acc: 0.0817 (0.1281) Rec B-EMPLOYMENT: 0.9705 (0.9600):  47%|▍| 202/429 [00:22<00:23,  9.71it
+Epoch: 38/159 Phase: train Loss: 0.2496 (0.1826) Acc: 0.0818 (0.1432) Rec B-EMPLOYMENT: 0.9708 (0.9781):  52%|▌| 221/429 [00:24<00:22,  9.29it
+Epoch: 38/159 Phase: train Loss: 0.2510 (0.3476) Acc: 0.0819 (0.1336) Rec B-EMPLOYMENT: 0.9714 (0.9655):  55%|▌| 238/429 [00:26<00:21,  9.09it
+Epoch: 38/159 Phase: train Loss: 0.2519 (0.2204) Acc: 0.0819 (0.1269) Rec B-EMPLOYMENT: 0.9713 (0.9489):  60%|▌| 256/429 [00:28<00:18,  9.54it
+Epoch: 38/159 Phase: train Loss: 0.2516 (0.3064) Acc: 0.0818 (0.1650) Rec B-EMPLOYMENT: 0.9710 (0.9797):  65%|▋| 277/429 [00:30<00:16,  9.46it
+Epoch: 38/159 Phase: train Loss: 0.2503 (0.1620) Acc: 0.0819 (0.1535) Rec B-EMPLOYMENT: 0.9706 (0.9637):  68%|▋| 293/429 [00:32<00:14,  9.42it
+Epoch: 38/159 Phase: train Loss: 0.2499 (0.2649) Acc: 0.0819 (0.1446) Rec B-EMPLOYMENT: 0.9707 (0.9581):  73%|▋| 313/429 [00:34<00:12,  9.61it
+Epoch: 38/159 Phase: train Loss: 0.2502 (0.2379) Acc: 0.0820 (0.1290) Rec B-EMPLOYMENT: 0.9707 (0.9377):  77%|▊| 332/429 [00:36<00:10,  9.47it
+Epoch: 38/159 Phase: train Loss: 0.2496 (0.1964) Acc: 0.0820 (0.1420) Rec B-EMPLOYMENT: 0.9705 (0.9296):  81%|▊| 346/429 [00:37<00:08,  9.66it
+Epoch: 38/159 Phase: train Loss: 0.2495 (0.2981) Acc: 0.0820 (0.1388) Rec B-EMPLOYMENT: 0.9706 (0.9883):  85%|▊| 365/429 [00:39<00:07,  8.19it
+Epoch: 38/159 Phase: train Loss: 0.2499 (0.2727) Acc: 0.0819 (0.1407) Rec B-EMPLOYMENT: 0.9705 (0.9817):  90%|▉| 384/429 [00:41<00:04,  9.60it
+Epoch: 38/159 Phase: train Loss: 0.2502 (0.2647) Acc: 0.0818 (0.1261) Rec B-EMPLOYMENT: 0.9704 (0.9856):  94%|▉| 404/429 [00:43<00:02,  9.52it
+Epoch: 38/159 Phase: train Loss: 0.2500 (0.2189) Acc: 0.0819 (0.1375) Rec B-EMPLOYMENT: 0.9706 (0.9824):  99%|▉| 423/429 [00:46<00:00, 10.14it
+Epoch: 38/159 Phase: valid Loss: 0.4694 (0.2761) Acc: 0.0112 (0.2303) Rec B-EMPLOYMENT: 0.9611 (1.0000):   3%| | 20/687 [00:01<00:39, 16.71it/
+Epoch: 38/159 Phase: valid Loss: 0.4172 (0.2154) Acc: 0.0116 (0.1265) Rec B-EMPLOYMENT: 0.9500 (1.0000):  16%|▏| 109/687 [00:03<00:12, 44.56it
+Epoch: 38/159 Phase: valid Loss: 0.4590 (0.7013) Acc: 0.0116 (0.1343) Rec B-EMPLOYMENT: 0.9444 (nan):  28%|▎| 194/687 [00:05<00:10, 44.89it/s]
+Epoch: 38/159 Phase: valid Loss: 0.4527 (0.1198) Acc: 0.0115 (0.1461) Rec B-EMPLOYMENT: 0.9415 (1.0000):  38%|▍| 259/687 [00:07<00:09, 46.57it
+Epoch: 38/159 Phase: valid Loss: 0.4443 (0.6893) Acc: 0.0114 (0.0954) Rec B-EMPLOYMENT: 0.9482 (1.0000):  51%|▌| 349/687 [00:09<00:08, 41.90it
+Epoch: 38/159 Phase: valid Loss: 0.4489 (0.5414) Acc: 0.0114 (0.0911) Rec B-EMPLOYMENT: 0.9454 (0.9375):  64%|▋| 439/687 [00:11<00:05, 46.94it
+Epoch: 38/159 Phase: valid Loss: 0.4549 (0.1000) Acc: 0.0114 (0.1443) Rec B-EMPLOYMENT: 0.9455 (0.9333):  73%|▋| 504/687 [00:13<00:03, 45.76it
+Epoch: 38/159 Phase: valid Loss: 0.4437 (0.2552) Acc: 0.0115 (0.1068) Rec B-EMPLOYMENT: 0.9456 (1.0000):  86%|▊| 589/687 [00:15<00:02, 46.04it
+Epoch: 38/159 Phase: valid Loss: 0.4475 (0.2704) Acc: 0.0115 (0.1457) Rec B-EMPLOYMENT: 0.9471 (1.0000):  99%|▉| 679/687 [00:17<00:00, 41.15it
+Epoch: 38/159 Phase: valid Loss: 0.4475 (0.2704) Acc: 0.0115 (0.1457) Rec B-EMPLOYMENT: 0.9471 (1.0000):  99%|▉| 679/687 [00:17<00:00, 41.15it
+Epoch: 39/159 Phase: train Loss: 0.2458 (0.1920) Acc: 0.0808 (0.1263) Rec B-EMPLOYMENT: 0.9757 (0.9811):   2%| | 10/429 [00:01<00:47,  8.88it/
+Epoch: 39/159 Phase: train Loss: 0.2550 (0.2451) Acc: 0.0805 (0.1469) Rec B-EMPLOYMENT: 0.9681 (0.9267):   7%| | 30/429 [00:03<00:39, 10.00it/
+Epoch: 39/159 Phase: train Loss: 0.2546 (0.2501) Acc: 0.0804 (0.1412) Rec B-EMPLOYMENT: 0.9664 (0.9812):  11%| | 46/429 [00:05<00:42,  9.10it/
+Epoch: 39/159 Phase: train Loss: 0.2518 (0.1777) Acc: 0.0811 (0.1400) Rec B-EMPLOYMENT: 0.9671 (0.9811):  16%|▏| 67/429 [00:07<00:37,  9.66it/
+Epoch: 39/159 Phase: train Loss: 0.2520 (0.2124) Acc: 0.0812 (0.1458) Rec B-EMPLOYMENT: 0.9675 (0.9793):  20%|▏| 86/429 [00:09<00:35,  9.60it/
+Epoch: 39/159 Phase: train Loss: 0.2507 (0.2233) Acc: 0.0811 (0.1407) Rec B-EMPLOYMENT: 0.9676 (0.9859):  24%|▏| 104/429 [00:11<00:38,  8.39it
+Epoch: 39/159 Phase: train Loss: 0.2488 (0.2409) Acc: 0.0814 (0.1439) Rec B-EMPLOYMENT: 0.9694 (0.9824):  28%|▎| 122/429 [00:13<00:32,  9.32it
+Epoch: 39/159 Phase: train Loss: 0.2468 (0.2212) Acc: 0.0817 (0.1360) Rec B-EMPLOYMENT: 0.9693 (0.9717):  33%|▎| 142/429 [00:15<00:29,  9.69it
+Epoch: 39/159 Phase: train Loss: 0.2460 (0.2497) Acc: 0.0818 (0.1218) Rec B-EMPLOYMENT: 0.9700 (0.9910):  38%|▍| 161/429 [00:17<00:27,  9.59it
+Epoch: 39/159 Phase: train Loss: 0.2466 (0.1602) Acc: 0.0818 (0.1451) Rec B-EMPLOYMENT: 0.9699 (0.9859):  41%|▍| 177/429 [00:19<00:29,  8.65it
+Epoch: 39/159 Phase: train Loss: 0.2469 (0.4532) Acc: 0.0818 (0.1445) Rec B-EMPLOYMENT: 0.9702 (0.9799):  46%|▍| 198/429 [00:21<00:23,  9.69it
+Epoch: 39/159 Phase: train Loss: 0.2498 (0.2873) Acc: 0.0818 (0.1387) Rec B-EMPLOYMENT: 0.9700 (0.9545):  51%|▌| 217/429 [00:23<00:21,  9.77it
+Epoch: 39/159 Phase: train Loss: 0.2501 (0.3106) Acc: 0.0818 (0.1299) Rec B-EMPLOYMENT: 0.9704 (0.9894):  53%|▌| 229/429 [00:25<00:21,  9.47it
+Epoch: 39/159 Phase: train Loss: 0.2507 (0.2560) Acc: 0.0819 (0.1360) Rec B-EMPLOYMENT: 0.9712 (0.9935):  58%|▌| 249/429 [00:27<00:19,  9.47it
+Epoch: 39/159 Phase: train Loss: 0.2515 (0.1880) Acc: 0.0819 (0.1366) Rec B-EMPLOYMENT: 0.9709 (0.9760):  62%|▌| 268/429 [00:29<00:16,  9.78it
+Epoch: 39/159 Phase: train Loss: 0.2512 (0.2086) Acc: 0.0818 (0.1410) Rec B-EMPLOYMENT: 0.9708 (0.9333):  67%|▋| 288/429 [00:31<00:14,  9.59it
+Epoch: 39/159 Phase: train Loss: 0.2506 (0.2413) Acc: 0.0819 (0.1356) Rec B-EMPLOYMENT: 0.9708 (0.9755):  71%|▋| 305/429 [00:33<00:14,  8.77it
+Epoch: 39/159 Phase: train Loss: 0.2512 (0.2558) Acc: 0.0820 (0.1371) Rec B-EMPLOYMENT: 0.9709 (0.9545):  76%|▊| 325/429 [00:35<00:11,  9.25it
+Epoch: 39/159 Phase: train Loss: 0.2510 (0.2730) Acc: 0.0820 (0.1387) Rec B-EMPLOYMENT: 0.9708 (0.9720):  80%|▊| 344/429 [00:37<00:08,  9.65it
+Epoch: 39/159 Phase: train Loss: 0.2508 (0.2833) Acc: 0.0820 (0.1312) Rec B-EMPLOYMENT: 0.9708 (0.9797):  84%|▊| 362/429 [00:39<00:07,  9.54it
+Epoch: 39/159 Phase: train Loss: 0.2513 (0.2500) Acc: 0.0819 (0.1410) Rec B-EMPLOYMENT: 0.9705 (0.9293):  89%|▉| 381/429 [00:41<00:05,  9.45it
+Epoch: 39/159 Phase: train Loss: 0.2520 (0.2818) Acc: 0.0819 (0.1307) Rec B-EMPLOYMENT: 0.9705 (0.9535):  93%|▉| 401/429 [00:43<00:02,  9.76it
+Epoch: 39/159 Phase: train Loss: 0.2519 (0.1629) Acc: 0.0819 (0.1479) Rec B-EMPLOYMENT: 0.9707 (0.9958):  98%|▉| 420/429 [00:45<00:00,  9.91it
+Epoch: 39/159 Phase: valid Loss: 0.4702 (0.2412) Acc: 0.0113 (0.1225) Rec B-EMPLOYMENT: 0.9600 (1.0000):   3%| | 22/687 [00:00<00:18, 36.37it/
+Epoch: 39/159 Phase: valid Loss: 0.4248 (0.2642) Acc: 0.0116 (0.1308) Rec B-EMPLOYMENT: 0.9467 (1.0000):  13%|▏| 89/687 [00:03<00:15, 39.55it/
+Epoch: 39/159 Phase: valid Loss: 0.4394 (0.3774) Acc: 0.0116 (0.1432) Rec B-EMPLOYMENT: 0.9460 (0.8750):  22%|▏| 149/687 [00:04<00:14, 37.77it
+Epoch: 39/159 Phase: valid Loss: 0.4566 (0.3960) Acc: 0.0115 (0.1259) Rec B-EMPLOYMENT: 0.9415 (1.0000):  35%|▎| 239/687 [00:06<00:10, 44.24it
+Epoch: 39/159 Phase: valid Loss: 0.4454 (0.3593) Acc: 0.0114 (0.1294) Rec B-EMPLOYMENT: 0.9472 (0.8889):  46%|▍| 319/687 [00:08<00:07, 46.95it
+Epoch: 39/159 Phase: valid Loss: 0.4463 (0.6329) Acc: 0.0114 (0.1293) Rec B-EMPLOYMENT: 0.9458 (1.0000):  57%|▌| 394/687 [00:10<00:06, 46.12it
+Epoch: 39/159 Phase: valid Loss: 0.4564 (0.2669) Acc: 0.0114 (0.0983) Rec B-EMPLOYMENT: 0.9448 (1.0000):  70%|▋| 479/687 [00:13<00:05, 37.68it
+Epoch: 39/159 Phase: valid Loss: 0.4456 (0.2599) Acc: 0.0114 (0.1228) Rec B-EMPLOYMENT: 0.9460 (0.9667):  80%|▊| 549/687 [00:14<00:03, 40.37it
+Epoch: 39/159 Phase: valid Loss: 0.4474 (0.3774) Acc: 0.0115 (0.1154) Rec B-EMPLOYMENT: 0.9453 (1.0000):  92%|▉| 634/687 [00:16<00:01, 43.99it
+Epoch: 40/159 Phase: train Loss: 0.2342 (0.2173) Acc: 0.0825 (0.1670) Rec B-EMPLOYMENT: 0.9713 (0.9645):   1%| | 3/429 [00:00<01:15,  5.62it/s
+Epoch: 40/159 Phase: train Loss: 0.2342 (0.2173) Acc: 0.0825 (0.1670) Rec B-EMPLOYMENT: 0.9713 (0.9645):   1%| | 3/429 [00:00<01:15,  5.62it/s
+Epoch: 40/159 Phase: train Loss: 0.2590 (0.2018) Acc: 0.0806 (0.1341) Rec B-EMPLOYMENT: 0.9679 (0.9250):   5%| | 22/429 [00:02<00:40, 10.04it/
+Epoch: 40/159 Phase: train Loss: 0.2621 (0.1547) Acc: 0.0802 (0.1346) Rec B-EMPLOYMENT: 0.9678 (0.9821):   8%| | 36/429 [00:04<00:40,  9.69it/
+Epoch: 40/159 Phase: train Loss: 0.2590 (0.1842) Acc: 0.0809 (0.1428) Rec B-EMPLOYMENT: 0.9672 (0.9630):  13%|▏| 55/429 [00:06<00:39,  9.55it/
+Epoch: 40/159 Phase: train Loss: 0.2530 (0.2813) Acc: 0.0810 (0.1324) Rec B-EMPLOYMENT: 0.9675 (0.9617):  17%|▏| 75/429 [00:08<00:37,  9.57it/
+Epoch: 40/159 Phase: train Loss: 0.2535 (0.2864) Acc: 0.0809 (0.1324) Rec B-EMPLOYMENT: 0.9688 (0.9831):  22%|▏| 95/429 [00:10<00:35,  9.50it/
+Epoch: 40/159 Phase: train Loss: 0.2534 (0.2852) Acc: 0.0811 (0.1346) Rec B-EMPLOYMENT: 0.9694 (0.9405):  26%|▎| 112/429 [00:12<00:34,  9.10it
+Epoch: 40/159 Phase: train Loss: 0.2508 (0.2052) Acc: 0.0814 (0.1243) Rec B-EMPLOYMENT: 0.9708 (0.9643):  31%|▎| 131/429 [00:14<00:31,  9.42it
+Epoch: 40/159 Phase: train Loss: 0.2504 (0.1818) Acc: 0.0815 (0.1412) Rec B-EMPLOYMENT: 0.9704 (0.9574):  35%|▎| 151/429 [00:16<00:27, 10.08it
+Epoch: 40/159 Phase: train Loss: 0.2498 (0.2349) Acc: 0.0817 (0.1496) Rec B-EMPLOYMENT: 0.9707 (0.9892):  39%|▍| 167/429 [00:18<00:27,  9.44it
+Epoch: 40/159 Phase: train Loss: 0.2497 (0.2948) Acc: 0.0816 (0.1240) Rec B-EMPLOYMENT: 0.9710 (0.9919):  44%|▍| 187/429 [00:20<00:25,  9.45it
+Epoch: 40/159 Phase: train Loss: 0.2511 (0.2934) Acc: 0.0816 (0.1350) Rec B-EMPLOYMENT: 0.9708 (0.9532):  48%|▍| 206/429 [00:22<00:24,  8.96it
+Epoch: 40/159 Phase: train Loss: 0.2516 (0.3109) Acc: 0.0816 (0.1352) Rec B-EMPLOYMENT: 0.9709 (0.9766):  52%|▌| 225/429 [00:24<00:21,  9.44it
+Epoch: 40/159 Phase: train Loss: 0.2519 (0.3237) Acc: 0.0818 (0.1446) Rec B-EMPLOYMENT: 0.9715 (0.9931):  56%|▌| 239/429 [00:26<00:24,  7.74it
+Epoch: 40/159 Phase: train Loss: 0.2526 (0.2017) Acc: 0.0818 (0.1378) Rec B-EMPLOYMENT: 0.9714 (0.9903):  60%|▌| 258/429 [00:28<00:17,  9.56it
+Epoch: 40/159 Phase: train Loss: 0.2538 (0.2846) Acc: 0.0817 (0.1273) Rec B-EMPLOYMENT: 0.9715 (0.9630):  65%|▋| 278/429 [00:30<00:15,  9.68it
+Epoch: 40/159 Phase: train Loss: 0.2524 (0.2824) Acc: 0.0818 (0.1671) Rec B-EMPLOYMENT: 0.9712 (0.9881):  69%|▋| 297/429 [00:32<00:13,  9.54it
+Epoch: 40/159 Phase: train Loss: 0.2520 (0.2550) Acc: 0.0818 (0.1434) Rec B-EMPLOYMENT: 0.9713 (0.9674):  73%|▋| 314/429 [00:34<00:12,  9.25it
+Epoch: 40/159 Phase: train Loss: 0.2524 (0.1721) Acc: 0.0819 (0.1476) Rec B-EMPLOYMENT: 0.9712 (0.9793):  78%|▊| 333/429 [00:36<00:10,  9.54it
+Epoch: 40/159 Phase: train Loss: 0.2516 (0.3059) Acc: 0.0819 (0.1415) Rec B-EMPLOYMENT: 0.9711 (0.9899):  82%|▊| 353/429 [00:38<00:08,  9.46it
+Epoch: 40/159 Phase: train Loss: 0.2527 (0.3244) Acc: 0.0819 (0.1473) Rec B-EMPLOYMENT: 0.9712 (0.9372):  86%|▊| 370/429 [00:40<00:08,  7.22it
+Epoch: 40/159 Phase: train Loss: 0.2531 (0.3513) Acc: 0.0818 (0.1408) Rec B-EMPLOYMENT: 0.9711 (0.9502):  91%|▉| 389/429 [00:42<00:04,  9.50it
+Epoch: 40/159 Phase: train Loss: 0.2532 (0.2183) Acc: 0.0818 (0.1468) Rec B-EMPLOYMENT: 0.9709 (1.0000):  95%|▉| 409/429 [00:44<00:02,  9.54it
+Epoch: 40/159 Phase: train Loss: 0.2530 (0.1854) Acc: 0.0818 (0.1390) Rec B-EMPLOYMENT: 0.9710 (0.9719):  99%|▉| 425/429 [00:46<00:00, 10.50it
+Epoch: 40/159 Phase: valid Loss: 0.3887 (0.2130) Acc: 0.0117 (0.1124) Rec B-EMPLOYMENT: 0.9578 (1.0000):   6%| | 44/687 [00:01<00:15, 42.67it/
+Epoch: 40/159 Phase: valid Loss: 0.4193 (0.3333) Acc: 0.0115 (0.1035) Rec B-EMPLOYMENT: 0.9495 (1.0000):  15%|▏| 100/687 [00:03<00:14, 39.36it
+Epoch: 40/159 Phase: valid Loss: 0.4541 (0.5147) Acc: 0.0117 (0.1210) Rec B-EMPLOYMENT: 0.9443 (1.0000):  26%|▎| 180/687 [00:05<00:11, 44.74it
+Epoch: 40/159 Phase: valid Loss: 0.4545 (0.5626) Acc: 0.0115 (0.0855) Rec B-EMPLOYMENT: 0.9414 (0.9412):  38%|▍| 259/687 [00:07<00:09, 45.99it
+Epoch: 40/159 Phase: valid Loss: 0.4461 (0.1014) Acc: 0.0114 (0.1284) Rec B-EMPLOYMENT: 0.9477 (0.9677):  48%|▍| 329/687 [00:09<00:07, 47.28it
+Epoch: 40/159 Phase: valid Loss: 0.4471 (0.2263) Acc: 0.0114 (0.1601) Rec B-EMPLOYMENT: 0.9469 (0.9143):  61%|▌| 419/687 [00:11<00:07, 36.51it
+Epoch: 40/159 Phase: valid Loss: 0.4561 (0.4231) Acc: 0.0114 (0.1565) Rec B-EMPLOYMENT: 0.9453 (0.9444):  70%|▋| 484/687 [00:13<00:05, 36.48it
+Epoch: 40/159 Phase: valid Loss: 0.4456 (1.4020) Acc: 0.0115 (0.1228) Rec B-EMPLOYMENT: 0.9460 (0.9000):  84%|▊| 574/687 [00:15<00:02, 44.29it
+Epoch: 40/159 Phase: valid Loss: 0.4471 (0.1114) Acc: 0.0115 (0.1226) Rec B-EMPLOYMENT: 0.9462 (1.0000):  93%|▉| 641/687 [00:17<00:01, 45.81it
+Epoch: 40/159 Phase: valid Loss: 0.4480 (0.5696) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9475 (nan): 100%|█| 687/687 [00:18<00:00, 36.59it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+{'B-EMPLOYMENT_appended_data': 1737, 'I-EMPLOYMENT_appended_data': 815}
+Epoch: 41/159 Phase: train Loss: 0.2514 (0.2914) Acc: 0.0810 (0.1542) Rec B-EMPLOYMENT: 0.9677 (0.9421):   4%| | 19/429 [00:02<00:43,  9.48it/
+Epoch: 41/159 Phase: train Loss: 0.2544 (0.1836) Acc: 0.0807 (0.1444) Rec B-EMPLOYMENT: 0.9670 (0.9787):   9%| | 37/429 [00:04<00:40,  9.64it/
+Epoch: 41/159 Phase: train Loss: 0.2506 (0.1782) Acc: 0.0811 (0.1430) Rec B-EMPLOYMENT: 0.9667 (0.9821):  13%|▏| 55/429 [00:06<00:39,  9.50it/
+Epoch: 41/159 Phase: train Loss: 0.2438 (0.1724) Acc: 0.0814 (0.1285) Rec B-EMPLOYMENT: 0.9702 (0.9885):  18%|▏| 76/429 [00:08<00:36,  9.54it/
+Epoch: 41/159 Phase: train Loss: 0.2431 (0.1605) Acc: 0.0813 (0.1320) Rec B-EMPLOYMENT: 0.9712 (0.9790):  22%|▏| 95/429 [00:10<00:33, 10.10it/
+Epoch: 41/159 Phase: train Loss: 0.2416 (0.1580) Acc: 0.0815 (0.1398) Rec B-EMPLOYMENT: 0.9718 (0.9854):  27%|▎| 114/429 [00:12<00:34,  9.08it
+Epoch: 41/159 Phase: train Loss: 0.2395 (0.1775) Acc: 0.0817 (0.1402) Rec B-EMPLOYMENT: 0.9723 (0.9659):  31%|▎| 133/429 [00:14<00:31,  9.31it
+Epoch: 41/159 Phase: train Loss: 0.2413 (0.2549) Acc: 0.0819 (0.1410) Rec B-EMPLOYMENT: 0.9721 (0.9707):  35%|▎| 151/429 [00:16<00:29,  9.34it
+Epoch: 41/159 Phase: train Loss: 0.2408 (0.2389) Acc: 0.0820 (0.1461) Rec B-EMPLOYMENT: 0.9724 (0.9323):  40%|▍| 170/429 [00:18<00:27,  9.49it
+Epoch: 41/159 Phase: train Loss: 0.2412 (0.2272) Acc: 0.0819 (0.1337) Rec B-EMPLOYMENT: 0.9724 (0.9655):  44%|▍| 189/429 [00:20<00:25,  9.50it
+Epoch: 41/159 Phase: train Loss: 0.2448 (0.2561) Acc: 0.0818 (0.1278) Rec B-EMPLOYMENT: 0.9723 (0.9581):  49%|▍| 209/429 [00:22<00:23,  9.19it
+Epoch: 41/159 Phase: train Loss: 0.2452 (0.2981) Acc: 0.0820 (0.1352) Rec B-EMPLOYMENT: 0.9726 (1.0000):  53%|▌| 228/429 [00:24<00:21,  9.46it
+Epoch: 41/159 Phase: train Loss: 0.2455 (0.2257) Acc: 0.0821 (0.1194) Rec B-EMPLOYMENT: 0.9733 (0.9879):  57%|▌| 246/429 [00:26<00:20,  8.82it
+Epoch: 41/159 Phase: train Loss: 0.2471 (0.2166) Acc: 0.0822 (0.1460) Rec B-EMPLOYMENT: 0.9730 (0.9737):  62%|▌| 265/429 [00:28<00:17,  9.62it
+Epoch: 41/159 Phase: train Loss: 0.2460 (0.1765) Acc: 0.0821 (0.1347) Rec B-EMPLOYMENT: 0.9733 (0.9725):  66%|▋| 284/429 [00:30<00:15,  9.49it
+Epoch: 41/159 Phase: train Loss: 0.2461 (0.2590) Acc: 0.0822 (0.1488) Rec B-EMPLOYMENT: 0.9731 (0.9766):  71%|▋| 304/429 [00:32<00:13,  9.55it
+Epoch: 41/159 Phase: train Loss: 0.2466 (0.2764) Acc: 0.0823 (0.1548) Rec B-EMPLOYMENT: 0.9730 (0.9831):  75%|▊| 322/429 [00:34<00:11,  9.57it
+Epoch: 41/159 Phase: train Loss: 0.2458 (0.2727) Acc: 0.0823 (0.1510) Rec B-EMPLOYMENT: 0.9726 (0.9519):  79%|▊| 341/429 [00:36<00:09,  9.61it
+Epoch: 41/159 Phase: train Loss: 0.2455 (0.2463) Acc: 0.0823 (0.1290) Rec B-EMPLOYMENT: 0.9724 (0.9490):  84%|▊| 360/429 [00:38<00:07,  9.52it
+Epoch: 41/159 Phase: train Loss: 0.2459 (0.3032) Acc: 0.0822 (0.1228) Rec B-EMPLOYMENT: 0.9724 (0.9362):  88%|▉| 379/429 [00:40<00:05,  9.30it
+Epoch: 41/159 Phase: train Loss: 0.2462 (0.2514) Acc: 0.0822 (0.1278) Rec B-EMPLOYMENT: 0.9722 (0.9779):  93%|▉| 398/429 [00:42<00:03,  9.45it
+Epoch: 41/159 Phase: train Loss: 0.2460 (0.2225) Acc: 0.0823 (0.1211) Rec B-EMPLOYMENT: 0.9721 (0.9848):  96%|▉| 412/429 [00:44<00:01,  9.61it
+Epoch: 41/159 Phase: valid Loss: 0.5726 (0.3724) Acc: 0.0113 (0.0799) Rec B-EMPLOYMENT: 1.0000 (1.0000):   1%| | 5/687 [00:00<00:29, 22.96it/s
+Epoch: 41/159 Phase: valid Loss: 0.4229 (0.2396) Acc: 0.0117 (0.1176) Rec B-EMPLOYMENT: 0.9496 (0.9706):  12%| | 80/687 [00:02<00:19, 30.48it/
+Epoch: 41/159 Phase: valid Loss: 0.4554 (0.5859) Acc: 0.0117 (0.1300) Rec B-EMPLOYMENT: 0.9458 (1.0000):  24%|▏| 165/687 [00:04<00:11, 43.81it
+Epoch: 41/159 Phase: valid Loss: 0.4548 (0.6050) Acc: 0.0115 (0.1397) Rec B-EMPLOYMENT: 0.9410 (0.8000):  37%|▎| 255/687 [00:06<00:09, 46.78it
+Epoch: 41/159 Phase: valid Loss: 0.4437 (0.5335) Acc: 0.0114 (0.1713) Rec B-EMPLOYMENT: 0.9471 (1.0000):  49%|▍| 340/687 [00:08<00:10, 34.26it
+Epoch: 41/159 Phase: valid Loss: 0.4480 (0.3937) Acc: 0.0114 (0.0920) Rec B-EMPLOYMENT: 0.9467 (0.9697):  59%|▌| 405/687 [00:10<00:09, 29.27it
+Epoch: 41/159 Phase: valid Loss: 0.4575 (0.1947) Acc: 0.0114 (0.1333) Rec B-EMPLOYMENT: 0.9454 (0.9688):  72%|▋| 495/687 [00:12<00:04, 43.94it
+Epoch: 41/159 Phase: valid Loss: 0.4460 (0.5037) Acc: 0.0115 (0.1490) Rec B-EMPLOYMENT: 0.9452 (1.0000):  84%|▊| 580/687 [00:14<00:02, 45.57it
+Epoch: 41/159 Phase: valid Loss: 0.4478 (0.6087) Acc: 0.0115 (0.0891) Rec B-EMPLOYMENT: 0.9463 (0.9556):  97%|▉| 666/687 [00:16<00:00, 46.07it
+Epoch: 41/159 Phase: valid Loss: 0.4478 (0.6087) Acc: 0.0115 (0.0891) Rec B-EMPLOYMENT: 0.9463 (0.9556):  97%|▉| 666/687 [00:16<00:00, 46.07it
+Epoch: 42/159 Phase: train Loss: 0.2587 (0.2323) Acc: 0.0819 (0.1519) Rec B-EMPLOYMENT: 0.9682 (0.9783):   2%| | 8/429 [00:01<00:53,  7.89it/s
+Epoch: 42/159 Phase: train Loss: 0.2534 (0.3663) Acc: 0.0805 (0.1405) Rec B-EMPLOYMENT: 0.9721 (0.9786):   6%| | 27/429 [00:03<00:41,  9.61it/
+Epoch: 42/159 Phase: train Loss: 0.2518 (0.1725) Acc: 0.0808 (0.1512) Rec B-EMPLOYMENT: 0.9688 (1.0000):  10%| | 45/429 [00:05<00:47,  8.02it/
+Epoch: 42/159 Phase: train Loss: 0.2485 (0.2389) Acc: 0.0813 (0.1313) Rec B-EMPLOYMENT: 0.9683 (0.9735):  15%|▏| 65/429 [00:07<00:37,  9.67it/
+Epoch: 42/159 Phase: train Loss: 0.2465 (0.2483) Acc: 0.0815 (0.1289) Rec B-EMPLOYMENT: 0.9680 (0.9412):  20%|▏| 84/429 [00:09<00:35,  9.60it/
+Epoch: 42/159 Phase: train Loss: 0.2465 (0.2221) Acc: 0.0814 (0.1435) Rec B-EMPLOYMENT: 0.9687 (0.9819):  24%|▏| 104/429 [00:11<00:32,  9.86it
+Epoch: 42/159 Phase: train Loss: 0.2451 (0.3001) Acc: 0.0816 (0.1276) Rec B-EMPLOYMENT: 0.9691 (0.9533):  28%|▎| 118/429 [00:13<00:33,  9.19it
+Epoch: 42/159 Phase: train Loss: 0.2438 (0.2223) Acc: 0.0818 (0.1425) Rec B-EMPLOYMENT: 0.9695 (0.9842):  32%|▎| 137/429 [00:15<00:30,  9.54it
+Epoch: 42/159 Phase: train Loss: 0.2435 (0.3343) Acc: 0.0819 (0.1412) Rec B-EMPLOYMENT: 0.9697 (0.9559):  36%|▎| 156/429 [00:17<00:27, 10.04it
+Epoch: 42/159 Phase: train Loss: 0.2430 (0.1952) Acc: 0.0821 (0.1324) Rec B-EMPLOYMENT: 0.9700 (0.9820):  41%|▍| 174/429 [00:19<00:34,  7.38it
+Epoch: 42/159 Phase: train Loss: 0.2430 (0.3332) Acc: 0.0821 (0.1340) Rec B-EMPLOYMENT: 0.9701 (0.9444):  45%|▍| 193/429 [00:21<00:24,  9.55it
+Epoch: 42/159 Phase: train Loss: 0.2453 (0.3123) Acc: 0.0820 (0.1685) Rec B-EMPLOYMENT: 0.9698 (0.9312):  49%|▍| 212/429 [00:23<00:22,  9.49it
+Epoch: 42/159 Phase: train Loss: 0.2457 (0.2268) Acc: 0.0822 (0.1475) Rec B-EMPLOYMENT: 0.9704 (0.9828):  54%|▌| 232/429 [00:25<00:21,  9.27it
+Epoch: 42/159 Phase: train Loss: 0.2467 (0.3112) Acc: 0.0822 (0.1299) Rec B-EMPLOYMENT: 0.9713 (0.9875):  58%|▌| 250/429 [00:27<00:19,  9.17it
+Epoch: 42/159 Phase: train Loss: 0.2468 (0.2012) Acc: 0.0823 (0.1335) Rec B-EMPLOYMENT: 0.9709 (0.9671):  63%|▋| 269/429 [00:29<00:16,  9.78it
+Epoch: 42/159 Phase: train Loss: 0.2462 (0.3006) Acc: 0.0822 (0.1589) Rec B-EMPLOYMENT: 0.9710 (0.9302):  67%|▋| 287/429 [00:31<00:17,  7.94it
+Epoch: 42/159 Phase: train Loss: 0.2454 (0.2545) Acc: 0.0823 (0.1460) Rec B-EMPLOYMENT: 0.9712 (0.9825):  71%|▋| 304/429 [00:33<00:13,  9.03it
+Epoch: 42/159 Phase: train Loss: 0.2454 (0.3209) Acc: 0.0823 (0.1349) Rec B-EMPLOYMENT: 0.9708 (0.9563):  75%|▋| 320/429 [00:35<00:11,  9.14it
+Epoch: 42/159 Phase: train Loss: 0.2449 (0.2661) Acc: 0.0824 (0.1313) Rec B-EMPLOYMENT: 0.9709 (0.9899):  79%|▊| 338/429 [00:37<00:09,  9.67it
+Epoch: 42/159 Phase: train Loss: 0.2447 (0.2129) Acc: 0.0824 (0.1380) Rec B-EMPLOYMENT: 0.9709 (0.9771):  83%|▊| 357/429 [00:39<00:07, 10.08it
+Epoch: 42/159 Phase: train Loss: 0.2453 (0.2335) Acc: 0.0823 (0.1425) Rec B-EMPLOYMENT: 0.9710 (0.9630):  88%|▉| 376/429 [00:41<00:06,  8.75it
+Epoch: 42/159 Phase: train Loss: 0.2449 (0.2473) Acc: 0.0823 (0.1448) Rec B-EMPLOYMENT: 0.9708 (0.9748):  92%|▉| 396/429 [00:43<00:03,  9.59it
+Epoch: 42/159 Phase: train Loss: 0.2449 (0.2700) Acc: 0.0823 (0.1234) Rec B-EMPLOYMENT: 0.9707 (0.9888):  97%|▉| 414/429 [00:45<00:01,  9.68it
+Epoch: 42/159 Phase: valid Loss: 0.5676 (0.7864) Acc: 0.0110 (0.0968) Rec B-EMPLOYMENT: 1.0000 (nan):   1%|   | 8/687 [00:00<00:42, 15.94it/s]
+Epoch: 42/159 Phase: valid Loss: 0.4252 (0.1961) Acc: 0.0117 (0.1043) Rec B-EMPLOYMENT: 0.9489 (0.9828):  11%| | 77/687 [00:02<00:28, 21.64it/
+Epoch: 42/159 Phase: valid Loss: 0.4584 (0.7981) Acc: 0.0117 (0.1068) Rec B-EMPLOYMENT: 0.9459 (1.0000):  24%|▏| 166/687 [00:04<00:12, 43.23it
+Epoch: 42/159 Phase: valid Loss: 0.4558 (1.4392) Acc: 0.0116 (0.0875) Rec B-EMPLOYMENT: 0.9411 (1.0000):  37%|▎| 251/687 [00:06<00:09, 47.27it
+Epoch: 42/159 Phase: valid Loss: 0.4449 (0.2270) Acc: 0.0114 (0.1331) Rec B-EMPLOYMENT: 0.9477 (0.9130):  49%|▍| 336/687 [00:08<00:07, 46.71it
+Epoch: 42/159 Phase: valid Loss: 0.4479 (0.6310) Acc: 0.0114 (0.1328) Rec B-EMPLOYMENT: 0.9463 (0.9730):  62%|▌| 426/687 [00:10<00:06, 42.00it
+Epoch: 42/159 Phase: valid Loss: 0.4543 (0.1984) Acc: 0.0114 (0.1468) Rec B-EMPLOYMENT: 0.9458 (0.9697):  74%|▋| 511/687 [00:12<00:03, 45.81it
+Epoch: 42/159 Phase: valid Loss: 0.4463 (0.3419) Acc: 0.0115 (0.1027) Rec B-EMPLOYMENT: 0.9457 (0.8438):  84%|▊| 576/687 [00:14<00:02, 43.14it
+Epoch: 42/159 Phase: valid Loss: 0.4481 (0.6101) Acc: 0.0115 (0.0891) Rec B-EMPLOYMENT: 0.9465 (0.9556):  97%|▉| 666/687 [00:16<00:00, 46.50it
+Epoch: 42/159 Phase: valid Loss: 0.4481 (0.6101) Acc: 0.0115 (0.0891) Rec B-EMPLOYMENT: 0.9465 (0.9556):  97%|▉| 666/687 [00:16<00:00, 46.50it
+Epoch: 43/159 Phase: train Loss: 0.2507 (0.3260) Acc: 0.0821 (0.1284) Rec B-EMPLOYMENT: 0.9742 (0.9451):   2%| | 9/429 [00:01<00:53,  7.84it/s
+Epoch: 43/159 Phase: train Loss: 0.2480 (0.2608) Acc: 0.0807 (0.1352) Rec B-EMPLOYMENT: 0.9716 (0.9797):   6%| | 25/429 [00:03<00:49,  8.21it/
+Epoch: 43/159 Phase: train Loss: 0.2517 (0.3044) Acc: 0.0809 (0.1448) Rec B-EMPLOYMENT: 0.9685 (0.9070):  10%| | 42/429 [00:05<00:45,  8.46it/
+Epoch: 43/159 Phase: train Loss: 0.2492 (0.1861) Acc: 0.0815 (0.1578) Rec B-EMPLOYMENT: 0.9686 (0.9862):  13%|▏| 55/429 [00:07<00:45,  8.28it/
+Epoch: 43/159 Phase: train Loss: 0.2445 (0.1901) Acc: 0.0815 (0.1334) Rec B-EMPLOYMENT: 0.9703 (0.9939):  16%|▏| 70/429 [00:09<00:47,  7.60it/
+Epoch: 43/159 Phase: train Loss: 0.2463 (0.2279) Acc: 0.0813 (0.1292) Rec B-EMPLOYMENT: 0.9700 (1.0000):  21%|▏| 90/429 [00:11<00:35,  9.54it/
+Epoch: 43/159 Phase: train Loss: 0.2456 (0.1774) Acc: 0.0816 (0.1582) Rec B-EMPLOYMENT: 0.9706 (0.9760):  26%|▎| 110/429 [00:13<00:32,  9.72it
+Epoch: 43/159 Phase: train Loss: 0.2444 (0.1991) Acc: 0.0817 (0.1431) Rec B-EMPLOYMENT: 0.9717 (0.9878):  29%|▎| 126/429 [00:15<00:32,  9.42it
+Epoch: 43/159 Phase: train Loss: 0.2437 (0.2353) Acc: 0.0820 (0.1366) Rec B-EMPLOYMENT: 0.9712 (0.9811):  34%|▎| 146/429 [00:17<00:28,  9.83it
+Epoch: 43/159 Phase: train Loss: 0.2442 (0.3390) Acc: 0.0820 (0.1379) Rec B-EMPLOYMENT: 0.9715 (0.8817):  38%|▍| 164/429 [00:19<00:28,  9.38it
+Epoch: 43/159 Phase: train Loss: 0.2435 (0.1475) Acc: 0.0821 (0.1279) Rec B-EMPLOYMENT: 0.9714 (0.9773):  43%|▍| 183/429 [00:21<00:28,  8.70it
+Epoch: 43/159 Phase: train Loss: 0.2446 (0.3020) Acc: 0.0819 (0.1268) Rec B-EMPLOYMENT: 0.9716 (0.9845):  47%|▍| 202/429 [00:23<00:23,  9.55it
+Epoch: 43/159 Phase: train Loss: 0.2452 (0.2006) Acc: 0.0821 (0.1408) Rec B-EMPLOYMENT: 0.9713 (0.9737):  52%|▌| 221/429 [00:25<00:21,  9.53it
+Epoch: 43/159 Phase: train Loss: 0.2462 (0.2598) Acc: 0.0822 (0.1469) Rec B-EMPLOYMENT: 0.9720 (0.9819):  56%|▌| 241/429 [00:27<00:19,  9.66it
+Epoch: 43/159 Phase: train Loss: 0.2459 (0.1811) Acc: 0.0823 (0.1375) Rec B-EMPLOYMENT: 0.9720 (0.9860):  60%|▌| 259/429 [00:29<00:18,  9.35it
+Epoch: 43/159 Phase: train Loss: 0.2459 (0.2212) Acc: 0.0821 (0.1320) Rec B-EMPLOYMENT: 0.9718 (0.9635):  65%|▋| 279/429 [00:31<00:15,  9.62it
+Epoch: 43/159 Phase: train Loss: 0.2445 (0.2168) Acc: 0.0823 (0.1351) Rec B-EMPLOYMENT: 0.9718 (0.9870):  70%|▋| 299/429 [00:33<00:13,  9.62it
+Epoch: 43/159 Phase: train Loss: 0.2450 (0.2359) Acc: 0.0822 (0.1413) Rec B-EMPLOYMENT: 0.9718 (0.9739):  74%|▋| 318/429 [00:35<00:11,  9.78it
+Epoch: 43/159 Phase: train Loss: 0.2452 (0.2158) Acc: 0.0823 (0.1300) Rec B-EMPLOYMENT: 0.9720 (0.9603):  78%|▊| 336/429 [00:37<00:12,  7.56it
+Epoch: 43/159 Phase: train Loss: 0.2447 (0.2864) Acc: 0.0823 (0.1347) Rec B-EMPLOYMENT: 0.9720 (0.9938):  83%|▊| 354/429 [00:39<00:09,  8.23it
+Epoch: 43/159 Phase: train Loss: 0.2453 (0.1812) Acc: 0.0823 (0.1312) Rec B-EMPLOYMENT: 0.9721 (0.9908):  87%|▊| 373/429 [00:41<00:05,  9.91it
+Epoch: 43/159 Phase: train Loss: 0.2449 (0.2408) Acc: 0.0823 (0.1327) Rec B-EMPLOYMENT: 0.9719 (0.9509):  91%|▉| 392/429 [00:43<00:03,  9.36it
+Epoch: 43/159 Phase: train Loss: 0.2448 (0.2187) Acc: 0.0823 (0.1477) Rec B-EMPLOYMENT: 0.9719 (0.9926):  95%|▉| 409/429 [00:45<00:02,  9.29it
+Epoch: 43/159 Phase: train Loss: 0.2447 (0.3023) Acc: 0.0822 (0.1513) Rec B-EMPLOYMENT: 0.9722 (0.9652):  99%|▉| 425/429 [00:47<00:00, 10.47it
+Epoch: 43/159 Phase: valid Loss: 0.4140 (0.2311) Acc: 0.0117 (0.1208) Rec B-EMPLOYMENT: 0.9560 (0.8235):   9%| | 60/687 [00:01<00:14, 42.87it/
+Epoch: 43/159 Phase: valid Loss: 0.4400 (0.2601) Acc: 0.0116 (0.1608) Rec B-EMPLOYMENT: 0.9463 (0.8947):  21%|▏| 145/687 [00:03<00:11, 45.91it
+Epoch: 43/159 Phase: valid Loss: 0.4597 (0.4316) Acc: 0.0115 (0.1225) Rec B-EMPLOYMENT: 0.9407 (nan):  33%|▎| 230/687 [00:05<00:09, 46.28it/s]
+Epoch: 43/159 Phase: valid Loss: 0.4446 (0.4553) Acc: 0.0114 (0.1179) Rec B-EMPLOYMENT: 0.9473 (1.0000):  47%|▍| 321/687 [00:08<00:08, 41.80it
+Epoch: 43/159 Phase: valid Loss: 0.4438 (0.3833) Acc: 0.0114 (0.0961) Rec B-EMPLOYMENT: 0.9468 (1.0000):  56%|▌| 386/687 [00:09<00:07, 42.10it
+Epoch: 43/159 Phase: valid Loss: 0.4587 (0.9420) Acc: 0.0114 (0.1071) Rec B-EMPLOYMENT: 0.9447 (0.9667):  69%|▋| 471/687 [00:11<00:04, 45.04it
+Epoch: 43/159 Phase: valid Loss: 0.4460 (0.5537) Acc: 0.0115 (0.1529) Rec B-EMPLOYMENT: 0.9462 (nan):  81%|▊| 556/687 [00:13<00:02, 45.59it/s]
+Epoch: 43/159 Phase: valid Loss: 0.4462 (0.4057) Acc: 0.0115 (0.1021) Rec B-EMPLOYMENT: 0.9452 (0.9231):  91%|▉| 626/687 [00:15<00:01, 46.19it
+Epoch: 43/159 Phase: valid Loss: 0.4462 (0.4057) Acc: 0.0115 (0.1021) Rec B-EMPLOYMENT: 0.9452 (0.9231):  91%|▉| 626/687 [00:15<00:01, 46.19it
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 44/159 Phase: train Loss: 0.2391 (0.1835) Acc: 0.0814 (0.1381) Rec B-EMPLOYMENT: 0.9653 (0.9795):   4%| | 16/429 [00:02<00:53,  7.69it/
+Epoch: 44/159 Phase: train Loss: 0.2537 (0.2294) Acc: 0.0810 (0.1476) Rec B-EMPLOYMENT: 0.9680 (0.9829):   9%| | 37/429 [00:04<00:40,  9.63it/
+Epoch: 44/159 Phase: train Loss: 0.2521 (0.1855) Acc: 0.0814 (0.1407) Rec B-EMPLOYMENT: 0.9687 (0.9821):  13%|▏| 55/429 [00:06<00:39,  9.55it/
+Epoch: 44/159 Phase: train Loss: 0.2477 (0.1856) Acc: 0.0814 (0.1434) Rec B-EMPLOYMENT: 0.9696 (0.9908):  17%|▏| 72/429 [00:08<00:50,  7.05it/
+Epoch: 44/159 Phase: train Loss: 0.2485 (0.2488) Acc: 0.0812 (0.1352) Rec B-EMPLOYMENT: 0.9691 (0.9370):  21%|▏| 92/429 [00:10<00:35,  9.51it/
+Epoch: 44/159 Phase: train Loss: 0.2452 (0.2723) Acc: 0.0816 (0.1347) Rec B-EMPLOYMENT: 0.9705 (0.9527):  26%|▎| 111/429 [00:12<00:33,  9.53it
+Epoch: 44/159 Phase: train Loss: 0.2419 (0.1732) Acc: 0.0818 (0.1302) Rec B-EMPLOYMENT: 0.9716 (0.9798):  31%|▎| 131/429 [00:14<00:32,  9.20it
+Epoch: 44/159 Phase: train Loss: 0.2435 (0.2736) Acc: 0.0819 (0.1308) Rec B-EMPLOYMENT: 0.9716 (0.9867):  34%|▎| 147/429 [00:16<00:31,  9.08it
+Epoch: 44/159 Phase: train Loss: 0.2419 (0.2373) Acc: 0.0821 (0.1524) Rec B-EMPLOYMENT: 0.9721 (0.9786):  39%|▍| 167/429 [00:18<00:27,  9.36it
+Epoch: 44/159 Phase: train Loss: 0.2424 (0.2034) Acc: 0.0822 (0.1565) Rec B-EMPLOYMENT: 0.9720 (0.9885):  42%|▍| 181/429 [00:20<00:26,  9.53it
+Epoch: 44/159 Phase: train Loss: 0.2422 (0.2667) Acc: 0.0820 (0.1167) Rec B-EMPLOYMENT: 0.9721 (0.9638):  47%|▍| 201/429 [00:22<00:23,  9.63it
+Epoch: 44/159 Phase: train Loss: 0.2433 (0.2000) Acc: 0.0822 (0.1346) Rec B-EMPLOYMENT: 0.9722 (1.0000):  51%|▌| 218/429 [00:24<00:22,  9.58it
+Epoch: 44/159 Phase: train Loss: 0.2435 (0.2849) Acc: 0.0822 (0.1369) Rec B-EMPLOYMENT: 0.9725 (0.9733):  55%|▌| 237/429 [00:26<00:20,  9.48it
+Epoch: 44/159 Phase: train Loss: 0.2441 (0.1996) Acc: 0.0823 (0.1282) Rec B-EMPLOYMENT: 0.9726 (0.9677):  60%|▌| 257/429 [00:28<00:18,  9.50it
+Epoch: 44/159 Phase: train Loss: 0.2442 (0.2162) Acc: 0.0822 (0.1275) Rec B-EMPLOYMENT: 0.9723 (0.9378):  64%|▋| 273/429 [00:30<00:19,  8.09it
+Epoch: 44/159 Phase: train Loss: 0.2452 (0.1706) Acc: 0.0822 (0.1389) Rec B-EMPLOYMENT: 0.9724 (0.9876):  68%|▋| 293/429 [00:32<00:14,  9.37it
+Epoch: 44/159 Phase: train Loss: 0.2444 (0.2397) Acc: 0.0823 (0.1391) Rec B-EMPLOYMENT: 0.9727 (0.9851):  73%|▋| 313/429 [00:34<00:12,  9.61it
+Epoch: 44/159 Phase: train Loss: 0.2454 (0.2578) Acc: 0.0824 (0.1416) Rec B-EMPLOYMENT: 0.9726 (0.9717):  77%|▊| 332/429 [00:36<00:09, 10.17it
+Epoch: 44/159 Phase: train Loss: 0.2446 (0.2911) Acc: 0.0824 (0.1568) Rec B-EMPLOYMENT: 0.9718 (0.9296):  81%|▊| 349/429 [00:38<00:08,  9.08it
+Epoch: 44/159 Phase: train Loss: 0.2449 (0.2022) Acc: 0.0824 (0.1362) Rec B-EMPLOYMENT: 0.9721 (0.9773):  86%|▊| 367/429 [00:40<00:06,  9.53it
+Epoch: 44/159 Phase: train Loss: 0.2450 (0.2290) Acc: 0.0823 (0.1466) Rec B-EMPLOYMENT: 0.9722 (0.9953):  90%|▉| 387/429 [00:42<00:04,  9.50it
+Epoch: 44/159 Phase: train Loss: 0.2448 (0.1151) Acc: 0.0823 (0.1478) Rec B-EMPLOYMENT: 0.9722 (0.9819):  94%|▉| 405/429 [00:44<00:02,  8.01it
+Epoch: 44/159 Phase: train Loss: 0.2451 (0.3477) Acc: 0.0823 (0.1500) Rec B-EMPLOYMENT: 0.9723 (0.9696):  99%|▉| 426/429 [00:46<00:00, 10.37it
+Epoch: 44/159 Phase: valid Loss: 0.4146 (0.2304) Acc: 0.0117 (0.1202) Rec B-EMPLOYMENT: 0.9560 (0.8235):   9%| | 59/687 [00:01<00:15, 40.05it/
+Epoch: 44/159 Phase: valid Loss: 0.4283 (0.6079) Acc: 0.0116 (0.1199) Rec B-EMPLOYMENT: 0.9509 (1.0000):  18%|▏| 124/687 [00:03<00:14, 40.13it
+Epoch: 44/159 Phase: valid Loss: 0.4549 (0.1810) Acc: 0.0116 (0.0957) Rec B-EMPLOYMENT: 0.9425 (0.9355):  31%|▎| 214/687 [00:05<00:10, 45.89it
+Epoch: 44/159 Phase: valid Loss: 0.4512 (0.3682) Acc: 0.0115 (0.1035) Rec B-EMPLOYMENT: 0.9435 (0.9091):  41%|▍| 279/687 [00:07<00:08, 46.23it
+Epoch: 44/159 Phase: valid Loss: 0.4416 (0.5068) Acc: 0.0114 (0.1758) Rec B-EMPLOYMENT: 0.9482 (1.0000):  53%|▌| 365/687 [00:09<00:06, 46.46it
+Epoch: 44/159 Phase: valid Loss: 0.4530 (0.4087) Acc: 0.0114 (0.1368) Rec B-EMPLOYMENT: 0.9464 (1.0000):  66%|▋| 455/687 [00:11<00:05, 39.76it
+Epoch: 44/159 Phase: valid Loss: 0.4536 (0.4571) Acc: 0.0114 (0.0930) Rec B-EMPLOYMENT: 0.9463 (1.0000):  76%|▊| 520/687 [00:13<00:04, 39.61it
+Epoch: 44/159 Phase: valid Loss: 0.4450 (0.2241) Acc: 0.0115 (0.1035) Rec B-EMPLOYMENT: 0.9453 (0.9048):  89%|▉| 610/687 [00:15<00:01, 44.83it
+Epoch: 44/159 Phase: valid Loss: 0.4450 (0.2241) Acc: 0.0115 (0.1035) Rec B-EMPLOYMENT: 0.9453 (0.9048):  89%|▉| 610/687 [00:15<00:01, 44.83it
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 45/159 Phase: train Loss: 0.2524 (0.1891) Acc: 0.0813 (0.1546) Rec B-EMPLOYMENT: 0.9748 (0.9755):   3%| | 13/429 [00:01<00:51,  8.01it/
+Epoch: 45/159 Phase: train Loss: 0.2585 (0.2935) Acc: 0.0808 (0.1499) Rec B-EMPLOYMENT: 0.9688 (0.9431):   7%| | 30/429 [00:04<00:42,  9.32it/
+Epoch: 45/159 Phase: train Loss: 0.2547 (0.3041) Acc: 0.0807 (0.1367) Rec B-EMPLOYMENT: 0.9657 (0.9468):  12%| | 50/429 [00:06<00:38,  9.96it/
+Epoch: 45/159 Phase: train Loss: 0.2500 (0.1728) Acc: 0.0814 (0.1399) Rec B-EMPLOYMENT: 0.9675 (0.9916):  16%|▏| 70/429 [00:08<00:37,  9.49it/
+Epoch: 45/159 Phase: train Loss: 0.2501 (0.2026) Acc: 0.0813 (0.1244) Rec B-EMPLOYMENT: 0.9677 (0.9707):  20%|▏| 86/429 [00:10<00:37,  9.14it/
+Epoch: 45/159 Phase: train Loss: 0.2477 (0.2382) Acc: 0.0813 (0.1595) Rec B-EMPLOYMENT: 0.9687 (0.9873):  24%|▏| 102/429 [00:11<00:34,  9.50it
+Epoch: 45/159 Phase: train Loss: 0.2460 (0.3562) Acc: 0.0817 (0.1438) Rec B-EMPLOYMENT: 0.9704 (0.9490):  28%|▎| 121/429 [00:13<00:31,  9.65it
+Epoch: 45/159 Phase: train Loss: 0.2443 (0.2695) Acc: 0.0818 (0.1422) Rec B-EMPLOYMENT: 0.9705 (0.9725):  32%|▎| 138/429 [00:15<00:30,  9.64it
+Epoch: 45/159 Phase: train Loss: 0.2439 (0.2471) Acc: 0.0820 (0.1487) Rec B-EMPLOYMENT: 0.9708 (0.9828):  37%|▎| 157/429 [00:17<00:28,  9.43it
+Epoch: 45/159 Phase: train Loss: 0.2445 (0.2870) Acc: 0.0821 (0.1338) Rec B-EMPLOYMENT: 0.9705 (0.9922):  41%|▍| 177/429 [00:19<00:26,  9.46it
+Epoch: 45/159 Phase: train Loss: 0.2439 (0.2341) Acc: 0.0820 (0.1577) Rec B-EMPLOYMENT: 0.9709 (0.9463):  46%|▍| 196/429 [00:21<00:24,  9.70it
+Epoch: 45/159 Phase: train Loss: 0.2455 (0.2422) Acc: 0.0820 (0.1653) Rec B-EMPLOYMENT: 0.9708 (0.9767):  50%|▍| 214/429 [00:23<00:24,  8.85it
+Epoch: 45/159 Phase: train Loss: 0.2463 (0.2191) Acc: 0.0821 (0.1487) Rec B-EMPLOYMENT: 0.9713 (0.9885):  54%|▌| 233/429 [00:25<00:19,  9.97it
+Epoch: 45/159 Phase: train Loss: 0.2461 (0.2219) Acc: 0.0822 (0.1487) Rec B-EMPLOYMENT: 0.9718 (0.9697):  59%|▌| 253/429 [00:27<00:17,  9.95it
+Epoch: 45/159 Phase: train Loss: 0.2466 (0.2133) Acc: 0.0822 (0.1405) Rec B-EMPLOYMENT: 0.9714 (0.9706):  63%|▋| 270/429 [00:29<00:16,  9.61it
+Epoch: 45/159 Phase: train Loss: 0.2459 (0.2321) Acc: 0.0821 (0.1291) Rec B-EMPLOYMENT: 0.9713 (0.9837):  67%|▋| 289/429 [00:31<00:14,  9.39it
+Epoch: 45/159 Phase: train Loss: 0.2452 (0.2301) Acc: 0.0822 (0.1435) Rec B-EMPLOYMENT: 0.9712 (0.9762):  72%|▋| 308/429 [00:34<00:12,  9.49it
+Epoch: 45/159 Phase: train Loss: 0.2465 (0.2620) Acc: 0.0823 (0.1349) Rec B-EMPLOYMENT: 0.9712 (0.9784):  76%|▊| 327/429 [00:36<00:10,  9.48it
+Epoch: 45/159 Phase: train Loss: 0.2462 (0.2166) Acc: 0.0823 (0.1367) Rec B-EMPLOYMENT: 0.9707 (0.9685):  80%|▊| 344/429 [00:38<00:09,  8.51it
+Epoch: 45/159 Phase: train Loss: 0.2454 (0.2479) Acc: 0.0823 (0.1392) Rec B-EMPLOYMENT: 0.9710 (0.9948):  85%|▊| 364/429 [00:40<00:06,  9.40it
+Epoch: 45/159 Phase: train Loss: 0.2459 (0.2474) Acc: 0.0822 (0.1404) Rec B-EMPLOYMENT: 0.9707 (0.9449):  89%|▉| 383/429 [00:42<00:04,  9.29it
+Epoch: 45/159 Phase: train Loss: 0.2460 (0.2335) Acc: 0.0822 (0.1256) Rec B-EMPLOYMENT: 0.9709 (0.9855):  94%|▉| 402/429 [00:44<00:02,  9.99it
+Epoch: 45/159 Phase: train Loss: 0.2459 (0.2163) Acc: 0.0823 (0.1431) Rec B-EMPLOYMENT: 0.9710 (0.9823):  97%|▉| 416/429 [00:45<00:01,  9.36it
+Epoch: 45/159 Phase: valid Loss: 0.4880 (0.8354) Acc: 0.0111 (0.1083) Rec B-EMPLOYMENT: 0.9552 (1.0000):   3%| | 20/687 [00:00<00:15, 42.79it/
+Epoch: 45/159 Phase: valid Loss: 0.4177 (0.1423) Acc: 0.0116 (0.1974) Rec B-EMPLOYMENT: 0.9520 (0.9818):  15%|▏| 100/687 [00:02<00:13, 45.06it
+Epoch: 45/159 Phase: valid Loss: 0.4591 (0.6766) Acc: 0.0116 (0.0907) Rec B-EMPLOYMENT: 0.9449 (0.9211):  28%|▎| 190/687 [00:05<00:12, 40.22it
+Epoch: 45/159 Phase: valid Loss: 0.4558 (0.5606) Acc: 0.0115 (0.0861) Rec B-EMPLOYMENT: 0.9414 (0.9412):  37%|▎| 255/687 [00:06<00:11, 37.67it
+Epoch: 45/159 Phase: valid Loss: 0.4452 (0.6735) Acc: 0.0114 (0.1133) Rec B-EMPLOYMENT: 0.9480 (nan):  50%|▌| 345/687 [00:08<00:07, 45.27it/s]
+Epoch: 45/159 Phase: valid Loss: 0.4480 (0.3401) Acc: 0.0114 (0.1123) Rec B-EMPLOYMENT: 0.9463 (nan):  62%|▌| 425/687 [00:10<00:05, 44.76it/s]
+Epoch: 45/159 Phase: valid Loss: 0.4572 (0.1144) Acc: 0.0114 (0.1320) Rec B-EMPLOYMENT: 0.9458 (1.0000):  72%|▋| 495/687 [00:12<00:04, 46.02it
+Epoch: 45/159 Phase: valid Loss: 0.4455 (0.0877) Acc: 0.0115 (0.1194) Rec B-EMPLOYMENT: 0.9452 (0.8571):  85%|▊| 585/687 [00:15<00:02, 37.01it
+Epoch: 45/159 Phase: valid Loss: 0.4470 (0.5471) Acc: 0.0115 (0.1325) Rec B-EMPLOYMENT: 0.9465 (1.0000):  95%|▉| 650/687 [00:16<00:01, 36.76it
+Epoch: 45/159 Phase: valid Loss: 0.4491 (0.5807) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9474 (nan): 100%|█| 687/687 [00:17<00:00, 38.66it/s]
+Epoch: 45/159 Phase: valid Loss: 0.4491 (0.5807) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9474 (nan): 100%|█| 687/687 [00:17<00:00, 38.66it/s]
+{'B-EMPLOYMENT_appended_data': 1614, 'I-EMPLOYMENT_appended_data': 925}
+Epoch: 46/159 Phase: train Loss: 0.2166 (0.2166) Acc: 0.0846 (0.1457) Rec B-EMPLOYMENT: 0.9772 (0.9772):   0%| | 1/429 [00:00<02:48,  2.54it/s
+Epoch: 46/159 Phase: train Loss: 0.2325 (0.1824) Acc: 0.0816 (0.1385) Rec B-EMPLOYMENT: 0.9651 (0.9659):   4%| | 17/429 [00:02<00:55,  7.45it/
+Epoch: 46/159 Phase: train Loss: 0.2506 (0.2234) Acc: 0.0810 (0.1307) Rec B-EMPLOYMENT: 0.9665 (0.9639):   7%| | 32/429 [00:04<00:49,  8.07it/
+Epoch: 46/159 Phase: train Loss: 0.2517 (0.3350) Acc: 0.0809 (0.1448) Rec B-EMPLOYMENT: 0.9681 (0.9915):  11%| | 48/429 [00:06<00:47,  8.11it/
+Epoch: 46/159 Phase: train Loss: 0.2480 (0.2139) Acc: 0.0815 (0.1360) Rec B-EMPLOYMENT: 0.9697 (0.9900):  15%|▏| 64/429 [00:08<00:43,  8.33it/
+Epoch: 46/159 Phase: train Loss: 0.2446 (0.2270) Acc: 0.0816 (0.1357) Rec B-EMPLOYMENT: 0.9694 (0.9606):  19%|▏| 82/429 [00:10<00:39,  8.87it/
+Epoch: 46/159 Phase: train Loss: 0.2439 (0.3193) Acc: 0.0814 (0.1284) Rec B-EMPLOYMENT: 0.9692 (0.9537):  23%|▏| 100/429 [00:12<00:34,  9.51it
+Epoch: 46/159 Phase: train Loss: 0.2419 (0.2556) Acc: 0.0819 (0.1573) Rec B-EMPLOYMENT: 0.9707 (0.9793):  28%|▎| 119/429 [00:14<00:32,  9.63it
+Epoch: 46/159 Phase: train Loss: 0.2401 (0.1941) Acc: 0.0822 (0.1464) Rec B-EMPLOYMENT: 0.9709 (0.9553):  33%|▎| 140/429 [00:16<00:30,  9.58it
+Epoch: 46/159 Phase: train Loss: 0.2395 (0.2422) Acc: 0.0823 (0.1529) Rec B-EMPLOYMENT: 0.9711 (0.9958):  37%|▎| 157/429 [00:18<00:28,  9.53it

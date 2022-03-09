@@ -1,0 +1,42 @@
+{
+    "os": "Linux-4.15.0-147-generic-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.9",
+    "heartbeatAt": "2021-10-09T21:08:47.662782",
+    "startedAt": "2021-10-09T21:08:46.177808",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": "10.0.130",
+    "args": [
+        "--data_path",
+        "/root/konst/data/nerus_lenta/news_ner_dataset.csv",
+        "--checkpoint_path",
+        "/root/konst/model_checkpoints/ner_employment",
+        "--batch_size",
+        "128",
+        "--num_workers",
+        "4",
+        "--test_size",
+        "0.05",
+        "--patience",
+        "5",
+        "--lr",
+        "1e-3",
+        "--epochs",
+        "160",
+        "--use-wandb"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "training/ner_employment/train.py",
+    "git": {
+        "remote": "https://github.com/konst8888/ml-utils",
+        "commit": "eeb4a707907c24def87fc1ea341754e837e63a8a"
+    },
+    "email": "mr.lipkin8@gmail.com",
+    "root": "/root/konst/ml-utils",
+    "host": "38597",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

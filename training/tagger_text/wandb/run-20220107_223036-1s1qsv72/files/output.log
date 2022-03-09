@@ -1,0 +1,36 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+Vocab size:  940
+Vocab size:  940
+  0%|                                                                                                             | 0/1717 [00:00<?, ?it/s]
+1.100637
+[1447, 8259, 699, 5886, 65184, 2396, 31583, 1191, 37.6, 284, 23025, 3398, 6012, 30723, 2644, 6336, 1004, 1220, 2262, 2043, 313, 620, 1487, 1228, 2888, 925, 1041, 1123, 1106, 2972, 867, 736, 2735, 816, 213.0, 1994, 2646]
+  0%|                                                                                                             | 0/1717 [00:05<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 357, in <module>
+    wandb,
+  File "train.py", line 92, in train
+    for idx, sample in pbar:
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/konst/ml-utils/training/tagger_text/dataset.py", line 157, in __getitem__
+    text = self.transforms(text)
+  File "/usr/local/lib/python3.6/dist-packages/torchvision/transforms/transforms.py", line 67, in __call__
+    img = t(img)
+  File "/root/konst/ml-utils/training/tagger_text/utils.py", line 107, in __call__
+    sims = self.w2v.most_similar(token, topn=topn)
+  File "/usr/local/lib/python3.6/dist-packages/gensim/models/keyedvectors.py", line 567, in most_similar
+    best = matutils.argsort(dists, topn=topn + len(all_words), reverse=True)
+  File "/usr/local/lib/python3.6/dist-packages/gensim/matutils.py", line 83, in argsort
+    most_extreme = np.argpartition(x, topn)[:topn]
+  File "<__array_function__ internals>", line 6, in argpartition
+  File "/usr/local/lib/python3.6/dist-packages/numpy/core/fromnumeric.py", line 830, in argpartition
+    return _wrapfunc(a, 'argpartition', kth, axis=axis, kind=kind, order=order)

@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "train.py", line 280, in <module>
+    test_size=test_size
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 88, in __init__
+    class_proportion = Counter([self.tag2index[span['type']] for spans in self.data.ner_preds for span in yaml.safe_load(spans) if span['type']])
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 88, in <listcomp>
+    class_proportion = Counter([self.tag2index[span['type']] for spans in self.data.ner_preds for span in yaml.safe_load(spans) if span['type']])
+  File "/usr/local/lib/python3.6/dist-packages/yaml/__init__.py", line 162, in safe_load
+    return load(stream, SafeLoader)
+  File "/usr/local/lib/python3.6/dist-packages/yaml/__init__.py", line 114, in load
+    return loader.get_single_data()
+  File "/usr/local/lib/python3.6/dist-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/usr/local/lib/python3.6/dist-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/usr/local/lib/python3.6/dist-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/usr/local/lib/python3.6/dist-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "/usr/local/lib/python3.6/dist-packages/yaml/composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "/usr/local/lib/python3.6/dist-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/usr/local/lib/python3.6/dist-packages/yaml/composer.py", line 129, in compose_mapping_node
+    item_key = self.compose_node(node, None)
+  File "/usr/local/lib/python3.6/dist-packages/yaml/composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):

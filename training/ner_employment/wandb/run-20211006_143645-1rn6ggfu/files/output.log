@@ -1,0 +1,648 @@
+0.321233
+tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0002, 0.0012],
+       device='cuda:0')
+LR:  0.00015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: train Loss: 0.5293 (0.7570) Acc: 0.0007 (0.0052) Rec B-EMPLOYMENT: 0.9715 (1.0000): 100%|█| 429/429 [01:13<00:00,  5.87it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: valid Loss: 0.1382 (0.1990) Acc: 0.0001 (0.0032) Rec B-EMPLOYMENT: 0.9939 (1.0000):  89%|▉| 613/687 [00:18<00:02, 35.24it/s
+Epoch: 0/39 Phase: valid Loss: 0.1334 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9945 (nan): 100%|███| 687/687 [00:20<00:00, 34.20it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: train Loss: 0.1448 (0.1158) Acc: 0.0008 (0.0056) Rec B-EMPLOYMENT: 0.9784 (1.0000): 100%|█| 429/429 [01:18<00:00,  5.49it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: valid Loss: 0.0589 (0.0049) Acc: 0.0001 (0.0093) Rec B-EMPLOYMENT: 0.9904 (1.0000):  98%|▉| 672/687 [00:19<00:00, 34.38it/s
+Epoch: 1/39 Phase: valid Loss: 0.0582 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9905 (nan): 100%|███| 687/687 [00:20<00:00, 33.95it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: train Loss: 0.0727 (0.0411) Acc: 0.0008 (0.0056) Rec B-EMPLOYMENT: 0.9867 (1.0000): 100%|█| 429/429 [01:12<00:00,  5.89it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: valid Loss: 0.0368 (0.0718) Acc: 0.0001 (0.0026) Rec B-EMPLOYMENT: 0.9932 (1.0000):  93%|▉| 637/687 [00:18<00:01, 37.64it/s
+Epoch: 2/39 Phase: valid Loss: 0.0351 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9937 (nan): 100%|███| 687/687 [00:20<00:00, 34.15it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/39 Phase: train Loss: 0.0502 (0.0239) Acc: 0.0008 (0.0056) Rec B-EMPLOYMENT: 0.9895 (1.0000): 100%|█| 429/429 [01:20<00:00,  5.34it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+Epoch: 3/39 Phase: valid Loss: 0.0273 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9937 (nan): 100%|███| 687/687 [00:20<00:00, 34.24it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/39 Phase: train Loss: 0.0373 (0.0163) Acc: 0.0008 (0.0056) Rec B-EMPLOYMENT: 0.9922 (1.0000): 100%|█| 429/429 [01:13<00:00,  5.85it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+Epoch: 4/39 Phase: valid Loss: 0.0252 (0.0141) Acc: 0.0001 (0.0144) Rec B-EMPLOYMENT: 0.9933 (1.0000):  94%|▉| 645/687 [00:18<00:01, 30.54it/s
+Epoch: 4/39 Phase: valid Loss: 0.0240 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9937 (nan): 100%|███| 687/687 [00:19<00:00, 34.48it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/39 Phase: train Loss: 0.0279 (0.0117) Acc: 0.0008 (0.0056) Rec B-EMPLOYMENT: 0.9934 (1.0000): 100%|█| 429/429 [01:12<00:00,  5.88it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/39 Phase: valid Loss: 0.0220 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9937 (nan): 100%|███| 687/687 [00:19<00:00, 34.40it/s]
+{'B-EMPLOYMENT_appended_data': 742}
+{7: array(['photographer', '36', 'вижу', 'вижу', 'еда', 'воспитываю', 'буду',
+       'воспитываю', '36', 'только', '#полиназакажет', 'photographer',
+       '#photographer_zis', 'принимаю', 'фотограф', 'босс', 'буду',
+       'никакого', '️воспитываю', 'цели', 'писатель', 'зарабатываю',
+       'лучших', 'буду', 'for', 'зарабатываю', 'неpץцкãя', '01', '01',
+       'я'], dtype='<U150')}
+LR:  0.00015
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/39 Phase: train Loss: 0.0217 (0.0038) Acc: 0.0009 (0.0169) Rec B-EMPLOYMENT: 0.9954 (1.0000): 100%|█| 429/429 [01:12<00:00,  5.89it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+Epoch: 6/39 Phase: valid Loss: 0.0234 (0.0009) Acc: 0.0001 (0.0131) Rec B-EMPLOYMENT: 0.9940 (1.0000):  91%|▉| 626/687 [00:18<00:01, 32.47it/s
+Epoch: 6/39 Phase: valid Loss: 0.0219 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9945 (nan): 100%|███| 687/687 [00:20<00:00, 34.05it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/39 Phase: train Loss: 0.0179 (0.0028) Acc: 0.0009 (0.0169) Rec B-EMPLOYMENT: 0.9961 (1.0000): 100%|█| 429/429 [01:12<00:00,  5.91it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+Epoch: 7/39 Phase: valid Loss: 0.0213 (0.0002) Acc: 0.0001 (0.0025) Rec B-EMPLOYMENT: 0.9943 (1.0000):  96%|▉| 662/687 [00:19<00:00, 37.34it/s
+Epoch: 7/39 Phase: valid Loss: 0.0207 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9945 (nan): 100%|███| 687/687 [00:20<00:00, 33.85it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 8/39 Phase: train Loss: 0.0151 (0.0022) Acc: 0.0009 (0.0169) Rec B-EMPLOYMENT: 0.9968 (1.0000): 100%|█| 429/429 [01:12<00:00,  5.91it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+Epoch: 8/39 Phase: valid Loss: 0.0211 (0.0001) Acc: 0.0001 (0.0064) Rec B-EMPLOYMENT: 0.9950 (1.0000):  94%|▉| 648/687 [00:18<00:00, 40.24it/s
+Epoch: 8/39 Phase: valid Loss: 0.0201 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9953 (nan): 100%|███| 687/687 [00:19<00:00, 34.78it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 9/39 Phase: train Loss: 0.0135 (0.0018) Acc: 0.0009 (0.0169) Rec B-EMPLOYMENT: 0.9968 (1.0000): 100%|█| 429/429 [01:12<00:00,  5.88it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+Epoch: 9/39 Phase: valid Loss: 0.0198 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9953 (nan): 100%|███| 687/687 [00:20<00:00, 34.33it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 10/39 Phase: train Loss: 0.0077 (0.0055) Acc: 0.0007 (0.0043) Rec B-EMPLOYMENT: 1.0000 (1.0000):   2%| | 8/429 [00:01<01:07,  6.25it/s]
+Epoch: 10/39 Phase: train Loss: 0.0038 (0.0017) Acc: 0.0007 (0.0042) Rec B-EMPLOYMENT: 1.0000 (1.0000):   5%| | 20/429 [00:03<01:02,  6.49it/s
+Epoch: 10/39 Phase: train Loss: 0.0039 (0.0001) Acc: 0.0008 (0.0038) Rec B-EMPLOYMENT: 1.0000 (1.0000):   7%| | 31/429 [00:06<01:10,  5.63it/s
+Epoch: 10/39 Phase: train Loss: 0.0046 (0.0066) Acc: 0.0008 (0.0064) Rec B-EMPLOYMENT: 1.0000 (1.0000):  10%| | 41/429 [00:07<01:00,  6.38it/s
+Epoch: 10/39 Phase: train Loss: 0.0164 (0.0004) Acc: 0.0008 (0.0065) Rec B-EMPLOYMENT: 0.9984 (1.0000):  12%| | 52/429 [00:09<01:12,  5.18it/s
+Epoch: 10/39 Phase: train Loss: 0.0155 (0.0043) Acc: 0.0008 (0.0106) Rec B-EMPLOYMENT: 0.9987 (1.0000):  15%|▏| 66/429 [00:11<00:52,  6.98it/s
+Epoch: 10/39 Phase: train Loss: 0.0176 (0.0063) Acc: 0.0008 (0.0067) Rec B-EMPLOYMENT: 0.9968 (1.0000):  18%|▏| 78/429 [00:13<00:51,  6.85it/s
+Epoch: 10/39 Phase: train Loss: 0.0192 (0.0052) Acc: 0.0008 (0.0057) Rec B-EMPLOYMENT: 0.9972 (1.0000):  21%|▏| 90/429 [00:16<00:50,  6.67it/s
+Epoch: 10/39 Phase: train Loss: 0.0204 (0.0048) Acc: 0.0008 (0.0024) Rec B-EMPLOYMENT: 0.9967 (1.0000):  23%|▏| 99/429 [00:17<01:06,  4.93it/s
+Epoch: 10/39 Phase: train Loss: 0.0198 (0.0002) Acc: 0.0008 (0.0036) Rec B-EMPLOYMENT: 0.9963 (1.0000):  26%|▎| 111/429 [00:19<00:59,  5.37it/
+Epoch: 10/39 Phase: train Loss: 0.0183 (0.0008) Acc: 0.0008 (0.0047) Rec B-EMPLOYMENT: 0.9966 (1.0000):  29%|▎| 126/429 [00:22<00:41,  7.22it/
+Epoch: 10/39 Phase: train Loss: 0.0182 (0.0024) Acc: 0.0008 (0.0058) Rec B-EMPLOYMENT: 0.9963 (1.0000):  32%|▎| 138/429 [00:24<00:40,  7.17it/
+Epoch: 10/39 Phase: train Loss: 0.0177 (0.0018) Acc: 0.0008 (0.0075) Rec B-EMPLOYMENT: 0.9965 (1.0000):  34%|▎| 147/429 [00:26<00:57,  4.88it/
+Epoch: 10/39 Phase: train Loss: 0.0166 (0.0023) Acc: 0.0008 (0.0074) Rec B-EMPLOYMENT: 0.9968 (1.0000):  37%|▎| 158/429 [00:28<00:42,  6.40it/
+Epoch: 10/39 Phase: train Loss: 0.0162 (0.0027) Acc: 0.0008 (0.0034) Rec B-EMPLOYMENT: 0.9960 (1.0000):  40%|▍| 171/429 [00:30<00:46,  5.50it/
+Epoch: 10/39 Phase: train Loss: 0.0156 (0.0070) Acc: 0.0008 (0.0094) Rec B-EMPLOYMENT: 0.9963 (1.0000):  42%|▍| 180/429 [00:31<00:42,  5.88it/
+Epoch: 10/39 Phase: train Loss: 0.0154 (0.0005) Acc: 0.0008 (0.0047) Rec B-EMPLOYMENT: 0.9965 (1.0000):  45%|▍| 194/429 [00:34<00:32,  7.18it/
+Epoch: 10/39 Phase: train Loss: 0.0152 (0.0008) Acc: 0.0008 (0.0030) Rec B-EMPLOYMENT: 0.9963 (1.0000):  48%|▍| 204/429 [00:35<00:39,  5.69it/
+Epoch: 10/39 Phase: train Loss: 0.0166 (0.0237) Acc: 0.0008 (0.0058) Rec B-EMPLOYMENT: 0.9961 (1.0000):  51%|▌| 218/429 [00:37<00:30,  7.01it/
+Epoch: 10/39 Phase: train Loss: 0.0162 (0.0034) Acc: 0.0008 (0.0061) Rec B-EMPLOYMENT: 0.9963 (1.0000):  53%|▌| 228/429 [00:39<00:35,  5.74it/
+Epoch: 10/39 Phase: train Loss: 0.0155 (0.0005) Acc: 0.0008 (0.0052) Rec B-EMPLOYMENT: 0.9965 (1.0000):  56%|▌| 242/429 [00:41<00:25,  7.32it/
+Epoch: 10/39 Phase: train Loss: 0.0156 (0.0330) Acc: 0.0008 (0.0033) Rec B-EMPLOYMENT: 0.9959 (1.0000):  59%|▌| 252/429 [00:43<00:31,  5.69it/
+Epoch: 10/39 Phase: train Loss: 0.0153 (0.0105) Acc: 0.0008 (0.0013) Rec B-EMPLOYMENT: 0.9961 (1.0000):  62%|▌| 266/429 [00:45<00:23,  6.85it/
+Epoch: 10/39 Phase: train Loss: 0.0147 (0.0000) Acc: 0.0008 (0.0042) Rec B-EMPLOYMENT: 0.9963 (1.0000):  64%|▋| 276/429 [00:47<00:26,  5.67it/
+Epoch: 10/39 Phase: train Loss: 0.0145 (0.0257) Acc: 0.0008 (0.0077) Rec B-EMPLOYMENT: 0.9961 (0.9375):  68%|▋| 290/429 [00:49<00:19,  7.05it/
+Epoch: 10/39 Phase: train Loss: 0.0141 (0.0000) Acc: 0.0008 (0.0013) Rec B-EMPLOYMENT: 0.9963 (1.0000):  70%|▋| 302/429 [00:51<00:16,  7.58it/
+Epoch: 10/39 Phase: train Loss: 0.0138 (0.0023) Acc: 0.0008 (0.0058) Rec B-EMPLOYMENT: 0.9964 (1.0000):  73%|▋| 312/429 [00:53<00:20,  5.78it/
+Epoch: 10/39 Phase: train Loss: 0.0134 (0.0061) Acc: 0.0008 (0.0075) Rec B-EMPLOYMENT: 0.9966 (1.0000):  76%|▊| 326/429 [00:55<00:13,  7.46it/
+Epoch: 10/39 Phase: train Loss: 0.0133 (0.0007) Acc: 0.0008 (0.0045) Rec B-EMPLOYMENT: 0.9964 (1.0000):  79%|▊| 337/429 [00:57<00:15,  6.09it/
+Epoch: 10/39 Phase: train Loss: 0.0130 (0.0003) Acc: 0.0008 (0.0023) Rec B-EMPLOYMENT: 0.9966 (1.0000):  82%|▊| 351/429 [01:00<00:12,  6.31it/
+Epoch: 10/39 Phase: train Loss: 0.0126 (0.0003) Acc: 0.0008 (0.0144) Rec B-EMPLOYMENT: 0.9967 (1.0000):  85%|▊| 363/429 [01:02<00:09,  6.84it/
+Epoch: 10/39 Phase: train Loss: 0.0131 (0.0096) Acc: 0.0008 (0.0038) Rec B-EMPLOYMENT: 0.9966 (1.0000):  88%|▉| 376/429 [01:04<00:07,  7.32it/
+Epoch: 10/39 Phase: train Loss: 0.0129 (0.0000) Acc: 0.0008 (0.0160) Rec B-EMPLOYMENT: 0.9968 (1.0000):  90%|▉| 388/429 [01:06<00:05,  6.94it/
+Epoch: 10/39 Phase: train Loss: 0.0126 (0.0056) Acc: 0.0009 (0.0073) Rec B-EMPLOYMENT: 0.9971 (1.0000):  93%|▉| 399/429 [01:08<00:04,  6.92it/
+Epoch: 10/39 Phase: train Loss: 0.0124 (0.0008) Acc: 0.0009 (0.0027) Rec B-EMPLOYMENT: 0.9971 (1.0000):  96%|▉| 411/429 [01:10<00:02,  6.02it/
+Epoch: 10/39 Phase: train Loss: 0.0122 (0.0038) Acc: 0.0009 (0.0074) Rec B-EMPLOYMENT: 0.9972 (1.0000):  98%|▉| 421/429 [01:11<00:01,  6.73it/
+Epoch: 10/39 Phase: valid Loss: 0.0022 (0.0003) Acc: 0.0001 (0.0132) Rec B-EMPLOYMENT: 1.0000 (1.0000):   3%| | 24/687 [00:01<00:22, 29.88it/s
+Epoch: 10/39 Phase: valid Loss: 0.0037 (0.0001) Acc: 0.0001 (0.0060) Rec B-EMPLOYMENT: 1.0000 (1.0000):  14%|▏| 98/687 [00:03<00:15, 37.14it/s
+Epoch: 10/39 Phase: valid Loss: 0.0457 (0.0039) Acc: 0.0001 (0.0054) Rec B-EMPLOYMENT: 0.9968 (1.0000):  24%|▏| 163/687 [00:05<00:13, 38.49it/
+Epoch: 10/39 Phase: valid Loss: 0.0366 (0.0006) Acc: 0.0001 (0.0190) Rec B-EMPLOYMENT: 0.9951 (1.0000):  31%|▎| 213/687 [00:06<00:14, 32.77it/
+Epoch: 10/39 Phase: valid Loss: 0.0337 (0.0096) Acc: 0.0001 (0.0026) Rec B-EMPLOYMENT: 0.9945 (1.0000):  42%|▍| 290/687 [00:08<00:10, 37.40it/
+Epoch: 10/39 Phase: valid Loss: 0.0299 (0.0002) Acc: 0.0001 (0.0033) Rec B-EMPLOYMENT: 0.9942 (1.0000):  52%|▌| 358/687 [00:10<00:11, 27.58it/
+Epoch: 10/39 Phase: valid Loss: 0.0253 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9951 (nan):  62%|█▏| 426/687 [00:12<00:09, 27.53it/s]
+Epoch: 10/39 Phase: valid Loss: 0.0223 (0.0050) Acc: 0.0001 (0.0099) Rec B-EMPLOYMENT: 0.9957 (1.0000):  72%|▋| 492/687 [00:14<00:05, 34.41it/
+Epoch: 10/39 Phase: valid Loss: 0.0224 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9952 (nan):  82%|█▋| 566/687 [00:16<00:03, 34.02it/s]
+Epoch: 10/39 Phase: valid Loss: 0.0209 (0.0004) Acc: 0.0001 (0.0026) Rec B-EMPLOYMENT: 0.9949 (1.0000):  92%|▉| 634/687 [00:18<00:01, 32.58it/
+Epoch: 10/39 Phase: valid Loss: 0.0195 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9953 (nan): 100%|██| 687/687 [00:20<00:00, 33.94it/s]
+Epoch: 10/39 Phase: valid Loss: 0.0195 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 0.9953 (nan): 100%|██| 687/687 [00:20<00:00, 33.94it/s]
+{'B-EMPLOYMENT_appended_data': 634847, 'I-EMPLOYMENT_appended_data': 1013}
+{7: array(['★', '💜', '⚡', '💫', '\n', '🎀', '.', '❤', '️', '\n', '🔥', '🌈', 'мс',
+       '\n', '➰', 'детский', '\n', '➰', 'преподаю', 'stretching',
+       '\U0001f9d8🏼\u200d♀️', '\n', '#кирадавидовна', '👼🏼', '🇷🇺', '🇷🇺',
+       '|', 'блогер', '|', 'реклама'], dtype='<U150'), 8: array(['физической', 'smm', 'по', 'по', 'по', 'ресниц', 'по', 'крипте',
+       'способ', 'wellness', 'по', 'по', 'smm', 'менеджер',
+       'пространства', 'по', 'начала', 'сомелье', 'по', 'анимушник∆',
+       'по', 'онлайн', 'по', 'по', 'по', 'начинается', 'по', 'по',
+       'реборнов', 'по'], dtype='<U150')}
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+Epoch: 11/39 Phase: train Loss: 0.0004 (0.0003) Acc: 0.0778 (0.5204) Rec B-EMPLOYMENT: 1.0000 (1.0000):   3%| | 12/429 [00:02<01:08,  6.07it/s
+Epoch: 11/39 Phase: train Loss: 0.0004 (0.0004) Acc: 0.0750 (0.5189) Rec B-EMPLOYMENT: 1.0000 (1.0000):   6%| | 24/429 [00:04<00:58,  6.94it/s
+Epoch: 11/39 Phase: train Loss: 0.0004 (0.0005) Acc: 0.0784 (0.6336) Rec B-EMPLOYMENT: 1.0000 (1.0000):   8%| | 33/429 [00:06<01:24,  4.66it/s
+Epoch: 11/39 Phase: train Loss: 0.0004 (0.0007) Acc: 0.0820 (0.6820) Rec B-EMPLOYMENT: 1.0000 (1.0000):  10%| | 45/429 [00:08<01:16,  5.01it/s
+Epoch: 11/39 Phase: train Loss: 0.0008 (0.0004) Acc: 0.0833 (0.5519) Rec B-EMPLOYMENT: 1.0000 (1.0000):  13%|▏| 56/429 [00:10<00:52,  7.16it/s
+Epoch: 11/39 Phase: train Loss: 0.0008 (0.0008) Acc: 0.0809 (0.4412) Rec B-EMPLOYMENT: 1.0000 (1.0000):  15%|▏| 66/429 [00:12<01:05,  5.52it/s
+Epoch: 11/39 Phase: train Loss: 0.0008 (0.0005) Acc: 0.0810 (0.6708) Rec B-EMPLOYMENT: 1.0000 (1.0000):  18%|▏| 78/429 [00:14<01:03,  5.56it/s
+Epoch: 11/39 Phase: train Loss: 0.0008 (0.0005) Acc: 0.0836 (0.6501) Rec B-EMPLOYMENT: 1.0000 (1.0000):  21%|▏| 89/429 [00:16<01:05,  5.20it/s
+Epoch: 11/39 Phase: train Loss: 0.0007 (0.0003) Acc: 0.0832 (0.5272) Rec B-EMPLOYMENT: 1.0000 (1.0000):  23%|▏| 97/429 [00:17<01:06,  5.00it/s
+Epoch: 11/39 Phase: train Loss: 0.0007 (0.0009) Acc: 0.0830 (0.6094) Rec B-EMPLOYMENT: 1.0000 (0.9993):  26%|▎| 110/429 [00:19<00:53,  5.94it/
+Epoch: 11/39 Phase: train Loss: 0.0007 (0.0005) Acc: 0.0840 (0.6984) Rec B-EMPLOYMENT: 1.0000 (1.0000):  29%|▎| 124/429 [00:21<00:43,  6.97it/
+Epoch: 11/39 Phase: train Loss: 0.0007 (0.0008) Acc: 0.0854 (0.6820) Rec B-EMPLOYMENT: 1.0000 (1.0000):  31%|▎| 133/429 [00:23<00:54,  5.48it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0003) Acc: 0.0858 (0.6194) Rec B-EMPLOYMENT: 1.0000 (1.0000):  34%|▎| 148/429 [00:25<00:40,  6.86it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0003) Acc: 0.0865 (0.6728) Rec B-EMPLOYMENT: 1.0000 (1.0000):  37%|▎| 158/429 [00:27<00:47,  5.71it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0003) Acc: 0.0871 (0.6446) Rec B-EMPLOYMENT: 1.0000 (1.0000):  40%|▍| 172/429 [00:29<00:34,  7.35it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0002) Acc: 0.0876 (0.6430) Rec B-EMPLOYMENT: 1.0000 (1.0000):  42%|▍| 182/429 [00:31<00:42,  5.77it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0035) Acc: 0.0876 (0.5953) Rec B-EMPLOYMENT: 1.0000 (0.9992):  45%|▍| 195/429 [00:33<00:37,  6.28it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0002) Acc: 0.0876 (0.6528) Rec B-EMPLOYMENT: 1.0000 (1.0000):  48%|▍| 207/429 [00:35<00:34,  6.35it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0008) Acc: 0.0881 (0.7068) Rec B-EMPLOYMENT: 1.0000 (1.0000):  51%|▌| 219/429 [00:38<00:35,  5.89it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0003) Acc: 0.0883 (0.5810) Rec B-EMPLOYMENT: 1.0000 (1.0000):  54%|▌| 231/429 [00:40<00:34,  5.75it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0004) Acc: 0.0880 (0.5692) Rec B-EMPLOYMENT: 1.0000 (1.0000):  57%|▌| 243/429 [00:42<00:30,  6.12it/
+Epoch: 11/39 Phase: train Loss: 0.0006 (0.0002) Acc: 0.0876 (0.6363) Rec B-EMPLOYMENT: 1.0000 (1.0000):  60%|▌| 257/429 [00:44<00:29,  5.90it/
+KeyboardInterruptr.acquire(True, timeout) line 299, in waitdata/dataloader.py", line 990, in _try_get_data2%|▌| 264/429 [00:45<00:28,  5.81it/

@@ -1,0 +1,23 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+Traceback (most recent call last):
+  File "train.py", line 254, in <module>
+    'vocab': dataset_train.vocab,
+  File "/root/konst/ml-utils/training/tagger_text/dataset.py", line 35, in __init__
+    data = pd.read_csv(data_path, index_col=0)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas/_libs/parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas/_libs/parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas/_libs/parsers.pyx", line 941, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1073, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1119, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1162, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "/usr/local/lib/python3.6/dist-packages/pandas/core/dtypes/common.py", line 530, in is_categorical_dtype
+    def is_categorical_dtype(arr_or_dtype) -> bool:

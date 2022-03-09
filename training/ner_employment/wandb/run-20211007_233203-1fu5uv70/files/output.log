@@ -1,0 +1,65 @@
+
+Epoch: 0/159 Phase: train Loss: 0.3234 (0.3676) Acc: 0.0751 (0.1298) Rec B-EMPLOYMENT: 0.9479 (0.9126):   1%| | 4/429 [00:00<01:14,  5.70it/s]
+1.223709
+Loaded: 7/7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: train Loss: 0.3302 (0.3195) Acc: 0.0754 (0.1152) Rec B-EMPLOYMENT: 0.9470 (0.9468): 100%|█| 429/429 [00:45<00:00,  9.36it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: valid Loss: 0.4458 (0.5886) Acc: 0.0115 (0.1098) Rec B-EMPLOYMENT: 0.9477 (nan): 100%|██| 687/687 [00:16<00:00, 41.59it/s]
+{'B-EMPLOYMENT_appended_data': 54141, 'I-EMPLOYMENT_appended_data': 4937}
+LR:  0.00025
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+Epoch: 1/159 Phase: train Loss: 0.2791 (0.2442) Acc: 0.0835 (0.1408) Rec B-EMPLOYMENT: 0.9688 (0.9207):  39%|▍| 169/429 [00:18<00:28,  9.20it/
+Traceback (most recent call last):
+  File "train.py", line 437, in <module>
+    wandb,
+  File "train.py", line 132, in train
+    loss.backward()
+  File "/usr/local/lib/python3.6/dist-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/autograd/__init__.py", line 149, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

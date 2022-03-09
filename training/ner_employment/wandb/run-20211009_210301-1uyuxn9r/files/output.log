@@ -1,0 +1,149 @@
+1.529207
+[1, 1, 1, 1, 1, 1]
+LR:  0.001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: train Loss: 0.7079 (0.4440) Acc: 0.8936 (0.0969) Rec B-PER: 0.6382 (0.7762):  11%|▌    | 489/4621 [03:51<35:08,  1.96it/s]Exception in thread Thread-12:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/pin_memory.py", line 28, in _pin_memory_loop
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 113, in get
+    return _ForkingPickler.loads(res)
+  File "/usr/local/lib/python3.6/dist-packages/torch/multiprocessing/reductions.py", line 289, in rebuild_storage_fd
+    fd = df.detach()
+  File "/usr/lib/python3.6/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/usr/lib/python3.6/multiprocessing/resource_sharer.py", line 87, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 487, in Client
+    c = SocketClient(address)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 614, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+Epoch: 0/159 Phase: train Loss: 0.7079 (0.4440) Acc: 0.8936 (0.0969) Rec B-PER: 0.6382 (0.7762):  11%|▌    | 489/4621 [03:51<32:35,  2.11it/s]
+Traceback (most recent call last):
+  File "train.py", line 434, in <module>
+    wandb,
+  File "train.py", line 128, in train
+    loss.backward()
+  File "/usr/local/lib/python3.6/dist-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/autograd/__init__.py", line 149, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

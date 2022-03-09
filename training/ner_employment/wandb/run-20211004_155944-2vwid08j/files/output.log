@@ -1,0 +1,199 @@
+
+Epoch: 0/99 Phase: train Loss: 2.4129 (2.3361) Acc: 0.0036 (0.0302) Rec B-EMPLOYMENT: 0.0014 (0.0043):   1%|  | 4/429 [00:01<01:38,  4.33it/s]
+0.321233
+Loaded: 10/12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/99 Phase: train Loss: 1.0712 (0.9583) Acc: 0.0454 (0.3455) Rec B-EMPLOYMENT: 0.6933 (0.6411): 100%|█| 429/429 [01:14<00:00,  5.73it/s
+
+
+
+
+
+
+
+
+
+Epoch: 0/99 Phase: valid Loss: 0.9186 (0.9271) Acc: 0.0077 (0.3636) Rec B-EMPLOYMENT: 0.6543 (0.6829): 100%|█| 687/687 [00:20<00:00, 33.89it/s
+  0%|                                                                                                                 | 0/429 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/99 Phase: train Loss: 0.8831 (0.8226) Acc: 0.0499 (0.3731) Rec B-EMPLOYMENT: 0.6332 (0.6161): 100%|█| 429/429 [01:14<00:00,  5.77it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/99 Phase: valid Loss: 0.8540 (0.7659) Acc: 0.0080 (0.3913) Rec B-EMPLOYMENT: 0.6097 (0.7727): 100%|█| 687/687 [00:20<00:00, 33.85it/s
+Epoch: 2/99 Phase: train Loss: 0.8465 (0.8565) Acc: 0.0493 (0.3405) Rec B-EMPLOYMENT: 0.6106 (0.6068):   0%|  | 2/429 [00:01<03:21,  2.12it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/99 Phase: train Loss: 0.8357 (0.8050) Acc: 0.0513 (0.3592) Rec B-EMPLOYMENT: 0.6063 (0.6143): 100%|█| 429/429 [01:14<00:00,  5.78it/s
+
+
+
+
+
+
+
+
+
+Epoch: 2/99 Phase: valid Loss: 0.8234 (0.8478) Acc: 0.0081 (0.3669) Rec B-EMPLOYMENT: 0.6142 (0.6279): 100%|█| 687/687 [00:20<00:00, 33.92it/s
+Epoch: 3/99 Phase: train Loss: 0.8168 (0.8223) Acc: 0.0521 (0.3727) Rec B-EMPLOYMENT: 0.6047 (0.6184):   1%|  | 4/429 [00:00<01:24,  5.05it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/99 Phase: train Loss: 0.8109 (0.7876) Acc: 0.0521 (0.3703) Rec B-EMPLOYMENT: 0.6017 (0.6055):  68%|▋| 291/429 [00:50<00:24,  5.73it/s
+Traceback (most recent call last):
+  File "train.py", line 296, in <module>
+    wandb,
+  File "train.py", line 81, in train
+    for idx, sample in pbar:
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1186, in _next_data
+    idx, data = self._get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1152, in _get_data
+    success, data = self._try_get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 990, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 911, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)

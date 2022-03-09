@@ -1,0 +1,14 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+1.326337
+[1448, 8284, 416, 5888, 65188, 2396, 31588, 1198, 595, 158, 23030, 3391, 6015, 30726, 2644, 6337, 1007, 1220, 2261, 2060, 313, 620, 1460, 1477, 2888, 924, 1043, 706, 1107, 2972, 867, 739, 2736, 816, 426, 1995, 2691]
+  0%|                                                                                                                | 0/1716 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 341, in <module>
+    wandb,
+  File "train.py", line 98, in train
+    loss, elr_loss = criterion(list(range(current_pos-len(labels), current_pos)), outputs, labels)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() takes 3 positional arguments but 4 were given
+LR:  0.001

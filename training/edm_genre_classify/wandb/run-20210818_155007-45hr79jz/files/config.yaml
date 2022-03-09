@@ -1,0 +1,64 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.6.9
+    start_time: 1629301808
+    t:
+      1:
+      - 1
+      - 5
+      4: 3.6.9
+      5: 0.12.0
+      8:
+      - 5
+adjust_lr_every:
+  desc: null
+  value: 1
+batch_size:
+  desc: null
+  value: 20
+checkpoint_path:
+  desc: null
+  value: model_checkpoints/
+data_path:
+  desc: null
+  value: /root/konst/melspects_general.npz
+epochs:
+  desc: null
+  value: 100
+factor:
+  desc: null
+  value: 0.8
+lam:
+  desc: null
+  value: 0.04
+lr:
+  desc: null
+  value: 0.001
+model_path:
+  desc: null
+  value: /root/konst/ml-utils/training/edm_genre_classify/model_checkpoints/edm_genre_epoch_16_acc_0.9111_vs_0.6955_loss_6.3745_vs_6.8012.pth
+num_workers:
+  desc: null
+  value: 1
+patience:
+  desc: null
+  value: 2
+resize:
+  desc: null
+  value: 180
+save_at:
+  desc: null
+  value: 1
+start_epoch:
+  desc: null
+  value: 17
+use_wandb:
+  desc: null
+  value: true

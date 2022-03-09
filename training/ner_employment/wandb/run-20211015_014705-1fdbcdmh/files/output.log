@@ -1,0 +1,16 @@
+
+Epoch: 0/159 Phase: train Loss: 11.8752 (11.8611) Acc: 0.2344 (0.4319) Rec PERSON_FAM: 0.0734 (0.1014):   0%| | 2/504 [00:00<02:44,  3.06it/s]
+1.690707
+Loaded: 9/11
+[238121, 279395, 74456, 54846, 35610, 62285]
+
+Epoch: 0/159 Phase: train Loss: 11.5408 (11.2641) Acc: 0.2403 (0.3763) Rec PERSON_FAM: 0.0450 (0.0385):   4%| | 22/504 [00:04<01:32,  5.22it/s
+Traceback (most recent call last):
+  File "train.py", line 468, in <module>
+    wandb,
+  File "train.py", line 143, in train
+    loss.backward()
+  File "/usr/local/lib/python3.6/dist-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/autograd/__init__.py", line 149, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag

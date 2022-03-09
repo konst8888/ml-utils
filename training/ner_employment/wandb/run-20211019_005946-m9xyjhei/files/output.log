@@ -1,0 +1,138 @@
+1.690506
+Loaded: 9/11
+[279395, 74456, 54846, 35610, 62285]
+LR:  0.0005
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: train Loss: -25.0911 (-32.6832) Acc: 0.4733 (0.8782) Rec PERSON_FAM: 0.0521 (0.1970): 100%|█| 504/504 [01:22<00:00,  6.13i
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: valid Loss: -32.5907 (-32.5742) Acc: 0.0777 (0.8666) Rec PERSON_FAM: 0.1893 (0.6000):  98%|▉| 790/806 [00:31<00:00, 25.05i
+Epoch: 0/159 Phase: valid Loss: -32.5919 (-32.9666) Acc: 0.0776 (0.8618) Rec PERSON_FAM: 0.1879 (nan): 100%|█| 806/806 [00:32<00:00, 24.98it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/159 Phase: train Loss: -33.3983 (-34.4591) Acc: 0.4906 (0.8799) Rec PERSON_FAM: 0.3081 (0.4848): 100%|█| 504/504 [01:21<00:00,  6.22i
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+Epoch: 1/159 Phase: valid Loss: -34.3113 (-32.7051) Acc: 0.0775 (0.8572) Rec PERSON_FAM: 0.4744 (0.0000):  49%|▍| 391/806 [00:15<00:16, 24.84i
+Traceback (most recent call last):
+  File "train.py", line 480, in <module>
+    wandb,
+  File "train.py", line 109, in train
+    outputs = model(seqs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/konst/ml-utils/training/ner_employment/model.py", line 158, in forward
+    out = self.linear(out) # now 'out' has dimension(batchsize, seq_len, num_class)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/linear.py", line 96, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/functional.py", line 1847, in linear
+    return torch._C._nn.linear(input, weight, bias)
+KeyboardInterrupt

@@ -1,0 +1,57 @@
+1.223709
+Loaded: 7/7
+LR:  0.001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: train Loss: 1.6858 (1.2743) Acc: 0.0328 (0.0581) Rec B-EMPLOYMENT: 0.5306 (0.8085): 100%|█| 429/429 [00:43<00:00,  9.96it/
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+Epoch: 0/159 Phase: valid Loss: 1.4784 (1.4784) Acc: 0.0055 (0.0609) Rec B-EMPLOYMENT: 0.5789 (0.5789):   0%| | 1/687 [00:00<01:25,  8.00it/s]
+Traceback (most recent call last):
+  File "train.py", line 421, in <module>
+    wandb,
+  File "train.py", line 96, in train
+    for idx, sample in pbar:
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1183, in _next_data
+    return self._process_data(data)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "/usr/local/lib/python3.6/dist-packages/torch/_utils.py", line 425, in reraise
+    raise self.exc_type(msg)
+KeyError: Caught KeyError in DataLoader worker process 1.
+Original Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 355, in __getitem__
+    for token in curr_tokens
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 355, in <listcomp>
+    for token in curr_tokens
+KeyError: '\\U0001f929'

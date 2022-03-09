@@ -1,0 +1,323 @@
+2021-12-27 18:11:28,472 INFO    MainThread:4089 [internal.py:wandb_internal():90] W&B internal server running at pid: 4089, started at: 2021-12-27 18:11:28.472385
+2021-12-27 18:11:28,473 INFO    WriterThread:4089 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/run-sjw006hk.wandb
+2021-12-27 18:11:28,474 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: check_version
+2021-12-27 18:11:28,475 DEBUG   SenderThread:4089 [sender.py:send():234] send: header
+2021-12-27 18:11:28,475 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: check_version
+2021-12-27 18:11:28,496 DEBUG   SenderThread:4089 [sender.py:send():234] send: run
+2021-12-27 18:11:28,656 INFO    SenderThread:4089 [dir_watcher.py:__init__():169] watching files in: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files
+2021-12-27 18:11:28,656 INFO    SenderThread:4089 [sender.py:_start_run_threads():807] run started: sjw006hk with start time 1640628687
+2021-12-27 18:11:28,656 DEBUG   SenderThread:4089 [sender.py:send():234] send: summary
+2021-12-27 18:11:28,656 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: run_start
+2021-12-27 18:11:28,657 INFO    SenderThread:4089 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2021-12-27 18:11:29,409 DEBUG   HandlerThread:4089 [meta.py:__init__():40] meta init
+2021-12-27 18:11:29,409 DEBUG   HandlerThread:4089 [meta.py:__init__():54] meta init done
+2021-12-27 18:11:29,409 DEBUG   HandlerThread:4089 [meta.py:probe():214] probe
+2021-12-27 18:11:29,416 DEBUG   HandlerThread:4089 [meta.py:_setup_git():204] setup git
+2021-12-27 18:11:29,427 DEBUG   HandlerThread:4089 [meta.py:_setup_git():211] setup git done
+2021-12-27 18:11:29,427 DEBUG   HandlerThread:4089 [meta.py:_save_pip():58] save pip
+2021-12-27 18:11:29,427 DEBUG   HandlerThread:4089 [meta.py:_save_pip():72] save pip done
+2021-12-27 18:11:29,428 DEBUG   HandlerThread:4089 [meta.py:probe():252] probe done
+2021-12-27 18:11:29,430 DEBUG   SenderThread:4089 [sender.py:send():234] send: files
+2021-12-27 18:11:29,430 INFO    SenderThread:4089 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2021-12-27 18:11:29,433 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:11:29,433 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:11:29,565 DEBUG   SenderThread:4089 [sender.py:send():234] send: files
+2021-12-27 18:11:29,565 INFO    SenderThread:4089 [sender.py:_save_file():939] saving file *.py with policy live
+2021-12-27 18:11:29,657 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:11:29,657 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/requirements.txt
+2021-12-27 18:11:29,657 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/wandb-summary.json
+2021-12-27 18:11:29,657 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/train.py
+2021-12-27 18:11:29,657 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/dataset.py
+2021-12-27 18:11:29,657 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/model.py
+2021-12-27 18:11:29,658 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/wandb-metadata.json
+2021-12-27 18:11:29,658 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():217] file/dir created: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/utils.py
+2021-12-27 18:11:29,901 INFO    Thread-11 :4089 [upload_job.py:push():137] Uploaded file /tmp/tmpocw98ks1wandb/hqui6ad5-wandb-metadata.json
+2021-12-27 18:11:30,079 INFO    Thread-14 :4089 [upload_job.py:push():137] Uploaded file /tmp/tmpocw98ks1wandb/1xmq71cy-utils.py
+2021-12-27 18:11:30,080 INFO    Thread-15 :4089 [upload_job.py:push():137] Uploaded file /tmp/tmpocw98ks1wandb/urxuzp05-model.py
+2021-12-27 18:11:30,081 INFO    Thread-13 :4089 [upload_job.py:push():137] Uploaded file /tmp/tmpocw98ks1wandb/2jkiuz19-train.py
+2021-12-27 18:11:30,104 INFO    Thread-12 :4089 [upload_job.py:push():137] Uploaded file /tmp/tmpocw98ks1wandb/juk2hdym-dataset.py
+2021-12-27 18:11:31,657 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:11:40,660 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:11:42,660 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:11:44,566 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:11:44,566 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:11:44,661 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:11:57,565 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:11:59,740 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:11:59,740 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:12:14,916 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:12:14,916 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:12:27,697 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:12:30,041 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:12:30,041 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:12:38,679 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:12:45,248 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:12:45,249 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:12:57,835 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:13:00,378 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:13:00,379 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:13:15,509 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:13:15,509 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:13:20,690 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:13:27,966 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:13:30,641 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:13:30,641 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:13:45,806 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:13:45,806 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:13:58,097 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:14:00,984 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:14:00,984 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:14:10,703 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:14:16,113 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:14:16,114 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:14:28,234 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:14:31,273 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:14:31,274 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:14:46,398 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:14:46,398 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:14:56,715 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:14:58,367 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:15:01,522 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:15:01,522 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:15:16,699 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:15:16,699 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:15:28,494 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:15:31,827 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:15:31,827 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:15:32,724 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:15:46,959 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:15:46,959 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:15:58,636 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:16:02,085 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:16:02,085 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:16:14,735 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:16:17,250 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:16:17,250 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:16:28,777 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:16:32,381 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:16:32,381 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:16:47,544 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:16:47,545 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:16:58,914 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:17:02,671 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:17:02,671 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:17:08,749 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:17:17,804 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:17:17,804 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:17:29,043 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:17:32,929 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:17:32,929 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:17:48,107 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:17:48,107 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:17:52,760 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:17:59,183 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:18:03,239 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:18:03,239 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:18:18,365 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:18:18,365 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:18:29,320 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:18:33,496 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:18:33,496 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:18:40,773 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:18:48,623 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:18:48,623 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:18:59,468 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:19:03,797 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:19:03,798 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:19:16,782 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:19:18,925 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:19:18,925 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:19:29,600 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:19:34,100 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:19:34,100 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:19:49,227 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:19:49,228 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:19:52,792 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:19:59,733 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:20:04,509 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:20:04,509 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:20:19,635 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:20:19,635 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:20:29,871 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:20:34,764 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:20:34,764 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:20:40,805 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:20:49,894 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:20:49,895 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:21:00,004 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:21:05,021 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:21:05,021 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:21:20,150 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:21:20,150 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:21:28,817 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:21:30,147 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:21:35,311 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:21:35,312 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:21:50,440 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:21:50,440 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:22:00,288 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:22:05,573 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:22:05,574 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:22:15,829 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:22:20,701 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:22:20,702 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:22:30,425 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:22:35,834 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:22:35,834 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:22:51,004 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:22:51,004 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:22:53,841 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:23:00,566 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:23:06,169 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:23:06,170 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:23:21,299 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:23:21,299 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:23:30,696 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:23:36,429 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:23:36,429 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:23:37,853 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:23:51,617 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:23:51,618 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:24:00,841 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:24:06,788 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:24:06,789 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:24:25,191 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:24:25,191 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:24:30,975 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:24:37,868 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:24:40,316 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:24:40,317 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:24:55,443 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:24:55,443 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:25:01,108 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:25:10,580 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:25:10,580 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:25:25,754 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:25:25,754 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:25:25,880 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:25:31,249 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:25:40,880 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:25:40,881 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:25:56,027 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:25:56,028 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:26:01,380 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:26:05,890 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:26:11,189 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:26:11,189 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:26:26,327 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:26:26,328 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:26:31,518 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:26:41,502 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:26:41,503 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:26:51,903 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:26:56,629 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:26:56,630 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:27:01,646 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:27:11,755 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:27:11,755 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:27:26,929 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:27:26,929 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:27:31,779 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:27:37,915 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:27:42,057 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:27:42,057 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:27:57,185 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:27:57,185 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:28:01,947 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:28:12,309 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:28:12,310 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:28:17,925 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:28:27,485 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-27 18:28:27,485 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: stop_status
+2021-12-27 18:28:32,083 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:28:33,156 WARNING MainThread:4089 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-12-27 18:28:35,272 DEBUG   SenderThread:4089 [sender.py:send():234] send: telemetry
+2021-12-27 18:28:35,272 DEBUG   SenderThread:4089 [sender.py:send():234] send: exit
+2021-12-27 18:28:35,272 INFO    SenderThread:4089 [sender.py:send_exit():366] handling exit code: 255
+2021-12-27 18:28:35,272 INFO    SenderThread:4089 [sender.py:send_exit():368] handling runtime: 1026
+2021-12-27 18:28:35,272 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-27 18:28:35,273 INFO    SenderThread:4089 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2021-12-27 18:28:35,273 INFO    SenderThread:4089 [sender.py:send_exit():374] send defer
+2021-12-27 18:28:35,273 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: poll_exit
+2021-12-27 18:28:35,273 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: defer
+2021-12-27 18:28:35,273 INFO    HandlerThread:4089 [handler.py:handle_request_defer():147] handle defer: 0
+2021-12-27 18:28:35,273 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: defer
+2021-12-27 18:28:35,273 INFO    SenderThread:4089 [sender.py:send_request_defer():383] handle sender defer: 0
+2021-12-27 18:28:35,273 INFO    SenderThread:4089 [sender.py:transition_state():387] send defer: 1
+2021-12-27 18:28:35,274 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: defer
+2021-12-27 18:28:35,274 INFO    HandlerThread:4089 [handler.py:handle_request_defer():147] handle defer: 1
+2021-12-27 18:28:35,311 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: defer
+2021-12-27 18:28:35,312 INFO    SenderThread:4089 [sender.py:send_request_defer():383] handle sender defer: 1
+2021-12-27 18:28:35,312 INFO    SenderThread:4089 [sender.py:transition_state():387] send defer: 2
+2021-12-27 18:28:35,312 DEBUG   SenderThread:4089 [sender.py:send():234] send: stats
+2021-12-27 18:28:35,312 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: defer
+2021-12-27 18:28:35,312 INFO    HandlerThread:4089 [handler.py:handle_request_defer():147] handle defer: 2
+2021-12-27 18:28:35,313 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: defer
+2021-12-27 18:28:35,313 INFO    SenderThread:4089 [sender.py:send_request_defer():383] handle sender defer: 2
+2021-12-27 18:28:35,313 INFO    SenderThread:4089 [sender.py:transition_state():387] send defer: 3
+2021-12-27 18:28:35,313 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: defer
+2021-12-27 18:28:35,313 INFO    HandlerThread:4089 [handler.py:handle_request_defer():147] handle defer: 3
+2021-12-27 18:28:35,313 DEBUG   SenderThread:4089 [sender.py:send():234] send: summary
+2021-12-27 18:28:35,313 INFO    SenderThread:4089 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2021-12-27 18:28:35,313 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: defer
+2021-12-27 18:28:35,313 INFO    SenderThread:4089 [sender.py:send_request_defer():383] handle sender defer: 3
+2021-12-27 18:28:35,313 INFO    SenderThread:4089 [sender.py:transition_state():387] send defer: 4
+2021-12-27 18:28:35,314 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: defer
+2021-12-27 18:28:35,314 INFO    HandlerThread:4089 [handler.py:handle_request_defer():147] handle defer: 4
+2021-12-27 18:28:35,314 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: defer
+2021-12-27 18:28:35,314 INFO    SenderThread:4089 [sender.py:send_request_defer():383] handle sender defer: 4
+2021-12-27 18:28:35,375 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-27 18:28:35,481 INFO    SenderThread:4089 [sender.py:transition_state():387] send defer: 5
+2021-12-27 18:28:35,481 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: poll_exit
+2021-12-27 18:28:35,482 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: defer
+2021-12-27 18:28:35,482 INFO    HandlerThread:4089 [handler.py:handle_request_defer():147] handle defer: 5
+2021-12-27 18:28:35,483 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: defer
+2021-12-27 18:28:35,483 INFO    SenderThread:4089 [sender.py:send_request_defer():383] handle sender defer: 5
+2021-12-27 18:28:35,483 INFO    SenderThread:4089 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-12-27 18:28:35,584 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-27 18:28:35,929 INFO    SenderThread:4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/config.yaml
+2021-12-27 18:28:35,930 INFO    SenderThread:4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/wandb-summary.json
+2021-12-27 18:28:35,930 INFO    SenderThread:4089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:28:35,931 INFO    SenderThread:4089 [dir_watcher.py:finish():313] scan: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files
+2021-12-27 18:28:35,931 INFO    SenderThread:4089 [dir_watcher.py:finish():327] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/dataset.py dataset.py
+2021-12-27 18:28:35,931 INFO    SenderThread:4089 [dir_watcher.py:finish():327] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log output.log
+2021-12-27 18:28:35,932 INFO    SenderThread:4089 [dir_watcher.py:finish():327] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/wandb-metadata.json wandb-metadata.json
+2021-12-27 18:28:35,932 INFO    SenderThread:4089 [dir_watcher.py:finish():327] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/requirements.txt requirements.txt
+2021-12-27 18:28:35,938 INFO    SenderThread:4089 [dir_watcher.py:finish():327] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/train.py train.py
+2021-12-27 18:28:35,940 INFO    SenderThread:4089 [dir_watcher.py:finish():327] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/utils.py utils.py
+2021-12-27 18:28:35,940 INFO    SenderThread:4089 [dir_watcher.py:finish():327] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/config.yaml config.yaml
+2021-12-27 18:28:35,940 INFO    SenderThread:4089 [dir_watcher.py:finish():327] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/wandb-summary.json wandb-summary.json
+2021-12-27 18:28:35,940 INFO    SenderThread:4089 [dir_watcher.py:finish():327] scan save: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/model.py model.py
+2021-12-27 18:28:35,940 INFO    SenderThread:4089 [sender.py:transition_state():387] send defer: 6
+2021-12-27 18:28:35,940 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: poll_exit
+2021-12-27 18:28:35,941 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: defer
+2021-12-27 18:28:35,942 INFO    HandlerThread:4089 [handler.py:handle_request_defer():147] handle defer: 6
+2021-12-27 18:28:35,944 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: defer
+2021-12-27 18:28:35,944 INFO    SenderThread:4089 [sender.py:send_request_defer():383] handle sender defer: 6
+2021-12-27 18:28:35,944 INFO    SenderThread:4089 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-27 18:28:36,042 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-27 18:28:36,042 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: poll_exit
+2021-12-27 18:28:36,144 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-27 18:28:36,145 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: poll_exit
+2021-12-27 18:28:36,247 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-27 18:28:36,247 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: poll_exit
+2021-12-27 18:28:36,350 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-27 18:28:36,351 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: poll_exit
+2021-12-27 18:28:36,369 WARNING MainThread:4089 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2021-12-27 18:28:36,369 ERROR   MainThread:4089 [internal.py:wandb_internal():149] Internal process interrupted.
+2021-12-27 18:28:36,445 INFO    Thread-18 :4089 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/config.yaml
+2021-12-27 18:28:36,465 INFO    Thread-17 :4089 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/requirements.txt
+2021-12-27 18:28:36,478 INFO    Thread-19 :4089 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/wandb-summary.json
+2021-12-27 18:28:36,485 INFO    Thread-16 :4089 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/files/output.log
+2021-12-27 18:28:36,686 INFO    Thread-7  :4089 [sender.py:transition_state():387] send defer: 7
+2021-12-27 18:28:36,687 DEBUG   HandlerThread:4089 [handler.py:handle_request():130] handle_request: defer
+2021-12-27 18:28:36,687 INFO    HandlerThread:4089 [handler.py:handle_request_defer():147] handle defer: 7
+2021-12-27 18:28:36,687 INFO    HandlerThread:4089 [handler.py:finish():731] shutting down handler
+2021-12-27 18:28:36,687 DEBUG   SenderThread:4089 [sender.py:send_request():248] send_request: defer
+2021-12-27 18:28:36,687 INFO    SenderThread:4089 [sender.py:send_request_defer():383] handle sender defer: 7
+2021-12-27 18:28:37,105 INFO    SenderThread:4089 [sender.py:transition_state():387] send defer: 8
+2021-12-27 18:28:37,106 INFO    SenderThread:4089 [sender.py:finish():1070] shutting down sender
+2021-12-27 18:28:37,106 INFO    SenderThread:4089 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-27 18:28:37,106 INFO    SenderThread:4089 [file_pusher.py:join():182] waiting for file pusher
+2021-12-27 18:28:37,314 INFO    WriterThread:4089 [datastore.py:close():281] close: /root/konst/ml-utils/training/tagger_text/wandb/run-20211227_181127-sjw006hk/run-sjw006hk.wandb
+2021-12-27 18:28:37,315 INFO    MainThread:4089 [internal.py:handle_exit():77] Internal process exited

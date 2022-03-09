@@ -1,0 +1,22 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+Vocab size:  940
+Vocab size:  940
+Epoch: 0/199 Phase: train Loss: 3.5826 (3.5826) Acc: 0.0938 (0.0938) Rec comedy: nan (nan):   0%|         | 1/1717 [00:00<12:38,  2.26it/s]
+1.100637
+[1447, 8259, 699, 5886, 65184, 2396, 31583, 1191, 37.6, 284, 23025, 3398, 6012, 30723, 2644, 6336, 1004, 1220, 2262, 2043, 313, 620, 1487, 1228, 2888, 925, 1041, 1123, 1106, 2972, 867, 736, 2735, 816, 213.0, 1994, 2646]
+
+
+
+
+
+
+Epoch: 0/199 Phase: train Loss: 3.6053 (3.5990) Acc: 0.0099 (0.0078) Rec comedy: 0.0000 (nan):   2%|     | 30/1717 [00:12<12:00,  2.34it/s]
+Traceback (most recent call last):
+  File "train.py", line 357, in <module>
+    wandb,
+  File "train.py", line 105, in train
+    torch.cuda.empty_cache()
+  File "/usr/local/lib/python3.6/dist-packages/torch/cuda/memory.py", line 114, in empty_cache
+    torch._C._cuda_emptyCache()
+KeyboardInterrupt

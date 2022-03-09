@@ -1,0 +1,114 @@
+2021-09-23 19:15:50,596 INFO    MainThread:29143 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-23 19:15:50,596 INFO    MainThread:29143 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '8bbaf831241b8525faf8ba0890cc99d295161186'}
+2021-09-23 19:15:50,596 INFO    MainThread:29143 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '8bbaf831241b8525faf8ba0890cc99d295161186'}
+2021-09-23 19:15:50,596 INFO    MainThread:29143 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-23 19:15:50,596 INFO    MainThread:29143 [wandb_init.py:_log_setup():348] Logging user logs to /root/konst/ml-utils/training/ner_employment/wandb/run-20210923_191550-397p6zva/logs/debug.log
+2021-09-23 19:15:50,596 INFO    MainThread:29143 [wandb_init.py:_log_setup():349] Logging internal logs to /root/konst/ml-utils/training/ner_employment/wandb/run-20210923_191550-397p6zva/logs/debug-internal.log
+2021-09-23 19:15:50,597 INFO    MainThread:29143 [wandb_init.py:init():381] calling init triggers
+2021-09-23 19:15:50,597 INFO    MainThread:29143 [wandb_init.py:init():388] wandb.init called with sweep_config: {}
+config: {'data_path': '/root/konst/data/nerus_lenta/news_ner_dataset.csv', 'checkpoint_path': '/root/konst/model_checkpoints/ner_employment', 'model_path': '', 'batch_size': 64, 'epochs': 20, 'start_epoch': 0, 'test_size': 0.05, 'lam': 0, 'patience': 1, 'factor': 0.5, 'use_wandb': True, 'lr': 0.001, 'save_at': 1, 'adjust_lr_every': 1, 'num_workers': 10}
+2021-09-23 19:15:50,597 INFO    MainThread:29143 [wandb_init.py:init():430] starting backend
+2021-09-23 19:15:50,597 INFO    MainThread:29143 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-09-23 19:15:50,609 INFO    MainThread:29143 [backend.py:ensure_launched():135] starting backend process...
+2021-09-23 19:15:50,613 INFO    MainThread:29143 [backend.py:ensure_launched():140] started backend process with pid: 29161
+2021-09-23 19:15:50,614 INFO    MainThread:29143 [wandb_init.py:init():435] backend started and connected
+2021-09-23 19:15:50,617 INFO    MainThread:29143 [wandb_init.py:init():494] updated telemetry
+2021-09-23 19:15:50,617 INFO    MainThread:29143 [wandb_init.py:init():517] communicating current version
+2021-09-23 19:15:50,971 INFO    MainThread:29143 [wandb_init.py:init():522] got version response 
+2021-09-23 19:15:50,972 INFO    MainThread:29143 [wandb_init.py:init():530] communicating run to backend with 30 second timeout
+2021-09-23 19:15:51,175 INFO    MainThread:29143 [wandb_init.py:init():557] starting run threads in backend
+2021-09-23 19:15:51,234 INFO    MainThread:29143 [wandb_run.py:_console_start():1605] atexit reg
+2021-09-23 19:15:51,234 INFO    MainThread:29143 [wandb_run.py:_redirect():1479] redirect: SettingsConsole.REDIRECT
+2021-09-23 19:15:51,235 INFO    MainThread:29143 [wandb_run.py:_redirect():1484] Redirecting console.
+2021-09-23 19:15:51,238 INFO    MainThread:29143 [wandb_run.py:_redirect():1540] Redirects installed.
+2021-09-23 19:15:51,238 INFO    MainThread:29143 [wandb_init.py:init():582] run started, returning control to user process
+2021-09-23 19:15:51,239 INFO    MainThread:29143 [wandb_run.py:_atexit_cleanup():1575] got exitcode: 1
+2021-09-23 19:15:51,239 INFO    MainThread:29143 [wandb_run.py:_restore():1547] restore
+2021-09-23 19:15:53,751 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1129
+  total_bytes: 1129
+}
+
+2021-09-23 19:15:54,031 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1129
+  total_bytes: 1129
+}
+
+2021-09-23 19:15:54,204 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 1129
+  total_bytes: 3924
+}
+
+2021-09-23 19:15:54,306 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1129
+  total_bytes: 3950
+}
+
+2021-09-23 19:15:54,408 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2961
+  total_bytes: 3950
+}
+
+2021-09-23 19:15:54,512 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3950
+  total_bytes: 3950
+}
+
+2021-09-23 19:15:54,615 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3950
+  total_bytes: 3950
+}
+
+2021-09-23 19:15:54,719 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3950
+  total_bytes: 3950
+}
+
+2021-09-23 19:15:54,823 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3950
+  total_bytes: 3950
+}
+
+2021-09-23 19:15:54,927 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3950
+  total_bytes: 3950
+}
+
+2021-09-23 19:15:55,382 INFO    MainThread:29143 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3950
+  total_bytes: 3950
+}
+

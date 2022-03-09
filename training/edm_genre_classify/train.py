@@ -50,6 +50,7 @@ def train(
     save_at,
     adjust_lr_every,
     classes,
+    lam,
     wandb):
     data_len = len(dataloader_test)
     batch_size = dataloader_train.batch_size
@@ -77,16 +78,30 @@ def train(
                     #adjust_lr(sample_counter, adjust_lr_every, batch_size, optimizer) # Plateau
                     
                 #clips_context, clips_fovea, labels = sample
-                imgs, labels = sample
+                imgs, labels = sample['img'], sample['label']
                 #print(imgs.shape)
                 #print('labels', labels)
                 imgs = imgs.to(device)
                 labels = labels.to(device)
-
+                
+                if 'features' in sample:
+                    features = sample['features'].to(device)
+                    """
+                    features_list = []
+                    for key, val in features.items():
+                        if val.shape[0] > 1:
+                            features_list.extend(val)
+                        else:
+                            features_list.append(val)
+                        #features_list.extend(list(map(float, list(features[key]))))
+                    #print(features_list)
+                    features = torch.FloatTensor(features_list).to(device)
+                    """
+                    imgs = [imgs, features]
                 outputs = model(imgs)
                 loss = criterion(outputs, labels)
                 
-                l2_lambda = 0.01
+                l2_lambda = lam
                 l2_reg = torch.tensor(0.).to(device)
                 for param in model.parameters():
                     l2_reg += torch.norm(param)
@@ -252,7 +267,10 @@ if __name__ == '__main__':
         shuffle=True
     )
     
-    model = AudioCNN(num_classes=num_classes).to(device)
+    model = AudioCNN(
+        num_classes=num_classes,
+        n_features=3 + 2*2 + 10*2
+    ).to(device)
     #print(model(torch.randn(1, 2, 100, 100).to(device)).shape)
     
     print(sum([p.numel() for p in model.parameters()]) / 1e6)
@@ -284,6 +302,7 @@ if __name__ == '__main__':
         save_at,
          adjust_lr_every,
         classes,
+        args.lam,
          wandb,
     )
   

@@ -1,0 +1,800 @@
+2021-11-10 16:27:22,308 INFO    MainThread:24873 [internal.py:wandb_internal():89] W&B internal server running at pid: 24873, started at: 2021-11-10 16:27:22.308227
+2021-11-10 16:27:22,309 INFO    WriterThread:24873 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/run-1rub7t2c.wandb
+2021-11-10 16:27:22,310 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: check_version
+2021-11-10 16:27:22,311 DEBUG   SenderThread:24873 [sender.py:send():182] send: header
+2021-11-10 16:27:22,311 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: check_version
+2021-11-10 16:27:22,370 DEBUG   SenderThread:24873 [sender.py:send():182] send: run
+2021-11-10 16:27:22,584 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: run_start
+2021-11-10 16:27:22,584 INFO    SenderThread:24873 [dir_watcher.py:__init__():168] watching files in: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files
+2021-11-10 16:27:22,584 INFO    SenderThread:24873 [sender.py:_start_run_threads():743] run started: 1rub7t2c with start time 1636561641
+2021-11-10 16:27:22,584 DEBUG   SenderThread:24873 [sender.py:send():182] send: summary
+2021-11-10 16:27:22,584 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-10 16:27:23,325 DEBUG   HandlerThread:24873 [meta.py:__init__():39] meta init
+2021-11-10 16:27:23,325 DEBUG   HandlerThread:24873 [meta.py:__init__():53] meta init done
+2021-11-10 16:27:23,325 DEBUG   HandlerThread:24873 [meta.py:probe():210] probe
+2021-11-10 16:27:23,332 DEBUG   HandlerThread:24873 [meta.py:_setup_git():200] setup git
+2021-11-10 16:27:23,344 DEBUG   HandlerThread:24873 [meta.py:_setup_git():207] setup git done
+2021-11-10 16:27:23,344 DEBUG   HandlerThread:24873 [meta.py:_save_pip():57] save pip
+2021-11-10 16:27:23,345 DEBUG   HandlerThread:24873 [meta.py:_save_pip():71] save pip done
+2021-11-10 16:27:23,345 DEBUG   HandlerThread:24873 [meta.py:probe():252] probe done
+2021-11-10 16:27:23,347 DEBUG   SenderThread:24873 [sender.py:send():182] send: files
+2021-11-10 16:27:23,347 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-11-10 16:27:23,351 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:27:23,351 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:27:23,494 DEBUG   SenderThread:24873 [sender.py:send():182] send: files
+2021-11-10 16:27:23,495 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file *.py with policy live
+2021-11-10 16:27:23,585 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:23,585 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/model.py
+2021-11-10 16:27:23,585 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/utils.py
+2021-11-10 16:27:23,585 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/requirements.txt
+2021-11-10 16:27:23,586 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json
+2021-11-10 16:27:23,586 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/dataset.py
+2021-11-10 16:27:23,586 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-metadata.json
+2021-11-10 16:27:23,586 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/train.py
+2021-11-10 16:27:23,856 INFO    Thread-11 :24873 [upload_job.py:push():137] Uploaded file /tmp/tmpx6dfott2wandb/1pxrit54-wandb-metadata.json
+2021-11-10 16:27:23,976 INFO    Thread-13 :24873 [upload_job.py:push():137] Uploaded file /tmp/tmpx6dfott2wandb/35p9bvn7-train.py
+2021-11-10 16:27:24,003 INFO    Thread-12 :24873 [upload_job.py:push():137] Uploaded file /tmp/tmpx6dfott2wandb/16ny70mr-dataset.py
+2021-11-10 16:27:24,019 INFO    Thread-14 :24873 [upload_job.py:push():137] Uploaded file /tmp/tmpx6dfott2wandb/2rrvqsid-utils.py
+2021-11-10 16:27:24,026 INFO    Thread-15 :24873 [upload_job.py:push():137] Uploaded file /tmp/tmpx6dfott2wandb/20pq28be-model.py
+2021-11-10 16:27:25,585 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:29,586 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:33,587 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:35,587 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:37,588 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:38,513 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:27:38,513 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:27:39,588 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:41,589 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:43,590 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:45,591 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:47,593 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:50,593 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:51,473 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:27:52,594 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:53,707 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:27:53,707 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:27:54,594 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:56,595 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:27:58,595 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:00,596 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:02,597 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:04,597 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:06,598 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:08,598 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:08,902 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:28:08,902 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:28:10,599 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:12,599 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:14,600 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:16,600 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:18,601 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:20,601 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:21,601 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:28:22,602 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:24,093 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:28:24,093 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:28:24,602 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:26,603 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:28,604 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:30,608 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:32,605 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:34,605 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:36,606 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:38,606 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:39,259 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:28:39,259 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:28:40,607 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:42,607 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:44,608 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:46,609 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:48,609 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:50,610 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:51,731 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:28:52,610 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:54,423 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:28:54,423 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:28:54,611 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:56,611 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:28:58,612 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:00,613 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:02,613 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:04,614 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:06,614 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:08,615 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:09,571 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:29:09,571 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:29:10,615 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:12,616 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:14,617 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:16,617 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:18,618 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:20,618 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:21,862 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:29:22,619 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:24,619 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:24,719 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:29:24,719 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:29:26,620 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:28,620 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:30,621 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:32,622 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:34,622 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:36,623 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:38,623 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:39,863 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:29:39,864 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:29:40,624 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:42,624 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:44,625 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:46,626 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:48,626 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:50,627 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:51,988 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:29:52,627 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:54,628 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:55,023 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:29:55,023 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:29:56,628 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:29:58,629 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:00,629 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:02,630 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:04,631 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:06,631 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:08,632 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:10,174 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:30:10,174 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:30:10,632 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:12,633 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:14,633 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:16,634 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:18,634 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:20,635 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:22,117 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:30:22,555 DEBUG   SenderThread:24873 [sender.py:send():182] send: history
+2021-11-10 16:30:22,556 DEBUG   SenderThread:24873 [sender.py:send():182] send: summary
+2021-11-10 16:30:22,556 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-10 16:30:22,635 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json
+2021-11-10 16:30:22,636 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:24,636 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:25,334 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:30:25,335 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:30:26,636 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:28,637 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:30,638 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:32,638 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:34,639 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:36,639 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:38,640 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:40,491 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:30:40,491 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:30:40,640 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:42,641 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:44,642 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:46,642 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:48,643 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:50,643 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:52,246 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:30:52,644 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:54,644 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:55,635 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:30:55,635 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:30:56,645 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:30:58,646 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:00,646 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:02,647 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:04,647 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:06,648 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:08,648 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:10,649 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:10,798 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:31:10,798 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:31:12,650 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:14,650 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:16,651 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:18,651 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:20,652 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:22,372 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:31:22,652 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:24,653 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:25,953 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:31:25,954 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:31:26,654 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:28,654 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:30,655 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:32,655 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:34,657 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:36,656 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:38,657 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:40,657 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:41,110 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:31:41,110 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:31:42,658 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:44,658 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:46,659 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:48,659 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:50,660 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:52,501 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:31:52,661 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:54,661 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:56,273 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:31:56,273 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:31:56,662 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:31:58,662 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:00,663 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:02,664 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:04,664 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:06,665 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:08,665 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:10,666 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:11,424 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:32:11,425 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:32:12,666 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:14,667 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:16,667 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:18,668 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:20,668 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:22,639 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:32:23,670 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:25,671 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:26,579 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:32:26,579 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:32:27,671 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:29,672 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:31,672 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:33,673 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:35,673 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:37,674 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:39,674 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:41,675 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:41,727 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:32:41,727 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:32:43,676 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:45,676 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:47,677 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:49,677 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:51,678 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:52,768 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:32:53,678 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:55,679 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:56,894 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:32:56,894 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:32:57,680 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:32:59,680 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:01,681 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:03,681 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:05,682 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:07,682 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:09,626 DEBUG   SenderThread:24873 [sender.py:send():182] send: history
+2021-11-10 16:33:09,626 DEBUG   SenderThread:24873 [sender.py:send():182] send: summary
+2021-11-10 16:33:09,626 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-10 16:33:09,683 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json
+2021-11-10 16:33:09,683 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:11,683 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:12,037 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:33:12,037 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:33:13,684 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:15,685 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:17,685 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:19,686 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:21,686 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:22,896 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:33:23,687 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:25,687 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:27,197 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:33:27,198 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:33:27,688 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:29,689 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:31,689 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:33,690 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:35,690 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:37,691 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:39,691 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:41,692 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:42,376 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:33:42,377 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:33:43,693 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:45,693 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:47,694 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:49,694 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:51,695 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:53,021 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:33:53,695 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:55,696 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:57,559 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:33:57,559 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:33:57,697 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:33:59,697 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:01,698 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:03,698 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:05,699 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:07,699 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:09,700 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:11,701 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:12,726 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:34:12,726 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:34:13,701 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:15,702 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:17,702 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:19,703 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:21,703 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:23,157 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:34:23,704 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:25,705 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:27,705 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:27,879 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:34:27,879 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:34:29,706 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:31,706 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:33,707 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:35,707 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:37,708 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:39,709 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:41,709 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:43,024 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:34:43,024 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:34:43,710 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:45,710 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:47,711 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:49,712 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:51,712 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:53,288 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:34:53,713 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:55,713 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:57,714 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:34:58,170 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:34:58,170 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:34:59,714 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:01,715 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:03,716 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:05,716 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:07,717 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:09,717 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:11,718 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:13,330 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:35:13,330 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:35:13,718 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:15,719 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:17,720 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:19,720 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:21,721 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:23,411 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:35:23,721 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:25,722 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:27,722 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:28,504 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:35:28,504 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:35:29,723 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:31,723 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:33,724 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:35,725 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:37,725 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:39,726 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:41,726 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:43,663 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:35:43,663 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:35:43,727 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:45,727 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:47,728 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:49,729 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:51,729 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:53,541 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:35:53,730 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:55,730 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:56,475 DEBUG   SenderThread:24873 [sender.py:send():182] send: history
+2021-11-10 16:35:56,476 DEBUG   SenderThread:24873 [sender.py:send():182] send: summary
+2021-11-10 16:35:56,476 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-10 16:35:56,730 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json
+2021-11-10 16:35:57,731 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:35:58,813 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:35:58,813 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:35:59,731 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:01,732 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:03,732 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:05,733 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:07,734 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:09,734 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:11,735 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:13,735 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:13,998 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:36:13,998 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:36:15,736 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:17,736 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:19,737 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:21,738 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:23,672 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:36:23,738 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:25,739 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:27,739 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:29,196 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:36:29,196 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:36:29,740 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:31,741 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:33,741 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:35,742 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:37,742 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:39,743 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:41,743 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:43,744 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:44,369 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:36:44,377 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:36:45,744 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:47,745 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:49,745 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:51,746 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:53,747 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:53,801 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:36:55,747 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:57,748 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:36:59,551 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:36:59,551 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:36:59,748 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:01,749 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:03,749 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:05,750 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:07,750 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:09,751 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:11,751 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:13,752 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:14,713 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:37:14,713 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:37:15,753 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:17,753 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:19,754 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:21,754 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:23,755 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:23,938 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:37:25,755 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:27,756 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:29,756 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:29,882 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:37:29,882 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:37:31,757 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:33,757 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:36,758 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:38,759 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:40,759 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:42,760 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:44,769 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:45,042 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:37:45,042 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:37:46,770 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:48,770 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:50,771 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:52,771 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:54,071 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:37:54,772 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:56,772 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:37:58,773 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:00,186 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:38:00,187 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:38:00,774 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:02,774 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:04,775 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:06,775 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:08,776 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:10,776 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:12,777 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:14,777 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:15,382 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:38:15,382 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:38:16,778 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:18,779 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:20,779 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:22,780 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:24,206 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:38:24,780 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:26,781 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:28,782 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:30,545 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:38:30,546 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:38:30,782 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:32,783 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:34,783 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:36,784 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:38,784 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:40,785 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:42,786 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:43,722 DEBUG   SenderThread:24873 [sender.py:send():182] send: history
+2021-11-10 16:38:43,722 DEBUG   SenderThread:24873 [sender.py:send():182] send: summary
+2021-11-10 16:38:43,723 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-10 16:38:43,786 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json
+2021-11-10 16:38:44,786 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:45,718 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:38:45,719 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:38:46,787 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:48,787 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:50,788 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:52,788 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:54,333 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:38:54,789 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:56,790 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:38:58,790 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:00,791 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:00,880 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:39:00,880 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:39:02,791 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:04,792 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:06,792 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:08,793 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:10,793 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:12,794 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:14,795 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:16,051 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:39:16,051 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:39:16,795 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:18,796 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:20,796 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:22,797 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:24,470 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:39:24,797 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:26,798 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:28,798 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:30,799 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:31,209 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:39:31,221 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:39:32,800 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:34,800 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:36,801 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:38,801 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:40,802 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:42,803 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:44,803 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:46,400 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:39:46,401 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:39:46,804 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:48,804 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:50,805 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:52,805 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:54,601 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:39:54,806 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:56,806 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:39:58,807 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:00,808 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:01,563 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:40:01,563 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:40:02,808 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:04,809 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:06,809 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:08,810 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:10,810 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:12,811 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:14,811 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:16,740 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:40:16,740 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:40:16,812 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:18,813 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:20,813 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:22,814 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:24,739 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:40:24,814 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:26,815 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:28,815 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:30,816 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:31,898 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:40:31,898 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:40:32,818 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:34,818 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:36,829 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:38,829 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:40,830 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:42,830 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:44,831 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:46,831 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:47,066 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:40:47,066 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:40:48,832 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:50,832 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:52,833 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:54,834 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:54,869 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:40:56,834 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:40:58,835 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:00,835 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:02,240 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:41:02,240 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:41:02,836 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:04,836 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:06,837 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:08,838 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:10,838 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:12,839 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:14,839 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:16,840 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:17,385 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:41:17,385 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:41:18,840 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:20,841 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:22,841 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:24,842 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:25,017 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:41:26,843 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:28,843 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:30,844 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:31,126 DEBUG   SenderThread:24873 [sender.py:send():182] send: history
+2021-11-10 16:41:31,126 DEBUG   SenderThread:24873 [sender.py:send():182] send: summary
+2021-11-10 16:41:31,126 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-10 16:41:31,844 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json
+2021-11-10 16:41:32,576 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:41:32,576 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:41:32,844 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:34,845 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:36,845 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:38,846 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:40,846 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:42,847 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:44,847 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:46,848 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:47,733 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:41:47,733 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:41:48,849 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:50,849 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:52,850 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:54,850 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:55,147 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:41:56,851 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:41:58,851 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:00,852 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:02,852 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:02,879 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:42:02,879 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:42:04,853 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:06,854 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:08,854 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:10,855 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:12,855 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:14,856 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:16,856 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:18,042 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:42:18,042 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:42:18,857 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:20,857 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:22,858 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:24,858 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:25,273 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:42:26,859 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:28,860 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:30,860 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:32,861 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:33,200 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:42:33,201 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:42:34,861 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:36,862 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:38,862 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:40,863 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:42,864 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:44,864 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:46,864 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:48,370 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:42:48,370 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:42:48,865 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:51,866 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:53,866 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:55,404 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:42:55,867 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:57,867 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:42:59,868 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:43:01,868 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:43:03,534 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: stop_status
+2021-11-10 16:43:03,534 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: stop_status
+2021-11-10 16:43:03,869 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:43:05,870 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:43:07,870 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:43:09,871 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:43:10,297 WARNING MainThread:24873 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-11-10 16:43:11,872 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:43:12,871 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:12,871 DEBUG   SenderThread:24873 [sender.py:send():182] send: telemetry
+2021-11-10 16:43:12,871 DEBUG   SenderThread:24873 [sender.py:send():182] send: exit
+2021-11-10 16:43:12,871 INFO    SenderThread:24873 [sender.py:send_exit():291] handling exit code: 255
+2021-11-10 16:43:12,871 INFO    SenderThread:24873 [sender.py:send_exit():293] handling runtime: 950
+2021-11-10 16:43:12,872 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-10 16:43:12,872 INFO    SenderThread:24873 [sender.py:send_exit():303] send defer
+2021-11-10 16:43:12,872 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:12,872 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:12,872 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 0
+2021-11-10 16:43:12,873 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:12,873 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-11-10 16:43:12,873 INFO    SenderThread:24873 [sender.py:transition_state():316] send defer: 1
+2021-11-10 16:43:12,873 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json
+2021-11-10 16:43:12,873 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:12,874 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:43:12,874 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 1
+2021-11-10 16:43:12,902 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:12,903 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-11-10 16:43:12,903 INFO    SenderThread:24873 [sender.py:transition_state():316] send defer: 2
+2021-11-10 16:43:12,903 DEBUG   SenderThread:24873 [sender.py:send():182] send: stats
+2021-11-10 16:43:12,903 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:12,903 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 2
+2021-11-10 16:43:12,904 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:12,904 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-11-10 16:43:12,904 INFO    SenderThread:24873 [sender.py:transition_state():316] send defer: 3
+2021-11-10 16:43:12,904 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:12,904 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 3
+2021-11-10 16:43:12,904 DEBUG   SenderThread:24873 [sender.py:send():182] send: summary
+2021-11-10 16:43:12,904 INFO    SenderThread:24873 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-10 16:43:12,904 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:12,904 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-11-10 16:43:12,904 INFO    SenderThread:24873 [sender.py:transition_state():316] send defer: 4
+2021-11-10 16:43:12,905 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:12,905 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 4
+2021-11-10 16:43:12,905 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:12,905 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-11-10 16:43:12,974 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:13,091 INFO    SenderThread:24873 [sender.py:transition_state():316] send defer: 5
+2021-11-10 16:43:13,091 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:13,092 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:13,092 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 5
+2021-11-10 16:43:13,093 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:13,093 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-11-10 16:43:13,093 INFO    SenderThread:24873 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-11-10 16:43:13,194 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:13,874 INFO    Thread-8  :24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json
+2021-11-10 16:43:13,875 INFO    SenderThread:24873 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/config.yaml
+2021-11-10 16:43:13,876 INFO    SenderThread:24873 [dir_watcher.py:finish():312] scan: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files
+2021-11-10 16:43:13,877 INFO    SenderThread:24873 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/dataset.py dataset.py
+2021-11-10 16:43:13,877 INFO    SenderThread:24873 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log output.log
+2021-11-10 16:43:13,877 INFO    SenderThread:24873 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-metadata.json wandb-metadata.json
+2021-11-10 16:43:13,877 INFO    SenderThread:24873 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/requirements.txt requirements.txt
+2021-11-10 16:43:13,884 INFO    SenderThread:24873 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/train.py train.py
+2021-11-10 16:43:13,884 INFO    SenderThread:24873 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/utils.py utils.py
+2021-11-10 16:43:13,886 INFO    SenderThread:24873 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/config.yaml config.yaml
+2021-11-10 16:43:13,886 INFO    SenderThread:24873 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json wandb-summary.json
+2021-11-10 16:43:13,886 INFO    SenderThread:24873 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/model.py model.py
+2021-11-10 16:43:13,889 INFO    SenderThread:24873 [sender.py:transition_state():316] send defer: 6
+2021-11-10 16:43:13,890 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:13,890 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:13,890 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 6
+2021-11-10 16:43:13,890 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:13,890 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-11-10 16:43:13,890 INFO    SenderThread:24873 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-10 16:43:13,992 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:13,992 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:14,094 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:14,095 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:14,197 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:14,197 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:14,300 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:14,300 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:14,369 INFO    Thread-16 :24873 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/output.log
+2021-11-10 16:43:14,403 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:14,404 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:14,414 INFO    Thread-18 :24873 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/config.yaml
+2021-11-10 16:43:14,428 INFO    Thread-17 :24873 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/requirements.txt
+2021-11-10 16:43:14,506 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:14,507 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:14,523 INFO    Thread-19 :24873 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/files/wandb-summary.json
+2021-11-10 16:43:14,610 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:14,610 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:14,713 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:14,714 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:14,724 INFO    Thread-7  :24873 [sender.py:transition_state():316] send defer: 7
+2021-11-10 16:43:14,725 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:14,726 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 7
+2021-11-10 16:43:14,726 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:14,726 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-11-10 16:43:14,817 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:15,096 INFO    SenderThread:24873 [sender.py:transition_state():316] send defer: 8
+2021-11-10 16:43:15,097 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:15,098 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:15,098 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 8
+2021-11-10 16:43:15,098 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:15,098 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-11-10 16:43:15,099 INFO    SenderThread:24873 [sender.py:transition_state():316] send defer: 9
+2021-11-10 16:43:15,100 DEBUG   SenderThread:24873 [sender.py:send():182] send: final
+2021-11-10 16:43:15,101 DEBUG   SenderThread:24873 [sender.py:send():182] send: footer
+2021-11-10 16:43:15,101 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: defer
+2021-11-10 16:43:15,102 INFO    HandlerThread:24873 [handler.py:handle_request_defer():145] handle defer: 9
+2021-11-10 16:43:15,102 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: defer
+2021-11-10 16:43:15,102 INFO    SenderThread:24873 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-11-10 16:43:15,200 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: poll_exit
+2021-11-10 16:43:15,200 DEBUG   SenderThread:24873 [sender.py:send_request():196] send_request: poll_exit
+2021-11-10 16:43:15,201 INFO    SenderThread:24873 [file_pusher.py:join():182] waiting for file pusher
+2021-11-10 16:43:15,203 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: get_summary
+2021-11-10 16:43:15,205 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: sampled_history
+2021-11-10 16:43:15,208 DEBUG   HandlerThread:24873 [handler.py:handle_request():128] handle_request: shutdown
+2021-11-10 16:43:15,208 INFO    HandlerThread:24873 [handler.py:finish():677] shutting down handler
+2021-11-10 16:43:16,102 INFO    WriterThread:24873 [datastore.py:close():281] close: /root/konst/ml-utils/training/toxic_deep/wandb/run-20211110_162721-1rub7t2c/run-1rub7t2c.wandb
+2021-11-10 16:43:16,201 INFO    SenderThread:24873 [sender.py:finish():979] shutting down sender
+2021-11-10 16:43:16,201 INFO    SenderThread:24873 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-10 16:43:16,202 INFO    SenderThread:24873 [file_pusher.py:join():182] waiting for file pusher
+2021-11-10 16:43:16,205 INFO    MainThread:24873 [internal.py:handle_exit():76] Internal process exited

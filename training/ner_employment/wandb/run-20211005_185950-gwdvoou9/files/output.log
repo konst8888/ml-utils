@@ -1,0 +1,107 @@
+0.321233
+LR:  0.0001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: train Loss: 0.4262 (0.3670) Acc: 0.0007 (0.0052) Rec B-EMPLOYMENT: 0.9918 (1.0000): 100%|█| 429/429 [01:13<00:00,  5.87it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: valid Loss: 0.1232 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 1.0000 (nan):  97%|██▉| 667/687 [00:20<00:00, 36.10it/s]
+Epoch: 0/39 Phase: valid Loss: 0.1211 (0.0000) Acc: 0.0001 (0.0000) Rec B-EMPLOYMENT: 1.0000 (nan): 100%|███| 687/687 [00:20<00:00, 32.85it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: train Loss: 0.1321 (0.0962) Acc: 0.0008 (0.0046) Rec B-EMPLOYMENT: 0.9995 (1.0000):  86%|▊| 371/429 [01:03<00:09,  5.83it/s
+Traceback (most recent call last):
+  File "train.py", line 356, in <module>
+    wandb,
+  File "train.py", line 94, in train
+    for idx, sample in pbar:
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1186, in _next_data
+    idx, data = self._get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 1152, in _get_data
+    success, data = self._try_get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 990, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 911, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)

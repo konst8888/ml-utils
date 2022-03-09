@@ -1,0 +1,544 @@
+0.321233
+LR:  0.00015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: train Loss: 1.6681 (1.6419) Acc: 0.0056 (0.0390) Rec B-EMPLOYMENT: 0.4549 (0.7273): 100%|█| 429/429 [01:13<00:00,  5.88it/s
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: valid Loss: 1.3344 (0.6274) Acc: 0.0011 (0.0635) Rec B-EMPLOYMENT: 0.7894 (1.0000):  97%|▉| 664/687 [00:20<00:00, 32.73it/s
+metrics 648
+train_loss 24
+train_acc 72
+cl 61
+scale_value 24
+preds 72
+_ 72
+loss 72
+i 28
+tokens_copy 33392
+active_loss 72
+outputs 72
+idxs 128
+tokens 5868
+tags 72
+masks 72
+seqs 72
+sample 88
+idx 28
+thresh 24
+relabel_every 28
+print_idx 28
+change_idxs 80
+current_pos 24
+pbar 56
+counts_prec 368
+counts_rec 368
+running_class_acc 368
+running_acc 72
+running_loss 24
+dataloader 56
+phase 54
+epoch 24
+relabel 8649456
+tokens_empl 10950248
+scores_empl 10950248
+sample_counter 24
+batch_size 28
+data_len 28
+wandb 80
+lam 24
+max_seq_len 28
+adjust_lr_every 28
+save_at 28
+device 53
+checkpoint_path 93
+start_epoch 24
+epochs 28
+dataloader_test 56
+dataloader_train 56
+scheduler 56
+optimizer 56
+criterion 56
+model 56
+running_scores 248
+classes 192
+all_tokens 8649456
+__name__ 57
+__doc__ 16
+__package__ 16
+__loader__ 56
+__spec__ 16
+__annotations__ 240
+__builtins__ 80
+__file__ 57
+__cached__ 16
+torch 80
+F 80
+nn 80
+cudnn 80
+optim 80
+DataLoader 1464
+dset 80
+T 80
+Image 80
+tqdm 80
+sys 80
+os 80
+np 80
+pd 80
+argparse 80
+random 80
+confusion_matrix 136
+Counter 1056
+defaultdict 400
+ReduceLROnPlateau 1464
+BiLSTM 1056
+BiQRNN 1464
+NoiseBiLSTM 1056
+NERProjDataset 1464
+NERCharDataset 1056
+TextProcessing 1056
+get_split 136
+load_state_dict 136
+collate_fn 136
+set_seed 136
+train 136
+parser 56
+args 56
+data_path 97
+checkpoint_path 93
+model_path 49
+batch_size 28
+epochs 28
+start_epoch 24
+test_size 24
+use_wandb 28
+lr 24
+save_at 28
+adjust_lr_every 28
+num_workers 28
+device 53
+wandb 80
+seed 28
+tp 56
+dataset_train 56
+dataset_test 56
+dataloader_train 56
+dataloader_test 56
+classes 192
+max_seq_len 28
+model 56
+weight 72
+optimizer 56
+scheduler 56
+criterion 56
+Epoch: 0/39 Phase: valid Loss: 1.3332 (0.8940) Acc: 0.0011 (0.0541) Rec B-EMPLOYMENT: 0.7879 (nan): 100%|███| 687/687 [00:20<00:00, 33.01it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: train Loss: 1.1914 (1.2725) Acc: 0.0071 (0.0447) Rec B-EMPLOYMENT: 0.7548 (0.6364): 100%|█| 429/429 [01:12<00:00,  5.91it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/39 Phase: valid Loss: 1.1171 (0.7477) Acc: 0.0012 (0.0681) Rec B-EMPLOYMENT: 0.8289 (1.0000):  98%|▉| 673/687 [00:20<00:00, 36.23it/s
+metrics 648
+train_loss 24
+train_acc 72
+cl 61
+scale_value 24
+preds 72
+_ 72
+loss 72
+i 28
+tokens_copy 33392
+active_loss 72
+outputs 72
+idxs 128
+tokens 5868
+tags 72
+masks 72
+seqs 72
+sample 88
+idx 28
+thresh 24
+relabel_every 28
+print_idx 28
+change_idxs 80
+current_pos 24
+pbar 56
+counts_prec 368
+counts_rec 368
+running_class_acc 368
+running_acc 72
+running_loss 24
+dataloader 56
+phase 54
+epoch 28
+relabel 8649456
+tokens_empl 22247904
+scores_empl 22247904
+sample_counter 24
+batch_size 28
+data_len 28
+wandb 80
+lam 24
+max_seq_len 28
+adjust_lr_every 28
+save_at 28
+device 53
+checkpoint_path 93
+start_epoch 24
+epochs 28
+dataloader_test 56
+dataloader_train 56
+scheduler 56
+optimizer 56
+criterion 56
+model 56
+running_scores 248
+all_tokens 8649456
+obj 56
+var 58
+local_vars 1072
+classes 192
+__name__ 57
+__doc__ 16
+__package__ 16
+__loader__ 56
+__spec__ 16
+__annotations__ 240
+__builtins__ 80
+__file__ 57
+__cached__ 16
+torch 80
+F 80
+nn 80
+cudnn 80
+optim 80
+DataLoader 1464
+dset 80
+T 80
+Image 80
+tqdm 80
+sys 80
+os 80
+np 80
+pd 80
+argparse 80
+random 80
+confusion_matrix 136
+Counter 1056
+defaultdict 400
+ReduceLROnPlateau 1464
+BiLSTM 1056
+BiQRNN 1464
+NoiseBiLSTM 1056
+NERProjDataset 1464
+NERCharDataset 1056
+TextProcessing 1056
+get_split 136
+load_state_dict 136
+collate_fn 136
+set_seed 136
+train 136
+parser 56
+args 56
+data_path 97
+checkpoint_path 93
+model_path 49
+batch_size 28
+epochs 28
+start_epoch 24
+test_size 24
+use_wandb 28
+lr 24
+save_at 28
+adjust_lr_every 28
+num_workers 28
+device 53
+wandb 80
+seed 28
+tp 56
+dataset_train 56
+dataset_test 56
+dataloader_train 56
+dataloader_test 56
+classes 192
+max_seq_len 28
+model 56
+weight 72
+optimizer 56
+scheduler 56
+criterion 56
+Epoch: 1/39 Phase: valid Loss: 1.1161 (0.7715) Acc: 0.0012 (0.0541) Rec B-EMPLOYMENT: 0.8289 (nan): 100%|███| 687/687 [00:21<00:00, 32.44it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: train Loss: 1.0314 (1.0744) Acc: 0.0077 (0.0503) Rec B-EMPLOYMENT: 0.8080 (0.8182): 100%|█| 429/429 [01:12<00:00,  5.90it/s
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/39 Phase: valid Loss: 1.0135 (0.7859) Acc: 0.0013 (0.0576) Rec B-EMPLOYMENT: 0.8430 (nan):  97%|██▉| 664/687 [00:20<00:00, 38.02it/s]
+metrics 648
+train_loss 24
+train_acc 72
+cl 61
+scale_value 24
+preds 72
+_ 72
+loss 72
+i 28
+tokens_copy 33392
+active_loss 72
+outputs 72
+idxs 128
+tokens 5868
+tags 72
+masks 72
+seqs 72
+sample 88
+idx 28
+thresh 24
+relabel_every 28
+print_idx 28
+change_idxs 80
+current_pos 24
+pbar 56
+counts_prec 368
+counts_rec 368
+running_class_acc 368
+running_acc 72
+running_loss 24
+dataloader 56
+phase 54
+epoch 28
+relabel 8649456
+tokens_empl 31691744
+scores_empl 31691744
+sample_counter 24
+batch_size 28
+data_len 28
+wandb 80
+lam 24
+max_seq_len 28
+adjust_lr_every 28
+save_at 28
+device 53
+checkpoint_path 93
+start_epoch 24
+epochs 28
+dataloader_test 56
+dataloader_train 56
+scheduler 56
+optimizer 56
+criterion 56
+model 56
+running_scores 248
+all_tokens 8649456
+obj 56
+var 58
+local_vars 1096
+classes 192
+__name__ 57
+__doc__ 16
+__package__ 16
+__loader__ 56
+__spec__ 16
+__annotations__ 240
+__builtins__ 80
+__file__ 57
+__cached__ 16
+torch 80
+F 80
+nn 80
+cudnn 80
+optim 80
+DataLoader 1464
+dset 80
+T 80
+Image 80
+tqdm 80
+sys 80
+os 80
+np 80
+pd 80
+argparse 80
+random 80
+confusion_matrix 136
+Counter 1056
+defaultdict 400
+ReduceLROnPlateau 1464
+BiLSTM 1056
+BiQRNN 1464
+NoiseBiLSTM 1056
+NERProjDataset 1464
+NERCharDataset 1056
+TextProcessing 1056
+get_split 136
+load_state_dict 136
+collate_fn 136
+set_seed 136
+train 136
+parser 56
+args 56
+data_path 97
+checkpoint_path 93
+model_path 49
+batch_size 28
+epochs 28
+start_epoch 24
+test_size 24
+use_wandb 28
+lr 24
+save_at 28
+adjust_lr_every 28
+num_workers 28
+device 53
+wandb 80
+seed 28
+tp 56
+dataset_train 56
+dataset_test 56
+dataloader_train 56
+dataloader_test 56
+classes 192
+max_seq_len 28
+model 56
+weight 72
+optimizer 56
+scheduler 56
+criterion 56
+Epoch: 2/39 Phase: valid Loss: 1.0115 (0.8148) Acc: 0.0013 (0.0541) Rec B-EMPLOYMENT: 0.8431 (nan): 100%|███| 687/687 [00:21<00:00, 32.29it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+Vocab size:  103
+Vocab size:  103
+0.849537
+[1447, 8259, 699, 5886, 65184, 2396, 31583, 1191, 37.6, 284, 23025, 3398, 6012, 30723, 2644, 6336, 1004, 1220, 2262, 2043, 313, 620, 1487, 1228, 2888, 925, 1041, 1123, 1106, 2972, 867, 736, 2735, 816, 213.0, 1994, 2646]
+LR:  0.001
+  0%|                                                                                                             | 0/1717 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 357, in <module>
+    wandb,
+  File "train.py", line 92, in train
+    for idx, sample in pbar:
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/konst/ml-utils/training/tagger_text/dataset.py", line 168, in __getitem__
+    text = self.transforms(text)
+  File "/usr/local/lib/python3.6/dist-packages/torchvision/transforms/transforms.py", line 67, in __call__
+    img = t(img)
+  File "/root/konst/ml-utils/training/tagger_text/utils.py", line 111, in __call__
+    sims = self.w2v.most_similar(token_lem, topn=topn)
+  File "/usr/local/lib/python3.6/dist-packages/gensim/models/keyedvectors.py", line 564, in most_similar
+    dists = dot(limited, mean)
+  File "<__array_function__ internals>", line 6, in dot

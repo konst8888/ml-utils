@@ -1,0 +1,143 @@
+2021-10-05 23:34:41,500 INFO    MainThread:4089 [internal.py:wandb_internal():89] W&B internal server running at pid: 4089, started at: 2021-10-05 23:34:41.500818
+2021-10-05 23:34:41,502 INFO    WriterThread:4089 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/run-pyp78gsy.wandb
+2021-10-05 23:34:41,503 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: check_version
+2021-10-05 23:34:41,504 DEBUG   SenderThread:4089 [sender.py:send():182] send: header
+2021-10-05 23:34:41,504 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: check_version
+2021-10-05 23:34:41,549 DEBUG   SenderThread:4089 [sender.py:send():182] send: run
+2021-10-05 23:34:41,772 INFO    SenderThread:4089 [dir_watcher.py:__init__():168] watching files in: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files
+2021-10-05 23:34:41,773 INFO    SenderThread:4089 [sender.py:_start_run_threads():743] run started: pyp78gsy with start time 1633476881
+2021-10-05 23:34:41,773 DEBUG   SenderThread:4089 [sender.py:send():182] send: summary
+2021-10-05 23:34:41,774 INFO    SenderThread:4089 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 23:34:41,776 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: run_start
+2021-10-05 23:34:42,776 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/wandb-summary.json
+2021-10-05 23:34:43,709 DEBUG   HandlerThread:4089 [meta.py:__init__():39] meta init
+2021-10-05 23:34:43,709 DEBUG   HandlerThread:4089 [meta.py:__init__():53] meta init done
+2021-10-05 23:34:43,709 DEBUG   HandlerThread:4089 [meta.py:probe():210] probe
+2021-10-05 23:34:43,716 DEBUG   HandlerThread:4089 [meta.py:_setup_git():200] setup git
+2021-10-05 23:34:43,735 DEBUG   HandlerThread:4089 [meta.py:_setup_git():207] setup git done
+2021-10-05 23:34:43,735 DEBUG   HandlerThread:4089 [meta.py:_save_pip():57] save pip
+2021-10-05 23:34:43,735 DEBUG   HandlerThread:4089 [meta.py:_save_pip():71] save pip done
+2021-10-05 23:34:43,735 DEBUG   HandlerThread:4089 [meta.py:probe():252] probe done
+2021-10-05 23:34:43,740 DEBUG   SenderThread:4089 [sender.py:send():182] send: files
+2021-10-05 23:34:43,740 INFO    SenderThread:4089 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-05 23:34:43,743 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 23:34:43,744 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 23:34:43,775 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/output.log
+2021-10-05 23:34:43,775 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/requirements.txt
+2021-10-05 23:34:43,775 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/wandb-metadata.json
+2021-10-05 23:34:44,201 INFO    Thread-11 :4089 [upload_job.py:push():137] Uploaded file /tmp/tmpzat1n8k6wandb/epcnld5s-wandb-metadata.json
+2021-10-05 23:34:58,961 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 23:34:58,961 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 23:35:11,881 DEBUG   SenderThread:4089 [sender.py:send():182] send: stats
+2021-10-05 23:35:14,148 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 23:35:14,149 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 23:35:24,783 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/output.log
+2021-10-05 23:35:25,154 DEBUG   SenderThread:4089 [sender.py:send():182] send: telemetry
+2021-10-05 23:35:25,155 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:25,155 DEBUG   SenderThread:4089 [sender.py:send():182] send: exit
+2021-10-05 23:35:25,156 INFO    SenderThread:4089 [sender.py:send_exit():291] handling exit code: 1
+2021-10-05 23:35:25,156 INFO    SenderThread:4089 [sender.py:send_exit():293] handling runtime: 43
+2021-10-05 23:35:25,157 INFO    SenderThread:4089 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 23:35:25,157 INFO    SenderThread:4089 [sender.py:send_exit():303] send defer
+2021-10-05 23:35:25,158 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:25,159 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:25,159 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 0
+2021-10-05 23:35:25,159 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:25,159 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-10-05 23:35:25,160 INFO    SenderThread:4089 [sender.py:transition_state():316] send defer: 1
+2021-10-05 23:35:25,160 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:25,161 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 1
+2021-10-05 23:35:25,265 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:25,265 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:25,265 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-10-05 23:35:25,265 INFO    SenderThread:4089 [sender.py:transition_state():316] send defer: 2
+2021-10-05 23:35:25,265 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:25,265 DEBUG   SenderThread:4089 [sender.py:send():182] send: stats
+2021-10-05 23:35:25,266 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:25,266 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 2
+2021-10-05 23:35:25,266 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:25,266 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-10-05 23:35:25,266 INFO    SenderThread:4089 [sender.py:transition_state():316] send defer: 3
+2021-10-05 23:35:25,266 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:25,266 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 3
+2021-10-05 23:35:25,267 DEBUG   SenderThread:4089 [sender.py:send():182] send: summary
+2021-10-05 23:35:25,267 INFO    SenderThread:4089 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 23:35:25,267 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:25,267 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-10-05 23:35:25,267 INFO    SenderThread:4089 [sender.py:transition_state():316] send defer: 4
+2021-10-05 23:35:25,267 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:25,267 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 4
+2021-10-05 23:35:25,267 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:25,267 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-10-05 23:35:25,367 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:25,469 INFO    SenderThread:4089 [sender.py:transition_state():316] send defer: 5
+2021-10-05 23:35:25,470 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:25,470 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:25,470 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 5
+2021-10-05 23:35:25,470 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:25,470 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-10-05 23:35:25,470 INFO    SenderThread:4089 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-10-05 23:35:25,572 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:25,784 INFO    Thread-8  :4089 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/output.log
+2021-10-05 23:35:25,785 INFO    SenderThread:4089 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/wandb-summary.json
+2021-10-05 23:35:25,785 INFO    SenderThread:4089 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/config.yaml
+2021-10-05 23:35:25,786 INFO    SenderThread:4089 [dir_watcher.py:finish():312] scan: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files
+2021-10-05 23:35:25,786 INFO    SenderThread:4089 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/output.log output.log
+2021-10-05 23:35:25,786 INFO    SenderThread:4089 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/wandb-metadata.json wandb-metadata.json
+2021-10-05 23:35:25,787 INFO    SenderThread:4089 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/requirements.txt requirements.txt
+2021-10-05 23:35:25,793 INFO    SenderThread:4089 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/config.yaml config.yaml
+2021-10-05 23:35:25,795 INFO    SenderThread:4089 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/wandb-summary.json wandb-summary.json
+2021-10-05 23:35:25,796 INFO    SenderThread:4089 [sender.py:transition_state():316] send defer: 6
+2021-10-05 23:35:25,797 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:25,798 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:25,798 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 6
+2021-10-05 23:35:25,798 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:25,798 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-10-05 23:35:25,798 INFO    SenderThread:4089 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-05 23:35:25,899 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:25,899 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:26,001 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:26,001 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:26,104 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:26,104 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:26,207 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:26,207 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:26,291 INFO    Thread-15 :4089 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/wandb-summary.json
+2021-10-05 23:35:26,296 INFO    Thread-12 :4089 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/output.log
+2021-10-05 23:35:26,300 INFO    Thread-13 :4089 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/requirements.txt
+2021-10-05 23:35:26,308 INFO    Thread-14 :4089 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/files/config.yaml
+2021-10-05 23:35:26,309 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:26,310 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:26,413 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:26,413 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:26,510 INFO    Thread-7  :4089 [sender.py:transition_state():316] send defer: 7
+2021-10-05 23:35:26,511 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:26,511 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 7
+2021-10-05 23:35:26,511 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:26,512 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-10-05 23:35:26,516 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:26,645 INFO    SenderThread:4089 [sender.py:transition_state():316] send defer: 8
+2021-10-05 23:35:26,646 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:26,647 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:26,647 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 8
+2021-10-05 23:35:26,648 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:26,648 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-10-05 23:35:26,648 INFO    SenderThread:4089 [sender.py:transition_state():316] send defer: 9
+2021-10-05 23:35:26,649 DEBUG   SenderThread:4089 [sender.py:send():182] send: final
+2021-10-05 23:35:26,650 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: defer
+2021-10-05 23:35:26,651 INFO    HandlerThread:4089 [handler.py:handle_request_defer():145] handle defer: 9
+2021-10-05 23:35:26,651 DEBUG   SenderThread:4089 [sender.py:send():182] send: footer
+2021-10-05 23:35:26,651 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: defer
+2021-10-05 23:35:26,651 INFO    SenderThread:4089 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-10-05 23:35:26,749 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-05 23:35:26,750 DEBUG   SenderThread:4089 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 23:35:26,750 INFO    SenderThread:4089 [file_pusher.py:join():182] waiting for file pusher
+2021-10-05 23:35:26,752 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: get_summary
+2021-10-05 23:35:26,754 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: sampled_history
+2021-10-05 23:35:26,755 DEBUG   HandlerThread:4089 [handler.py:handle_request():128] handle_request: shutdown
+2021-10-05 23:35:26,756 INFO    HandlerThread:4089 [handler.py:finish():677] shutting down handler
+2021-10-05 23:35:27,651 INFO    WriterThread:4089 [datastore.py:close():281] close: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_233441-pyp78gsy/run-pyp78gsy.wandb
+2021-10-05 23:35:27,751 INFO    SenderThread:4089 [sender.py:finish():979] shutting down sender
+2021-10-05 23:35:27,751 INFO    SenderThread:4089 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-05 23:35:27,751 INFO    SenderThread:4089 [file_pusher.py:join():182] waiting for file pusher
+2021-10-05 23:35:27,755 INFO    MainThread:4089 [internal.py:handle_exit():76] Internal process exited

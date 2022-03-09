@@ -1,0 +1,7 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+Vocab size: 10000
+Vocab size: 10000
+  0%|                                                                                                            | 0/3513 [00:00<?, ?it/s]
+3.815102
+[437408, 12218]

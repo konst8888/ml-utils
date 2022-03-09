@@ -1,0 +1,65 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 4 files into the W&B run directory, call wandb.save again to sync new files.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/contrib/pyopenssl.py", line 488, in wrap_socket
+    cnx.do_handshake()
+  File "/usr/local/lib/python3.6/dist-packages/OpenSSL/SSL.py", line 1934, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "/usr/local/lib/python3.6/dist-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train.py", line 240, in <module>
+    prob_wrap(augment_context(), p=0.25),
+  File "/root/konst/ml-utils/training/non_personal_text/utils.py", line 68, in __init__
+    model_path='bert-base-multilingual-uncased', action="insert", top_k=2, aug_min=1, aug_p=0.1)
+  File "/usr/local/lib/python3.6/dist-packages/nlpaug/augmenter/word/context_word_embs.py", line 90, in __init__
+    batch_size=batch_size, top_k=top_k, silence=silence)
+  File "/usr/local/lib/python3.6/dist-packages/nlpaug/augmenter/word/context_word_embs.py", line 470, in get_model
+    silence)
+  File "/usr/local/lib/python3.6/dist-packages/nlpaug/augmenter/word/context_word_embs.py", line 33, in init_context_word_embs_model
+    top_k=top_k, silence=silence)
+  File "/usr/local/lib/python3.6/dist-packages/nlpaug/model/lang_models/fill_mask_transformers.py", line 35, in __init__
+    self.model = pipeline("fill-mask", model=model_path, device=device, top_k=top_k)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/pipelines/__init__.py", line 435, in pipeline
+    **model_kwargs,
+  File "/usr/local/lib/python3.6/dist-packages/transformers/pipelines/base.py", line 136, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/models/auto/auto_factory.py", line 384, in from_pretrained
+    return model_class.from_pretrained(pretrained_model_name_or_path, *model_args, config=config, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/modeling_utils.py", line 1261, in from_pretrained
+    user_agent=user_agent,
+  File "/usr/local/lib/python3.6/dist-packages/transformers/file_utils.py", line 1378, in cached_path
+    local_files_only=local_files_only,
+  File "/usr/local/lib/python3.6/dist-packages/transformers/file_utils.py", line 1540, in get_from_cache
+    r = requests.head(url, headers=headers, allow_redirects=False, proxies=proxies, timeout=etag_timeout)
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 101, in head
+    return request('head', url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/contrib/pyopenssl.py", line 490, in wrap_socket
+    if not util.wait_for_read(sock, sock.gettimeout()):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/wait.py", line 146, in wait_for_read
+    return wait_for_socket(sock, read=True, timeout=timeout)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/wait.py", line 107, in poll_wait_for_socket
+    return bool(_retry_on_intr(do_poll, timeout))
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/wait.py", line 43, in _retry_on_intr
+    return fn(timeout)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/wait.py", line 105, in do_poll
+    return poll_obj.poll(t)

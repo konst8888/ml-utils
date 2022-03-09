@@ -1,0 +1,167 @@
+1241399
+124.302304
+LR:  0.001
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.3473 (1.3403) Acc: 0.0524 (0.0196) Acc PER: 0.0948 (0.0005):   0%|        | 6/4621 [00:05<1:11:11,  1.08it/s]
+
+
+Epoch: 0/19 Phase: train Loss: 1.3401 (1.3149) Acc: 0.0392 (0.0220) Acc PER: 0.0805 (0.0007):   0%|       | 10/4621 [00:09<1:12:58,  1.05it/s]
+
+
+Epoch: 0/19 Phase: train Loss: 1.3359 (1.3301) Acc: 0.0332 (0.0225) Acc PER: 0.0741 (0.0004):   0%|       | 15/4621 [00:14<1:12:05,  1.06it/s]
+—
+
+Epoch: 0/19 Phase: train Loss: 1.3347 (1.3249) Acc: 0.0320 (0.0255) Acc PER: 0.0719 (0.0005):   0%|       | 17/4621 [00:16<1:12:21,  1.06it/s]
+
+Epoch: 0/19 Phase: train Loss: 1.3336 (1.3167) Acc: 0.0309 (0.0238) Acc PER: 0.0708 (0.0007):   0%|       | 19/4621 [00:17<1:11:19,  1.08it/s]
+нефтяникам
+russian‎
+(сельскохозяйственной
+позволяющую
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.3207 (1.2778) Acc: 0.0256 (0.0266) Acc PER: 0.0708 (0.0005):   1%|       | 43/4621 [00:40<1:08:49,  1.11it/s]
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.3181 (1.3097) Acc: 0.0249 (0.0218) Acc PER: 0.0723 (0.0009):   1%|       | 50/4621 [00:46<1:09:48,  1.09it/s]
+
+
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.3180 (1.3052) Acc: 0.0242 (0.0234) Acc PER: 0.0724 (0.0010):   1%|       | 61/4621 [00:56<1:08:29,  1.11it/s]
+—
+—
+—
+—
+—
+—
+—
+—
+—
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.3115 (1.2514) Acc: 0.0232 (0.0234) Acc PER: 0.0732 (0.0004):   2%|▏      | 85/4621 [01:18<1:09:58,  1.08it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.2926 (1.2081) Acc: 0.0451 (0.0473) Acc PER: 0.1239 (0.0017):   2%|▏     | 111/4621 [01:43<1:10:14,  1.07it/s]
+росстата
+NUMB
+населения
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.2860 (1.1418) Acc: 0.0501 (0.2073) Acc PER: 0.1395 (0.0053):   3%|▏     | 117/4621 [01:48<1:08:45,  1.09it/s]
+
+
+
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.2738 (1.2124) Acc: 0.0545 (0.0441) Acc PER: 0.1528 (0.0010):   3%|▏     | 130/4621 [02:00<1:12:56,  1.03it/s]
+
+
+Epoch: 0/19 Phase: train Loss: 1.2708 (1.1676) Acc: 0.0554 (0.1169) Acc PER: 0.1559 (0.0032):   3%|▏     | 135/4621 [02:05<1:08:44,  1.09it/s]
+
+
+
+
+
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.2604 (1.1685) Acc: 0.0606 (0.0426) Acc PER: 0.1687 (0.0014):   3%|▏     | 152/4621 [02:21<1:10:14,  1.06it/s]
+
+Epoch: 0/19 Phase: train Loss: 1.2590 (1.1455) Acc: 0.0610 (0.1043) Acc PER: 0.1699 (0.0023):   3%|▏     | 154/4621 [02:23<1:09:52,  1.07it/s]
+
+
+Epoch: 0/19 Phase: train Loss: 1.2564 (1.1645) Acc: 0.0646 (0.2465) Acc PER: 0.1760 (0.0047):   3%|▏     | 158/4621 [02:27<1:09:33,  1.07it/s]
+
+
+
+
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.2486 (1.1736) Acc: 0.0695 (0.0963) Acc PER: 0.1878 (0.0026):   4%|▏     | 173/4621 [02:41<1:13:15,  1.01it/s]
+
+
+
+
+
+
+
+
+Epoch: 0/19 Phase: train Loss: 1.2400 (1.1509) Acc: 0.0767 (0.1093) Acc PER: 0.2111 (0.0041):   4%|▏     | 192/4621 [02:59<1:08:49,  1.07it/s]
+Traceback (most recent call last):
+  File "train.py", line 260, in <module>
+    wandb,
+  File "train.py", line 74, in train
+    for idx, sample in pbar:
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/tqdm/std.py", line 1133, in __iter__
+    for obj in iterable:
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 345, in __next__
+    data = self._next_data()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 385, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/konst/ml-utils/training/ner_employment/dataset.py", line 142, in __getitem__
+    spans = yaml.safe_load(spans)
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/__init__.py", line 162, in safe_load
+    return load(stream, SafeLoader)
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/__init__.py", line 114, in load
+    return loader.get_single_data()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/composer.py", line 35, in get_single_node
+    if not self.check_event(StreamEndEvent):
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/parser.py", line 143, in parse_implicit_document_start
+    StreamEndToken):
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/scanner.py", line 247, in fetch_more_tokens
+    return self.fetch_single()
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/scanner.py", line 652, in fetch_single
+    self.fetch_flow_scalar(style='\'')
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/scanner.py", line 666, in fetch_flow_scalar
+    self.tokens.append(self.scan_flow_scalar(style))
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/scanner.py", line 1156, in scan_flow_scalar
+    style)
+  File "/root/virtualenvs/pytorch_1.4/lib/python3.6/site-packages/yaml/tokens.py", line 99, in __init__
+    self.value = value

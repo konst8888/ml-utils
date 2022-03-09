@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 213, in <module>
+    data = np.load(data_path, mmap_mode='r', allow_pickle=True)
+  File "/root/.local/lib/python3.6/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/konst/melspects_general.npz'

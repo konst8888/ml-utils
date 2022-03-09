@@ -1,0 +1,1509 @@
+1.690707
+Loaded: 9/11
+[238121, 279395, 74456, inf, inf, 62285]
+LR:  0.001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: train Loss: 0.7516 (0.5702) Acc: 0.0748 (0.0890) Rec PERSON_FAM: 0.3405 (0.6429): 100%|█| 504/504 [01:21<00:00,  6.18it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/159 Phase: valid Loss: 0.5571 (0.5139) Acc: 0.0088 (0.1155) Rec PERSON_FAM: 0.5006 (1.0000):  94%|▉| 760/806 [00:30<00:01, 24.95it/s]
+Epoch: 0/159 Phase: valid Loss: 0.5563 (0.1767) Acc: 0.0088 (0.1594) Rec PERSON_FAM: 0.4948 (nan): 100%|████| 806/806 [00:32<00:00, 24.62it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/159 Phase: train Loss: 0.5428 (0.5867) Acc: 0.0565 (0.0876) Rec PERSON_FAM: 0.5223 (0.5714): 100%|█| 504/504 [01:22<00:00,  6.15it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1/159 Phase: valid Loss: 0.4987 (0.2023) Acc: 0.0089 (0.0626) Rec PERSON_FAM: 0.5642 (nan):  98%|███▉| 790/806 [00:32<00:00, 25.25it/s]
+Epoch: 1/159 Phase: valid Loss: 0.4976 (0.1422) Acc: 0.0089 (0.1537) Rec PERSON_FAM: 0.5640 (nan): 100%|████| 806/806 [00:32<00:00, 24.59it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/159 Phase: train Loss: 0.4969 (0.5135) Acc: 0.0571 (0.0864) Rec PERSON_FAM: 0.5838 (0.7500): 100%|█| 504/504 [01:22<00:00,  6.11it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2/159 Phase: valid Loss: 0.4626 (0.4480) Acc: 0.0090 (0.0840) Rec PERSON_FAM: 0.6351 (1.0000):  94%|▉| 759/806 [00:30<00:01, 25.33it/s]
+Epoch: 2/159 Phase: valid Loss: 0.4618 (0.1185) Acc: 0.0090 (0.1622) Rec PERSON_FAM: 0.6316 (nan): 100%|████| 806/806 [00:32<00:00, 24.60it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/159 Phase: train Loss: 0.4620 (0.4228) Acc: 0.0580 (0.0910) Rec PERSON_FAM: 0.6276 (0.7500): 100%|█| 504/504 [01:21<00:00,  6.17it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 3/159 Phase: valid Loss: 0.4385 (0.1230) Acc: 0.0091 (0.1622) Rec PERSON_FAM: 0.6584 (nan): 100%|████| 806/806 [00:32<00:00, 24.63it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/159 Phase: train Loss: 0.4362 (0.4420) Acc: 0.0585 (0.0862) Rec PERSON_FAM: 0.6703 (0.7500): 100%|█| 504/504 [01:23<00:00,  6.04it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 4/159 Phase: valid Loss: 0.4196 (0.1179) Acc: 0.0092 (0.1608) Rec PERSON_FAM: 0.6910 (nan): 100%|███▉| 805/806 [00:32<00:00, 27.44it/s]
+Epoch: 4/159 Phase: valid Loss: 0.4196 (0.1179) Acc: 0.0092 (0.1608) Rec PERSON_FAM: 0.6910 (nan): 100%|████| 806/806 [00:32<00:00, 24.59it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/159 Phase: train Loss: 0.4156 (0.3616) Acc: 0.0590 (0.0944) Rec PERSON_FAM: 0.7039 (1.0000): 100%|█| 504/504 [01:22<00:00,  6.11it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 5/159 Phase: valid Loss: 0.4020 (0.5369) Acc: 0.0092 (0.0934) Rec PERSON_FAM: 0.7233 (0.0000):  97%|▉| 781/806 [00:31<00:01, 24.60it/s]
+Epoch: 5/159 Phase: valid Loss: 0.4016 (0.1083) Acc: 0.0092 (0.1636) Rec PERSON_FAM: 0.7211 (nan): 100%|████| 806/806 [00:32<00:00, 24.60it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/159 Phase: train Loss: 0.3986 (0.3410) Acc: 0.0594 (0.0953) Rec PERSON_FAM: 0.7297 (0.9643): 100%|█| 504/504 [01:21<00:00,  6.15it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 6/159 Phase: valid Loss: 0.3911 (0.1191) Acc: 0.0093 (0.1608) Rec PERSON_FAM: 0.7408 (nan): 100%|████| 806/806 [00:32<00:00, 24.59it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/159 Phase: train Loss: 0.3835 (0.3009) Acc: 0.0598 (0.0973) Rec PERSON_FAM: 0.7398 (1.0000): 100%|█| 504/504 [01:22<00:00,  6.11it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 7/159 Phase: valid Loss: 0.3811 (0.5685) Acc: 0.0093 (0.0913) Rec PERSON_FAM: 0.7423 (0.0000):  97%|▉| 781/806 [00:31<00:01, 24.45it/s]
+Epoch: 7/159 Phase: valid Loss: 0.3805 (0.1368) Acc: 0.0093 (0.1566) Rec PERSON_FAM: 0.7407 (nan): 100%|████| 806/806 [00:32<00:00, 24.58it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 8/159 Phase: train Loss: 0.3716 (0.3699) Acc: 0.0601 (0.0919) Rec PERSON_FAM: 0.7580 (0.9286): 100%|█| 504/504 [01:21<00:00,  6.17it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 8/159 Phase: valid Loss: 0.3720 (0.1113) Acc: 0.0093 (0.1664) Rec PERSON_FAM: 0.7755 (nan): 100%|████| 806/806 [00:32<00:00, 24.59it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+Epoch: 9/159 Phase: train Loss: 0.3190 (0.3190) Acc: 0.0579 (0.1045) Rec PERSON_FAM: 1.0000 (1.0000):   0%|   | 1/504 [00:00<03:56,  2.12it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 9/159 Phase: train Loss: 0.3605 (0.2949) Acc: 0.0603 (0.0947) Rec PERSON_FAM: 0.7666 (1.0000): 100%|█| 504/504 [01:23<00:00,  6.01it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 9/159 Phase: valid Loss: 0.3607 (0.1075) Acc: 0.0094 (0.1664) Rec PERSON_FAM: 0.7580 (nan): 100%|████| 806/806 [00:32<00:00, 24.57it/s]
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+LR:  0.001
+Epoch: 10/159 Phase: train Loss: 0.3559 (0.3719) Acc: 0.0599 (0.1368) Rec PERSON_FAM: 0.7545 (0.7308):   4%| | 22/504 [00:03<01:16,  6.28it/s]
+Epoch: 10/159 Phase: train Loss: 0.3629 (0.3716) Acc: 0.0591 (0.1143) Rec PERSON_FAM: 0.7484 (0.8333):   7%| | 34/504 [00:05<01:14,  6.30it/s]
+Epoch: 10/159 Phase: train Loss: 0.3516 (0.2817) Acc: 0.0588 (0.0918) Rec PERSON_FAM: 0.7743 (0.9118):   9%| | 47/504 [00:08<01:14,  6.13it/s]
+Epoch: 10/159 Phase: train Loss: 0.3474 (0.3433) Acc: 0.0596 (0.0904) Rec PERSON_FAM: 0.7803 (0.9216):  12%| | 59/504 [00:10<01:15,  5.91it/s]
+Epoch: 10/159 Phase: train Loss: 0.3477 (0.3185) Acc: 0.0598 (0.1053) Rec PERSON_FAM: 0.7791 (0.8814):  14%|▏| 72/504 [00:12<01:08,  6.28it/s]
+Epoch: 10/159 Phase: train Loss: 0.3514 (0.4669) Acc: 0.0597 (0.0915) Rec PERSON_FAM: 0.7791 (0.7778):  17%|▏| 84/504 [00:13<01:07,  6.20it/s]
+Epoch: 10/159 Phase: train Loss: 0.3484 (0.3582) Acc: 0.0599 (0.1038) Rec PERSON_FAM: 0.7827 (0.8644):  19%|▏| 96/504 [00:15<01:05,  6.24it/s]
+Epoch: 10/159 Phase: train Loss: 0.3469 (0.3106) Acc: 0.0599 (0.1073) Rec PERSON_FAM: 0.7827 (0.7018):  22%|▏| 109/504 [00:18<01:03,  6.21it/s
+Epoch: 10/159 Phase: train Loss: 0.3518 (0.4023) Acc: 0.0599 (0.1019) Rec PERSON_FAM: 0.7732 (0.6462):  24%|▏| 121/504 [00:20<01:01,  6.28it/s
+Epoch: 10/159 Phase: train Loss: 0.3541 (0.4106) Acc: 0.0597 (0.0917) Rec PERSON_FAM: 0.7686 (0.7593):  27%|▎| 134/504 [00:22<00:59,  6.22it/s
+Epoch: 10/159 Phase: train Loss: 0.3538 (0.2149) Acc: 0.0599 (0.1239) Rec PERSON_FAM: 0.7711 (0.8923):  29%|▎| 146/504 [00:24<01:00,  5.88it/s
+Epoch: 10/159 Phase: train Loss: 0.3530 (0.4820) Acc: 0.0600 (0.1116) Rec PERSON_FAM: 0.7751 (0.6835):  32%|▎| 159/504 [00:26<00:56,  6.13it/s
+Epoch: 10/159 Phase: train Loss: 0.3533 (0.2711) Acc: 0.0601 (0.1116) Rec PERSON_FAM: 0.7765 (1.0000):  34%|▎| 171/504 [00:28<00:56,  5.88it/s
+Epoch: 10/159 Phase: train Loss: 0.3529 (0.3129) Acc: 0.0600 (0.1249) Rec PERSON_FAM: 0.7749 (0.8846):  37%|▎| 184/504 [00:30<00:51,  6.17it/s
+Epoch: 10/159 Phase: train Loss: 0.3538 (0.3184) Acc: 0.0601 (0.1050) Rec PERSON_FAM: 0.7705 (0.7059):  39%|▍| 196/504 [00:32<00:51,  5.99it/s
+Epoch: 10/159 Phase: train Loss: 0.3536 (0.3693) Acc: 0.0602 (0.1168) Rec PERSON_FAM: 0.7706 (0.6842):  41%|▍| 209/504 [00:34<00:47,  6.19it/s
+Epoch: 10/159 Phase: train Loss: 0.3549 (0.2984) Acc: 0.0601 (0.1153) Rec PERSON_FAM: 0.7704 (1.0000):  44%|▍| 221/504 [00:36<00:47,  5.91it/s
+Epoch: 10/159 Phase: train Loss: 0.3551 (0.3013) Acc: 0.0600 (0.1056) Rec PERSON_FAM: 0.7731 (0.8667):  46%|▍| 233/504 [00:38<00:43,  6.27it/s
+Epoch: 10/159 Phase: train Loss: 0.3553 (0.2751) Acc: 0.0600 (0.1069) Rec PERSON_FAM: 0.7725 (0.7308):  49%|▍| 246/504 [00:40<00:42,  6.02it/s
+Epoch: 10/159 Phase: train Loss: 0.3556 (0.2519) Acc: 0.0601 (0.1257) Rec PERSON_FAM: 0.7728 (0.8022):  51%|▌| 258/504 [00:42<00:40,  6.11it/s
+Epoch: 10/159 Phase: train Loss: 0.3528 (0.3689) Acc: 0.0602 (0.1077) Rec PERSON_FAM: 0.7742 (0.8043):  54%|▌| 271/504 [00:44<00:37,  6.28it/s
+Epoch: 10/159 Phase: train Loss: 0.3538 (0.4189) Acc: 0.0603 (0.1123) Rec PERSON_FAM: 0.7706 (0.6769):  56%|▌| 283/504 [00:46<00:35,  6.31it/s
+Epoch: 10/159 Phase: train Loss: 0.3544 (0.2527) Acc: 0.0603 (0.1239) Rec PERSON_FAM: 0.7682 (0.8333):  59%|▌| 295/504 [00:48<00:34,  6.10it/s
+Epoch: 10/159 Phase: train Loss: 0.3533 (0.2680) Acc: 0.0604 (0.1220) Rec PERSON_FAM: 0.7708 (0.7541):  61%|▌| 307/504 [00:50<00:34,  5.71it/s
+Epoch: 10/159 Phase: train Loss: 0.3536 (0.3888) Acc: 0.0604 (0.1071) Rec PERSON_FAM: 0.7728 (0.8125):  63%|▋| 320/504 [00:52<00:29,  6.26it/s
+Epoch: 10/159 Phase: train Loss: 0.3547 (0.2566) Acc: 0.0604 (0.1109) Rec PERSON_FAM: 0.7713 (0.9333):  66%|▋| 333/504 [00:54<00:27,  6.18it/s
+Epoch: 10/159 Phase: train Loss: 0.3536 (0.3082) Acc: 0.0604 (0.1147) Rec PERSON_FAM: 0.7717 (0.6735):  68%|▋| 345/504 [00:56<00:25,  6.13it/s
+Epoch: 10/159 Phase: train Loss: 0.3531 (0.3549) Acc: 0.0605 (0.1188) Rec PERSON_FAM: 0.7722 (0.6833):  71%|▋| 357/504 [00:58<00:23,  6.20it/s
+Epoch: 10/159 Phase: train Loss: 0.3522 (0.2156) Acc: 0.0605 (0.1057) Rec PERSON_FAM: 0.7737 (0.7333):  73%|▋| 370/504 [01:00<00:21,  6.20it/s
+Epoch: 10/159 Phase: train Loss: 0.3521 (0.4400) Acc: 0.0605 (0.0919) Rec PERSON_FAM: 0.7742 (0.6053):  75%|▊| 379/504 [01:01<00:20,  6.22it/s
+Epoch: 10/159 Phase: train Loss: 0.3508 (0.2725) Acc: 0.0605 (0.1179) Rec PERSON_FAM: 0.7756 (0.6944):  78%|▊| 392/504 [01:04<00:17,  6.26it/s
+Epoch: 10/159 Phase: train Loss: 0.3505 (0.2232) Acc: 0.0605 (0.1199) Rec PERSON_FAM: 0.7777 (0.9474):  80%|▊| 404/504 [01:05<00:16,  6.14it/s
+Epoch: 10/159 Phase: train Loss: 0.3501 (0.4503) Acc: 0.0605 (0.1165) Rec PERSON_FAM: 0.7763 (0.6341):  83%|▊| 417/504 [01:08<00:14,  5.92it/s
+Epoch: 10/159 Phase: train Loss: 0.3499 (0.3930) Acc: 0.0606 (0.1058) Rec PERSON_FAM: 0.7756 (0.7313):  85%|▊| 429/504 [01:10<00:12,  6.24it/s
+Epoch: 10/159 Phase: train Loss: 0.3505 (0.2993) Acc: 0.0606 (0.1039) Rec PERSON_FAM: 0.7772 (1.0000):  88%|▉| 442/504 [01:12<00:10,  6.17it/s
+Epoch: 10/159 Phase: train Loss: 0.3511 (0.3078) Acc: 0.0606 (0.1106) Rec PERSON_FAM: 0.7757 (0.8113):  90%|▉| 454/504 [01:14<00:08,  6.02it/s
+Epoch: 10/159 Phase: train Loss: 0.3502 (0.3300) Acc: 0.0607 (0.1037) Rec PERSON_FAM: 0.7770 (0.8478):  92%|▉| 466/504 [01:16<00:06,  6.25it/s
+Epoch: 10/159 Phase: train Loss: 0.3507 (0.4094) Acc: 0.0606 (0.1067) Rec PERSON_FAM: 0.7762 (0.8120):  95%|▉| 479/504 [01:18<00:04,  6.19it/s
+Epoch: 10/159 Phase: train Loss: 0.3508 (0.4220) Acc: 0.0606 (0.0881) Rec PERSON_FAM: 0.7777 (0.8615):  97%|▉| 491/504 [01:20<00:02,  6.23it/s
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)0000): 100%|█| 504/504 [01:22<00:00,  6.13it/s
+Epoch: 10/159 Phase: valid Loss: 0.3106 (0.1004) Acc: 0.0096 (0.1232) Rec PERSON_FAM: 0.7756 (nan):   5%|▏   | 43/806 [00:01<00:35, 21.63it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3186 (0.2075) Acc: 0.0096 (0.0870) Rec PERSON_FAM: 0.7948 (1.0000):  12%| | 94/806 [00:04<00:28, 25.04it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3334 (0.2635) Acc: 0.0094 (0.1538) Rec PERSON_FAM: 0.7721 (1.0000):  18%|▏| 145/806 [00:06<00:26, 25.08it/s
+Epoch: 10/159 Phase: valid Loss: 0.3431 (0.2520) Acc: 0.0095 (0.1504) Rec PERSON_FAM: 0.7571 (1.0000):  24%|▏| 196/806 [00:08<00:24, 25.06it/s
+Epoch: 10/159 Phase: valid Loss: 0.3455 (0.5526) Acc: 0.0094 (0.1425) Rec PERSON_FAM: 0.7480 (1.0000):  31%|▎| 247/806 [00:10<00:23, 23.92it/s
+Epoch: 10/159 Phase: valid Loss: 0.3488 (0.5757) Acc: 0.0094 (0.1393) Rec PERSON_FAM: 0.7399 (nan):  37%|█  | 295/806 [00:12<00:20, 25.15it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3616 (0.2509) Acc: 0.0092 (0.1107) Rec PERSON_FAM: 0.7160 (1.0000):  43%|▍| 346/806 [00:14<00:17, 25.67it/s
+Epoch: 10/159 Phase: valid Loss: 0.3568 (0.3227) Acc: 0.0092 (0.0888) Rec PERSON_FAM: 0.7248 (0.4286):  49%|▍| 397/806 [00:16<00:16, 24.58it/s
+Epoch: 10/159 Phase: valid Loss: 0.3531 (0.3859) Acc: 0.0092 (0.1064) Rec PERSON_FAM: 0.7418 (nan):  56%|█▋ | 448/806 [00:18<00:14, 24.61it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3570 (0.3818) Acc: 0.0092 (0.1606) Rec PERSON_FAM: 0.7387 (nan):  62%|█▊ | 499/806 [00:20<00:12, 24.73it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3557 (0.5222) Acc: 0.0093 (0.1502) Rec PERSON_FAM: 0.7426 (nan):  68%|██ | 547/806 [00:22<00:10, 25.47it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3557 (0.1469) Acc: 0.0093 (0.0975) Rec PERSON_FAM: 0.7509 (nan):  74%|██▏| 598/806 [00:24<00:08, 25.19it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3574 (0.3077) Acc: 0.0093 (0.1060) Rec PERSON_FAM: 0.7479 (1.0000):  80%|▊| 646/806 [00:26<00:06, 24.16it/s
+Epoch: 10/159 Phase: valid Loss: 0.3555 (0.5019) Acc: 0.0094 (0.1194) Rec PERSON_FAM: 0.7521 (0.8000):  86%|▊| 697/806 [00:28<00:04, 24.74it/s
+Epoch: 10/159 Phase: valid Loss: 0.3550 (0.3446) Acc: 0.0094 (0.1240) Rec PERSON_FAM: 0.7503 (1.0000):  91%|▉| 733/806 [00:29<00:02, 24.81it/s
+Epoch: 10/159 Phase: valid Loss: 0.3571 (0.5543) Acc: 0.0094 (0.1052) Rec PERSON_FAM: 0.7528 (nan):  97%|██▉| 784/806 [00:31<00:00, 24.69it/s]
+Epoch: 10/159 Phase: valid Loss: 0.3571 (0.5543) Acc: 0.0094 (0.1052) Rec PERSON_FAM: 0.7528 (nan):  97%|██▉| 784/806 [00:31<00:00, 24.69it/s]
+Epoch: 11/159 Phase: train Loss: 0.3441 (0.2666) Acc: 0.0615 (0.1235) Rec PERSON_FAM: 0.8127 (0.7586):   1%|  | 4/504 [00:01<01:57,  4.24it/s]
+Epoch: 11/159 Phase: train Loss: 0.3313 (0.3867) Acc: 0.0596 (0.0955) Rec PERSON_FAM: 0.8520 (1.0000):   3%| | 16/504 [00:03<01:19,  6.17it/s]
+Epoch: 11/159 Phase: train Loss: 0.3364 (0.3103) Acc: 0.0597 (0.0995) Rec PERSON_FAM: 0.8085 (0.9153):   6%| | 28/504 [00:05<01:18,  6.05it/s]
+Epoch: 11/159 Phase: train Loss: 0.3413 (0.5292) Acc: 0.0593 (0.0933) Rec PERSON_FAM: 0.7982 (0.9048):   8%| | 41/504 [00:07<01:13,  6.27it/s]
+Epoch: 11/159 Phase: train Loss: 0.3362 (0.4792) Acc: 0.0595 (0.1078) Rec PERSON_FAM: 0.7975 (0.7500):  11%| | 53/504 [00:09<01:12,  6.24it/s]
+Epoch: 11/159 Phase: train Loss: 0.3356 (0.3466) Acc: 0.0601 (0.1176) Rec PERSON_FAM: 0.7980 (0.6286):  13%|▏| 66/504 [00:11<01:10,  6.26it/s]
+Epoch: 11/159 Phase: train Loss: 0.3385 (0.2923) Acc: 0.0599 (0.1120) Rec PERSON_FAM: 0.7914 (0.8140):  15%|▏| 78/504 [00:13<01:08,  6.24it/s]
+Epoch: 11/159 Phase: train Loss: 0.3391 (0.3709) Acc: 0.0599 (0.1209) Rec PERSON_FAM: 0.7941 (0.5085):  18%|▏| 91/504 [00:15<01:12,  5.67it/s]
+Epoch: 11/159 Phase: train Loss: 0.3361 (0.3718) Acc: 0.0600 (0.1037) Rec PERSON_FAM: 0.7957 (0.6250):  20%|▏| 103/504 [00:17<01:03,  6.28it/s
+Epoch: 11/159 Phase: train Loss: 0.3391 (0.4585) Acc: 0.0600 (0.0985) Rec PERSON_FAM: 0.7897 (0.5818):  23%|▏| 116/504 [00:19<01:01,  6.28it/s
+Epoch: 11/159 Phase: train Loss: 0.3418 (0.3081) Acc: 0.0599 (0.1130) Rec PERSON_FAM: 0.7884 (0.7000):  25%|▎| 128/504 [00:21<01:03,  5.89it/s
+Epoch: 11/159 Phase: train Loss: 0.3427 (0.3242) Acc: 0.0601 (0.1286) Rec PERSON_FAM: 0.7856 (0.9255):  28%|▎| 141/504 [00:23<00:58,  6.21it/s
+Epoch: 11/159 Phase: train Loss: 0.3425 (0.4123) Acc: 0.0601 (0.0949) Rec PERSON_FAM: 0.7894 (0.7586):  31%|▎| 154/504 [00:25<00:55,  6.32it/s
+Epoch: 11/159 Phase: train Loss: 0.3448 (0.4742) Acc: 0.0602 (0.1002) Rec PERSON_FAM: 0.7853 (0.7200):  33%|▎| 166/504 [00:27<00:53,  6.31it/s
+Epoch: 11/159 Phase: train Loss: 0.3432 (0.3010) Acc: 0.0602 (0.1115) Rec PERSON_FAM: 0.7838 (0.9149):  35%|▎| 178/504 [00:29<00:51,  6.31it/s
+Epoch: 11/159 Phase: train Loss: 0.3426 (0.4563) Acc: 0.0602 (0.1096) Rec PERSON_FAM: 0.7814 (0.6909):  38%|▍| 191/504 [00:31<00:50,  6.24it/s
+Epoch: 11/159 Phase: train Loss: 0.3418 (0.4133) Acc: 0.0603 (0.1137) Rec PERSON_FAM: 0.7823 (0.8614):  40%|▍| 203/504 [00:33<00:48,  6.21it/s
+Epoch: 11/159 Phase: train Loss: 0.3417 (0.3211) Acc: 0.0604 (0.1052) Rec PERSON_FAM: 0.7837 (0.9535):  43%|▍| 216/504 [00:35<00:45,  6.36it/s
+Epoch: 11/159 Phase: train Loss: 0.3421 (0.4127) Acc: 0.0603 (0.0974) Rec PERSON_FAM: 0.7863 (0.9091):  45%|▍| 228/504 [00:37<00:44,  6.22it/s
+Epoch: 11/159 Phase: train Loss: 0.3425 (0.4168) Acc: 0.0602 (0.1046) Rec PERSON_FAM: 0.7855 (0.7917):  48%|▍| 241/504 [00:39<00:42,  6.26it/s
+Epoch: 11/159 Phase: train Loss: 0.3425 (0.3609) Acc: 0.0603 (0.1135) Rec PERSON_FAM: 0.7842 (0.6909):  50%|▌| 254/504 [00:41<00:39,  6.31it/s
+Epoch: 11/159 Phase: train Loss: 0.3406 (0.2877) Acc: 0.0604 (0.0978) Rec PERSON_FAM: 0.7857 (0.8824):  53%|▌| 266/504 [00:43<00:38,  6.14it/s
+Epoch: 11/159 Phase: train Loss: 0.3390 (0.3089) Acc: 0.0605 (0.1029) Rec PERSON_FAM: 0.7861 (0.6600):  55%|▌| 278/504 [00:45<00:36,  6.14it/s
+Epoch: 11/159 Phase: train Loss: 0.3419 (0.3328) Acc: 0.0605 (0.1320) Rec PERSON_FAM: 0.7810 (0.8936):  58%|▌| 291/504 [00:47<00:35,  6.05it/s
+Epoch: 11/159 Phase: train Loss: 0.3411 (0.2974) Acc: 0.0606 (0.1283) Rec PERSON_FAM: 0.7839 (0.7273):  60%|▌| 303/504 [00:49<00:31,  6.29it/s
+Epoch: 11/159 Phase: train Loss: 0.3405 (0.3309) Acc: 0.0606 (0.0959) Rec PERSON_FAM: 0.7868 (0.8974):  63%|▋| 316/504 [00:51<00:29,  6.37it/s
+Epoch: 11/159 Phase: train Loss: 0.3413 (0.4720) Acc: 0.0606 (0.1003) Rec PERSON_FAM: 0.7847 (0.7326):  65%|▋| 328/504 [00:53<00:27,  6.31it/s
+Epoch: 11/159 Phase: train Loss: 0.3412 (0.3226) Acc: 0.0606 (0.1149) Rec PERSON_FAM: 0.7849 (0.9355):  68%|▋| 341/504 [00:55<00:26,  6.22it/s
+Epoch: 11/159 Phase: train Loss: 0.3400 (0.4036) Acc: 0.0607 (0.0948) Rec PERSON_FAM: 0.7854 (0.7381):  70%|▋| 353/504 [00:57<00:26,  5.67it/s
+Epoch: 11/159 Phase: train Loss: 0.3391 (0.2842) Acc: 0.0607 (0.1079) Rec PERSON_FAM: 0.7864 (0.6071):  73%|▋| 366/504 [00:59<00:22,  6.17it/s
+Epoch: 11/159 Phase: train Loss: 0.3392 (0.2832) Acc: 0.0608 (0.1240) Rec PERSON_FAM: 0.7869 (0.6667):  75%|▊| 378/504 [01:01<00:20,  6.23it/s
+Epoch: 11/159 Phase: train Loss: 0.3384 (0.3582) Acc: 0.0608 (0.0870) Rec PERSON_FAM: 0.7880 (0.7609):  78%|▊| 391/504 [01:03<00:18,  6.23it/s
+Epoch: 11/159 Phase: train Loss: 0.3380 (0.3004) Acc: 0.0607 (0.1022) Rec PERSON_FAM: 0.7894 (1.0000):  80%|▊| 403/504 [01:05<00:15,  6.33it/s
+Epoch: 11/159 Phase: train Loss: 0.3369 (0.3445) Acc: 0.0608 (0.1119) Rec PERSON_FAM: 0.7893 (0.7843):  83%|▊| 416/504 [01:07<00:14,  6.16it/s
+Epoch: 11/159 Phase: train Loss: 0.3366 (0.3180) Acc: 0.0608 (0.1195) Rec PERSON_FAM: 0.7881 (0.7800):  85%|▊| 428/504 [01:09<00:12,  6.11it/s
+Epoch: 11/159 Phase: train Loss: 0.3376 (0.3815) Acc: 0.0609 (0.1078) Rec PERSON_FAM: 0.7874 (0.8333):  87%|▊| 440/504 [01:11<00:10,  6.33it/s
+Epoch: 11/159 Phase: train Loss: 0.3378 (0.3646) Acc: 0.0608 (0.1148) Rec PERSON_FAM: 0.7868 (0.6286):  89%|▉| 450/504 [01:13<00:08,  6.15it/s
+Epoch: 11/159 Phase: train Loss: 0.3374 (0.3300) Acc: 0.0609 (0.1353) Rec PERSON_FAM: 0.7868 (1.0000):  92%|▉| 462/504 [01:15<00:06,  6.33it/s
+Epoch: 11/159 Phase: train Loss: 0.3373 (0.4065) Acc: 0.0609 (0.1143) Rec PERSON_FAM: 0.7870 (0.8406):  94%|▉| 475/504 [01:17<00:04,  6.24it/s
+Epoch: 11/159 Phase: train Loss: 0.3368 (0.3228) Acc: 0.0609 (0.1073) Rec PERSON_FAM: 0.7886 (0.8723):  97%|▉| 487/504 [01:19<00:02,  6.17it/s
+Epoch: 11/159 Phase: train Loss: 0.3376 (0.2053) Acc: 0.0608 (0.1323) Rec PERSON_FAM: 0.7875 (0.8919):  99%|▉| 500/504 [01:21<00:00,  6.54it/s
+Epoch: 11/159 Phase: valid Loss: 0.3201 (0.3129) Acc: 0.0095 (0.0776) Rec PERSON_FAM: 0.8008 (1.0000):   4%| | 31/806 [00:01<00:31, 24.62it/s]
+Epoch: 11/159 Phase: valid Loss: 0.3118 (0.3048) Acc: 0.0096 (0.1293) Rec PERSON_FAM: 0.8246 (nan):  10%|▍   | 79/806 [00:03<00:29, 24.83it/s]
+Epoch: 11/159 Phase: valid Loss: 0.3252 (0.4437) Acc: 0.0094 (0.0969) Rec PERSON_FAM: 0.7998 (0.8286):  16%|▏| 130/806 [00:05<00:27, 24.84it/s
+Epoch: 11/159 Phase: valid Loss: 0.3311 (0.1970) Acc: 0.0095 (0.1230) Rec PERSON_FAM: 0.7984 (nan):  22%|▋  | 178/806 [00:07<00:26, 23.85it/s]
+Epoch: 11/159 Phase: valid Loss: 0.3371 (0.2109) Acc: 0.0094 (0.0974) Rec PERSON_FAM: 0.7829 (1.0000):  28%|▎| 229/806 [00:09<00:22, 25.21it/s
+Epoch: 11/159 Phase: valid Loss: 0.3368 (0.2127) Acc: 0.0093 (0.1132) Rec PERSON_FAM: 0.7861 (nan):  35%|█  | 280/806 [00:11<00:21, 24.97it/s]
+Epoch: 11/159 Phase: valid Loss: 0.3449 (0.5638) Acc: 0.0093 (0.0886) Rec PERSON_FAM: 0.7638 (0.0000):  41%|▍| 331/806 [00:13<00:18, 25.47it/s
+Epoch: 11/159 Phase: valid Loss: 0.3500 (0.3368) Acc: 0.0092 (0.1377) Rec PERSON_FAM: 0.7714 (0.0000):  47%|▍| 379/806 [00:15<00:17, 23.85it/s
+Epoch: 11/159 Phase: valid Loss: 0.3446 (0.0565) Acc: 0.0092 (0.1407) Rec PERSON_FAM: 0.7880 (1.0000):  53%|▌| 430/806 [00:17<00:15, 24.97it/s
+Epoch: 11/159 Phase: valid Loss: 0.3469 (0.3885) Acc: 0.0092 (0.0861) Rec PERSON_FAM: 0.7851 (nan):  60%|█▊ | 481/806 [00:19<00:12, 25.39it/s]
+Epoch: 11/159 Phase: valid Loss: 0.3465 (0.1436) Acc: 0.0093 (0.1203) Rec PERSON_FAM: 0.7907 (1.0000):  66%|▋| 529/806 [00:21<00:11, 25.08it/s
+Epoch: 11/159 Phase: valid Loss: 0.3497 (0.2774) Acc: 0.0093 (0.1334) Rec PERSON_FAM: 0.7973 (0.9545):  72%|▋| 580/806 [00:23<00:09, 24.58it/s
+Epoch: 11/159 Phase: valid Loss: 0.3509 (0.1699) Acc: 0.0093 (0.1094) Rec PERSON_FAM: 0.7969 (nan):  78%|██▎| 631/806 [00:25<00:07, 24.49it/s]
+Epoch: 11/159 Phase: valid Loss: 0.3503 (0.2400) Acc: 0.0094 (0.0769) Rec PERSON_FAM: 0.7984 (1.0000):  84%|▊| 679/806 [00:27<00:05, 24.70it/s
+Epoch: 11/159 Phase: valid Loss: 0.3488 (0.2244) Acc: 0.0094 (0.1091) Rec PERSON_FAM: 0.7960 (1.0000):  91%|▉| 730/806 [00:29<00:03, 24.96it/s
+Epoch: 11/159 Phase: valid Loss: 0.3497 (0.3499) Acc: 0.0094 (0.0964) Rec PERSON_FAM: 0.7990 (0.0000):  97%|▉| 778/806 [00:31<00:01, 24.14it/s
+Epoch: 12/159 Phase: train Loss: 0.3639 (0.3761) Acc: 0.0582 (0.1120) Rec PERSON_FAM: 0.9266 (0.8986):   0%|  | 2/504 [00:00<03:20,  2.51it/s]
+Epoch: 12/159 Phase: train Loss: 0.3639 (0.3761) Acc: 0.0582 (0.1120) Rec PERSON_FAM: 0.9266 (0.8986):   0%|  | 2/504 [00:00<03:20,  2.51it/s]
+Epoch: 12/159 Phase: train Loss: 0.3218 (0.2946) Acc: 0.0600 (0.0945) Rec PERSON_FAM: 0.8348 (0.8393):   3%| | 14/504 [00:02<01:22,  5.97it/s]
+Epoch: 12/159 Phase: train Loss: 0.3354 (0.3565) Acc: 0.0600 (0.1104) Rec PERSON_FAM: 0.7931 (0.8611):   5%| | 26/504 [00:04<01:21,  5.86it/s]
+Epoch: 12/159 Phase: train Loss: 0.3354 (0.3012) Acc: 0.0597 (0.1187) Rec PERSON_FAM: 0.8014 (0.9365):   8%| | 39/504 [00:06<01:13,  6.36it/s]
+Epoch: 12/159 Phase: train Loss: 0.3282 (0.2809) Acc: 0.0593 (0.0965) Rec PERSON_FAM: 0.8043 (0.9592):  10%| | 48/504 [00:08<01:13,  6.21it/s]
+Epoch: 12/159 Phase: train Loss: 0.3284 (0.3762) Acc: 0.0598 (0.0973) Rec PERSON_FAM: 0.7920 (0.9091):  12%| | 60/504 [00:10<01:17,  5.72it/s]
+Epoch: 12/159 Phase: train Loss: 0.3267 (0.2681) Acc: 0.0601 (0.1064) Rec PERSON_FAM: 0.7886 (0.8644):  14%|▏| 72/504 [00:12<01:13,  5.90it/s]
+Epoch: 12/159 Phase: train Loss: 0.3294 (0.2964) Acc: 0.0600 (0.1026) Rec PERSON_FAM: 0.7917 (0.8704):  17%|▏| 85/504 [00:14<01:08,  6.14it/s]
+Epoch: 12/159 Phase: train Loss: 0.3278 (0.3386) Acc: 0.0602 (0.1145) Rec PERSON_FAM: 0.7906 (1.0000):  19%|▏| 97/504 [00:16<01:04,  6.28it/s]
+Epoch: 12/159 Phase: train Loss: 0.3275 (0.4164) Acc: 0.0601 (0.1271) Rec PERSON_FAM: 0.7859 (0.7895):  22%|▏| 110/504 [00:18<01:03,  6.21it/s
+Epoch: 12/159 Phase: train Loss: 0.3301 (0.3876) Acc: 0.0602 (0.1027) Rec PERSON_FAM: 0.7800 (0.5846):  24%|▏| 122/504 [00:20<01:05,  5.80it/s
+Epoch: 12/159 Phase: train Loss: 0.3319 (0.3294) Acc: 0.0600 (0.0933) Rec PERSON_FAM: 0.7782 (0.6481):  27%|▎| 134/504 [00:22<01:00,  6.11it/s
+Epoch: 12/159 Phase: train Loss: 0.3323 (0.3605) Acc: 0.0602 (0.1036) Rec PERSON_FAM: 0.7835 (0.8039):  29%|▎| 147/504 [00:24<00:56,  6.31it/s
+Epoch: 12/159 Phase: train Loss: 0.3327 (0.4883) Acc: 0.0603 (0.1109) Rec PERSON_FAM: 0.7824 (0.5696):  32%|▎| 159/504 [00:26<00:55,  6.19it/s
+Epoch: 12/159 Phase: train Loss: 0.3344 (0.4816) Acc: 0.0604 (0.0966) Rec PERSON_FAM: 0.7831 (0.7152):  34%|▎| 172/504 [00:28<00:55,  5.97it/s
+Epoch: 12/159 Phase: train Loss: 0.3334 (0.3014) Acc: 0.0603 (0.1265) Rec PERSON_FAM: 0.7833 (0.7885):  37%|▎| 184/504 [00:30<00:55,  5.81it/s
+Epoch: 12/159 Phase: train Loss: 0.3350 (0.2768) Acc: 0.0604 (0.1102) Rec PERSON_FAM: 0.7799 (0.8462):  39%|▍| 197/504 [00:32<00:49,  6.25it/s
+Epoch: 12/159 Phase: train Loss: 0.3341 (0.3379) Acc: 0.0605 (0.1188) Rec PERSON_FAM: 0.7834 (0.7544):  41%|▍| 209/504 [00:34<00:46,  6.33it/s
+Epoch: 12/159 Phase: train Loss: 0.3349 (0.3686) Acc: 0.0605 (0.1072) Rec PERSON_FAM: 0.7857 (0.7255):  44%|▍| 222/504 [00:36<00:46,  6.09it/s
+Epoch: 12/159 Phase: train Loss: 0.3352 (0.3308) Acc: 0.0604 (0.1091) Rec PERSON_FAM: 0.7865 (0.6667):  46%|▍| 234/504 [00:38<00:46,  5.77it/s
+Epoch: 12/159 Phase: train Loss: 0.3347 (0.3068) Acc: 0.0603 (0.1078) Rec PERSON_FAM: 0.7856 (0.7179):  49%|▍| 247/504 [00:40<00:41,  6.20it/s
+Epoch: 12/159 Phase: train Loss: 0.3349 (0.2263) Acc: 0.0605 (0.1255) Rec PERSON_FAM: 0.7859 (0.8846):  51%|▌| 259/504 [00:42<00:38,  6.32it/s
+Epoch: 12/159 Phase: train Loss: 0.3327 (0.2891) Acc: 0.0606 (0.0961) Rec PERSON_FAM: 0.7862 (0.9423):  54%|▌| 272/504 [00:44<00:38,  5.97it/s
+Epoch: 12/159 Phase: train Loss: 0.3342 (0.3899) Acc: 0.0607 (0.1084) Rec PERSON_FAM: 0.7845 (0.7529):  56%|▌| 284/504 [00:46<00:38,  5.68it/s
+Epoch: 12/159 Phase: train Loss: 0.3341 (0.2880) Acc: 0.0607 (0.1030) Rec PERSON_FAM: 0.7851 (1.0000):  59%|▌| 296/504 [00:48<00:34,  6.07it/s
+Epoch: 12/159 Phase: train Loss: 0.3332 (0.2575) Acc: 0.0609 (0.1198) Rec PERSON_FAM: 0.7870 (0.9091):  61%|▌| 309/504 [00:50<00:30,  6.32it/s
+Epoch: 12/159 Phase: train Loss: 0.3328 (0.2430) Acc: 0.0608 (0.1030) Rec PERSON_FAM: 0.7876 (0.5000):  64%|▋| 322/504 [00:52<00:29,  6.16it/s
+Epoch: 12/159 Phase: train Loss: 0.3336 (0.2827) Acc: 0.0608 (0.1141) Rec PERSON_FAM: 0.7860 (0.8280):  66%|▋| 334/504 [00:54<00:27,  6.13it/s
+Epoch: 12/159 Phase: train Loss: 0.3327 (0.3201) Acc: 0.0608 (0.1160) Rec PERSON_FAM: 0.7856 (0.8421):  69%|▋| 346/504 [00:56<00:27,  5.72it/s
+Epoch: 12/159 Phase: train Loss: 0.3319 (0.2085) Acc: 0.0609 (0.1174) Rec PERSON_FAM: 0.7856 (1.0000):  71%|▋| 358/504 [00:58<00:23,  6.10it/s
+Epoch: 12/159 Phase: train Loss: 0.3311 (0.3456) Acc: 0.0609 (0.1091) Rec PERSON_FAM: 0.7856 (0.8095):  74%|▋| 371/504 [01:00<00:21,  6.27it/s
+Epoch: 12/159 Phase: train Loss: 0.3314 (0.3878) Acc: 0.0609 (0.1105) Rec PERSON_FAM: 0.7861 (0.7750):  76%|▊| 384/504 [01:02<00:18,  6.32it/s
+Epoch: 12/159 Phase: train Loss: 0.3308 (0.3377) Acc: 0.0609 (0.1089) Rec PERSON_FAM: 0.7868 (0.6735):  79%|▊| 396/504 [01:04<00:16,  6.36it/s
+Epoch: 12/159 Phase: train Loss: 0.3294 (0.2520) Acc: 0.0609 (0.1172) Rec PERSON_FAM: 0.7891 (0.8605):  81%|▊| 409/504 [01:06<00:15,  6.19it/s
+Epoch: 12/159 Phase: train Loss: 0.3299 (0.3410) Acc: 0.0610 (0.1128) Rec PERSON_FAM: 0.7867 (0.6000):  84%|▊| 421/504 [01:08<00:13,  6.13it/s
+Epoch: 12/159 Phase: train Loss: 0.3298 (0.3839) Acc: 0.0611 (0.1418) Rec PERSON_FAM: 0.7876 (0.8267):  86%|▊| 433/504 [01:10<00:11,  6.26it/s
+Epoch: 12/159 Phase: train Loss: 0.3301 (0.3748) Acc: 0.0610 (0.1024) Rec PERSON_FAM: 0.7873 (0.6866):  88%|▉| 446/504 [01:12<00:09,  6.15it/s
+Epoch: 12/159 Phase: train Loss: 0.3308 (0.2731) Acc: 0.0611 (0.1251) Rec PERSON_FAM: 0.7858 (0.6750):  91%|▉| 458/504 [01:14<00:07,  6.23it/s
+Epoch: 12/159 Phase: train Loss: 0.3300 (0.2588) Acc: 0.0611 (0.0965) Rec PERSON_FAM: 0.7866 (0.9744):  93%|▉| 471/504 [01:17<00:05,  6.24it/s
+Epoch: 12/159 Phase: train Loss: 0.3302 (0.3607) Acc: 0.0611 (0.1182) Rec PERSON_FAM: 0.7871 (0.7429):  96%|▉| 483/504 [01:19<00:03,  5.64it/s
+Epoch: 12/159 Phase: train Loss: 0.3303 (0.3804) Acc: 0.0610 (0.1065) Rec PERSON_FAM: 0.7891 (0.7273):  98%|▉| 496/504 [01:21<00:01,  6.18it/s
+Epoch: 12/159 Phase: valid Loss: 0.3355 (0.1653) Acc: 0.0093 (0.0988) Rec PERSON_FAM: 0.7568 (nan):   2%|    | 13/806 [00:00<00:33, 23.52it/s]
+Epoch: 12/159 Phase: valid Loss: 0.3123 (0.4574) Acc: 0.0096 (0.1483) Rec PERSON_FAM: 0.7742 (0.3750):   6%| | 49/806 [00:02<00:32, 23.18it/s]
+Epoch: 12/159 Phase: valid Loss: 0.3240 (0.9197) Acc: 0.0096 (0.1825) Rec PERSON_FAM: 0.7821 (0.0000):  12%| | 100/806 [00:04<00:28, 25.11it/s
+Epoch: 12/159 Phase: valid Loss: 0.3284 (0.1526) Acc: 0.0095 (0.1157) Rec PERSON_FAM: 0.7719 (nan):  19%|▌  | 151/806 [00:06<00:25, 25.26it/s]
+Epoch: 12/159 Phase: valid Loss: 0.3347 (0.4045) Acc: 0.0095 (0.1377) Rec PERSON_FAM: 0.7685 (1.0000):  25%|▎| 202/806 [00:08<00:23, 25.24it/s
+Epoch: 12/159 Phase: valid Loss: 0.3359 (0.4345) Acc: 0.0094 (0.1443) Rec PERSON_FAM: 0.7707 (1.0000):  31%|▎| 250/806 [00:10<00:22, 24.38it/s
+Epoch: 12/159 Phase: valid Loss: 0.3386 (0.1549) Acc: 0.0093 (0.0973) Rec PERSON_FAM: 0.7630 (nan):  37%|█  | 301/806 [00:12<00:19, 25.66it/s]
+Epoch: 12/159 Phase: valid Loss: 0.3473 (0.3380) Acc: 0.0092 (0.1194) Rec PERSON_FAM: 0.7450 (nan):  44%|█▎ | 352/806 [00:14<00:17, 25.69it/s]
+Epoch: 12/159 Phase: valid Loss: 0.3430 (0.2365) Acc: 0.0092 (0.1142) Rec PERSON_FAM: 0.7569 (1.0000):  50%|▍| 400/806 [00:16<00:16, 24.51it/s
+Epoch: 12/159 Phase: valid Loss: 0.3413 (0.2638) Acc: 0.0093 (0.1156) Rec PERSON_FAM: 0.7672 (1.0000):  56%|▌| 451/806 [00:18<00:14, 24.91it/s
+Epoch: 12/159 Phase: valid Loss: 0.3446 (0.2156) Acc: 0.0092 (0.1031) Rec PERSON_FAM: 0.7638 (1.0000):  62%|▌| 502/806 [00:20<00:13, 22.73it/s
+Epoch: 12/159 Phase: valid Loss: 0.3430 (0.7249) Acc: 0.0093 (0.0731) Rec PERSON_FAM: 0.7704 (0.4667):  69%|▋| 553/806 [00:22<00:09, 25.30it/s
+Epoch: 12/159 Phase: valid Loss: 0.3417 (0.2624) Acc: 0.0093 (0.0875) Rec PERSON_FAM: 0.7794 (1.0000):  75%|▋| 601/806 [00:24<00:08, 25.11it/s
+Epoch: 12/159 Phase: valid Loss: 0.3449 (0.5878) Acc: 0.0093 (0.1223) Rec PERSON_FAM: 0.7757 (0.5455):  81%|▊| 652/806 [00:26<00:06, 25.01it/s
+Epoch: 12/159 Phase: valid Loss: 0.3439 (0.2580) Acc: 0.0094 (0.1199) Rec PERSON_FAM: 0.7783 (1.0000):  87%|▊| 700/806 [00:28<00:04, 22.49it/s
+Epoch: 12/159 Phase: valid Loss: 0.3432 (0.3407) Acc: 0.0094 (0.1335) Rec PERSON_FAM: 0.7790 (1.0000):  93%|▉| 751/806 [00:30<00:02, 25.25it/s
+Epoch: 12/159 Phase: valid Loss: 0.3447 (0.8770) Acc: 0.0094 (0.1244) Rec PERSON_FAM: 0.7789 (0.2941): 100%|▉| 802/806 [00:32<00:00, 26.72it/s
+Epoch: 12/159 Phase: valid Loss: 0.3447 (0.8770) Acc: 0.0094 (0.1244) Rec PERSON_FAM: 0.7789 (0.2941): 100%|▉| 802/806 [00:32<00:00, 26.72it/s
+Epoch: 13/159 Phase: train Loss: 0.3211 (0.2892) Acc: 0.0604 (0.1168) Rec PERSON_FAM: 0.7904 (1.0000):   2%|  | 9/504 [00:01<01:23,  5.91it/s]
+Epoch: 13/159 Phase: train Loss: 0.3221 (0.2952) Acc: 0.0601 (0.1157) Rec PERSON_FAM: 0.7991 (0.7917):   4%| | 21/504 [00:03<01:15,  6.36it/s]
+Epoch: 13/159 Phase: train Loss: 0.3208 (0.3515) Acc: 0.0596 (0.0989) Rec PERSON_FAM: 0.8035 (0.8696):   7%| | 33/504 [00:05<01:15,  6.26it/s]
+Epoch: 13/159 Phase: train Loss: 0.3194 (0.3104) Acc: 0.0595 (0.1053) Rec PERSON_FAM: 0.8086 (0.8235):   9%| | 46/504 [00:07<01:14,  6.18it/s]
+Epoch: 13/159 Phase: train Loss: 0.3200 (0.3247) Acc: 0.0601 (0.1180) Rec PERSON_FAM: 0.8058 (0.4444):  12%| | 58/504 [00:09<01:11,  6.27it/s]
+Epoch: 13/159 Phase: train Loss: 0.3217 (0.3232) Acc: 0.0602 (0.0896) Rec PERSON_FAM: 0.7968 (0.8280):  14%|▏| 71/504 [00:11<01:10,  6.18it/s]
+Epoch: 13/159 Phase: train Loss: 0.3230 (0.3242) Acc: 0.0602 (0.1031) Rec PERSON_FAM: 0.7974 (0.8200):  16%|▏| 83/504 [00:13<01:09,  6.04it/s]
+Epoch: 13/159 Phase: train Loss: 0.3224 (0.2999) Acc: 0.0602 (0.1221) Rec PERSON_FAM: 0.7979 (0.9811):  19%|▏| 95/504 [00:15<01:05,  6.27it/s]
+Epoch: 13/159 Phase: train Loss: 0.3223 (0.2201) Acc: 0.0602 (0.1025) Rec PERSON_FAM: 0.7986 (0.8148):  21%|▏| 108/504 [00:17<01:02,  6.30it/s
+Epoch: 13/159 Phase: train Loss: 0.3263 (0.2616) Acc: 0.0603 (0.1390) Rec PERSON_FAM: 0.7932 (0.8364):  24%|▏| 121/504 [00:19<01:00,  6.32it/s
+Epoch: 13/159 Phase: train Loss: 0.3280 (0.3732) Acc: 0.0602 (0.0933) Rec PERSON_FAM: 0.7882 (0.5000):  26%|▎| 133/504 [00:21<00:59,  6.24it/s
+Epoch: 13/159 Phase: train Loss: 0.3270 (0.1789) Acc: 0.0604 (0.1259) Rec PERSON_FAM: 0.7937 (1.0000):  29%|▎| 146/504 [00:23<00:56,  6.29it/s
+Epoch: 13/159 Phase: train Loss: 0.3258 (0.3805) Acc: 0.0605 (0.1083) Rec PERSON_FAM: 0.7970 (0.6818):  31%|▎| 158/504 [00:25<00:58,  5.89it/s
+Epoch: 13/159 Phase: train Loss: 0.3267 (0.2715) Acc: 0.0607 (0.1185) Rec PERSON_FAM: 0.7929 (0.7458):  33%|▎| 168/504 [00:27<00:53,  6.28it/s
+Epoch: 13/159 Phase: train Loss: 0.3257 (0.2913) Acc: 0.0605 (0.0821) Rec PERSON_FAM: 0.7928 (0.9545):  36%|▎| 180/504 [00:29<00:51,  6.31it/s
+Epoch: 13/159 Phase: train Loss: 0.3255 (0.3442) Acc: 0.0606 (0.0998) Rec PERSON_FAM: 0.7914 (0.7931):  38%|▍| 193/504 [00:31<00:49,  6.29it/s
+Epoch: 13/159 Phase: train Loss: 0.3251 (0.2742) Acc: 0.0607 (0.1137) Rec PERSON_FAM: 0.7927 (0.8214):  41%|▍| 206/504 [00:33<00:47,  6.33it/s
+Epoch: 13/159 Phase: train Loss: 0.3246 (0.2795) Acc: 0.0608 (0.0992) Rec PERSON_FAM: 0.7941 (0.8500):  43%|▍| 218/504 [00:35<00:45,  6.29it/s
+Epoch: 13/159 Phase: train Loss: 0.3264 (0.4235) Acc: 0.0607 (0.1203) Rec PERSON_FAM: 0.7964 (0.7288):  46%|▍| 231/504 [00:37<00:42,  6.37it/s
+Epoch: 13/159 Phase: train Loss: 0.3262 (0.2901) Acc: 0.0606 (0.1009) Rec PERSON_FAM: 0.7956 (0.8571):  48%|▍| 243/504 [00:39<00:42,  6.18it/s
+Epoch: 13/159 Phase: train Loss: 0.3262 (0.3011) Acc: 0.0607 (0.1144) Rec PERSON_FAM: 0.7947 (0.6889):  51%|▌| 256/504 [00:41<00:39,  6.22it/s
+Epoch: 13/159 Phase: train Loss: 0.3251 (0.3452) Acc: 0.0609 (0.1186) Rec PERSON_FAM: 0.7971 (1.0000):  53%|▌| 268/504 [00:43<00:38,  6.20it/s
+Epoch: 13/159 Phase: train Loss: 0.3254 (0.3969) Acc: 0.0610 (0.1193) Rec PERSON_FAM: 0.7954 (0.5769):  56%|▌| 281/504 [00:45<00:37,  6.02it/s
+Epoch: 13/159 Phase: train Loss: 0.3272 (0.3985) Acc: 0.0609 (0.1033) Rec PERSON_FAM: 0.7945 (0.6301):  58%|▌| 293/504 [00:47<00:35,  6.00it/s
+Epoch: 13/159 Phase: train Loss: 0.3262 (0.3661) Acc: 0.0611 (0.1143) Rec PERSON_FAM: 0.7961 (0.9412):  61%|▌| 306/504 [00:49<00:31,  6.34it/s
+Epoch: 13/159 Phase: train Loss: 0.3262 (0.2959) Acc: 0.0611 (0.1184) Rec PERSON_FAM: 0.7982 (0.6471):  63%|▋| 318/504 [00:51<00:29,  6.31it/s
+Epoch: 13/159 Phase: train Loss: 0.3267 (0.2940) Acc: 0.0610 (0.1168) Rec PERSON_FAM: 0.7967 (0.8636):  66%|▋| 331/504 [00:53<00:27,  6.34it/s
+Epoch: 13/159 Phase: train Loss: 0.3260 (0.3008) Acc: 0.0611 (0.1175) Rec PERSON_FAM: 0.7974 (0.8519):  68%|▋| 344/504 [00:55<00:25,  6.22it/s
+Epoch: 13/159 Phase: train Loss: 0.3253 (0.3581) Acc: 0.0612 (0.1205) Rec PERSON_FAM: 0.7973 (0.5357):  71%|▋| 356/504 [00:57<00:24,  6.03it/s
+Epoch: 13/159 Phase: train Loss: 0.3239 (0.2893) Acc: 0.0612 (0.1120) Rec PERSON_FAM: 0.7983 (0.8689):  73%|▋| 368/504 [00:59<00:21,  6.28it/s
+Epoch: 13/159 Phase: train Loss: 0.3235 (0.3621) Acc: 0.0612 (0.1144) Rec PERSON_FAM: 0.7989 (0.6087):  76%|▊| 381/504 [01:01<00:19,  6.31it/s
+Epoch: 13/159 Phase: train Loss: 0.3232 (0.3403) Acc: 0.0612 (0.1136) Rec PERSON_FAM: 0.8011 (1.0000):  78%|▊| 394/504 [01:03<00:17,  6.34it/s
+Epoch: 13/159 Phase: train Loss: 0.3227 (0.2839) Acc: 0.0612 (0.1026) Rec PERSON_FAM: 0.8026 (0.9250):  81%|▊| 406/504 [01:05<00:15,  6.22it/s
+Epoch: 13/159 Phase: train Loss: 0.3226 (0.2345) Acc: 0.0612 (0.1180) Rec PERSON_FAM: 0.8018 (0.8250):  83%|▊| 419/504 [01:07<00:14,  5.75it/s
+Epoch: 13/159 Phase: train Loss: 0.3225 (0.3769) Acc: 0.0613 (0.1309) Rec PERSON_FAM: 0.8006 (0.6961):  85%|▊| 430/504 [01:09<00:12,  6.08it/s
+Epoch: 13/159 Phase: train Loss: 0.3231 (0.2951) Acc: 0.0613 (0.1045) Rec PERSON_FAM: 0.8021 (0.6286):  88%|▉| 443/504 [01:11<00:09,  6.24it/s
+Epoch: 13/159 Phase: train Loss: 0.3238 (0.3326) Acc: 0.0613 (0.1233) Rec PERSON_FAM: 0.8009 (0.7397):  90%|▉| 455/504 [01:13<00:08,  5.95it/s
+Epoch: 13/159 Phase: train Loss: 0.3232 (0.3892) Acc: 0.0613 (0.1138) Rec PERSON_FAM: 0.8011 (0.6163):  93%|▉| 468/504 [01:15<00:05,  6.25it/s
+Epoch: 13/159 Phase: train Loss: 0.3234 (0.2895) Acc: 0.0613 (0.1243) Rec PERSON_FAM: 0.8010 (0.7838):  95%|▉| 481/504 [01:17<00:03,  6.33it/s
+Epoch: 13/159 Phase: train Loss: 0.3238 (0.3396) Acc: 0.0613 (0.1010) Rec PERSON_FAM: 0.8026 (0.8776):  98%|▉| 493/504 [01:19<00:01,  6.29it/s
+Epoch: 13/159 Phase: valid Loss: 0.3900 (0.1254) Acc: 0.0101 (0.0929) Rec PERSON_FAM: 0.7500 (1.0000):   0%|  | 4/806 [00:00<00:46, 17.30it/s]
+Epoch: 13/159 Phase: valid Loss: 0.3037 (0.2962) Acc: 0.0096 (0.0980) Rec PERSON_FAM: 0.7790 (0.8800):   6%| | 52/806 [00:02<00:32, 23.12it/s]
+Epoch: 13/159 Phase: valid Loss: 0.3162 (0.1537) Acc: 0.0096 (0.1177) Rec PERSON_FAM: 0.7718 (nan):  13%|▍  | 103/806 [00:04<00:27, 25.36it/s]
+Epoch: 13/159 Phase: valid Loss: 0.3294 (0.5875) Acc: 0.0095 (0.0883) Rec PERSON_FAM: 0.7521 (nan):  19%|▌  | 154/806 [00:06<00:25, 25.70it/s]
+Epoch: 13/159 Phase: valid Loss: 0.3404 (0.7619) Acc: 0.0096 (0.1157) Rec PERSON_FAM: 0.7376 (0.5156):  24%|▏| 190/806 [00:07<00:25, 24.45it/s
+Epoch: 13/159 Phase: valid Loss: 0.3372 (0.4776) Acc: 0.0094 (0.0943) Rec PERSON_FAM: 0.7470 (1.0000):  30%|▎| 241/806 [00:09<00:22, 25.31it/s
+Epoch: 13/159 Phase: valid Loss: 0.3389 (0.3071) Acc: 0.0094 (0.0892) Rec PERSON_FAM: 0.7431 (0.9615):  36%|▎| 292/806 [00:11<00:20, 24.98it/s
+Epoch: 13/159 Phase: valid Loss: 0.3482 (0.1227) Acc: 0.0093 (0.1203) Rec PERSON_FAM: 0.7255 (nan):  43%|█▎ | 343/806 [00:13<00:18, 25.46it/s]
+Epoch: 13/159 Phase: valid Loss: 0.3461 (0.2653) Acc: 0.0092 (0.0964) Rec PERSON_FAM: 0.7357 (1.0000):  49%|▍| 391/806 [00:15<00:16, 24.67it/s
+Epoch: 13/159 Phase: valid Loss: 0.3413 (0.1633) Acc: 0.0093 (0.1221) Rec PERSON_FAM: 0.7509 (1.0000):  55%|▌| 442/806 [00:18<00:15, 23.46it/s
+Epoch: 13/159 Phase: valid Loss: 0.3458 (0.4595) Acc: 0.0093 (0.0953) Rec PERSON_FAM: 0.7465 (1.0000):  61%|▌| 493/806 [00:20<00:12, 24.62it/s
+Epoch: 13/159 Phase: valid Loss: 0.3433 (0.3199) Acc: 0.0093 (0.1311) Rec PERSON_FAM: 0.7472 (1.0000):  67%|▋| 541/806 [00:22<00:10, 25.22it/s
+Epoch: 13/159 Phase: valid Loss: 0.3433 (0.7984) Acc: 0.0093 (0.1082) Rec PERSON_FAM: 0.7561 (1.0000):  73%|▋| 592/806 [00:24<00:08, 24.98it/s
+Epoch: 13/159 Phase: valid Loss: 0.3448 (0.6663) Acc: 0.0094 (0.0828) Rec PERSON_FAM: 0.7540 (0.0000):  79%|▊| 640/806 [00:26<00:07, 23.09it/s
+Epoch: 13/159 Phase: valid Loss: 0.3437 (0.1734) Acc: 0.0094 (0.0969) Rec PERSON_FAM: 0.7587 (1.0000):  86%|▊| 691/806 [00:28<00:04, 24.84it/s
+Epoch: 13/159 Phase: valid Loss: 0.3430 (0.6083) Acc: 0.0095 (0.0832) Rec PERSON_FAM: 0.7577 (0.4348):  92%|▉| 742/806 [00:30<00:02, 24.97it/s
+Epoch: 13/159 Phase: valid Loss: 0.3454 (0.1048) Acc: 0.0094 (0.0641) Rec PERSON_FAM: 0.7589 (nan):  98%|██▉| 790/806 [00:32<00:00, 24.88it/s]
+Epoch: 13/159 Phase: valid Loss: 0.3454 (0.1048) Acc: 0.0094 (0.0641) Rec PERSON_FAM: 0.7589 (nan):  98%|██▉| 790/806 [00:32<00:00, 24.88it/s]
+Epoch: 14/159 Phase: train Loss: 0.3115 (0.2521) Acc: 0.0600 (0.0954) Rec PERSON_FAM: 0.7720 (0.8750):   1%|  | 5/504 [00:01<01:42,  4.86it/s]
+Epoch: 14/159 Phase: train Loss: 0.3220 (0.4439) Acc: 0.0600 (0.1108) Rec PERSON_FAM: 0.7674 (0.5060):   3%| | 17/504 [00:03<01:20,  6.08it/s]
+Epoch: 14/159 Phase: train Loss: 0.3244 (0.3794) Acc: 0.0597 (0.1038) Rec PERSON_FAM: 0.7781 (0.7857):   6%| | 29/504 [00:05<01:22,  5.78it/s]
+Epoch: 14/159 Phase: train Loss: 0.3273 (0.2792) Acc: 0.0593 (0.0810) Rec PERSON_FAM: 0.7974 (0.7742):   8%| | 42/504 [00:07<01:14,  6.24it/s]
+Epoch: 14/159 Phase: train Loss: 0.3194 (0.2464) Acc: 0.0600 (0.1250) Rec PERSON_FAM: 0.8102 (0.9783):  11%| | 54/504 [00:09<01:13,  6.14it/s]
+Epoch: 14/159 Phase: train Loss: 0.3176 (0.3306) Acc: 0.0604 (0.1145) Rec PERSON_FAM: 0.8039 (0.7714):  13%|▏| 66/504 [00:11<01:11,  6.16it/s]
+Epoch: 14/159 Phase: train Loss: 0.3193 (0.3449) Acc: 0.0603 (0.1081) Rec PERSON_FAM: 0.7945 (0.8140):  15%|▏| 78/504 [00:13<01:08,  6.19it/s]
+Epoch: 14/159 Phase: train Loss: 0.3168 (0.3570) Acc: 0.0603 (0.1031) Rec PERSON_FAM: 0.8078 (0.7750):  18%|▏| 90/504 [00:15<01:12,  5.72it/s]
+Epoch: 14/159 Phase: train Loss: 0.3136 (0.3047) Acc: 0.0605 (0.0949) Rec PERSON_FAM: 0.8096 (0.8723):  20%|▏| 102/504 [00:17<01:05,  6.11it/s
+Epoch: 14/159 Phase: train Loss: 0.3161 (0.4523) Acc: 0.0605 (0.1011) Rec PERSON_FAM: 0.8073 (0.8333):  23%|▏| 115/504 [00:19<01:03,  6.11it/s
+Epoch: 14/159 Phase: train Loss: 0.3192 (0.3330) Acc: 0.0604 (0.0949) Rec PERSON_FAM: 0.8022 (0.8943):  25%|▎| 127/504 [00:21<01:02,  6.06it/s
+Epoch: 14/159 Phase: train Loss: 0.3205 (0.2914) Acc: 0.0605 (0.1033) Rec PERSON_FAM: 0.8022 (0.9423):  28%|▎| 139/504 [00:23<00:59,  6.14it/s
+Epoch: 14/159 Phase: train Loss: 0.3190 (0.3004) Acc: 0.0607 (0.1178) Rec PERSON_FAM: 0.8053 (0.7736):  30%|▎| 152/504 [00:25<00:57,  6.09it/s
+Epoch: 14/159 Phase: train Loss: 0.3196 (0.3021) Acc: 0.0608 (0.1124) Rec PERSON_FAM: 0.8052 (0.7941):  32%|▎| 163/504 [00:27<00:58,  5.81it/s
+Epoch: 14/159 Phase: train Loss: 0.3208 (0.2468) Acc: 0.0608 (0.1064) Rec PERSON_FAM: 0.8055 (1.0000):  34%|▎| 173/504 [00:29<00:55,  5.98it/s
+Epoch: 14/159 Phase: train Loss: 0.3192 (0.2235) Acc: 0.0607 (0.1083) Rec PERSON_FAM: 0.8056 (0.9508):  37%|▎| 185/504 [00:31<00:54,  5.89it/s
+Epoch: 14/159 Phase: train Loss: 0.3207 (0.2770) Acc: 0.0608 (0.1063) Rec PERSON_FAM: 0.8031 (0.8462):  39%|▍| 197/504 [00:33<00:53,  5.72it/s
+Epoch: 14/159 Phase: train Loss: 0.3202 (0.3183) Acc: 0.0609 (0.1210) Rec PERSON_FAM: 0.8053 (0.8070):  41%|▍| 209/504 [00:35<00:48,  6.08it/s
+Epoch: 14/159 Phase: train Loss: 0.3203 (0.3304) Acc: 0.0608 (0.1091) Rec PERSON_FAM: 0.8056 (0.8039):  44%|▍| 222/504 [00:37<00:44,  6.29it/s
+Epoch: 14/159 Phase: train Loss: 0.3207 (0.3306) Acc: 0.0608 (0.1083) Rec PERSON_FAM: 0.8049 (0.5926):  46%|▍| 234/504 [00:39<00:45,  5.96it/s
+Epoch: 14/159 Phase: train Loss: 0.3205 (0.2412) Acc: 0.0607 (0.1082) Rec PERSON_FAM: 0.8034 (0.7885):  49%|▍| 246/504 [00:41<00:41,  6.16it/s
+Epoch: 14/159 Phase: train Loss: 0.3200 (0.1959) Acc: 0.0609 (0.1283) Rec PERSON_FAM: 0.8021 (0.7885):  51%|▌| 259/504 [00:43<00:39,  6.14it/s
+Epoch: 14/159 Phase: train Loss: 0.3182 (0.3086) Acc: 0.0610 (0.1089) Rec PERSON_FAM: 0.8031 (0.8913):  54%|▌| 271/504 [00:45<00:37,  6.15it/s
+Epoch: 14/159 Phase: train Loss: 0.3190 (0.2907) Acc: 0.0611 (0.1165) Rec PERSON_FAM: 0.8038 (0.7846):  56%|▌| 283/504 [00:47<00:35,  6.19it/s
+Epoch: 14/159 Phase: train Loss: 0.3194 (0.2641) Acc: 0.0611 (0.1207) Rec PERSON_FAM: 0.8024 (0.7500):  59%|▌| 295/504 [00:49<00:36,  5.78it/s
+Epoch: 14/159 Phase: train Loss: 0.3186 (0.2285) Acc: 0.0613 (0.1240) Rec PERSON_FAM: 0.8039 (0.8361):  61%|▌| 307/504 [00:51<00:35,  5.55it/s
+Epoch: 14/159 Phase: train Loss: 0.3190 (0.2836) Acc: 0.0612 (0.1056) Rec PERSON_FAM: 0.8042 (0.8413):  63%|▋| 319/504 [00:53<00:30,  5.97it/s
+Epoch: 14/159 Phase: train Loss: 0.3193 (0.3157) Acc: 0.0612 (0.1129) Rec PERSON_FAM: 0.8037 (0.7368):  66%|▋| 332/504 [00:55<00:27,  6.21it/s
+Epoch: 14/159 Phase: train Loss: 0.3181 (0.2603) Acc: 0.0612 (0.1185) Rec PERSON_FAM: 0.8047 (0.7963):  68%|▋| 344/504 [00:57<00:26,  6.07it/s
+Epoch: 14/159 Phase: train Loss: 0.3176 (0.3880) Acc: 0.0613 (0.1206) Rec PERSON_FAM: 0.8047 (0.7143):  71%|▋| 356/504 [00:59<00:25,  5.77it/s
+Epoch: 14/159 Phase: train Loss: 0.3164 (0.3059) Acc: 0.0613 (0.1136) Rec PERSON_FAM: 0.8056 (0.8033):  73%|▋| 368/504 [01:01<00:22,  6.13it/s
+Epoch: 14/159 Phase: train Loss: 0.3163 (0.2816) Acc: 0.0613 (0.1137) Rec PERSON_FAM: 0.8053 (0.5870):  76%|▊| 381/504 [01:03<00:20,  6.12it/s
+Epoch: 14/159 Phase: train Loss: 0.3156 (0.3198) Acc: 0.0613 (0.0858) Rec PERSON_FAM: 0.8074 (0.9048):  78%|▊| 393/504 [01:05<00:18,  5.95it/s
+Epoch: 14/159 Phase: train Loss: 0.3152 (0.1843) Acc: 0.0613 (0.1130) Rec PERSON_FAM: 0.8077 (1.0000):  80%|▊| 405/504 [01:07<00:16,  5.98it/s
+Epoch: 14/159 Phase: train Loss: 0.3154 (0.4192) Acc: 0.0613 (0.1170) Rec PERSON_FAM: 0.8068 (0.7073):  83%|▊| 417/504 [01:09<00:15,  5.57it/s
+Epoch: 14/159 Phase: train Loss: 0.3148 (0.3555) Acc: 0.0614 (0.1064) Rec PERSON_FAM: 0.8068 (0.7463):  85%|▊| 429/504 [01:11<00:12,  5.96it/s
+Epoch: 14/159 Phase: train Loss: 0.3154 (0.2829) Acc: 0.0614 (0.1095) Rec PERSON_FAM: 0.8071 (0.9231):  88%|▉| 441/504 [01:13<00:10,  6.12it/s
+Epoch: 14/159 Phase: train Loss: 0.3163 (0.3441) Acc: 0.0614 (0.1279) Rec PERSON_FAM: 0.8059 (0.7400):  90%|▉| 453/504 [01:15<00:08,  6.09it/s
+Epoch: 14/159 Phase: train Loss: 0.3157 (0.2434) Acc: 0.0615 (0.1289) Rec PERSON_FAM: 0.8061 (0.8462):  92%|▉| 465/504 [01:17<00:06,  6.17it/s
+Epoch: 14/159 Phase: train Loss: 0.3161 (0.3690) Acc: 0.0614 (0.1302) Rec PERSON_FAM: 0.8059 (0.7625):  95%|▉| 478/504 [01:19<00:04,  6.14it/s
+Epoch: 14/159 Phase: train Loss: 0.3163 (0.3994) Acc: 0.0614 (0.1028) Rec PERSON_FAM: 0.8074 (0.8230):  97%|▉| 490/504 [01:21<00:02,  6.07it/s
+Epoch: 14/159 Phase: train Loss: 0.3161 (0.2853) Acc: 0.0614 (0.1050) Rec PERSON_FAM: 0.8076 (1.0000): 100%|▉| 502/504 [01:23<00:00,  6.35it/s
+Epoch: 14/159 Phase: valid Loss: 0.2867 (0.1298) Acc: 0.0097 (0.2022) Rec PERSON_FAM: 0.8560 (0.7500):   5%| | 40/806 [00:01<00:31, 24.69it/s]
+Epoch: 14/159 Phase: valid Loss: 0.3085 (0.2403) Acc: 0.0097 (0.1057) Rec PERSON_FAM: 0.8307 (0.8000):  11%| | 88/806 [00:03<00:29, 24.74it/s]
+Epoch: 14/159 Phase: valid Loss: 0.3233 (0.1878) Acc: 0.0095 (0.0980) Rec PERSON_FAM: 0.7925 (1.0000):  17%|▏| 139/806 [00:05<00:26, 25.04it/s
+Epoch: 14/159 Phase: valid Loss: 0.3317 (0.4512) Acc: 0.0095 (0.1255) Rec PERSON_FAM: 0.7776 (0.7000):  22%|▏| 175/806 [00:07<00:25, 25.00it/s
+Epoch: 14/159 Phase: valid Loss: 0.3357 (0.3026) Acc: 0.0094 (0.1299) Rec PERSON_FAM: 0.7777 (nan):  28%|▊  | 226/806 [00:09<00:23, 25.08it/s]
+Epoch: 14/159 Phase: valid Loss: 0.3352 (0.1489) Acc: 0.0094 (0.1486) Rec PERSON_FAM: 0.7786 (1.0000):  34%|▎| 277/806 [00:11<00:21, 24.88it/s
+Epoch: 14/159 Phase: valid Loss: 0.3375 (0.3727) Acc: 0.0093 (0.0956) Rec PERSON_FAM: 0.7612 (0.0000):  41%|▍| 328/806 [00:13<00:19, 25.11it/s
+Epoch: 14/159 Phase: valid Loss: 0.3428 (0.1748) Acc: 0.0092 (0.0921) Rec PERSON_FAM: 0.7684 (nan):  47%|█▍ | 379/806 [00:15<00:17, 24.56it/s]
+Epoch: 14/159 Phase: valid Loss: 0.3373 (0.4279) Acc: 0.0093 (0.1048) Rec PERSON_FAM: 0.7851 (1.0000):  53%|▌| 427/806 [00:17<00:15, 25.25it/s
+Epoch: 14/159 Phase: valid Loss: 0.3387 (0.4380) Acc: 0.0093 (0.0874) Rec PERSON_FAM: 0.7815 (nan):  59%|█▊ | 478/806 [00:19<00:12, 25.35it/s]
+Epoch: 14/159 Phase: valid Loss: 0.3369 (0.0489) Acc: 0.0093 (0.1460) Rec PERSON_FAM: 0.7852 (nan):  66%|█▉ | 529/806 [00:21<00:11, 24.59it/s]
+Epoch: 14/159 Phase: valid Loss: 0.3379 (0.7220) Acc: 0.0093 (0.1253) Rec PERSON_FAM: 0.7906 (1.0000):  72%|▋| 577/806 [00:23<00:09, 23.79it/s
+Epoch: 14/159 Phase: valid Loss: 0.3387 (0.8110) Acc: 0.0094 (0.1117) Rec PERSON_FAM: 0.7921 (nan):  78%|██▎| 628/806 [00:25<00:07, 24.85it/s]
+Epoch: 14/159 Phase: valid Loss: 0.3381 (0.5623) Acc: 0.0094 (0.0910) Rec PERSON_FAM: 0.7940 (1.0000):  84%|▊| 679/806 [00:27<00:04, 25.44it/s
+Epoch: 14/159 Phase: valid Loss: 0.3353 (0.1127) Acc: 0.0095 (0.1565) Rec PERSON_FAM: 0.7948 (1.0000):  90%|▉| 727/806 [00:29<00:03, 24.93it/s
+Epoch: 14/159 Phase: valid Loss: 0.3370 (0.0707) Acc: 0.0095 (0.1888) Rec PERSON_FAM: 0.7972 (nan):  96%|██▉| 775/806 [00:31<00:01, 24.03it/s]
+Epoch: 15/159 Phase: train Loss: 0.3356 (0.3896) Acc: 0.0592 (0.1036) Rec PERSON_FAM: 0.7847 (0.6300):   1%|  | 3/504 [00:00<01:51,  4.50it/s]
+Epoch: 15/159 Phase: train Loss: 0.3356 (0.3896) Acc: 0.0592 (0.1036) Rec PERSON_FAM: 0.7847 (0.6300):   1%|  | 3/504 [00:00<01:51,  4.50it/s]
+Epoch: 15/159 Phase: train Loss: 0.3017 (0.2612) Acc: 0.0605 (0.1093) Rec PERSON_FAM: 0.8412 (0.9091):   3%| | 15/504 [00:02<01:21,  5.96it/s]
+Epoch: 15/159 Phase: train Loss: 0.3166 (0.2452) Acc: 0.0605 (0.1039) Rec PERSON_FAM: 0.8216 (0.9342):   5%| | 27/504 [00:04<01:19,  6.02it/s]
+Epoch: 15/159 Phase: train Loss: 0.3157 (0.3280) Acc: 0.0602 (0.1186) Rec PERSON_FAM: 0.8166 (0.6508):   8%| | 39/504 [00:06<01:26,  5.36it/s]
+Epoch: 15/159 Phase: train Loss: 0.3095 (0.4116) Acc: 0.0600 (0.0973) Rec PERSON_FAM: 0.8128 (0.6296):  10%| | 51/504 [00:08<01:13,  6.13it/s]
+Epoch: 15/159 Phase: train Loss: 0.3061 (0.3663) Acc: 0.0606 (0.1063) Rec PERSON_FAM: 0.8144 (0.5606):  13%|▏| 64/504 [00:10<01:10,  6.28it/s]
+Epoch: 15/159 Phase: train Loss: 0.3077 (0.3567) Acc: 0.0606 (0.0968) Rec PERSON_FAM: 0.8082 (0.8667):  15%|▏| 76/504 [00:12<01:08,  6.27it/s]
+Epoch: 15/159 Phase: train Loss: 0.3071 (0.2201) Acc: 0.0606 (0.0969) Rec PERSON_FAM: 0.8153 (0.9851):  18%|▏| 89/504 [00:14<01:06,  6.28it/s]
+Epoch: 15/159 Phase: train Loss: 0.3060 (0.2668) Acc: 0.0607 (0.1074) Rec PERSON_FAM: 0.8152 (0.8571):  20%|▏| 101/504 [00:16<01:06,  6.04it/s
+Epoch: 15/159 Phase: train Loss: 0.3080 (0.3205) Acc: 0.0607 (0.1164) Rec PERSON_FAM: 0.8134 (0.6575):  23%|▏| 114/504 [00:18<01:03,  6.15it/s
+Epoch: 15/159 Phase: train Loss: 0.3130 (0.2642) Acc: 0.0606 (0.1234) Rec PERSON_FAM: 0.8050 (0.8592):  25%|▎| 126/504 [00:20<01:01,  6.13it/s
+Epoch: 15/159 Phase: train Loss: 0.3132 (0.3003) Acc: 0.0606 (0.1030) Rec PERSON_FAM: 0.8049 (0.9615):  28%|▎| 139/504 [00:22<00:58,  6.21it/s
+Epoch: 15/159 Phase: train Loss: 0.3112 (0.2699) Acc: 0.0608 (0.1102) Rec PERSON_FAM: 0.8105 (0.9200):  30%|▎| 151/504 [00:24<00:56,  6.24it/s
+Epoch: 15/159 Phase: train Loss: 0.3118 (0.2856) Acc: 0.0609 (0.1123) Rec PERSON_FAM: 0.8063 (0.7647):  32%|▎| 163/504 [00:26<00:54,  6.24it/s
+Epoch: 15/159 Phase: train Loss: 0.3127 (0.1965) Acc: 0.0610 (0.1086) Rec PERSON_FAM: 0.8069 (1.0000):  34%|▎| 173/504 [00:28<00:52,  6.34it/s
+Epoch: 15/159 Phase: train Loss: 0.3112 (0.2661) Acc: 0.0609 (0.1135) Rec PERSON_FAM: 0.8067 (1.0000):  37%|▎| 186/504 [00:30<00:51,  6.21it/s
+Epoch: 15/159 Phase: train Loss: 0.3115 (0.2450) Acc: 0.0609 (0.1251) Rec PERSON_FAM: 0.8062 (0.9200):  39%|▍| 198/504 [00:32<00:50,  6.07it/s
+Epoch: 15/159 Phase: train Loss: 0.3112 (0.2486) Acc: 0.0611 (0.1149) Rec PERSON_FAM: 0.8086 (0.8214):  42%|▍| 211/504 [00:34<00:47,  6.22it/s
+Epoch: 15/159 Phase: train Loss: 0.3126 (0.3471) Acc: 0.0610 (0.1099) Rec PERSON_FAM: 0.8067 (0.6556):  44%|▍| 223/504 [00:36<00:45,  6.21it/s
+Epoch: 15/159 Phase: train Loss: 0.3121 (0.2820) Acc: 0.0609 (0.0949) Rec PERSON_FAM: 0.8090 (0.6620):  47%|▍| 236/504 [00:38<00:43,  6.22it/s
+Epoch: 15/159 Phase: train Loss: 0.3112 (0.3146) Acc: 0.0609 (0.1073) Rec PERSON_FAM: 0.8102 (0.8444):  49%|▍| 248/504 [00:40<00:41,  6.21it/s
+Epoch: 15/159 Phase: train Loss: 0.3109 (0.2303) Acc: 0.0611 (0.1159) Rec PERSON_FAM: 0.8084 (0.6667):  52%|▌| 260/504 [00:42<00:39,  6.23it/s
+Epoch: 15/159 Phase: train Loss: 0.3089 (0.3532) Acc: 0.0613 (0.1227) Rec PERSON_FAM: 0.8117 (0.8679):  54%|▌| 273/504 [00:44<00:36,  6.25it/s
+Epoch: 15/159 Phase: train Loss: 0.3102 (0.2601) Acc: 0.0613 (0.1034) Rec PERSON_FAM: 0.8089 (0.7273):  57%|▌| 286/504 [00:46<00:34,  6.24it/s
+Epoch: 15/159 Phase: train Loss: 0.3114 (0.4318) Acc: 0.0613 (0.1153) Rec PERSON_FAM: 0.8086 (0.9500):  59%|▌| 298/504 [00:48<00:34,  6.03it/s
+Epoch: 15/159 Phase: train Loss: 0.3105 (0.2660) Acc: 0.0615 (0.0958) Rec PERSON_FAM: 0.8101 (0.9535):  62%|▌| 310/504 [00:50<00:31,  6.13it/s
+Epoch: 15/159 Phase: train Loss: 0.3116 (0.2197) Acc: 0.0614 (0.1056) Rec PERSON_FAM: 0.8108 (1.0000):  64%|▋| 322/504 [00:52<00:29,  6.13it/s
+Epoch: 15/159 Phase: train Loss: 0.3121 (0.3507) Acc: 0.0614 (0.0956) Rec PERSON_FAM: 0.8117 (0.8841):  66%|▋| 335/504 [00:54<00:27,  6.17it/s
+Epoch: 15/159 Phase: train Loss: 0.3107 (0.2334) Acc: 0.0614 (0.1213) Rec PERSON_FAM: 0.8130 (0.8732):  69%|▋| 347/504 [00:56<00:24,  6.32it/s
+Epoch: 15/159 Phase: train Loss: 0.3105 (0.2377) Acc: 0.0615 (0.1059) Rec PERSON_FAM: 0.8138 (0.9302):  71%|▋| 360/504 [00:58<00:23,  6.20it/s
+Epoch: 15/159 Phase: train Loss: 0.3096 (0.3326) Acc: 0.0615 (0.1077) Rec PERSON_FAM: 0.8131 (0.8889):  74%|▋| 372/504 [01:00<00:21,  6.14it/s
+Epoch: 15/159 Phase: train Loss: 0.3095 (0.3087) Acc: 0.0615 (0.1016) Rec PERSON_FAM: 0.8133 (0.9265):  76%|▊| 385/504 [01:02<00:19,  6.22it/s
+Epoch: 15/159 Phase: train Loss: 0.3086 (0.2857) Acc: 0.0615 (0.1152) Rec PERSON_FAM: 0.8151 (0.7895):  79%|▊| 397/504 [01:04<00:17,  6.26it/s
+Epoch: 15/159 Phase: train Loss: 0.3076 (0.3569) Acc: 0.0615 (0.1032) Rec PERSON_FAM: 0.8156 (1.0000):  81%|▊| 410/504 [01:06<00:14,  6.39it/s
+Epoch: 15/159 Phase: train Loss: 0.3075 (0.2245) Acc: 0.0616 (0.1348) Rec PERSON_FAM: 0.8146 (0.8571):  84%|▊| 423/504 [01:08<00:13,  6.12it/s
+Epoch: 15/159 Phase: train Loss: 0.3078 (0.3493) Acc: 0.0616 (0.1196) Rec PERSON_FAM: 0.8143 (0.5455):  86%|▊| 435/504 [01:10<00:11,  6.20it/s
+Epoch: 15/159 Phase: train Loss: 0.3083 (0.3583) Acc: 0.0616 (0.1127) Rec PERSON_FAM: 0.8143 (0.9130):  89%|▉| 447/504 [01:12<00:09,  6.21it/s
+Epoch: 15/159 Phase: train Loss: 0.3084 (0.3619) Acc: 0.0616 (0.1069) Rec PERSON_FAM: 0.8139 (0.7143):  91%|▉| 460/504 [01:14<00:07,  5.96it/s
+Epoch: 15/159 Phase: train Loss: 0.3084 (0.3658) Acc: 0.0616 (0.1001) Rec PERSON_FAM: 0.8139 (0.8205):  94%|▉| 472/504 [01:16<00:05,  6.28it/s
+Epoch: 15/159 Phase: train Loss: 0.3084 (0.2704) Acc: 0.0616 (0.0848) Rec PERSON_FAM: 0.8154 (0.9528):  96%|▉| 485/504 [01:18<00:03,  6.24it/s
+Epoch: 15/159 Phase: train Loss: 0.3091 (0.3650) Acc: 0.0615 (0.0962) Rec PERSON_FAM: 0.8150 (0.7705):  99%|▉| 497/504 [01:20<00:01,  6.22it/s
+Epoch: 15/159 Phase: valid Loss: 0.3038 (0.3984) Acc: 0.0095 (0.1411) Rec PERSON_FAM: 0.8098 (1.0000):   3%| | 22/806 [00:00<00:32, 24.29it/s]
+Epoch: 15/159 Phase: valid Loss: 0.2970 (0.4828) Acc: 0.0096 (0.0948) Rec PERSON_FAM: 0.8266 (0.5333):   9%| | 70/806 [00:03<00:30, 24.30it/s]
+Epoch: 15/159 Phase: valid Loss: 0.3180 (0.2374) Acc: 0.0096 (0.1612) Rec PERSON_FAM: 0.7734 (1.0000):  15%|▏| 121/806 [00:05<00:28, 23.66it/s
+Epoch: 15/159 Phase: valid Loss: 0.3257 (0.1803) Acc: 0.0095 (0.0971) Rec PERSON_FAM: 0.7606 (1.0000):  21%|▏| 172/806 [00:07<00:25, 25.10it/s
+Epoch: 15/159 Phase: valid Loss: 0.3287 (0.5344) Acc: 0.0095 (0.0647) Rec PERSON_FAM: 0.7599 (0.0000):  26%|▎| 208/806 [00:08<00:23, 25.43it/s
+Epoch: 15/159 Phase: valid Loss: 0.3275 (0.1071) Acc: 0.0094 (0.0986) Rec PERSON_FAM: 0.7632 (nan):  32%|▉  | 259/806 [00:10<00:22, 24.49it/s]
+Epoch: 15/159 Phase: valid Loss: 0.3296 (0.4023) Acc: 0.0094 (0.1129) Rec PERSON_FAM: 0.7615 (1.0000):  38%|▍| 310/806 [00:12<00:19, 24.89it/s
+Epoch: 15/159 Phase: valid Loss: 0.3379 (0.3424) Acc: 0.0093 (0.0907) Rec PERSON_FAM: 0.7535 (1.0000):  45%|▍| 361/806 [00:14<00:17, 25.63it/s
+Epoch: 15/159 Phase: valid Loss: 0.3324 (0.1589) Acc: 0.0093 (0.0984) Rec PERSON_FAM: 0.7619 (1.0000):  51%|▌| 409/806 [00:16<00:16, 24.76it/s
+Epoch: 15/159 Phase: valid Loss: 0.3338 (1.2315) Acc: 0.0093 (0.0856) Rec PERSON_FAM: 0.7646 (0.2500):  57%|▌| 460/806 [00:18<00:14, 24.70it/s
+Epoch: 15/159 Phase: valid Loss: 0.3334 (0.2578) Acc: 0.0093 (0.1355) Rec PERSON_FAM: 0.7652 (1.0000):  63%|▋| 508/806 [00:20<00:11, 25.07it/s
+Epoch: 15/159 Phase: valid Loss: 0.3346 (0.2108) Acc: 0.0093 (0.0922) Rec PERSON_FAM: 0.7690 (1.0000):  69%|▋| 559/806 [00:22<00:09, 24.84it/s
+Epoch: 15/159 Phase: valid Loss: 0.3357 (0.1453) Acc: 0.0094 (0.1359) Rec PERSON_FAM: 0.7750 (0.6923):  75%|▊| 607/806 [00:24<00:08, 24.72it/s
+Epoch: 15/159 Phase: valid Loss: 0.3362 (0.1899) Acc: 0.0094 (0.1273) Rec PERSON_FAM: 0.7710 (0.6364):  82%|▊| 658/806 [00:26<00:05, 24.76it/s
+Epoch: 15/159 Phase: valid Loss: 0.3330 (0.1669) Acc: 0.0095 (0.1647) Rec PERSON_FAM: 0.7735 (nan):  88%|██▋| 706/806 [00:28<00:04, 24.44it/s]
+Epoch: 15/159 Phase: valid Loss: 0.3357 (0.2939) Acc: 0.0095 (0.1341) Rec PERSON_FAM: 0.7716 (1.0000):  94%|▉| 757/806 [00:30<00:01, 25.24it/s
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+Epoch: 16/159 Phase: train Loss: 0.3079 (0.2768) Acc: 0.0613 (0.1181) Rec PERSON_FAM: 0.7973 (1.0000):   2%|  | 9/504 [00:01<01:22,  5.97it/s]
+Epoch: 16/159 Phase: train Loss: 0.3005 (0.2618) Acc: 0.0611 (0.1420) Rec PERSON_FAM: 0.8121 (0.9231):   4%| | 22/504 [00:04<01:15,  6.36it/s]
+Epoch: 16/159 Phase: train Loss: 0.3062 (0.3209) Acc: 0.0603 (0.1172) Rec PERSON_FAM: 0.8064 (0.8125):   7%| | 34/504 [00:05<01:19,  5.92it/s]
+Epoch: 16/159 Phase: train Loss: 0.3001 (0.2670) Acc: 0.0600 (0.0929) Rec PERSON_FAM: 0.8142 (0.8529):   9%| | 47/504 [00:08<01:13,  6.22it/s]
+Epoch: 16/159 Phase: train Loss: 0.3005 (0.3226) Acc: 0.0606 (0.0907) Rec PERSON_FAM: 0.8112 (0.9216):  12%| | 59/504 [00:09<01:11,  6.26it/s]
+Epoch: 16/159 Phase: train Loss: 0.3048 (0.3213) Acc: 0.0606 (0.1046) Rec PERSON_FAM: 0.8093 (0.8983):  14%|▏| 72/504 [00:12<01:11,  6.03it/s]
+Epoch: 16/159 Phase: train Loss: 0.3060 (0.4324) Acc: 0.0607 (0.0907) Rec PERSON_FAM: 0.8048 (0.7521):  17%|▏| 84/504 [00:14<01:08,  6.12it/s]
+Epoch: 16/159 Phase: train Loss: 0.3047 (0.2965) Acc: 0.0608 (0.1184) Rec PERSON_FAM: 0.8116 (1.0000):  19%|▏| 97/504 [00:16<01:04,  6.35it/s]
+Epoch: 16/159 Phase: train Loss: 0.3057 (0.2512) Acc: 0.0607 (0.1091) Rec PERSON_FAM: 0.8079 (0.7544):  22%|▏| 109/504 [00:18<01:02,  6.31it/s
+Epoch: 16/159 Phase: train Loss: 0.3099 (0.3265) Acc: 0.0608 (0.1060) Rec PERSON_FAM: 0.8017 (0.7385):  24%|▏| 122/504 [00:20<01:01,  6.24it/s
+Epoch: 16/159 Phase: train Loss: 0.3101 (0.3960) Acc: 0.0606 (0.1104) Rec PERSON_FAM: 0.8053 (0.7733):  27%|▎| 135/504 [00:22<01:03,  5.82it/s
+Epoch: 16/159 Phase: train Loss: 0.3086 (0.3211) Acc: 0.0609 (0.1085) Rec PERSON_FAM: 0.8114 (0.8039):  29%|▎| 147/504 [00:24<00:58,  6.06it/s
+Epoch: 16/159 Phase: train Loss: 0.3070 (0.3198) Acc: 0.0610 (0.1216) Rec PERSON_FAM: 0.8116 (1.0000):  32%|▎| 160/504 [00:26<00:55,  6.19it/s
+Epoch: 16/159 Phase: train Loss: 0.3089 (0.5034) Acc: 0.0611 (0.0967) Rec PERSON_FAM: 0.8074 (0.6887):  34%|▎| 172/504 [00:28<00:56,  5.91it/s
+Epoch: 16/159 Phase: train Loss: 0.3072 (0.3208) Acc: 0.0610 (0.1239) Rec PERSON_FAM: 0.8088 (0.8654):  37%|▎| 184/504 [00:30<00:53,  5.98it/s
+Epoch: 16/159 Phase: train Loss: 0.3085 (0.2341) Acc: 0.0610 (0.1114) Rec PERSON_FAM: 0.8055 (0.8462):  39%|▍| 197/504 [00:32<00:51,  6.01it/s
+Epoch: 16/159 Phase: train Loss: 0.3079 (0.2889) Acc: 0.0612 (0.1207) Rec PERSON_FAM: 0.8084 (0.9298):  41%|▍| 209/504 [00:34<00:47,  6.15it/s
+Epoch: 16/159 Phase: train Loss: 0.3084 (0.3672) Acc: 0.0611 (0.1065) Rec PERSON_FAM: 0.8091 (0.6471):  44%|▍| 222/504 [00:36<00:44,  6.37it/s
+Epoch: 16/159 Phase: train Loss: 0.3086 (0.3581) Acc: 0.0611 (0.1231) Rec PERSON_FAM: 0.8099 (0.7966):  46%|▍| 231/504 [00:37<00:45,  5.98it/s
+Epoch: 16/159 Phase: train Loss: 0.3086 (0.3329) Acc: 0.0610 (0.1027) Rec PERSON_FAM: 0.8093 (0.7857):  48%|▍| 243/504 [00:39<00:42,  6.15it/s
+Epoch: 16/159 Phase: train Loss: 0.3086 (0.3088) Acc: 0.0612 (0.1156) Rec PERSON_FAM: 0.8104 (0.8444):  51%|▌| 256/504 [00:41<00:39,  6.31it/s
+Epoch: 16/159 Phase: train Loss: 0.3067 (0.3014) Acc: 0.0613 (0.1190) Rec PERSON_FAM: 0.8117 (1.0000):  53%|▌| 268/504 [00:43<00:38,  6.21it/s
+Epoch: 16/159 Phase: train Loss: 0.3061 (0.4440) Acc: 0.0614 (0.1178) Rec PERSON_FAM: 0.8104 (0.7500):  56%|▌| 281/504 [00:45<00:37,  6.00it/s
+Epoch: 16/159 Phase: train Loss: 0.3079 (0.4033) Acc: 0.0614 (0.1037) Rec PERSON_FAM: 0.8079 (0.5479):  58%|▌| 293/504 [00:47<00:34,  6.15it/s
+Epoch: 16/159 Phase: train Loss: 0.3073 (0.2838) Acc: 0.0615 (0.1201) Rec PERSON_FAM: 0.8111 (0.8627):  61%|▌| 305/504 [00:49<00:31,  6.23it/s
+Epoch: 16/159 Phase: train Loss: 0.3075 (0.3281) Acc: 0.0615 (0.1181) Rec PERSON_FAM: 0.8128 (0.6324):  63%|▋| 318/504 [00:51<00:29,  6.34it/s
+Epoch: 16/159 Phase: train Loss: 0.3079 (0.2990) Acc: 0.0614 (0.1153) Rec PERSON_FAM: 0.8128 (0.7727):  66%|▋| 331/504 [00:53<00:27,  6.30it/s
+Epoch: 16/159 Phase: train Loss: 0.3068 (0.2016) Acc: 0.0615 (0.1101) Rec PERSON_FAM: 0.8142 (0.9677):  68%|▋| 343/504 [00:55<00:26,  6.17it/s
+Epoch: 16/159 Phase: train Loss: 0.3059 (0.3304) Acc: 0.0616 (0.1222) Rec PERSON_FAM: 0.8130 (0.7857):  71%|▋| 356/504 [00:57<00:23,  6.30it/s
+Epoch: 16/159 Phase: train Loss: 0.3050 (0.3257) Acc: 0.0616 (0.1128) Rec PERSON_FAM: 0.8136 (0.7377):  73%|▋| 368/504 [00:59<00:21,  6.23it/s
+Epoch: 16/159 Phase: train Loss: 0.3046 (0.2832) Acc: 0.0616 (0.1151) Rec PERSON_FAM: 0.8145 (0.7826):  76%|▊| 381/504 [01:02<00:19,  6.29it/s
+Epoch: 16/159 Phase: train Loss: 0.3037 (0.3235) Acc: 0.0616 (0.1115) Rec PERSON_FAM: 0.8166 (0.8675):  78%|▊| 394/504 [01:04<00:17,  6.28it/s
+Epoch: 16/159 Phase: train Loss: 0.3027 (0.2130) Acc: 0.0616 (0.1086) Rec PERSON_FAM: 0.8187 (1.0000):  81%|▊| 406/504 [01:06<00:16,  6.09it/s
+Epoch: 16/159 Phase: train Loss: 0.3025 (0.2670) Acc: 0.0617 (0.1162) Rec PERSON_FAM: 0.8175 (0.6500):  83%|▊| 419/504 [01:08<00:13,  6.31it/s
+Epoch: 16/159 Phase: train Loss: 0.3026 (0.4998) Acc: 0.0617 (0.1282) Rec PERSON_FAM: 0.8174 (0.8030):  86%|▊| 431/504 [01:10<00:11,  6.11it/s
+Epoch: 16/159 Phase: train Loss: 0.3027 (0.2345) Acc: 0.0617 (0.1053) Rec PERSON_FAM: 0.8186 (0.7429):  88%|▉| 443/504 [01:12<00:09,  6.20it/s
+Epoch: 16/159 Phase: train Loss: 0.3035 (0.3259) Acc: 0.0617 (0.1088) Rec PERSON_FAM: 0.8170 (0.7209):  90%|▉| 456/504 [01:14<00:07,  6.17it/s
+Epoch: 16/159 Phase: train Loss: 0.3028 (0.2770) Acc: 0.0618 (0.1320) Rec PERSON_FAM: 0.8162 (0.9200):  93%|▉| 469/504 [01:16<00:05,  6.27it/s
+Epoch: 16/159 Phase: train Loss: 0.3032 (0.2573) Acc: 0.0618 (0.1238) Rec PERSON_FAM: 0.8168 (1.0000):  95%|▉| 481/504 [01:18<00:03,  6.31it/s
+Epoch: 16/159 Phase: train Loss: 0.3035 (0.2902) Acc: 0.0617 (0.1049) Rec PERSON_FAM: 0.8177 (0.6818):  98%|▉| 494/504 [01:20<00:01,  6.17it/s
+Epoch: 16/159 Phase: valid Loss: 0.3642 (0.0726) Acc: 0.0098 (0.1338) Rec PERSON_FAM: 0.7356 (1.0000):   1%|  | 7/806 [00:00<00:38, 20.77it/s]
+Epoch: 16/159 Phase: valid Loss: 0.2868 (0.5285) Acc: 0.0096 (0.1179) Rec PERSON_FAM: 0.8646 (1.0000):   7%| | 55/806 [00:02<00:32, 22.83it/s]
+Epoch: 16/159 Phase: valid Loss: 0.3093 (0.5415) Acc: 0.0096 (0.0669) Rec PERSON_FAM: 0.8448 (nan):  13%|▍  | 106/806 [00:04<00:27, 25.41it/s]
+Epoch: 16/159 Phase: valid Loss: 0.3226 (0.7625) Acc: 0.0095 (0.1244) Rec PERSON_FAM: 0.8203 (1.0000):  19%|▏| 157/806 [00:06<00:25, 25.32it/s
+Epoch: 16/159 Phase: valid Loss: 0.3259 (0.2141) Acc: 0.0096 (0.1226) Rec PERSON_FAM: 0.8189 (1.0000):  25%|▎| 205/806 [00:08<00:23, 25.24it/s
+Epoch: 16/159 Phase: valid Loss: 0.3250 (0.1144) Acc: 0.0094 (0.0977) Rec PERSON_FAM: 0.8150 (nan):  32%|▉  | 256/806 [00:10<00:22, 24.03it/s]
+Epoch: 16/159 Phase: valid Loss: 0.3272 (0.3417) Acc: 0.0094 (0.0954) Rec PERSON_FAM: 0.8118 (0.6087):  38%|▍| 307/806 [00:12<00:19, 25.10it/s
+Epoch: 16/159 Phase: valid Loss: 0.3333 (0.6324) Acc: 0.0093 (0.1152) Rec PERSON_FAM: 0.8061 (1.0000):  44%|▍| 358/806 [00:14<00:17, 25.84it/s
+Epoch: 16/159 Phase: valid Loss: 0.3299 (0.1813) Acc: 0.0093 (0.1347) Rec PERSON_FAM: 0.8105 (1.0000):  50%|▌| 406/806 [00:16<00:16, 24.90it/s
+Epoch: 16/159 Phase: valid Loss: 0.3278 (0.5342) Acc: 0.0093 (0.0700) Rec PERSON_FAM: 0.8214 (1.0000):  57%|▌| 457/806 [00:18<00:14, 24.53it/s
+Epoch: 16/159 Phase: valid Loss: 0.3319 (0.3466) Acc: 0.0093 (0.1107) Rec PERSON_FAM: 0.8211 (0.6154):  62%|▌| 496/806 [00:20<00:12, 24.83it/s
+Epoch: 16/159 Phase: valid Loss: 0.3304 (0.1125) Acc: 0.0094 (0.1030) Rec PERSON_FAM: 0.8236 (nan):  67%|██ | 544/806 [00:22<00:10, 25.37it/s]
+Epoch: 16/159 Phase: valid Loss: 0.3307 (0.2173) Acc: 0.0094 (0.0574) Rec PERSON_FAM: 0.8304 (0.9412):  74%|▋| 595/806 [00:24<00:08, 24.69it/s
+Epoch: 16/159 Phase: valid Loss: 0.3325 (0.2224) Acc: 0.0094 (0.1460) Rec PERSON_FAM: 0.8301 (1.0000):  80%|▊| 643/806 [00:26<00:07, 22.50it/s
+Epoch: 16/159 Phase: valid Loss: 0.3317 (0.4776) Acc: 0.0095 (0.0911) Rec PERSON_FAM: 0.8322 (1.0000):  86%|▊| 694/806 [00:28<00:04, 24.64it/s
+Epoch: 16/159 Phase: valid Loss: 0.3315 (0.1402) Acc: 0.0095 (0.1087) Rec PERSON_FAM: 0.8258 (1.0000):  92%|▉| 745/806 [00:30<00:02, 24.62it/s
+Epoch: 16/159 Phase: valid Loss: 0.3349 (0.1025) Acc: 0.0095 (0.1208) Rec PERSON_FAM: 0.8257 (nan):  99%|██▉| 796/806 [00:32<00:00, 25.20it/s]
+Epoch: 16/159 Phase: valid Loss: 0.3349 (0.1025) Acc: 0.0095 (0.1208) Rec PERSON_FAM: 0.8257 (nan):  99%|██▉| 796/806 [00:32<00:00, 25.20it/s]
+Epoch: 17/159 Phase: train Loss: 0.3034 (0.2524) Acc: 0.0607 (0.0994) Rec PERSON_FAM: 0.8436 (0.8500):   1%|  | 5/504 [00:01<01:45,  4.71it/s]
+Epoch: 17/159 Phase: train Loss: 0.3110 (0.3061) Acc: 0.0606 (0.1203) Rec PERSON_FAM: 0.8368 (0.8537):   4%| | 18/504 [00:03<01:17,  6.29it/s]
+Epoch: 17/159 Phase: train Loss: 0.3070 (0.2700) Acc: 0.0601 (0.0931) Rec PERSON_FAM: 0.8160 (0.9231):   6%| | 30/504 [00:05<01:22,  5.78it/s]
+Epoch: 17/159 Phase: train Loss: 0.3035 (0.2297) Acc: 0.0601 (0.0819) Rec PERSON_FAM: 0.8208 (0.9355):   8%| | 42/504 [00:07<01:14,  6.18it/s]
+Epoch: 17/159 Phase: train Loss: 0.2963 (0.2244) Acc: 0.0606 (0.1198) Rec PERSON_FAM: 0.8239 (0.8400):  11%| | 55/504 [00:09<01:12,  6.18it/s]
+Epoch: 17/159 Phase: train Loss: 0.2959 (0.2653) Acc: 0.0611 (0.1170) Rec PERSON_FAM: 0.8275 (0.7353):  13%|▏| 67/504 [00:11<01:12,  6.00it/s]
+Epoch: 17/159 Phase: train Loss: 0.2959 (0.2648) Acc: 0.0609 (0.1131) Rec PERSON_FAM: 0.8201 (0.9070):  16%|▏| 79/504 [00:13<01:06,  6.35it/s]
+Epoch: 17/159 Phase: train Loss: 0.2955 (0.2954) Acc: 0.0610 (0.1272) Rec PERSON_FAM: 0.8269 (0.7966):  18%|▏| 91/504 [00:15<01:08,  6.00it/s]
+Epoch: 17/159 Phase: train Loss: 0.2950 (0.2823) Acc: 0.0609 (0.1064) Rec PERSON_FAM: 0.8310 (0.8438):  20%|▏| 103/504 [00:17<01:06,  6.04it/s
+Epoch: 17/159 Phase: train Loss: 0.2993 (0.4013) Acc: 0.0609 (0.1014) Rec PERSON_FAM: 0.8215 (0.7364):  23%|▏| 116/504 [00:19<01:02,  6.20it/s
+Epoch: 17/159 Phase: train Loss: 0.3007 (0.3155) Acc: 0.0608 (0.1073) Rec PERSON_FAM: 0.8217 (0.7356):  26%|▎| 129/504 [00:21<01:00,  6.22it/s
+Epoch: 17/159 Phase: train Loss: 0.3026 (0.2723) Acc: 0.0610 (0.1291) Rec PERSON_FAM: 0.8217 (0.9681):  28%|▎| 141/504 [00:23<00:57,  6.29it/s
+Epoch: 17/159 Phase: train Loss: 0.3012 (0.3702) Acc: 0.0610 (0.0982) Rec PERSON_FAM: 0.8256 (0.7586):  31%|▎| 154/504 [00:25<00:56,  6.17it/s
+Epoch: 17/159 Phase: train Loss: 0.3039 (0.3844) Acc: 0.0612 (0.1032) Rec PERSON_FAM: 0.8225 (0.8800):  33%|▎| 166/504 [00:27<00:58,  5.78it/s
+Epoch: 17/159 Phase: train Loss: 0.3023 (0.2773) Acc: 0.0611 (0.0972) Rec PERSON_FAM: 0.8231 (0.8060):  36%|▎| 179/504 [00:29<00:52,  6.19it/s
+Epoch: 17/159 Phase: train Loss: 0.3017 (0.3719) Acc: 0.0611 (0.1145) Rec PERSON_FAM: 0.8220 (0.8000):  38%|▍| 191/504 [00:31<00:51,  6.09it/s
+Epoch: 17/159 Phase: train Loss: 0.3013 (0.2930) Acc: 0.0612 (0.1100) Rec PERSON_FAM: 0.8209 (0.7000):  40%|▍| 204/504 [00:33<00:49,  6.10it/s
+Epoch: 17/159 Phase: train Loss: 0.3009 (0.2516) Acc: 0.0613 (0.1093) Rec PERSON_FAM: 0.8242 (1.0000):  43%|▍| 216/504 [00:35<00:45,  6.31it/s
+Epoch: 17/159 Phase: train Loss: 0.3010 (0.2964) Acc: 0.0612 (0.0989) Rec PERSON_FAM: 0.8244 (1.0000):  45%|▍| 229/504 [00:37<00:43,  6.34it/s
+Epoch: 17/159 Phase: train Loss: 0.3016 (0.2873) Acc: 0.0611 (0.1073) Rec PERSON_FAM: 0.8233 (0.8333):  48%|▍| 241/504 [00:39<00:42,  6.21it/s
+Epoch: 17/159 Phase: train Loss: 0.3008 (0.2402) Acc: 0.0612 (0.1264) Rec PERSON_FAM: 0.8224 (0.7963):  50%|▌| 253/504 [00:41<00:40,  6.27it/s
+Epoch: 17/159 Phase: train Loss: 0.3001 (0.2659) Acc: 0.0613 (0.0985) Rec PERSON_FAM: 0.8227 (0.8627):  53%|▌| 266/504 [00:43<00:38,  6.18it/s
+Epoch: 17/159 Phase: train Loss: 0.2991 (0.3187) Acc: 0.0615 (0.1045) Rec PERSON_FAM: 0.8232 (0.7400):  55%|▌| 278/504 [00:45<00:37,  6.05it/s
+Epoch: 17/159 Phase: train Loss: 0.3001 (0.1831) Acc: 0.0614 (0.1159) Rec PERSON_FAM: 0.8204 (0.8393):  58%|▌| 290/504 [00:47<00:34,  6.17it/s
+Epoch: 17/159 Phase: train Loss: 0.2998 (0.2400) Acc: 0.0616 (0.0988) Rec PERSON_FAM: 0.8219 (0.8824):  60%|▌| 302/504 [00:49<00:32,  6.17it/s
+Epoch: 17/159 Phase: train Loss: 0.2995 (0.2411) Acc: 0.0616 (0.1181) Rec PERSON_FAM: 0.8244 (0.9487):  62%|▋| 315/504 [00:51<00:29,  6.37it/s
+Epoch: 17/159 Phase: train Loss: 0.3005 (0.4421) Acc: 0.0615 (0.1006) Rec PERSON_FAM: 0.8233 (0.6512):  65%|▋| 328/504 [00:53<00:28,  6.21it/s
+Epoch: 17/159 Phase: train Loss: 0.2994 (0.2421) Acc: 0.0616 (0.1011) Rec PERSON_FAM: 0.8250 (0.8732):  67%|▋| 340/504 [00:55<00:26,  6.23it/s
+Epoch: 17/159 Phase: train Loss: 0.2985 (0.3103) Acc: 0.0617 (0.1172) Rec PERSON_FAM: 0.8254 (0.9434):  69%|▋| 350/504 [00:57<00:25,  6.13it/s
+Epoch: 17/159 Phase: train Loss: 0.2976 (0.2580) Acc: 0.0617 (0.1034) Rec PERSON_FAM: 0.8261 (0.9355):  72%|▋| 362/504 [00:59<00:25,  5.49it/s
+Epoch: 17/159 Phase: train Loss: 0.2970 (0.2763) Acc: 0.0617 (0.1237) Rec PERSON_FAM: 0.8266 (0.8852):  74%|▋| 374/504 [01:01<00:20,  6.25it/s
+Epoch: 17/159 Phase: train Loss: 0.2968 (0.2830) Acc: 0.0617 (0.1243) Rec PERSON_FAM: 0.8275 (0.9583):  77%|▊| 387/504 [01:03<00:18,  6.26it/s
+Epoch: 17/159 Phase: train Loss: 0.2962 (0.2293) Acc: 0.0617 (0.1179) Rec PERSON_FAM: 0.8279 (0.7679):  79%|▊| 400/504 [01:05<00:16,  6.23it/s
+Epoch: 17/159 Phase: train Loss: 0.2949 (0.2321) Acc: 0.0618 (0.1116) Rec PERSON_FAM: 0.8288 (0.6977):  82%|▊| 412/504 [01:07<00:15,  5.95it/s
+Epoch: 17/159 Phase: train Loss: 0.2955 (0.2131) Acc: 0.0618 (0.0972) Rec PERSON_FAM: 0.8272 (1.0000):  84%|▊| 424/504 [01:09<00:13,  6.13it/s
+Epoch: 17/159 Phase: train Loss: 0.2963 (0.4018) Acc: 0.0618 (0.1127) Rec PERSON_FAM: 0.8270 (0.7600):  87%|▊| 436/504 [01:11<00:11,  6.14it/s
+Epoch: 17/159 Phase: train Loss: 0.2962 (0.3427) Acc: 0.0618 (0.0967) Rec PERSON_FAM: 0.8273 (0.7273):  89%|▉| 449/504 [01:13<00:08,  6.21it/s
+Epoch: 17/159 Phase: train Loss: 0.2967 (0.2421) Acc: 0.0618 (0.1152) Rec PERSON_FAM: 0.8266 (0.8977):  91%|▉| 461/504 [01:15<00:06,  6.29it/s
+Epoch: 17/159 Phase: train Loss: 0.2965 (0.3509) Acc: 0.0618 (0.1003) Rec PERSON_FAM: 0.8275 (1.0000):  94%|▉| 473/504 [01:17<00:04,  6.26it/s
+Epoch: 17/159 Phase: train Loss: 0.2964 (0.2607) Acc: 0.0619 (0.0825) Rec PERSON_FAM: 0.8277 (0.9057):  96%|▉| 485/504 [01:19<00:03,  6.31it/s
+Epoch: 17/159 Phase: train Loss: 0.2970 (0.3836) Acc: 0.0618 (0.0942) Rec PERSON_FAM: 0.8266 (0.6182):  99%|▉| 498/504 [01:21<00:00,  6.19it/s
+Epoch: 17/159 Phase: valid Loss: 0.3089 (0.3304) Acc: 0.0094 (0.1075) Rec PERSON_FAM: 0.7989 (1.0000):   3%| | 21/806 [00:01<00:32, 24.43it/s]
+Epoch: 17/159 Phase: valid Loss: 0.2971 (0.3319) Acc: 0.0096 (0.1043) Rec PERSON_FAM: 0.8512 (1.0000):   9%| | 69/806 [00:03<00:30, 24.24it/s]
+Epoch: 17/159 Phase: valid Loss: 0.3148 (0.2065) Acc: 0.0096 (0.1612) Rec PERSON_FAM: 0.8034 (1.0000):  15%|▏| 120/806 [00:05<00:29, 23.03it/s
+Epoch: 17/159 Phase: valid Loss: 0.3257 (0.2589) Acc: 0.0095 (0.0983) Rec PERSON_FAM: 0.8000 (1.0000):  21%|▏| 171/806 [00:07<00:25, 24.90it/s
+Epoch: 17/159 Phase: valid Loss: 0.3248 (0.5207) Acc: 0.0095 (0.0774) Rec PERSON_FAM: 0.7966 (0.6667):  28%|▎| 222/806 [00:09<00:22, 25.46it/s
+Epoch: 17/159 Phase: valid Loss: 0.3249 (0.2859) Acc: 0.0094 (0.1379) Rec PERSON_FAM: 0.7944 (nan):  34%|█  | 273/806 [00:11<00:21, 24.75it/s]
+Epoch: 17/159 Phase: valid Loss: 0.3262 (0.2176) Acc: 0.0094 (0.1237) Rec PERSON_FAM: 0.7854 (0.8571):  40%|▍| 321/806 [00:13<00:20, 23.55it/s
+Epoch: 17/159 Phase: valid Loss: 0.3311 (0.4220) Acc: 0.0093 (0.1177) Rec PERSON_FAM: 0.7929 (nan):  46%|█▍ | 372/806 [00:15<00:17, 25.07it/s]
+Epoch: 17/159 Phase: valid Loss: 0.3268 (0.2685) Acc: 0.0093 (0.1235) Rec PERSON_FAM: 0.8063 (0.2000):  52%|▌| 423/806 [00:17<00:15, 24.93it/s
+Epoch: 17/159 Phase: valid Loss: 0.3283 (0.7444) Acc: 0.0093 (0.0695) Rec PERSON_FAM: 0.8046 (nan):  59%|█▊ | 474/806 [00:19<00:13, 25.40it/s]
+Epoch: 17/159 Phase: valid Loss: 0.3275 (0.3211) Acc: 0.0093 (0.1513) Rec PERSON_FAM: 0.8037 (0.8333):  63%|▋| 510/806 [00:20<00:11, 25.36it/s
+Epoch: 17/159 Phase: valid Loss: 0.3292 (0.3344) Acc: 0.0093 (0.1567) Rec PERSON_FAM: 0.8089 (1.0000):  70%|▋| 561/806 [00:22<00:09, 25.06it/s
+Epoch: 17/159 Phase: valid Loss: 0.3303 (0.3168) Acc: 0.0094 (0.1287) Rec PERSON_FAM: 0.8146 (0.6154):  76%|▊| 612/806 [00:24<00:07, 24.99it/s
+Epoch: 17/159 Phase: valid Loss: 0.3290 (0.1295) Acc: 0.0094 (0.0880) Rec PERSON_FAM: 0.8149 (nan):  82%|██▍| 660/806 [00:26<00:05, 24.80it/s]
+Epoch: 17/159 Phase: valid Loss: 0.3265 (0.5826) Acc: 0.0095 (0.0951) Rec PERSON_FAM: 0.8145 (0.0000):  88%|▉| 711/806 [00:28<00:04, 22.91it/s
+Epoch: 17/159 Phase: valid Loss: 0.3286 (0.6214) Acc: 0.0095 (0.0663) Rec PERSON_FAM: 0.8132 (0.1667):  95%|▉| 762/806 [00:30<00:01, 25.11it/s
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+Epoch: 18/159 Phase: train Loss: 0.2927 (0.3489) Acc: 0.0613 (0.1205) Rec PERSON_FAM: 0.8742 (1.0000):   2%| | 10/504 [00:02<01:28,  5.55it/s]
+Epoch: 18/159 Phase: train Loss: 0.2996 (0.4274) Acc: 0.0609 (0.1103) Rec PERSON_FAM: 0.8308 (0.5690):   5%| | 23/504 [00:04<01:16,  6.33it/s]
+Epoch: 18/159 Phase: train Loss: 0.2997 (0.3214) Acc: 0.0603 (0.1160) Rec PERSON_FAM: 0.8322 (0.6984):   7%| | 35/504 [00:06<01:23,  5.59it/s]
+Epoch: 18/159 Phase: train Loss: 0.2911 (0.2790) Acc: 0.0599 (0.0973) Rec PERSON_FAM: 0.8496 (0.9592):  10%| | 48/504 [00:08<01:12,  6.29it/s]
+Epoch: 18/159 Phase: train Loss: 0.2894 (0.3280) Acc: 0.0607 (0.1025) Rec PERSON_FAM: 0.8489 (0.9091):  12%| | 60/504 [00:10<01:11,  6.25it/s]
+Epoch: 18/159 Phase: train Loss: 0.2917 (0.2540) Acc: 0.0608 (0.1062) Rec PERSON_FAM: 0.8343 (0.8983):  14%|▏| 72/504 [00:12<01:09,  6.20it/s]
+Epoch: 18/159 Phase: train Loss: 0.2937 (0.2535) Acc: 0.0609 (0.1029) Rec PERSON_FAM: 0.8341 (1.0000):  17%|▏| 85/504 [00:14<01:08,  6.16it/s]
+Epoch: 18/159 Phase: train Loss: 0.2933 (0.3075) Acc: 0.0609 (0.1172) Rec PERSON_FAM: 0.8371 (1.0000):  19%|▏| 97/504 [00:16<01:04,  6.34it/s]
+Epoch: 18/159 Phase: train Loss: 0.2932 (0.4185) Acc: 0.0609 (0.1287) Rec PERSON_FAM: 0.8318 (0.8158):  22%|▏| 110/504 [00:18<01:02,  6.26it/s
+Epoch: 18/159 Phase: train Loss: 0.2979 (0.3998) Acc: 0.0609 (0.1014) Rec PERSON_FAM: 0.8182 (0.5692):  24%|▏| 122/504 [00:20<01:00,  6.29it/s
+Epoch: 18/159 Phase: train Loss: 0.2992 (0.3744) Acc: 0.0607 (0.1127) Rec PERSON_FAM: 0.8158 (0.7333):  27%|▎| 135/504 [00:22<00:59,  6.24it/s
+Epoch: 18/159 Phase: train Loss: 0.2970 (0.2799) Acc: 0.0610 (0.1077) Rec PERSON_FAM: 0.8220 (0.7843):  29%|▎| 147/504 [00:24<00:57,  6.26it/s
+Epoch: 18/159 Phase: train Loss: 0.2967 (0.3187) Acc: 0.0611 (0.1185) Rec PERSON_FAM: 0.8251 (1.0000):  32%|▎| 160/504 [00:26<00:57,  6.01it/s
+Epoch: 18/159 Phase: train Loss: 0.2982 (0.4501) Acc: 0.0612 (0.1005) Rec PERSON_FAM: 0.8222 (0.7616):  34%|▎| 172/504 [00:28<00:55,  5.94it/s
+Epoch: 18/159 Phase: train Loss: 0.2968 (0.2167) Acc: 0.0611 (0.1294) Rec PERSON_FAM: 0.8222 (0.9615):  37%|▎| 184/504 [00:30<00:55,  5.76it/s
+Epoch: 18/159 Phase: train Loss: 0.2976 (0.2382) Acc: 0.0612 (0.1085) Rec PERSON_FAM: 0.8211 (0.8462):  39%|▍| 197/504 [00:32<00:49,  6.20it/s
+Epoch: 18/159 Phase: train Loss: 0.2966 (0.2695) Acc: 0.0614 (0.1221) Rec PERSON_FAM: 0.8237 (0.7719):  41%|▍| 209/504 [00:34<00:47,  6.24it/s
+Epoch: 18/159 Phase: train Loss: 0.2970 (0.2995) Acc: 0.0613 (0.1091) Rec PERSON_FAM: 0.8256 (0.9804):  44%|▍| 222/504 [00:36<00:44,  6.37it/s
+Epoch: 18/159 Phase: train Loss: 0.2971 (0.3225) Acc: 0.0613 (0.1088) Rec PERSON_FAM: 0.8271 (0.6296):  46%|▍| 234/504 [00:38<00:44,  6.02it/s
+Epoch: 18/159 Phase: train Loss: 0.2971 (0.2814) Acc: 0.0612 (0.1081) Rec PERSON_FAM: 0.8257 (0.8205):  49%|▍| 247/504 [00:40<00:42,  6.05it/s
+Epoch: 18/159 Phase: train Loss: 0.2969 (0.2003) Acc: 0.0613 (0.1292) Rec PERSON_FAM: 0.8256 (0.9038):  51%|▌| 259/504 [00:42<00:38,  6.34it/s
+Epoch: 18/159 Phase: train Loss: 0.2946 (0.2769) Acc: 0.0615 (0.0961) Rec PERSON_FAM: 0.8273 (0.7885):  54%|▌| 272/504 [00:44<00:38,  6.07it/s
+Epoch: 18/159 Phase: train Loss: 0.2947 (0.3510) Acc: 0.0616 (0.1116) Rec PERSON_FAM: 0.8255 (0.7294):  56%|▌| 284/504 [00:46<00:37,  5.79it/s
+Epoch: 18/159 Phase: train Loss: 0.2948 (0.2540) Acc: 0.0616 (0.1040) Rec PERSON_FAM: 0.8247 (1.0000):  59%|▌| 296/504 [00:48<00:33,  6.23it/s
+Epoch: 18/159 Phase: train Loss: 0.2949 (0.3251) Acc: 0.0617 (0.1175) Rec PERSON_FAM: 0.8262 (0.9091):  61%|▌| 309/504 [00:50<00:31,  6.11it/s
+Epoch: 18/159 Phase: train Loss: 0.2952 (0.3267) Acc: 0.0617 (0.1048) Rec PERSON_FAM: 0.8278 (0.8730):  63%|▋| 319/504 [00:52<00:29,  6.36it/s
+Epoch: 18/159 Phase: train Loss: 0.2962 (0.2587) Acc: 0.0616 (0.1182) Rec PERSON_FAM: 0.8265 (0.8636):  66%|▋| 331/504 [00:54<00:27,  6.34it/s
+Epoch: 18/159 Phase: train Loss: 0.2955 (0.2675) Acc: 0.0617 (0.1165) Rec PERSON_FAM: 0.8263 (0.7593):  68%|▋| 344/504 [00:56<00:26,  6.15it/s
+Epoch: 18/159 Phase: train Loss: 0.2950 (0.2376) Acc: 0.0617 (0.1252) Rec PERSON_FAM: 0.8263 (1.0000):  71%|▋| 356/504 [00:58<00:24,  6.03it/s
+Epoch: 18/159 Phase: train Loss: 0.2945 (0.2994) Acc: 0.0617 (0.1118) Rec PERSON_FAM: 0.8258 (0.8033):  73%|▋| 368/504 [01:00<00:22,  6.05it/s
+Epoch: 18/159 Phase: train Loss: 0.2937 (0.2348) Acc: 0.0618 (0.1160) Rec PERSON_FAM: 0.8270 (0.7609):  76%|▊| 381/504 [01:02<00:19,  6.23it/s
+Epoch: 18/159 Phase: train Loss: 0.2929 (0.3530) Acc: 0.0617 (0.0842) Rec PERSON_FAM: 0.8289 (0.8333):  78%|▊| 393/504 [01:04<00:17,  6.21it/s
+Epoch: 18/159 Phase: train Loss: 0.2924 (0.2356) Acc: 0.0618 (0.1080) Rec PERSON_FAM: 0.8305 (1.0000):  81%|▊| 406/504 [01:06<00:15,  6.24it/s
+Epoch: 18/159 Phase: train Loss: 0.2919 (0.3355) Acc: 0.0618 (0.1150) Rec PERSON_FAM: 0.8303 (0.9487):  83%|▊| 418/504 [01:08<00:13,  6.19it/s
+Epoch: 18/159 Phase: train Loss: 0.2917 (0.4219) Acc: 0.0619 (0.1298) Rec PERSON_FAM: 0.8305 (0.9242):  86%|▊| 431/504 [01:10<00:11,  6.11it/s
+Epoch: 18/159 Phase: train Loss: 0.2918 (0.1841) Acc: 0.0619 (0.1061) Rec PERSON_FAM: 0.8308 (0.8000):  88%|▉| 443/504 [01:12<00:09,  6.24it/s
+Epoch: 18/159 Phase: train Loss: 0.2927 (0.3580) Acc: 0.0619 (0.1085) Rec PERSON_FAM: 0.8292 (0.8837):  90%|▉| 456/504 [01:14<00:07,  6.14it/s
+Epoch: 18/159 Phase: train Loss: 0.2918 (0.3108) Acc: 0.0619 (0.1176) Rec PERSON_FAM: 0.8303 (0.6744):  93%|▉| 468/504 [01:16<00:05,  6.22it/s
+Epoch: 18/159 Phase: train Loss: 0.2917 (0.2353) Acc: 0.0619 (0.1269) Rec PERSON_FAM: 0.8310 (0.9459):  95%|▉| 481/504 [01:18<00:03,  6.30it/s
+Epoch: 18/159 Phase: train Loss: 0.2916 (0.3394) Acc: 0.0619 (0.1071) Rec PERSON_FAM: 0.8325 (0.9184):  98%|▉| 493/504 [01:20<00:01,  5.68it/s
+Epoch: 18/159 Phase: valid Loss: 0.3929 (0.1271) Acc: 0.0098 (0.0924) Rec PERSON_FAM: 0.7500 (1.0000):   0%|  | 4/806 [00:00<00:44, 17.98it/s]
+Epoch: 18/159 Phase: valid Loss: 0.2813 (0.3381) Acc: 0.0096 (0.0909) Rec PERSON_FAM: 0.8457 (0.7600):   6%| | 52/806 [00:02<00:30, 24.50it/s]
+Epoch: 18/159 Phase: valid Loss: 0.3058 (0.1325) Acc: 0.0096 (0.1167) Rec PERSON_FAM: 0.8258 (nan):  13%|▍  | 103/806 [00:04<00:27, 25.22it/s]
+Epoch: 18/159 Phase: valid Loss: 0.3152 (0.5421) Acc: 0.0095 (0.0889) Rec PERSON_FAM: 0.8114 (nan):  19%|▌  | 154/806 [00:06<00:25, 25.43it/s]
+Epoch: 18/159 Phase: valid Loss: 0.3202 (0.1398) Acc: 0.0096 (0.0844) Rec PERSON_FAM: 0.8121 (1.0000):  25%|▎| 205/806 [00:08<00:23, 25.18it/s
+Epoch: 18/159 Phase: valid Loss: 0.3188 (0.4091) Acc: 0.0095 (0.1144) Rec PERSON_FAM: 0.8196 (0.6316):  31%|▎| 253/806 [00:10<00:23, 23.26it/s
+Epoch: 18/159 Phase: valid Loss: 0.3226 (0.2328) Acc: 0.0094 (0.0734) Rec PERSON_FAM: 0.8159 (nan):  38%|█▏ | 304/806 [00:12<00:19, 25.32it/s]
+Epoch: 18/159 Phase: valid Loss: 0.3288 (0.2186) Acc: 0.0093 (0.1072) Rec PERSON_FAM: 0.8081 (1.0000):  44%|▍| 355/806 [00:14<00:17, 25.24it/s
+Epoch: 18/159 Phase: valid Loss: 0.3252 (0.2010) Acc: 0.0093 (0.1511) Rec PERSON_FAM: 0.8131 (nan):  50%|█▌ | 403/806 [00:16<00:16, 24.40it/s]
+Epoch: 18/159 Phase: valid Loss: 0.3236 (0.2897) Acc: 0.0094 (0.0780) Rec PERSON_FAM: 0.8171 (nan):  56%|█▋ | 454/806 [00:18<00:14, 23.85it/s]
+Epoch: 18/159 Phase: valid Loss: 0.3271 (0.3984) Acc: 0.0093 (0.0995) Rec PERSON_FAM: 0.8151 (0.6512):  63%|▋| 505/806 [00:20<00:12, 24.72it/s
+Epoch: 18/159 Phase: valid Loss: 0.3281 (0.3551) Acc: 0.0094 (0.0712) Rec PERSON_FAM: 0.8175 (1.0000):  67%|▋| 541/806 [00:22<00:10, 24.94it/s
+Epoch: 18/159 Phase: valid Loss: 0.3275 (0.3563) Acc: 0.0094 (0.1481) Rec PERSON_FAM: 0.8221 (1.0000):  73%|▋| 592/806 [00:24<00:08, 24.71it/s
+Epoch: 18/159 Phase: valid Loss: 0.3281 (0.3191) Acc: 0.0094 (0.0884) Rec PERSON_FAM: 0.8252 (1.0000):  79%|▊| 640/806 [00:26<00:06, 24.83it/s
+Epoch: 18/159 Phase: valid Loss: 0.3266 (0.1935) Acc: 0.0095 (0.1010) Rec PERSON_FAM: 0.8271 (1.0000):  86%|▊| 691/806 [00:28<00:04, 24.71it/s
+Epoch: 18/159 Phase: valid Loss: 0.3248 (0.2035) Acc: 0.0095 (0.1159) Rec PERSON_FAM: 0.8289 (0.7857):  92%|▉| 739/806 [00:30<00:02, 24.41it/s
+Epoch: 18/159 Phase: valid Loss: 0.3277 (0.4540) Acc: 0.0095 (0.0973) Rec PERSON_FAM: 0.8286 (nan):  98%|██▉| 790/806 [00:32<00:00, 24.83it/s]
+Epoch: 18/159 Phase: valid Loss: 0.3277 (0.4540) Acc: 0.0095 (0.0973) Rec PERSON_FAM: 0.8286 (nan):  98%|██▉| 790/806 [00:32<00:00, 24.83it/s]
+Epoch: 19/159 Phase: train Loss: 0.2869 (0.2495) Acc: 0.0603 (0.0957) Rec PERSON_FAM: 0.8208 (0.8750):   1%|  | 5/504 [00:01<01:41,  4.94it/s]
+Epoch: 19/159 Phase: train Loss: 0.2975 (0.3582) Acc: 0.0605 (0.1163) Rec PERSON_FAM: 0.8407 (0.6867):   3%| | 17/504 [00:03<01:19,  6.11it/s]
+Epoch: 19/159 Phase: train Loss: 0.2893 (0.2421) Acc: 0.0602 (0.0936) Rec PERSON_FAM: 0.8578 (1.0000):   6%| | 30/504 [00:05<01:17,  6.09it/s]
+Epoch: 19/159 Phase: train Loss: 0.2916 (0.2126) Acc: 0.0601 (0.0823) Rec PERSON_FAM: 0.8607 (0.9355):   8%| | 42/504 [00:07<01:15,  6.10it/s]
+Epoch: 19/159 Phase: train Loss: 0.2836 (0.2333) Acc: 0.0607 (0.1254) Rec PERSON_FAM: 0.8578 (0.7174):  11%| | 54/504 [00:09<01:13,  6.13it/s]
+Epoch: 19/159 Phase: train Loss: 0.2840 (0.2878) Acc: 0.0612 (0.1149) Rec PERSON_FAM: 0.8466 (0.8286):  13%|▏| 66/504 [00:11<01:16,  5.70it/s]
+Epoch: 19/159 Phase: train Loss: 0.2855 (0.2366) Acc: 0.0611 (0.1133) Rec PERSON_FAM: 0.8381 (1.0000):  16%|▏| 79/504 [00:13<01:08,  6.24it/s]
+Epoch: 19/159 Phase: train Loss: 0.2865 (0.3054) Acc: 0.0610 (0.1231) Rec PERSON_FAM: 0.8374 (0.6610):  18%|▏| 91/504 [00:15<01:07,  6.08it/s]
+Epoch: 19/159 Phase: train Loss: 0.2864 (0.3252) Acc: 0.0610 (0.1059) Rec PERSON_FAM: 0.8424 (0.9062):  20%|▏| 103/504 [00:17<01:06,  6.04it/s
+Epoch: 19/159 Phase: train Loss: 0.2891 (0.4230) Acc: 0.0610 (0.1045) Rec PERSON_FAM: 0.8378 (0.8571):  23%|▏| 115/504 [00:19<01:03,  6.16it/s
+Epoch: 19/159 Phase: train Loss: 0.2913 (0.2852) Acc: 0.0610 (0.1150) Rec PERSON_FAM: 0.8355 (0.8333):  25%|▎| 128/504 [00:21<01:02,  5.99it/s
+Epoch: 19/159 Phase: train Loss: 0.2926 (0.2401) Acc: 0.0611 (0.1231) Rec PERSON_FAM: 0.8308 (0.9677):  28%|▎| 140/504 [00:23<00:59,  6.15it/s
+Epoch: 19/159 Phase: train Loss: 0.2916 (0.2222) Acc: 0.0613 (0.1215) Rec PERSON_FAM: 0.8325 (0.8679):  30%|▎| 152/504 [00:25<00:57,  6.15it/s
+Epoch: 19/159 Phase: train Loss: 0.2924 (0.3083) Acc: 0.0614 (0.1154) Rec PERSON_FAM: 0.8317 (0.8125):  33%|▎| 164/504 [00:27<00:57,  5.95it/s
+Epoch: 19/159 Phase: train Loss: 0.2920 (0.3297) Acc: 0.0614 (0.0942) Rec PERSON_FAM: 0.8358 (0.9815):  35%|▎| 176/504 [00:29<00:58,  5.57it/s
+Epoch: 19/159 Phase: train Loss: 0.2908 (0.3160) Acc: 0.0614 (0.1262) Rec PERSON_FAM: 0.8347 (0.6833):  37%|▎| 188/504 [00:31<00:52,  6.00it/s
+Epoch: 19/159 Phase: train Loss: 0.2904 (0.3470) Acc: 0.0614 (0.1108) Rec PERSON_FAM: 0.8335 (0.8451):  40%|▍| 200/504 [00:33<00:49,  6.13it/s
+Epoch: 19/159 Phase: train Loss: 0.2919 (0.3291) Acc: 0.0615 (0.1067) Rec PERSON_FAM: 0.8331 (0.7033):  42%|▍| 213/504 [00:35<00:47,  6.16it/s
+Epoch: 19/159 Phase: train Loss: 0.2925 (0.3185) Acc: 0.0614 (0.1130) Rec PERSON_FAM: 0.8326 (0.6377):  45%|▍| 225/504 [00:37<00:45,  6.16it/s
+Epoch: 19/159 Phase: train Loss: 0.2917 (0.2006) Acc: 0.0614 (0.1079) Rec PERSON_FAM: 0.8348 (1.0000):  47%|▍| 237/504 [00:39<00:44,  6.02it/s
+Epoch: 19/159 Phase: train Loss: 0.2914 (0.2194) Acc: 0.0613 (0.1087) Rec PERSON_FAM: 0.8345 (1.0000):  49%|▍| 249/504 [00:41<00:41,  6.09it/s
+Epoch: 19/159 Phase: train Loss: 0.2909 (0.2503) Acc: 0.0616 (0.1280) Rec PERSON_FAM: 0.8335 (0.8140):  52%|▌| 262/504 [00:43<00:39,  6.06it/s
+Epoch: 19/159 Phase: train Loss: 0.2895 (0.3388) Acc: 0.0617 (0.1214) Rec PERSON_FAM: 0.8333 (0.6604):  54%|▌| 273/504 [00:45<00:39,  5.86it/s
+Epoch: 19/159 Phase: train Loss: 0.2902 (0.3332) Acc: 0.0617 (0.0985) Rec PERSON_FAM: 0.8323 (0.8026):  57%|▌| 285/504 [00:47<00:37,  5.85it/s
+Epoch: 19/159 Phase: train Loss: 0.2905 (0.3648) Acc: 0.0618 (0.1133) Rec PERSON_FAM: 0.8313 (0.6500):  59%|▌| 298/504 [00:49<00:36,  5.62it/s
+Epoch: 19/159 Phase: train Loss: 0.2898 (0.2221) Acc: 0.0619 (0.0967) Rec PERSON_FAM: 0.8340 (0.9070):  62%|▌| 310/504 [00:51<00:31,  6.10it/s
+Epoch: 19/159 Phase: train Loss: 0.2902 (0.3345) Acc: 0.0618 (0.1056) Rec PERSON_FAM: 0.8348 (0.7302):  63%|▋| 319/504 [00:53<00:30,  6.10it/s
+Epoch: 19/159 Phase: train Loss: 0.2913 (0.2824) Acc: 0.0617 (0.1149) Rec PERSON_FAM: 0.8338 (0.7955):  66%|▋| 331/504 [00:55<00:27,  6.21it/s
+Epoch: 19/159 Phase: train Loss: 0.2907 (0.2230) Acc: 0.0618 (0.1198) Rec PERSON_FAM: 0.8335 (0.9259):  68%|▋| 344/504 [00:57<00:26,  6.14it/s
+Epoch: 19/159 Phase: train Loss: 0.2900 (0.3277) Acc: 0.0619 (0.1251) Rec PERSON_FAM: 0.8354 (1.0000):  71%|▋| 356/504 [00:59<00:24,  5.97it/s
+Epoch: 19/159 Phase: train Loss: 0.2893 (0.2740) Acc: 0.0619 (0.1133) Rec PERSON_FAM: 0.8359 (0.9180):  73%|▋| 368/504 [01:01<00:22,  5.98it/s
+Epoch: 19/159 Phase: train Loss: 0.2889 (0.2292) Acc: 0.0619 (0.1055) Rec PERSON_FAM: 0.8360 (0.8140):  75%|▊| 380/504 [01:03<00:20,  6.06it/s
+Epoch: 19/159 Phase: train Loss: 0.2878 (0.3239) Acc: 0.0619 (0.0869) Rec PERSON_FAM: 0.8378 (0.8810):  78%|▊| 393/504 [01:05<00:18,  6.16it/s
+Epoch: 19/159 Phase: train Loss: 0.2873 (0.1405) Acc: 0.0620 (0.1145) Rec PERSON_FAM: 0.8390 (1.0000):  80%|▊| 405/504 [01:07<00:16,  5.89it/s
+Epoch: 19/159 Phase: train Loss: 0.2867 (0.3438) Acc: 0.0620 (0.1201) Rec PERSON_FAM: 0.8369 (0.8780):  83%|▊| 417/504 [01:09<00:14,  5.93it/s
+Epoch: 19/159 Phase: train Loss: 0.2862 (0.3729) Acc: 0.0620 (0.1051) Rec PERSON_FAM: 0.8373 (0.6866):  85%|▊| 429/504 [01:11<00:13,  5.51it/s
+Epoch: 19/159 Phase: train Loss: 0.2867 (0.2564) Acc: 0.0621 (0.1117) Rec PERSON_FAM: 0.8373 (1.0000):  88%|▉| 441/504 [01:13<00:10,  5.90it/s
+Epoch: 19/159 Phase: train Loss: 0.2871 (0.3600) Acc: 0.0620 (0.1284) Rec PERSON_FAM: 0.8354 (0.6200):  90%|▉| 453/504 [01:15<00:08,  6.17it/s
+Epoch: 19/159 Phase: train Loss: 0.2868 (0.3061) Acc: 0.0621 (0.1068) Rec PERSON_FAM: 0.8359 (0.8043):  92%|▉| 466/504 [01:17<00:06,  5.93it/s
+Epoch: 19/159 Phase: train Loss: 0.2868 (0.4149) Acc: 0.0621 (0.1283) Rec PERSON_FAM: 0.8358 (0.6250):  95%|▉| 478/504 [01:19<00:04,  6.19it/s
+Epoch: 19/159 Phase: train Loss: 0.2872 (0.3423) Acc: 0.0621 (0.1049) Rec PERSON_FAM: 0.8373 (0.7699):  97%|▉| 490/504 [01:21<00:02,  6.09it/s
+Epoch: 19/159 Phase: train Loss: 0.2870 (0.2405) Acc: 0.0620 (0.1068) Rec PERSON_FAM: 0.8378 (1.0000): 100%|▉| 503/504 [01:23<00:00,  6.26it/s
+Epoch: 19/159 Phase: valid Loss: 0.2895 (0.4149) Acc: 0.0096 (0.0895) Rec PERSON_FAM: 0.8209 (1.0000):   5%| | 42/806 [00:01<00:30, 25.13it/s]
+Epoch: 19/159 Phase: valid Loss: 0.2987 (0.4714) Acc: 0.0097 (0.0887) Rec PERSON_FAM: 0.8317 (1.0000):  11%| | 90/806 [00:03<00:29, 24.69it/s]
+Epoch: 19/159 Phase: valid Loss: 0.3162 (0.3651) Acc: 0.0095 (0.1287) Rec PERSON_FAM: 0.7968 (nan):  17%|▌  | 141/806 [00:05<00:26, 24.71it/s]
+Epoch: 19/159 Phase: valid Loss: 0.3213 (0.5913) Acc: 0.0096 (0.1236) Rec PERSON_FAM: 0.7964 (0.6250):  24%|▏| 192/806 [00:07<00:26, 23.55it/s
+Epoch: 19/159 Phase: valid Loss: 0.3163 (0.1105) Acc: 0.0095 (0.1374) Rec PERSON_FAM: 0.8123 (nan):  30%|▉  | 243/806 [00:09<00:22, 25.18it/s]
+Epoch: 19/159 Phase: valid Loss: 0.3190 (0.2654) Acc: 0.0094 (0.0944) Rec PERSON_FAM: 0.8101 (0.8846):  36%|▎| 291/806 [00:11<00:20, 24.84it/s
+Epoch: 19/159 Phase: valid Loss: 0.3236 (0.0918) Acc: 0.0094 (0.1227) Rec PERSON_FAM: 0.8005 (nan):  42%|█▎ | 342/806 [00:13<00:18, 25.21it/s]
+Epoch: 19/159 Phase: valid Loss: 0.3264 (0.2496) Acc: 0.0093 (0.0983) Rec PERSON_FAM: 0.8073 (1.0000):  49%|▍| 393/806 [00:15<00:16, 24.39it/s
+Epoch: 19/159 Phase: valid Loss: 0.3214 (0.4427) Acc: 0.0094 (0.1371) Rec PERSON_FAM: 0.8205 (1.0000):  55%|▌| 444/806 [00:18<00:14, 24.97it/s
+Epoch: 19/159 Phase: valid Loss: 0.3258 (0.5357) Acc: 0.0093 (0.0953) Rec PERSON_FAM: 0.8185 (1.0000):  61%|▌| 492/806 [00:20<00:12, 24.74it/s
+Epoch: 19/159 Phase: valid Loss: 0.3254 (0.3114) Acc: 0.0094 (0.1318) Rec PERSON_FAM: 0.8209 (1.0000):  67%|▋| 543/806 [00:22<00:10, 25.11it/s
+Epoch: 19/159 Phase: valid Loss: 0.3261 (0.7982) Acc: 0.0094 (0.1073) Rec PERSON_FAM: 0.8256 (1.0000):  73%|▋| 591/806 [00:24<00:08, 24.28it/s
+Epoch: 19/159 Phase: valid Loss: 0.3275 (0.4979) Acc: 0.0094 (0.1644) Rec PERSON_FAM: 0.8234 (nan):  78%|██▎| 630/806 [00:25<00:07, 24.73it/s]
+Epoch: 19/159 Phase: valid Loss: 0.3270 (0.2288) Acc: 0.0095 (0.0802) Rec PERSON_FAM: 0.8249 (1.0000):  84%|▊| 678/806 [00:27<00:05, 25.02it/s
+Epoch: 19/159 Phase: valid Loss: 0.3239 (0.2644) Acc: 0.0095 (0.1064) Rec PERSON_FAM: 0.8255 (1.0000):  90%|▉| 729/806 [00:29<00:03, 24.90it/s
+Epoch: 19/159 Phase: valid Loss: 0.3253 (0.4544) Acc: 0.0095 (0.0956) Rec PERSON_FAM: 0.8279 (0.0000):  96%|▉| 777/806 [00:31<00:01, 22.64it/s
+Epoch: 20/159 Phase: train Loss: 0.3369 (0.3639) Acc: 0.0583 (0.1007) Rec PERSON_FAM: 0.7751 (0.7800):   1%|  | 3/504 [00:00<02:12,  3.79it/s]
+Epoch: 20/159 Phase: train Loss: 0.3369 (0.3639) Acc: 0.0583 (0.1007) Rec PERSON_FAM: 0.7751 (0.7800):   1%|  | 3/504 [00:00<02:12,  3.79it/s]
+Epoch: 20/159 Phase: train Loss: 0.2851 (0.2704) Acc: 0.0607 (0.1093) Rec PERSON_FAM: 0.8329 (0.8182):   3%| | 15/504 [00:02<01:18,  6.23it/s]
+Epoch: 20/159 Phase: train Loss: 0.2868 (0.3090) Acc: 0.0608 (0.0995) Rec PERSON_FAM: 0.8380 (0.8475):   6%| | 28/504 [00:04<01:16,  6.21it/s]
+Epoch: 20/159 Phase: train Loss: 0.2865 (0.2058) Acc: 0.0608 (0.1079) Rec PERSON_FAM: 0.8453 (0.8478):   8%| | 40/504 [00:06<01:15,  6.16it/s]
+Epoch: 20/159 Phase: train Loss: 0.2846 (0.3998) Acc: 0.0607 (0.1111) Rec PERSON_FAM: 0.8526 (0.9000):  11%| | 53/504 [00:08<01:12,  6.19it/s]
+Epoch: 20/159 Phase: train Loss: 0.2819 (0.2454) Acc: 0.0613 (0.1154) Rec PERSON_FAM: 0.8541 (0.8769):  13%|▏| 65/504 [00:10<01:10,  6.24it/s]
+Epoch: 20/159 Phase: train Loss: 0.2838 (0.2678) Acc: 0.0612 (0.1086) Rec PERSON_FAM: 0.8409 (0.8372):  15%|▏| 78/504 [00:12<01:07,  6.27it/s]
+Epoch: 20/159 Phase: train Loss: 0.2827 (0.3449) Acc: 0.0612 (0.1027) Rec PERSON_FAM: 0.8454 (0.4500):  18%|▏| 90/504 [00:14<01:07,  6.18it/s]
+Epoch: 20/159 Phase: train Loss: 0.2814 (0.3285) Acc: 0.0613 (0.0955) Rec PERSON_FAM: 0.8483 (0.7234):  20%|▏| 102/504 [00:16<01:05,  6.18it/s
+Epoch: 20/159 Phase: train Loss: 0.2816 (0.3937) Acc: 0.0613 (0.1088) Rec PERSON_FAM: 0.8470 (0.7143):  23%|▏| 115/504 [00:18<01:02,  6.23it/s
+Epoch: 20/159 Phase: train Loss: 0.2836 (0.3037) Acc: 0.0612 (0.0967) Rec PERSON_FAM: 0.8441 (0.8374):  25%|▎| 127/504 [00:20<01:01,  6.11it/s
+Epoch: 20/159 Phase: train Loss: 0.2848 (0.2338) Acc: 0.0614 (0.1219) Rec PERSON_FAM: 0.8404 (0.9355):  28%|▎| 140/504 [00:23<00:57,  6.30it/s
+Epoch: 20/159 Phase: train Loss: 0.2836 (0.2389) Acc: 0.0615 (0.1191) Rec PERSON_FAM: 0.8414 (0.9245):  30%|▎| 152/504 [00:24<00:56,  6.27it/s
+Epoch: 20/159 Phase: train Loss: 0.2840 (0.2125) Acc: 0.0616 (0.1182) Rec PERSON_FAM: 0.8408 (0.8750):  33%|▎| 164/504 [00:26<00:53,  6.34it/s
+Epoch: 20/159 Phase: train Loss: 0.2837 (0.1901) Acc: 0.0616 (0.1147) Rec PERSON_FAM: 0.8409 (0.8158):  35%|▎| 177/504 [00:29<00:53,  6.07it/s
+Epoch: 20/159 Phase: train Loss: 0.2829 (0.2727) Acc: 0.0616 (0.1113) Rec PERSON_FAM: 0.8405 (0.7812):  38%|▍| 189/504 [00:31<00:50,  6.26it/s
+Epoch: 20/159 Phase: train Loss: 0.2826 (0.3043) Acc: 0.0617 (0.1371) Rec PERSON_FAM: 0.8398 (0.8529):  40%|▍| 202/504 [00:33<00:48,  6.24it/s
+Epoch: 20/159 Phase: train Loss: 0.2836 (0.2776) Acc: 0.0618 (0.0958) Rec PERSON_FAM: 0.8407 (0.8750):  43%|▍| 215/504 [00:35<00:45,  6.31it/s
+Epoch: 20/159 Phase: train Loss: 0.2839 (0.3211) Acc: 0.0617 (0.0951) Rec PERSON_FAM: 0.8414 (0.7660):  45%|▍| 227/504 [00:37<00:44,  6.20it/s
+Epoch: 20/159 Phase: train Loss: 0.2846 (0.2853) Acc: 0.0616 (0.1197) Rec PERSON_FAM: 0.8419 (0.8919):  47%|▍| 239/504 [00:39<00:43,  6.14it/s
+Epoch: 20/159 Phase: train Loss: 0.2850 (0.2782) Acc: 0.0616 (0.1177) Rec PERSON_FAM: 0.8416 (0.8462):  50%|▍| 251/504 [00:41<00:41,  6.08it/s
+Epoch: 20/159 Phase: train Loss: 0.2845 (0.2806) Acc: 0.0618 (0.1277) Rec PERSON_FAM: 0.8404 (0.8889):  52%|▌| 264/504 [00:43<00:38,  6.26it/s
+Epoch: 20/159 Phase: train Loss: 0.2836 (0.2064) Acc: 0.0619 (0.1084) Rec PERSON_FAM: 0.8425 (0.9048):  55%|▌| 276/504 [00:45<00:36,  6.25it/s
+Epoch: 20/159 Phase: train Loss: 0.2845 (0.2914) Acc: 0.0619 (0.1117) Rec PERSON_FAM: 0.8391 (0.8293):  57%|▌| 288/504 [00:47<00:34,  6.25it/s
+Epoch: 20/159 Phase: train Loss: 0.2848 (0.3093) Acc: 0.0620 (0.1196) Rec PERSON_FAM: 0.8409 (0.9231):  60%|▌| 300/504 [00:49<00:34,  5.90it/s
+Epoch: 20/159 Phase: train Loss: 0.2841 (0.3304) Acc: 0.0621 (0.0943) Rec PERSON_FAM: 0.8430 (0.9600):  62%|▌| 313/504 [00:51<00:30,  6.21it/s
+Epoch: 20/159 Phase: train Loss: 0.2834 (0.2338) Acc: 0.0620 (0.1241) Rec PERSON_FAM: 0.8445 (0.8529):  64%|▋| 325/504 [00:53<00:28,  6.25it/s
+Epoch: 20/159 Phase: train Loss: 0.2837 (0.2419) Acc: 0.0620 (0.1137) Rec PERSON_FAM: 0.8418 (0.8793):  67%|▋| 338/504 [00:55<00:26,  6.30it/s
+Epoch: 20/159 Phase: train Loss: 0.2825 (0.2757) Acc: 0.0621 (0.1015) Rec PERSON_FAM: 0.8431 (0.7209):  70%|▋| 351/504 [00:57<00:24,  6.31it/s
+Epoch: 20/159 Phase: train Loss: 0.2816 (0.2247) Acc: 0.0621 (0.1034) Rec PERSON_FAM: 0.8440 (0.5000):  72%|▋| 363/504 [00:59<00:22,  6.31it/s
+Epoch: 20/159 Phase: train Loss: 0.2813 (0.3613) Acc: 0.0621 (0.1090) Rec PERSON_FAM: 0.8439 (0.8039):  75%|▋| 376/504 [01:01<00:20,  6.28it/s
+Epoch: 20/159 Phase: train Loss: 0.2810 (0.2688) Acc: 0.0621 (0.1041) Rec PERSON_FAM: 0.8445 (0.9118):  76%|▊| 385/504 [01:02<00:19,  6.20it/s
+Epoch: 20/159 Phase: train Loss: 0.2801 (0.2904) Acc: 0.0622 (0.1081) Rec PERSON_FAM: 0.8464 (0.8611):  79%|▊| 398/504 [01:04<00:16,  6.28it/s
+Epoch: 20/159 Phase: train Loss: 0.2792 (0.3015) Acc: 0.0621 (0.1057) Rec PERSON_FAM: 0.8469 (1.0000):  81%|▊| 410/504 [01:06<00:15,  5.92it/s
+Epoch: 20/159 Phase: train Loss: 0.2799 (0.3153) Acc: 0.0622 (0.0947) Rec PERSON_FAM: 0.8449 (0.8889):  84%|▊| 422/504 [01:08<00:13,  6.17it/s
+Epoch: 20/159 Phase: train Loss: 0.2796 (0.2803) Acc: 0.0622 (0.1102) Rec PERSON_FAM: 0.8453 (0.8537):  86%|▊| 434/504 [01:10<00:11,  6.16it/s
+Epoch: 20/159 Phase: train Loss: 0.2798 (0.2602) Acc: 0.0622 (0.1140) Rec PERSON_FAM: 0.8461 (0.9130):  89%|▉| 447/504 [01:12<00:09,  6.18it/s
+Epoch: 20/159 Phase: train Loss: 0.2802 (0.3044) Acc: 0.0622 (0.1094) Rec PERSON_FAM: 0.8452 (0.7679):  91%|▉| 460/504 [01:15<00:06,  6.32it/s
+Epoch: 20/159 Phase: train Loss: 0.2796 (0.2316) Acc: 0.0623 (0.1055) Rec PERSON_FAM: 0.8458 (1.0000):  94%|▉| 472/504 [01:16<00:05,  6.21it/s
+Epoch: 20/159 Phase: train Loss: 0.2797 (0.2727) Acc: 0.0623 (0.1037) Rec PERSON_FAM: 0.8468 (1.0000):  96%|▉| 484/504 [01:18<00:03,  6.09it/s
+Epoch: 20/159 Phase: train Loss: 0.2804 (0.3823) Acc: 0.0622 (0.0989) Rec PERSON_FAM: 0.8474 (0.6393):  99%|▉| 497/504 [01:21<00:01,  6.05it/s
+Epoch: 20/159 Phase: valid Loss: 0.3001 (0.1502) Acc: 0.0093 (0.1159) Rec PERSON_FAM: 0.7661 (1.0000):   2%| | 19/806 [00:00<00:32, 24.39it/s]
+Epoch: 20/159 Phase: valid Loss: 0.2940 (0.3681) Acc: 0.0097 (0.0971) Rec PERSON_FAM: 0.8405 (0.5556):   9%| | 70/806 [00:02<00:30, 23.80it/s]
+Epoch: 20/159 Phase: valid Loss: 0.3098 (0.2227) Acc: 0.0096 (0.1605) Rec PERSON_FAM: 0.8157 (1.0000):  15%|▏| 121/806 [00:05<00:27, 25.18it/s
+Epoch: 20/159 Phase: valid Loss: 0.3162 (0.1678) Acc: 0.0096 (0.0889) Rec PERSON_FAM: 0.8134 (1.0000):  21%|▏| 169/806 [00:06<00:25, 25.16it/s
+Epoch: 20/159 Phase: valid Loss: 0.3153 (0.1632) Acc: 0.0095 (0.0962) Rec PERSON_FAM: 0.8134 (1.0000):  27%|▎| 220/806 [00:09<00:23, 25.41it/s
+Epoch: 20/159 Phase: valid Loss: 0.3167 (0.4152) Acc: 0.0094 (0.0921) Rec PERSON_FAM: 0.8145 (nan):  33%|▉  | 268/806 [00:11<00:21, 24.62it/s]
+Epoch: 20/159 Phase: valid Loss: 0.3194 (0.0729) Acc: 0.0094 (0.1369) Rec PERSON_FAM: 0.8006 (nan):  40%|█▏ | 319/806 [00:13<00:21, 22.84it/s]
+Epoch: 20/159 Phase: valid Loss: 0.3248 (0.2932) Acc: 0.0093 (0.1024) Rec PERSON_FAM: 0.8037 (nan):  46%|█▍ | 370/806 [00:15<00:17, 25.15it/s]
+Epoch: 20/159 Phase: valid Loss: 0.3221 (0.2775) Acc: 0.0093 (0.1050) Rec PERSON_FAM: 0.8144 (1.0000):  52%|▌| 421/806 [00:17<00:15, 25.20it/s
+Epoch: 20/159 Phase: valid Loss: 0.3216 (0.3030) Acc: 0.0094 (0.1321) Rec PERSON_FAM: 0.8168 (nan):  58%|█▋ | 469/806 [00:19<00:13, 24.51it/s]
+Epoch: 20/159 Phase: valid Loss: 0.3216 (0.2068) Acc: 0.0094 (0.1247) Rec PERSON_FAM: 0.8195 (nan):  65%|█▉ | 520/806 [00:21<00:12, 23.52it/s]
+Epoch: 20/159 Phase: valid Loss: 0.3233 (0.2896) Acc: 0.0094 (0.1074) Rec PERSON_FAM: 0.8193 (1.0000):  71%|▋| 571/806 [00:23<00:09, 24.83it/s
+Epoch: 20/159 Phase: valid Loss: 0.3248 (0.1788) Acc: 0.0094 (0.1153) Rec PERSON_FAM: 0.8225 (nan):  77%|██▎| 619/806 [00:25<00:07, 24.86it/s]
+Epoch: 20/159 Phase: valid Loss: 0.3232 (0.2643) Acc: 0.0095 (0.1104) Rec PERSON_FAM: 0.8272 (1.0000):  83%|▊| 670/806 [00:27<00:05, 25.06it/s
+Epoch: 20/159 Phase: valid Loss: 0.3219 (0.8359) Acc: 0.0095 (0.0550) Rec PERSON_FAM: 0.8268 (1.0000):  89%|▉| 718/806 [00:29<00:03, 23.36it/s
+Epoch: 20/159 Phase: valid Loss: 0.3218 (0.4119) Acc: 0.0095 (0.1138) Rec PERSON_FAM: 0.8279 (1.0000):  95%|▉| 769/806 [00:31<00:01, 24.52it/s
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+Epoch: 21/159 Phase: train Loss: 0.2743 (0.1818) Acc: 0.0618 (0.1207) Rec PERSON_FAM: 0.8838 (1.0000):   2%|  | 9/504 [00:01<01:22,  5.99it/s]
+Epoch: 21/159 Phase: train Loss: 0.2730 (0.2679) Acc: 0.0615 (0.1147) Rec PERSON_FAM: 0.8811 (0.8056):   4%| | 21/504 [00:03<01:21,  5.94it/s]
+Epoch: 21/159 Phase: train Loss: 0.2816 (0.3365) Acc: 0.0608 (0.0995) Rec PERSON_FAM: 0.8541 (0.9130):   7%| | 33/504 [00:05<01:14,  6.33it/s]
+Epoch: 21/159 Phase: train Loss: 0.2772 (0.2409) Acc: 0.0606 (0.1092) Rec PERSON_FAM: 0.8609 (0.7255):   9%| | 46/504 [00:08<01:14,  6.13it/s]
+Epoch: 21/159 Phase: train Loss: 0.2739 (0.2853) Acc: 0.0614 (0.1195) Rec PERSON_FAM: 0.8613 (0.4444):  12%| | 58/504 [00:09<01:11,  6.28it/s]
+Epoch: 21/159 Phase: train Loss: 0.2750 (0.2816) Acc: 0.0615 (0.0938) Rec PERSON_FAM: 0.8531 (0.8710):  14%|▏| 71/504 [00:12<01:10,  6.16it/s]
+Epoch: 21/159 Phase: train Loss: 0.2743 (0.3247) Acc: 0.0615 (0.1068) Rec PERSON_FAM: 0.8516 (0.8200):  16%|▏| 83/504 [00:14<01:09,  6.03it/s]
+Epoch: 21/159 Phase: train Loss: 0.2754 (0.3207) Acc: 0.0615 (0.1057) Rec PERSON_FAM: 0.8558 (0.8814):  19%|▏| 96/504 [00:16<01:04,  6.35it/s]
+Epoch: 21/159 Phase: train Loss: 0.2741 (0.1523) Acc: 0.0615 (0.1053) Rec PERSON_FAM: 0.8563 (1.0000):  21%|▏| 108/504 [00:18<01:04,  6.15it/s
+Epoch: 21/159 Phase: train Loss: 0.2756 (0.2145) Acc: 0.0616 (0.1399) Rec PERSON_FAM: 0.8512 (0.7818):  24%|▏| 121/504 [00:20<01:00,  6.30it/s
+Epoch: 21/159 Phase: train Loss: 0.2788 (0.3119) Acc: 0.0615 (0.0945) Rec PERSON_FAM: 0.8439 (0.7500):  26%|▎| 133/504 [00:22<00:59,  6.22it/s
+Epoch: 21/159 Phase: train Loss: 0.2790 (0.1179) Acc: 0.0616 (0.1284) Rec PERSON_FAM: 0.8469 (1.0000):  29%|▎| 146/504 [00:24<00:57,  6.20it/s
+Epoch: 21/159 Phase: train Loss: 0.2771 (0.3032) Acc: 0.0617 (0.1185) Rec PERSON_FAM: 0.8496 (0.8734):  32%|▎| 159/504 [00:26<00:55,  6.25it/s
+Epoch: 21/159 Phase: train Loss: 0.2776 (0.2369) Acc: 0.0619 (0.1139) Rec PERSON_FAM: 0.8498 (0.8772):  34%|▎| 171/504 [00:28<00:57,  5.80it/s
+Epoch: 21/159 Phase: train Loss: 0.2768 (0.2694) Acc: 0.0617 (0.1164) Rec PERSON_FAM: 0.8471 (0.7077):  36%|▎| 183/504 [00:30<00:51,  6.29it/s
+Epoch: 21/159 Phase: train Loss: 0.2768 (0.2668) Acc: 0.0618 (0.1086) Rec PERSON_FAM: 0.8475 (0.7500):  39%|▍| 196/504 [00:32<00:49,  6.28it/s
+Epoch: 21/159 Phase: train Loss: 0.2768 (0.2476) Acc: 0.0620 (0.1221) Rec PERSON_FAM: 0.8494 (0.9649):  41%|▍| 209/504 [00:34<00:46,  6.30it/s
+Epoch: 21/159 Phase: train Loss: 0.2765 (0.2310) Acc: 0.0619 (0.1164) Rec PERSON_FAM: 0.8515 (1.0000):  44%|▍| 221/504 [00:36<00:44,  6.34it/s
+Epoch: 21/159 Phase: train Loss: 0.2776 (0.2883) Acc: 0.0618 (0.1102) Rec PERSON_FAM: 0.8513 (0.7778):  46%|▍| 234/504 [00:38<00:45,  5.87it/s
+Epoch: 21/159 Phase: train Loss: 0.2778 (0.2186) Acc: 0.0618 (0.1103) Rec PERSON_FAM: 0.8518 (0.9231):  49%|▍| 246/504 [00:40<00:41,  6.21it/s
+Epoch: 21/159 Phase: train Loss: 0.2785 (0.2232) Acc: 0.0619 (0.1289) Rec PERSON_FAM: 0.8507 (0.9121):  51%|▌| 258/504 [00:42<00:40,  6.12it/s
+Epoch: 21/159 Phase: train Loss: 0.2767 (0.2528) Acc: 0.0621 (0.1115) Rec PERSON_FAM: 0.8525 (0.9130):  54%|▌| 271/504 [00:44<00:37,  6.27it/s
+Epoch: 21/159 Phase: train Loss: 0.2773 (0.3239) Acc: 0.0621 (0.1131) Rec PERSON_FAM: 0.8512 (0.7529):  56%|▌| 284/504 [00:46<00:34,  6.44it/s
+Epoch: 21/159 Phase: train Loss: 0.2783 (0.3172) Acc: 0.0621 (0.1036) Rec PERSON_FAM: 0.8496 (1.0000):  59%|▌| 296/504 [00:48<00:33,  6.29it/s
+Epoch: 21/159 Phase: train Loss: 0.2782 (0.3458) Acc: 0.0623 (0.1300) Rec PERSON_FAM: 0.8489 (1.0000):  61%|▌| 308/504 [00:50<00:31,  6.25it/s
+Epoch: 21/159 Phase: train Loss: 0.2789 (0.3714) Acc: 0.0622 (0.1129) Rec PERSON_FAM: 0.8513 (0.7727):  64%|▋| 321/504 [00:52<00:29,  6.28it/s
+Epoch: 21/159 Phase: train Loss: 0.2793 (0.2434) Acc: 0.0622 (0.1149) Rec PERSON_FAM: 0.8493 (0.8817):  66%|▋| 334/504 [00:54<00:27,  6.18it/s
+Epoch: 21/159 Phase: train Loss: 0.2784 (0.2292) Acc: 0.0622 (0.1191) Rec PERSON_FAM: 0.8493 (0.8684):  69%|▋| 346/504 [00:56<00:25,  6.13it/s
+Epoch: 21/159 Phase: train Loss: 0.2786 (0.3325) Acc: 0.0623 (0.1094) Rec PERSON_FAM: 0.8497 (0.7455):  71%|▋| 359/504 [00:58<00:23,  6.24it/s
+Epoch: 21/159 Phase: train Loss: 0.2778 (0.2712) Acc: 0.0622 (0.1117) Rec PERSON_FAM: 0.8499 (0.9048):  74%|▋| 371/504 [01:00<00:22,  5.93it/s
+Epoch: 21/159 Phase: train Loss: 0.2781 (0.2896) Acc: 0.0623 (0.1148) Rec PERSON_FAM: 0.8493 (0.8250):  76%|▊| 384/504 [01:02<00:19,  6.28it/s
+Epoch: 21/159 Phase: train Loss: 0.2773 (0.2860) Acc: 0.0623 (0.1095) Rec PERSON_FAM: 0.8507 (0.7143):  79%|▊| 396/504 [01:04<00:16,  6.36it/s
+Epoch: 21/159 Phase: train Loss: 0.2763 (0.1868) Acc: 0.0623 (0.1197) Rec PERSON_FAM: 0.8519 (0.9070):  81%|▊| 409/504 [01:06<00:15,  6.32it/s
+Epoch: 21/159 Phase: train Loss: 0.2767 (0.3085) Acc: 0.0623 (0.1128) Rec PERSON_FAM: 0.8497 (0.7625):  84%|▊| 421/504 [01:08<00:13,  6.29it/s
+Epoch: 21/159 Phase: train Loss: 0.2772 (0.2909) Acc: 0.0624 (0.1078) Rec PERSON_FAM: 0.8502 (0.8293):  86%|▊| 434/504 [01:10<00:11,  6.26it/s
+Epoch: 21/159 Phase: train Loss: 0.2770 (0.2043) Acc: 0.0624 (0.1054) Rec PERSON_FAM: 0.8514 (0.8571):  88%|▉| 443/504 [01:12<00:09,  6.20it/s
+Epoch: 21/159 Phase: train Loss: 0.2777 (0.2876) Acc: 0.0624 (0.1126) Rec PERSON_FAM: 0.8501 (0.8837):  90%|▉| 456/504 [01:14<00:07,  6.18it/s
+Epoch: 21/159 Phase: train Loss: 0.2772 (0.3326) Acc: 0.0624 (0.1148) Rec PERSON_FAM: 0.8503 (0.7791):  93%|▉| 468/504 [01:16<00:05,  6.25it/s
+Epoch: 21/159 Phase: train Loss: 0.2774 (0.2343) Acc: 0.0624 (0.1257) Rec PERSON_FAM: 0.8508 (0.9189):  95%|▉| 481/504 [01:18<00:03,  6.33it/s
+Epoch: 21/159 Phase: train Loss: 0.2779 (0.2287) Acc: 0.0623 (0.1037) Rec PERSON_FAM: 0.8518 (0.7727):  98%|▉| 494/504 [01:20<00:01,  6.31it/s
+Epoch: 21/159 Phase: valid Loss: 0.3446 (0.0672) Acc: 0.0101 (0.1353) Rec PERSON_FAM: 0.7356 (1.0000):   1%|  | 7/806 [00:00<00:39, 20.41it/s]
+Epoch: 21/159 Phase: valid Loss: 0.3070 (0.7259) Acc: 0.0097 (0.1070) Rec PERSON_FAM: 0.8286 (1.0000):   7%| | 58/806 [00:02<00:29, 25.00it/s]
+Epoch: 21/159 Phase: valid Loss: 0.3143 (0.6233) Acc: 0.0097 (0.0646) Rec PERSON_FAM: 0.8228 (nan):  13%|▍  | 106/806 [00:04<00:27, 25.21it/s]
+Epoch: 21/159 Phase: valid Loss: 0.3203 (0.7191) Acc: 0.0095 (0.1311) Rec PERSON_FAM: 0.8168 (1.0000):  19%|▏| 157/806 [00:06<00:25, 25.12it/s
+Epoch: 21/159 Phase: valid Loss: 0.3219 (0.2102) Acc: 0.0096 (0.1205) Rec PERSON_FAM: 0.8122 (1.0000):  25%|▎| 205/806 [00:08<00:24, 24.82it/s
+Epoch: 21/159 Phase: valid Loss: 0.3188 (0.1640) Acc: 0.0095 (0.0945) Rec PERSON_FAM: 0.8137 (nan):  32%|▉  | 256/806 [00:10<00:21, 25.16it/s]
+Epoch: 21/159 Phase: valid Loss: 0.3215 (0.3850) Acc: 0.0094 (0.0948) Rec PERSON_FAM: 0.8129 (0.6087):  38%|▍| 307/806 [00:12<00:19, 25.06it/s
+Epoch: 21/159 Phase: valid Loss: 0.3258 (0.3444) Acc: 0.0093 (0.0705) Rec PERSON_FAM: 0.8037 (1.0000):  44%|▍| 358/806 [00:14<00:17, 25.61it/s
+Epoch: 21/159 Phase: valid Loss: 0.3238 (0.1579) Acc: 0.0093 (0.1347) Rec PERSON_FAM: 0.8085 (1.0000):  50%|▌| 406/806 [00:16<00:16, 24.64it/s
+Epoch: 21/159 Phase: valid Loss: 0.3196 (0.2623) Acc: 0.0094 (0.0997) Rec PERSON_FAM: 0.8179 (1.0000):  57%|▌| 457/806 [00:18<00:14, 23.79it/s
+Epoch: 21/159 Phase: valid Loss: 0.3232 (0.2589) Acc: 0.0094 (0.1749) Rec PERSON_FAM: 0.8177 (1.0000):  63%|▋| 508/806 [00:20<00:11, 25.15it/s
+Epoch: 21/159 Phase: valid Loss: 0.3242 (0.3212) Acc: 0.0094 (0.0648) Rec PERSON_FAM: 0.8193 (1.0000):  69%|▋| 556/806 [00:22<00:10, 24.82it/s
+Epoch: 21/159 Phase: valid Loss: 0.3252 (0.2731) Acc: 0.0094 (0.0929) Rec PERSON_FAM: 0.8285 (1.0000):  75%|▊| 607/806 [00:24<00:08, 24.37it/s
+Epoch: 21/159 Phase: valid Loss: 0.3238 (0.2046) Acc: 0.0095 (0.0776) Rec PERSON_FAM: 0.8321 (0.5625):  81%|▊| 655/806 [00:26<00:06, 22.99it/s
+Epoch: 21/159 Phase: valid Loss: 0.3208 (0.0780) Acc: 0.0095 (0.0938) Rec PERSON_FAM: 0.8338 (1.0000):  88%|▉| 706/806 [00:28<00:03, 25.03it/s
+Epoch: 21/159 Phase: valid Loss: 0.3221 (0.1800) Acc: 0.0095 (0.0976) Rec PERSON_FAM: 0.8313 (1.0000):  94%|▉| 754/806 [00:30<00:02, 25.02it/s
+Epoch: 21/159 Phase: valid Loss: 0.3220 (0.1150) Acc: 0.0095 (0.1551) Rec PERSON_FAM: 0.8302 (nan): 100%|███| 806/806 [00:32<00:00, 24.57it/s]
+Epoch: 22/159 Phase: train Loss: 0.2950 (0.3637) Acc: 0.0613 (0.0958) Rec PERSON_FAM: 0.7885 (0.6939):   2%|  | 8/504 [00:01<01:28,  5.59it/s]
+Epoch: 22/159 Phase: train Loss: 0.2950 (0.3637) Acc: 0.0613 (0.0958) Rec PERSON_FAM: 0.7885 (0.6939):   2%|  | 8/504 [00:01<01:28,  5.59it/s]
+Epoch: 22/159 Phase: train Loss: 0.2784 (0.2184) Acc: 0.0614 (0.1152) Rec PERSON_FAM: 0.8349 (0.8194):   4%| | 21/504 [00:03<01:16,  6.35it/s]
+Epoch: 22/159 Phase: train Loss: 0.2877 (0.3590) Acc: 0.0606 (0.1004) Rec PERSON_FAM: 0.8246 (0.9239):   7%| | 33/504 [00:05<01:20,  5.87it/s]
+Epoch: 22/159 Phase: train Loss: 0.2873 (0.2212) Acc: 0.0604 (0.0819) Rec PERSON_FAM: 0.8334 (0.9677):   8%| | 42/504 [00:07<01:18,  5.91it/s]
+Epoch: 22/159 Phase: train Loss: 0.2794 (0.2119) Acc: 0.0609 (0.1249) Rec PERSON_FAM: 0.8433 (1.0000):  11%| | 54/504 [00:09<01:12,  6.21it/s]
+Epoch: 22/159 Phase: train Loss: 0.2759 (0.2436) Acc: 0.0615 (0.1217) Rec PERSON_FAM: 0.8438 (0.9714):  13%|▏| 66/504 [00:11<01:16,  5.73it/s]
+Epoch: 22/159 Phase: train Loss: 0.2767 (0.2412) Acc: 0.0613 (0.1129) Rec PERSON_FAM: 0.8363 (1.0000):  15%|▏| 78/504 [00:13<01:09,  6.14it/s]
+Epoch: 22/159 Phase: train Loss: 0.2759 (0.3214) Acc: 0.0613 (0.1056) Rec PERSON_FAM: 0.8410 (0.7750):  18%|▏| 90/504 [00:15<01:07,  6.14it/s]
+Epoch: 22/159 Phase: train Loss: 0.2729 (0.2307) Acc: 0.0614 (0.1118) Rec PERSON_FAM: 0.8470 (0.9531):  20%|▏| 103/504 [00:17<01:05,  6.13it/s
+Epoch: 22/159 Phase: train Loss: 0.2746 (0.4101) Acc: 0.0615 (0.1063) Rec PERSON_FAM: 0.8463 (0.8333):  23%|▏| 115/504 [00:19<01:02,  6.21it/s
+Epoch: 22/159 Phase: train Loss: 0.2765 (0.2818) Acc: 0.0614 (0.1118) Rec PERSON_FAM: 0.8447 (0.6667):  25%|▎| 128/504 [00:21<00:59,  6.33it/s
+Epoch: 22/159 Phase: train Loss: 0.2778 (0.2482) Acc: 0.0615 (0.1224) Rec PERSON_FAM: 0.8397 (0.7581):  28%|▎| 140/504 [00:23<00:58,  6.21it/s
+Epoch: 22/159 Phase: train Loss: 0.2758 (0.2207) Acc: 0.0616 (0.0909) Rec PERSON_FAM: 0.8447 (0.9348):  30%|▎| 153/504 [00:25<00:55,  6.34it/s
+Epoch: 22/159 Phase: train Loss: 0.2779 (0.4346) Acc: 0.0618 (0.1022) Rec PERSON_FAM: 0.8425 (0.7280):  33%|▎| 166/504 [00:27<00:53,  6.32it/s
+Epoch: 22/159 Phase: train Loss: 0.2765 (0.2332) Acc: 0.0618 (0.1132) Rec PERSON_FAM: 0.8434 (0.8511):  35%|▎| 178/504 [00:29<00:52,  6.25it/s
+Epoch: 22/159 Phase: train Loss: 0.2753 (0.1988) Acc: 0.0618 (0.1000) Rec PERSON_FAM: 0.8429 (1.0000):  38%|▍| 190/504 [00:31<00:50,  6.18it/s
+Epoch: 22/159 Phase: train Loss: 0.2755 (0.2813) Acc: 0.0619 (0.1170) Rec PERSON_FAM: 0.8415 (0.8911):  40%|▍| 203/504 [00:33<00:48,  6.20it/s
+Epoch: 22/159 Phase: train Loss: 0.2750 (0.2313) Acc: 0.0620 (0.1116) Rec PERSON_FAM: 0.8424 (1.0000):  43%|▍| 216/504 [00:35<00:44,  6.40it/s
+Epoch: 22/159 Phase: train Loss: 0.2756 (0.3366) Acc: 0.0619 (0.1020) Rec PERSON_FAM: 0.8405 (0.9091):  45%|▍| 228/504 [00:37<00:44,  6.19it/s
+Epoch: 22/159 Phase: train Loss: 0.2758 (0.2859) Acc: 0.0618 (0.1171) Rec PERSON_FAM: 0.8426 (0.9538):  48%|▍| 240/504 [00:39<00:43,  6.04it/s
+Epoch: 22/159 Phase: train Loss: 0.2760 (0.2776) Acc: 0.0619 (0.1233) Rec PERSON_FAM: 0.8427 (0.7407):  50%|▌| 253/504 [00:41<00:39,  6.30it/s
+Epoch: 22/159 Phase: train Loss: 0.2753 (0.1943) Acc: 0.0620 (0.1151) Rec PERSON_FAM: 0.8423 (1.0000):  53%|▌| 265/504 [00:43<00:38,  6.20it/s
+Epoch: 22/159 Phase: train Loss: 0.2733 (0.2234) Acc: 0.0622 (0.1067) Rec PERSON_FAM: 0.8439 (0.8000):  55%|▌| 278/504 [00:45<00:36,  6.12it/s
+Epoch: 22/159 Phase: train Loss: 0.2748 (0.2022) Acc: 0.0621 (0.1135) Rec PERSON_FAM: 0.8413 (0.8214):  58%|▌| 290/504 [00:47<00:34,  6.16it/s
+Epoch: 22/159 Phase: train Loss: 0.2745 (0.2500) Acc: 0.0622 (0.0971) Rec PERSON_FAM: 0.8433 (0.8824):  60%|▌| 302/504 [00:49<00:35,  5.72it/s
+Epoch: 22/159 Phase: train Loss: 0.2745 (0.2554) Acc: 0.0623 (0.1184) Rec PERSON_FAM: 0.8455 (1.0000):  62%|▋| 315/504 [00:51<00:29,  6.40it/s
+Epoch: 22/159 Phase: train Loss: 0.2751 (0.3625) Acc: 0.0622 (0.1063) Rec PERSON_FAM: 0.8441 (0.7606):  65%|▋| 327/504 [00:53<00:28,  6.29it/s
+Epoch: 22/159 Phase: train Loss: 0.2749 (0.2305) Acc: 0.0622 (0.1032) Rec PERSON_FAM: 0.8445 (0.8732):  67%|▋| 340/504 [00:55<00:26,  6.25it/s
+Epoch: 22/159 Phase: train Loss: 0.2739 (0.1951) Acc: 0.0623 (0.1130) Rec PERSON_FAM: 0.8453 (0.7647):  70%|▋| 352/504 [00:57<00:24,  6.19it/s
+Epoch: 22/159 Phase: train Loss: 0.2735 (0.3331) Acc: 0.0623 (0.1064) Rec PERSON_FAM: 0.8455 (0.7679):  72%|▋| 365/504 [00:59<00:22,  6.23it/s
+Epoch: 22/159 Phase: train Loss: 0.2728 (0.2623) Acc: 0.0624 (0.1116) Rec PERSON_FAM: 0.8463 (0.7500):  75%|▋| 377/504 [01:01<00:20,  6.30it/s
+Epoch: 22/159 Phase: train Loss: 0.2726 (0.2878) Acc: 0.0624 (0.0972) Rec PERSON_FAM: 0.8478 (0.7975):  77%|▊| 389/504 [01:03<00:18,  6.27it/s
+Epoch: 22/159 Phase: train Loss: 0.2727 (0.3379) Acc: 0.0624 (0.1162) Rec PERSON_FAM: 0.8480 (1.0000):  80%|▊| 402/504 [01:05<00:16,  6.27it/s
+Epoch: 22/159 Phase: train Loss: 0.2717 (0.3855) Acc: 0.0623 (0.1115) Rec PERSON_FAM: 0.8479 (0.7260):  82%|▊| 414/504 [01:07<00:14,  6.12it/s
+Epoch: 22/159 Phase: train Loss: 0.2714 (0.1388) Acc: 0.0624 (0.1022) Rec PERSON_FAM: 0.8470 (1.0000):  85%|▊| 426/504 [01:09<00:13,  5.76it/s
+Epoch: 22/159 Phase: train Loss: 0.2720 (0.2774) Acc: 0.0625 (0.1239) Rec PERSON_FAM: 0.8480 (0.9767):  87%|▊| 439/504 [01:12<00:10,  6.11it/s
+Epoch: 22/159 Phase: train Loss: 0.2723 (0.2770) Acc: 0.0624 (0.1176) Rec PERSON_FAM: 0.8469 (0.7647):  89%|▉| 451/504 [01:14<00:08,  5.96it/s
+Epoch: 22/159 Phase: train Loss: 0.2717 (0.2302) Acc: 0.0625 (0.1142) Rec PERSON_FAM: 0.8474 (0.8283):  92%|▉| 464/504 [01:16<00:06,  6.28it/s
+Epoch: 22/159 Phase: train Loss: 0.2719 (0.1948) Acc: 0.0625 (0.1172) Rec PERSON_FAM: 0.8471 (0.8676):  94%|▉| 476/504 [01:18<00:04,  5.97it/s
+Epoch: 22/159 Phase: train Loss: 0.2720 (0.3564) Acc: 0.0625 (0.0980) Rec PERSON_FAM: 0.8485 (0.8732):  97%|▉| 488/504 [01:19<00:02,  6.23it/s
+Epoch: 22/159 Phase: train Loss: 0.2718 (0.2395) Acc: 0.0624 (0.1055) Rec PERSON_FAM: 0.8493 (0.9848):  99%|▉| 501/504 [01:22<00:00,  6.50it/s
+Epoch: 22/159 Phase: valid Loss: 0.2990 (0.2186) Acc: 0.0096 (0.1309) Rec PERSON_FAM: 0.8316 (1.0000):   4%| | 34/806 [00:01<00:31, 24.38it/s]
+Epoch: 22/159 Phase: valid Loss: 0.3021 (0.2754) Acc: 0.0096 (0.1100) Rec PERSON_FAM: 0.8309 (1.0000):   9%| | 70/806 [00:03<00:30, 23.82it/s]
+Epoch: 22/159 Phase: valid Loss: 0.3127 (0.1915) Acc: 0.0096 (0.0531) Rec PERSON_FAM: 0.8113 (nan):  15%|▍  | 121/806 [00:05<00:26, 25.43it/s]
+Epoch: 22/159 Phase: valid Loss: 0.3167 (0.2406) Acc: 0.0096 (0.0996) Rec PERSON_FAM: 0.8127 (1.0000):  21%|▏| 172/806 [00:07<00:25, 25.05it/s
+Epoch: 22/159 Phase: valid Loss: 0.3128 (0.1653) Acc: 0.0095 (0.1228) Rec PERSON_FAM: 0.8160 (1.0000):  27%|▎| 220/806 [00:09<00:23, 25.31it/s
+Epoch: 22/159 Phase: valid Loss: 0.3155 (0.1381) Acc: 0.0095 (0.1131) Rec PERSON_FAM: 0.8123 (1.0000):  34%|▎| 271/806 [00:11<00:21, 24.45it/s
+Epoch: 22/159 Phase: valid Loss: 0.3163 (0.6929) Acc: 0.0094 (0.0494) Rec PERSON_FAM: 0.7998 (0.6842):  40%|▍| 319/806 [00:13<00:19, 25.10it/s
+Epoch: 22/159 Phase: valid Loss: 0.3219 (0.2966) Acc: 0.0093 (0.1059) Rec PERSON_FAM: 0.8019 (1.0000):  46%|▍| 373/806 [00:15<00:17, 24.93it/s
+Epoch: 22/159 Phase: valid Loss: 0.3188 (0.2203) Acc: 0.0094 (0.1237) Rec PERSON_FAM: 0.8132 (1.0000):  52%|▌| 421/806 [00:17<00:15, 25.23it/s
+Epoch: 22/159 Phase: valid Loss: 0.3191 (0.6828) Acc: 0.0094 (0.0695) Rec PERSON_FAM: 0.8142 (nan):  59%|█▊ | 472/806 [00:19<00:13, 25.04it/s]
+Epoch: 22/159 Phase: valid Loss: 0.3183 (0.4040) Acc: 0.0094 (0.0999) Rec PERSON_FAM: 0.8182 (1.0000):  65%|▋| 523/806 [00:21<00:12, 23.24it/s
+Epoch: 22/159 Phase: valid Loss: 0.3203 (0.1987) Acc: 0.0094 (0.1543) Rec PERSON_FAM: 0.8172 (nan):  71%|██▏| 574/806 [00:23<00:09, 24.64it/s]
+Epoch: 22/159 Phase: valid Loss: 0.3203 (0.6093) Acc: 0.0095 (0.1003) Rec PERSON_FAM: 0.8195 (nan):  77%|██▎| 622/806 [00:25<00:07, 25.08it/s]
+Epoch: 22/159 Phase: valid Loss: 0.3183 (0.3476) Acc: 0.0095 (0.1010) Rec PERSON_FAM: 0.8224 (1.0000):  83%|▊| 670/806 [00:27<00:05, 24.29it/s
+Epoch: 22/159 Phase: valid Loss: 0.3171 (0.3104) Acc: 0.0096 (0.2088) Rec PERSON_FAM: 0.8191 (nan):  89%|██▋| 721/806 [00:29<00:03, 24.03it/s]
+Epoch: 22/159 Phase: valid Loss: 0.3185 (0.1365) Acc: 0.0096 (0.0963) Rec PERSON_FAM: 0.8198 (nan):  96%|██▊| 772/806 [00:31<00:01, 24.88it/s]
+Epoch: 23/159 Phase: train Loss: 0.1858 (0.1858) Acc: 0.0618 (0.1116) Rec PERSON_FAM: 1.0000 (1.0000):   0%|  | 1/504 [00:00<04:18,  1.95it/s]
+Epoch: 23/159 Phase: train Loss: 0.1858 (0.1858) Acc: 0.0618 (0.1116) Rec PERSON_FAM: 1.0000 (1.0000):   0%|  | 1/504 [00:00<04:18,  1.95it/s]
+Epoch: 23/159 Phase: train Loss: 0.2751 (0.2777) Acc: 0.0617 (0.1193) Rec PERSON_FAM: 0.8313 (0.8182):   3%| | 13/504 [00:02<01:20,  6.10it/s]
+Epoch: 23/159 Phase: train Loss: 0.2729 (0.2411) Acc: 0.0612 (0.1016) Rec PERSON_FAM: 0.8345 (0.8462):   5%| | 25/504 [00:04<01:15,  6.33it/s]
+Epoch: 23/159 Phase: train Loss: 0.2765 (0.3750) Acc: 0.0609 (0.0835) Rec PERSON_FAM: 0.8335 (0.8082):   8%| | 38/504 [00:06<01:14,  6.26it/s]
+Epoch: 23/159 Phase: train Loss: 0.2690 (0.1916) Acc: 0.0610 (0.1316) Rec PERSON_FAM: 0.8357 (0.8404):  10%| | 50/504 [00:08<01:12,  6.26it/s]
+Epoch: 23/159 Phase: train Loss: 0.2717 (0.4128) Acc: 0.0614 (0.1156) Rec PERSON_FAM: 0.8427 (0.7115):  12%| | 62/504 [00:10<01:10,  6.26it/s]
+Epoch: 23/159 Phase: train Loss: 0.2701 (0.2408) Acc: 0.0615 (0.1247) Rec PERSON_FAM: 0.8423 (1.0000):  15%|▏| 75/504 [00:12<01:07,  6.32it/s]
+Epoch: 23/159 Phase: train Loss: 0.2713 (0.3101) Acc: 0.0615 (0.1081) Rec PERSON_FAM: 0.8467 (0.8611):  17%|▏| 87/504 [00:14<01:06,  6.23it/s]
+Epoch: 23/159 Phase: train Loss: 0.2695 (0.3046) Acc: 0.0616 (0.1045) Rec PERSON_FAM: 0.8468 (0.8308):  20%|▏| 100/504 [00:16<01:05,  6.20it/s
+Epoch: 23/159 Phase: train Loss: 0.2686 (0.2887) Acc: 0.0616 (0.1003) Rec PERSON_FAM: 0.8490 (0.7843):  22%|▏| 112/504 [00:18<01:02,  6.25it/s
+Epoch: 23/159 Phase: train Loss: 0.2720 (0.3500) Acc: 0.0616 (0.1065) Rec PERSON_FAM: 0.8417 (0.6923):  24%|▏| 122/504 [00:20<01:00,  6.32it/s
+Epoch: 23/159 Phase: train Loss: 0.2736 (0.3608) Acc: 0.0615 (0.1149) Rec PERSON_FAM: 0.8371 (0.8000):  27%|▎| 135/504 [00:22<00:58,  6.27it/s
+Epoch: 23/159 Phase: train Loss: 0.2732 (0.2239) Acc: 0.0617 (0.1100) Rec PERSON_FAM: 0.8369 (0.7647):  29%|▎| 147/504 [00:24<00:56,  6.33it/s
+Epoch: 23/159 Phase: train Loss: 0.2715 (0.2688) Acc: 0.0618 (0.1213) Rec PERSON_FAM: 0.8427 (1.0000):  32%|▎| 160/504 [00:26<00:56,  6.14it/s
+Epoch: 23/159 Phase: train Loss: 0.2726 (0.4010) Acc: 0.0620 (0.1014) Rec PERSON_FAM: 0.8419 (0.7815):  34%|▎| 172/504 [00:28<00:52,  6.35it/s
+Epoch: 23/159 Phase: train Loss: 0.2707 (0.2362) Acc: 0.0618 (0.1053) Rec PERSON_FAM: 0.8426 (0.9836):  37%|▎| 185/504 [00:30<00:50,  6.31it/s
+Epoch: 23/159 Phase: train Loss: 0.2712 (0.2564) Acc: 0.0620 (0.1263) Rec PERSON_FAM: 0.8420 (0.8200):  39%|▍| 198/504 [00:32<00:48,  6.30it/s
+Epoch: 23/159 Phase: train Loss: 0.2706 (0.2380) Acc: 0.0621 (0.0985) Rec PERSON_FAM: 0.8441 (1.0000):  42%|▍| 210/504 [00:34<00:46,  6.28it/s
+Epoch: 23/159 Phase: train Loss: 0.2715 (0.3764) Acc: 0.0620 (0.1097) Rec PERSON_FAM: 0.8431 (0.5333):  44%|▍| 223/504 [00:36<00:46,  6.04it/s
+Epoch: 23/159 Phase: train Loss: 0.2716 (0.3247) Acc: 0.0620 (0.0966) Rec PERSON_FAM: 0.8454 (0.9302):  47%|▍| 235/504 [00:38<00:44,  6.01it/s
+Epoch: 23/159 Phase: train Loss: 0.2713 (0.2573) Acc: 0.0619 (0.1101) Rec PERSON_FAM: 0.8465 (1.0000):  49%|▍| 247/504 [00:40<00:42,  6.09it/s
+Epoch: 23/159 Phase: train Loss: 0.2708 (0.1740) Acc: 0.0621 (0.1186) Rec PERSON_FAM: 0.8448 (0.7333):  52%|▌| 260/504 [00:42<00:38,  6.28it/s
+Epoch: 23/159 Phase: train Loss: 0.2695 (0.2257) Acc: 0.0622 (0.0982) Rec PERSON_FAM: 0.8453 (0.9423):  54%|▌| 272/504 [00:44<00:40,  5.75it/s
+Epoch: 23/159 Phase: train Loss: 0.2707 (0.3873) Acc: 0.0623 (0.1085) Rec PERSON_FAM: 0.8461 (0.7176):  56%|▌| 284/504 [00:46<00:38,  5.78it/s
+Epoch: 23/159 Phase: train Loss: 0.2711 (0.2782) Acc: 0.0623 (0.1237) Rec PERSON_FAM: 0.8445 (0.7027):  59%|▌| 297/504 [00:48<00:33,  6.17it/s
+Epoch: 23/159 Phase: train Loss: 0.2705 (0.2327) Acc: 0.0624 (0.1201) Rec PERSON_FAM: 0.8472 (0.7955):  61%|▌| 309/504 [00:50<00:31,  6.19it/s
+Epoch: 23/159 Phase: train Loss: 0.2710 (0.2209) Acc: 0.0624 (0.1022) Rec PERSON_FAM: 0.8486 (0.8571):  64%|▋| 322/504 [00:52<00:29,  6.17it/s
+Epoch: 23/159 Phase: train Loss: 0.2723 (0.3604) Acc: 0.0623 (0.0958) Rec PERSON_FAM: 0.8475 (0.8841):  66%|▋| 335/504 [00:54<00:27,  6.23it/s
+Epoch: 23/159 Phase: train Loss: 0.2708 (0.2082) Acc: 0.0624 (0.1219) Rec PERSON_FAM: 0.8492 (0.8310):  69%|▋| 347/504 [00:56<00:25,  6.26it/s
+Epoch: 23/159 Phase: train Loss: 0.2706 (0.1903) Acc: 0.0624 (0.1072) Rec PERSON_FAM: 0.8502 (0.9535):  71%|▋| 360/504 [00:58<00:24,  5.80it/s
+Epoch: 23/159 Phase: train Loss: 0.2700 (0.2428) Acc: 0.0624 (0.1142) Rec PERSON_FAM: 0.8505 (0.9333):  74%|▋| 372/504 [01:00<00:22,  5.98it/s
+Epoch: 23/159 Phase: train Loss: 0.2703 (0.2422) Acc: 0.0624 (0.1041) Rec PERSON_FAM: 0.8508 (0.9559):  76%|▊| 385/504 [01:02<00:19,  6.22it/s
+Epoch: 23/159 Phase: train Loss: 0.2699 (0.2157) Acc: 0.0624 (0.1159) Rec PERSON_FAM: 0.8503 (0.9298):  79%|▊| 397/504 [01:04<00:16,  6.32it/s
+Epoch: 23/159 Phase: train Loss: 0.2690 (0.3274) Acc: 0.0624 (0.1072) Rec PERSON_FAM: 0.8515 (1.0000):  81%|▊| 410/504 [01:06<00:15,  6.19it/s
+Epoch: 23/159 Phase: train Loss: 0.2692 (0.3461) Acc: 0.0625 (0.0938) Rec PERSON_FAM: 0.8500 (0.7937):  84%|▊| 422/504 [01:08<00:13,  6.07it/s
+Epoch: 23/159 Phase: train Loss: 0.2694 (0.2549) Acc: 0.0626 (0.1245) Rec PERSON_FAM: 0.8500 (0.7273):  86%|▊| 435/504 [01:10<00:10,  6.29it/s
+Epoch: 23/159 Phase: train Loss: 0.2698 (0.3044) Acc: 0.0625 (0.1101) Rec PERSON_FAM: 0.8499 (0.8913):  89%|▉| 447/504 [01:12<00:09,  6.25it/s
+Epoch: 23/159 Phase: train Loss: 0.2703 (0.3080) Acc: 0.0625 (0.1104) Rec PERSON_FAM: 0.8488 (0.8214):  91%|▉| 460/504 [01:14<00:06,  6.30it/s
+Epoch: 23/159 Phase: train Loss: 0.2698 (0.2254) Acc: 0.0625 (0.1074) Rec PERSON_FAM: 0.8496 (1.0000):  94%|▉| 473/504 [01:16<00:04,  6.23it/s
+Epoch: 23/159 Phase: train Loss: 0.2693 (0.3128) Acc: 0.0626 (0.0819) Rec PERSON_FAM: 0.8510 (0.7925):  96%|▉| 485/504 [01:18<00:02,  6.33it/s
+Epoch: 23/159 Phase: train Loss: 0.2697 (0.2952) Acc: 0.0625 (0.0986) Rec PERSON_FAM: 0.8505 (0.8727):  99%|▉| 498/504 [01:20<00:00,  6.38it/s
+Epoch: 23/159 Phase: valid Loss: 0.3258 (0.3769) Acc: 0.0094 (0.1027) Rec PERSON_FAM: 0.7831 (1.0000):   3%| | 21/806 [00:01<00:32, 24.10it/s]
+Epoch: 23/159 Phase: valid Loss: 0.3036 (0.1004) Acc: 0.0096 (0.1209) Rec PERSON_FAM: 0.8165 (1.0000):   9%| | 72/806 [00:03<00:30, 23.87it/s]
+Epoch: 23/159 Phase: valid Loss: 0.3172 (0.6375) Acc: 0.0096 (0.1103) Rec PERSON_FAM: 0.7976 (0.5909):  15%|▏| 123/806 [00:05<00:27, 25.26it/s
+Epoch: 23/159 Phase: valid Loss: 0.3201 (0.3061) Acc: 0.0096 (0.1404) Rec PERSON_FAM: 0.8110 (0.7391):  21%|▏| 171/806 [00:07<00:25, 24.95it/s
+Epoch: 23/159 Phase: valid Loss: 0.3192 (0.2555) Acc: 0.0096 (0.0995) Rec PERSON_FAM: 0.8168 (1.0000):  26%|▎| 210/806 [00:08<00:23, 24.95it/s
+Epoch: 23/159 Phase: valid Loss: 0.3140 (0.3740) Acc: 0.0095 (0.0865) Rec PERSON_FAM: 0.8157 (nan):  32%|▉  | 261/806 [00:10<00:22, 23.89it/s]
+Epoch: 23/159 Phase: valid Loss: 0.3178 (0.3697) Acc: 0.0095 (0.0824) Rec PERSON_FAM: 0.8081 (nan):  38%|█▏ | 309/806 [00:12<00:19, 25.04it/s]
+Epoch: 23/159 Phase: valid Loss: 0.3217 (0.2785) Acc: 0.0094 (0.1272) Rec PERSON_FAM: 0.8005 (1.0000):  45%|▍| 360/806 [00:14<00:17, 25.61it/s
+Epoch: 23/159 Phase: valid Loss: 0.3194 (0.7877) Acc: 0.0094 (0.0743) Rec PERSON_FAM: 0.8081 (1.0000):  51%|▌| 411/806 [00:16<00:15, 24.74it/s
+Epoch: 23/159 Phase: valid Loss: 0.3180 (0.2849) Acc: 0.0094 (0.0796) Rec PERSON_FAM: 0.8102 (1.0000):  57%|▌| 459/806 [00:18<00:14, 23.26it/s
+Epoch: 23/159 Phase: valid Loss: 0.3189 (0.2520) Acc: 0.0094 (0.1561) Rec PERSON_FAM: 0.8128 (0.9167):  63%|▋| 510/806 [00:20<00:11, 25.31it/s
+Epoch: 23/159 Phase: valid Loss: 0.3212 (0.0699) Acc: 0.0094 (0.1165) Rec PERSON_FAM: 0.8147 (1.0000):  70%|▋| 561/806 [00:22<00:09, 24.88it/s
+Epoch: 23/159 Phase: valid Loss: 0.3213 (0.3592) Acc: 0.0095 (0.0767) Rec PERSON_FAM: 0.8209 (1.0000):  76%|▊| 609/806 [00:24<00:08, 24.59it/s
+Epoch: 23/159 Phase: valid Loss: 0.3202 (0.0973) Acc: 0.0095 (0.0880) Rec PERSON_FAM: 0.8217 (nan):  82%|██▍| 660/806 [00:26<00:06, 24.28it/s]
+Epoch: 23/159 Phase: valid Loss: 0.3175 (0.4044) Acc: 0.0096 (0.1028) Rec PERSON_FAM: 0.8203 (0.4737):  88%|▉| 711/806 [00:28<00:03, 25.06it/s
+Epoch: 23/159 Phase: valid Loss: 0.3194 (0.3557) Acc: 0.0096 (0.0899) Rec PERSON_FAM: 0.8186 (1.0000):  94%|▉| 759/806 [00:30<00:01, 25.01it/s
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+Epoch: 24/159 Phase: train Loss: 0.2641 (0.2891) Acc: 0.0620 (0.1205) Rec PERSON_FAM: 0.9031 (1.0000):   2%| | 10/504 [00:02<01:30,  5.49it/s]
+Epoch: 24/159 Phase: train Loss: 0.2575 (0.2209) Acc: 0.0622 (0.1443) Rec PERSON_FAM: 0.9002 (0.9038):   4%| | 22/504 [00:04<01:19,  6.08it/s]
+Epoch: 24/159 Phase: train Loss: 0.2618 (0.2672) Acc: 0.0614 (0.1176) Rec PERSON_FAM: 0.8852 (0.7778):   7%| | 35/504 [00:06<01:14,  6.25it/s]
+Epoch: 24/159 Phase: train Loss: 0.2545 (0.2067) Acc: 0.0610 (0.0954) Rec PERSON_FAM: 0.8901 (0.9412):   9%| | 47/504 [00:08<01:16,  5.96it/s]
+Epoch: 24/159 Phase: train Loss: 0.2544 (0.2853) Acc: 0.0616 (0.0907) Rec PERSON_FAM: 0.8824 (0.8235):  12%| | 59/504 [00:10<01:13,  6.04it/s]
+Epoch: 24/159 Phase: train Loss: 0.2562 (0.2214) Acc: 0.0619 (0.0954) Rec PERSON_FAM: 0.8770 (0.9892):  14%|▏| 71/504 [00:12<01:10,  6.15it/s]
+Epoch: 24/159 Phase: train Loss: 0.2562 (0.3478) Acc: 0.0618 (0.0954) Rec PERSON_FAM: 0.8729 (0.8291):  17%|▏| 84/504 [00:14<01:11,  5.87it/s]
+Epoch: 24/159 Phase: train Loss: 0.2556 (0.2998) Acc: 0.0619 (0.1070) Rec PERSON_FAM: 0.8743 (0.9153):  19%|▏| 96/504 [00:16<01:06,  6.16it/s]
+Epoch: 24/159 Phase: train Loss: 0.2546 (0.1705) Acc: 0.0619 (0.1049) Rec PERSON_FAM: 0.8740 (0.9444):  21%|▏| 108/504 [00:18<01:06,  5.92it/s
+Epoch: 24/159 Phase: train Loss: 0.2578 (0.2686) Acc: 0.0618 (0.1115) Rec PERSON_FAM: 0.8699 (0.9200):  24%|▏| 120/504 [00:20<01:02,  6.16it/s
+Epoch: 24/159 Phase: train Loss: 0.2594 (0.2836) Acc: 0.0618 (0.0952) Rec PERSON_FAM: 0.8624 (0.6786):  26%|▎| 133/504 [00:22<01:01,  6.07it/s
+Epoch: 24/159 Phase: train Loss: 0.2618 (0.2880) Acc: 0.0619 (0.1006) Rec PERSON_FAM: 0.8576 (0.8421):  29%|▎| 145/504 [00:24<00:58,  6.10it/s
+Epoch: 24/159 Phase: train Loss: 0.2599 (0.2339) Acc: 0.0620 (0.1194) Rec PERSON_FAM: 0.8609 (0.7872):  31%|▎| 157/504 [00:26<00:56,  6.12it/s
+Epoch: 24/159 Phase: train Loss: 0.2617 (0.1936) Acc: 0.0621 (0.1176) Rec PERSON_FAM: 0.8606 (1.0000):  33%|▎| 167/504 [00:27<00:55,  6.02it/s
+Epoch: 24/159 Phase: train Loss: 0.2613 (0.2333) Acc: 0.0621 (0.1011) Rec PERSON_FAM: 0.8599 (0.8209):  36%|▎| 179/504 [00:29<00:54,  5.93it/s
+Epoch: 24/159 Phase: train Loss: 0.2616 (0.3663) Acc: 0.0621 (0.1140) Rec PERSON_FAM: 0.8597 (0.9091):  38%|▍| 191/504 [00:31<00:50,  6.20it/s
+Epoch: 24/159 Phase: train Loss: 0.2615 (0.3259) Acc: 0.0622 (0.1173) Rec PERSON_FAM: 0.8587 (0.8911):  40%|▍| 203/504 [00:33<00:48,  6.20it/s
+Epoch: 24/159 Phase: train Loss: 0.2608 (0.2049) Acc: 0.0623 (0.1132) Rec PERSON_FAM: 0.8625 (1.0000):  43%|▍| 216/504 [00:35<00:46,  6.23it/s
+Epoch: 24/159 Phase: train Loss: 0.2616 (0.3205) Acc: 0.0622 (0.1018) Rec PERSON_FAM: 0.8603 (0.9091):  45%|▍| 228/504 [00:37<00:45,  6.11it/s
+Epoch: 24/159 Phase: train Loss: 0.2620 (0.3188) Acc: 0.0621 (0.1169) Rec PERSON_FAM: 0.8598 (0.8154):  48%|▍| 240/504 [00:39<00:44,  5.99it/s
+Epoch: 24/159 Phase: train Loss: 0.2623 (0.2180) Acc: 0.0621 (0.1370) Rec PERSON_FAM: 0.8600 (0.8947):  50%|▌| 252/504 [00:41<00:41,  6.10it/s
+Epoch: 24/159 Phase: train Loss: 0.2617 (0.2248) Acc: 0.0623 (0.1134) Rec PERSON_FAM: 0.8595 (1.0000):  53%|▌| 265/504 [00:44<00:39,  6.05it/s
+KeyboardInterrupt self.training, self.bidirectional, self.batch_first)", line 680, in forwardll_impl):  54%|▌| 272/504 [00:45<00:38,  6.01it/s

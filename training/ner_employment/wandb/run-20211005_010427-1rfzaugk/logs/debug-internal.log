@@ -1,0 +1,484 @@
+2021-10-05 01:04:27,843 INFO    MainThread:1484 [internal.py:wandb_internal():89] W&B internal server running at pid: 1484, started at: 2021-10-05 01:04:27.842944
+2021-10-05 01:04:27,844 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: check_version
+2021-10-05 01:04:27,845 INFO    WriterThread:1484 [datastore.py:open_for_write():77] open: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/run-1rfzaugk.wandb
+2021-10-05 01:04:27,846 DEBUG   SenderThread:1484 [sender.py:send():182] send: header
+2021-10-05 01:04:27,846 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: check_version
+2021-10-05 01:04:27,910 DEBUG   SenderThread:1484 [sender.py:send():182] send: run
+2021-10-05 01:04:28,169 INFO    SenderThread:1484 [dir_watcher.py:__init__():168] watching files in: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files
+2021-10-05 01:04:28,169 INFO    SenderThread:1484 [sender.py:_start_run_threads():743] run started: 1rfzaugk with start time 1633395867
+2021-10-05 01:04:28,169 DEBUG   SenderThread:1484 [sender.py:send():182] send: summary
+2021-10-05 01:04:28,170 INFO    SenderThread:1484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 01:04:28,170 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: run_start
+2021-10-05 01:04:28,987 DEBUG   HandlerThread:1484 [meta.py:__init__():39] meta init
+2021-10-05 01:04:28,987 DEBUG   HandlerThread:1484 [meta.py:__init__():53] meta init done
+2021-10-05 01:04:28,987 DEBUG   HandlerThread:1484 [meta.py:probe():210] probe
+2021-10-05 01:04:28,993 DEBUG   HandlerThread:1484 [meta.py:_setup_git():200] setup git
+2021-10-05 01:04:29,008 DEBUG   HandlerThread:1484 [meta.py:_setup_git():207] setup git done
+2021-10-05 01:04:29,008 DEBUG   HandlerThread:1484 [meta.py:_save_pip():57] save pip
+2021-10-05 01:04:29,008 DEBUG   HandlerThread:1484 [meta.py:_save_pip():71] save pip done
+2021-10-05 01:04:29,008 DEBUG   HandlerThread:1484 [meta.py:probe():252] probe done
+2021-10-05 01:04:29,010 DEBUG   SenderThread:1484 [sender.py:send():182] send: files
+2021-10-05 01:04:29,010 INFO    SenderThread:1484 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-05 01:04:29,012 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:04:29,015 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:04:29,169 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/requirements.txt
+2021-10-05 01:04:29,169 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-summary.json
+2021-10-05 01:04:29,169 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:29,169 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_created():216] file/dir created: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-metadata.json
+2021-10-05 01:04:29,502 INFO    Thread-11 :1484 [upload_job.py:push():137] Uploaded file /tmp/tmpw44t4uldwandb/2tm1x58v-wandb-metadata.json
+2021-10-05 01:04:33,169 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:35,169 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:37,170 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:39,170 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:41,170 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:43,171 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:44,200 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:04:44,200 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:04:45,171 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:47,172 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:49,172 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:51,172 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:53,173 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:55,173 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:57,148 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:04:57,174 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:59,174 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:04:59,347 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:04:59,347 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:05:01,174 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:03,175 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:05,175 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:07,176 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:09,176 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:11,176 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:13,177 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:14,490 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:05:14,490 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:05:15,177 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:17,178 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:19,178 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:21,181 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:23,181 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:25,181 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:27,182 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:27,302 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:05:29,182 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:29,635 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:05:29,635 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:05:31,183 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:33,183 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:35,184 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:37,184 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:39,184 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:41,187 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:43,187 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:44,783 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:05:44,783 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:05:45,188 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:47,188 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:49,189 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:51,189 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:53,190 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:55,190 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:57,190 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:57,439 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:05:59,191 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:05:59,929 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:05:59,929 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:06:01,191 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:03,192 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:05,192 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:06,058 DEBUG   SenderThread:1484 [sender.py:send():182] send: history
+2021-10-05 01:06:06,058 DEBUG   SenderThread:1484 [sender.py:send():182] send: summary
+2021-10-05 01:06:06,058 INFO    SenderThread:1484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 01:06:06,192 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-summary.json
+2021-10-05 01:06:07,192 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:09,193 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:11,193 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:13,194 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:15,074 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:06:15,074 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:06:15,194 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:17,194 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:19,195 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:21,195 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:23,196 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:25,196 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:27,196 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:27,587 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:06:29,197 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:30,221 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:06:30,222 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:06:31,197 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:33,197 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:35,198 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:37,198 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:39,199 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:41,199 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:43,199 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:45,200 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:45,372 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:06:45,372 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:06:47,200 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:49,201 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:51,201 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:53,201 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:55,202 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:57,202 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:06:57,727 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:06:59,202 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:00,520 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:07:00,520 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:07:01,203 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:03,203 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:05,204 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:08,204 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:10,205 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:12,205 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:14,205 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:15,670 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:07:15,670 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:07:16,206 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:18,206 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:20,207 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:23,207 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:25,208 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:27,208 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:27,860 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:07:29,209 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:30,816 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:07:30,817 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:07:31,209 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:33,209 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:35,210 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:37,210 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:39,211 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:41,211 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:41,906 DEBUG   SenderThread:1484 [sender.py:send():182] send: history
+2021-10-05 01:07:41,907 DEBUG   SenderThread:1484 [sender.py:send():182] send: summary
+2021-10-05 01:07:41,907 INFO    SenderThread:1484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 01:07:42,211 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-summary.json
+2021-10-05 01:07:43,212 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:44,212 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:45,212 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:45,967 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:07:45,967 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:07:47,212 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:49,213 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:51,213 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:53,214 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:55,214 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:57,214 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:07:57,994 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:07:59,215 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:01,115 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:08:01,116 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:08:01,215 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:03,215 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:05,216 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:07,216 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:09,217 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:11,217 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:13,218 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:15,218 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:16,269 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:08:16,270 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:08:17,218 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:19,219 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:21,219 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:23,220 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:25,220 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:27,220 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:28,149 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:08:29,221 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:31,221 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:31,420 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:08:31,420 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:08:33,222 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:35,222 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:37,223 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:39,223 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:41,223 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:43,228 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:45,228 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:46,565 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:08:46,565 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:08:47,229 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:49,229 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:51,229 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:53,230 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:55,230 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:57,231 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:08:58,308 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:08:59,231 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:01,232 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:01,716 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:09:01,716 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:09:03,232 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:05,233 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:07,233 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:09,237 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:11,237 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:13,238 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:15,238 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:16,865 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:09:16,866 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:09:17,239 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:19,119 DEBUG   SenderThread:1484 [sender.py:send():182] send: history
+2021-10-05 01:09:19,119 DEBUG   SenderThread:1484 [sender.py:send():182] send: summary
+2021-10-05 01:09:19,120 INFO    SenderThread:1484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 01:09:19,241 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-summary.json
+2021-10-05 01:09:19,241 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:21,241 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:23,242 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:25,242 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:27,242 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:28,447 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:09:29,243 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:31,247 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:32,014 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:09:32,014 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:09:33,247 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:35,247 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:37,248 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:39,248 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:41,249 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:43,249 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:45,249 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:47,163 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:09:47,163 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:09:47,250 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:49,250 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:51,251 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:53,251 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:55,251 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:57,252 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:09:58,602 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:09:59,252 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:01,253 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:02,308 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:10:02,308 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:10:03,253 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:05,253 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:07,254 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:09,254 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:11,255 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:13,255 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:15,256 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:17,256 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:17,465 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:10:17,465 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:10:19,256 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:21,257 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:23,257 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:25,258 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:27,258 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:28,744 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:10:29,258 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:31,265 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:35,567 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:10:35,567 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:10:36,266 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:38,266 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:40,267 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:42,267 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:44,268 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:46,268 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:48,268 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:50,269 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:50,770 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:10:50,770 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:10:52,269 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:54,270 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:56,270 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:57,176 DEBUG   SenderThread:1484 [sender.py:send():182] send: history
+2021-10-05 01:10:57,177 DEBUG   SenderThread:1484 [sender.py:send():182] send: summary
+2021-10-05 01:10:57,177 INFO    SenderThread:1484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 01:10:57,270 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-summary.json
+2021-10-05 01:10:58,271 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:10:58,889 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:11:00,271 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:02,271 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:04,272 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:05,929 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:11:05,929 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:11:06,272 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:08,273 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:10,273 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:12,273 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:14,274 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:16,274 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:18,275 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:20,275 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:21,075 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:11:21,075 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:11:22,275 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:24,276 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:26,276 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:28,277 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:29,029 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:11:30,277 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:32,278 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:34,278 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:36,221 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:11:36,221 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:11:36,278 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:38,279 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:40,279 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:42,280 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:44,280 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:46,280 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:48,281 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:50,281 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:51,370 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:11:51,370 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:11:52,282 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:54,282 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:56,282 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:58,283 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:11:59,180 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:12:00,283 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:02,284 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:04,284 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:06,284 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:06,520 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:12:06,520 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:12:08,285 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:10,285 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:14,286 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:16,287 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:18,287 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:20,288 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:21,678 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:12:21,678 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:12:22,288 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:24,288 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:26,289 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:28,289 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:29,334 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:12:30,290 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:32,290 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:34,290 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:36,291 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:36,617 DEBUG   SenderThread:1484 [sender.py:send():182] send: history
+2021-10-05 01:12:36,618 DEBUG   SenderThread:1484 [sender.py:send():182] send: summary
+2021-10-05 01:12:36,618 INFO    SenderThread:1484 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 01:12:36,834 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:12:36,834 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:12:37,291 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-summary.json
+2021-10-05 01:12:38,291 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:40,292 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:42,292 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:44,292 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:46,293 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:48,293 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:50,294 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:51,983 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:12:51,983 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:12:52,294 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:54,294 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:56,295 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:58,295 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:12:59,478 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:13:00,296 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:02,296 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:04,296 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:06,297 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:07,130 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:13:07,131 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:13:08,297 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:10,297 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:12,298 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:14,298 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:16,299 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:18,299 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:20,300 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:22,297 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:13:22,297 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:13:22,300 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:24,300 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:26,301 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:28,305 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:29,629 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:13:30,305 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:32,306 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:34,306 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:36,306 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:37,445 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:13:37,445 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:13:38,307 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:40,307 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:42,308 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:44,308 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:46,308 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:48,309 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:50,309 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:56,047 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:13:56,047 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:13:56,311 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:58,311 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:13:59,784 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:14:00,312 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:02,312 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:04,312 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:06,313 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:08,313 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:10,314 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:11,193 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:14:11,194 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:14:12,314 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:14,315 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:16,315 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:18,315 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:26,360 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:14:26,360 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:14:29,921 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:14:41,912 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:14:41,912 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:14:51,323 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:14:57,143 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:14:57,143 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:15:00,058 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:15:12,327 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:15:12,327 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:15:27,839 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:15:27,839 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:15:30,201 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:15:43,134 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:15:43,134 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:15:58,666 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:15:58,666 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:16:00,344 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:16:04,338 INFO    Thread-8  :1484 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:16:13,949 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:16:13,950 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:16:29,169 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:16:29,170 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:16:30,488 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:16:44,369 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:16:44,369 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:17:00,133 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:17:00,134 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:17:00,630 DEBUG   SenderThread:1484 [sender.py:send():182] send: stats
+2021-10-05 01:17:15,353 DEBUG   HandlerThread:1484 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-05 01:17:15,353 DEBUG   SenderThread:1484 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 01:17:21,885 WARNING MainThread:1484 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-10-05 01:17:22,846 WARNING MainThread:1484 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2021-10-05 01:17:22,846 ERROR   MainThread:1484 [internal.py:wandb_internal():148] Internal process interrupted.
+2021-10-05 01:17:23,518 INFO    SenderThread:1484 [sender.py:finish():979] shutting down sender
+2021-10-05 01:17:23,518 INFO    SenderThread:1484 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-10-05 01:17:23,522 INFO    HandlerThread:1484 [handler.py:finish():677] shutting down handler
+2021-10-05 01:17:23,632 INFO    WriterThread:1484 [datastore.py:close():281] close: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/run-1rfzaugk.wandb
+2021-10-05 01:17:24,347 INFO    SenderThread:1484 [dir_watcher.py:finish():312] scan: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files
+2021-10-05 01:17:24,348 INFO    SenderThread:1484 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log output.log
+2021-10-05 01:17:24,348 INFO    SenderThread:1484 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-metadata.json wandb-metadata.json
+2021-10-05 01:17:24,348 INFO    SenderThread:1484 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/requirements.txt requirements.txt
+2021-10-05 01:17:24,348 INFO    SenderThread:1484 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/config.yaml config.yaml
+2021-10-05 01:17:24,349 INFO    SenderThread:1484 [dir_watcher.py:finish():318] scan save: /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-summary.json wandb-summary.json
+2021-10-05 01:17:24,354 INFO    SenderThread:1484 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-05 01:17:24,359 INFO    SenderThread:1484 [file_pusher.py:join():182] waiting for file pusher
+2021-10-05 01:17:24,856 INFO    Thread-12 :1484 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/output.log
+2021-10-05 01:17:24,867 INFO    Thread-15 :1484 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/wandb-summary.json
+2021-10-05 01:17:24,896 INFO    Thread-14 :1484 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/config.yaml
+2021-10-05 01:17:24,921 INFO    Thread-13 :1484 [upload_job.py:push():137] Uploaded file /root/konst/ml-utils/training/ner_employment/wandb/run-20211005_010427-1rfzaugk/files/requirements.txt
+2021-10-05 01:17:25,510 INFO    MainThread:1484 [internal.py:handle_exit():76] Internal process exited

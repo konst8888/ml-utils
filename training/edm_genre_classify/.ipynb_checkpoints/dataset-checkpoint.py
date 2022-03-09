@@ -35,6 +35,19 @@ class AudioDataset(Dataset):
         label = self.classes.index(label)
         if self.transform is not None:
             img = self.transform(img)
-
+        
+        out = {}
+        out['img'] = img
+        out['label'] = label
+        if 'features' in self.data.keys():
+            features = self.data['features'][split_idx]
+            features_list = []
+            for key, val in features.items():
+                if isinstance(val, list):
+                    features_list.extend(val)
+                else:
+                    features_list.append(val)
+            out.update({'features': torch.FloatTensor(features_list) / 10000.})
+        
         #label = torch.LongTensor(label)
-        return img, label
+        return out

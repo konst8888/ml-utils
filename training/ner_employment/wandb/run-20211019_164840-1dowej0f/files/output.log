@@ -1,0 +1,78 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 5 files into the W&B run directory, call wandb.save again to sync new files.
+  0%|                                                                                                                 | 0/504 [00:00<?, ?it/s]
+1.690506
+Loaded: 11/11
+[279395, 74456, inf, inf, 62285]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/99 Phase: train Loss: -11.3185 (-11.5198) Acc: 0.4815 (0.8653) Rec PERSON_FAM: 0.9262 (0.9091): 100%|█| 504/504 [01:20<00:00,  6.22it
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/99 Phase: valid Loss: -11.3125 (-12.0119) Acc: 0.0757 (0.8484) Rec PERSON_FAM: 0.9181 (1.0000):  85%|▊| 688/806 [00:26<00:04, 25.51it
+Traceback (most recent call last):
+  File "train.py", line 499, in <module>
+    wandb,
+  File "train.py", line 109, in train
+    outputs = model(seqs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/konst/ml-utils/training/ner_employment/model.py", line 160, in forward
+    out, (h,c) = self.bilstm(word_embedding) #'out' has dimension(batchsize, seq_len, 2*hidden_size)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/rnn.py", line 680, in forward
+    self.dropout, self.training, self.bidirectional, self.batch_first)
+KeyboardInterrupt

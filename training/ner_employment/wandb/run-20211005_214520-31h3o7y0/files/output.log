@@ -1,0 +1,56 @@
+
+Epoch: 0/39 Phase: train Loss: 2.1995 (2.1924) Acc: 0.0031 (0.0175) Rec B-EMPLOYMENT: 0.0217 (0.0000):   0%|  | 2/429 [00:01<03:12,  2.21it/s]
+0.321233
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: train Loss: 1.6681 (1.6419) Acc: 0.0056 (0.0390) Rec B-EMPLOYMENT: 0.4549 (0.7273): 100%|█| 429/429 [01:13<00:00,  5.87it/s
+
+
+
+
+
+
+
+
+
+Epoch: 0/39 Phase: valid Loss: 1.3332 (0.8940) Acc: 0.0011 (0.0541) Rec B-EMPLOYMENT: 0.7879 (nan): 100%|███| 687/687 [00:20<00:00, 32.96it/s]
+Traceback (most recent call last):
+  File "train.py", line 365, in <module>
+    wandb,
+  File "train.py", line 220, in train
+    local_vars = list(set(local_vars))
+TypeError: unhashable type: 'dict'

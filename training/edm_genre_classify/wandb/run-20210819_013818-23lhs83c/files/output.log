@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "train.py", line 288, in <module>
+    lam,
+NameError: name 'lam' is not defined
+Class proportion:
+House     0.686588
+Trap      0.166971
+Trance    0.146442
+dtype: float64
+0.344651
+tensor([1.4565, 5.9891, 6.8287], device='cuda:0')
